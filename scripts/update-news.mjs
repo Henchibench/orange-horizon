@@ -5,6 +5,8 @@ import { fileURLToPath } from 'node:url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const projectRoot = dirname(__dirname);
 const outputPath = `${projectRoot}/docs/data/news.json`;
+const anthropicApiKey = process.env.ANTHROPIC_API_KEY?.trim();
+const anthropicModel = 'claude-3-5-haiku-20241022';
 
 const sections = [
   {
@@ -109,7 +111,7 @@ const toTimestamp = (value) => {
   return Number.isNaN(date.getTime()) ? 0 : date.getTime();
 };
 
-const summarizeSection = (section) => {
+const summarizeSectionRuleBased = (section) => {
   const lead = section.items[0];
   const second = section.items[1];
   const sourceSet = [...new Set(section.items.map((item) => item.source))];
@@ -121,7 +123,7 @@ const summarizeSection = (section) => {
   return lines.join(' ');
 };
 
-const buildBrief = (sectionData) => {
+const buildBriefRuleBased = (sectionData) => {
   const allItems = sectionData.flatMap((section) => section.items).sort((a, b) => toTimestamp(b.pubDate) - toTimestamp(a.pubDate));
   const freshest = allItems[0];
   const busiest = [...sectionData].sort((a, b) => b.items.length - a.items.length)[0];
@@ -139,7 +141,118 @@ const buildBrief = (sectionData) => {
   };
 };
 
-const sectionData = await Promise.all(sections.map(async (section) => {
+const buildAnthropicPrompt = (sectionData, fallbackBrief) => JSON.stringify({
+  task: 'Skriv en kort svensk morgonbrief i torrt ironisk ton. Håll dig strikt till tillgängliga rubriker och metadata. Hitta inte på fakta. Om underlaget är tunt: var återhållsam snarare än kreativ.',
+  rules: {
+    language: 'svenska',
+    tone: 'torr, lätt ironisk, nykter, inte flåshurtig',
+    introMaxChars: 220,
+    briefBulletsCount: 3,
+    bulletMaxChars: 160,
+    sectionSummaryMaxChars: 220,
+    preserveFacts: true,
+    noFabrication: true,
+    mentionUncertaintyIfNeeded: true
+  },
+  responseSchema: {
+    brief: {
+      title: 'string',
+      intro: 'string',
+      bullets: ['string', 'string', 'string']
+    },
+    sections: [
+      {
+        id: 'string',
+        summary: 'string'
+      }
+    ]
+  },
+  fallbackReference: fallbackBrief,
+  sections: sectionData.map((section) => ({
+    id: section.id,
+    name: section.name,
+    label: section.label,
+    description: section.description,
+    itemCount: section.items.length,
+    items: section.items.slice(0, 5).map((item) => ({
+      headline: item.headline,
+      source: item.source,
+      pubDate: item.pubDate,
+      description: item.description
+    }))
+  }))
+}, null, 2);
+
+const callAnthropicSummaries = async (sectionData, fallbackBrief) => {
+  if (!anthropicApiKey) {
+    return { ok: false, reason: 'missing-api-key' };
+  }
+
+  const response = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'content-type': 'application/json',
+      'x-api-key': anthropicApiKey,
+      'anthropic-version': '2023-06-01'
+    },
+    body: JSON.stringify({
+      model: anthropicModel,
+      max_tokens: 900,
+      temperature: 0.2,
+      system: 'Du skriver för sajten "Vad i helvete händer?!". Returnera enbart giltig JSON utan markdown eller kommentarer.',
+      messages: [
+        {
+          role: 'user',
+          content: buildAnthropicPrompt(sectionData, fallbackBrief)
+        }
+      ]
+    })
+  });
+
+  if (!response.ok) {
+    throw new Error(`Anthropic API error: ${response.status} ${response.statusText}`);
+  }
+
+  const data = await response.json();
+  const text = data?.content?.filter((block) => block.type === 'text').map((block) => block.text).join('\n').trim();
+  if (!text) {
+    throw new Error('Anthropic returned no text content');
+  }
+
+  const parsed = JSON.parse(text);
+  return { ok: true, data: parsed };
+};
+
+const mergeSummaries = (sectionData, fallbackBrief, aiPayload) => {
+  const aiSections = new Map((aiPayload?.sections || []).map((section) => [section.id, section.summary]));
+
+  const brief = {
+    title: typeof aiPayload?.brief?.title === 'string' && aiPayload.brief.title.trim()
+      ? aiPayload.brief.title.trim()
+      : fallbackBrief.title,
+    intro: typeof aiPayload?.brief?.intro === 'string' && aiPayload.brief.intro.trim()
+      ? aiPayload.brief.intro.trim()
+      : fallbackBrief.intro,
+    bullets: Array.isArray(aiPayload?.brief?.bullets)
+      ? aiPayload.brief.bullets.map((bullet) => `${bullet}`.trim()).filter(Boolean).slice(0, 3)
+      : fallbackBrief.bullets
+  };
+
+  if (brief.bullets.length !== 3) {
+    brief.bullets = fallbackBrief.bullets;
+  }
+
+  const sectionsWithSummaries = sectionData.map((section) => ({
+    ...section,
+    summary: typeof aiSections.get(section.id) === 'string' && aiSections.get(section.id).trim()
+      ? aiSections.get(section.id).trim()
+      : section.summary
+  }));
+
+  return { brief, sections: sectionsWithSummaries };
+};
+
+const rawSectionData = await Promise.all(sections.map(async (section) => {
   const xml = await fetchText(section.feedUrl);
   const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)]
     .slice(0, 8)
@@ -165,22 +278,55 @@ const sectionData = await Promise.all(sections.map(async (section) => {
   return {
     ...section,
     items,
-    summary: summarizeSection({ ...section, items })
+    summary: summarizeSectionRuleBased({ ...section, items })
   };
 }));
+
+const fallbackBrief = buildBriefRuleBased(rawSectionData);
+let finalBrief = fallbackBrief;
+let finalSections = rawSectionData;
+let summaryMeta = {
+  provider: 'rule-based',
+  model: null,
+  fallbackReason: anthropicApiKey ? 'not-requested' : 'missing-api-key'
+};
+
+if (anthropicApiKey) {
+  try {
+    const aiResult = await callAnthropicSummaries(rawSectionData, fallbackBrief);
+    if (aiResult.ok) {
+      const merged = mergeSummaries(rawSectionData, fallbackBrief, aiResult.data);
+      finalBrief = merged.brief;
+      finalSections = merged.sections;
+      summaryMeta = {
+        provider: 'anthropic',
+        model: anthropicModel,
+        fallbackReason: null
+      };
+    }
+  } catch (error) {
+    console.warn(`Anthropic summary layer unavailable, falling back to rule-based summaries: ${error.message}`);
+    summaryMeta = {
+      provider: 'rule-based',
+      model: anthropicModel,
+      fallbackReason: error.message
+    };
+  }
+}
 
 const payload = {
   site: {
     title: 'Vad i helvete händer?!',
     subtitle: 'En torrt ironisk morgonbrief om världsläget, uppdaterad ungefär varje timme.',
-    note: 'Byggd på publika RSS-flöden. Inga betalväggs-API:er, bara disciplin och lätt misstro.'
+    note: 'Byggd på publika RSS-flöden. Inga betalväggs-API:er, bara disciplin, lätt misstro och en billig AI-genväg när den beter sig.'
   },
   generatedAt: new Date().toISOString(),
-  brief: buildBrief(sectionData),
-  sections: sectionData,
-  sources: sectionData.map(({ id, name, sourceLabel, feedUrl }) => ({ id, name, sourceLabel, feedUrl }))
+  summaryMeta,
+  brief: finalBrief,
+  sections: finalSections,
+  sources: finalSections.map(({ id, name, sourceLabel, feedUrl }) => ({ id, name, sourceLabel, feedUrl }))
 };
 
 await mkdir(dirname(outputPath), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(payload, null, 2)}\n`);
-console.log(`Wrote ${sectionData.reduce((sum, section) => sum + section.items.length, 0)} items across ${sectionData.length} sections to ${outputPath}`);
+console.log(`Wrote ${finalSections.reduce((sum, section) => sum + section.items.length, 0)} items across ${finalSections.length} sections to ${outputPath} using ${summaryMeta.provider}`);

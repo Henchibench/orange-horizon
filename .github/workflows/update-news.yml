@@ -21,6 +21,8 @@ jobs:
           node-version: 22
 
       - name: Refresh feed data
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npm run update-news
 
       - name: Commit updated data

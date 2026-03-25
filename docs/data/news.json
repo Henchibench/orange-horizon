@@ -2,9 +2,14 @@
   "site": {
     "title": "Vad i helvete händer?!",
     "subtitle": "En torrt ironisk morgonbrief om världsläget, uppdaterad ungefär varje timme.",
-    "note": "Byggd på publika RSS-flöden. Inga betalväggs-API:er, bara disciplin och lätt misstro."
+    "note": "Byggd på publika RSS-flöden. Inga betalväggs-API:er, bara disciplin, lätt misstro och en billig AI-genväg när den beter sig."
   },
-  "generatedAt": "2026-03-25T07:38:20.869Z",
+  "generatedAt": "2026-03-25T08:28:23.575Z",
+  "summaryMeta": {
+    "provider": "rule-based",
+    "model": null,
+    "fallbackReason": "missing-api-key"
+  },
   "brief": {
     "title": "Morgonbrief för folk som redan anar att läget inte direkt stabiliserats över natten.",
     "intro": "Fyra spår av global oreda, serverade utan confetti men med länkar tillbaka till originalrapporteringen.",
@@ -229,20 +234,20 @@
           "id": "iran-3",
           "sectionId": "iran",
           "sectionName": "Iran",
-          "headline": "Revisionism at Fordow: Why the WSJ is wrong about the history—and future—of Iran's nuclear program",
-          "source": "Bulletin of the Atomic Scientists",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYkoteUhNMzRQTVdiZ0NQa2pxQlFnMEM3YUFsUzZMYXhvR2wwVlA2ZXVCdWwxZzk1cVhCY2tJZ3BhX1FyVkdYN0JmdHgxMFl0bHRiM2Jac0xxRW9yUVpRYndsRl9uNXFTRkx2SmFNbVhhSnhQVmgxZm5QZTZpWjR4TGQwdVNld1hTLTN0Q3ktdFRZWnFrN3R0RFVVRjg2S21xb3QxaW1CWjR6N2Fldm9HcmNLVWE4MFBPRGFqZTZUQXEwaER6SlpocA?oc=5",
-          "pubDate": "Wed, 18 Mar 2026 11:57:17 GMT",
+          "headline": "War in the Middle East: Iran nuclear facility hit as equivalent of ‘one classroom of children’ killed, wounded daily in Lebanon",
+          "source": "UN News",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9QYTczUVR4WFhXS2I0d0RXdExuZWpsaV95cWdyOUl1NEZaTmNIc21yWkllOGRVZnE3LUVTR1JUT2VMei12X0libnQwZ2RrLXlwTHlNTFA1WQ?oc=5",
+          "pubDate": "Sat, 21 Mar 2026 18:34:24 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
           "id": "iran-4",
           "sectionId": "iran",
           "sectionName": "Iran",
-          "headline": "War in the Middle East: Iran nuclear facility hit as equivalent of ‘one classroom of children’ killed, wounded daily in Lebanon",
-          "source": "UN News",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9QYTczUVR4WFhXS2I0d0RXdExuZWpsaV95cWdyOUl1NEZaTmNIc21yWkllOGRVZnE3LUVTR1JUT2VMei12X0libnQwZ2RrLXlwTHlNTFA1WQ?oc=5",
-          "pubDate": "Sat, 21 Mar 2026 18:34:24 GMT",
+          "headline": "Revisionism at Fordow: Why the WSJ is wrong about the history—and future—of Iran's nuclear program",
+          "source": "Bulletin of the Atomic Scientists",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYkoteUhNMzRQTVdiZ0NQa2pxQlFnMEM3YUFsUzZMYXhvR2wwVlA2ZXVCdWwxZzk1cVhCY2tJZ3BhX1FyVkdYN0JmdHgxMFl0bHRiM2Jac0xxRW9yUVpRYndsRl9uNXFTRkx2SmFNbVhhSnhQVmgxZm5QZTZpWjR4TGQwdVNld1hTLTN0Q3ktdFRZWnFrN3R0RFVVRjg2S21xb3QxaW1CWjR6N2Fldm9HcmNLVWE4MFBPRGFqZTZUQXEwaER6SlpocA?oc=5",
+          "pubDate": "Wed, 18 Mar 2026 11:57:17 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
@@ -269,10 +274,10 @@
           "id": "iran-7",
           "sectionId": "iran",
           "sectionName": "Iran",
-          "headline": "Inside the breakdown of U.S.-Iran nuclear talks",
-          "source": "WBUR",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYmpwWU1yVkxPRmlNQVl1aTV1UkRodFVVcmUySzlQUWFxZ2NXVmd1Q1Z2MlFUeFNISFFIb3E2dGlEU3ZkeS1JZl9scEEwS1c1cHlOM19TYjFzX25EaWRubXFtNXppWkNyWUpudlp2NGhwNFEwT3ZCMFkzZzRLbnZoMHFtVjNmMU5SR0Z3QmNtOA?oc=5",
-          "pubDate": "Wed, 25 Mar 2026 01:26:12 GMT",
+          "headline": "The Iran Strikes, Explained: How We Got Here and What It Means",
+          "source": "American Jewish Committee",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
+          "pubDate": "Mon, 23 Mar 2026 07:00:00 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
@@ -300,20 +305,20 @@
           "id": "orban-eu-1",
           "sectionId": "orban-eu",
           "sectionName": "Orbán / EU",
-          "headline": "EU calls for clarification after Hungary accused of leaking info to Russia",
-          "source": "Al Jazeera",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSXpCNFZxclBaV0s1RkpRSk1BdUY4SHFNV2Zlbkc3TDk1QVV1Rm9qMEo2UjhzU05nTm5ON01Yb1BFU3h6Z0ZJM0Q1eW9xVENyQlliLXY5WWNnVmlQUklIQ1NRY0NHYl84d2lqQWFBTTJTdXRsWUw0RzRrN2ljUE9WZnZKblJqUjk4UVFhY2RkR193Wm9KR3RmSkVJaW85ZHAya3hNZF81eEhORjhjTGlLS2wwUHZIQdIBuwFBVV95cUxPMXBmcVRwT1JBaDFfSGk0YS1KZmVXSmp0bjc5Y2hmd1dBbkllSVVsV1NvOEJFMlZISzR5NzNQZ2licWQyRXd4MVoyTV8xNWJnXy1oQ3dxZFlYczUxNHdlYTFYcXVES3ljUld6OFM0NFlKWTJYOWdEMzJWTzkxbGhKaVlEMGZJVTZGM3NGOTZDNkpiM2dVWXJScnIzZmNONWFBWTdZdGNkZ25qcGFVeS1McXQ1Q0JlQVA0ZzdB?oc=5",
-          "pubDate": "Mon, 23 Mar 2026 18:42:27 GMT",
+          "headline": "To tilt Hungarian election, Russians proposed staging assassination attempt",
+          "source": "The Washington Post",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbWFpNm11bm1aZXh5NlJsUkRtYVp1dWZvYVhRNWJPbzZScUxjMHJlR1YzWjBWOU9xNUJtMVFqTGYwZmRmQnRnWUg4TlI3Z2pVUWlCZWROTjFMa0UzclZiLWJTeG9NMlAxNnJ6dmpRNDVmMlZfb0V5S19KNnRGU3BBZmpuZTlfaVYtN3dORUFWdkxNMk1ZdkE?oc=5",
+          "pubDate": "Sat, 21 Mar 2026 16:00:00 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
           "id": "orban-eu-2",
           "sectionId": "orban-eu",
           "sectionName": "Orbán / EU",
-          "headline": "To tilt Hungarian election, Russians proposed staging assassination attempt",
-          "source": "The Washington Post",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbWFpNm11bm1aZXh5NlJsUkRtYVp1dWZvYVhRNWJPbzZScUxjMHJlR1YzWjBWOU9xNUJtMVFqTGYwZmRmQnRnWUg4TlI3Z2pVUWlCZWROTjFMa0UzclZiLWJTeG9NMlAxNnJ6dmpRNDVmMlZfb0V5S19KNnRGU3BBZmpuZTlfaVYtN3dORUFWdkxNMk1ZdkE?oc=5",
-          "pubDate": "Sat, 21 Mar 2026 16:00:00 GMT",
+          "headline": "EU calls for clarification after Hungary accused of leaking info to Russia",
+          "source": "Al Jazeera",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSXpCNFZxclBaV0s1RkpRSk1BdUY4SHFNV2Zlbkc3TDk1QVV1Rm9qMEo2UjhzU05nTm5ON01Yb1BFU3h6Z0ZJM0Q1eW9xVENyQlliLXY5WWNnVmlQUklIQ1NRY0NHYl84d2lqQWFBTTJTdXRsWUw0RzRrN2ljUE9WZnZKblJqUjk4UVFhY2RkR193Wm9KR3RmSkVJaW85ZHAya3hNZF81eEhORjhjTGlLS2wwUHZIQdIBuwFBVV95cUxPMXBmcVRwT1JBaDFfSGk0YS1KZmVXSmp0bjc5Y2hmd1dBbkllSVVsV1NvOEJFMlZISzR5NzNQZ2licWQyRXd4MVoyTV8xNWJnXy1oQ3dxZFlYczUxNHdlYTFYcXVES3ljUld6OFM0NFlKWTJYOWdEMzJWTzkxbGhKaVlEMGZJVTZGM3NGOTZDNkpiM2dVWXJScnIzZmNONWFBWTdZdGNkZ25qcGFVeS1McXQ1Q0JlQVA0ZzdB?oc=5",
+          "pubDate": "Mon, 23 Mar 2026 18:42:27 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
@@ -350,20 +355,20 @@
           "id": "orban-eu-6",
           "sectionId": "orban-eu",
           "sectionName": "Orbán / EU",
-          "headline": "EU summit: Hungary holds Ukraine aid ransom over Druzhba oil",
-          "source": "dw.com",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX3ZISUFnakoyak00eTZkd1RJRnllMV95V00tdFlwa292N1RLZDJraU5XblhVMUpOOEFCNDJmaEJMZzl0SWtmY0d0QXEtY1FvYzZ6NW55UEozTk84aXA2eDNOLVR6WU9wOFdUaEFkYmp1VjdtU0t0WE5UbEpoY0RrTkNpbjhjNXExRFo1UVZmMllwZjhLR1VXUml5QQ?oc=5",
-          "pubDate": "Fri, 20 Mar 2026 00:06:43 GMT",
+          "headline": "POLITICO: EU Leaders Expect PM Orbán to Win the Election",
+          "source": "Hungarian Conservative",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb1BEYjVpYk1SUDBBNHBSUmEwdWxtTnFtOExkcEZmN0NiZXZrSHJtM0Zkb19Wa1FOVDlJLVBDMDZYTjFBUXJYcEg5bldueGpXRGJabUNUVllFMmcyN0hxY3NFUGFhMVRoN0p4OFQ5Vk1fSDgtb25xNFhBX2tIeFZWWlNLNUdqaTBNQWJ2MHl3V19HZFR0Mk5OWHJ1cVJwY1cydlc3cw?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 15:01:52 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
           "id": "orban-eu-7",
           "sectionId": "orban-eu",
           "sectionName": "Orbán / EU",
-          "headline": "POLITICO: EU Leaders Expect PM Orbán to Win the Election",
-          "source": "Hungarian Conservative",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb1BEYjVpYk1SUDBBNHBSUmEwdWxtTnFtOExkcEZmN0NiZXZrSHJtM0Zkb19Wa1FOVDlJLVBDMDZYTjFBUXJYcEg5bldueGpXRGJabUNUVllFMmcyN0hxY3NFUGFhMVRoN0p4OFQ5Vk1fSDgtb25xNFhBX2tIeFZWWlNLNUdqaTBNQWJ2MHl3V19HZFR0Mk5OWHJ1cVJwY1cydlc3cw?oc=5",
-          "pubDate": "Fri, 20 Mar 2026 15:01:52 GMT",
+          "headline": "EU summit: Hungary holds Ukraine aid ransom over Druzhba oil",
+          "source": "DW.com",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX3ZISUFnakoyak00eTZkd1RJRnllMV95V00tdFlwa292N1RLZDJraU5XblhVMUpOOEFCNDJmaEJMZzl0SWtmY0d0QXEtY1FvYzZ6NW55UEozTk84aXA2eDNOLVR6WU9wOFdUaEFkYmp1VjdtU0t0WE5UbEpoY0RrTkNpbjhjNXExRFo1UVZmMllwZjhLR1VXUml5QQ?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 00:06:43 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
@@ -377,7 +382,7 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         }
       ],
-      "summary": "Ledande rubrik: EU calls for clarification after Hungary accused of leaking info to Russia. Därefter: To tilt Hungarian election, Russians proposed staging assassination attempt. 8 nedslag från 8 källor."
+      "summary": "Ledande rubrik: To tilt Hungarian election, Russians proposed staging assassination attempt. Därefter: EU calls for clarification after Hungary accused of leaking info to Russia. 8 nedslag från 8 källor."
     }
   ],
   "sources": [
