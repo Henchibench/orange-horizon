@@ -1,18 +1,279 @@
 {
-  "state": "unavailable",
+  "state": "ready",
   "site": {
     "title": "Vad i helvete händer?!",
-    "subtitle": "Tillfälligt otillgänglig.",
+    "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad ungefär varje timme.",
     "note": null
   },
-  "generatedAt": "2026-03-25T13:51:43.725Z",
+  "generatedAt": "2026-03-25T13:53:08.625Z",
   "summaryMeta": {
-    "provider": "none",
-    "model": null,
-    "fallbackReason": "brief.title: no-terminal-punctuation"
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5-20251001",
+    "fallbackReason": null
   },
-  "brief": null,
-  "sections": [],
+  "brief": {
+    "title": "Vad i helvete händer?! – veckan i korthet",
+    "intro": "Trump förlorar sitt eget väljarkrets i Florida medan Orbán blockerar Ukrainas EU-lån, och Ryssland skjuter hundratals drönare på allt som rör sig.",
+    "bullets": [
+      "Demokraten Emily Gregory vann en specialval i Floridas 87:e distrikt – där Trump bor – trots att presidenten stödde hennes motståndare Jon Maples. Resultatet är en vändning från 2024 då republikanerna vann samma område med 19 procentenheter.",
+      "Ryssland skjuter nästan 400 drönare per natt på Ukraina och träffar kyrkor i Lviv medan Moldova förklarar energikris efter att en kraftledning genom Ukraina sprängdes. Ungern blockerar fortfarande Ukrainas 90 miljarder euro stora EU-lån.",
+      "Iran attackerar granländer trots att de inte är inblandade i kriget, Gulfstaterna klagar på FN, och anonyma spekulanter på Polymarket tjänar miljoner på att veta exakt när Trump-administrationen slår till – vilket väcker misstankar om insiderhandel från Vita."
+    ]
+  },
+  "sections": [
+    {
+      "id": "trump-usa",
+      "name": "Trump / USA",
+      "label": "Makt, cirkus, federalt brus",
+      "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
+      "summary": "Trump står inför växande motstånd i sitt eget backyard. Demokraten Emily Gregory slog den Trump-stödde republikanern Jon Maples i en specialval för Floridas 87:e distrikt – området som omfattar Mar-a-Lago. Resultatet är en dramatisk vändning från 2024 då samma område röstade republikanskt med 19 procentenheter.",
+      "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
+      "feedUrls": [
+        {
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
+        },
+        {
+          "label": "BBC News: US & Canada",
+          "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml"
+        },
+        {
+          "label": "The Guardian: Donald Trump",
+          "url": "https://www.theguardian.com/us-news/donaldtrump/rss"
+        }
+      ],
+      "items": [
+        {
+          "id": "trump-usa-bbc-news-us-canada-2",
+          "headline": "Democrats flip Florida state seat that includes Trump's Mar-a-Lago home",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Wed, 25 Mar 2026 03:36:08 GMT",
+          "link": "https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "trump-usa-ekot-4",
+          "headline": "Pakistan redo att stå för värd för fredssamtal i Irankriget",
+          "source": "Ekot",
+          "pubDate": "Wed, 25 Mar 2026 11:53:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9183818"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-1",
+          "headline": "Prosecutors examined whether Trump disclosed classified map on plane after leaving office",
+          "source": "Hugo Lowell in Washington",
+          "pubDate": "Wed, 25 Mar 2026 09:00:03 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/mar/25/donald-trump-classified-classified-map-private-plane-susie-wiles"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-14",
+          "headline": "Democrats flip seat in Florida state house in district that includes Trump’s Mar-a-Lago",
+          "source": "Dani Anguiano",
+          "pubDate": "Wed, 25 Mar 2026 01:02:55 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/mar/24/democrats-flip-florida-seat-emily-gregory-mar-a-lago"
+        },
+        {
+          "id": "trump-usa-svt-nyheter-utrikes-11",
+          "headline": "Kim Jong-un varnar USA – vill erkännas som kärnvapenmakt",
+          "source": "SVT Nyheter: Utrikes",
+          "pubDate": "Tue, 24 Mar 2026 02:26:45 +0100",
+          "link": "https://www.svt.se/nyheter/utrikes/kim-jong-un-varnar-usa-vill-erkannas-som-karnvapenmakt"
+        }
+      ]
+    },
+    {
+      "id": "putin-ukraina",
+      "name": "Putin / Ukraina",
+      "label": "Krig, repression, diplomatiskt grus",
+      "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
+      "summary": "Ryssland intensifierar luftkampanjen med nästan 400 drönare per natt medan Ukraina slår långt in i rysk territorium. Moskva skjuter hundratals drönare och kryssa på ukrainska städer, inklusive en attack på en 500 år gammal kyrka i Lviv. Ukraina svarar med drönattacker på ryska flygfabriker 800 kilometer från gränsen.",
+      "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
+      "feedUrls": [
+        {
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
+        },
+        {
+          "label": "The Guardian: Ukraine",
+          "url": "https://www.theguardian.com/world/ukraine/rss"
+        },
+        {
+          "label": "BBC News: Europe",
+          "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml"
+        }
+      ],
+      "items": [
+        {
+          "id": "putin-ukraina-bbc-news-europe-1",
+          "headline": "Estonia and Latvia say territories hit by stray Ukrainian drones",
+          "source": "BBC News: Europe",
+          "pubDate": "Wed, 25 Mar 2026 12:42:14 GMT",
+          "link": "https://www.bbc.com/news/articles/c1eql309n12o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-2",
+          "headline": "Ukraine war briefing: Moldova declares emergency after Russian attack cuts key power line",
+          "source": "Staff and agencies",
+          "pubDate": "Wed, 25 Mar 2026 05:49:33 GMT",
+          "link": "https://www.theguardian.com/world/2026/mar/25/ukraine-war-briefing-moldova-declares-emergency-after-russian-attack-cuts-key-power-line"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-11",
+          "headline": "Ukraine war briefing: Children ordered to leave key Ukrainian stronghold as Russians advance",
+          "source": "Guardian staff and agencies",
+          "pubDate": "Sat, 21 Mar 2026 01:34:50 GMT",
+          "link": "https://www.theguardian.com/world/2026/mar/21/ukraine-war-briefing-children-ordered-to-leave-key-ukrainian-stronghold-as-russians-advance"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-13",
+          "headline": "Ukraine war briefing: EU president von der Leyen vows to pay loan to Kyiv despite block by Hungary",
+          "source": "Guardian staff",
+          "pubDate": "Fri, 20 Mar 2026 00:41:04 GMT",
+          "link": "https://www.theguardian.com/world/2026/mar/20/ukraine-war-briefing-eu-president-von-der-leyen-vows-to-pay-loan-to-kyiv-despite-block-by-hungary"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-16",
+          "headline": "Ukraine war briefing: Ukraine strikes Russian aircraft sites 800km from border",
+          "source": "Guardian staff and agencies",
+          "pubDate": "Thu, 19 Mar 2026 01:10:45 GMT",
+          "link": "https://www.theguardian.com/world/2026/mar/19/ukraine-war-briefing-ukraine-strikes-russian-aircraft-sites-800km-from-border"
+        }
+      ]
+    },
+    {
+      "id": "iran",
+      "name": "Iran",
+      "label": "Regionen håller andan igen",
+      "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
+      "summary": "Iran attackerar granländer som inte är inblandade i kriget, vilket väcker internationell upprördhet. Gulfstaterna klagar på FN:s människorättsråd att Irans attacker bryter mot suveränitet och internationell rätt. Saudi-Arabiens FN-representant säger att attackerna på mediatorländer undergräver fredssatsningar.",
+      "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
+      "feedUrls": [
+        {
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
+        },
+        {
+          "label": "BBC News: Middle East",
+          "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml"
+        },
+        {
+          "label": "Al Jazeera RSS",
+          "url": "https://www.aljazeera.com/xml/rss/all.xml"
+        }
+      ],
+      "items": [
+        {
+          "id": "iran-al-jazeera-rss-2",
+          "headline": "Iranian attacks amount to violation of sovereignty, Gulf states tell UN",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Wed, 25 Mar 2026 13:00:22 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/25/iranian-attacks-amount-to-violation-of-sovereignty-gulf-states-tell-un?traffic_source=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-3",
+          "headline": "'There's no safety anymore': Palestinians warn of expanding West Bank settler violence",
+          "source": "BBC News: Middle East",
+          "pubDate": "Wed, 25 Mar 2026 12:27:28 GMT",
+          "link": "https://www.bbc.com/news/articles/c747x00m83vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-8",
+          "headline": "Asian Champions League quarterfinal sends Iran’s Tractor FC to Saudi Arabia",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Wed, 25 Mar 2026 12:18:33 +0000",
+          "link": "https://www.aljazeera.com/sports/2026/3/25/asian-champions-league-quarterfinal-sends-irans-tractor-fc-to-saudi-arabia?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-13",
+          "headline": "Large Polymarket, Wall Street bets on Trump’s war news under scrutiny",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Wed, 25 Mar 2026 11:21:19 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/25/large-polymarket-wall-street-bets-on-trumps-war-news-under-scrutiny?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-15",
+          "headline": "Spain’s PM says Israel to inflict on Lebanon same destruction as in Gaza",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Wed, 25 Mar 2026 11:02:40 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/25/spains-pm-says-israel-to-inflict-on-lebanon-same-destruction-as-in-gaza?traffic_source=rss"
+        }
+      ]
+    },
+    {
+      "id": "orban-eu",
+      "name": "Orbán / EU",
+      "label": "Illiberal administration, kontinentalt tålamodstest",
+      "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
+      "summary": "Ungerns premiärminister Viktor Orbán fortsätter att blockera Ukrainas EU-lån och hotar med ytterligare åtgärder för att tvinga fram rysk olja till Ungern och Slovakien. Orbán säger att hans regering har många kort på handen bortom att stoppa finansiering – en anspelning på att han kan skada Ukraina på andra sätt.",
+      "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
+      "feedUrls": [
+        {
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
+        },
+        {
+          "label": "Politico Europe",
+          "url": "https://www.politico.eu/feed/"
+        },
+        {
+          "label": "BBC News: Europe",
+          "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml"
+        }
+      ],
+      "items": [
+        {
+          "id": "orban-eu-ekot-12",
+          "headline": "Arbetslöshet ökar mest bland utbildade inrikesfödda män",
+          "source": "Ekot",
+          "pubDate": "Wed, 25 Mar 2026 05:12:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9181285"
+        },
+        {
+          "id": "orban-eu-svt-nyheter-utrikes-12",
+          "headline": "EU och Australien överens om frihandel och försvarssamarbete",
+          "source": "SVT Nyheter: Utrikes",
+          "pubDate": "Tue, 24 Mar 2026 01:53:42 +0100",
+          "link": "https://www.svt.se/nyheter/utrikes/eu-och-australien-overens-om-frihandel-och-forsvarssamarbete"
+        },
+        {
+          "id": "orban-eu-ekot-9",
+          "headline": "Kina Pohjanen: Undersöker fel kroppsdel och skickar remisser fel",
+          "source": "Ekot",
+          "pubDate": "Wed, 25 Mar 2026 08:55:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9183680"
+        },
+        {
+          "id": "orban-eu-ekot-11",
+          "headline": "Uppgifter: Drönarna i Estland och Lettland var ukrainska",
+          "source": "Ekot",
+          "pubDate": "Wed, 25 Mar 2026 07:24:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9183604"
+        },
+        {
+          "id": "orban-eu-svt-nyheter-utrikes-14",
+          "headline": "Joicys man lurades till kriget i Ryssland – fick aldrig träffa sin son",
+          "source": "SVT Nyheter: Utrikes",
+          "pubDate": "Mon, 23 Mar 2026 19:09:30 +0100",
+          "link": "https://www.svt.se/nyheter/utrikes/joicys-man-lurades-till-kriget-i-ryssland-fick-aldrig-traffa-sin-son"
+        }
+      ]
+    }
+  ],
   "sources": [
     {
       "id": "trump-usa",
