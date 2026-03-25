@@ -4,7 +4,7 @@
     "subtitle": "En torrt ironisk morgonbrief om världsläget, uppdaterad ungefär varje timme.",
     "note": "Byggd på publika RSS-flöden. Inga betalväggs-API:er, bara disciplin, lätt misstro och en billig AI-genväg när den beter sig."
   },
-  "generatedAt": "2026-03-25T08:28:45.668Z",
+  "generatedAt": "2026-03-25T08:33:38.875Z",
   "summaryMeta": {
     "provider": "rule-based",
     "model": "claude-3-5-haiku-20241022",
@@ -224,6 +224,16 @@
           "id": "iran-2",
           "sectionId": "iran",
           "sectionName": "Iran",
+          "headline": "Tit for tat strikes against nuclear plants in Iran and Israel - ICAN",
+          "source": "International Campaign to Abolish Nuclear Weapons",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RaUhJbXROTmxUZDFpeHBET1hQU1ZLQl8tcGRTZzVuNEtyeFQtVGNwZ0Qxa3Z4d3g4cXpMSTJJM0JPQldrVzZGdVcyRGdhM0NvYmdyalhDMlp1aWZpQnpzOUVvcUYya2d6emUw?oc=5",
+          "pubDate": "Mon, 23 Mar 2026 14:50:33 GMT",
+          "description": "Tit for tat strikes against nuclear plants in Iran and Israel ICAN -"
+        },
+        {
+          "id": "iran-3",
+          "sectionId": "iran",
+          "sectionName": "Iran",
           "headline": "War in the Middle East: Iran nuclear facility hit as equivalent of ‘one classroom of children’ killed, wounded daily in Lebanon",
           "source": "UN News",
           "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9QYTczUVR4WFhXS2I0d0RXdExuZWpsaV95cWdyOUl1NEZaTmNIc21yWkllOGRVZnE3LUVTR1JUT2VMei12X0libnQwZ2RrLXlwTHlNTFA1WQ?oc=5",
@@ -231,7 +241,7 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "iran-3",
+          "id": "iran-4",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "Revisionism at Fordow: Why the WSJ is wrong about the history—and future—of Iran's nuclear program",
@@ -241,7 +251,17 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "iran-4",
+          "id": "iran-5",
+          "sectionId": "iran",
+          "sectionName": "Iran",
+          "headline": "Iran says US and Israel attacked Natanz nuclear facility",
+          "source": "Al Jazeera",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWXNaYUpMSHBaQnM0a2Z2MGlfOUg0RmJMR09TSUE5ODVPQ2pqTG9JVVJBVFJyQ2RZYlgzZEhLRUFOdkpYTWRLc1owYUptMjNfQnFfcmNlankxTWdUbzF3T2hQSHp3bTF3cVlSbW1EVkdsVV9lZlRoc2JRM0t5aGF1SG1ZTW84YS1raUt0WGQwNG44YnBzMGljZEFVWmJkZ9IBowFBVV95cUxOUGY4SXRpMGJyRm5UUVVsU1J5NF9OeWxUWjc3dDFyWDZGUi1OWC1uRERQNWc3RFFNX29WTUtReGwyR2JmdHdZZ0JvSnVpZmZJVVNIRnZOQTl6VFBSaTc1dmo2aWN1bVBaS2gwbEtaaGlXSFU3VUo4VnZUMkVwa3NvTGk2YVpSbm9QQ0VnRENsSnp6TE80SmpaeUVyM2ZPclpnTG53?oc=5",
+          "pubDate": "Sat, 21 Mar 2026 16:02:01 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "iran-6",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "Trump is strategizing means to seize Iran's nuclear stockpiles, sources say",
@@ -251,7 +271,7 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "iran-5",
+          "id": "iran-7",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "The Iran Strikes, Explained: How We Got Here and What It Means",
@@ -261,7 +281,7 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "iran-6",
+          "id": "iran-8",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "Israel wants to destroy Iran’s nuclear program. But should it have nuclear weapons itself?",
@@ -269,29 +289,9 @@
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUXdld3VSMnJTb1FDMFVhN1h3N1NnNDJ6RjJ2Sjh4ZmFzZG1QYUhLUUEydTZfN2VyVERfSmx4ZURJWjVhUVN3WHVSSkZfVUhpa2dCeTRNU1I4c1hjVm9lZFR3d0pYYklzLWRXWndFU3pKa3lSMnNLLW56TlNZZ2VhQ2NxR0I4Vld4bmNlMjhWTHJnTFB0V2tRaVZsS0NqaFB4ZnAtdV9Yc3V6bURROUlkNWwyY0R5MWljM0xLaE1Bcw?oc=5",
           "pubDate": "Tue, 24 Mar 2026 19:08:40 GMT",
           "description": "Israel wants to destroy Iran’s nuclear program. But should it have nuclear weapons itself?"
-        },
-        {
-          "id": "iran-7",
-          "sectionId": "iran",
-          "sectionName": "Iran",
-          "headline": "Trump faces his most difficult Iran war decision: Will he deploy U.S. troops to seize uranium?",
-          "source": "PBS",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVGNkOXJBaTR3UzZseE9XRmZGeDJWQnBEbkh3NGdzaDJncm8ySWNfR2VfcGRlMDg2Sy1ZYTg3dk1NcXo0TzlDWFo0a2pmQW5sWkZIMGFoUExMWUJ6M09zbVJqb2lwdHhfZFhQVVJ2WERFZ0hfbzB1bUdlUjJsbmFXbk9naTNqUDIzUmdBa3Z1VHExMEVKUS1pNklLSWhaUF84TUZIU2w4aGw2cGFXZDhKbmY0N1lYMHgzMzNrUk1mZTA2MEtITVNwTNIBzgFBVV95cUxQMXFpakk3NUdaaFNBQ0MxWnRtelZZMC1xRXhuMjZQbGJZZktSNklvVXl0Q0RtLVp4dllvcGt4X0d4dmx3WFBnX0c0WGd0cTU3Rm1XX3U4eXhodElWMUMxZnFtN21TSXAySGtlcjVVZDhGUUM0SkZ1S2ZkSkFMS0lVWGcxLWxCaFppVWhHZElJN05LMURJR2xuM1pRR01YNy05RnNpMElWVjZtSENlaEVVX1d4SllrMWNabEo0T1lsZXZUNVcyOTl1dXlWMmlVQQ?oc=5",
-          "pubDate": "Thu, 19 Mar 2026 21:21:13 GMT",
-          "description": "Trump faces his most difficult Iran war decision: Will he deploy U.S. troops to seize uranium?"
-        },
-        {
-          "id": "iran-8",
-          "sectionId": "iran",
-          "sectionName": "Iran",
-          "headline": "Military Options for Reopening the Strait of Hormuz: Limitations and Imperatives",
-          "source": "The Washington Institute",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSTRMZGZYMzBUeGlraFV3cklVaVlCRmNOS2kyZlNfaHhQMzR2czZsd2FsT2hXUEpjbHdMZ0ZfOGliUE8wVS0wdUlvS2ctX1dCWDlJeHJXWTZYd2d2eUJpWV9pbjNjSGlHbWF2VmgyWk1LZEdfbDJWTnAyYjJNbk5QNWtUd2VFWTRCZDhlX2hzZlVZTng5UEhyQWhOelhURDQxajZCRDBidkZSNFVqQzh1RW1rcm8zaFJEVVNpYQ?oc=5",
-          "pubDate": "Mon, 23 Mar 2026 17:15:42 GMT",
-          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         }
       ],
-      "summary": "Ledande rubrik: Opinion | I Spent Two Decades Securing Nuclear Materials. Here’s What It Would Take to Get Iran’s.. Därefter: War in the Middle East: Iran nuclear facility hit as equivalent of ‘one classroom of children’ killed, wounded daily in Lebanon. 8 nedslag från 8 källor."
+      "summary": "Ledande rubrik: Opinion | I Spent Two Decades Securing Nuclear Materials. Here’s What It Would Take to Get Iran’s.. Därefter: Tit for tat strikes against nuclear plants in Iran and Israel - ICAN. 8 nedslag från 8 källor."
     },
     {
       "id": "orban-eu",
