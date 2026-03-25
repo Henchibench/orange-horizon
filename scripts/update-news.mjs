@@ -536,6 +536,117 @@ const validatePublicText = (text, label, { min = 40, max = MAX_PUBLIC_SUMMARY_LE
   return value;
 };
 
+const parseValidationFailure = (message = '') => {
+  const match = `${message}`.match(/^(brief\.title|brief\.intro|brief\.bullets\[(\d+)\]|section\.([^.]+)\.summary|item\.([^.]+)\.summary):\s*(.+)$/);
+  if (!match) return null;
+  if (match[1] === 'brief.title') return { kind: 'brief-title', reason: match[5] || match[6] || match[4] || match[1] };
+  if (match[1] === 'brief.intro') return { kind: 'brief-intro', reason: match[5] || match[6] || match[4] || match[1] };
+  if (match[2] !== undefined) return { kind: 'brief-bullet', index: Number(match[2]), reason: match[6] || match[1] };
+  if (match[3]) return { kind: 'section', id: match[3], reason: match[6] || match[1] };
+  if (match[4]) return { kind: 'item', id: match[4], reason: match[6] || match[1] };
+  return null;
+};
+
+const repairInvalidPublicCopy = async (model, sectionData, aiPayload, errorMessage) => {
+  const failure = parseValidationFailure(errorMessage);
+  if (!failure) throw new Error(errorMessage);
+
+  const payload = {
+    task: 'Skriv om endast de fält som underkändes i publiceringsvalideringen. Returnera enbart giltig JSON. Behåll övriga fält oförändrade.',
+    rules: {
+      language: 'svenska',
+      tone: 'torr, ren, redaktionell, saklig med lätt ironi',
+      preserveFacts: true,
+      noFabrication: true,
+      noEnglishLeakage: true,
+      noMetaCopy: true,
+      noEllipsis: true
+    },
+    validationError: errorMessage,
+    responseSchema: {},
+    target: null
+  };
+
+  if (failure.kind === 'brief-title') {
+    payload.responseSchema = { brief: { title: 'string' } };
+    payload.target = {
+      current: aiPayload?.brief?.title || '',
+      limits: { min: 10, max: 56 },
+      context: sectionData.map((section) => ({ id: section.id, name: section.name, label: section.label, headlines: section.items.map((item) => item.headline).slice(0, 2) }))
+    };
+  } else if (failure.kind === 'brief-intro') {
+    payload.responseSchema = { brief: { intro: 'string' } };
+    payload.target = {
+      current: aiPayload?.brief?.intro || '',
+      limits: { min: 40, max: 220 },
+      sectionLabels: sectionData.map((section) => ({ id: section.id, name: section.name, label: section.label }))
+    };
+  } else if (failure.kind === 'brief-bullet') {
+    payload.responseSchema = { brief: { bullets: ['string'] } };
+    payload.target = {
+      index: failure.index,
+      current: aiPayload?.brief?.bullets?.[failure.index] || '',
+      limits: { min: 70, max: 200 },
+      context: sectionData.map((section) => ({ id: section.id, name: section.name, summary: aiPayload?.sections?.find((candidate) => candidate?.id === section.id)?.summary || '', headlines: section.items.map((item) => item.headline).slice(0, 2) }))
+    };
+  } else if (failure.kind === 'section') {
+    const section = sectionData.find((candidate) => candidate.id === failure.id);
+    payload.responseSchema = { sections: [{ id: failure.id, summary: 'string' }] };
+    payload.target = {
+      id: failure.id,
+      current: aiPayload?.sections?.find((candidate) => candidate?.id === failure.id)?.summary || '',
+      limits: { min: 110, max: 280 },
+      context: section ? buildSectionSnapshot(section) : null
+    };
+  } else if (failure.kind === 'item') {
+    const section = sectionData.find((candidate) => candidate.items.some((item) => item.id === failure.id));
+    const item = section?.items.find((candidate) => candidate.id === failure.id);
+    payload.responseSchema = { items: [{ id: failure.id, summary: 'string' }] };
+    payload.target = {
+      id: failure.id,
+      current: aiPayload?.items?.find((candidate) => candidate?.id === failure.id)?.summary || '',
+      limits: { min: 90, max: 320 },
+      context: item ? {
+        sectionId: section.id,
+        sectionName: section.name,
+        headline: item.headline,
+        source: item.source,
+        pubDate: item.pubDate,
+        feedSummary: item.feedSummary,
+        articleSummary: item.articleSummary,
+        articleText: (item.articleText || '').slice(0, 1800)
+      } : null
+    };
+  }
+
+  const text = await callAnthropicApi({
+    model,
+    maxTokens: 900,
+    temperature: 0,
+    system: 'Du reparerar svensk publiceringstext för en offentlig nyhetssajt. Returnera enbart giltig JSON. Skriv om endast det underkända fältet så att det blir idiomatisk svenska och klarar längdkravet utan att hitta på fakta.',
+    user: JSON.stringify(payload, null, 2)
+  });
+
+  const repaired = await parseAnthropicJson(model, text);
+  if (failure.kind === 'brief-title') return { ...aiPayload, brief: { ...(aiPayload?.brief || {}), title: repaired?.brief?.title || aiPayload?.brief?.title || '' } };
+  if (failure.kind === 'brief-intro') return { ...aiPayload, brief: { ...(aiPayload?.brief || {}), intro: repaired?.brief?.intro || aiPayload?.brief?.intro || '' } };
+  if (failure.kind === 'brief-bullet') {
+    const bullets = [...(aiPayload?.brief?.bullets || [])];
+    bullets[failure.index] = repaired?.brief?.bullets?.[0] || bullets[failure.index] || '';
+    return { ...aiPayload, brief: { ...(aiPayload?.brief || {}), bullets } };
+  }
+  if (failure.kind === 'section') {
+    const sections = (aiPayload?.sections || []).map((section) => section?.id === failure.id ? { ...section, summary: repaired?.sections?.find((candidate) => candidate?.id === failure.id)?.summary || section.summary } : section);
+    return { ...aiPayload, sections };
+  }
+  if (failure.kind === 'item') {
+    const items = (aiPayload?.items || []).map((item) => item?.id === failure.id ? { ...item, summary: repaired?.items?.find((candidate) => candidate?.id === failure.id)?.summary || item.summary } : item);
+    return { ...aiPayload, items };
+  }
+
+  return aiPayload;
+};
+
 const mergeSummariesStrict = (sectionData, aiPayload) => {
   const aiSections = new Map((aiPayload?.sections || []).map((section) => [section.id, section.summary]));
   const aiItems = new Map((aiPayload?.items || []).map((item) => [item.id, item.summary]));
@@ -682,8 +793,22 @@ const rawSectionData = await Promise.all(sections.map(async (section) => {
 let payload;
 try {
   const aiResult = await callAnthropicSummaries(rawSectionData);
-  const completedPayload = await fillMissingSummaries(aiResult.model, rawSectionData, aiResult.data);
-  const merged = mergeSummariesStrict(rawSectionData, completedPayload);
+  let completedPayload = await fillMissingSummaries(aiResult.model, rawSectionData, aiResult.data);
+  let merged = null;
+  let lastValidationError = null;
+
+  for (let attempt = 1; attempt <= 6; attempt += 1) {
+    try {
+      merged = mergeSummariesStrict(rawSectionData, completedPayload);
+      break;
+    } catch (error) {
+      lastValidationError = error;
+      completedPayload = await repairInvalidPublicCopy(aiResult.model, rawSectionData, completedPayload, error.message);
+    }
+  }
+
+  if (!merged) throw lastValidationError || new Error('strict-merge-failed');
+
   payload = {
     state: 'ready',
     site: {
