@@ -9,6 +9,7 @@ const sourcesList = document.querySelector('#sources-list');
 const sectionsList = document.querySelector('#sections-list');
 const sectionTemplate = document.querySelector('#section-template');
 const storyTemplate = document.querySelector('#story-template');
+const unavailableTemplate = document.querySelector('#unavailable-template');
 
 const formatDate = (value) => {
   const date = new Date(value);
@@ -21,52 +22,20 @@ const formatDate = (value) => {
 
 const pluralizeArticles = (count) => `${count} ${count === 1 ? 'artikel' : 'artiklar'}`;
 
-const splitSentences = (value) => value
-  .replace(/\s+/g, ' ')
-  .trim()
-  .match(/[^.!?]+[.!?]+(?:\s|$)|[^.!?]+$/g) || [];
+const cleanSummary = (value) => `${value || ''}`.replace(/\s+/g, ' ').trim();
 
-const cleanSummaryLead = (value) => value
-  .replace(/^kortversionen:\s*/i, '')
-  .replace(/^det här spåret\s*/i, 'Spåret ')
-  .replace(/\s+/g, ' ')
-  .trim();
-
-const editorializeSummary = (value) => {
-  const cleaned = cleanSummaryLead(value || '');
-  if (!cleaned) return '';
-
-  const sentences = splitSentences(cleaned);
-  const usable = [];
-
-  for (const sentence of sentences) {
-    const trimmed = sentence.trim();
-    if (!trimmed) continue;
-    usable.push(trimmed);
-    if (usable.join(' ').length >= 260 || usable.length >= 2) break;
-  }
-
-  let result = usable.join(' ').trim() || cleaned;
-
-  if (/[.……]\s*$/.test(result)) {
-    result = result.replace(/[.……]+\s*$/, '').trim();
-  }
-
-  if (!/[.!?]$/.test(result)) {
-    result = `${result}.`;
-  }
-
-  return result;
-};
-
-const pickSiteNote = (data) => {
-  const totalFeeds = data.sources.reduce((sum, source) => sum + ((source.feedUrls && source.feedUrls.length) || 0), 0);
-  return `Fyra bevakningar, ${totalFeeds || data.sources.length} flöden och en rimlig chans att förstå dagen innan den spårar ur helt.`;
-};
-
-const pickBriefIntro = (data) => {
-  const totalStories = data.sections.reduce((sum, section) => sum + section.items.length, 0);
-  return `${data.sections.length} spår, ${totalStories} rubriker och en kort öppningsbild av läget.`;
+const setUnavailable = (generatedAt) => {
+  document.body.dataset.state = 'unavailable';
+  document.title = 'Vad i helvete händer?!';
+  lastUpdated.textContent = generatedAt ? `Senast försökt ${formatDate(generatedAt)}` : 'Tillfälligt otillgänglig';
+  storyCount.textContent = 'Ingen publicering';
+  sourceCount.textContent = 'Försök igen snart';
+  siteNote.textContent = 'Just nu finns ingen version som klarar publiceringskraven.';
+  briefTitle.textContent = 'Tillfälligt otillgänglig';
+  briefIntro.textContent = 'Nästa uppdatering publiceras först när texterna håller ihop språkligt och redaktionellt.';
+  briefBullets.replaceChildren();
+  sourcesList.replaceChildren();
+  sectionsList.replaceChildren(unavailableTemplate.content.cloneNode(true));
 };
 
 const render = async () => {
@@ -74,6 +43,13 @@ const render = async () => {
   if (!response.ok) throw new Error(`Kunde inte läsa morgonbriefen: ${response.status}`);
 
   const data = await response.json();
+  if (!data || data.state !== 'ready' || !data.brief || !Array.isArray(data.sections) || !data.sections.length) {
+    setUnavailable(data?.generatedAt);
+    return;
+  }
+
+  document.body.dataset.state = 'ready';
+
   const totalStories = data.sections.reduce((sum, section) => sum + section.items.length, 0);
   const totalFeeds = data.sources.reduce((sum, source) => sum + ((source.feedUrls && source.feedUrls.length) || 0), 0);
 
@@ -81,14 +57,14 @@ const render = async () => {
   lastUpdated.textContent = `Uppdaterad ${formatDate(data.generatedAt)}`;
   storyCount.textContent = `${totalStories} rubriker`;
   sourceCount.textContent = `${totalFeeds || data.sources.length} källflöden`;
-  siteNote.textContent = pickSiteNote(data);
+  siteNote.textContent = '';
   briefTitle.textContent = data.brief.title;
-  briefIntro.textContent = pickBriefIntro(data);
+  briefIntro.textContent = data.brief.intro;
 
   briefBullets.replaceChildren();
   for (const bullet of data.brief.bullets) {
     const li = document.createElement('li');
-    li.textContent = bullet;
+    li.textContent = cleanSummary(bullet);
     briefBullets.appendChild(li);
   }
 
@@ -109,7 +85,7 @@ const render = async () => {
     fragment.querySelector('.section-kicker').textContent = section.label;
     fragment.querySelector('h2').textContent = section.name;
     fragment.querySelector('.section-description').textContent = section.description;
-    fragment.querySelector('.section-summary').textContent = editorializeSummary(section.summary);
+    fragment.querySelector('.section-summary').textContent = cleanSummary(section.summary);
 
     const sectionFeed = fragment.querySelector('.section-feed');
     sectionFeed.href = section.feedUrl;
@@ -131,13 +107,7 @@ const render = async () => {
       storyFragment.querySelector('.source').textContent = item.source;
       storyFragment.querySelector('time').textContent = formatDate(item.pubDate);
       storyFragment.querySelector('h3').textContent = item.headline;
-      const description = storyFragment.querySelector('.description');
-      if (item.description) {
-        description.textContent = item.description;
-      } else {
-        description.textContent = 'Ingen svensk sammanfattning värd namnet den här gången. Rubrik och originallänk får räcka.';
-        description.classList.add('description-muted');
-      }
+      storyFragment.querySelector('.description').textContent = cleanSummary(item.description);
       const resolvedUrl = item.actualUrl || item.link;
       const link = storyFragment.querySelector('.read-more');
       link.href = resolvedUrl;
@@ -151,10 +121,6 @@ const render = async () => {
 };
 
 render().catch((error) => {
-  lastUpdated.textContent = 'Lägesbilden gick i baklås.';
-  const message = document.createElement('p');
-  message.className = 'description';
-  message.textContent = error.message;
-  sectionsList.replaceChildren(message);
   console.error(error);
+  setUnavailable();
 });

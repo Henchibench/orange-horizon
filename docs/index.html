@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vad i helvete händer?!</title>
-    <meta name="description" content="En torrt ironisk svensk morgonbrief om globalt kaos: Trump/USA, Putin/Ukraina, Iran och Orbán/EU." />
+    <meta name="description" content="En svensk morgonbrief om globalt maktspel och haverier: Trump/USA, Putin/Ukraina, Iran och Orbán/EU." />
     <link rel="stylesheet" href="./assets/styles.css" />
   </head>
-  <body>
+  <body data-state="loading">
     <div class="glow glow-a"></div>
     <div class="glow glow-b"></div>
     <main class="shell">
@@ -15,7 +15,7 @@
         <div class="hero-copy">
           <p class="eyebrow">Vad i helvete händer?!</p>
           <h1>Världsläget, före lunch.</h1>
-          <p class="lede">En svensk morgonbrief för den som vill ha ordning på haveriet utan att drunkna i flödet. Fyra bevakningar, kort öppningsbild och sedan artiklarna där de hör hemma.</p>
+          <p class="lede">Fyra bevakningar, en rejäl öppningsbrief och sedan källmaterialet i läsbar ordning.</p>
           <div class="hero-meta">
             <span id="last-updated" class="meta-pill">Laddar lägesbild…</span>
             <span id="story-count" class="meta-pill">—</span>
@@ -44,15 +44,6 @@
 
       <section class="sections">
         <div id="sections-list" class="sections-list" aria-live="polite"></div>
-      </section>
-
-      <section class="sources panel slim-panel">
-        <div class="panel-header row-header">
-          <div>
-            <h2>Källor</h2>
-            <p>Direkta RSS-flöden från etablerade redaktioner där det går. Texterna här ovan försöker bara göra materialet läsbart på svenska, inte låtsas vara något annat än en morgonöversikt.</p>
-          </div>
-        </div>
       </section>
     </main>
 
@@ -89,6 +80,14 @@
           <a class="read-more" target="_blank" rel="noreferrer">Läs originalet</a>
           <a class="direct-link" target="_blank" rel="noreferrer">Öppna direkt</a>
         </div>
+      </article>
+    </template>
+
+    <template id="unavailable-template">
+      <article class="panel unavailable-card">
+        <p class="section-kicker">Tillfälligt otillgänglig</p>
+        <h2>Ingen publicerad version just nu</h2>
+        <p class="description">Sidan visar nästa uppdatering först när öppningsbrief, sektionssammanfattningar och artikeltexter klarar språkkontrollen utan trasig svenska eller engelska rester.</p>
       </article>
     </template>
 
