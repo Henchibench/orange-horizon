@@ -5,19 +5,19 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad ungefär varje timme.",
     "note": null
   },
-  "generatedAt": "2026-03-25T13:55:44.165Z",
+  "generatedAt": "2026-03-25T14:43:08.748Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Vad i helvete händer?! – veckan i korthet",
-    "intro": "Trump förlorar sitt eget väljarkrets i Florida medan Nordkorea hotar kärnvapen, Ryssland bombar sig genom Moldovas elförsörjning och Iran får världen att hålla andan igen. Samtidigt spekulerar Wall Street på krigsbesked som om det vore sportodds.",
+    "title": "Vad i helvete händer?! Veckan i korthet",
+    "intro": "Trump vinner val han inte ställde upp i medan hans backyard flippar blått, Ryssland bombar sig själv närmare kollaps genom att attackera allt som rör sig, och Iran sitter i ett diplomatiskt vakuum medan världen spekulerar på insiderhandel.",
     "bullets": [
-      "Demokraterna vinner överraskande val i Floridas distrikt 87 – området som innehåller Trumps Mar-a-Lago – efter att republikanerna vann samma plats med 19 procentenheter 2024.",
-      "Ryssland skjuter ned 389 ukrainska drönare på en natt och lanserar samtidigt 400 långdistansdrönarattacker plus 23 marskryssare mot ukrainska städer – en av krigets största luftoffensiver.",
-      "Gulfstaterna anklagar Iran för att bryta suveränitet genom attacker på deras territorium, medan världens rättighetsövervakning varnar för att Mellanöstern närmar sig en \"omildrad katastrof\"."
+      "Demokraterna vinner en floridiansk statshusplats som innehåller Trumps Mar-a-Lago genom Emily Gregory, en förstagångskandidat som besegrade Trumps egen kandidat Jon Maples i en distrikt där republikanerna vann med 19 procentenheter för två år sedan.",
+      "Ryssland skjuter ned hundratals egna drönare medan Moldavien förklarar energikris efter att ukrainska attacker skadar kraftledningar genom sitt territorium, och Sloviansk evakuerar barn när ryska styrkor närmar sig inom 20 kilometer.",
+      "USA och Iran säger olika saker om förhandlingar medan spekulanter på Polymarket tjänar miljoner på suspekt väl tidpunktade satsningar på krigshandlingar, och Pakistan erbjuder sig som värd för fredsamtal som ingen ännu accepterat."
     ]
   },
   "sections": [
@@ -26,7 +26,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trumps politiska maskin möter motstånd i sitt eget territorium. Demokraten Emily Gregory vann en specialval i Floridas distrikt 87 – området som omfattar Trumps Mar-a-Lago-egendom – och besegrade den republikanske kandidaten Jon Maples som hade presidentens stöd. Resultatet markerar en dramatisk vändning från 2024 då en republikan vann samma plats med 19 procentenheter.",
+      "summary": "Trumps politiska gravitation drar åt fel håll. I Florida vann demokraten Emily Gregory en statshusplats i Palm Beach-området där republikanerna dominerade med 19 procentenheter 2024, vilket markerar ännu ett nederlag för presidenten i sitt eget territorium. Trump hade personligen stött kandidaten Jon Maples, men väljarna valde istället en förstagångskandidat med bakgrund inom folkhälsa och småföretagande.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -55,7 +55,7 @@
           "link": "https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-ekot-4",
+          "id": "trump-usa-ekot-5",
           "headline": "Pakistan redo att stå för värd för fredssamtal i Irankriget",
           "source": "Ekot",
           "pubDate": "Wed, 25 Mar 2026 11:53:00 GMT",
@@ -89,7 +89,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Kriget intensifieras på flera fronter medan Ryssland eskalerar luftoffensiven. Ryssland rapporterar att det skjutit ned 389 ukrainska drönare på en natt – en av krigets största attacker – och lanserade samtidigt nästan 400 långdistansdrönarattacker plus 23 marskryssare mot ukrainska städer, inklusive ett anfall på en 1600-tals kyrka i Lviv.",
+      "summary": "Kriget intensifieras medan grannskapen dras in. Ryssland genomförde en massiv drönattack med nästan 400 drönare och 23marskryssiler över natten, följt av ytterligare 556 drönare på dagen, vilket markerar en av de största luftbombardemangen sedan invasionens början. Attackerna träffade bland annat en 500 år gammal kyrka i Lviv.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -152,7 +152,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Mellanöstern närmar sig en kritisk punkt när Iran attackerar gulfstaterna och världen spekulerar på krigsbesked. Gulfstaterna anklagar Iran för att bryta internationell rätt genom attacker på deras territorium trots att de inte är inblandade i konflikten – Saudi-Arabiens FN-representant kallade det en kränkning av suveränitet och god grannskapspraxis.",
+      "summary": "Kriget närmar sig sin första månad medan diplomatin kryper framåt på knäna. Gulfstaterna kräver skadereglering vid FN:s människorättsråd för Irans attacker, och säkerhetskåren röstade för en resolution som fördömer Teherans åtgärder och kräver omedelbar vapenvila.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -174,7 +174,7 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-1",
+          "id": "iran-al-jazeera-rss-5",
           "headline": "Iranian attacks amount to violation of sovereignty, Gulf states tell UN",
           "source": "Al Jazeera RSS",
           "pubDate": "Wed, 25 Mar 2026 13:00:22 +0000",
@@ -188,25 +188,25 @@
           "link": "https://www.bbc.com/news/articles/c747x00m83vo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-7",
+          "id": "iran-al-jazeera-rss-11",
           "headline": "Asian Champions League quarterfinal sends Iran’s Tractor FC to Saudi Arabia",
           "source": "Al Jazeera RSS",
           "pubDate": "Wed, 25 Mar 2026 12:18:33 +0000",
           "link": "https://www.aljazeera.com/sports/2026/3/25/asian-champions-league-quarterfinal-sends-irans-tractor-fc-to-saudi-arabia?traffic_source=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-12",
+          "id": "iran-al-jazeera-rss-16",
           "headline": "Large Polymarket, Wall Street bets on Trump’s war news under scrutiny",
           "source": "Al Jazeera RSS",
           "pubDate": "Wed, 25 Mar 2026 11:21:19 +0000",
           "link": "https://www.aljazeera.com/news/2026/3/25/large-polymarket-wall-street-bets-on-trumps-war-news-under-scrutiny?traffic_source=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-14",
-          "headline": "Spain’s PM says Israel to inflict on Lebanon same destruction as in Gaza",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Wed, 25 Mar 2026 11:02:40 +0000",
-          "link": "https://www.aljazeera.com/news/2026/3/25/spains-pm-says-israel-to-inflict-on-lebanon-same-destruction-as-in-gaza?traffic_source=rss"
+          "id": "iran-bbc-news-middle-east-1",
+          "headline": "Small window open for US-Iran talks, but swift end to war still unlikely",
+          "source": "BBC News: Middle East",
+          "pubDate": "Tue, 24 Mar 2026 18:04:04 GMT",
+          "link": "https://www.bbc.com/news/articles/c895xljyzewo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -215,7 +215,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Viktor Orbán fortsätter att blockera EU:s finansiering till Ukraina medan han manövrerar för att förbättra Ungarns relationer med Ryssland. Ungerns premiärminister har länge motstått att hjälpa Kyiv att avvärja Rysslands invasion och har använt sitt vetorätt för att stoppa EU-sanktioner och finansiering.",
+      "summary": "Viktor Orbán fortsätter att blockera EU:s 90 miljarder euro-lån till Ukraina och hotar med ytterligare åtgärder för att tvinga återupptagandet av rysk oljeförsörjning till Ungern och Slovakien.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
