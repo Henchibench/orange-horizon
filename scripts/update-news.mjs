@@ -316,7 +316,10 @@ const buildAnthropicPrompt = (sectionData) => JSON.stringify({
     sectionSummaryMaxChars: 280,
     itemSummaryMinChars: 90,
     itemSummaryMaxChars: 320,
-    briefIntroMaxChars: 260,
+    briefIntroMinChars: 40,
+    briefIntroTargetChars: 170,
+    briefIntroMaxChars: 220,
+    briefIntroStyle: '1-2 korta meningar, konkret öppning utan svepande scenbygge',
     leadWithWhatActuallyHappened: true,
     mentionActorsAndConsequences: true
   },
@@ -410,6 +413,37 @@ const cleanPublicText = (value = '') => normalizeWhitespace(stripTags(value))
   .replace(/\.{3,}|…/g, '.')
   .trim();
 
+const squeezeToSentenceLimit = (value, max) => {
+  if (value.length <= max) return value;
+  const sentences = value.match(/[^.!?]+[.!?]/g)?.map((part) => normalizeWhitespace(part)).filter(Boolean) || [];
+  if (sentences.length) {
+    let candidate = '';
+    for (const sentence of sentences) {
+      const next = candidate ? `${candidate} ${sentence}` : sentence;
+      if (next.length > max) break;
+      candidate = next;
+    }
+    if (candidate) return candidate;
+  }
+
+  const trimmed = value.slice(0, max).replace(/[,:;\-–—]\s*$/u, '').trim();
+  const lastSpace = trimmed.lastIndexOf(' ');
+  const compact = (lastSpace >= 40 ? trimmed.slice(0, lastSpace) : trimmed).trim().replace(/[,:;\-–—]$/u, '');
+  return `${compact}.`;
+};
+
+const normalizeBriefIntro = (value) => {
+  const cleaned = cleanPublicText(value)
+    .replace(/^(kort sagt|kort version|i korthet|det korta läget|läget just nu)[:,-]?\s*/i, '');
+
+  if (!cleaned) return cleaned;
+  if (cleaned.length <= 220) return cleaned;
+
+  const sentenceLimited = squeezeToSentenceLimit(cleaned, 220);
+  if (sentenceLimited.length <= 220) return sentenceLimited;
+  return squeezeToSentenceLimit(cleaned, 200);
+};
+
 const looksSwedishEnough = (text) => {
   const lower = text.toLowerCase();
   const swedishSignals = [' och ', ' att ', ' som ', ' för ', ' med ', ' till ', ' efter ', ' mot ', ' från ', ' över ', ' under ', ' enligt ', ' mellan ', ' i ', ' på '];
@@ -436,7 +470,7 @@ const mergeSummariesStrict = (sectionData, aiPayload) => {
 
   const brief = {
     title: validatePublicText(aiPayload?.brief?.title, 'brief.title', { min: 10, max: 56 }),
-    intro: validatePublicText(aiPayload?.brief?.intro, 'brief.intro', { min: 40, max: 260 }),
+    intro: validatePublicText(normalizeBriefIntro(aiPayload?.brief?.intro), 'brief.intro', { min: 40, max: 220 }),
     bullets: (aiPayload?.brief?.bullets || []).slice(0, 3).map((bullet, index) => validatePublicText(bullet, `brief.bullets[${index}]`, { min: 70, max: 200 }))
   };
 
