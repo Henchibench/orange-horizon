@@ -316,6 +316,7 @@ const buildAnthropicPrompt = (sectionData) => JSON.stringify({
     sectionSummaryMaxChars: 280,
     itemSummaryMinChars: 90,
     itemSummaryMaxChars: 320,
+    briefIntroMaxChars: 180,
     leadWithWhatActuallyHappened: true,
     mentionActorsAndConsequences: true
   },
@@ -435,7 +436,7 @@ const mergeSummariesStrict = (sectionData, aiPayload) => {
 
   const brief = {
     title: validatePublicText(aiPayload?.brief?.title, 'brief.title', { min: 10, max: 56 }),
-    intro: validatePublicText(aiPayload?.brief?.intro, 'brief.intro', { min: 40, max: 140 }),
+    intro: validatePublicText(aiPayload?.brief?.intro, 'brief.intro', { min: 40, max: 180 }),
     bullets: (aiPayload?.brief?.bullets || []).slice(0, 3).map((bullet, index) => validatePublicText(bullet, `brief.bullets[${index}]`, { min: 70, max: 200 }))
   };
 
