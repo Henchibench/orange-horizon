@@ -1,44 +1,73 @@
 <!doctype html>
-<html lang="en">
+<html lang="sv">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Orange Horizon</title>
-    <meta name="description" content="A sunrise-themed feed of recent Donald Trump news, updated hourly." />
+    <title>Vad i helvete händer?!</title>
+    <meta name="description" content="En torrt ironisk svensk morgonbrief om globalt kaos: Trump/USA, Putin/Ukraina, Iran och Orbán/EU." />
     <link rel="stylesheet" href="./assets/styles.css" />
   </head>
   <body>
-    <div class="sun sun-a"></div>
-    <div class="sun sun-b"></div>
+    <div class="glow glow-a"></div>
+    <div class="glow glow-b"></div>
     <main class="shell">
       <section class="hero">
-        <p class="eyebrow">Orange Horizon</p>
-        <h1>Where the dawn breaks, and the headlines absolutely refuse to sleep.</h1>
-        <p class="lede">A warm-toned, lightly wry scroll through recent Donald Trump coverage. Updated about once an hour.</p>
+        <p class="eyebrow">Vad i helvete händer?!</p>
+        <h1>Världen vaknade. Tyvärr gjorde nyhetscykeln det också.</h1>
+        <p class="lede">En svensk morgonbrief med torr ironi, flera konfliktspår och länkar till originalkällorna. Uppdateras ungefär varje timme via GitHub Actions.</p>
         <div class="meta">
-          <span id="last-updated">Loading latest sunrise…</span>
-          <a id="source-link" href="#" target="_blank" rel="noreferrer">Source feed</a>
+          <span id="last-updated">Laddar lägesbild…</span>
+          <span id="site-note"></span>
         </div>
       </section>
 
-      <section class="panel">
+      <section class="brief panel">
         <div class="panel-header">
-          <h2>Latest glow</h2>
-          <p>Recent coverage from public RSS sources, trimmed into a clean feed with links back to the original reporting.</p>
+          <h2 id="brief-title">Morgonbrief</h2>
+          <p id="brief-intro"></p>
         </div>
-        <div id="news-list" class="news-list" aria-live="polite"></div>
+        <ul id="brief-bullets" class="brief-bullets"></ul>
+      </section>
+
+      <section class="sources panel slim-panel">
+        <div class="panel-header row-header">
+          <div>
+            <h2>Källor</h2>
+            <p>Publika RSS-sökningar. Inte perfekt, men transparent och gratis.</p>
+          </div>
+          <div id="sources-list" class="source-pills"></div>
+        </div>
+      </section>
+
+      <section class="sections">
+        <div id="sections-list" class="sections-list" aria-live="polite"></div>
       </section>
     </main>
 
-    <template id="item-template">
-      <article class="card">
-        <div class="card-top">
+    <template id="section-template">
+      <article class="panel section-card">
+        <div class="section-top">
+          <div>
+            <p class="section-kicker"></p>
+            <h2></h2>
+          </div>
+          <a class="section-feed" target="_blank" rel="noreferrer">RSS</a>
+        </div>
+        <p class="section-description"></p>
+        <p class="section-summary"></p>
+        <div class="stories"></div>
+      </article>
+    </template>
+
+    <template id="story-template">
+      <article class="story">
+        <div class="story-meta">
           <p class="source"></p>
           <time></time>
         </div>
         <h3></h3>
         <p class="description"></p>
-        <a class="read-more" target="_blank" rel="noreferrer">Read original story</a>
+        <a class="read-more" target="_blank" rel="noreferrer">Läs originalet</a>
       </article>
     </template>
 

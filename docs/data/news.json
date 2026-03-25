@@ -1,107 +1,409 @@
 {
   "site": {
-    "title": "Orange Horizon",
-    "subtitle": "A sunrise-toned watch on the latest Donald Trump headlines.",
-    "note": "Freshly poured from public RSS. Coffee not included."
+    "title": "Vad i helvete händer?!",
+    "subtitle": "En torrt ironisk morgonbrief om världsläget, uppdaterad ungefär varje timme.",
+    "note": "Byggd på publika RSS-flöden. Inga betalväggs-API:er, bara disciplin och lätt misstro."
   },
-  "generatedAt": "2026-03-25T06:41:01.422Z",
-  "source": "https://news.google.com/rss/search?q=%22Donald+Trump%22+when:7d&hl=en-US&gl=US&ceid=US:en",
-  "items": [
+  "generatedAt": "2026-03-25T06:57:13.626Z",
+  "brief": {
+    "title": "Morgonbrief för folk som redan anar att läget inte direkt stabiliserats över natten.",
+    "intro": "Fyra spår av global oreda, serverade utan confetti men med länkar tillbaka till originalrapporteringen.",
+    "bullets": [
+      "Senast in: Russia bombs UNESCO site as Putin escalates attacks on Ukrainian civilians (Putin / Ukraina).",
+      "Mest brus i flödet: Trump / USA med 8 artiklar.",
+      "Det här är en strukturerad morgonbrief, inte en AI-ledare. Den kan enkelt byggas ut med mer sammanfattning senare."
+    ]
+  },
+  "sections": [
     {
-      "id": "item-1",
-      "headline": "California is taking Donald Trump to court for breaking the law to put polluter profits before American lives",
-      "source": "California State Portal | CA.gov",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPODU4cl9oZ3k5OFg3TV9weTBIQVE3TGRscFdDX184a19VQ1RvcWlnQ0dvUjNIX0NXSS1CZzdMQk1hQ2t5Q1VINTljUVZvYzZqbVo0am9uOUNPUFB6UktCSGZoRzQxTWdkTFlmd0xNYnozMjRlY0F1NnI2WTVjZkpHZW9YTjlhQlpXM2FtNWs1ZjdjX0swTGtvT1E3Mkd3NmtIT3U5VGUwM0NFbC14MkstcXNvbGZMZGdXay1IWWZtb0hjc0hLRDRNTUIxYVVOYW5CTExJYUw2RXowcnda?oc=5",
-      "pubDate": "Thu, 19 Mar 2026 19:51:29 GMT",
-      "description": "California is taking Donald Trump to court for breaking the law to put polluter profits before American lives California State Portal | CA.gov"
+      "id": "trump-usa",
+      "name": "Trump / USA",
+      "label": "Makt, cirkus, federalt brus",
+      "description": "Amerikansk politik som morgonradio från en bil med trasiga bromsar.",
+      "sourceLabel": "Google News RSS: Trump / USA",
+      "feedUrl": "https://news.google.com/rss/search?q=%28Trump+OR+%22Donald+Trump%22+OR+White+House%29+%28USA+OR+Congress+OR+federal%29+when:7d&hl=en-US&gl=US&ceid=US:en",
+      "items": [
+        {
+          "id": "trump-usa-1",
+          "sectionId": "trump-usa",
+          "sectionName": "Trump / USA",
+          "headline": "White House urges Congress to take a light touch on AI regulations in new legislative blueprint",
+          "source": "PBS",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTUpLTWdXOWJvc2w0dzZtaGJzeEhSZzZMVF9jSHVMNHBrc0swcERKOUpydThNX2M5X2haVVBwMkVRcWhreEc1V05jOVVjV3l0dGcwS0o1dHQ5VUc2dVhSUEhLaFVMa0RDMzVPRkNjYnVoWUM2cnE0TEZGY0V3ZE9tVGpRenJ4Y3lzeEdWMXRIem9udHdvRUhsMEhtc2VSNUtoY0FWQkZmVXB1Wlc3cEc3M1ZXc0RQV0cxYzNNU3Q1Nk9nUTYtVlZQb0lORQ?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 19:43:57 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "trump-usa-2",
+          "sectionId": "trump-usa",
+          "sectionName": "Trump / USA",
+          "headline": "White House releases AI policy blueprint for Congress",
+          "source": "Politico",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeDUtN3VFS0RjZGtKR2J2bUU0cmk3QlFuOVZoWXpsNXo4ZnZ3UGpobnFWZmVrdEthUGJLN21nNVFmU2ZsZXZsbDhNZktJVkxPRTlhNWZsWW1lWG82V3VyX1I2THJzbTA4YjNDRWFGUHJlYVV1Mk5IMzd3Zk51NE9tZFNzWmJPLTRyWExsVTNydE1kMWc0cmhRb2E4b19zeXFSQ2x5cFB3?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 12:40:13 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "trump-usa-3",
+          "sectionId": "trump-usa",
+          "sectionName": "Trump / USA",
+          "headline": "USA x JAPAN AT THE WHITE HOUSE 🇺🇸🤝🇯🇵",
+          "source": "The White House (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYkVXQm9tLWxudU12bVdmekN3dFd1TkpoYklVemM0bXpmZmh1d2hYUVRUczhmNGx0eFJxcDFyVGNKMVdqMUNVT1ZzbHhBXzNSSU02Q2EyMjdNM2xnRmRkVFptbkk1NTRUWXhGb3E5cGdvSElPUGZsTC0wdTNWRlFXSVp6R25rTkRxTDY0enhuQTI4N09IblhTOVE4eDlycElvSzZmX25xX1ExaVpvdkJEMEFncXVPdTdVLWI3aHN0R0I0S0RU?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 00:24:41 GMT",
+          "description": "USA x JAPAN AT THE WHITE HOUSE 🇺🇸🤝🇯🇵 The White House (.gov)"
+        },
+        {
+          "id": "trump-usa-4",
+          "sectionId": "trump-usa",
+          "sectionName": "Trump / USA",
+          "headline": "Five Questions to Ask in Trump’s 2027 Budget",
+          "source": "Center on Budget and Policy Priorities",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOb0k4LWdPU2FPQ2JFVkZ2WGd4REliUUNHNGZ3MkJoZWl6RmlfTWx0QVRTZl9YS3NybWlrX2l5MmlnaFN6bnlrVHhLeldNLU9mQTF6OWRNRFk4T0RwVlR2SmQ5SVdZcVZzaHplZjdlVGhoUFBOQjJEREVQNzg4djI4aWgtaEFxMUVqUTE3SHdzT3BJUQ?oc=5",
+          "pubDate": "Tue, 24 Mar 2026 14:58:24 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "trump-usa-5",
+          "sectionId": "trump-usa",
+          "sectionName": "Trump / USA",
+          "headline": "White House Unveils A.I. Policy Aimed at Blocking State Laws",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU2E3X3Y5TVA4RHU2NlVkNUcyVnNSbkpiam56UGtrZTlqNnJDanFoZERvQzZjWU1qcUdIbDUwaWxyTGVnRXhWekp1VGt5Q3V3ZkZTaXh2OTVzNjVFVnNmZmhuN3ctdkducWU1WjItWnNJNHVGcERmb0Q2ZnBoSmJfNXZMYnVCa3N3RVFON1dpNW9Gb3ZMSHVLM0VHeUhTcUl5RjN4dUxOTWVFYlNKdk5N?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 16:52:19 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "trump-usa-6",
+          "sectionId": "trump-usa",
+          "sectionName": "Trump / USA",
+          "headline": "White House gives Congress its AI policy wishlist in new legislative framework",
+          "source": "FedScoop",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRVQ4aWxzRkRUS1BmQnh3OVc2RUhKc0NYWmNrdFU2M1BmOXdUaDVvWTY3OERXZUE4WVc5ZHhialJQRHdRc0Z4QkVnNk9QaEFsTXpFMnE5YUpzVW9CWTIyNHFKZmxPekhTcFQ2eVY0dUpSRHRjZWplc0VueHpxa1NtcG1HV19SMDBYdXNnTkpSTE1MMmNYY3NfNA?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 16:19:14 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "trump-usa-7",
+          "sectionId": "trump-usa",
+          "sectionName": "Trump / USA",
+          "headline": "White House releases AI legislation framework",
+          "source": "NBC News",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZFZnOVVKRDhvT0JRd0owOWNIX1YtU1ZBTjU4TXlpRGlNVXhsRG9hYW1EZlFKMWM1a1JzaHNGZnoyQ25WMG5jbW1iU0dvQUcweGprNDluSkFuVXMtSE5SSlVSU3lkNEh1RVBsX0hSNHVZNTZGZmZ5alhwSnZwbFExbjM2MWJ5YnMxYW1sRFU3YVNVQUxpaVFCVFliWjlVWDdMejVKMVJMNjhqb2NwVDlDYTB0eFlNR3dy?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 13:34:47 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "trump-usa-8",
+          "sectionId": "trump-usa",
+          "sectionName": "Trump / USA",
+          "headline": "White House seeks $200bn in military funding in wake of Iran war",
+          "source": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zWFVtanNObzJ0aWc0RU5YYWRsSXNyYkR5ellqandfR01JWDdHNkRFS0xIeVlqQzl3eV85NmdBMUVaUjVibkdzRlFJOHFsQ0lJRm1zZE9Ia25XZw?oc=5",
+          "pubDate": "Thu, 19 Mar 2026 20:34:46 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        }
+      ],
+      "summary": "Ledande rubrik: White House urges Congress to take a light touch on AI regulations in new legislative blueprint. Därefter: White House releases AI policy blueprint for Congress. 8 nedslag från 8 källor."
     },
     {
-      "id": "item-2",
-      "headline": "LEADER JEFFRIES ON CNN: “DONALD TRUMP SHOULD KEEP HIS RECKLESS MOUTH SHUT BEFORE HE GETS SOMEBODY KILLED” – Congressman Hakeem Jeffries",
-      "source": "Congressman Hakeem Jeffries (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQc0VLNnZ5Sml6OFZQR0NJcFBvQkJxN1VNSG95TVJBamtrSzdiaTJPUDJXcW5WQnNzUlh1bmc3ZkJTdGZGQTYtS3ZxaDRUUFFvaE9WSkotUnJfZHpZdEhseUJEX0Y2Y3hSaHh1YmdiOGE5VS1TMGtIcnlZV2dETkNtY19BcWRaNk9Nd3N3MWhLRDh4RnZFTXp5TlJjX2ZzR0ZlNGdrVGNnOFp3Yy12YV9KdWtrN0VZV2p3bXNyNFJiTUpDa2VETnIwVm5nVUJFOWY0aE9KR05pOHU?oc=5",
-      "pubDate": "Sun, 22 Mar 2026 17:37:21 GMT",
-      "description": "LEADER JEFFRIES ON CNN: “DONALD TRUMP SHOULD KEEP HIS RECKLESS MOUTH SHUT BEFORE HE GETS SOMEBODY KILLED” – Congressman Hakeem Jeffries Congressman Hakeem Jeffries (.gov)"
+      "id": "putin-ukraina",
+      "name": "Putin / Ukraina",
+      "label": "Krig, repression, diplomatiskt grus",
+      "description": "Frontlinjer, Kreml-signaler och ännu en dag där ordet stabilitet mest känns teoretiskt.",
+      "sourceLabel": "Google News RSS: Putin / Ukraina",
+      "feedUrl": "https://news.google.com/rss/search?q=%28Putin+OR+Kremlin+OR+Russia%29+%28Ukraine+OR+Ukrainian%29+when:7d&hl=en-US&gl=US&ceid=US:en",
+      "items": [
+        {
+          "id": "putin-ukraina-1",
+          "sectionId": "putin-ukraina",
+          "sectionName": "Putin / Ukraina",
+          "headline": "Belligerent and Beleaguered: Russia After the War with Ukraine",
+          "source": "Carnegie Endowment for International Peace",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNM0RIV2xvVXpYNUIwaHgxc2RqZmRkbi1aYUpPenBuc0NESnlsajNmMDZ2WWx5ZTdKa2MtQjh3NFJGbzhfRGh6d3BTdm1HYkcyNkRTcFFhTVlQeWdjbUVBdVNjX0toVWZuNW4tN3JmcXJmMkZqMEpVWkRBZjFNdno3R1RQXzI2Zi1sYjJIV1lHV2lDajZCOWdwd0QtMA?oc=5",
+          "pubDate": "Thu, 19 Mar 2026 19:04:51 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "putin-ukraina-2",
+          "sectionId": "putin-ukraina",
+          "sectionName": "Putin / Ukraina",
+          "headline": "Russia continues to gamble on the tragic prospect of an endless war in Ukraine",
+          "source": "France ONU",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbHYyY3FEeW5VeTVWLTMyWE1HNFVwVXA1QXF4dHd6aHVfUjcwZm1GWGgtTUxaVWFMMk5WX2lXQTlzVFJTNUc5bXZtZUoza29QVFFGOTNqMVlGUVU2bHB4Y3NVLU5ZS3JlaTdERms2akVVVG1EbmNYVXdmaHRYUXZNWWpjanZvOXdWcDh3VWE3SVN3NEtIaGo5Zm1LemoteGNONGxzbmNMQTJWQQ?oc=5",
+          "pubDate": "Tue, 24 Mar 2026 14:05:55 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "putin-ukraina-3",
+          "sectionId": "putin-ukraina",
+          "sectionName": "Putin / Ukraina",
+          "headline": "Leaders Address War in Ukraine, Russia Threat",
+          "source": "U.S. Department of War (.gov)",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU1lUaG4tX0RJUU92YTdmdWVTT3h6UWxnX3E3Z1o1OVVoX3cySUNhNWpSaGFLR1dxa2hvakYzenNNemNkaFZHb0lldC1iTnZLUTNWZHVpQ1J4ZkF1QkY5dEVaSll0bkpHbGFibllqbGxUSG5FY1ZfYU8wWWdOb3J6ZS12OXd5X0JDQ00xeTBKdzB2MGJrcUdkYlpGV3djQVluaTBJRFZiNHVHcXM?oc=5",
+          "pubDate": "Wed, 18 Mar 2026 18:37:41 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "putin-ukraina-4",
+          "sectionId": "putin-ukraina",
+          "sectionName": "Putin / Ukraina",
+          "headline": "Russia and Ukraine trade attacks, killing at least 4 ahead of U.S. talks",
+          "source": "PBS",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMmRWVDk1ZTY5UWlYdEF1ZXRrS2oyYmxTWUtxNjI0NlpCNzI1ZEExX1UxZUJTMTNLQ2ZTWGJMUzJIMHdOT0Ixb0p0QjRnWExmMWx6WGtQeEhOR2tEcmJRbHVpZE9QbDhIY3JXX2pXeUxTZ0dyRVhfUnZfUzBQLU9KbHJrclcwdk5BZkdJRWp2UkR3ZHlzNTREbUJNdkZWaGdJd2JaQkRldFHSAa4BQVVfeXFMT1ktWTY5UDRvX000Qm9kdUVzeDFTZzAzdUJ1U0dRUXJGZ0tpU1pNeGZFYnhJMFdrZ0FOcnY2Rk1iVk1EVXNxakwxM0w5b2oyTlA5T1VtVlppQUtLaGpjTjk5akpRdWJZX1R6cXlYT29kMmZuR0NUZDNSNDVCNDJYc0U2U2d4LXRKVFo0WlNfTVJrWjRBWlFyVHpNZHR0aEo2WDFielF0bWp1dVpvVlBn?oc=5",
+          "pubDate": "Sat, 21 Mar 2026 22:02:19 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "putin-ukraina-5",
+          "sectionId": "putin-ukraina",
+          "sectionName": "Putin / Ukraina",
+          "headline": "Russian Occupation Update, March 19, 2026",
+          "source": "Institute for the Study of War",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYkNLWFpWMGFEdjJUMVd0RVZBVHQ5alo0VTBJYnJPanhEdFk2NzJfSHVJaF9MUnJ0RkU1TE9aSGtaRlFobTlJRmdRM2pjUldjR2ZtbFVhQ0dDcVpvVG04UUtCbGJOTWNwMHVwY2paZlpKbXRDSUQxMFQ5NFoxdHZoUEVYcEcwTlZZc1NRcHhuel9OcE1BeUFkYg?oc=5",
+          "pubDate": "Thu, 19 Mar 2026 19:28:35 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "putin-ukraina-6",
+          "sectionId": "putin-ukraina",
+          "sectionName": "Putin / Ukraina",
+          "headline": "Ukraine’s Zelenskyy urges allies to pressure Russia ahead of US talks",
+          "source": "Al Jazeera",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMkUxQi1qdDFlbTVUTDBZVmxlS3pkekhEeWl2TTl5XzgyaGpFczJ5M19oZWFraEhWajUtZ2lHSThaWnE5UTkwLUtVQ1JCWnB6UEtNSnVtQnlHTzBNN0d3ckJtLUhBTTI0clR4MkhyMW0wUWpGVFVwRjJFWmI2dFVwVl9uV3h5Z0Z2RmVETzNldEZ5bDVkWTgtNnZmMW53TlIyYVVwdGFCNVZfclBTeXfSAbMBQVVfeXFMTWVoTlhIaVlsM05pTFNFTFh2WTFUdDYySk9PaGxRZ2JGbXE0b2pLQVRmTEdicEExRVNIT2N1Y2lNTklxZTdMZEJRWmFyTWtPeW5wQUE4dnFJX3VWbEdvamVjd1NsZTFkVnR0cnRZMmp4bEhJV1hzS3RWanRPZVo0dDZYMmFvdWtVZlZvUkZkdjR2RzZ4XzlHLXAyV2NCc2tPQzVtdEhhYjdZUFBoRlVnRzNNTkk?oc=5",
+          "pubDate": "Sun, 22 Mar 2026 17:45:23 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "putin-ukraina-7",
+          "sectionId": "putin-ukraina",
+          "sectionName": "Putin / Ukraina",
+          "headline": "Russia bombs UNESCO site as Putin escalates attacks on Ukrainian civilians",
+          "source": "Atlantic Council",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaEFYWG9HVkNlYUgxS2ZtbzQ5bzlyVjcyVUFTQkRMOHlpZExVcjV1d1Nfd0x1YWMtSGFMMjRDbnltSUgyLXRadVFvS0xhMVU5cjhRWVNDMHh5ZEJYbV9uOTNpV2dDTktnM2xtb1VOeUNtY2x6d3EweVZQemhkamxFVFZNRUR5SUNuOGhXbHp1NDIwbGhJR25qUktfOC1ZVDNudkd0R0oxX2Vkc3UwM1FyRWtzenNIS0ZqcFdhdkpiQ2s5aS11?oc=5",
+          "pubDate": "Wed, 25 Mar 2026 03:39:27 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "putin-ukraina-8",
+          "sectionId": "putin-ukraina",
+          "sectionName": "Putin / Ukraina",
+          "headline": "Ukraine war briefing: Russia trying to ‘intensify’ attacks; US-Ukraine talks end",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUEF6NEtIZlpqYkNoVWprTGRqVThNbGRQdXJJMUlqQXFRWmN3d2tYc2staWRMYUVxQ0dldVROTjlSSjRDdUlZcnhuWjRDS0RpZkFxMlc3WnB1aU5veElPajNjNk5sbktGQzh4aF9sSDZORS1aZkN5TlF0RGpxYmliZEFTNGtDcHVfLXdnSS16OWhqMzBCeXpCSl92b19DZXExLWlXb2pOT1dJa3N6eWJZWmd6ZjZucm5qeGpZN3NwMA?oc=5",
+          "pubDate": "Mon, 23 Mar 2026 00:33:00 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        }
+      ],
+      "summary": "Ledande rubrik: Belligerent and Beleaguered: Russia After the War with Ukraine. Därefter: Russia continues to gamble on the tragic prospect of an endless war in Ukraine. 8 nedslag från 8 källor."
     },
     {
-      "id": "item-3",
-      "headline": "Majorities of Americans think Donald Trump is arrogant, opportunistic, and reckless",
-      "source": "YouGov",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYzlUSmtjR3BmMEsyc3hnLV90cjhlZU9reG9XT1J5MERTN2Y3VTRDaW9yLXFZSXdOSzcwbl9oWkJKdXZQUFFuV2tzZlJVdGpnVUxRZkZRV1RFaG05SFZiQy12RTJPcTdLNkctcVNYSnBJb1g5VGdNc0tmWFUxbWR0SHBNM3ROZWJfcFkwUjF6aWNDM3U2aUE5NVZOYzBheC0tVF9ZNV9lYi1iVTYtN1pXNQ?oc=5",
-      "pubDate": "Wed, 18 Mar 2026 19:34:51 GMT",
-      "description": "Majorities of Americans think Donald Trump is arrogant, opportunistic, and reckless YouGov"
+      "id": "iran",
+      "name": "Iran",
+      "label": "Regionen håller andan igen",
+      "description": "Iransk maktpolitik, säkerhetsläget och det eviga frågetecknet kring vad som eskalerar härnäst.",
+      "sourceLabel": "Google News RSS: Iran",
+      "feedUrl": "https://news.google.com/rss/search?q=Iran+%28regime+OR+Tehran+OR+nuclear+OR+military+OR+protests%29+when:7d&hl=en-US&gl=US&ceid=US:en",
+      "items": [
+        {
+          "id": "iran-1",
+          "sectionId": "iran",
+          "sectionName": "Iran",
+          "headline": "Opinion | I Spent Two Decades Securing Nuclear Materials. Here’s What It Would Take to Get Iran’s.",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rb1RlRXhrYVRfRnFMUkFVN0ZBUGtmalJ3ZDVCQkhMRzR3WFpzX3Y4VjBfTmdwMWZHTi05UGRUZ2EzMTR5cmU1Y19PNVV0Mm9sRC1ISUVuVWo0YWlFaVpfOVhod19YSTlvLWRXZy1NdkdaTm10UDVwTXlMUmViaVE?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 15:00:13 GMT",
+          "description": "Opinion | I Spent Two Decades Securing Nuclear Materials. Here’s What It Would Take to Get Iran’s."
+        },
+        {
+          "id": "iran-2",
+          "sectionId": "iran",
+          "sectionName": "Iran",
+          "headline": "Tit for tat strikes against nuclear plants in Iran and Israel - ICAN",
+          "source": "International Campaign to Abolish Nuclear Weapons",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RaUhJbXROTmxUZDFpeHBET1hQU1ZLQl8tcGRTZzVuNEtyeFQtVGNwZ0Qxa3Z4d3g4cXpMSTJJM0JPQldrVzZGdVcyRGdhM0NvYmdyalhDMlp1aWZpQnpzOUVvcUYya2d6emUw?oc=5",
+          "pubDate": "Mon, 23 Mar 2026 14:50:33 GMT",
+          "description": "Tit for tat strikes against nuclear plants in Iran and Israel ICAN -"
+        },
+        {
+          "id": "iran-3",
+          "sectionId": "iran",
+          "sectionName": "Iran",
+          "headline": "War in the Middle East: Iran nuclear facility hit as equivalent of ‘one classroom of children’ killed, wounded daily in Lebanon",
+          "source": "UN News",
+          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9QYTczUVR4WFhXS2I0d0RXdExuZWpsaV95cWdyOUl1NEZaTmNIc21yWkllOGRVZnE3LUVTR1JUT2VMei12X0libnQwZ2RrLXlwTHlNTFA1WQ?oc=5",
+          "pubDate": "Sat, 21 Mar 2026 18:34:24 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "iran-4",
+          "sectionId": "iran",
+          "sectionName": "Iran",
+          "headline": "Revisionism at Fordow: Why the WSJ is wrong about the history—and future—of Iran's nuclear program",
+          "source": "Bulletin of the Atomic Scientists",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPYkoteUhNMzRQTVdiZ0NQa2pxQlFnMEM3YUFsUzZMYXhvR2wwVlA2ZXVCdWwxZzk1cVhCY2tJZ3BhX1FyVkdYN0JmdHgxMFl0bHRiM2Jac0xxRW9yUVpRYndsRl9uNXFTRkx2SmFNbVhhSnhQVmgxZm5QZTZpWjR4TGQwdVNld1hTLTN0Q3ktdFRZWnFrN3R0RFVVRjg2S21xb3QxaW1CWjR6N2Fldm9HcmNLVWE4MFBPRGFqZTZUQXEwaER6SlpocA?oc=5",
+          "pubDate": "Wed, 18 Mar 2026 11:57:17 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "iran-5",
+          "sectionId": "iran",
+          "sectionName": "Iran",
+          "headline": "Trump is strategizing means to seize Iran's nuclear stockpiles, sources say",
+          "source": "CBS News",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR3ZTZXJrSXBDcTYwVG1xZFVLVWxMZ2lRVVhydFRhTlRPX0Rad3JrS2UtelAySVZhYXZYTUtySENMYzlyWWJiU0dPZUVZQkU5OUY1YVhBZWZaU3RmY1FjZ1dWSEJYVTFySFpldlRMUWdadmJxSEtFMl9UdGV4TW5pUUVXS0k2eW5NWm14ZThVcUF0b1Y0X0VUNm5sSk5tQ3hPd29QQ0xR0gGrAUFVX3lxTE5IMVJmYVJTSkVfNnBWZzkxRURhMFFLWlExb19WOTk3dmpoV0lPeGJhMm16SkNZRkFXa3VPV2FwMGNGVzlFVFItY0JUYlc1UGE5d1Fld2VxMlppWGlKRE9wMHJkY3NGYXdET2c0bHJOdVBiRkIzTGx3NjN4X2czNE5zRFBHS2RDbGhFMFMtTV85dU11TUE4cTFOTmhIamRkVXlPRFBSM3F3OS1jVQ?oc=5",
+          "pubDate": "Sat, 21 Mar 2026 01:41:00 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "iran-6",
+          "sectionId": "iran",
+          "sectionName": "Iran",
+          "headline": "Inside the breakdown of U.S.-Iran nuclear talks",
+          "source": "WBUR",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYmpwWU1yVkxPRmlNQVl1aTV1UkRodFVVcmUySzlQUWFxZ2NXVmd1Q1Z2MlFUeFNISFFIb3E2dGlEU3ZkeS1JZl9scEEwS1c1cHlOM19TYjFzX25EaWRubXFtNXppWkNyWUpudlp2NGhwNFEwT3ZCMFkzZzRLbnZoMHFtVjNmMU5SR0Z3QmNtOA?oc=5",
+          "pubDate": "Wed, 25 Mar 2026 01:26:12 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "iran-7",
+          "sectionId": "iran",
+          "sectionName": "Iran",
+          "headline": "Israel wants to destroy Iran’s nuclear program. But should it have nuclear weapons itself?",
+          "source": "The Conversation",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUXdld3VSMnJTb1FDMFVhN1h3N1NnNDJ6RjJ2Sjh4ZmFzZG1QYUhLUUEydTZfN2VyVERfSmx4ZURJWjVhUVN3WHVSSkZfVUhpa2dCeTRNU1I4c1hjVm9lZFR3d0pYYklzLWRXWndFU3pKa3lSMnNLLW56TlNZZ2VhQ2NxR0I4Vld4bmNlMjhWTHJnTFB0V2tRaVZsS0NqaFB4ZnAtdV9Yc3V6bURROUlkNWwyY0R5MWljM0xLaE1Bcw?oc=5",
+          "pubDate": "Tue, 24 Mar 2026 19:08:40 GMT",
+          "description": "Israel wants to destroy Iran’s nuclear program. But should it have nuclear weapons itself?"
+        },
+        {
+          "id": "iran-8",
+          "sectionId": "iran",
+          "sectionName": "Iran",
+          "headline": "The Iran Strikes, Explained: How We Got Here and What It Means",
+          "source": "American Jewish Committee",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
+          "pubDate": "Mon, 23 Mar 2026 07:00:00 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        }
+      ],
+      "summary": "Ledande rubrik: Opinion | I Spent Two Decades Securing Nuclear Materials. Here’s What It Would Take to Get Iran’s.. Därefter: Tit for tat strikes against nuclear plants in Iran and Israel - ICAN. 8 nedslag från 8 källor."
     },
     {
-      "id": "item-4",
-      "headline": "WATCH: Trump meets with Japanese Prime Minister Sanae Takaichi at the White House",
-      "source": "PBS",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN0liM0FKMjdCakJpbFUtdGxkc2kzeWxWdzhRelA0VGdWTlZoM0I3TG81SUVNRkNabGhHMEJWSTNaZjBwalg0RThDODJTUS1PS0pveEt4Q1NaYi1WeXQ5UXlTcWxRVGVMRVdyTm9pQVFTajVQbHdNU1VOV3huQnB4SEFOY1docDdGaUE3b0tCX1BzcXVGWUZqUUJvTHpCN0xpNi0xOGx5X0t1UnZFSlVJdFB1bzI4dGliSGRLc9IBwgFBVV95cUxNUDVQaWJkdUtOUHRwTTQ4MExkUW1QcDM0OWlYWHZtaWpZeDFjNHNVQTNKRUJLb0RDOVUxOGJobUJPaVNDU1cxMkR2UnowMGMzSEVFR2FfSUdnRXV0dU43cDR5ekpJZllsWGlVV29sdHQyUHZJTEloN0YtYjJVMXVFdTBsZEJxb3NLMlNVeTNsWnVHZ1Q2ZkVsNmFhVVlQMlRpbU9zUWpqZ09XdXVHNzF5NnJjX2RKVHYybU9aSkQtbUVyUQ?oc=5",
-      "pubDate": "Thu, 19 Mar 2026 14:25:24 GMT",
-      "description": "WATCH: Trump meets with Japanese Prime Minister Sanae Takaichi at the White House PBS"
+      "id": "orban-eu",
+      "name": "Orbán / EU",
+      "label": "Illiberal administration, kontinentalt tålamodstest",
+      "description": "Ungern, EU-bråk, veto-hintar och den där ständiga frågan om hur mycket institutioner faktiskt tål.",
+      "sourceLabel": "Google News RSS: Orbán / EU",
+      "feedUrl": "https://news.google.com/rss/search?q=%28Orban+OR+Orb%C3%A1n+OR+Hungary%29+%28EU+OR+Europe+OR+Brussels%29+when:14d&hl=en-US&gl=US&ceid=US:en",
+      "items": [
+        {
+          "id": "orban-eu-1",
+          "sectionId": "orban-eu",
+          "sectionName": "Orbán / EU",
+          "headline": "EU calls for clarification after Hungary accused of leaking info to Russia",
+          "source": "Al Jazeera",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSXpCNFZxclBaV0s1RkpRSk1BdUY4SHFNV2Zlbkc3TDk1QVV1Rm9qMEo2UjhzU05nTm5ON01Yb1BFU3h6Z0ZJM0Q1eW9xVENyQlliLXY5WWNnVmlQUklIQ1NRY0NHYl84d2lqQWFBTTJTdXRsWUw0RzRrN2ljUE9WZnZKblJqUjk4UVFhY2RkR193Wm9KR3RmSkVJaW85ZHAya3hNZF81eEhORjhjTGlLS2wwUHZIQdIBuwFBVV95cUxPMXBmcVRwT1JBaDFfSGk0YS1KZmVXSmp0bjc5Y2hmd1dBbkllSVVsV1NvOEJFMlZISzR5NzNQZ2licWQyRXd4MVoyTV8xNWJnXy1oQ3dxZFlYczUxNHdlYTFYcXVES3ljUld6OFM0NFlKWTJYOWdEMzJWTzkxbGhKaVlEMGZJVTZGM3NGOTZDNkpiM2dVWXJScnIzZmNONWFBWTdZdGNkZ25qcGFVeS1McXQ1Q0JlQVA0ZzdB?oc=5",
+          "pubDate": "Mon, 23 Mar 2026 18:42:27 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "orban-eu-2",
+          "sectionId": "orban-eu",
+          "sectionName": "Orbán / EU",
+          "headline": "To tilt Hungarian election, Russians proposed staging assassination attempt",
+          "source": "The Washington Post",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNbWFpNm11bm1aZXh5NlJsUkRtYVp1dWZvYVhRNWJPbzZScUxjMHJlR1YzWjBWOU9xNUJtMVFqTGYwZmRmQnRnWUg4TlI3Z2pVUWlCZWROTjFMa0UzclZiLWJTeG9NMlAxNnJ6dmpRNDVmMlZfb0V5S19KNnRGU3BBZmpuZTlfaVYtN3dORUFWdkxNMk1ZdkE?oc=5",
+          "pubDate": "Sat, 21 Mar 2026 16:00:00 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "orban-eu-3",
+          "sectionId": "orban-eu",
+          "sectionName": "Orbán / EU",
+          "headline": "EU cuts Hungary out of sensitive talks over leaking-to-Russia fears, diplomats say",
+          "source": "politico.eu",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1qdVpvR2RQY29BaFg1cDBJenpGSXpveno5LWxiX3RHT1A0b3Z3cHdMOTF5MFdtSDhFSXhENWZDaWMtTG9ZalhNbXR3RkpoTm5HYXRuU21ueElWcElNQUtuMzdMY1NocEU4UWlFX1hqVUdzN1RuQk9OWWRPQQ?oc=5",
+          "pubDate": "Sun, 22 Mar 2026 21:52:00 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "orban-eu-4",
+          "sectionId": "orban-eu",
+          "sectionName": "Orbán / EU",
+          "headline": "EU leaders vent anger after Hungary's Orban keeps blocking Ukraine loan",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ1pjRkF1QVFJTmJ4S241SnlUcWZfY09oV2k5YkJqUWlQQ3FHS0FMTzRRZ0xCNFN3cDFpNDZOd0VLLUR5clF6QldyeHh3Q0NkVU5hMVMtN2hKc2ZtaXZnWlJwZEMwM2ZXWlBqTnM5OEhYQk80N09KdnlSRmxzZlgtZXdmS21kc2R4MGRHUjBLTEo0dlhtYklzMHVoSGZYdE83OUdhbkpnRjltNXc?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 08:39:18 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "orban-eu-5",
+          "sectionId": "orban-eu",
+          "sectionName": "Orbán / EU",
+          "headline": "EU leaders blast Viktor Orbán over a Ukraine loan veto, accusing him of playing election games",
+          "source": "AP News",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUW5qZHlHSU81Rmc3eGIxYVJ1YmJnSDcwQ2NJd2ktVGR6MFdENjctT3BmLVhrckNnZ0ptcDBrTEdyTXlTQW53VHFQN3g4d3ozZFRIb0gxcEkxbEZrWHc0OWNDQXFjYXU4V3pkVXhnOElNQlZhcFprcXFpWmNyQXBVVzhoR0xZVV9HcV9pVnd4QXBneVB4NG9Hc2JYYUljbkQ4TFVza3JfYw?oc=5",
+          "pubDate": "Thu, 19 Mar 2026 17:26:00 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "orban-eu-6",
+          "sectionId": "orban-eu",
+          "sectionName": "Orbán / EU",
+          "headline": "EU summit: Hungary holds Ukraine aid ransom over Druzhba oil",
+          "source": "dw.com",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX3ZISUFnakoyak00eTZkd1RJRnllMV95V00tdFlwa292N1RLZDJraU5XblhVMUpOOEFCNDJmaEJMZzl0SWtmY0d0QXEtY1FvYzZ6NW55UEozTk84aXA2eDNOLVR6WU9wOFdUaEFkYmp1VjdtU0t0WE5UbEpoY0RrTkNpbjhjNXExRFo1UVZmMllwZjhLR1VXUml5QQ?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 00:06:43 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "orban-eu-7",
+          "sectionId": "orban-eu",
+          "sectionName": "Orbán / EU",
+          "headline": "POLITICO: EU Leaders Expect PM Orbán to Win the Election",
+          "source": "Hungarian Conservative",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb1BEYjVpYk1SUDBBNHBSUmEwdWxtTnFtOExkcEZmN0NiZXZrSHJtM0Zkb19Wa1FOVDlJLVBDMDZYTjFBUXJYcEg5bldueGpXRGJabUNUVllFMmcyN0hxY3NFUGFhMVRoN0p4OFQ5Vk1fSDgtb25xNFhBX2tIeFZWWlNLNUdqaTBNQWJ2MHl3V19HZFR0Mk5OWHJ1cVJwY1cydlc3cw?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 15:01:52 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "orban-eu-8",
+          "sectionId": "orban-eu",
+          "sectionName": "Orbán / EU",
+          "headline": "Hungary's Orbán accused of disloyalty and blackmail over Ukraine loan veto",
+          "source": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CclBmdWtRQ2tGaS13VThKUTU1STdhazJ0V2xJQmtQYUhCaUFOUEtQcVFHdHY0aEtGLXZIRTBtbVlNaE5fMm9GQ2lXdFhoSklGcm5uSlBCa01pZw?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 15:34:19 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        }
+      ],
+      "summary": "Ledande rubrik: EU calls for clarification after Hungary accused of leaking info to Russia. Därefter: To tilt Hungarian election, Russians proposed staging assassination attempt. 8 nedslag från 8 källor."
+    }
+  ],
+  "sources": [
+    {
+      "id": "trump-usa",
+      "name": "Trump / USA",
+      "sourceLabel": "Google News RSS: Trump / USA",
+      "feedUrl": "https://news.google.com/rss/search?q=%28Trump+OR+%22Donald+Trump%22+OR+White+House%29+%28USA+OR+Congress+OR+federal%29+when:7d&hl=en-US&gl=US&ceid=US:en"
     },
     {
-      "id": "item-5",
-      "headline": "Donald Trump heads to Elvis Presley's Graceland in Memphis",
-      "source": "NBC4 Washington",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX1phOGE4dVdRZWZJdjY1eXlmT0xKS2sxRGpoMHJUMGlkWS1ZaWV2Ukt3QVJxTFJYOUNLak1PaS1oMkFJRE9lZFoyblZXdWkxUUlZU0NWanFuSUhoWkstNl9EMW1hN3ZwWjQwVkVHQTdiSUNoOWRoRDVIaTlnelBDV3dNUFowUDNfdGdGTHpPcFQ1OFRtTzc3NnFsR0tQRkJySWE1UFV5RzFSM1IxVW01bdIBuAFBVV95cUxQYktDUGNCZjBJeloyckdtSTJUaGRvWW5aSnRuR3R4VGJyRWpBNXQzT3lFM3FBNEZ6bmtnSExYcnVXT2NaZW5iQWMzYm16VjFVVWxzZlMyZm9tMVVmQUNQMEd5OTduVEcxWnR2UXlvTU96ZEktMjIzYldVZVBvdWltcFhaelB0aU9xT3A0NHBqV2t1S0tpRUV5M0lPdlROMzlFVGFUR051Q2JyWXNacnV4SnREckRIOW84?oc=5",
-      "pubDate": "Mon, 23 Mar 2026 19:37:19 GMT",
-      "description": "Donald Trump heads to Elvis Presley's Graceland in Memphis NBC4 Washington"
+      "id": "putin-ukraina",
+      "name": "Putin / Ukraina",
+      "sourceLabel": "Google News RSS: Putin / Ukraina",
+      "feedUrl": "https://news.google.com/rss/search?q=%28Putin+OR+Kremlin+OR+Russia%29+%28Ukraine+OR+Ukrainian%29+when:7d&hl=en-US&gl=US&ceid=US:en"
     },
     {
-      "id": "item-6",
-      "headline": "All 100 Senators swore an oath not to Donald Trump, but to the Constitution.",
-      "source": "Senator Cory Booker (.gov)",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdnF6VVBJQ1FxQTJWdmZXYVFtUGpGdUd6VC1xV3Bib2Jna0VOUlRZV1dGRzd3VEo4N0NmSXNzV01WWWQ5U1V1cXF4S3ZqQzNMX05kQnJjc0FIVzU3N0FqMmFaaXY3X2dSbWdnRkZnM3FXNlVLWWQ1NFB5S0ltbDhtYXdRSUZ3aFZaRUJ0UWxwSDMxSWxCWE9mWTRCZzQ5SWRDTkNSc1dYaFlWdU91TFE2UUQxR191bV9ycktyQWE2QQ?oc=5",
-      "pubDate": "Wed, 18 Mar 2026 23:53:59 GMT",
-      "description": "All 100 Senators swore an oath not to Donald Trump, but to the Constitution. Senator Cory Booker (.gov)"
+      "id": "iran",
+      "name": "Iran",
+      "sourceLabel": "Google News RSS: Iran",
+      "feedUrl": "https://news.google.com/rss/search?q=Iran+%28regime+OR+Tehran+OR+nuclear+OR+military+OR+protests%29+when:7d&hl=en-US&gl=US&ceid=US:en"
     },
     {
-      "id": "item-7",
-      "headline": "War in Iran is making Donald Trump weaker—and angrier",
-      "source": "The Economist",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdTRXVkUybnZwcjBTSGJXR3dUZjdpeXdJQ0tBTGZjeFhqLW1iaTFOR2djbnUtNEZYNzVYYk4xVmJ1clhZR2ZycVUzdmE2NV9YUzRtRkxkeXJuZmx6XzVqR3c4M210dkt4TjVURWdHV0l6RDQ4c0Z2SDNLMnBuOTJyNk5yelVVMU8zb1VpZUFBSzRQanFRV21sMElSMnduMlE?oc=5",
-      "pubDate": "Thu, 19 Mar 2026 11:08:45 GMT",
-      "description": "War in Iran is making Donald Trump weaker—and angrier The Economist"
-    },
-    {
-      "id": "item-8",
-      "headline": "Donald Trump Is Nothing Like Robert Mueller",
-      "source": "The Atlantic",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX25lZ0VURjRfekhFSGRqbWFySjMyM01RTllzQjI3UG1Nb0FuTTUxRjlRNkM5ejZHNmJnREpfM3ZRWjFjVF9QdkFJeHQ3ZFdyRmRDMmFNMkx2MzJwMkk2SDhMNndyX0twWU9fa25OekIyNkhsU3h3cnhKS0pIX2E5Zm5GUWd0bGh4RWJTUHU1Q2FoMFo2LVo2Yw?oc=5",
-      "pubDate": "Sat, 21 Mar 2026 21:15:09 GMT",
-      "description": "Donald Trump Is Nothing Like Robert Mueller The Atlantic"
-    },
-    {
-      "id": "item-9",
-      "headline": "US arts commission approves gold coin stamped with Donald Trump’s face",
-      "source": "Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZEZ1ejRaNnF3WXZYZ01mY0pvQUFhb3NpWjFVSFZvcFZLTWVZLXl4QmdZcm83cWNoX2dUQzBOeTdVWUZIQ0Jla3VNTmwxZDNSWUkzbnE5dlJaWlVhNzV0LThCTThPYUZtY2xxbTJleUNoakJMWGxwQ3dRVXAyY1lPTExidHBpWm1oU2hwd3dwdGN6LUpZX1dGbkV6NjRZMDJXcXRvcjB6aFFraVp3dTR30gG0AUFVX3lxTFA0RmliYkg5SnNnMFNFOWkwYzA4alhIQl9FTzlucUVqMldEeEQ1ODZndnN0dEI5anhOR3JwcHdGVVZKY2pzSDRRSTFmWldMd05URVVVR0Nfa2k5V05sUlJHVWN2RjNSeTJQa3NYTUpockRSN2hrdGtwUzR1T2l1ZEZURDNvV0ZPMlUxRXA5cGxqX3Jnbm8ydUJRN2ZvN253RTlVaWVPbmZ2YXM2b2hwQ3dWcHpqTw?oc=5",
-      "pubDate": "Fri, 20 Mar 2026 00:03:04 GMT",
-      "description": "US arts commission approves gold coin stamped with Donald Trump’s face Al Jazeera"
-    },
-    {
-      "id": "item-10",
-      "headline": "Donald Trump, barn baby",
-      "source": "The Statehouse File",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbGlnSHp5T21yUXpPUW5pTTYxVk5kZzQ1aXVoZEs1eURHUEJoeUNmOGFhaUpoNWV6Zl9wby1HZXY1bFMxUjZhckkyd3U5N29zeVd2NjlQOUpSWUJCel8tLTJUcWVtdEdLUEItSGtINGVFYXlxaFB1MnF5YnN6RHNwUnBYMkNCOVZndUF4N2RqM3hoQmVmcHVCSFdzb2pXTkRRcUVaaDVPNjFWamZDU05Ebi03cFlYUkJq?oc=5",
-      "pubDate": "Mon, 23 Mar 2026 20:30:06 GMT",
-      "description": "Donald Trump, barn baby The Statehouse File"
-    },
-    {
-      "id": "item-11",
-      "headline": "The tightening 2026 midterms, Donald Trump, Iran, and more: March 20 - 23, 2026 Economist/YouGov Poll",
-      "source": "YouGov",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSFN3aGJ0VzNnZS14eTRhSUlUM21VVTFCcGxvV2hJUzhocGwtd0FBckF4VElTOXBucUNJcHdBR1RFVVg2U0VkcEZDMDd0WUs5Z1ROM1VCaGh5TEduSnZZbzZlOTFGcVJDTmtEeHgzZXN4dWdRdG1PZkJkdHAwT3h6aHY2MkUxam5rMnhaQ1BJdzE1aVpxbTk4RkItQkNRMGR0TG5oLUgzQ1dScEVXcC1kWkVjV1l3SVE1YnpWTkt3?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 17:50:18 GMT",
-      "description": "The tightening 2026 midterms, Donald Trump, Iran, and more: March 20 - 23, 2026 Economist/YouGov Poll YouGov"
-    },
-    {
-      "id": "item-12",
-      "headline": "WATCH: Trump claims U.S. and Iran are holding talks, Iran wants 'to make a deal'",
-      "source": "PBS",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNUpmUVpPU3VOM2p6Tk0ybjlmU1VBRVUyRWxlR3JBVEtPV3lMQ2NsX3ZIalJiaXZ3bG5Rdm5jcUdLUnB5R1hjWnFQQWp0YUtmbXVsSlZmVlNXOW15ZzVYYk4wR0V3cUNpVTdnV3dadTRVa1VVekJpRVFxRXhXd2QwUkowOVp0MXFrVmE5SkFFQUl1LUcyOVFqTnBWNXhGNG9nYUhiTWw3dkdTQ3hHdWMw0gG0AUFVX3lxTE5YT0c2SG9tcUI1NE83MXg2NzZSVjc5UnZvbk5XMUlHRHV2Q3NHS25mWXVUQTNQWFlxUy1oQVZYVl91NVZ4QTZ3blZkVFpaY0I2TGtuT0F6Ul9QVGR2Z2llT3d3OFpGRUotOUhhNGN2X1IwSTFvRFBsZkFDeEJ2RVp1cFlNWno4d3RzVGVubFFBdDhFRHpLSUhQSXJwejZJNXEyTjBxdmtCejVRMy1CNl9BellUMg?oc=5",
-      "pubDate": "Mon, 23 Mar 2026 16:24:03 GMT",
-      "description": "WATCH: Trump claims U.S. and Iran are holding talks, Iran wants 'to make a deal' PBS"
+      "id": "orban-eu",
+      "name": "Orbán / EU",
+      "sourceLabel": "Google News RSS: Orbán / EU",
+      "feedUrl": "https://news.google.com/rss/search?q=%28Orban+OR+Orb%C3%A1n+OR+Hungary%29+%28EU+OR+Europe+OR+Brussels%29+when:14d&hl=en-US&gl=US&ceid=US:en"
     }
   ]
 }

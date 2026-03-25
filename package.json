@@ -2,7 +2,7 @@
   "name": "orange-horizon",
   "version": "1.0.0",
   "private": true,
-  "description": "A sunrise-themed static feed for recent Donald Trump news, updated hourly.",
+  "description": "A static Swedish morning brief about global chaos, updated hourly.",
   "type": "module",
   "scripts": {
     "update-news": "node scripts/update-news.mjs"
