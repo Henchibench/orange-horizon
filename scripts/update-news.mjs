@@ -20,6 +20,7 @@ const xml = await fetch(feedUrl, {
 
 const decode = (text = '') => text
   .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
+  .replace(/&nbsp;|&#160;/gi, ' ')
   .replace(/&amp;/g, '&')
   .replace(/&lt;/g, '<')
   .replace(/&gt;/g, '>')
@@ -29,7 +30,14 @@ const decode = (text = '') => text
   .replace(/&#x2F;/gi, '/')
   .trim();
 
-const stripTags = (text = '') => decode(text.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
+const stripTags = (text = '') => decode(
+  decode(text)
+    .replace(/<a\b[^>]*>([\s\S]*?)<\/a>/gi, '$1')
+    .replace(/<font\b[^>]*>([\s\S]*?)<\/font>/gi, ' $1 ')
+    .replace(/<[^>]+>/g, ' ')
+)
+  .replace(/\s+/g, ' ')
+  .trim();
 
 const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].slice(0, 12).map((match, index) => {
   const itemXml = match[1];
