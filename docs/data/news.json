@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad ungefär varje timme.",
     "note": null
   },
-  "generatedAt": "2026-03-25T22:30:12.905Z",
+  "generatedAt": "2026-03-25T23:30:09.750Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Världen på väg mot något värre",
-    "intro": "Trump visar klassificerad kartmaterial på privatflygplan medan han förhandlar fred med Iran han inte faktiskt förhandlar med. Samtidigt bombar Ryssland Ukrainas kraftverk, Orbán stryper gasflödet till Kyiv, och Mellanöstern håller andan inför nästa eskalering.",
+    "title": "Makt, krig och energikris på samma gång",
+    "intro": "Trump visar klassificerad kartmaterial på privatplan medan hans backyard flippar blått, Ryssland bombarderar Ukrainas energi och grannländers elnät går svart, och Iran förnekar förhandlingar medan världens oljemarknader skälver.",
     "bullets": [
-      "Trump anklagas för att ha visat hemlig kartmaterial till passagerare på privatflygplan 2022 och behållit dokument så känsliga att bara sex personer i regeringen hade tillgång. Vita huset förnekar anklagelserna, men demokrater kallar det 'förödande'.",
-      "Ryssland intensifierar bombningen av Ukrainas energiinfrastruktur med nästan 400 drönare och 23 marskrydsningsrobotar på en natt – en av krigets största luftattacker. Moldova förklarar energiberedskap efter att en kraftledning genom Ukraina skadades.",
-      "Iran förnekar att det förhandlar med USA trots Trumps påståenden om 'mycket starka samtal'. Teheran kallar amerikanska fredförslag 'maximalistiska' och ser dem som försök att köpa tid för militär eskalering.",
-      "Orbán hotar att stoppa gasflödet till Ukraina om Kyiv inte återöppnar oljepipelinen till Ungern, bara två veckor före ungerska val. Han blockerar samtidigt EU:s 90 miljarder euro-lån till Ukraina."
+      "Trump anklagas för att ha visat klassificerad karta till passagerare på privatflygplan 2022 och behållit dokument så hemliga att bara sex personer i regeringen hade tillgång.",
+      "Ryssland genomförde massiva drönattacker mot Ukrainas energiinfrastruktur och träffade en kyrka i Lviv, medan ukrainska drönare avvek in i Estlands och Lettlands luftrum. Sloviansk evakuerar barn när ryska styrkor närmar sig, och Moldavien förklarade energiberedskap efter att en kraftledning genom Ukraina skadades.",
+      "Iran förnekar att förhandlingar med USA pågår trots Trumps påståenden om \"mycket starka samtal\", medan USA presenterat en 15-punktsplan som kräver kärnvapennedrustning och stängning av Hormuzstränden. Trumps Kina-besök skjuts upp från slutet av mars till mitten av maj på grund av kriget.",
+      "Orbán hotar att stoppa gasflödet till Ukraina om Kyiv inte återöppnar Druzhbapipelinen för olja, och blockerar samtidigt EU:s 90 miljarder euro-lån till Ukraina. Von der Leyen lovar att leverera lånet \"på ett eller annat sätt\" trots Ungarns veto."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump anklagas för att ha visat klassificerad kartmaterial till passagerare på en privatflygning 2022 och för att ha behållit ett dokument så känsligt att bara sex personer i den amerikanska regeringen hade tillgång till det, enligt ett memo från specialåklagare Jack Smith som lämnades till kongressen. Demokraten Jamie Raskin kallade det 'förödande', medan Vita huset förnekar anklagelserna och säger att Trump 'inte gjorde något fel'. Fallet avskrevs senare av en federal domstare på grund av farhågor om Smiths utnämning, och Smith drog tillbaka sin överklagning efter Trumps omval 2024. Samtidigt vinner demokraten Emily Gregory en överraskande seger i en speciell val för Floridas distrikt 87 som inkluderar Trumps Mar-a-Lago-hem – ett område där republikanerna vann med 19 procentenheter 2024. Segern signalerar demokratisk momentum inför mellanvalen. Trump presenterar en fredplan för Iran som han säger måste accepteras eller 'vi bombar bara på', men utan detaljer eller bevis för att någon i det iranska regimen är villig att lyssna. Planen kallas 'maximalistisk' av Iran och avfärdas som omöjlig av analytiker.",
+      "summary": "Trump anklagas för att ha visat en klassificerad karta till passagerare på sitt privatflygplan 2022, enligt ett memo från specialåklagare Jack Smith som släpptes till kongressen. Kartan var så hemlig att bara sex personer i regeringen hade tillgång till den. Representant Jamie Raskin säger att Trump också behöll andra känsliga dokument för att främja sina personliga affärsintresser. Vita huset avfärdar anklagelserna och säger att Trump \"inte gjorde något fel\". En federal domares beslut att avslå fallet baserades på oro över Smiths utnämning, och Smith drog senare tillbaka sin överklagning efter Trumps omval 2024. I Florida vann demokraten Emily Gregory en specialval för statshusdistrikt 87 som inkluderar Trumps Mar-a-Lago-hem i Palm Beach, vilket markerar en dramatisk vändning från 2024 då en republikan vann samma distrikt med 19 procentenheter. Gregory, en förstagångskandidaten, besegrade Trump-stödd republikan Jon Maples. Demokraterna har presterat väl i specialval under Trumps andra mandatperiod, vilket kan signalera momentum inför höstens kongressval. Trumps stöd för Maples och hans Truth Social-inlägg om valet räckte inte.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -63,14 +63,7 @@
           "link": "https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-1",
-          "headline": "Trump pitches Iran peace plan but military buildups rarely veer to off-ramp",
-          "source": "Andrew Roth in Washington",
-          "pubDate": "Wed, 25 Mar 2026 19:41:57 GMT",
-          "link": "https://www.theguardian.com/us-news/2026/mar/25/trump-iran-war-analysis"
-        },
-        {
-          "id": "trump-usa-the-guardian-donald-trump-8",
+          "id": "trump-usa-the-guardian-donald-trump-9",
           "headline": "Could the continent’s far right be suffering from a Trumplash?",
           "source": "Jon Henley Europe correspondent",
           "pubDate": "Wed, 25 Mar 2026 15:20:10 GMT",
@@ -82,6 +75,13 @@
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Tue, 24 Mar 2026 02:26:45 +0100",
           "link": "https://www.svt.se/nyheter/utrikes/kim-jong-un-varnar-usa-vill-erkannas-som-karnvapenmakt"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-8",
+          "headline": "Prosecutors examined whether Trump disclosed classified map on plane after leaving office",
+          "source": "Hugo Lowell in Washington",
+          "pubDate": "Wed, 25 Mar 2026 16:27:23 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/mar/25/donald-trump-classified-classified-map-private-plane-susie-wiles"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Ukrainska drönare tränger in i estniskt och latviskt luftrum från Ryssland under en massiv attack på den ryska hamnen Ust-Luga på Östersjön, cirka 25 kilometer från den estniska gränsen. En drön träffar en kraftverk i Auvere, Estland, medan en annan exploderar i Kraslava-regionen i Lettland. Estniska och latviska myndigheter bekräftar att det var ukrainska drönare som avvek från sin kurs, möjligen påverkade av rysk elektronisk krigsföring. Moldavien förklarar energiberedskap i 60 dagar efter att en viktig kraftledning till Europa skadades av ryska attacker på Ukrainas infrastruktur. Moldaviens premiärminister uppmanar befolkningen att minska förbrukningen, och president Maia Sandu säger att 'Ryssland ensamt bär ansvar'. Ukrainas president Zelenskyj anklagade Ryssland för 'absolut depravering' efter att Moskva genomförde en aldrig tidigare skedd dagtidsattack med nästan 400 drönare och 23 marskrydsningsrobotar, vilket träffade kyrkor och historiska centrum i västra städer som Lviv. Ryssland säger att det skjöt ned 389 ukrainska drönare under natten – en av krigets största attacker.",
+      "summary": "Ukrainska drönare trängde in i estnisk och lettisk luftrum från Ryssland under natten och träffade infrastruktur. En drönare slog i skorstenen på ett kraftverk i Auvere, Estland, medan en annan exploderade i Kraslava-regionen i Lettland. Incidenten inträffade samtidigt som Ukraina genomförde en massiv drönattack på den ryska hamnen Ust-Luga på Östersjön, cirka 25 kilometer från Estlands gräns. Estniska och lettiska myndigheter bekräftade att drönarna var ukrainska men sannolikt avvek från sin kurs på grund av rysk elektronisk krigsföring eller skador i ryskt luftrum. Moldavien förklarade energiberedskap i 60 dagar efter att en kraftledning genom Ukraina skadades av ryska drönattacker, vilket avbryter elimporten från EU-medlemmen Rumänien. Moldaviens premiärminister uppmanade befolkningen att minska förbrukningen, och återställningen av kraftledningen beräknades ta upp till sju dagar. Ukrainas president Zelenskyj anklagade Ryssland för \"absolut depravering\" efter att Moskva genomförde en aldrig tidigare skedd dagtidsattack med cirka 400 drönor och 23 marskruisiler, vilket träffade städer över hela västra Ukraina och dödade minst sju personer.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Irans utrikesminister Abbas Araghchi säger att landet inte förhandlar med USA för att avsluta kriget och 'inte avser' att göra det, trots att Trumps pressekreterare säger att samtal är 'pågående' och 'produktiva'. Araghchi säger att USA skickar idéer via medlare, möjligen hänvisande till en 15-punktsplan som USA rapporteras ha överlämnat till Iran. Utan att explicit förkasta planen upprepar Araghchi några argument från ett fempoäntsmotkrav från en namnlös iransk tjänsteman. Kriget började den 28 februari med amerikanska och israeliska luftattacker, varefter Iran vidgade fientligheterna genom att attackera amerikanska allierade i Persiska golfen. Enligt Israels kanal 12 måste Iran uppfylla ett antal krav för att kriget ska avslutas, mestadels centrerade på att stoppa kärnvapenutveckling – en anklagelse som inte stöds och som Iran alltid förnekat – och att eliminera hotet från sitt missilprogram. Förslagen kräver att Iran 'åtar sig att aldrig sträva efter kärnvapen', lovar att avveckla kärnfaciliteter och överlämnar berikad uran.",
+      "summary": "Irans utrikesminister Abbas Araghchi säger att landet inte förhandlar med USA för att avsluta kriget och \"inte avser\" att göra det, trots att Trumps pressekreterare säger att samtal är \"pågående\" och \"produktiva\". Araghchi sa att USA skickat idéer via medlare, möjligen hänvisande till en 15-punktsplan som USA rapporteras ha överlämnat till Iran. Planen kräver att Iran åtar sig att aldrig sträva efter kärnvapen, demonterar kärnvapenanläggningar, överlämnar berikad uran till IAEA, begränsar sitt missilprogram i räckvidd och kvantitet, slutar finansiera.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -182,7 +182,7 @@
           "link": "https://www.bbc.com/news/articles/cly9nz5vyz4o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-11",
+          "id": "iran-al-jazeera-rss-14",
           "headline": "Trump to visit Xi Jinping in China on May 14 and 15 after Iran war delay",
           "source": "Al Jazeera RSS",
           "pubDate": "Wed, 25 Mar 2026 20:20:16 +0000",
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Ungerns premiärminister Viktor Orbán hotar att stoppa gasförsörjningen till Ukraina om landet inte återupptar oljeflödet till Ungern via Druzhba-pipelinen. Orbán, som lett Ungern sedan 2010, framförde ultimatumet inför ungerska val om två veckor. Han hävdar att Ukraina blockerat pipelinen i 30 dagar och kallar det för press och utpressning. Orbán meddelade att Ungern gradvis kommer att minska gasshipmenten till Ukraina för att säkra landets egen energiförsörjning. En fullständig stoppning av gasdeliverancer skulle skada Kyiv betydligt i kriget mot Ryssland. Detta är den senaste eskalationen i en dispyt mellan Budapest och Kyiv, där Orbán tidigare blockerade EU:s lån till Ukraina. Ukrainas utrikesministerium varnar för att ett gasförbud skulle kosta Ungern och ungrare mer än en miljard dollar i ekonomisk skada.",
+      "summary": "Ungerns premiärminister Viktor Orbán hotar att stoppa gasförsörjningen till Ukraina om landet inte återupptar oljeflödet till Ungern. Orbáns ultimatum kommer två veckor före ungerska riksdagsval och är den senaste eskalationen i en pågående dispyt mellan Budapest och Kyiv. Orbán hävdar att Ukraina har blockerat Druzhba-oljeledningen i 30 dagar och kallar det för press och utpressning. Han meddelade att Ungern gradvis kommer att minska gasshipmenten till Ukraina för att säkra landets egen energiförsörjning. Ukrainas utrikesdepartement varnar för att ett gastopp skulle kosta Ungerns ekonomi mer än en miljard dollar. Konflikten är del av en större spänning mellan Orbán och EU, där Ungern tidigare blockerat EU:s lånepakete till Ukraina.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
