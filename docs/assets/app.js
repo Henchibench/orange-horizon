@@ -71,7 +71,7 @@ const render = async () => {
       storyFragment.querySelector('h3').textContent = item.headline;
       storyFragment.querySelector('.description').textContent = item.description;
       const link = storyFragment.querySelector('.read-more');
-      link.href = item.link;
+      link.href = item.actualUrl || item.link;
       stories.appendChild(storyFragment);
     }
 
