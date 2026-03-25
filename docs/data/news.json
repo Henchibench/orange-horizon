@@ -4,11 +4,11 @@
     "subtitle": "En torrt ironisk morgonbrief om världsläget, uppdaterad ungefär varje timme.",
     "note": "Direkta källflöden först: BBC, Guardian, DW, Politico Europe och Al Jazeera. Summary-lagret skrivs på svenska; originalartiklarna ligger kvar bakom varje sektion."
   },
-  "generatedAt": "2026-03-25T10:18:55.869Z",
+  "generatedAt": "2026-03-25T10:34:36.859Z",
   "summaryMeta": {
     "provider": "rule-based",
     "model": "claude-haiku-4-5",
-    "fallbackReason": "Expected ',' or ']' after array element in JSON at position 5351 (line 69 column 6)"
+    "fallbackReason": "Expected ',' or ']' after array element in JSON at position 5359 (line 57 column 6)"
   },
   "brief": {
     "title": "Det viktigaste nu",
@@ -81,7 +81,7 @@
       ],
       "items": [
         {
-          "id": "trump-usa-al-jazeera-rss-7",
+          "id": "trump-usa-al-jazeera-rss-9",
           "sectionId": "trump-usa",
           "sectionName": "Trump / USA",
           "headline": "US talking to itself, says Iran as Trump claims wheels of diplomacy turning",
@@ -409,7 +409,7 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-1",
+          "id": "iran-al-jazeera-rss-3",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "‘A heinous crime’: Air strikes kill seven fighters in Iraq’s Anbar",
@@ -430,7 +430,7 @@
           "relevanceScore": 40
         },
         {
-          "id": "iran-al-jazeera-rss-7",
+          "id": "iran-al-jazeera-rss-9",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "US talking to itself, says Iran as Trump claims wheels of diplomacy turning",
@@ -451,7 +451,7 @@
           "relevanceScore": 40
         },
         {
-          "id": "iran-al-jazeera-rss-9",
+          "id": "iran-al-jazeera-rss-11",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "Iran’s new security boss Mohammad Zolghadr: Why his appointment matters",
@@ -472,7 +472,7 @@
           "relevanceScore": 40
         },
         {
-          "id": "iran-al-jazeera-rss-10",
+          "id": "iran-al-jazeera-rss-12",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "US-Israel war on Iran: What’s happening on day 26 of attacks?",
@@ -493,7 +493,7 @@
           "relevanceScore": 40
         },
         {
-          "id": "iran-al-jazeera-rss-11",
+          "id": "iran-al-jazeera-rss-13",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "Amid US-Israeli attacks, people in Iran struggle to survive ailing economy",
