@@ -111,7 +111,7 @@ a {
 
 .hero h1 {
   margin: 0;
-  max-width: 11ch;
+  max-width: 12ch;
   font-size: clamp(3.2rem, 7vw, 6.4rem);
   line-height: 0.94;
   letter-spacing: -0.05em;
@@ -222,6 +222,7 @@ a {
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1rem;
   margin-top: 1rem;
+  align-items: start;
 }
 
 .section-card {
@@ -230,6 +231,7 @@ a {
   gap: 1rem;
   background: linear-gradient(180deg, var(--panel) 0%, var(--panel-2) 100%);
   scroll-margin-top: 1rem;
+  align-self: start;
 }
 
 .section-top {
@@ -252,6 +254,7 @@ a {
   border-radius: 18px;
   background: rgba(255,255,255,0.04);
   border: 1px solid rgba(255,255,255,0.08);
+  overflow: visible;
 }
 
 .summary-label {
@@ -263,6 +266,10 @@ a {
   color: var(--text);
   line-height: 1.58;
   font-size: 1.04rem;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+  overflow-wrap: anywhere;
 }
 
 .stories-wrap {

@@ -21,21 +21,69 @@ const formatDate = (value) => {
 
 const pluralizeArticles = (count) => `${count} ${count === 1 ? 'artikel' : 'artiklar'}`;
 
+const splitSentences = (value) => value
+  .replace(/\s+/g, ' ')
+  .trim()
+  .match(/[^.!?]+[.!?]+(?:\s|$)|[^.!?]+$/g) || [];
+
+const cleanSummaryLead = (value) => value
+  .replace(/^kortversionen:\s*/i, '')
+  .replace(/^det här spåret\s*/i, 'Spåret ')
+  .replace(/\s+/g, ' ')
+  .trim();
+
+const editorializeSummary = (value) => {
+  const cleaned = cleanSummaryLead(value || '');
+  if (!cleaned) return '';
+
+  const sentences = splitSentences(cleaned);
+  const usable = [];
+
+  for (const sentence of sentences) {
+    const trimmed = sentence.trim();
+    if (!trimmed) continue;
+    usable.push(trimmed);
+    if (usable.join(' ').length >= 260 || usable.length >= 2) break;
+  }
+
+  let result = usable.join(' ').trim() || cleaned;
+
+  if (/[.……]\s*$/.test(result)) {
+    result = result.replace(/[.……]+\s*$/, '').trim();
+  }
+
+  if (!/[.!?]$/.test(result)) {
+    result = `${result}.`;
+  }
+
+  return result;
+};
+
+const pickSiteNote = (data) => {
+  const totalFeeds = data.sources.reduce((sum, source) => sum + ((source.feedUrls && source.feedUrls.length) || 0), 0);
+  return `Fyra bevakningar, ${totalFeeds || data.sources.length} flöden och en rimlig chans att förstå dagen innan den spårar ur helt.`;
+};
+
+const pickBriefIntro = (data) => {
+  const totalStories = data.sections.reduce((sum, section) => sum + section.items.length, 0);
+  return `${data.sections.length} spår, ${totalStories} rubriker och en kort öppningsbild av läget.`;
+};
+
 const render = async () => {
   const response = await fetch('./data/news.json', { cache: 'no-store' });
   if (!response.ok) throw new Error(`Kunde inte läsa morgonbriefen: ${response.status}`);
 
   const data = await response.json();
   const totalStories = data.sections.reduce((sum, section) => sum + section.items.length, 0);
+  const totalFeeds = data.sources.reduce((sum, source) => sum + ((source.feedUrls && source.feedUrls.length) || 0), 0);
 
   document.title = data.site.title;
   lastUpdated.textContent = `Uppdaterad ${formatDate(data.generatedAt)}`;
   storyCount.textContent = `${totalStories} rubriker`;
-  const totalFeeds = data.sources.reduce((sum, source) => sum + ((source.feedUrls && source.feedUrls.length) || 0), 0);
   sourceCount.textContent = `${totalFeeds || data.sources.length} källflöden`;
-  siteNote.textContent = data.site.note;
+  siteNote.textContent = pickSiteNote(data);
   briefTitle.textContent = data.brief.title;
-  briefIntro.textContent = data.brief.intro;
+  briefIntro.textContent = pickBriefIntro(data);
 
   briefBullets.replaceChildren();
   for (const bullet of data.brief.bullets) {
@@ -61,7 +109,7 @@ const render = async () => {
     fragment.querySelector('.section-kicker').textContent = section.label;
     fragment.querySelector('h2').textContent = section.name;
     fragment.querySelector('.section-description').textContent = section.description;
-    fragment.querySelector('.section-summary').textContent = section.summary;
+    fragment.querySelector('.section-summary').textContent = editorializeSummary(section.summary);
 
     const sectionFeed = fragment.querySelector('.section-feed');
     sectionFeed.href = section.feedUrl;
