@@ -4,7 +4,7 @@
     "subtitle": "En torrt ironisk morgonbrief om världsläget, uppdaterad ungefär varje timme.",
     "note": "Byggd på publika RSS-flöden. Inga betalväggs-API:er, bara disciplin och lätt misstro."
   },
-  "generatedAt": "2026-03-25T06:57:44.215Z",
+  "generatedAt": "2026-03-25T07:38:20.869Z",
   "brief": {
     "title": "Morgonbrief för folk som redan anar att läget inte direkt stabiliserats över natten.",
     "intro": "Fyra spår av global oreda, serverade utan confetti men med länkar tillbaka till originalrapporteringen.",
@@ -67,20 +67,20 @@
           "id": "trump-usa-5",
           "sectionId": "trump-usa",
           "sectionName": "Trump / USA",
-          "headline": "White House Unveils A.I. Policy Aimed at Blocking State Laws",
-          "source": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU2E3X3Y5TVA4RHU2NlVkNUcyVnNSbkpiam56UGtrZTlqNnJDanFoZERvQzZjWU1qcUdIbDUwaWxyTGVnRXhWekp1VGt5Q3V3ZkZTaXh2OTVzNjVFVnNmZmhuN3ctdkducWU1WjItWnNJNHVGcERmb0Q2ZnBoSmJfNXZMYnVCa3N3RVFON1dpNW9Gb3ZMSHVLM0VHeUhTcUl5RjN4dUxOTWVFYlNKdk5N?oc=5",
-          "pubDate": "Fri, 20 Mar 2026 16:52:19 GMT",
+          "headline": "White House gives Congress its AI policy wishlist in new legislative framework",
+          "source": "FedScoop",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRVQ4aWxzRkRUS1BmQnh3OVc2RUhKc0NYWmNrdFU2M1BmOXdUaDVvWTY3OERXZUE4WVc5ZHhialJQRHdRc0Z4QkVnNk9QaEFsTXpFMnE5YUpzVW9CWTIyNHFKZmxPekhTcFQ2eVY0dUpSRHRjZWplc0VueHpxa1NtcG1HV19SMDBYdXNnTkpSTE1MMmNYY3NfNA?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 16:19:14 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
           "id": "trump-usa-6",
           "sectionId": "trump-usa",
           "sectionName": "Trump / USA",
-          "headline": "Trump releases AI policy for Congress to pre-empt state rules",
-          "source": "Reuters",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcWZpamJCdk1QQVpCa2xwRmxsUDBVZk91Q1pybV9kSHE1WTR2WTRlNEdxRHN4UlVULWEzR3NyQjZGaks1V2N1RXhSTzNZcG83SGtHa0pCR0dyWktGWUJMdVlpeVRYOE9WYTYwNjNPcTR1UFJDTUozaWxIazVQY2llcXFXcDdueVdMTEd4TGhrdXU?oc=5",
-          "pubDate": "Fri, 20 Mar 2026 12:28:29 GMT",
+          "headline": "White House Unveils A.I. Policy Aimed at Blocking State Laws",
+          "source": "The New York Times",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU2E3X3Y5TVA4RHU2NlVkNUcyVnNSbkpiam56UGtrZTlqNnJDanFoZERvQzZjWU1qcUdIbDUwaWxyTGVnRXhWekp1VGt5Q3V3ZkZTaXh2OTVzNjVFVnNmZmhuN3ctdkducWU1WjItWnNJNHVGcERmb0Q2ZnBoSmJfNXZMYnVCa3N3RVFON1dpNW9Gb3ZMSHVLM0VHeUhTcUl5RjN4dUxOTWVFYlNKdk5N?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 16:52:19 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
@@ -158,10 +158,10 @@
           "id": "putin-ukraina-5",
           "sectionId": "putin-ukraina",
           "sectionName": "Putin / Ukraina",
-          "headline": "Russian Offensive Campaign Assessment, March 19, 2026",
+          "headline": "Russian Occupation Update, March 19, 2026",
           "source": "Institute for the Study of War",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbzhNUkJJWld5V0pJYlJzUjVid0xJaDl1RlNLd2tWZDlZNEpzU0dSNTJyNXhzdEdCbWtoQ0lPMy1iNU5Kd0poc2dYRzNZWlluRUdTMnBneTJqclFKNy0yQ1ZaQzZaLU9UQ3FuZkNidDdsMGFuTjgwRENSeHhGOE1hRjZCYl9FOGZKckpadlhzVllSYXg0WnpGOWNJcmNLeWJIQUEyaGszV1Q?oc=5",
-          "pubDate": "Fri, 20 Mar 2026 01:04:27 GMT",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYkNLWFpWMGFEdjJUMVd0RVZBVHQ5alo0VTBJYnJPanhEdFk2NzJfSHVJaF9MUnJ0RkU1TE9aSGtaRlFobTlJRmdRM2pjUldjR2ZtbFVhQ0dDcVpvVG04UUtCbGJOTWNwMHVwY2paZlpKbXRDSUQxMFQ5NFoxdHZoUEVYcEcwTlZZc1NRcHhuel9OcE1BeUFkYg?oc=5",
+          "pubDate": "Thu, 19 Mar 2026 19:28:35 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
@@ -351,7 +351,7 @@
           "sectionId": "orban-eu",
           "sectionName": "Orbán / EU",
           "headline": "EU summit: Hungary holds Ukraine aid ransom over Druzhba oil",
-          "source": "DW.com",
+          "source": "dw.com",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX3ZISUFnakoyak00eTZkd1RJRnllMV95V00tdFlwa292N1RLZDJraU5XblhVMUpOOEFCNDJmaEJMZzl0SWtmY0d0QXEtY1FvYzZ6NW55UEozTk84aXA2eDNOLVR6WU9wOFdUaEFkYmp1VjdtU0t0WE5UbEpoY0RrTkNpbjhjNXExRFo1UVZmMllwZjhLR1VXUml5QQ?oc=5",
           "pubDate": "Fri, 20 Mar 2026 00:06:43 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
