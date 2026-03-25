@@ -1,720 +1,55 @@
 {
-  "state": "ready",
+  "state": "unavailable",
   "site": {
     "title": "Vad i helvete händer?!",
-    "subtitle": "En svensk morgonbrief om världsläget, uppdaterad ungefär varje timme.",
+    "subtitle": "Tillfälligt otillgänglig.",
     "note": null
   },
-  "generatedAt": "2026-03-25T13:25:45.940Z",
+  "generatedAt": "2026-03-25T13:51:43.725Z",
   "summaryMeta": {
-    "provider": "anthropic",
-    "model": "claude-haiku-4-5-20251001",
-    "fallbackReason": null
+    "provider": "none",
+    "model": null,
+    "fallbackReason": "brief.title: no-terminal-punctuation"
   },
-  "brief": {
-    "title": "Vad i helvete händer?!",
-    "intro": "Demokrater vinner i Trumps hemdistrikt medan Orbán blockerar Ukrainas lån.",
-    "bullets": [
-      "Emily Gregory, demokrat, besegrar Trumps kandidat Jon Maples i Florida District 87 som omfattar Mar-a-Lago.",
-      "Ryssland lanserar nästan tusen drönare mot Ukraina på två dygn och dödar minst sju personer.",
-      "Viktor Orbán vägrar att släppa sitt veto mot EU:s 90 miljarder euro-lån till Ukraina trots tidigare överenskommelse."
-    ]
-  },
-  "sections": [
-    {
-      "id": "trump-usa",
-      "name": "Trump / USA",
-      "label": "Makt, cirkus, federalt brus",
-      "description": "Amerikansk politik, institutionellt slitage och Trumps omloppsbana.",
-      "feeds": [
-        {
-          "label": "The Guardian: Donald Trump",
-          "url": "https://www.theguardian.com/us-news/donaldtrump/rss",
-          "include": [
-            {}
-          ],
-          "headlineOnly": true
-        },
-        {
-          "label": "BBC News: US & Canada",
-          "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
-          "include": [
-            {}
-          ],
-          "headlineOnly": true
-        },
-        {
-          "label": "BBC News: Politics",
-          "url": "https://feeds.bbci.co.uk/news/politics/rss.xml",
-          "include": [
-            {}
-          ],
-          "headlineOnly": true
-        },
-        {
-          "label": "Al Jazeera RSS",
-          "url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "include": [
-            {}
-          ],
-          "headlineOnly": true
-        }
-      ],
-      "sourceLabel": "The Guardian: Donald Trump • BBC News: US & Canada • BBC News: Politics • Al Jazeera RSS",
-      "feedUrl": "https://www.theguardian.com/us-news/donaldtrump/rss",
-      "feedUrls": [
-        {
-          "label": "The Guardian: Donald Trump",
-          "url": "https://www.theguardian.com/us-news/donaldtrump/rss"
-        },
-        {
-          "label": "BBC News: US & Canada",
-          "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml"
-        },
-        {
-          "label": "BBC News: Politics",
-          "url": "https://feeds.bbci.co.uk/news/politics/rss.xml"
-        },
-        {
-          "label": "Al Jazeera RSS",
-          "url": "https://www.aljazeera.com/xml/rss/all.xml"
-        }
-      ],
-      "items": [
-        {
-          "id": "trump-usa-al-jazeera-rss-2",
-          "sectionId": "trump-usa",
-          "sectionName": "Trump / USA",
-          "headline": "Democrat captures Florida House seat in Trump’s Mar-a-Lago district",
-          "source": "Al Jazeera RSS",
-          "link": "https://www.aljazeera.com/news/2026/3/25/democrat-captures-florida-house-seat-in-trumps-mar-a-lago-district?traffic_source=rss",
-          "actualUrl": "https://www.aljazeera.com/news/2026/3/25/democrat-captures-florida-house-seat-in-trumps-mar-a-lago-district?traffic_source=rss",
-          "pubDate": "Wed, 25 Mar 2026 12:43:56 +0000",
-          "rawDescription": "<![CDATA[Emily Gregory&#039;s victory in the previously GOP-held district is the latest Democratic upset before November midterms.]]>",
-          "articleText": "Democratic candidate Emily Gregory is projected to win a special election for a Florida state House of Representatives seat that includes United States President Donald Trump’s Mar-a-Lago resort, in the latest sign of strain for Trump’s Republican Party.\n\nWith almost all votes counted from the Tuesday election, Gregory led her Trump-endorsed opponent Jon Maples by 2.4 percentage points, reported the AP news agency.\n\nlist 1 of 3 Who is Joe Kent, and why did he resign as Trump’s counterterrorism chief?\n\nlist 2 of 3 Former FBI chief Robert Mueller, known for Trump investigation, dead at 81\n\nlist 3 of 3 Trump keeps up claims of talks with ‘the right people’ in Iran\n\nDemocrats hailed the victory in the previously Republican-controlled House District 87 as a sign voters are turning against Republicans and Trump before November’s midterm elections. Democrats registered electoral gains in the November 2025 gubernatorial and mayoral elections, with the cost of living cited as a major issue on people’s minds.\n\nThe US decision to join Israel in attacking Iran has driven up oil and gas prices, putting further inflationary pressures on Americans.\n\n“If Mar-a-Lago is vulnerable, imagine what’s possible this November,” said Heather Williams, president of the Democratic Legislative Campaign Committee. She said Tuesday’s race was the 29th seat that Democrats have flipped from Republican control since Trump took office.\n\n“Gas prices are spiking, grocery costs are up, and families can’t get by – it’s clear voters at the polls are fed up with Republicans,” Williams said.",
-          "articleSummary": "Democratic candidate Emily Gregory is projected to win a special election for a Florida state House of Representatives seat that includes United States President Donald Trump’s Mar-a-Lago resort, in the latest sign of strain for Trump’s Republican Party. With almost all votes counted from the Tuesday election, Gregory led her Trump-endorsed opponent Jon Maples by 2.4 percentage points, reported the AP news agency. list 1 of 3 Who is Joe Kent, and why did he resign as Trump’s counterterrorism chief? list 2 of 3 Former FBI chief Robert Mueller, known for Trump investigation, dead at 81 list 3 of 3 Trump keeps up claims of talks with ‘the right people’ in Iran Democrats hailed the victory in the previously Republican-controlled House District 87 as a sign voters are turning against Republicans and Trump before November’s midterm elections. Democrats registered electoral gains in the November 2025 gubernatorial and mayoral elections, with the cost of living cited as a major issue on people’s minds.",
-          "feedSummary": "Emily Gregory's victory in the previously GOP-held district is the latest Democratic upset before November midterms.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "Al Jazeera RSS",
-          "feedUrl": "https://www.aljazeera.com/xml/rss/all.xml",
-          "relevanceScore": 32,
-          "description": "Demokraten Emily Gregory vinner specialvalet för Floridas statshus i distrikt 87 som omfattar Trumps Mar-a-Lago-egendom. Hon besegrar Jon Maples, som hade Trumps officiella stöd, med 2,4 procentenheter."
-        },
-        {
-          "id": "trump-usa-bbc-news-us-canada-2",
-          "sectionId": "trump-usa",
-          "sectionName": "Trump / USA",
-          "headline": "Democrats flip Florida state seat that includes Trump's Mar-a-Lago home",
-          "source": "BBC News: US & Canada",
-          "link": "https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&at_campaign=rss",
-          "actualUrl": "https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 25 Mar 2026 03:36:08 GMT",
-          "rawDescription": "<![CDATA[Emily Gregory’s projected victory comes in a legislative district which a Republican candidate won by 19 percentage points in 2024.]]>",
-          "articleText": "Democrats are projected to win a special election for a Florida legislative district that includes Donald Trump's Mar-a-Lago home in Palm Beach, marking another upset in the president's backyard.\n\nDemocrat Emily Gregory, a first-time candidate, defeated Trump-backed Republican Jon Maples in a race for the open Florida District 87 state House seat.\n\nThe result is a reversal from 2024, when a Republican won the district by 19 percentage points.\n\nDemocrats have performed well in special elections during Trump's second term, and Gregory's victory could indicate momentum for the party heading into this year's congressional midterm elections.\n\n\"When I started this nine months ago, I obviously thought it was possible,\" Gregory told MSNBC on Tuesday night.\n\n\"I might have done some crazy calculus to decide that this was a flip opportunity, but it was,\" she later added. \"And we did it. So my math worked.\"\n\nKen Martin, the chair of the Democratic National Committee celebrated the victory on X, saying voters had \"sent a message\".\n\n\"If Democrats can win in Trump's backyard, we sure as hell can win anywhere across the country. Onward to November!\" Martin wrote.\n\nTrump himself backed Maples, endorsing him in a Truth Social post and urging \"great patriots\" to vote in the special election.\n\nRepublican Congressman Byron Donalds, who is now running for governor of Florida, filmed an endorsement with Maples urging voters to choose him.\n\nDemocrats have flipped several state House seats in special elections since Trump took office at the beginning of 2025.\n\nThe midterm elections are scheduled for November, and will feature races for the US House of Representatives, a third of the US Senate, and multiple governor and state legislature races.\n\nThese elections, typically held halfway through a president's term in office, potentially serve as a referendum on the mood of the country and the strength of the president's party.\n\nMarco Rubio testifies in former housemate's Maduro lobbying trial\n\nJoseph Duggar of 19 Kids and Counting accused of molesting child\n\nWhy did US and Israel attack Iran and how long could the war last?\n\nConflict has spread across the Middle East since the US and Israel launched strikes on Iran on 28 February.\n\nOil traders bet millions minutes before Trump's Iran talks post\n\nMarket data shows the amount of oil trade rose before the US President said he would postpone attacks on Iran's power plants.\n\nWhat Iranians make of the possibility of talks to end the war\n\nSome Iranians dismiss the possibility of talks to end the war, others worry a deal may leave the current leaders in place.\n\nSmall window open for US-Iran talks, but swift end to war still unlikely\n\nPresident Trump says the US is already dealing with a \"top person\" in Iran, but Tehran denies that any talks have begun.\n\nProspect of US-Iran talks puts Netanyahu under pressure\n\nUS President Donald Trump has pointed to diplomatic talks to end the offensive - but Israel might not yet be ready to walk away.",
-          "articleSummary": "Democrats are projected to win a special election for a Florida legislative district that includes Donald Trump's Mar-a-Lago home in Palm Beach, marking another upset in the president's backyard. Democrat Emily Gregory, a first-time candidate, defeated Trump-backed Republican Jon Maples in a race for the open Florida District 87 state House seat. The result is a reversal from 2024, when a Republican won the district by 19 percentage points.",
-          "feedSummary": "Emily Gregory’s projected victory comes in a legislative district which a Republican candidate won by 19 percentage points in 2024.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "BBC News: US & Canada",
-          "feedUrl": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml",
-          "relevanceScore": 32,
-          "description": "Emily Gregory, en förstagångskandidaten och folkhälsoexpert, besegrar Trump-stödd republikan Jon Maples i Floridas distrikt 87. Resultatet är en dramatisk vändning från 2024 då en republikan vann samma distrikt med 19 procentenheter."
-        },
-        {
-          "id": "trump-usa-the-guardian-donald-trump-1",
-          "sectionId": "trump-usa",
-          "sectionName": "Trump / USA",
-          "headline": "Prosecutors examined whether Trump disclosed classified map on plane after leaving office",
-          "source": "Hugo Lowell in Washington",
-          "link": "https://www.theguardian.com/us-news/2026/mar/25/donald-trump-classified-classified-map-private-plane-susie-wiles",
-          "actualUrl": "https://www.theguardian.com/us-news/2026/mar/25/donald-trump-classified-classified-map-private-plane-susie-wiles",
-          "pubDate": "Wed, 25 Mar 2026 09:00:03 GMT",
-          "rawDescription": "&lt;p&gt;Susie Wiles was on plane and witnessed event, according to files shown to House judiciary committee&lt;/p&gt;&lt;p&gt;Federal prosecutors examined whether &lt;a href=\"https://www.theguardian.com/us-news/donaldtrump\"&gt;Donald Trump&lt;/a&gt; showed a classified map to people on his plane after his first term, including to his now White House chief of staff, &lt;a href=\"https://www.theguardian.com/us-news/2025/dec/25/trump-chief-of-staff-susie-wiles\"&gt;Susie Wiles&lt;/a&gt;, according to justice department materials produced to the House judiciary committee.&lt;/p&gt;&lt;p&gt;The incident was described in a 13 January 2023 briefing memo prepared for the then attorney general, Merrick Garland – roughly six months before special counsel Jack Smith charged Trump with retaining classified documents at his Mar-a-Lago club.&lt;/p&gt; &lt;a href=\"https://www.theguardian.com/us-news/2026/mar/25/donald-trump-classified-classified-map-private-plane-susie-wiles\"&gt;Continue reading...&lt;/a&gt;",
-          "articleText": "Federal prosecutors examined whether Donald Trump showed a classified map to people on his plane after his first term, including to his now White House chief of staff, Susie Wiles, according to justice department materials produced to the House judiciary committee.\n\nThe incident was described in a 13 January 2023 briefing memo prepared for the then attorney general, Merrick Garland – roughly six months before special counsel Jack Smith charged Trump with retaining classified documents at his Mar-a-Lago club.",
-          "articleSummary": "Federal prosecutors examined whether Donald Trump showed a classified map to people on his plane after his first term, including to his now White House chief of staff, Susie Wiles, according to justice department materials produced to the House judiciary committee. The incident was described in a 13 January 2023 briefing memo prepared for the then attorney general, Merrick Garland – roughly six months before special counsel Jack Smith charged Trump with retaining classified documents at his Mar-a-Lago club.",
-          "feedSummary": "Susie Wiles was on plane and witnessed event, according to files shown to House judiciary committee Federal prosecutors examined whether Donald Trump showed a classified map to people on his plane after his first term, including to his now White House chief of staff, Susie Wiles, according to justice department materials produced to the House judiciary committee. The incident was described in a 13 January 2023 briefing memo prepared for the then attorney general, Merrick Garland – roughly six months before special counsel Jack Smith charged Trump with retaining classified documents at his Mar-a-Lago club.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "The Guardian: Donald Trump",
-          "feedUrl": "https://www.theguardian.com/us-news/donaldtrump/rss",
-          "relevanceScore": 26,
-          "description": "Federala åklagare undersökte om Donald Trump visade klassificerat kartmaterial till personer på sitt privatplan efter sin första mandatperiod, inklusive till hans nuvarande stabschef Susie Wiles."
-        },
-        {
-          "id": "trump-usa-the-guardian-donald-trump-13",
-          "sectionId": "trump-usa",
-          "sectionName": "Trump / USA",
-          "headline": "Democrats flip seat in Florida state house in district that includes Trump’s Mar-a-Lago",
-          "source": "Dani Anguiano",
-          "link": "https://www.theguardian.com/us-news/2026/mar/24/democrats-flip-florida-seat-emily-gregory-mar-a-lago",
-          "actualUrl": "https://www.theguardian.com/us-news/2026/mar/24/democrats-flip-florida-seat-emily-gregory-mar-a-lago",
-          "pubDate": "Wed, 25 Mar 2026 01:02:55 GMT",
-          "rawDescription": "&lt;p&gt;Emily Gregory defeats Republican Jon Maples in district that is home to US president’s Palm Beach estate&lt;/p&gt;&lt;p&gt;Democrats managed to flip a seat in the Florida state house in the district that is home to Donald Trump’s Mar-a-Lago.&lt;/p&gt;&lt;p&gt;Emily Gregory, a Democrat, defeated Republican Jon Maples, who had an endorsement from the US president, in the special election in Florida’s 87th state house district. The Associated Press called the race on Tuesday evening, with Gregory, a public health expert and small business owner, leading by more than 2 percentage points.&lt;/p&gt; &lt;a href=\"https://www.theguardian.com/us-news/2026/mar/24/democrats-flip-florida-seat-emily-gregory-mar-a-lago\"&gt;Continue reading...&lt;/a&gt;",
-          "articleText": "Democrats managed to flip a seat in the Florida state house in the district that is home to Donald Trump’s Mar-a-Lago.\n\nEmily Gregory, a Democrat, defeated Republican Jon Maples, who had an endorsement from the US president, in the special election in Florida’s 87th state house district. The Associated Press called the race on Tuesday evening, with Gregory, a public health expert and small business owner, leading by more than 2 percentage points.",
-          "articleSummary": "Democrats managed to flip a seat in the Florida state house in the district that is home to Donald Trump’s Mar-a-Lago. Emily Gregory, a Democrat, defeated Republican Jon Maples, who had an endorsement from the US president, in the special election in Florida’s 87th state house district. The Associated Press called the race on Tuesday evening, with Gregory, a public health expert and small business owner, leading by more than 2 percentage points.",
-          "feedSummary": "Emily Gregory defeats Republican Jon Maples in district that is home to US president’s Palm Beach estate Democrats managed to flip a seat in the Florida state house in the district that is home to Donald Trump’s Mar-a-Lago. Emily Gregory, a Democrat, defeated Republican Jon Maples, who had an endorsement from the US president, in the special election in Florida’s 87th state house district. The Associated Press called the race on Tuesday evening, with Gregory, a public health expert and small business owner, leading by more than 2 percentage points.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "The Guardian: Donald Trump",
-          "feedUrl": "https://www.theguardian.com/us-news/donaldtrump/rss",
-          "relevanceScore": 26,
-          "description": "Demokraterna flippar en säte i Floridas statshus i det distrikt som är hem för Donald Trumps Mar-a-Lago. Emily Gregory, en folkhälsoexpert och småföretagare, besegrar republikan Jon Maples som hade presidentens officiella stöd."
-        },
-        {
-          "id": "trump-usa-al-jazeera-rss-12",
-          "sectionId": "trump-usa",
-          "sectionName": "Trump / USA",
-          "headline": "Large Polymarket, Wall Street bets on Trump’s war news under scrutiny",
-          "source": "Al Jazeera RSS",
-          "link": "https://www.aljazeera.com/news/2026/3/25/large-polymarket-wall-street-bets-on-trumps-war-news-under-scrutiny?traffic_source=rss",
-          "actualUrl": "https://www.aljazeera.com/news/2026/3/25/large-polymarket-wall-street-bets-on-trumps-war-news-under-scrutiny?traffic_source=rss",
-          "pubDate": "Wed, 25 Mar 2026 11:21:19 +0000",
-          "rawDescription": "<![CDATA[Well-timed trades regarding Iran war news this week lead critics to argue White House may be engaged in insider trading.]]>",
-          "articleText": "From cryptocurrency-based online platforms to oil futures and the United States S&P 500 stock benchmark, traders have made bets worth hundreds of millions of dollars since the start of the US-Israeli war on Iran with suspiciously well-timed trades that suggest knowledge of key White House decision-making.\n\nOne of the most well-documented examples has been Polymarket, a platform that lets users anonymously bet on event outcomes from sports tournaments to ceasefires without uploading an identity document.\n\nlist 1 of 4 From Pakistan to Egypt, Iran war drives up prices in Global South\n\nlist 2 of 4 Amid US-Israeli attacks, people in Iran struggle to survive ailing economy\n\nlist 3 of 4 US-Israel war on Iran: What’s happening on day 26 of attacks?\n\nlist 4 of 4 Iran’s new security boss Mohammad Zolghadr: Why his appointment matters\n\nPolymarket gained mainstream popularity during the 2024 US presidential election, but it has become synonymous with suspected insider trading since January after well-timed bets on US plans to abduct Venezuelan President Nicolas Maduro, followed by the start of the war on Iran two months later.\n\nResearchers have tracked dozens of examples of anonymous new accounts betting big but also correctly just before a critical event like the February 28 US-Israeli strikes that began the Iran war.\n\nAs of Wednesday, there were 355 live prediction markets on Polymarket linked to outcomes in the war, such as the identity of the next leader of Iran, the date of a US-Iran nuclear deal and when Iran will launch military action against Israel.\n\nThe independent on-chain analyst known as Andrew 10 GWEI told Al Jazeera one of the most “striking” recent examples of suspicious betting was his discovery of 38 accounts that he believes belong to one person and netted more than $2m betting correctly on the February 28 strikes.",
-          "articleSummary": "From cryptocurrency-based online platforms to oil futures and the United States S&P 500 stock benchmark, traders have made bets worth hundreds of millions of dollars since the start of the US-Israeli war on Iran with suspiciously well-timed trades that suggest knowledge of key White House decision-making. One of the most well-documented examples has been Polymarket, a platform that lets users anonymously bet on event outcomes from sports tournaments to ceasefires without uploading an identity document. list 1 of 4 From Pakistan to Egypt, Iran war drives up prices in Global South list 2 of 4 Amid US-Israeli attacks, people in Iran struggle to survive ailing economy list 3 of 4 US-Israel war on Iran: What’s happening on day 26 of attacks? list 4 of 4 Iran’s new security boss Mohammad Zolghadr: Why his appointment matters Polymarket gained mainstream popularity during the 2024 US presidential election, but it has become synonymous with suspected insider trading since January after well-timed bets on US plans to abduct Venezuelan President Nicolas Maduro, followed by the start of the war on Iran two months later. Researchers have tracked dozens of examples of anonymous new accounts betting big but also correctly just before a critical event like the February 28 US-Israeli strikes that began the Iran war.",
-          "feedSummary": "Well-timed trades regarding Iran war news this week lead critics to argue White House may be engaged in insider trading.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "Al Jazeera RSS",
-          "feedUrl": "https://www.aljazeera.com/xml/rss/all.xml",
-          "relevanceScore": 24,
-          "description": "Anonyma handelskonton på kryptovalutaplattformen Polymarket och andra finansiella marknader har gjort hundramiiljontals dollar i väl-tidsatta satsningar på USA-Israels krig mot Iran, vilket väcker misstankar om insiderhandel från vita husets beslutsfattare."
-        }
-      ],
-      "summary": "Demokraterna flippar en floridansk statlig säte i Trumps eget distrikt, vilket markerar den 29:e republikansk styrda plats som vänt sedan januari 2025."
-    },
-    {
-      "id": "putin-ukraina",
-      "name": "Putin / Ukraina",
-      "label": "Krig, repression, diplomatiskt grus",
-      "description": "Fronten, Kreml och följderna i Ukraina och bortom den.",
-      "feeds": [
-        {
-          "label": "The Guardian: Ukraine",
-          "url": "https://www.theguardian.com/world/ukraine/rss",
-          "include": [
-            {}
-          ]
-        },
-        {
-          "label": "BBC News: Europe",
-          "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml",
-          "include": [
-            {}
-          ]
-        },
-        {
-          "label": "DW: All",
-          "url": "https://rss.dw.com/rdf/rss-en-all",
-          "include": [
-            {}
-          ]
-        },
-        {
-          "label": "Al Jazeera RSS",
-          "url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "include": [
-            {}
-          ]
-        }
-      ],
-      "sourceLabel": "The Guardian: Ukraine • BBC News: Europe • DW: All • Al Jazeera RSS",
-      "feedUrl": "https://www.theguardian.com/world/ukraine/rss",
-      "feedUrls": [
-        {
-          "label": "The Guardian: Ukraine",
-          "url": "https://www.theguardian.com/world/ukraine/rss"
-        },
-        {
-          "label": "BBC News: Europe",
-          "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml"
-        },
-        {
-          "label": "DW: All",
-          "url": "https://rss.dw.com/rdf/rss-en-all"
-        },
-        {
-          "label": "Al Jazeera RSS",
-          "url": "https://www.aljazeera.com/xml/rss/all.xml"
-        }
-      ],
-      "items": [
-        {
-          "id": "putin-ukraina-the-guardian-ukraine-2",
-          "sectionId": "putin-ukraina",
-          "sectionName": "Putin / Ukraina",
-          "headline": "Ukraine war briefing: Moldova declares emergency after Russian attack cuts key power line",
-          "source": "Staff and agencies",
-          "link": "https://www.theguardian.com/world/2026/mar/25/ukraine-war-briefing-moldova-declares-emergency-after-russian-attack-cuts-key-power-line",
-          "actualUrl": "https://www.theguardian.com/world/2026/mar/25/ukraine-war-briefing-moldova-declares-emergency-after-russian-attack-cuts-key-power-line",
-          "pubDate": "Wed, 25 Mar 2026 05:49:33 GMT",
-          "rawDescription": "&lt;p&gt;President urges people to reduce consumption after power line passing through Ukraine damaged by drones; Moscow spring offensive steps up. What we know on day 1,491&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Moldova declared a state of emergency in the energy sector after a key power line with Europe was disconnected following Russian strikes in Ukraine.&lt;/strong&gt; The declaration comes into effect on Wednesday and lasts for 60 days. The prime minister, Alexandru Munteanu, appealed to people to “avoid unnecessary consumption, especially during peak hours” and “stay united”, according to a statement from parliament. The former Soviet republic imports electricity from neighbouring EU member Romania, mostly via a power cable that passes through southern Ukraine. Moldovan authorities said crashed drones had been identified in Ukraine near the line and that “demining operations” were needed before repairs could be done. Restoring the power line itself was expected to take up to seven days, the energy minister, Dorin Junghietu was quoted by the Moldovan media outlet Ziarul de Gardă as saying. “Russia alone bears responsibility,” the Moldovan president, Maia Sandu, wrote on X, while the foreign ministry also condemned the Russian attacks. Russia has frequently targeted Ukraine’s energy infrastructure since it invaded its neighbour in 2022.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Ukrainian president, Volodymyr Zelenskyy, has accused Russia of “absolute depravity” after Moscow fired an unprecedented daytime barrage&lt;/strong&gt; across Ukraine, including on the historical centre of the western city of Lviv. “Iranian ‘shaheds’ [attack drones], modernised by Russia, are striking a church in Lviv – this is absolute depravity, and only someone like [Vladimir] Putin could find this appealing,” Zelenskyy said in his daily address. “The scale of this attack makes it abundantly clear that Russia has no intention of actually ending this war,” Zelenskyy added, vowing that Ukraine “will certainly respond to any attacks”.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Russia’s military said on Wednesday it had shot down 389 Ukrainian drones overnight in one of the largest attacks to date.&lt;/strong&gt; Russian regions bordering Ukraine, as well as Moscow and northwestern Leningrad were the main areas targeted, according to the military.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Moscow appears to be stepping up a spring offensive intended to break Ukrainian resistance&lt;/strong&gt;, writes Pjotr Sauer. Ukrainian officials said Moscow fired nearly 400 long-range drones and 23 cruise missiles overnight, followed by another 556 drones in an &lt;a href=\"https://www.theguardian.com/world/2026/mar/24/russia-strikes-civilian-areas-ukraine\"&gt;unusual daytime assault on Tuesday&lt;/a&gt;, hitting cities across the west of the country and killing at least seven people. Taken together, the barrage marks one of the largest aerial bombardments of Ukraine since the start of the full-scale invasion more than four years ago. One Russian drone struck the Bernardine monastery, a 16th-century church in Lviv’s Unesco-listed medieval centre, causing damage, local authorities said.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;North Korea’s leader, Kim Jong-un, said his country would always support Russia in a thank-you letter to his Russian counterpart, Vladimir Putin. &lt;/strong&gt;Ties between the two have grown closer since Putin began the full-scale invasion of Ukraine, with Pyongyang sending ground troops and weapons systems to aid Russia’s war effort. “I express my sincere thanks to you for sending warm and sincere congratulations first on my reassumption of the heavy duty as president of the state affairs,” Kim said in the message on Tuesday, the official Korean central news agency said. “Today the DPRK and Russia are closely cooperating to defend the sovereignty of the two countries,” Kim said, using the initials of the North’s official name. “Pyongyang will always be with Moscow. This is our choice and unshakable will,” he added. South Korean and western intelligence agencies have estimated that the North has sent thousands of soldiers to Russia, primarily to the Kursk region, along with artillery shells, missiles and long-range rocket systems. Analysts say the assistance has been provided in exchange for Russia’s provision of food and weapons technologies.&lt;/p&gt; &lt;a href=\"https://www.theguardian.com/world/2026/mar/25/ukraine-war-briefing-moldova-declares-emergency-after-russian-attack-cuts-key-power-line\"&gt;Continue reading...&lt;/a&gt;",
-          "articleText": "Moldova declared a state of emergency in the energy sector after a key power line with Europe was disconnected following Russian strikes in Ukraine. The declaration comes into effect on Wednesday and lasts for 60 days. The prime minister, Alexandru Munteanu, appealed to people to “avoid unnecessary consumption, especially during peak hours” and “stay united”, according to a statement from parliament. The former Soviet republic imports electricity from neighbouring EU member Romania, mostly via a power cable that passes through southern Ukraine. Moldovan authorities said crashed drones had been identified in Ukraine near the line and that “demining operations” were needed before repairs could be done. Restoring the power line itself was expected to take up to seven days, the energy minister, Dorin Junghietu was quoted by the Moldovan media outlet Ziarul de Gardă as saying. “Russia alone bears responsibility,” the Moldovan president, Maia Sandu, wrote on X, while the foreign ministry also condemned the Russian attacks. Russia has frequently targeted Ukraine’s energy infrastructure since it invaded its neighbour in 2022.\n\nThe Ukrainian president, Volodymyr Zelenskyy, has accused Russia of “absolute depravity” after Moscow fired an unprecedented daytime barrage across Ukraine, including on the historical centre of the western city of Lviv. “Iranian ‘shaheds’ [attack drones], modernised by Russia, are striking a church in Lviv – this is absolute depravity, and only someone like [Vladimir] Putin could find this appealing,” Zelenskyy said in his daily address. “The scale of this attack makes it abundantly clear that Russia has no intention of actually ending this war,” Zelenskyy added, vowing that Ukraine “will certainly respond to any attacks”.\n\nRussia’s military said on Wednesday it had shot down 389 Ukrainian drones overnight in one of the largest attacks to date. Russian regions bordering Ukraine, as well as Moscow and northwestern Leningrad were the main areas targeted, according to the military.\n\nMoscow appears to be stepping up a spring offensive intended to break Ukrainian resistance , writes Pjotr Sauer. Ukrainian officials said Moscow fired nearly 400 long-range drones and 23 cruise missiles overnight, followed by another 556 drones in an unusual daytime assault on Tuesday, hitting cities across the west of the country and killing at least seven people. Taken together, the barrage marks one of the largest aerial bombardments of Ukraine since the start of the full-scale invasion more than four years ago. One Russian drone struck the Bernardine monastery, a 16th-century church in Lviv’s Unesco-listed medieval centre, causing damage, local authorities said.\n\nNorth Korea’s leader, Kim Jong-un, said his country would always support Russia in a thank-you letter to his Russian counterpart, Vladimir Putin. Ties between the two have grown closer since Putin began the full-scale invasion of Ukraine, with Pyongyang sending ground troops and weapons systems to aid Russia’s war effort. “I express my sincere thanks to you for sending warm and sincere congratulations first on my reassumption of the heavy duty as president of the state affairs,” Kim said in the message on Tuesday, the official Korean central news agency said. “Today the DPRK and Russia are closely cooperating to defend the sovereignty of the two countries,” Kim said, using the initials of the North’s official name. “Pyongyang will always be with Moscow. This is our choice and unshakable will,” he added. South Korean and western intelligence agencies have estimated that the North has sent thousands of soldiers to Russia, primarily to the Kursk region, along with artillery shells, missiles and long-range rocket systems. Analysts say the assistance has been provided in exchange for Russia’s provision of food and weapons technologies.",
-          "articleSummary": "Moldova declared a state of emergency in the energy sector after a key power line with Europe was disconnected following Russian strikes in Ukraine. The declaration comes into effect on Wednesday and lasts for 60 days. The prime minister, Alexandru Munteanu, appealed to people to “avoid unnecessary consumption, especially during peak hours” and “stay united”, according to a statement from parliament.",
-          "feedSummary": "President urges people to reduce consumption after power line passing through Ukraine damaged by drones; Moscow spring offensive steps up. What we know on day 1,491 Moldova declared a state of emergency in the energy sector after a key power line with Europe was disconnected following Russian strikes in Ukraine. The declaration comes into effect on Wednesday and lasts for 60 days. The prime minister, Alexandru Munteanu, appealed to people to “avoid unnecessary consumption, especially during peak hours” and “stay united”, according to a statement from parliament. The former Soviet republic imports electricity from neighbouring EU member Romania, mostly via a power cable that passes through southern Ukraine. Moldovan authorities said crashed drones had been identified in Ukraine near the line and that “demining operations” were needed before repairs could be done. Restoring the power line itself was expected to take up to seven days, the energy minister, Dorin Junghietu was quoted by the Moldovan media outlet Ziarul de Gardă as saying. “Russia alone bears responsibility,” the Moldovan president, Maia Sandu, wrote on X, while the foreign ministry also condemned the Russian attacks. Russia has frequently targeted Ukraine’s energy infrastructure since it invaded its neighbour in 2022. The Ukrainian president, Volodymyr Zelenskyy, has accused Russia of “absolute depravity” after Moscow fired an unprecedented daytime barrage across Ukraine, including on the historical centre of the western city of Lviv. “Iranian ‘shaheds’ [attack drones], modernised by Russia, are striking a church in Lviv – this is absolute depravity, and only someone like [Vladimir] Putin could find this appealing,” Zelenskyy said in his daily address. “The scale of this attack makes it abundantly clear that Russia has no intention of actually ending this war,” Zelenskyy added, vowing that Ukraine “will certainly respond to any attacks”. Russia’s military said on Wednesday it had shot down 389 Ukrainian drones overnight in one of the largest attacks to date. Russian regions bordering Ukraine, as well as Moscow and northwestern Leningrad were the main areas targeted, according to the military. Moscow appears to be stepping up a spring offensive intended to break Ukrainian resistance , writes Pjotr Sauer. Ukrainian officials said Moscow fired nearly 400 long-range drones and 23 cruise missiles overnight, followed by another 556 drones in an unusual daytime assault on Tuesday, hitting cities across the west of the country and killing at least seven people. Taken together, the barrage marks one of the largest aerial bombardments of Ukraine since the start of the full-scale invasion more than four years ago. One Russian drone struck the Bernardine monastery, a 16th-century church in Lviv’s Unesco-listed medieval centre, causing damage, local authorities said. North Korea’s leader, Kim Jong-un, said his country would always support Russia in a thank-you letter to his Russian counterpart, Vladimir Putin. Ties between the two have grown closer since Putin began the full-scale invasion of Ukraine, with Pyongyang sending ground troops and weapons systems to aid Russia’s war effort. “I express my sincere thanks to you for sending warm and sincere congratulations first on my reassumption of the heavy duty as president of the state affairs,” Kim said in the message on Tuesday, the official Korean central news agency said. “Today the DPRK and Russia are closely cooperating to defend the sovereignty of the two countries,” Kim said, using the initials of the North’s official name. “Pyongyang will always be with Moscow. This is our choice and unshakable will,” he added. South Korean and western intelligence agencies have estimated that the North has sent thousands of soldiers to Russia, primarily to the Kursk region, along with artillery shells, missiles and long-range rocket systems. Analysts say the assistance has been provided in exchange for Russia’s provision of food and weapons technologies.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "The Guardian: Ukraine",
-          "feedUrl": "https://www.theguardian.com/world/ukraine/rss",
-          "relevanceScore": 32,
-          "description": "Moldavien förklarar energikris efter att ryska drönattacker skadade en kraftledning genom Ukraina som förser landet med el från Rumänien. Reparationen förväntas ta upp till sju dagar och demineringsoperationer krävs först."
-        },
-        {
-          "id": "putin-ukraina-the-guardian-ukraine-11",
-          "sectionId": "putin-ukraina",
-          "sectionName": "Putin / Ukraina",
-          "headline": "Ukraine war briefing: Children ordered to leave key Ukrainian stronghold as Russians advance",
-          "source": "Guardian staff and agencies",
-          "link": "https://www.theguardian.com/world/2026/mar/21/ukraine-war-briefing-children-ordered-to-leave-key-ukrainian-stronghold-as-russians-advance",
-          "actualUrl": "https://www.theguardian.com/world/2026/mar/21/ukraine-war-briefing-children-ordered-to-leave-key-ukrainian-stronghold-as-russians-advance",
-          "pubDate": "Sat, 21 Mar 2026 01:34:50 GMT",
-          "rawDescription": "&lt;p&gt;Compulsory evacuation of children begins in Sloviansk. Kyiv still expects first tranche of 90bn euro loan despite Hungary veto. What we know on day 1,487&lt;/p&gt; &lt;a href=\"https://www.theguardian.com/world/2026/mar/21/ukraine-war-briefing-children-ordered-to-leave-key-ukrainian-stronghold-as-russians-advance\"&gt;Continue reading...&lt;/a&gt;",
-          "articleText": "Ukraine has begun the compulsory evacuation of children from the city of Sloviansk, in a sign the security situation is deteriorating in one of the country’s main remaining strongholds in the Donbas area. Russian forces have been slowly advancing to the north and east of Sloviansk and are about 20km (12 miles) from the edge of the city at various points along the frontline, Reuters reports. Sloviansk is one of several towns and cities that remain under Ukrainian control in an urban “fortress belt” in the eastern region of Donetsk, which comprises part of the Donbas. Russia sees control of the entire Donbas, known for its coalmines and heavy industry, as its key military goal. Ukraine still controls just under a quarter of the Donetsk region.\n\nUkraine launched more than 280 drones at Russia overnight, one of Kyiv’s largest barrages since the start of the war, Russian state news reported, citing the defence ministry. Moscow mayor Sergei Sobyanin said 27 drones headed to the capital had been intercepted. Two people were wounded in drone attacks in south-western Saratov region, governor Roman Busargin posted on Telegram. State news agency Tass reported that 283 drones in total had been intercepted.\n\nUkraine is still expecting the first tranche of a 90bn euro ($103bn) loan from the EU next month, despite a failure to break Hungary’s veto of the funding this week , President Volodymyr Zelenskyy said on Friday. EU leaders were unable to convince the Hungarian prime minister, Viktor Orbán, on Thursday to lift his blockade of the loan, which is crucial for Ukraine to maintain its fight against Russia. Zelenskyy said he had discussed the matter with the EU leaders and trusted they would find a solution.\n\nHowever, Orbán has raised the prospect of further actions his government could take against Ukraine to force the resumption of Russian oil deliveries that have been stalled to Hungary and Slovakia since January . Speaking on Friday, Orbán said he and his government had “a lot of cards in our hands” beyond holding up the financial aid Kyiv needed to equip its armed forces and keep its economy running. “We have other tools as well,” he said. “40% of Ukraine’s electricity supply goes through Hungary; we haven’t touched that yet. [The EU] constantly wants to introduce new sanctions [against Russia]. That will require unanimity, and we will not give it.” Tensions between Hungary and Ukraine have escalated in recent weeks into a bitter feud over Hungary’s access to Russian oil through a pipeline that crosses Ukrainian territory.\n\nZelenskyy said negotiators will seek clarity from US officials on the next round of trilateral talks with Russia, postponed due to the Iran war . “We want clear dates – at least approximate ones. Everyone understands that the situation in the Middle East, the war, is affecting the postponement of this date,” Zelenskyy said on Friday. He added Ukrainian officials at talks in the US on Saturday would discuss the recent “dangerous” US decision to ease some sanctions on the Russian energy sector.\n\nA sizable number of US Patriot air defence missiles have been moved from Europe toward the Middle East, leaving concerning gaps in Europe’s air defences against Russia , US defence officials told the Associated Press. Two Patriot missile systems were sent from Germany to Turkey after several ballistic missiles were fired toward Turkey from Iran since the start of the war, the Turkish defence ministry and three US officials said. The US officials said missiles for the Patriot system were moved from various locations around Europe in an effort to reinforce air defences towards the Middle East. One official said stocks of Patriot missiles were “absolutely” dwindling in Europe and elsewhere because of the war in Iran, and added the situation was “pretty concerning”.\n\nHungarian security operatives administered a “forced injection” to one of the Ukrainians detained earlier this month during a dramatic raid on bank vehicles carrying gold bars and tens of millions of dollars and euros in cash, sources have told the Guardian. The sources said they believed the injection contained a relaxant that was meant to predispose subjects towards becoming talkative during interrogations, write Shaun Walker and Flora Garamvolgyi.\n\nRussia attacked Ukrainian oil and gas facilities in Poltava and Sumy regions overnight , Ukraine’s largest state oil and gas company, Naftogaz, said. The company said damage had been caused, and operations at the unspecified facilities were suspended.\n\nUkraine has deployed military units to protect critical and civilian infrastructure against drones in the United Arab Emirates, Saudi Arabia, Qatar, Kuwait, and Jordan , Ukraine’s security council secretary Rustem Umerov has confirmed.",
-          "articleSummary": "Ukraine has begun the compulsory evacuation of children from the city of Sloviansk, in a sign the security situation is deteriorating in one of the country’s main remaining strongholds in the Donbas area. Russian forces have been slowly advancing to the north and east of Sloviansk and are about 20km (12 miles) from the edge of the city at various points along the frontline, Reuters reports. Sloviansk is one of several towns and cities that remain under Ukrainian control in an urban “fortress belt” in the eastern region of Donetsk, which comprises part of the Donbas.",
-          "feedSummary": "Compulsory evacuation of children begins in Sloviansk. Kyiv still expects first tranche of 90bn euro loan despite Hungary veto. What we know on day 1,487",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "The Guardian: Ukraine",
-          "feedUrl": "https://www.theguardian.com/world/ukraine/rss",
-          "relevanceScore": 32,
-          "description": "Ukraina påbörjar tvingande evakuering av barn från Sloviansk, en av landets viktigaste återstående fästen i Donbas-området. Ryska styrkor närmar sig från norr och öst och ligger ungefär 20 kilometer från stadens kant på olika punkter längs fronten."
-        },
-        {
-          "id": "putin-ukraina-the-guardian-ukraine-13",
-          "sectionId": "putin-ukraina",
-          "sectionName": "Putin / Ukraina",
-          "headline": "Ukraine war briefing: EU president von der Leyen vows to pay loan to Kyiv despite block by Hungary",
-          "source": "Guardian staff",
-          "link": "https://www.theguardian.com/world/2026/mar/20/ukraine-war-briefing-eu-president-von-der-leyen-vows-to-pay-loan-to-kyiv-despite-block-by-hungary",
-          "actualUrl": "https://www.theguardian.com/world/2026/mar/20/ukraine-war-briefing-eu-president-von-der-leyen-vows-to-pay-loan-to-kyiv-despite-block-by-hungary",
-          "pubDate": "Fri, 20 Mar 2026 00:41:04 GMT",
-          "rawDescription": "&lt;p&gt;€90bn loan has been held up by resistance from Hungarian prime minister Viktor Orbán; US and Ukrainian negotiators to meet on Saturday. What we know on day 1,486&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The EU will find ways to pay out the promised €90bn ($104.2bn) loan to Ukraine despite Hungary’s ongoing resistance, European Commission &lt;/strong&gt;&lt;strong&gt;president Ursula von der Leyen said&lt;/strong&gt; early on Friday. “We will deliver one way or the other,” von der Leyen told reporters after a summit in Brussels, where EU leaders failed to convince Hungarian prime minister Viktor Orbán to lift his blockade on the vital EU loan to Ukraine.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;EU leaders earlier&lt;a href=\"https://www.theguardian.com/world/2026/mar/19/hungary-orban-ukraine-loan-veto-eu-summit-europe\"&gt; failed to persuade&lt;/a&gt;&lt;/strong&gt;&lt;a href=\"https://www.theguardian.com/world/2026/mar/19/hungary-orban-ukraine-loan-veto-eu-summit-europe\"&gt; &lt;/a&gt;&lt;strong&gt;Orbán&lt;/strong&gt; &lt;strong&gt;to lift his block on a massive loan to support Ukraine’s war effort&lt;/strong&gt; at summit talks on Thursday, leaving the much-needed funding in limbo. Moscow’s closest partner in the bloc, the nationalist prime minister has long resisted helping Kyiv to repel Russia’s invasion, stalling EU aid and repeated rounds of sanctions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Kremlin said on Thursday that talks between Washington, Moscow and Kyiv on ending the war in Ukraine were on “situational pause”&lt;/strong&gt; after the start of the Iran war, but Ukraine’s president said new discussions were expected this weekend.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Ukrainian and US negotiators will meet in the United States on Saturday in a bid to revive stalled talks on Russia’s invasion&lt;/strong&gt;, Ukrainian President Volodymyr Zelenskyy said.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Belarus’ authoritarian President Alexander Lukashenko on Thursday ordered the release of 250 political prisoners as part of a deal with Washington that lifted some US sanctions&lt;/strong&gt;, the latest step in the isolated leader’s effort to improve ties with the West. Lukashenko pardoned the prisoners after meeting with US President Donald Trump’s special envoy for Belarus, John Coale, in the Belarus capital of Minsk.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;International Monetary Fund staff are in Kyiv this week to meet with Ukrainian authorities about how they plan to meet their commitments under a new $8.1bn lending program&lt;/strong&gt; approved last month, IMF spokesperson Julie Kozack said on Thursday. Kozack said IMF staff would also meet with members of the Ukrainian parliament to discuss fiscal reforms and tax changes required under the IMF program.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;A pro-Kremlin figure who unexpectedly denounced Russian President Vladimir Putin and the war in Ukraine in a social media post this week that went viral has been placed in a psychiatric facility&lt;/strong&gt;, the hospital said on Thursday. Ilya Remeslo made a career denouncing Putin’s critics until he became one himself, posting a manifesto late on Tuesday to his 90,000 followers on Telegram entitled: “Five reasons why I stopped supporting Vladimir Putin.”&lt;/p&gt;&lt;p&gt;&lt;strong&gt;As Russia’s war rages on in Ukraine, the Red Cross said Thursday it was facilitating the exchange of about 1,000 bodies each month between the sides&lt;/strong&gt;, while “thousands and thousands” of dead remain unidentified. Just back from a visit to Ukraine, International Committee of the Red Cross director-general Pierre Krahenbuhl said he was struck by “the scale and the scope of the consequences when these military means are deployed between states”.&lt;/p&gt; &lt;a href=\"https://www.theguardian.com/world/2026/mar/20/ukraine-war-briefing-eu-president-von-der-leyen-vows-to-pay-loan-to-kyiv-despite-block-by-hungary\"&gt;Continue reading...&lt;/a&gt;",
-          "articleText": "The EU will find ways to pay out the promised €90bn ($104.2bn) loan to Ukraine despite Hungary’s ongoing resistance, European Commission president Ursula von der Leyen said early on Friday. “We will deliver one way or the other,” von der Leyen told reporters after a summit in Brussels, where EU leaders failed to convince Hungarian prime minister Viktor Orbán to lift his blockade on the vital EU loan to Ukraine.\n\nEU leaders earlier failed to persuade Orbán to lift his block on a massive loan to support Ukraine’s war effort at summit talks on Thursday, leaving the much-needed funding in limbo. Moscow’s closest partner in the bloc, the nationalist prime minister has long resisted helping Kyiv to repel Russia’s invasion, stalling EU aid and repeated rounds of sanctions.\n\nThe Kremlin said on Thursday that talks between Washington, Moscow and Kyiv on ending the war in Ukraine were on “situational pause” after the start of the Iran war, but Ukraine’s president said new discussions were expected this weekend.\n\nUkrainian and US negotiators will meet in the United States on Saturday in a bid to revive stalled talks on Russia’s invasion , Ukrainian President Volodymyr Zelenskyy said.\n\nBelarus’ authoritarian President Alexander Lukashenko on Thursday ordered the release of 250 political prisoners as part of a deal with Washington that lifted some US sanctions , the latest step in the isolated leader’s effort to improve ties with the West. Lukashenko pardoned the prisoners after meeting with US President Donald Trump’s special envoy for Belarus, John Coale, in the Belarus capital of Minsk.\n\nInternational Monetary Fund staff are in Kyiv this week to meet with Ukrainian authorities about how they plan to meet their commitments under a new $8.1bn lending program approved last month, IMF spokesperson Julie Kozack said on Thursday. Kozack said IMF staff would also meet with members of the Ukrainian parliament to discuss fiscal reforms and tax changes required under the IMF program.\n\nA pro-Kremlin figure who unexpectedly denounced Russian President Vladimir Putin and the war in Ukraine in a social media post this week that went viral has been placed in a psychiatric facility , the hospital said on Thursday. Ilya Remeslo made a career denouncing Putin’s critics until he became one himself, posting a manifesto late on Tuesday to his 90,000 followers on Telegram entitled: “Five reasons why I stopped supporting Vladimir Putin.”\n\nAs Russia’s war rages on in Ukraine, the Red Cross said Thursday it was facilitating the exchange of about 1,000 bodies each month between the sides , while “thousands and thousands” of dead remain unidentified. Just back from a visit to Ukraine, International Committee of the Red Cross director-general Pierre Krahenbuhl said he was struck by “the scale and the scope of the consequences when these military means are deployed between states”.",
-          "articleSummary": "The EU will find ways to pay out the promised €90bn ($104.2bn) loan to Ukraine despite Hungary’s ongoing resistance, European Commission president Ursula von der Leyen said early on Friday. “We will deliver one way or the other,” von der Leyen told reporters after a summit in Brussels, where EU leaders failed to convince Hungarian prime minister Viktor Orbán to lift his blockade on the vital EU loan to Ukraine. EU leaders earlier failed to persuade Orbán to lift his block on a massive loan to support Ukraine’s war effort at summit talks on Thursday, leaving the much-needed funding in limbo. Moscow’s closest partner in the bloc, the nationalist prime minister has long resisted helping Kyiv to repel Russia’s invasion, stalling EU aid and repeated rounds of sanctions.",
-          "feedSummary": "€90bn loan has been held up by resistance from Hungarian prime minister Viktor Orbán; US and Ukrainian negotiators to meet on Saturday. What we know on day 1,486 The EU will find ways to pay out the promised €90bn ($104.2bn) loan to Ukraine despite Hungary’s ongoing resistance, European Commission president Ursula von der Leyen said early on Friday. “We will deliver one way or the other,” von der Leyen told reporters after a summit in Brussels, where EU leaders failed to convince Hungarian prime minister Viktor Orbán to lift his blockade on the vital EU loan to Ukraine. EU leaders earlier failed to persuade Orbán to lift his block on a massive loan to support Ukraine’s war effort at summit talks on Thursday, leaving the much-needed funding in limbo. Moscow’s closest partner in the bloc, the nationalist prime minister has long resisted helping Kyiv to repel Russia’s invasion, stalling EU aid and repeated rounds of sanctions. The Kremlin said on Thursday that talks between Washington, Moscow and Kyiv on ending the war in Ukraine were on “situational pause” after the start of the Iran war, but Ukraine’s president said new discussions were expected this weekend. Ukrainian and US negotiators will meet in the United States on Saturday in a bid to revive stalled talks on Russia’s invasion , Ukrainian President Volodymyr Zelenskyy said. Belarus’ authoritarian President Alexander Lukashenko on Thursday ordered the release of 250 political prisoners as part of a deal with Washington that lifted some US sanctions , the latest step in the isolated leader’s effort to improve ties with the West. Lukashenko pardoned the prisoners after meeting with US President Donald Trump’s special envoy for Belarus, John Coale, in the Belarus capital of Minsk. International Monetary Fund staff are in Kyiv this week to meet with Ukrainian authorities about how they plan to meet their commitments under a new $8.1bn lending program approved last month, IMF spokesperson Julie Kozack said on Thursday. Kozack said IMF staff would also meet with members of the Ukrainian parliament to discuss fiscal reforms and tax changes required under the IMF program. A pro-Kremlin figure who unexpectedly denounced Russian President Vladimir Putin and the war in Ukraine in a social media post this week that went viral has been placed in a psychiatric facility , the hospital said on Thursday. Ilya Remeslo made a career denouncing Putin’s critics until he became one himself, posting a manifesto late on Tuesday to his 90,000 followers on Telegram entitled: “Five reasons why I stopped supporting Vladimir Putin.” As Russia’s war rages on in Ukraine, the Red Cross said Thursday it was facilitating the exchange of about 1,000 bodies each month between the sides , while “thousands and thousands” of dead remain unidentified. Just back from a visit to Ukraine, International Committee of the Red Cross director-general Pierre Krahenbuhl said he was struck by “the scale and the scope of the consequences when these military means are deployed between states”.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "The Guardian: Ukraine",
-          "feedUrl": "https://www.theguardian.com/world/ukraine/rss",
-          "relevanceScore": 32,
-          "description": "EU-kommissionens ordförande Ursula von der Leyen lovar att EU ska leverera det utlovade 90 miljarder euro-lånet till Ukraina trots Ungerns veto."
-        },
-        {
-          "id": "putin-ukraina-the-guardian-ukraine-16",
-          "sectionId": "putin-ukraina",
-          "sectionName": "Putin / Ukraina",
-          "headline": "Ukraine war briefing: Ukraine strikes Russian aircraft sites 800km from border",
-          "source": "Guardian staff and agencies",
-          "link": "https://www.theguardian.com/world/2026/mar/19/ukraine-war-briefing-ukraine-strikes-russian-aircraft-sites-800km-from-border",
-          "actualUrl": "https://www.theguardian.com/world/2026/mar/19/ukraine-war-briefing-ukraine-strikes-russian-aircraft-sites-800km-from-border",
-          "pubDate": "Thu, 19 Mar 2026 01:10:45 GMT",
-          "rawDescription": "&lt;p&gt;Kyiv hits Russian plants producing and repairing military transport planes; former pro-Kremlin operator abruptly calls for Vladimir Putin to step aside. What we know on day 1,485&lt;/p&gt; &lt;a href=\"https://www.theguardian.com/world/2026/mar/19/ukraine-war-briefing-ukraine-strikes-russian-aircraft-sites-800km-from-border\"&gt;Continue reading...&lt;/a&gt;",
-          "articleText": "Ukraine’s military struck two Russian plants producing and repairing military transport and cargo planes in the Ulyanovsk and Novgorod regions , the Ukrainian general staff said on Wednesday. It said in a statement that the attack on the Aviastar plant, part of Russia’s United Aircraft Corporation, in the city of Ulyanovsk, was carried out on 16 March. The plant produces Ilyushin-76MD-90A military transport planes, Ilyushin-78M-90A refueling planes, and provides maintenance for “Ruslan” cargo planes, and is located about 800km (about 500 miles) from the Ukrainian border. Ukraine’s military said the hangars and parking areas were hit and some of the planes were damaged.\n\nThe attack on the 123rd aircraft maintenance plant in the city of Staraya Russ a in the Novgorod region took place one day later , the general staff said. It said the facility provided a full cycle of repairs and modernisation for heavy transport planes, including Ilyushin-76, Ilyushin-78, and L-410. “Striking such targets directly reduces the enemy’s ability to restore and sustain combat-ready aircraft,” Ukrainian drone forces said on X.\n\nIlya Remeslo, for years a reliable pro-Kremlin operator, has abruptly turned on Russia’s president Vladimir Putin . Remeslo on Tuesday posted a manifesto to his 90,000 Telegram followers titled: “Five reasons why I stopped supporting Vladimir Putin.” In it, reports Pjotr Sauer, Remeslo accused the “illegitimate” president of waging a “failing war” in Ukraine that had caused millions of casualties and wrecked the economy. He called on Putin to step aside.\n\nSpanish police said they have arrested three people on the holiday island of Mallorca for allegedly helping a Russian national evade EU sanctions over Russia’s invasion of Ukraine. The man and two women are accused of acting as fronts to manage luxury properties, bank accounts and vehicles to shield assets from seizure, police said on Wednesday. Authorities did not name the Russian national, but Spanish media identified him as Nikolai Kolesov, a businessman linked to the military sector and considered close to Putin. Kolesov heads a major supplier of helicopters to the Russian army.\n\nTens of thousands of Moldovans have been left without water after a Russian strike on a hydroelectric plant in Ukraine resulted in oil polluting a major river that flows through both countries . The Moldovan president, Maia Sandu, has blamed Russia for the pollution on the Dniester River following an attack on Ukraine’s Novodnistrovsk hydropower plant on 7 March, saying it’s “threatening Moldova’s water supply”. The Ukrainian plant is situated about 15km (9 miles) upstream from Moldova’s northern border with Ukraine and supplies water to about 80% of Moldova’s population of about 2.5 million.\n\nUK officials are preparing for a possible court case against Roman Abramovich after he missed a deadline to release £2.4bn he raised from selling Chelsea FC. The Russian billionaire failed to hand over the money by the deadline of 17 March, amid a dispute over how it will eventually be used. Government officials said they would now take steps to prepare for a potential court case so the money can be spent for humanitarian purposes in Ukraine. They have written to Abramovich’s lawyers to warn them of this, Kiran Stacey writes. Spokespeople for Abramovich have been contacted for comment.\n\nNikolai Patrushev, an aide to Putin, said Russia considers the attack on a Russian LNG tanker in the Mediterranean Sea to be “an act of international terrorism” , Russia’s state media reported. Russian officials said the Arctic Metagaz, carrying LNG from the Arctic port of Murmansk, was attacked by Ukrainian naval drones and said the weapons were launched from the Libyan coast. The vessel has limped into Libyan waters, writes Angela Giuffrida.\n\nRussian defence ministry said on Wednesday its forces had captured the village of Oleksandrivka in Ukraine’s Donetsk region.\n\nRussian foreign ministry spokesperson Maria Zakharova said on Wednesday that a call by the Belgian prime minister, Bart De Wever, to normalise relations with Moscow showed there was still some sanity left in parts of Europe. De Wever’s comments run counter to official EU policies to maintain a hard line against Moscow over the invasion of Ukraine and phase out the use of Russian fossil fuels. De Wever’s comments were criticised by various European leaders.\n\nA senior Nato military officer has called on the alliance to extend its cold war-era fuel pipeline network hundreds of kilometres eastwards to ensure sufficient supplies for Nato troops in case of a future conflict with Russia. The 10,000km (6,215-mile) pipeline network, buried 80 centimetres underground (31in), was built during the cold war. The pipeline network currently spans 12 countries but ends in western Germany, where it serves military bases such as the US Ramstein airbase, but also major civilian hubs such as Germany’s biggest airport in Frankfurt.",
-          "articleSummary": "Ukraine’s military struck two Russian plants producing and repairing military transport and cargo planes in the Ulyanovsk and Novgorod regions , the Ukrainian general staff said on Wednesday. It said in a statement that the attack on the Aviastar plant, part of Russia’s United Aircraft Corporation, in the city of Ulyanovsk, was carried out on 16 March. The plant produces Ilyushin-76MD-90A military transport planes, Ilyushin-78M-90A refueling planes, and provides maintenance for “Ruslan” cargo planes, and is located about 800km (about 500 miles) from the Ukrainian border.",
-          "feedSummary": "Kyiv hits Russian plants producing and repairing military transport planes; former pro-Kremlin operator abruptly calls for Vladimir Putin to step aside. What we know on day 1,485",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "The Guardian: Ukraine",
-          "feedUrl": "https://www.theguardian.com/world/ukraine/rss",
-          "relevanceScore": 32,
-          "description": "Ukrainas militär har genomfört attacker mot två ryska fabriker som producerar och reparerar militära transportflygplan i Uljanovsk och Novgorod, belägna cirka 800 kilometer från gränsen. Anfallen riktar sig mot anläggningar som tillverkar Iljusjin-76-plan och utför underhåll på tunga transportflygplan."
-        },
-        {
-          "id": "putin-ukraina-the-guardian-ukraine-4",
-          "sectionId": "putin-ukraina",
-          "sectionName": "Putin / Ukraina",
-          "headline": "Russia fires nearly 1,000 drones in one of its largest aerial attacks on Ukraine",
-          "source": "Pjotr Sauer",
-          "link": "https://www.theguardian.com/world/2026/mar/24/russia-strikes-civilian-areas-ukraine",
-          "actualUrl": "https://www.theguardian.com/world/2026/mar/24/russia-strikes-civilian-areas-ukraine",
-          "pubDate": "Tue, 24 Mar 2026 18:15:48 GMT",
-          "rawDescription": "&lt;p&gt;At least seven killed as Moscow appears to step up spring offensive amid concerns focus on Iran war leaves Kyiv more vulnerable&lt;/p&gt;&lt;p&gt;Russia has launched a huge wave of nearly 1,000 drones at Ukraine, killing at least seven people, as Moscow appears to be stepping up a spring offensive intended to break Ukrainian resistance along the front.&lt;/p&gt;&lt;p&gt;Ukrainian officials said Moscow fired nearly 400 long-range drones and 23 cruise missiles overnight, followed by another 556 drones in an unusual daytime assault on Tuesday, hitting cities across the west of the country.&lt;/p&gt; &lt;a href=\"https://www.theguardian.com/world/2026/mar/24/russia-strikes-civilian-areas-ukraine\"&gt;Continue reading...&lt;/a&gt;",
-          "articleText": "Russia has launched a huge wave of nearly 1,000 drones at Ukraine, killing at least seven people, as Moscow appears to be stepping up a spring offensive intended to break Ukrainian resistance along the front.\n\nUkrainian officials said Moscow fired nearly 400 long-range drones and 23 cruise missiles overnight, followed by another 556 drones in an unusual daytime assault on Tuesday, hitting cities across the west of the country.",
-          "articleSummary": "Russia has launched a huge wave of nearly 1,000 drones at Ukraine, killing at least seven people, as Moscow appears to be stepping up a spring offensive intended to break Ukrainian resistance along the front. Ukrainian officials said Moscow fired nearly 400 long-range drones and 23 cruise missiles overnight, followed by another 556 drones in an unusual daytime assault on Tuesday, hitting cities across the west of the country.",
-          "feedSummary": "At least seven killed as Moscow appears to step up spring offensive amid concerns focus on Iran war leaves Kyiv more vulnerable Russia has launched a huge wave of nearly 1,000 drones at Ukraine, killing at least seven people, as Moscow appears to be stepping up a spring offensive intended to break Ukrainian resistance along the front. Ukrainian officials said Moscow fired nearly 400 long-range drones and 23 cruise missiles overnight, followed by another 556 drones in an unusual daytime assault on Tuesday, hitting cities across the west of the country.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "The Guardian: Ukraine",
-          "feedUrl": "https://www.theguardian.com/world/ukraine/rss",
-          "relevanceScore": 28,
-          "description": "Ryssland har genomfört en massiv drönattack med närmare 1 000 drönare och 23 marschmissiler mot Ukraine, vilket dödat minst sju personer. Attacken utgör en del av Moskvas försök att intensifiera en våroffensiv för att bryta ukrainskt motstånd längs fronten. Anfallen träffade städer över hela västra delen av landet."
-        }
-      ],
-      "summary": "Ryssland intensifierar sin våroffensiv med nästan tusen drönattacker på två dygn, dödar minst sju civila och träffar kyrkor i västra städer."
-    },
-    {
-      "id": "iran",
-      "name": "Iran",
-      "label": "Regionen håller andan igen",
-      "description": "Iran, säkerhetsläget och maktspel som sällan blir mindre riskfyllt.",
-      "feeds": [
-        {
-          "label": "The Guardian: Iran",
-          "url": "https://www.theguardian.com/world/iran/rss",
-          "include": [
-            {}
-          ]
-        },
-        {
-          "label": "BBC News: Middle East",
-          "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
-          "include": [
-            {}
-          ]
-        },
-        {
-          "label": "Al Jazeera RSS",
-          "url": "https://www.aljazeera.com/xml/rss/all.xml",
-          "include": [
-            {}
-          ]
-        },
-        {
-          "label": "DW: All",
-          "url": "https://rss.dw.com/rdf/rss-en-all",
-          "include": [
-            {}
-          ]
-        }
-      ],
-      "sourceLabel": "The Guardian: Iran • BBC News: Middle East • Al Jazeera RSS • DW: All",
-      "feedUrl": "https://www.theguardian.com/world/iran/rss",
-      "feedUrls": [
-        {
-          "label": "The Guardian: Iran",
-          "url": "https://www.theguardian.com/world/iran/rss"
-        },
-        {
-          "label": "BBC News: Middle East",
-          "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml"
-        },
-        {
-          "label": "Al Jazeera RSS",
-          "url": "https://www.aljazeera.com/xml/rss/all.xml"
-        },
-        {
-          "label": "DW: All",
-          "url": "https://rss.dw.com/rdf/rss-en-all"
-        }
-      ],
-      "items": [
-        {
-          "id": "iran-al-jazeera-rss-1",
-          "sectionId": "iran",
-          "sectionName": "Iran",
-          "headline": "Iranian attacks amount to violation of sovereignty, Gulf states tell UN",
-          "source": "Al Jazeera RSS",
-          "link": "https://www.aljazeera.com/news/2026/3/25/iranian-attacks-amount-to-violation-of-sovereignty-gulf-states-tell-un?traffic_source=rss",
-          "actualUrl": "https://www.aljazeera.com/news/2026/3/25/iranian-attacks-amount-to-violation-of-sovereignty-gulf-states-tell-un?traffic_source=rss",
-          "pubDate": "Wed, 25 Mar 2026 13:00:22 +0000",
-          "rawDescription": "<![CDATA[GCC states, UN rights chief Volker Turk warn of grave repercussions amid war on Iran.]]>",
-          "articleText": "Gulf states’ representatives have told the United Nations Human Rights Council that Iranian attacks on their territories amount to a gross violation of state sovereignty, as the UN’s rights chief warned that the Middle East is nearing an “unmitigated catastrophe” as the US-Israel war on Iran approaches the one-month mark.\n\nSaudi Arabia’s representative to the UN, Abdulmohsen Majed bin Khothaila, condemned Iranian attacks during ⁠an emergency meeting called by Gulf states in Geneva on Wednesday, saying the Gulf Cooperation Council (GCC) member states were being attacked despite not being involved in the conflict.\n\nlist 1 of 3 US talking to itself, says Iran as Trump claims wheels of diplomacy turning\n\nlist 2 of 3 Is Iran’s negotiating position stronger than when US-Israeli war started?\n\nlist 3 of 3 US Democrats condemn war on Iran as Senate resolution fails\n\n“[Iranian attacks] violate the UN Charter and international law. We must call things by their name,” Majed bin Khothaila said.\n\n“To target a neighbour is a violation of the principles of good neighbourly relations. To target a mediator betrays all efforts aimed at peace and undermines any constructive initiative. To target states that are not party to the hostilities amounts to unacceptable and unjustifiable attacks that cannot be passed over in silence.”\n\nQatar’s representative to the UN, Hend bint Abd al-Rahman al-Muftah, said Iran’s attacks had “grave repercussions” that were “not only affecting peace and security in the world, but also human rights”.\n\n“These attacks amount to a great source of concern for us, and we can no longer remain silent,” she added.\n\n“To attack the electricity and desalination plants also involves serious environmental consequences and undermines rights that should be guaranteed by human rights provisions.”",
-          "articleSummary": "Gulf states’ representatives have told the United Nations Human Rights Council that Iranian attacks on their territories amount to a gross violation of state sovereignty, as the UN’s rights chief warned that the Middle East is nearing an “unmitigated catastrophe” as the US-Israel war on Iran approaches the one-month mark. Saudi Arabia’s representative to the UN, Abdulmohsen Majed bin Khothaila, condemned Iranian attacks during ⁠an emergency meeting called by Gulf states in Geneva on Wednesday, saying the Gulf Cooperation Council (GCC) member states were being attacked despite not being involved in the conflict. list 1 of 3 US talking to itself, says Iran as Trump claims wheels of diplomacy turning list 2 of 3 Is Iran’s negotiating position stronger than when US-Israeli war started? list 3 of 3 US Democrats condemn war on Iran as Senate resolution fails “[Iranian attacks] violate the UN Charter and international law. We must call things by their name,” Majed bin Khothaila said. “To target a neighbour is a violation of the principles of good neighbourly relations.",
-          "feedSummary": "GCC states, UN rights chief Volker Turk warn of grave repercussions amid war on Iran.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "Al Jazeera RSS",
-          "feedUrl": "https://www.aljazeera.com/xml/rss/all.xml",
-          "relevanceScore": 32,
-          "description": "Gulfstaterna har informerat FN:s människorättsråd att iranska attacker mot deras territorier utgör en grov kränkning av statlig suveränitet. FN:s människorättschef varnade för att Mellanöstern närmar sig en \"omättlig katastrof\" när kriget mellan USA-Israel och Iran närmar sig en månads gräns."
-        },
-        {
-          "id": "iran-bbc-news-middle-east-3",
-          "sectionId": "iran",
-          "sectionName": "Iran",
-          "headline": "'There's no safety anymore': Palestinians warn of expanding West Bank settler violence",
-          "source": "BBC News: Middle East",
-          "link": "https://www.bbc.com/news/articles/c747x00m83vo?at_medium=RSS&at_campaign=rss",
-          "actualUrl": "https://www.bbc.com/news/articles/c747x00m83vo?at_medium=RSS&at_campaign=rss",
-          "pubDate": "Wed, 25 Mar 2026 12:27:28 GMT",
-          "rawDescription": "<![CDATA[There has been a surge of attacks by Israeli settlers on Palestinian villages across the occupied territory since the start of the Iran war.]]>",
-          "articleText": "\"This assault wasn't just meant to burn the houses but also to kill - to kill women and children,\" says Barhan Omar, standing in the charred ruins of his family's large villa, which Israeli settlers attacked on Sunday.\n\n\"They came in big numbers. This was organised terrorism,\" he tells me, fighting back tears. \"What's terrifying is that you're sitting in your house with your children, then suddenly you come under fire.\"\n\nThe Palestinian bank manager says settlers shot at his home in Deir al-Hatab, near Nablus, as well as setting it alight, and that he and his children escaped only by hiding on their roof.\n\nIsraeli settlers target Palestinian villages in occupied West Bank, attacking people and properties\n\n'My mother cried out one last time': Palestinian boy, 12, describes how Israeli forces killed his family in car\n\nEU and UK demand Israel stop surge in West Bank settler violence since Iran war\n\nAcross the occupied West Bank, there has been a new spate of settler violence in recent days. During the rampage in Deir al-Hatab, at least 10 people were injured - mostly by thrown stones, with one man shot in the foot.\n\nThis is a village that has not previously experienced such a major attack, unlike other parts of the West Bank.\n\nIt followed the funeral of a young Israeli, Yehuda Sherman, at the nearby settlement of Elon Moreh, which was attended by hundreds of mourners and several leading Israeli politicians.\n\nThe 18-year-old was killed when his all-terrain vehicle was reportedly hit by a Palestinian in a pick-up truck near the outpost where he lived. Settlers believe he was attacked, while Palestinians insist it was an accident.\n\nAlready there had been a new surge in attacks by extremist settlers since the start of the Iran war. While world attention has been diverted to new regional conflicts, six Palestinians have been killed by settlers, the UN says.\n\nIn another shocking incident two weeks ago, residents of Khirbet Humsa in the northern Jordan Valley accused settlers of sexually assaulting a man and beating others as they ordered them off the land. Israeli police have since made seven arrests.\n\nIt follows a trend seen during the Gaza war, triggered by the Hamas-led attacks on Israel in October 2023; there was a sharp acceleration in settler violence and settlement growth fast-tracked by the Israeli government. Last year set a record for the most extensive expansion of settlements and planning approvals since the UN began its monitoring.\n\nAll settlements are seen as illegal under international law. Outposts are set up without Israeli government approval.\n\n\"They [the settlers] have seen all the last three years as an opportunity, some say this is the time of 'a miracle',\" says Yair Dvir, spokesman for the Israeli human rights group B'Tselem. \"What we're seeing now on the ground is a continuation of the ethnic cleansing campaign by Israel.\"\n\nIsrael strongly rejects that its actions amount to ethnic cleansing of Palestinians. Recently, the UN's human rights office also suggested that \"forcible transfers, which appear to aim at a permanent displacement raise concerns over ethnic cleansing\".\n\nThe first focus for settlers has been what is known as Area C of the West Bank - where Israel retained full security and administrative control after the 1993 Oslo peace accords. The accords divided the territory - temporarily, it was intended - into areas A, B, and C, with A and B under Palestinian civil and partial Israeli security control, and C under full Israeli control.\n\nBetween January 2023 and mid-February 2026, at least 4,765 Palestinians from 97 locations, have been displaced by settler violence, the UN's humanitarian office says. Most were from Bedouin and herding communities in Area C. At the start of this year, 600 people were forced from one Bedouin village, Ras Ein al-Auja, in the Jordan Valley.\n\nNow, settler violence is increasingly focused on built-up Palestinian villages - such as Deir al-Hatab - in Area B, where Israel has kept security control, but the Palestinian Authority has civil powers.\n\n\"In areas where the Palestinian communities have been emptied out in C, the next step is happening, the settlers are going westward towards the B areas to continue the agenda of emptying out this land,\" says Allegra Pacheco, chief of party for the West Bank Protection Consortium, a partnership of international NGOs supported by foreign donors.\n\n\"This is an intentional policy. This is not haphazard, some bad youth misbehaving. This is all the way to the top. The goal is to empty out these areas, to enable Israel to annex them, to expand the settlements, and deplete these areas of Palestinians.\"\n\nIsrael's far-right Finance Minister Bezalel Smotrich - a settler himself - is a key driver of government policy on settlements. He has been sanctioned by the UK and others for inciting West Bank violence.\n\nThe minister is clear that he plans \"to bury the idea of a Palestinian state\" and has taken unprecedented steps to tighten Israel's hold on the West Bank, where settlers claim religious and historical rights to the land. He has declared vast areas \"state land\", and claims to have approved or retroactively authorised 69 new settlements.\n\nSpeaking at the funeral of Yehuda Sherman, Smotrich referred to \"the disgrace of Oslo\" and called to bring down the Palestinian Authority, which was set up after the breakthrough peace treaty. \"We will settle all our land in all its parts,\" he pledged.\n\nLast week, Israel's military chief of staff, Lt Gen Eyal Zamir, strongly condemned settler violence, calling it \"morally and ethically unacceptable\" and a danger to security.\n\nHowever, the Israel Defense Forces (IDF) have faced mounting criticism for actively participating in attacks, standing by, or failing to prosecute those responsible.\n\nWhile the IDF said it viewed the settler violence following the funeral \"seriously\", residents of Deir al-Hatab complained that soldiers in a nearby watchtower turned a blind eye to the m",
-          "articleSummary": "\"This assault wasn't just meant to burn the houses but also to kill - to kill women and children,\" says Barhan Omar, standing in the charred ruins of his family's large villa, which Israeli settlers attacked on Sunday. This was organised terrorism,\" he tells me, fighting back tears. \"What's terrifying is that you're sitting in your house with your children, then suddenly you come under fire.\" The Palestinian bank manager says settlers shot at his home in Deir al-Hatab, near Nablus, as well as setting it alight, and that he and his children escaped only by hiding on their roof.",
-          "feedSummary": "There has been a surge of attacks by Israeli settlers on Palestinian villages across the occupied territory since the start of the Iran war.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "BBC News: Middle East",
-          "feedUrl": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml",
-          "relevanceScore": 32,
-          "description": "Palestinska byar i Västbanken utsätts för ökad våld från israeliska bosättare sedan kriget med Iran började. En palestinsk bankman beskriver hur bosättare attackerade hans hem med skjutvapen och eldade upp det, medan han och hans barn gömde sig på taket."
-        },
-        {
-          "id": "iran-al-jazeera-rss-7",
-          "sectionId": "iran",
-          "sectionName": "Iran",
-          "headline": "Asian Champions League quarterfinal sends Iran’s Tractor FC to Saudi Arabia",
-          "source": "Al Jazeera RSS",
-          "link": "https://www.aljazeera.com/sports/2026/3/25/asian-champions-league-quarterfinal-sends-irans-tractor-fc-to-saudi-arabia?traffic_source=rss",
-          "actualUrl": "https://www.aljazeera.com/sports/2026/3/25/asian-champions-league-quarterfinal-sends-irans-tractor-fc-to-saudi-arabia?traffic_source=rss",
-          "pubDate": "Wed, 25 Mar 2026 12:18:33 +0000",
-          "rawDescription": "<![CDATA[Draw for AFC Asian Champions League Elite quarterfinals sees Tractor FC play Dubai&#039;s Shabab Al-Ahli in Saudi Arabia.]]>",
-          "articleText": "Iranian club Tractor FC is set to travel to Saudi Arabia for a playoff against Shabab Al-Ahli of Dubai for a place in the Asian Champions League Elite quarterfinals against Buriram United of Thailand.\n\nThe Asian Football Confederation (AFC) held the draw on Wednesday to determine the quarterfinal pairings, a day after announcing that the western zone playoffs that were postponed because of the war in the Middle East have been rescheduled for April 13-14 in Jeddah.\n\nlist 1 of 4 Egypt’s Mohamed Salah to leave Liverpool at end of season after 9-year stay\n\nlist 2 of 4 Italy headline the final push by UEFA teams for FIFA World Cup 2026 places\n\nlist 3 of 4 Palestinian FA calls for Israeli ban after FIFA discrimination report\n\nlist 4 of 4 Supporter groups file lawsuit against FIFA over World Cup ticket prices\n\nThe Saudi city is also slated to host the tournament quarterfinals, semifinals and final from April 16 to 25, with organisers setting the dates and hoping for peace in the region.\n\n“We all want to play matches as soon as possible. So, hopefully we’re able to finish fixtures in April as we have planned,” AFC general secretary Windsor John said. “We’re hoping that things will calm down very soon.”\n\nThe participating clubs have been “quite supportive of the measures we’ve put in place to ensure that we only play when things have calmed down”.\n\nJapan’s Vissel Kobe, which placed second in the east zone, was drawn on Wednesday to play the winners of the playoff between four-time champions Al-Hilal of Saudi Arabia and Al-Sadd of the United Arab Emirates.\n\nDefending champions Al-Ahli Saudi will play Al-Duhail of Qatar for a spot in the quarterfinals against Johor Darul Ta’zim of Malaysia.\n\nSaudi Pro League champions Al-Ittihad will take on Al-Wahda for a place in the quarterfinals against Japan’s Machida Zelvia, which topped the east zone league stage.",
-          "articleSummary": "Iranian club Tractor FC is set to travel to Saudi Arabia for a playoff against Shabab Al-Ahli of Dubai for a place in the Asian Champions League Elite quarterfinals against Buriram United of Thailand. The Asian Football Confederation (AFC) held the draw on Wednesday to determine the quarterfinal pairings, a day after announcing that the western zone playoffs that were postponed because of the war in the Middle East have been rescheduled for April 13-14 in Jeddah. list 1 of 4 Egypt’s Mohamed Salah to leave Liverpool at end of season after 9-year stay list 2 of 4 Italy headline the final push by UEFA teams for FIFA World Cup 2026 places list 3 of 4 Palestinian FA calls for Israeli ban after FIFA discrimination report list 4 of 4 Supporter groups file lawsuit against FIFA over World Cup ticket prices The Saudi city is also slated to host the tournament quarterfinals, semifinals and final from April 16 to 25, with organisers setting the dates and hoping for peace in the region. “We all want to play matches as soon as possible. So, hopefully we’re able to finish fixtures in April as we have planned,” AFC general secretary Windsor John said. “We’re hoping that things will calm down very soon.” The participating clubs have been “quite supportive of the measures we’ve put in place to ensure that we only play when things have calmed down”.",
-          "feedSummary": "Draw for AFC Asian Champions League Elite quarterfinals sees Tractor FC play Dubai's Shabab Al-Ahli in Saudi Arabia.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "Al Jazeera RSS",
-          "feedUrl": "https://www.aljazeera.com/xml/rss/all.xml",
-          "relevanceScore": 32,
-          "description": "Den iranska fotbollsklubben Tractor FC ska resa till Saudiarabien för en playoff mot Shabab Al-Ahli från Dubai för att säkra en plats i AFC Asian Champions League Elite-kvartsfinal."
-        },
-        {
-          "id": "iran-al-jazeera-rss-12",
-          "sectionId": "iran",
-          "sectionName": "Iran",
-          "headline": "Large Polymarket, Wall Street bets on Trump’s war news under scrutiny",
-          "source": "Al Jazeera RSS",
-          "link": "https://www.aljazeera.com/news/2026/3/25/large-polymarket-wall-street-bets-on-trumps-war-news-under-scrutiny?traffic_source=rss",
-          "actualUrl": "https://www.aljazeera.com/news/2026/3/25/large-polymarket-wall-street-bets-on-trumps-war-news-under-scrutiny?traffic_source=rss",
-          "pubDate": "Wed, 25 Mar 2026 11:21:19 +0000",
-          "rawDescription": "<![CDATA[Well-timed trades regarding Iran war news this week lead critics to argue White House may be engaged in insider trading.]]>",
-          "articleText": "From cryptocurrency-based online platforms to oil futures and the United States S&P 500 stock benchmark, traders have made bets worth hundreds of millions of dollars since the start of the US-Israeli war on Iran with suspiciously well-timed trades that suggest knowledge of key White House decision-making.\n\nOne of the most well-documented examples has been Polymarket, a platform that lets users anonymously bet on event outcomes from sports tournaments to ceasefires without uploading an identity document.\n\nlist 1 of 4 From Pakistan to Egypt, Iran war drives up prices in Global South\n\nlist 2 of 4 Amid US-Israeli attacks, people in Iran struggle to survive ailing economy\n\nlist 3 of 4 US-Israel war on Iran: What’s happening on day 26 of attacks?\n\nlist 4 of 4 Iran’s new security boss Mohammad Zolghadr: Why his appointment matters\n\nPolymarket gained mainstream popularity during the 2024 US presidential election, but it has become synonymous with suspected insider trading since January after well-timed bets on US plans to abduct Venezuelan President Nicolas Maduro, followed by the start of the war on Iran two months later.\n\nResearchers have tracked dozens of examples of anonymous new accounts betting big but also correctly just before a critical event like the February 28 US-Israeli strikes that began the Iran war.\n\nAs of Wednesday, there were 355 live prediction markets on Polymarket linked to outcomes in the war, such as the identity of the next leader of Iran, the date of a US-Iran nuclear deal and when Iran will launch military action against Israel.\n\nThe independent on-chain analyst known as Andrew 10 GWEI told Al Jazeera one of the most “striking” recent examples of suspicious betting was his discovery of 38 accounts that he believes belong to one person and netted more than $2m betting correctly on the February 28 strikes.",
-          "articleSummary": "From cryptocurrency-based online platforms to oil futures and the United States S&P 500 stock benchmark, traders have made bets worth hundreds of millions of dollars since the start of the US-Israeli war on Iran with suspiciously well-timed trades that suggest knowledge of key White House decision-making. One of the most well-documented examples has been Polymarket, a platform that lets users anonymously bet on event outcomes from sports tournaments to ceasefires without uploading an identity document. list 1 of 4 From Pakistan to Egypt, Iran war drives up prices in Global South list 2 of 4 Amid US-Israeli attacks, people in Iran struggle to survive ailing economy list 3 of 4 US-Israel war on Iran: What’s happening on day 26 of attacks? list 4 of 4 Iran’s new security boss Mohammad Zolghadr: Why his appointment matters Polymarket gained mainstream popularity during the 2024 US presidential election, but it has become synonymous with suspected insider trading since January after well-timed bets on US plans to abduct Venezuelan President Nicolas Maduro, followed by the start of the war on Iran two months later. Researchers have tracked dozens of examples of anonymous new accounts betting big but also correctly just before a critical event like the February 28 US-Israeli strikes that began the Iran war.",
-          "feedSummary": "Well-timed trades regarding Iran war news this week lead critics to argue White House may be engaged in insider trading.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "Al Jazeera RSS",
-          "feedUrl": "https://www.aljazeera.com/xml/rss/all.xml",
-          "relevanceScore": 32,
-          "description": "Handlare på kryptovaluta-baserade plattformar och finansmarknader har gjort misstänkt väl-tidsatta satsningar värd hundratals miljoner dollar sedan kriget mellan USA-Israel och Iran började."
-        },
-        {
-          "id": "iran-al-jazeera-rss-14",
-          "sectionId": "iran",
-          "sectionName": "Iran",
-          "headline": "Spain’s PM says Israel to inflict on Lebanon same destruction as in Gaza",
-          "source": "Al Jazeera RSS",
-          "link": "https://www.aljazeera.com/news/2026/3/25/spains-pm-says-israel-to-inflict-on-lebanon-same-destruction-as-in-gaza?traffic_source=rss",
-          "actualUrl": "https://www.aljazeera.com/news/2026/3/25/spains-pm-says-israel-to-inflict-on-lebanon-same-destruction-as-in-gaza?traffic_source=rss",
-          "pubDate": "Wed, 25 Mar 2026 11:02:40 +0000",
-          "rawDescription": "<![CDATA[Pedro ​Sanchez has been one of the few leaders in Europe to condemn Israel&#039;s war in Lebanon, US-Israeli ⁠war on Iran.]]>",
-          "articleText": "Spanish Prime ‌Minister Pedro Sanchez has said Israel “seeks to inflict the same level ⁠of damage and destruction” on Lebanon ⁠as on the Gaza Strip, as its army continues attacks across the neighbouring country amid plans to occupy its south.\n\nIn an address before the lower house on Wednesday, Sanchez also said his government ⁠stood against the United States-Israeli ⁠war on Iran, which presented a “far worse” scenario than the invasion of Iraq in 2003.\n\nlist 1 of 3 Iranian IRGC’s ties to Hezbollah deepen tensions in Lebanese politics\n\nlist 2 of 3 Israeli strike lands near Roman ruins in Lebanon\n\nlist 3 of 3 Palestinian refugees in Lebanon face another forced displacement\n\n“This is not the same scenario as the illegal war in Iraq. We are facing something far worse. Much worse. With a potential impact that is far broader and far deeper,” he told parliament.\n\nSanchez added that Iran’s new supreme ⁠leader was more hardline ⁠than his predecessor. “Mojtaba Khamenei ⁠is an equally dictatorial and even more bloodthirsty tyrant ‌than his father,” he said.\n\nThe left-wing prime minister has been one of the few leaders in Europe to condemn the US-Israel attack on Iran, describing it as “unjustifiable”.\n\nSpain has also been one of the few European nations to consistently condemn and take action against Israel’s ongoing genocidal war on Gaza. More than 72,000 Palestinians have been killed and vast swaths of Gaza have been turned into rubble in Israeli attacks since October 7, 2023. Despite a “ceasefire” in place since October 2025, Israel has killed more than 800 Palestinians in almost daily breaches of the Trump-brokered truce.\n\nIn October, Spain’s parliament approved the enshrinement in law of a total arms embargo on Israel, permanently banning the sale of weapons, dual-use technology and military equipment in response to the genocide.",
-          "articleSummary": "Spanish Prime ‌Minister Pedro Sanchez has said Israel “seeks to inflict the same level ⁠of damage and destruction” on Lebanon ⁠as on the Gaza Strip, as its army continues attacks across the neighbouring country amid plans to occupy its south. In an address before the lower house on Wednesday, Sanchez also said his government ⁠stood against the United States-Israeli ⁠war on Iran, which presented a “far worse” scenario than the invasion of Iraq in 2003. list 1 of 3 Iranian IRGC’s ties to Hezbollah deepen tensions in Lebanese politics list 2 of 3 Israeli strike lands near Roman ruins in Lebanon list 3 of 3 Palestinian refugees in Lebanon face another forced displacement “This is not the same scenario as the illegal war in Iraq. With a potential impact that is far broader and far deeper,” he told parliament.",
-          "feedSummary": "Pedro ​Sanchez has been one of the few leaders in Europe to condemn Israel's war in Lebanon, US-Israeli ⁠war on Iran.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "Al Jazeera RSS",
-          "feedUrl": "https://www.aljazeera.com/xml/rss/all.xml",
-          "relevanceScore": 32,
-          "description": "Spaniens premiärminister Pedro Sánchez säger att Israel strävar efter att orsaka samma nivå av skador och förstöring i Libanon som i Gaza. Sánchez uttryckte också sitt lands motstånd mot USA-Israels krig mot Iran, vilket han beskrev som ett \"mycket värre\" scenario än invasionen av Irak 2003."
-        }
-      ],
-      "summary": "Gulfstaterna klagar till FN om Irans attacker som en suverän kränkning, medan världens uppmärksamhet är splittrad mellan flera konflikter. Palestinska bosättare ökar våldet i Västbanken under kriget, sex palestinier dödas enligt FN."
-    },
-    {
-      "id": "orban-eu",
-      "name": "Orbán / EU",
-      "label": "Illiberal administration, kontinentalt tålamodstest",
-      "description": "Ungern, EU-bråk, veto-spel och Orbáns ständiga närvaro i marginalnoterna.",
-      "feeds": [
-        {
-          "label": "The Guardian: Hungary",
-          "url": "https://www.theguardian.com/world/hungary/rss",
-          "include": [
-            {}
-          ],
-          "headlineOnly": true
-        },
-        {
-          "label": "Politico Europe",
-          "url": "https://www.politico.eu/feed/",
-          "include": [
-            {}
-          ],
-          "headlineOnly": true
-        },
-        {
-          "label": "DW: EU",
-          "url": "https://rss.dw.com/rdf/rss-en-eu",
-          "include": [
-            {}
-          ],
-          "headlineOnly": true
-        },
-        {
-          "label": "BBC News: Europe",
-          "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml",
-          "include": [
-            {}
-          ],
-          "headlineOnly": true
-        }
-      ],
-      "sourceLabel": "The Guardian: Hungary • Politico Europe • DW: EU • BBC News: Europe",
-      "feedUrl": "https://www.theguardian.com/world/hungary/rss",
-      "feedUrls": [
-        {
-          "label": "The Guardian: Hungary",
-          "url": "https://www.theguardian.com/world/hungary/rss"
-        },
-        {
-          "label": "Politico Europe",
-          "url": "https://www.politico.eu/feed/"
-        },
-        {
-          "label": "DW: EU",
-          "url": "https://rss.dw.com/rdf/rss-en-eu"
-        },
-        {
-          "label": "BBC News: Europe",
-          "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml"
-        }
-      ],
-      "items": [
-        {
-          "id": "orban-eu-the-guardian-hungary-7",
-          "sectionId": "orban-eu",
-          "sectionName": "Orbán / EU",
-          "headline": "Ukraine war briefing: EU president von der Leyen vows to pay loan to Kyiv despite block by Hungary",
-          "source": "Guardian staff",
-          "link": "https://www.theguardian.com/world/2026/mar/20/ukraine-war-briefing-eu-president-von-der-leyen-vows-to-pay-loan-to-kyiv-despite-block-by-hungary",
-          "actualUrl": "https://www.theguardian.com/world/2026/mar/20/ukraine-war-briefing-eu-president-von-der-leyen-vows-to-pay-loan-to-kyiv-despite-block-by-hungary",
-          "pubDate": "Fri, 20 Mar 2026 00:41:04 GMT",
-          "rawDescription": "&lt;p&gt;€90bn loan has been held up by resistance from Hungarian prime minister Viktor Orbán; US and Ukrainian negotiators to meet on Saturday. What we know on day 1,486&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The EU will find ways to pay out the promised €90bn ($104.2bn) loan to Ukraine despite Hungary’s ongoing resistance, European Commission &lt;/strong&gt;&lt;strong&gt;president Ursula von der Leyen said&lt;/strong&gt; early on Friday. “We will deliver one way or the other,” von der Leyen told reporters after a summit in Brussels, where EU leaders failed to convince Hungarian prime minister Viktor Orbán to lift his blockade on the vital EU loan to Ukraine.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;EU leaders earlier&lt;a href=\"https://www.theguardian.com/world/2026/mar/19/hungary-orban-ukraine-loan-veto-eu-summit-europe\"&gt; failed to persuade&lt;/a&gt;&lt;/strong&gt;&lt;a href=\"https://www.theguardian.com/world/2026/mar/19/hungary-orban-ukraine-loan-veto-eu-summit-europe\"&gt; &lt;/a&gt;&lt;strong&gt;Orbán&lt;/strong&gt; &lt;strong&gt;to lift his block on a massive loan to support Ukraine’s war effort&lt;/strong&gt; at summit talks on Thursday, leaving the much-needed funding in limbo. Moscow’s closest partner in the bloc, the nationalist prime minister has long resisted helping Kyiv to repel Russia’s invasion, stalling EU aid and repeated rounds of sanctions.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;The Kremlin said on Thursday that talks between Washington, Moscow and Kyiv on ending the war in Ukraine were on “situational pause”&lt;/strong&gt; after the start of the Iran war, but Ukraine’s president said new discussions were expected this weekend.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Ukrainian and US negotiators will meet in the United States on Saturday in a bid to revive stalled talks on Russia’s invasion&lt;/strong&gt;, Ukrainian President Volodymyr Zelenskyy said.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Belarus’ authoritarian President Alexander Lukashenko on Thursday ordered the release of 250 political prisoners as part of a deal with Washington that lifted some US sanctions&lt;/strong&gt;, the latest step in the isolated leader’s effort to improve ties with the West. Lukashenko pardoned the prisoners after meeting with US President Donald Trump’s special envoy for Belarus, John Coale, in the Belarus capital of Minsk.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;International Monetary Fund staff are in Kyiv this week to meet with Ukrainian authorities about how they plan to meet their commitments under a new $8.1bn lending program&lt;/strong&gt; approved last month, IMF spokesperson Julie Kozack said on Thursday. Kozack said IMF staff would also meet with members of the Ukrainian parliament to discuss fiscal reforms and tax changes required under the IMF program.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;A pro-Kremlin figure who unexpectedly denounced Russian President Vladimir Putin and the war in Ukraine in a social media post this week that went viral has been placed in a psychiatric facility&lt;/strong&gt;, the hospital said on Thursday. Ilya Remeslo made a career denouncing Putin’s critics until he became one himself, posting a manifesto late on Tuesday to his 90,000 followers on Telegram entitled: “Five reasons why I stopped supporting Vladimir Putin.”&lt;/p&gt;&lt;p&gt;&lt;strong&gt;As Russia’s war rages on in Ukraine, the Red Cross said Thursday it was facilitating the exchange of about 1,000 bodies each month between the sides&lt;/strong&gt;, while “thousands and thousands” of dead remain unidentified. Just back from a visit to Ukraine, International Committee of the Red Cross director-general Pierre Krahenbuhl said he was struck by “the scale and the scope of the consequences when these military means are deployed between states”.&lt;/p&gt; &lt;a href=\"https://www.theguardian.com/world/2026/mar/20/ukraine-war-briefing-eu-president-von-der-leyen-vows-to-pay-loan-to-kyiv-despite-block-by-hungary\"&gt;Continue reading...&lt;/a&gt;",
-          "articleText": "The EU will find ways to pay out the promised €90bn ($104.2bn) loan to Ukraine despite Hungary’s ongoing resistance, European Commission president Ursula von der Leyen said early on Friday. “We will deliver one way or the other,” von der Leyen told reporters after a summit in Brussels, where EU leaders failed to convince Hungarian prime minister Viktor Orbán to lift his blockade on the vital EU loan to Ukraine.\n\nEU leaders earlier failed to persuade Orbán to lift his block on a massive loan to support Ukraine’s war effort at summit talks on Thursday, leaving the much-needed funding in limbo. Moscow’s closest partner in the bloc, the nationalist prime minister has long resisted helping Kyiv to repel Russia’s invasion, stalling EU aid and repeated rounds of sanctions.\n\nThe Kremlin said on Thursday that talks between Washington, Moscow and Kyiv on ending the war in Ukraine were on “situational pause” after the start of the Iran war, but Ukraine’s president said new discussions were expected this weekend.\n\nUkrainian and US negotiators will meet in the United States on Saturday in a bid to revive stalled talks on Russia’s invasion , Ukrainian President Volodymyr Zelenskyy said.\n\nBelarus’ authoritarian President Alexander Lukashenko on Thursday ordered the release of 250 political prisoners as part of a deal with Washington that lifted some US sanctions , the latest step in the isolated leader’s effort to improve ties with the West. Lukashenko pardoned the prisoners after meeting with US President Donald Trump’s special envoy for Belarus, John Coale, in the Belarus capital of Minsk.\n\nInternational Monetary Fund staff are in Kyiv this week to meet with Ukrainian authorities about how they plan to meet their commitments under a new $8.1bn lending program approved last month, IMF spokesperson Julie Kozack said on Thursday. Kozack said IMF staff would also meet with members of the Ukrainian parliament to discuss fiscal reforms and tax changes required under the IMF program.\n\nA pro-Kremlin figure who unexpectedly denounced Russian President Vladimir Putin and the war in Ukraine in a social media post this week that went viral has been placed in a psychiatric facility , the hospital said on Thursday. Ilya Remeslo made a career denouncing Putin’s critics until he became one himself, posting a manifesto late on Tuesday to his 90,000 followers on Telegram entitled: “Five reasons why I stopped supporting Vladimir Putin.”\n\nAs Russia’s war rages on in Ukraine, the Red Cross said Thursday it was facilitating the exchange of about 1,000 bodies each month between the sides , while “thousands and thousands” of dead remain unidentified. Just back from a visit to Ukraine, International Committee of the Red Cross director-general Pierre Krahenbuhl said he was struck by “the scale and the scope of the consequences when these military means are deployed between states”.",
-          "articleSummary": "The EU will find ways to pay out the promised €90bn ($104.2bn) loan to Ukraine despite Hungary’s ongoing resistance, European Commission president Ursula von der Leyen said early on Friday. “We will deliver one way or the other,” von der Leyen told reporters after a summit in Brussels, where EU leaders failed to convince Hungarian prime minister Viktor Orbán to lift his blockade on the vital EU loan to Ukraine. EU leaders earlier failed to persuade Orbán to lift his block on a massive loan to support Ukraine’s war effort at summit talks on Thursday, leaving the much-needed funding in limbo. Moscow’s closest partner in the bloc, the nationalist prime minister has long resisted helping Kyiv to repel Russia’s invasion, stalling EU aid and repeated rounds of sanctions.",
-          "feedSummary": "€90bn loan has been held up by resistance from Hungarian prime minister Viktor Orbán; US and Ukrainian negotiators to meet on Saturday. What we know on day 1,486 The EU will find ways to pay out the promised €90bn ($104.2bn) loan to Ukraine despite Hungary’s ongoing resistance, European Commission president Ursula von der Leyen said early on Friday. “We will deliver one way or the other,” von der Leyen told reporters after a summit in Brussels, where EU leaders failed to convince Hungarian prime minister Viktor Orbán to lift his blockade on the vital EU loan to Ukraine. EU leaders earlier failed to persuade Orbán to lift his block on a massive loan to support Ukraine’s war effort at summit talks on Thursday, leaving the much-needed funding in limbo. Moscow’s closest partner in the bloc, the nationalist prime minister has long resisted helping Kyiv to repel Russia’s invasion, stalling EU aid and repeated rounds of sanctions. The Kremlin said on Thursday that talks between Washington, Moscow and Kyiv on ending the war in Ukraine were on “situational pause” after the start of the Iran war, but Ukraine’s president said new discussions were expected this weekend. Ukrainian and US negotiators will meet in the United States on Saturday in a bid to revive stalled talks on Russia’s invasion , Ukrainian President Volodymyr Zelenskyy said. Belarus’ authoritarian President Alexander Lukashenko on Thursday ordered the release of 250 political prisoners as part of a deal with Washington that lifted some US sanctions , the latest step in the isolated leader’s effort to improve ties with the West. Lukashenko pardoned the prisoners after meeting with US President Donald Trump’s special envoy for Belarus, John Coale, in the Belarus capital of Minsk. International Monetary Fund staff are in Kyiv this week to meet with Ukrainian authorities about how they plan to meet their commitments under a new $8.1bn lending program approved last month, IMF spokesperson Julie Kozack said on Thursday. Kozack said IMF staff would also meet with members of the Ukrainian parliament to discuss fiscal reforms and tax changes required under the IMF program. A pro-Kremlin figure who unexpectedly denounced Russian President Vladimir Putin and the war in Ukraine in a social media post this week that went viral has been placed in a psychiatric facility , the hospital said on Thursday. Ilya Remeslo made a career denouncing Putin’s critics until he became one himself, posting a manifesto late on Tuesday to his 90,000 followers on Telegram entitled: “Five reasons why I stopped supporting Vladimir Putin.” As Russia’s war rages on in Ukraine, the Red Cross said Thursday it was facilitating the exchange of about 1,000 bodies each month between the sides , while “thousands and thousands” of dead remain unidentified. Just back from a visit to Ukraine, International Committee of the Red Cross director-general Pierre Krahenbuhl said he was struck by “the scale and the scope of the consequences when these military means are deployed between states”.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "The Guardian: Hungary",
-          "feedUrl": "https://www.theguardian.com/world/hungary/rss",
-          "relevanceScore": 32,
-          "description": "EU-kommissionens ordförande Ursula von der Leyen försäkrade att EU kommer att hitta vägar att betala ut det utlovade 90 miljarder euro lånet till Ukraine trots Ungerns motstånd. Ungerske premiärminister Viktor Orbán blockerar fortfarande lånet som är avgörande för Ukrainas krigsinsats."
-        },
-        {
-          "id": "orban-eu-the-guardian-hungary-15",
-          "sectionId": "orban-eu",
-          "sectionName": "Orbán / EU",
-          "headline": "Ukraine war briefing: Zelenskyy accuses Hungary of ‘banditry’ over seized gold and cash",
-          "source": "Guardian staff and agencies",
-          "link": "https://www.theguardian.com/world/2026/mar/11/ukraine-war-briefing-zelenskyy-accuses-hungary-of-banditry-over-82m-of-seized-gold",
-          "actualUrl": "https://www.theguardian.com/world/2026/mar/11/ukraine-war-briefing-zelenskyy-accuses-hungary-of-banditry-over-82m-of-seized-gold",
-          "pubDate": "Wed, 11 Mar 2026 00:36:21 GMT",
-          "rawDescription": "&lt;p&gt;Hungary PM Viktor Orbán orders cash and gold shipment be held for up to 60 days. Moscow and Kyiv both claim battlefield gains. What we know on day 1,477&lt;/p&gt; &lt;a href=\"https://www.theguardian.com/world/2026/mar/11/ukraine-war-briefing-zelenskyy-accuses-hungary-of-banditry-over-82m-of-seized-gold\"&gt;Continue reading...&lt;/a&gt;",
-          "articleText": "The Hungarian prime minister, Viktor Orbán, has ordered that a shipment of Ukrainian cash and gold seized last week by Hungarian authorities be held in custody for up to 60 days while his country’s tax authority investigates the case. The gold and the money was being transported through Hungary by road when Hungary seized it last Thursday. Authorities said they suspected money laundering. The shipment included $40m and €35m in cash, as well as 9kg of gold worth about $1.5m, based on current rates. The seizure followed a dispute over gas supplies, in which Hungary and Slovakia accused Kyiv of deliberately stalling on repairs to an oil pipeline after it was hit in an apparent Russian drone attack.\n\nThe seizure has outraged Ukrainian authorities who accused Hungary’s Russia-friendly government of acting illegally . The Ukrainian president, Volodymyr Zelenskyy, accused Budapest of “banditry” over its seizure of the bank transport, and the temporary detention of its Ukrainian crew. Zelenskyy urged European leaders not to stay silent about Budapest’s actions.\n\nRussian and Ukrainian officials made rival claims of battlefield success , with Ukraine saying it pushed Moscow’s forces back across places on the frontline and the Kremlin insisting Russia’s invasion is making progress. Ukrainian forces have recently retaken nearly all the territory of the south-eastern Dnipropetrovsk industrial region during a counteroffensive, driving Russian troops out of more than 400 sq kilometres (150 sq miles), Maj Gen Oleksandr Komarenko claimed to media outlet RBC-Ukraine.\n\nMeanwhile, Russia’s president, Vladimir Putin, claimed on Tuesday that Russian forces have extended their gains in Ukraine’s eastern Donbas region , whose capture Moscow has made one of the goals of its invasion. Ukraine controlled about 25% of the Donbas six months ago, but it now holds just 15% to 17%, Putin claimed.\n\nThe US has proposed another round of Russia-Ukraine talks, mediated by Washington , Zelenskyy said on Tuesday. The talks could be held in Switzerland or Turkey, he said, after initial plans for a meeting in the United Arab Emirates was disrupted by the US-Israeli war on Iran. Zelenskyy said Ukraine-Russia PoW swaps could be on the agenda. The Turkish president, Recep Tayyip Erdoğan, said on Tuesday: “The conflict in Iran must not obstruct the peace efforts for Ukraine.”\n\nMoscow’s deportation and forcible transfer of thousands of children from Ukraine to Russia amounts to a crime against humanity , a UN team of investigators said on Tuesday. The UN’s Independent International Commission of Inquiry on Ukraine said it had evidence leading it to conclude that “Russian authorities have committed the crimes against humanity of deportation and forcible transfer, as well as of enforced disappearance of children”. The inquiry said Russia had deported or transferred “thousands” of children from occupied areas of Ukraine, of which it had so far confirmed 1,205 cases. “Four years on, 80% of the children deported or transferred in the cases investigated by the commission have not returned,” it said.\n\nUkrainian forces struck a key plant producing missile components on Tuesday in Russia’s border region of Bryansk, Zelenskyy said. Ukraine’s military said British Storm Shadow missiles were deployed against the Kremniy El factory. It said the facility produced critical missile components. The governor of Bryansk region, Alexander Bogomaz, said on Telegram six civilians were killed and 37 injured.\n\nA Russian strike on the eastern Ukrainian frontline city of Sloviansk killed four people and injured 16 others , local governor Vadym Filashkin said on Tuesday. Filashkin said Russia had dropped three guided bombs on the city, and that a 14-year-old girl was among those wounded.\n\nA decision by the Venice Biennale to allow Russia to participate in this year’s event came under fire from the EU on Tuesday , which warned it could cut funding. “We strongly condemn the decision” and are looking at taking action, including suspending an EU grant to the organising body, two top members of the European Commission said in a statement. Kyiv last weekend called on the Biennale to reverse its decision and to exclude Russia, as it had done at the last two Venice art exhibitions, in 2022 and 2024.\n\nThis article was amended on 11 March 2026. The market value of 9kg of gold at the time of publication was approximately $1.5m, not $82m as an earlier version said in the text and headline.",
-          "articleSummary": "The Hungarian prime minister, Viktor Orbán, has ordered that a shipment of Ukrainian cash and gold seized last week by Hungarian authorities be held in custody for up to 60 days while his country’s tax authority investigates the case. The gold and the money was being transported through Hungary by road when Hungary seized it last Thursday. The shipment included $40m and €35m in cash, as well as 9kg of gold worth about $1.5m, based on current rates.",
-          "feedSummary": "Hungary PM Viktor Orbán orders cash and gold shipment be held for up to 60 days. Moscow and Kyiv both claim battlefield gains. What we know on day 1,477",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "The Guardian: Hungary",
-          "feedUrl": "https://www.theguardian.com/world/hungary/rss",
-          "relevanceScore": 32,
-          "description": "Ungerske premiärminister Viktor Orbán har beordrat att en försändelse med ukrainsk kontanter och guld som beslagtogs förra veckan hålls i förvar i upp till 60 dagar medan Ungerns skattemyndighet utreder fallet."
-        },
-        {
-          "id": "orban-eu-the-guardian-hungary-3",
-          "sectionId": "orban-eu",
-          "sectionName": "Orbán / EU",
-          "headline": "Hungarian election candidate accuses ruling party of treason over alleged EU leak to Russia",
-          "source": "Jennifer Rankin in Brussels and Flora Garamvolgyi in Budapest",
-          "link": "https://www.theguardian.com/world/2026/mar/23/hungarian-election-candidate-peter-magyar-viktor-orban-alleged-leak-eu-russia",
-          "actualUrl": "https://www.theguardian.com/world/2026/mar/23/hungarian-election-candidate-peter-magyar-viktor-orban-alleged-leak-eu-russia",
-          "pubDate": "Mon, 23 Mar 2026 17:11:14 GMT",
-          "rawDescription": "&lt;p&gt;Péter Magyar, who leads in polls, says Orbán government is ‘betraying Hungarian and European interests’&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;a href=\"https://www.theguardian.com/world/live/2026/mar/23/local-eu-elections-slovenia-italy-france-latest-updates-news\"&gt;Europe live – latest updates&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The candidate leading the polls in Hungary’s upcoming elections has said the alleged sharing of confidential EU information between Budapest and Moscow should be investigated as possible treason, while the European Commission has called for “clarifications” over the alleged leaks.&lt;/p&gt;&lt;p&gt;Péter Magyar, a conservative anti-corruption campaigner who is mounting the most serious challenge to Viktor Orbán’s 16-year-long grip on the Hungarian premiership, said the government appeared to be colluding with Russia, “thereby betraying Hungarian and European interests”.&lt;/p&gt; &lt;a href=\"https://www.theguardian.com/world/2026/mar/23/hungarian-election-candidate-peter-magyar-viktor-orban-alleged-leak-eu-russia\"&gt;Continue reading...&lt;/a&gt;",
-          "articleText": "The candidate leading the polls in Hungary’s upcoming elections has said the alleged sharing of confidential EU information between Budapest and Moscow should be investigated as possible treason, while the European Commission has called for “clarifications” over the alleged leaks.\n\nPéter Magyar, a conservative anti-corruption campaigner who is mounting the most serious challenge to Viktor Orbán’s 16-year-long grip on the Hungarian premiership, said the government appeared to be colluding with Russia, “thereby betraying Hungarian and European interests”.",
-          "articleSummary": "The candidate leading the polls in Hungary’s upcoming elections has said the alleged sharing of confidential EU information between Budapest and Moscow should be investigated as possible treason, while the European Commission has called for “clarifications” over the alleged leaks. Péter Magyar, a conservative anti-corruption campaigner who is mounting the most serious challenge to Viktor Orbán’s 16-year-long grip on the Hungarian premiership, said the government appeared to be colluding with Russia, “thereby betraying Hungarian and European interests”.",
-          "feedSummary": "Péter Magyar, who leads in polls, says Orbán government is ‘betraying Hungarian and European interests’ • Europe live – latest updates The candidate leading the polls in Hungary’s upcoming elections has said the alleged sharing of confidential EU information between Budapest and Moscow should be investigated as possible treason, while the European Commission has called for “clarifications” over the alleged leaks. Péter Magyar, a conservative anti-corruption campaigner who is mounting the most serious challenge to Viktor Orbán’s 16-year-long grip on the Hungarian premiership, said the government appeared to be colluding with Russia, “thereby betraying Hungarian and European interests”.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "The Guardian: Hungary",
-          "feedUrl": "https://www.theguardian.com/world/hungary/rss",
-          "relevanceScore": 28,
-          "description": "Péter Magyar, som leder i opinionsundersökningar inför Ungerns kommande val, säger att den påstådda delningen av konfidentiell EU-information mellan Budapest och Moskva bör utredas som möjlig förräderi."
-        },
-        {
-          "id": "orban-eu-the-guardian-hungary-6",
-          "sectionId": "orban-eu",
-          "sectionName": "Orbán / EU",
-          "headline": "Hungary officials ‘gave Ukrainian forced injection’ after raid on bank vehicles",
-          "source": "Shaun Walker and Flora Garamvolgyi in Budapest",
-          "link": "https://www.theguardian.com/world/2026/mar/20/hungary-officials-gave-ukrainian-forced-injection-after-bank-vehicles-raid-sources-say",
-          "actualUrl": "https://www.theguardian.com/world/2026/mar/20/hungary-officials-gave-ukrainian-forced-injection-after-bank-vehicles-raid-sources-say",
-          "pubDate": "Fri, 20 Mar 2026 10:18:53 GMT",
-          "rawDescription": "&lt;p&gt;Kyiv sources say they think injection contained relaxant meant to make people more talkative in interrogations&lt;/p&gt;&lt;p&gt;Hungarian security operatives administered a “forced injection” to one of the Ukrainians detained earlier this month during &lt;a href=\"https://www.theguardian.com/world/2026/mar/06/hungary-seizes-millions-euros-cash-gold-ukrainian-convoy\"&gt;a dramatic raid on bank vehicles&lt;/a&gt; carrying gold bars and tens of millions of dollars and euros in cash, sources have told the Guardian.&lt;/p&gt;&lt;p&gt;Hungary’s TEK anti-terrorism police detained seven Ukrainians from the state savings bank, Oschadbank, on 5 March. They were accompanying a convoy of two armoured cars from Vienna to Ukraine, as it transited Hungary in what Kyiv claims was a regular transfer of state funds. Hungarian officials have claimed it was money for the “Ukrainian war mafia”, without giving details.&lt;/p&gt; &lt;a href=\"https://www.theguardian.com/world/2026/mar/20/hungary-officials-gave-ukrainian-forced-injection-after-bank-vehicles-raid-sources-say\"&gt;Continue reading...&lt;/a&gt;",
-          "articleText": "Hungarian security operatives administered a “forced injection” to one of the Ukrainians detained earlier this month during a dramatic raid on bank vehicles carrying gold bars and tens of millions of dollars and euros in cash, sources have told the Guardian.\n\nHungary’s TEK anti-terrorism police detained seven Ukrainians from the state savings bank, Oschadbank, on 5 March. They were accompanying a convoy of two armoured cars from Vienna to Ukraine, as it transited Hungary in what Kyiv claims was a regular transfer of state funds. Hungarian officials have claimed it was money for the “Ukrainian war mafia”, without giving details.",
-          "articleSummary": "Hungarian security operatives administered a “forced injection” to one of the Ukrainians detained earlier this month during a dramatic raid on bank vehicles carrying gold bars and tens of millions of dollars and euros in cash, sources have told the Guardian. Hungary’s TEK anti-terrorism police detained seven Ukrainians from the state savings bank, Oschadbank, on 5 March. They were accompanying a convoy of two armoured cars from Vienna to Ukraine, as it transited Hungary in what Kyiv claims was a regular transfer of state funds.",
-          "feedSummary": "Kyiv sources say they think injection contained relaxant meant to make people more talkative in interrogations Hungarian security operatives administered a “forced injection” to one of the Ukrainians detained earlier this month during a dramatic raid on bank vehicles carrying gold bars and tens of millions of dollars and euros in cash, sources have told the Guardian. Hungary’s TEK anti-terrorism police detained seven Ukrainians from the state savings bank, Oschadbank, on 5 March. They were accompanying a convoy of two armoured cars from Vienna to Ukraine, as it transited Hungary in what Kyiv claims was a regular transfer of state funds. Hungarian officials have claimed it was money for the “Ukrainian war mafia”, without giving details.",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "The Guardian: Hungary",
-          "feedUrl": "https://www.theguardian.com/world/hungary/rss",
-          "relevanceScore": 28,
-          "description": "Ungerska säkerhetsmyndigheter administrerade en \"tvingad injektion\" till en av de ukrainare som greps under en dramatisk razzia på bankfordon som transporterade guldtackor och tiotals miljoner dollar och euro i kontanter."
-        },
-        {
-          "id": "orban-eu-the-guardian-hungary-8",
-          "sectionId": "orban-eu",
-          "sectionName": "Orbán / EU",
-          "headline": "Viktor Orbán refuses to agree to €90bn loan for Ukraine as EU leaders accuse him of betrayal",
-          "source": "Jennifer Rankin in Brussels",
-          "link": "https://www.theguardian.com/world/2026/mar/19/hungary-orban-ukraine-loan-veto-eu-summit-europe",
-          "actualUrl": "https://www.theguardian.com/world/2026/mar/19/hungary-orban-ukraine-loan-veto-eu-summit-europe",
-          "pubDate": "Fri, 20 Mar 2026 00:07:21 GMT",
-          "rawDescription": "&lt;p&gt;German chancellor Friedrich Merz described Orbán’s U-turn on the loan Hungary had agreed to in December as ‘a gross act of disloyalty’&lt;/p&gt;&lt;p&gt;EU leaders fumed after Hungary’s prime minister, Viktor Orbán, refused to drop his opposition to a vital €90bn (£78bn) loan for Ukraine, accusing him of betrayal and acting in bad faith.&lt;/p&gt;&lt;p&gt;German chancellor Friedrich Merz described Orbán’s U-turn on the loan Hungary had agreed to in December as “a gross act of disloyalty” adding: “I am firmly convinced that it will leave deep marks.”&lt;/p&gt; &lt;a href=\"https://www.theguardian.com/world/2026/mar/19/hungary-orban-ukraine-loan-veto-eu-summit-europe\"&gt;Continue reading...&lt;/a&gt;",
-          "articleText": "EU leaders fumed after Hungary’s prime minister, Viktor Orbán, refused to drop his opposition to a vital €90bn (£78bn) loan for Ukraine, accusing him of betrayal and acting in bad faith.\n\nGerman chancellor Friedrich Merz described Orbán’s U-turn on the loan Hungary had agreed to in December as “a gross act of disloyalty” adding: “I am firmly convinced that it will leave deep marks.”",
-          "articleSummary": "EU leaders fumed after Hungary’s prime minister, Viktor Orbán, refused to drop his opposition to a vital €90bn (£78bn) loan for Ukraine, accusing him of betrayal and acting in bad faith. German chancellor Friedrich Merz described Orbán’s U-turn on the loan Hungary had agreed to in December as “a gross act of disloyalty” adding: “I am firmly convinced that it will leave deep marks.”",
-          "feedSummary": "German chancellor Friedrich Merz described Orbán’s U-turn on the loan Hungary had agreed to in December as ‘a gross act of disloyalty’ EU leaders fumed after Hungary’s prime minister, Viktor Orbán, refused to drop his opposition to a vital €90bn (£78bn) loan for Ukraine, accusing him of betrayal and acting in bad faith. German chancellor Friedrich Merz described Orbán’s U-turn on the loan Hungary had agreed to in December as “a gross act of disloyalty” adding: “I am firmly convinced that it will leave deep marks.”",
-          "metaSummary": "",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "feedLabel": "The Guardian: Hungary",
-          "feedUrl": "https://www.theguardian.com/world/hungary/rss",
-          "relevanceScore": 28,
-          "description": "Ungerske premiärminister Viktor Orbán vägrade att släppa sitt motstånd mot ett vitalt 90 miljarder euro lån till Ukraine, vilket väckte vrede bland EU-ledare som anklagade honom för förräderi och dålig tro."
-        }
-      ],
-      "summary": "Viktor Orbán vägrar att släppa sitt veto mot EU:s 90 miljarder euro-lån till Ukraina trots att Ungern redan godkänt det i december. Tyskland kallar det en grov illojal handling medan kommissionen säger att pengarna ska levereras på något sätt."
-    }
-  ],
+  "brief": null,
+  "sections": [],
   "sources": [
     {
       "id": "trump-usa",
       "name": "Trump / USA",
-      "sourceLabel": "The Guardian: Donald Trump • BBC News: US & Canada • BBC News: Politics • Al Jazeera RSS",
+      "sourceLabel": "SVT Nyheter: Utrikes • Ekot • BBC News: US & Canada • The Guardian: Donald Trump",
       "feedUrls": [
         {
-          "label": "The Guardian: Donald Trump",
-          "url": "https://www.theguardian.com/us-news/donaldtrump/rss"
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
         },
         {
           "label": "BBC News: US & Canada",
           "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml"
         },
         {
-          "label": "BBC News: Politics",
-          "url": "https://feeds.bbci.co.uk/news/politics/rss.xml"
-        },
-        {
-          "label": "Al Jazeera RSS",
-          "url": "https://www.aljazeera.com/xml/rss/all.xml"
+          "label": "The Guardian: Donald Trump",
+          "url": "https://www.theguardian.com/us-news/donaldtrump/rss"
         }
       ]
     },
     {
       "id": "putin-ukraina",
       "name": "Putin / Ukraina",
-      "sourceLabel": "The Guardian: Ukraine • BBC News: Europe • DW: All • Al Jazeera RSS",
+      "sourceLabel": "SVT Nyheter: Utrikes • Ekot • The Guardian: Ukraine • BBC News: Europe",
       "feedUrls": [
+        {
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
+        },
         {
           "label": "The Guardian: Ukraine",
           "url": "https://www.theguardian.com/world/ukraine/rss"
@@ -722,25 +57,21 @@
         {
           "label": "BBC News: Europe",
           "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml"
-        },
-        {
-          "label": "DW: All",
-          "url": "https://rss.dw.com/rdf/rss-en-all"
-        },
-        {
-          "label": "Al Jazeera RSS",
-          "url": "https://www.aljazeera.com/xml/rss/all.xml"
         }
       ]
     },
     {
       "id": "iran",
       "name": "Iran",
-      "sourceLabel": "The Guardian: Iran • BBC News: Middle East • Al Jazeera RSS • DW: All",
+      "sourceLabel": "SVT Nyheter: Utrikes • Ekot • BBC News: Middle East • Al Jazeera RSS",
       "feedUrls": [
         {
-          "label": "The Guardian: Iran",
-          "url": "https://www.theguardian.com/world/iran/rss"
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
         },
         {
           "label": "BBC News: Middle East",
@@ -749,29 +80,25 @@
         {
           "label": "Al Jazeera RSS",
           "url": "https://www.aljazeera.com/xml/rss/all.xml"
-        },
-        {
-          "label": "DW: All",
-          "url": "https://rss.dw.com/rdf/rss-en-all"
         }
       ]
     },
     {
       "id": "orban-eu",
       "name": "Orbán / EU",
-      "sourceLabel": "The Guardian: Hungary • Politico Europe • DW: EU • BBC News: Europe",
+      "sourceLabel": "SVT Nyheter: Utrikes • Ekot • Politico Europe • BBC News: Europe",
       "feedUrls": [
         {
-          "label": "The Guardian: Hungary",
-          "url": "https://www.theguardian.com/world/hungary/rss"
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
         },
         {
           "label": "Politico Europe",
           "url": "https://www.politico.eu/feed/"
-        },
-        {
-          "label": "DW: EU",
-          "url": "https://rss.dw.com/rdf/rss-en-eu"
         },
         {
           "label": "BBC News: Europe",
