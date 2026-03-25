@@ -399,6 +399,58 @@ const callAnthropicSummaries = async (sectionData) => {
   throw lastError || new Error('Anthropic summary generation failed');
 };
 
+const fillMissingSummaries = async (model, sectionData, aiPayload) => {
+  const missingSections = sectionData
+    .filter((section) => !cleanPublicText(aiPayload?.sections?.find((candidate) => candidate?.id === section.id)?.summary || ''))
+    .map((section) => ({ id: section.id, name: section.name, label: section.label, description: section.description, items: section.items.map((item) => ({ id: item.id, headline: item.headline, source: item.source, feedSummary: item.feedSummary, articleSummary: item.articleSummary, articleText: (item.articleText || '').slice(0, 1400) })) }));
+
+  const missingItems = sectionData.flatMap((section) => section.items
+    .filter((item) => !cleanPublicText(aiPayload?.items?.find((candidate) => candidate?.id === item.id)?.summary || ''))
+    .map((item) => ({ id: item.id, sectionId: section.id, sectionName: section.name, headline: item.headline, source: item.source, feedSummary: item.feedSummary, articleSummary: item.articleSummary, articleText: (item.articleText || '').slice(0, 1400) })));
+
+  if (!missingSections.length && !missingItems.length) return aiPayload;
+
+  const repairPrompt = JSON.stringify({
+    task: 'Fyll endast saknade svenska sammanfattningar. Returnera enbart giltig JSON. Skriv en summary för varje angivet id exakt en gång. Lämna inget tomt.',
+    rules: {
+      language: 'svenska',
+      sectionSummaryMinChars: 110,
+      sectionSummaryMaxChars: 280,
+      itemSummaryMinChars: 90,
+      itemSummaryMaxChars: 320,
+      noEnglishLeakage: true,
+      noMetaCopy: true,
+      noEllipsis: true
+    },
+    responseSchema: {
+      sections: [{ id: 'string', summary: 'string' }],
+      items: [{ id: 'string', summary: 'string' }]
+    },
+    missingSections,
+    missingItems
+  }, null, 2);
+
+  const text = await callAnthropicApi({
+    model,
+    maxTokens: 1800,
+    temperature: 0,
+    system: 'Du kompletterar saknade svenska sammanfattningar för en offentlig nyhetssajt. Returnera enbart giltig JSON. Fyll varje angivet id exakt en gång.',
+    user: repairPrompt
+  });
+
+  const repaired = JSON.parse(extractJsonText(text));
+  const sectionMap = new Map((aiPayload?.sections || []).map((section) => [section.id, section]));
+  for (const section of repaired?.sections || []) if (section?.id) sectionMap.set(section.id, section);
+  const itemMap = new Map((aiPayload?.items || []).map((item) => [item.id, item]));
+  for (const item of repaired?.items || []) if (item?.id) itemMap.set(item.id, item);
+
+  return {
+    ...aiPayload,
+    sections: [...sectionMap.values()],
+    items: [...itemMap.values()]
+  };
+};
+
 const englishLeakPatterns = [
   /\bthe\b/i, /\band\b/i, /\bwith\b/i, /\bafter\b/i, /\bbefore\b/i, /\bwhat\b/i, /\bwhy\b/i,
   /\bongoing\b/i, /\bbreaking\b/i, /\bheadline\b/i, /\bsummary\b/i, /\bstory\b/i, /\bupdate\b/i,
@@ -614,7 +666,8 @@ const rawSectionData = await Promise.all(sections.map(async (section) => {
 let payload;
 try {
   const aiResult = await callAnthropicSummaries(rawSectionData);
-  const merged = mergeSummariesStrict(rawSectionData, aiResult.data);
+  const completedPayload = await fillMissingSummaries(aiResult.model, rawSectionData, aiResult.data);
+  const merged = mergeSummariesStrict(rawSectionData, completedPayload);
   payload = {
     state: 'ready',
     site: {
