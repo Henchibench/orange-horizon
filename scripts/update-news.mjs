@@ -20,47 +20,47 @@ const sections = [
     id: 'trump-usa',
     name: 'Trump / USA',
     label: 'Makt, cirkus, federalt brus',
-    description: 'Amerikansk politik, institutionellt slitage och Trumps omloppsbana.',
+    description: 'Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.',
     feeds: [
-      { label: 'The Guardian: Donald Trump', url: 'https://www.theguardian.com/us-news/donaldtrump/rss', include: [/trump|donald trump|white house/i], headlineOnly: true },
+      { label: 'SVT Nyheter: Utrikes', url: 'https://www.svt.se/nyheter/utrikes/rss.xml', include: [/trump|usa|vita huset|washington|kongress|republikan|demokrat/i] },
+      { label: 'Ekot', url: 'https://api.sr.se/api/rss/Channel/83?format=1', include: [/trump|usa|vita huset|washington|kongress|republikan|demokrat/i] },
       { label: 'BBC News: US & Canada', url: 'https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml', include: [/trump|donald trump|white house/i], headlineOnly: true },
-      { label: 'BBC News: Politics', url: 'https://feeds.bbci.co.uk/news/politics/rss.xml', include: [/trump|donald trump|white house/i], headlineOnly: true },
-      { label: 'Al Jazeera RSS', url: 'https://www.aljazeera.com/xml/rss/all.xml', include: [/trump|donald trump|white house/i], headlineOnly: true }
+      { label: 'The Guardian: Donald Trump', url: 'https://www.theguardian.com/us-news/donaldtrump/rss', include: [/trump|donald trump|white house/i], headlineOnly: true }
     ]
   },
   {
     id: 'putin-ukraina',
     name: 'Putin / Ukraina',
     label: 'Krig, repression, diplomatiskt grus',
-    description: 'Fronten, Kreml och följderna i Ukraina och bortom den.',
+    description: 'Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.',
     feeds: [
+      { label: 'SVT Nyheter: Utrikes', url: 'https://www.svt.se/nyheter/utrikes/rss.xml', include: [/ukraina|ukrain|ryssland|rysk|putin|kreml|moskva|kyjiv|kiev/i] },
+      { label: 'Ekot', url: 'https://api.sr.se/api/rss/Channel/83?format=1', include: [/ukraina|ukrain|ryssland|rysk|putin|kreml|moskva|kyiv|kiev/i] },
       { label: 'The Guardian: Ukraine', url: 'https://www.theguardian.com/world/ukraine/rss', include: [/ukraine|ukrainian|russia|russian|putin|kremlin|kyiv|kharkiv|odesa|odessa|donetsk|dnipro/i] },
-      { label: 'BBC News: Europe', url: 'https://feeds.bbci.co.uk/news/world/europe/rss.xml', include: [/ukraine|ukrainian|russia|russian|putin|kremlin|kyiv|moscow/i] },
-      { label: 'DW: All', url: 'https://rss.dw.com/rdf/rss-en-all', include: [/ukraine|ukrainian|russia|russian|putin|kremlin|kyiv|moscow/i] },
-      { label: 'Al Jazeera RSS', url: 'https://www.aljazeera.com/xml/rss/all.xml', include: [/ukraine|ukrainian|russia|russian|putin|kremlin|kyiv|moscow/i] }
+      { label: 'BBC News: Europe', url: 'https://feeds.bbci.co.uk/news/world/europe/rss.xml', include: [/ukraine|ukrainian|russia|russian|putin|kremlin|kyiv|moscow/i] }
     ]
   },
   {
     id: 'iran',
     name: 'Iran',
     label: 'Regionen håller andan igen',
-    description: 'Iran, säkerhetsläget och maktspel som sällan blir mindre riskfyllt.',
+    description: 'Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.',
     feeds: [
-      { label: 'The Guardian: Iran', url: 'https://www.theguardian.com/world/iran/rss', include: [/iran|iranian|tehran|khamenei|revolutionary guard|irgc|nuclear|uranium|missile|isfahan|fordow/i] },
+      { label: 'SVT Nyheter: Utrikes', url: 'https://www.svt.se/nyheter/utrikes/rss.xml', include: [/iran|teheran|khamenei|israel|golfstaterna|mellanöstern/i] },
+      { label: 'Ekot', url: 'https://api.sr.se/api/rss/Channel/83?format=1', include: [/iran|teheran|khamenei|israel|mellanöstern/i] },
       { label: 'BBC News: Middle East', url: 'https://feeds.bbci.co.uk/news/world/middle_east/rss.xml', include: [/iran|iranian|tehran|khamenei|revolutionary guard|irgc|nuclear|uranium|missile|fordow/i] },
-      { label: 'Al Jazeera RSS', url: 'https://www.aljazeera.com/xml/rss/all.xml', include: [/iran|iranian|tehran|khamenei|revolutionary guard|irgc|nuclear|uranium|missile|fordow/i] },
-      { label: 'DW: All', url: 'https://rss.dw.com/rdf/rss-en-all', include: [/iran|iranian|tehran|khamenei|revolutionary guard|irgc|nuclear|uranium|missile|fordow/i] }
+      { label: 'Al Jazeera RSS', url: 'https://www.aljazeera.com/xml/rss/all.xml', include: [/iran|iranian|tehran|khamenei|revolutionary guard|irgc|nuclear|uranium|missile|fordow/i] }
     ]
   },
   {
     id: 'orban-eu',
     name: 'Orbán / EU',
     label: 'Illiberal administration, kontinentalt tålamodstest',
-    description: 'Ungern, EU-bråk, veto-spel och Orbáns ständiga närvaro i marginalnoterna.',
+    description: 'Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.',
     feeds: [
-      { label: 'The Guardian: Hungary', url: 'https://www.theguardian.com/world/hungary/rss', include: [/orban|orbán|hungary|hungarian|budapest/i], headlineOnly: true },
+      { label: 'SVT Nyheter: Utrikes', url: 'https://www.svt.se/nyheter/utrikes/rss.xml', include: [/orbán|orban|ungern|ungersk|budapest|eu|ukraina/i] },
+      { label: 'Ekot', url: 'https://api.sr.se/api/rss/Channel/83?format=1', include: [/orbán|orban|ungern|ungersk|budapest|eu|ukraina/i] },
       { label: 'Politico Europe', url: 'https://www.politico.eu/feed/', include: [/orban|orbán|hungary|hungarian|budapest/i], headlineOnly: true },
-      { label: 'DW: EU', url: 'https://rss.dw.com/rdf/rss-en-eu', include: [/orban|orbán|hungary|hungarian|budapest/i], headlineOnly: true },
       { label: 'BBC News: Europe', url: 'https://feeds.bbci.co.uk/news/world/europe/rss.xml', include: [/orban|orbán|hungary|hungarian|budapest/i], headlineOnly: true }
     ]
   }
@@ -300,35 +300,35 @@ const chooseAnthropicModel = (availableModels) => {
 };
 
 const buildAnthropicPrompt = (sectionData) => JSON.stringify({
-  task: 'Skriv publiceringsklar svensk startsidestext för sajten "Vad i helvete händer?!". Alla brief-bullets, sektionssammanfattningar och artikelbeskrivningar måste vara idiomatisk svenska utan engelska ord, halvöversättningar, meta-kommentarer eller AI-prat. Var konkret: nämn aktörer, åtgärder, följder och konfliktlinjer. Inga ellipser. Ingen utfyllnad. Du måste fylla varje section-id och item-id exakt en gång; lämna inget tomt och hoppa inte över någon post.',
+  task: 'Skriv publiceringsklar svensk startsidestext för sajten "Vad i helvete händer?!". Skriv endast öppningsbrief och sektionssammanfattningar. Inga artikelöversättningar eller artikelbeskrivningar ska genereras. Texterna måste vara idiomatisk svenska utan engelska ord, halvöversättningar, meta-kommentarer eller AI-prat. Var konkret: nämn aktörer, åtgärder, följder och konfliktlinjer. Inga ellipser. Ingen utfyllnad. Du måste fylla varje section-id exakt en gång.',
   rules: {
     language: 'svenska',
-    tone: 'torr, ren, redaktionell, saklig med lätt ironi',
+    tone: 'torr, skarp, redaktionell, saklig med bitsk ironi',
     preserveFacts: true,
     noFabrication: true,
     noEnglishLeakage: true,
     noMetaCopy: true,
     noEllipsis: true,
+    briefTitleMinChars: 14,
+    briefTitleMaxChars: 64,
     briefBulletsCount: 3,
-    briefBulletMinChars: 70,
-    briefBulletMaxChars: 200,
-    sectionSummaryMinChars: 110,
-    sectionSummaryMaxChars: 280,
-    itemSummaryMinChars: 90,
-    itemSummaryMaxChars: 320,
-    briefIntroMinChars: 40,
-    briefIntroTargetChars: 170,
-    briefIntroMaxChars: 220,
-    briefIntroStyle: '1-2 korta meningar, konkret öppning utan svepande scenbygge',
+    briefBulletMinChars: 110,
+    briefBulletMaxChars: 260,
+    sectionSummaryMinChars: 180,
+    sectionSummaryMaxChars: 420,
+    briefIntroMinChars: 90,
+    briefIntroTargetChars: 200,
+    briefIntroMaxChars: 260,
+    briefIntroStyle: '2 meningar, tydlig, syrlig och konkret öppning om vad maktfulla dumheter ställt till med',
     leadWithWhatActuallyHappened: true,
     mentionActorsAndConsequences: true,
     useEveryProvidedIdExactlyOnce: true,
-    noMissingSectionsOrItems: true
+    noMissingSections: true,
+    noItemSummaries: true
   },
   responseSchema: {
     brief: { title: 'string', intro: 'string', bullets: ['string', 'string', 'string'] },
-    sections: [{ id: 'string', summary: 'string' }],
-    items: [{ id: 'string', summary: 'string' }]
+    sections: [{ id: 'string', summary: 'string' }]
   },
   sections: sectionData.map(buildSectionSnapshot)
 }, null, 2);
@@ -389,7 +389,7 @@ const callAnthropicSummaries = async (sectionData) => {
         model,
         maxTokens: 2400,
         temperature: 0,
-        system: 'Du skriver svensk publiceringstext för en offentlig nyhetssajt. Returnera enbart giltig JSON. All offentlig summary-text måste vara ren svenska utan engelska glosor, översättningsrester, AI-förklaringar eller ellipser. Fyll varje angivet section-id och item-id exakt en gång.',
+        system: 'Du skriver svensk publiceringstext för en offentlig nyhetssajt. Returnera enbart giltig JSON. All offentlig summary-text måste vara ren svenska utan engelska glosor, översättningsrester, AI-förklaringar eller ellipser. Skriv endast brief och sektionssammanfattningar. Fyll varje angivet section-id exakt en gång.',
         user: buildAnthropicPrompt(sectionData)
       });
 
@@ -408,30 +408,22 @@ const fillMissingSummaries = async (model, sectionData, aiPayload) => {
     .filter((section) => !cleanPublicText(aiPayload?.sections?.find((candidate) => candidate?.id === section.id)?.summary || ''))
     .map((section) => ({ id: section.id, name: section.name, label: section.label, description: section.description, items: section.items.map((item) => ({ id: item.id, headline: item.headline, source: item.source, feedSummary: item.feedSummary, articleSummary: item.articleSummary, articleText: (item.articleText || '').slice(0, 1400) })) }));
 
-  const missingItems = sectionData.flatMap((section) => section.items
-    .filter((item) => !cleanPublicText(aiPayload?.items?.find((candidate) => candidate?.id === item.id)?.summary || ''))
-    .map((item) => ({ id: item.id, sectionId: section.id, sectionName: section.name, headline: item.headline, source: item.source, feedSummary: item.feedSummary, articleSummary: item.articleSummary, articleText: (item.articleText || '').slice(0, 1400) })));
-
-  if (!missingSections.length && !missingItems.length) return aiPayload;
+  if (!missingSections.length) return aiPayload;
 
   const repairPrompt = JSON.stringify({
-    task: 'Fyll endast saknade svenska sammanfattningar. Returnera enbart giltig JSON. Skriv en summary för varje angivet id exakt en gång. Lämna inget tomt.',
+    task: 'Fyll endast saknade svenska sektionssammanfattningar. Returnera enbart giltig JSON. Skriv en summary för varje angivet section-id exakt en gång. Lämna inget tomt.',
     rules: {
       language: 'svenska',
-      sectionSummaryMinChars: 110,
-      sectionSummaryMaxChars: 280,
-      itemSummaryMinChars: 90,
-      itemSummaryMaxChars: 320,
+      sectionSummaryMinChars: 180,
+      sectionSummaryMaxChars: 420,
       noEnglishLeakage: true,
       noMetaCopy: true,
       noEllipsis: true
     },
     responseSchema: {
-      sections: [{ id: 'string', summary: 'string' }],
-      items: [{ id: 'string', summary: 'string' }]
+      sections: [{ id: 'string', summary: 'string' }]
     },
-    missingSections,
-    missingItems
+    missingSections
   }, null, 2);
 
   let repaired = null;
@@ -440,9 +432,9 @@ const fillMissingSummaries = async (model, sectionData, aiPayload) => {
     try {
       const text = await callAnthropicApi({
         model,
-        maxTokens: 1800,
+        maxTokens: 1200,
         temperature: 0,
-        system: 'Du kompletterar saknade svenska sammanfattningar för en offentlig nyhetssajt. Returnera enbart giltig JSON. Fyll varje angivet id exakt en gång.',
+        system: 'Du kompletterar saknade svenska sektionssammanfattningar för en offentlig nyhetssajt. Returnera enbart giltig JSON. Fyll varje angivet section-id exakt en gång.',
         user: repairPrompt
       });
 
@@ -457,13 +449,10 @@ const fillMissingSummaries = async (model, sectionData, aiPayload) => {
 
   const sectionMap = new Map((aiPayload?.sections || []).map((section) => [section.id, section]));
   for (const section of repaired?.sections || []) if (section?.id) sectionMap.set(section.id, section);
-  const itemMap = new Map((aiPayload?.items || []).map((item) => [item.id, item]));
-  for (const item of repaired?.items || []) if (item?.id) itemMap.set(item.id, item);
 
   return {
     ...aiPayload,
-    sections: [...sectionMap.values()],
-    items: [...itemMap.values()]
+    sections: [...sectionMap.values()]
   };
 };
 
@@ -514,7 +503,7 @@ const normalizePublicLength = (value, max, { stripLeadIn = false } = {}) => {
   return squeezeToSentenceLimit(prepared, Math.max(40, max - 20));
 };
 
-const normalizeBriefIntro = (value) => normalizePublicLength(value, 220, { stripLeadIn: true });
+const normalizeBriefIntro = (value) => normalizePublicLength(value, 260, { stripLeadIn: true });
 
 const looksSwedishEnough = (text) => {
   const lower = text.toLowerCase();
@@ -649,22 +638,24 @@ const repairInvalidPublicCopy = async (model, sectionData, aiPayload, errorMessa
 
 const mergeSummariesStrict = (sectionData, aiPayload) => {
   const aiSections = new Map((aiPayload?.sections || []).map((section) => [section.id, section.summary]));
-  const aiItems = new Map((aiPayload?.items || []).map((item) => [item.id, item.summary]));
 
   const brief = {
-    title: validatePublicText(aiPayload?.brief?.title, 'brief.title', { min: 10, max: 56 }),
-    intro: validatePublicText(normalizeBriefIntro(aiPayload?.brief?.intro), 'brief.intro', { min: 40, max: 220 }),
-    bullets: (aiPayload?.brief?.bullets || []).slice(0, 3).map((bullet, index) => validatePublicText(normalizePublicLength(bullet, 200), `brief.bullets[${index}]`, { min: 70, max: 200 }))
+    title: validatePublicText(aiPayload?.brief?.title, 'brief.title', { min: 14, max: 64 }),
+    intro: validatePublicText(normalizeBriefIntro(aiPayload?.brief?.intro), 'brief.intro', { min: 90, max: 260 }),
+    bullets: (aiPayload?.brief?.bullets || []).slice(0, 3).map((bullet, index) => validatePublicText(normalizePublicLength(bullet, 260), `brief.bullets[${index}]`, { min: 110, max: 260 }))
   };
 
   if (brief.bullets.length !== 3) throw new Error('brief.bullets: wrong-count');
 
   const sectionsWithSummaries = sectionData.map((section) => ({
     ...section,
-    summary: validatePublicText(normalizePublicLength(aiSections.get(section.id), 280), `section.${section.id}.summary`, { min: 110, max: 280 }),
+    summary: validatePublicText(normalizePublicLength(aiSections.get(section.id), 420), `section.${section.id}.summary`, { min: 180, max: 420 }),
     items: section.items.map((item) => ({
-      ...item,
-      description: validatePublicText(normalizePublicLength(aiItems.get(item.id), 320), `item.${item.id}.summary`, { min: 90, max: 320 })
+      id: item.id,
+      headline: item.headline,
+      source: item.source,
+      pubDate: item.pubDate,
+      link: item.actualUrl || item.link
     }))
   }));
 
@@ -813,7 +804,7 @@ try {
     state: 'ready',
     site: {
       title: 'Vad i helvete händer?!',
-      subtitle: 'En svensk morgonbrief om världsläget, uppdaterad ungefär varje timme.',
+      subtitle: 'En svensk brief om vad mäktiga idioter ställer till med, uppdaterad ungefär varje timme.',
       note: null
     },
     generatedAt: new Date().toISOString(),
@@ -823,7 +814,7 @@ try {
       fallbackReason: null
     },
     brief: merged.brief,
-    sections: merged.sections,
+    sections: merged.sections.map(({ id, name, label, description, summary, feedUrl, feedUrls, items }) => ({ id, name, label, description, summary, feedUrl, feedUrls, items })),
     sources: merged.sections.map(({ id, name, sourceLabel, feedUrls }) => ({ id, name, sourceLabel, feedUrls }))
   };
 } catch (error) {

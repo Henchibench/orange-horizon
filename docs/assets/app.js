@@ -107,12 +107,9 @@ const render = async () => {
       storyFragment.querySelector('.source').textContent = item.source;
       storyFragment.querySelector('time').textContent = formatDate(item.pubDate);
       storyFragment.querySelector('h3').textContent = item.headline;
-      storyFragment.querySelector('.description').textContent = cleanSummary(item.description);
-      const resolvedUrl = item.actualUrl || item.link;
+      const resolvedUrl = item.link;
       const link = storyFragment.querySelector('.read-more');
       link.href = resolvedUrl;
-      const directLink = storyFragment.querySelector('.direct-link');
-      directLink.href = resolvedUrl;
       stories.appendChild(storyFragment);
     }
 
