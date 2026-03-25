@@ -4,17 +4,17 @@
     "subtitle": "En torrt ironisk morgonbrief om världsläget, uppdaterad ungefär varje timme.",
     "note": "Byggd på publika RSS-flöden. Inga betalväggs-API:er, bara disciplin, lätt misstro och en billig AI-genväg när den beter sig."
   },
-  "generatedAt": "2026-03-25T08:53:38.717Z",
+  "generatedAt": "2026-03-25T08:54:14.202Z",
   "summaryMeta": {
     "provider": "rule-based",
-    "model": null,
-    "fallbackReason": "missing-api-key"
+    "model": "claude-haiku-4-5",
+    "fallbackReason": "Unexpected token '`', \"```json\n{\n\"... is not valid JSON"
   },
   "brief": {
     "title": "Morgonbrief för folk som redan anar att läget inte direkt stabiliserats över natten.",
     "intro": "Fyra spår av global oreda, serverade utan confetti men med länkar tillbaka till originalrapporteringen.",
     "bullets": [
-      "Senast in: Russia bombs UNESCO site as Putin escalates attacks on Ukrainian civilians (Putin / Ukraina).",
+      "Senast in: Russia fires nearly 400 drones at Ukraine with signs its spring offensive has started (Putin / Ukraina).",
       "Mest brus i flödet: Trump / USA med 8 artiklar.",
       "Det här är en strukturerad morgonbrief, inte en AI-ledare. Den kan enkelt byggas ut med mer sammanfattning senare."
     ]
@@ -173,6 +173,16 @@
           "id": "putin-ukraina-6",
           "sectionId": "putin-ukraina",
           "sectionName": "Putin / Ukraina",
+          "headline": "Putin is counting on Western disunity to hand him victory in Ukraine",
+          "source": "Atlantic Council",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQalpld3ZsSGlGTERyWmxTdXdNbklDLURPNzFMazR3VzROUElkT3h6ZUg0TjNESnVwMFlnRV82OHYzTkpadXdmM3loY1RoaUpyajl3SzZ4bURkRDJ4VXFiMjFTZFVhYXdDVF95a3pIa1R5eDdMTnJwVDdvREtZTWdEWVp0SU5MSmkzMzhyRmlkRjFFVm1vMU9UVDRzcUkxclBiM21kS09kQWRSa1hjSWRDbG9yZTNiZk5JNDBnMg?oc=5",
+          "pubDate": "Thu, 19 Mar 2026 20:14:57 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "putin-ukraina-7",
+          "sectionId": "putin-ukraina",
+          "sectionName": "Putin / Ukraina",
           "headline": "Russian Offensive Campaign Assessment, March 19, 2026",
           "source": "Institute for the Study of War",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbzhNUkJJWld5V0pJYlJzUjVid0xJaDl1RlNLd2tWZDlZNEpzU0dSNTJyNXhzdEdCbWtoQ0lPMy1iNU5Kd0poc2dYRzNZWlluRUdTMnBneTJqclFKNy0yQ1ZaQzZaLU9UQ3FuZkNidDdsMGFuTjgwRENSeHhGOE1hRjZCYl9FOGZKckpadlhzVllSYXg0WnpGOWNJcmNLeWJIQUEyaGszV1Q?oc=5",
@@ -180,23 +190,13 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "putin-ukraina-7",
+          "id": "putin-ukraina-8",
           "sectionId": "putin-ukraina",
           "sectionName": "Putin / Ukraina",
           "headline": "Ukraine’s Zelenskyy urges allies to pressure Russia ahead of US talks",
           "source": "Al Jazeera",
           "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMkUxQi1qdDFlbTVUTDBZVmxlS3pkekhEeWl2TTl5XzgyaGpFczJ5M19oZWFraEhWajUtZ2lHSThaWnE5UTkwLUtVQ1JCWnB6UEtNSnVtQnlHTzBNN0d3ckJtLUhBTTI0clR4MkhyMW0wUWpGVFVwRjJFWmI2dFVwVl9uV3h5Z0Z2RmVETzNldEZ5bDVkWTgtNnZmMW53TlIyYVVwdGFCNVZfclBTeXfSAbMBQVVfeXFMTWVoTlhIaVlsM05pTFNFTFh2WTFUdDYySk9PaGxRZ2JGbXE0b2pLQVRmTEdicEExRVNIT2N1Y2lNTklxZTdMZEJRWmFyTWtPeW5wQUE4dnFJX3VWbEdvamVjd1NsZTFkVnR0cnRZMmp4bEhJV1hzS3RWanRPZVo0dDZYMmFvdWtVZlZvUkZkdjR2RzZ4XzlHLXAyV2NCc2tPQzVtdEhhYjdZUFBoRlVnRzNNTkk?oc=5",
           "pubDate": "Sun, 22 Mar 2026 17:45:23 GMT",
-          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
-        },
-        {
-          "id": "putin-ukraina-8",
-          "sectionId": "putin-ukraina",
-          "sectionName": "Putin / Ukraina",
-          "headline": "Russia bombs UNESCO site as Putin escalates attacks on Ukrainian civilians",
-          "source": "Atlantic Council",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaEFYWG9HVkNlYUgxS2ZtbzQ5bzlyVjcyVUFTQkRMOHlpZExVcjV1d1Nfd0x1YWMtSGFMMjRDbnltSUgyLXRadVFvS0xhMVU5cjhRWVNDMHh5ZEJYbV9uOTNpV2dDTktnM2xtb1VOeUNtY2x6d3EweVZQemhkamxFVFZNRUR5SUNuOGhXbHp1NDIwbGhJR25qUktfOC1ZVDNudkd0R0oxX2Vkc3UwM1FyRWtzenNIS0ZqcFdhdkpiQ2s5aS11?oc=5",
-          "pubDate": "Wed, 25 Mar 2026 03:39:27 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         }
       ],
@@ -355,6 +355,16 @@
           "id": "orban-eu-6",
           "sectionId": "orban-eu",
           "sectionName": "Orbán / EU",
+          "headline": "POLITICO: EU Leaders Expect PM Orbán to Win the Election",
+          "source": "Hungarian Conservative",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb1BEYjVpYk1SUDBBNHBSUmEwdWxtTnFtOExkcEZmN0NiZXZrSHJtM0Zkb19Wa1FOVDlJLVBDMDZYTjFBUXJYcEg5bldueGpXRGJabUNUVllFMmcyN0hxY3NFUGFhMVRoN0p4OFQ5Vk1fSDgtb25xNFhBX2tIeFZWWlNLNUdqaTBNQWJ2MHl3V19HZFR0Mk5OWHJ1cVJwY1cydlc3cw?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 15:01:52 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "orban-eu-7",
+          "sectionId": "orban-eu",
+          "sectionName": "Orbán / EU",
           "headline": "EU summit: Hungary holds Ukraine aid ransom over Druzhba oil",
           "source": "DW.com",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX3ZISUFnakoyak00eTZkd1RJRnllMV95V00tdFlwa292N1RLZDJraU5XblhVMUpOOEFCNDJmaEJMZzl0SWtmY0d0QXEtY1FvYzZ6NW55UEozTk84aXA2eDNOLVR6WU9wOFdUaEFkYmp1VjdtU0t0WE5UbEpoY0RrTkNpbjhjNXExRFo1UVZmMllwZjhLR1VXUml5QQ?oc=5",
@@ -362,23 +372,13 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "orban-eu-7",
+          "id": "orban-eu-8",
           "sectionId": "orban-eu",
           "sectionName": "Orbán / EU",
           "headline": "Hungary's Orbán accused of disloyalty and blackmail over Ukraine loan veto",
           "source": "BBC",
           "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CclBmdWtRQ2tGaS13VThKUTU1STdhazJ0V2xJQmtQYUhCaUFOUEtQcVFHdHY0aEtGLXZIRTBtbVlNaE5fMm9GQ2lXdFhoSklGcm5uSlBCa01pZw?oc=5",
           "pubDate": "Fri, 20 Mar 2026 15:34:19 GMT",
-          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
-        },
-        {
-          "id": "orban-eu-8",
-          "sectionId": "orban-eu",
-          "sectionName": "Orbán / EU",
-          "headline": "A Crucial Loan for Ukraine Becomes Election Leverage for Orban",
-          "source": "The New York Times",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQX3JjMjZzMTNIb0pyTkxhU0h2RE5VRWR2VUR3NjdKXzRIVGxkYTFUVW5HcjZvdW5qVnBmaURXRFpsZUxxV2pvRFlCN1JaWWFaMkRxa0d6MnVZT2w2WE5zN0VvclBKTm56WFByc2pXUVg2V0ZYOE9NWlU5X0xrR1RfRHZsYlJYdmhsb3lSVA?oc=5",
-          "pubDate": "Thu, 19 Mar 2026 07:00:07 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         }
       ],
