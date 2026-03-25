@@ -300,7 +300,7 @@ const chooseAnthropicModel = (availableModels) => {
 };
 
 const buildAnthropicPrompt = (sectionData) => JSON.stringify({
-  task: 'Skriv publiceringsklar svensk startsidestext för sajten "Vad i helvete händer?!". Alla brief-bullets, sektionssammanfattningar och artikelbeskrivningar måste vara idiomatisk svenska utan engelska ord, halvöversättningar, meta-kommentarer eller AI-prat. Var konkret: nämn aktörer, åtgärder, följder och konfliktlinjer. Inga ellipser. Ingen utfyllnad.',
+  task: 'Skriv publiceringsklar svensk startsidestext för sajten "Vad i helvete händer?!". Alla brief-bullets, sektionssammanfattningar och artikelbeskrivningar måste vara idiomatisk svenska utan engelska ord, halvöversättningar, meta-kommentarer eller AI-prat. Var konkret: nämn aktörer, åtgärder, följder och konfliktlinjer. Inga ellipser. Ingen utfyllnad. Du måste fylla varje section-id och item-id exakt en gång; lämna inget tomt och hoppa inte över någon post.',
   rules: {
     language: 'svenska',
     tone: 'torr, ren, redaktionell, saklig med lätt ironi',
@@ -321,7 +321,9 @@ const buildAnthropicPrompt = (sectionData) => JSON.stringify({
     briefIntroMaxChars: 220,
     briefIntroStyle: '1-2 korta meningar, konkret öppning utan svepande scenbygge',
     leadWithWhatActuallyHappened: true,
-    mentionActorsAndConsequences: true
+    mentionActorsAndConsequences: true,
+    useEveryProvidedIdExactlyOnce: true,
+    noMissingSectionsOrItems: true
   },
   responseSchema: {
     brief: { title: 'string', intro: 'string', bullets: ['string', 'string', 'string'] },
@@ -378,8 +380,8 @@ const callAnthropicSummaries = async (sectionData) => {
       const text = await callAnthropicApi({
         model,
         maxTokens: 2400,
-        temperature: 0.15,
-        system: 'Du skriver svensk publiceringstext för en offentlig nyhetssajt. Returnera enbart giltig JSON. All offentlig summary-text måste vara ren svenska utan engelska glosor, översättningsrester, AI-förklaringar eller ellipser.',
+        temperature: 0,
+        system: 'Du skriver svensk publiceringstext för en offentlig nyhetssajt. Returnera enbart giltig JSON. All offentlig summary-text måste vara ren svenska utan engelska glosor, översättningsrester, AI-förklaringar eller ellipser. Fyll varje angivet section-id och item-id exakt en gång.',
         user: buildAnthropicPrompt(sectionData)
       });
 
