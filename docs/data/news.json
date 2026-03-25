@@ -5,11 +5,11 @@
     "subtitle": "Tillfälligt otillgänglig.",
     "note": null
   },
-  "generatedAt": "2026-03-25T12:34:53.878Z",
+  "generatedAt": "2026-03-25T13:22:26.329Z",
   "summaryMeta": {
     "provider": "none",
     "model": null,
-    "fallbackReason": "Expected ',' or ']' after array element in JSON at position 5127 (line 51 column 6)"
+    "fallbackReason": "item.orban-eu-the-guardian-hungary-6.summary: too-short"
   },
   "brief": null,
   "sections": [],
