@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orange Horizon</title>
+    <meta name="description" content="A sunrise-themed feed of recent Donald Trump news, updated hourly." />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div class="sun sun-a"></div>
+    <div class="sun sun-b"></div>
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">Orange Horizon</p>
+        <h1>Where the dawn breaks, and the headlines absolutely refuse to sleep.</h1>
+        <p class="lede">A warm-toned, lightly wry scroll through recent Donald Trump coverage. Updated about once an hour.</p>
+        <div class="meta">
+          <span id="last-updated">Loading latest sunrise…</span>
+          <a id="source-link" href="#" target="_blank" rel="noreferrer">Source feed</a>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Latest glow</h2>
+          <p>Recent coverage from public RSS sources, trimmed into a clean feed with links back to the original reporting.</p>
+        </div>
+        <div id="news-list" class="news-list" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <template id="item-template">
+      <article class="card">
+        <div class="card-top">
+          <p class="source"></p>
+          <time></time>
+        </div>
+        <h3></h3>
+        <p class="description"></p>
+        <a class="read-more" target="_blank" rel="noreferrer">Read original story</a>
+      </article>
+    </template>
+
+    <script type="module" src="./assets/app.js"></script>
+  </body>
+</html>
