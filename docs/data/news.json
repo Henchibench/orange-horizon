@@ -4,19 +4,19 @@
     "subtitle": "En torrt ironisk morgonbrief om världsläget, uppdaterad ungefär varje timme.",
     "note": "Publika RSS-flöden, rak struktur och länkar tillbaka till originalen. Mer behövs inte varje morgon."
   },
-  "generatedAt": "2026-03-25T09:14:09.550Z",
+  "generatedAt": "2026-03-25T09:14:34.653Z",
   "summaryMeta": {
-    "provider": "rule-based",
-    "model": null,
-    "fallbackReason": "missing-api-key"
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5-20251001",
+    "fallbackReason": null
   },
   "brief": {
-    "title": "Det viktigaste först.",
-    "intro": "Fyra bevakningar. Noll pep-talk.",
+    "title": "Vita huset vill ha mjuk hand på AI. Orbán läcker.",
+    "intro": "Fyra bevakningar. Noll pep-talk. Trump-administrationen presenterar sin AI-policy. Ungern misstänks för att ha läckt känslig info till Ryssland.",
     "bullets": [
-      "Putin / Ukraina: Russia bombs UNESCO site as Putin escalates attacks on Ukrainian civilians.",
-      "Mest trafik i högen: Trump / USA med 8 rubriker.",
-      "Klicka vidare om du vill ha originaltexten och hela graden av elände."
+      "Trump / USA: Vita huset uppmanar Kongressen att hålla låg profil på AI-reglering. Åtta rubriker i högen.",
+      "Orbán / EU: Ungern utesluten från känsliga möten efter misstankar om läckor till Ryssland. Veto på Ukraina-lån fortsätter.",
+      "Iran / Putin / Ukraina: Kärnkraftanläggning träffad. Krig fortsätter. Läget är som vanligt."
     ]
   },
   "sections": [
@@ -92,24 +92,24 @@
           "id": "trump-usa-7",
           "sectionId": "trump-usa",
           "sectionName": "Trump / USA",
-          "headline": "White House releases AI legislation framework",
-          "source": "NBC News",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZFZnOVVKRDhvT0JRd0owOWNIX1YtU1ZBTjU4TXlpRGlNVXhsRG9hYW1EZlFKMWM1a1JzaHNGZnoyQ25WMG5jbW1iU0dvQUcweGprNDluSkFuVXMtSE5SSlVSU3lkNEh1RVBsX0hSNHVZNTZGZmZ5alhwSnZwbFExbjM2MWJ5YnMxYW1sRFU3YVNVQUxpaVFCVFliWjlVWDdMejVKMVJMNjhqb2NwVDlDYTB0eFlNR3dy?oc=5",
-          "pubDate": "Fri, 20 Mar 2026 13:34:47 GMT",
+          "headline": "Trump releases AI policy for Congress to pre-empt state rules",
+          "source": "Reuters",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcWZpamJCdk1QQVpCa2xwRmxsUDBVZk91Q1pybV9kSHE1WTR2WTRlNEdxRHN4UlVULWEzR3NyQjZGaks1V2N1RXhSTzNZcG83SGtHa0pCR0dyWktGWUJMdVlpeVRYOE9WYTYwNjNPcTR1UFJDTUozaWxIazVQY2llcXFXcDdueVdMTEd4TGhrdXU?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 12:28:29 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
           "id": "trump-usa-8",
           "sectionId": "trump-usa",
           "sectionName": "Trump / USA",
-          "headline": "White House seeks $200bn in military funding in wake of Iran war",
-          "source": "BBC",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zWFVtanNObzJ0aWc0RU5YYWRsSXNyYkR5ellqandfR01JWDdHNkRFS0xIeVlqQzl3eV85NmdBMUVaUjVibkdzRlFJOHFsQ0lJRm1zZE9Ia25XZw?oc=5",
-          "pubDate": "Thu, 19 Mar 2026 20:34:46 GMT",
+          "headline": "White House releases AI legislation framework",
+          "source": "NBC News",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZFZnOVVKRDhvT0JRd0owOWNIX1YtU1ZBTjU4TXlpRGlNVXhsRG9hYW1EZlFKMWM1a1JzaHNGZnoyQ25WMG5jbW1iU0dvQUcweGprNDluSkFuVXMtSE5SSlVSU3lkNEh1RVBsX0hSNHVZNTZGZmZ5alhwSnZwbFExbjM2MWJ5YnMxYW1sRFU3YVNVQUxpaVFCVFliWjlVWDdMejVKMVJMNjhqb2NwVDlDYTB0eFlNR3dy?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 13:34:47 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         }
       ],
-      "summary": "Högst upp: White House urges Congress to take a light touch on AI regulations in new legislative blueprint. Strax bakom: White House releases AI policy blueprint for Congress. 8 nedslag från 8 källor."
+      "summary": "Vita huset presenterar AI-policy-ramverk för Kongressen. Budskapet: håll det lätt. Även Japan-besök på agendan. Budgetfrågor väcker fler frågor än svar."
     },
     {
       "id": "putin-ukraina",
@@ -123,16 +123,6 @@
           "id": "putin-ukraina-1",
           "sectionId": "putin-ukraina",
           "sectionName": "Putin / Ukraina",
-          "headline": "Russia fires nearly 400 drones at Ukraine with signs its spring offensive has started",
-          "source": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdkFVRklESDFYLXFHSFhfaWtsTkVnQkt0Z0hQcjNHb0hSbmxoX2U3WUhidy1oM1VxZVNqcGg4eGRrNHJlY2pRdXBQRl90d0hGNGs0dEpRR0RaQW5jR2F6OTBkdGZJX3JseDlmMWhsOF9WRVVoLUpTV2JLT0xYLXdXVlVRbG1pcDZTSW5Gc1E3QnVJZjkwNnlTNUQ3NGVEdFZBb3FtcmZUeDg?oc=5",
-          "pubDate": "Tue, 24 Mar 2026 23:20:00 GMT",
-          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
-        },
-        {
-          "id": "putin-ukraina-2",
-          "sectionId": "putin-ukraina",
-          "sectionName": "Putin / Ukraina",
           "headline": "Belligerent and Beleaguered: Russia After the War with Ukraine",
           "source": "Carnegie Endowment for International Peace",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNM0RIV2xvVXpYNUIwaHgxc2RqZmRkbi1aYUpPenBuc0NESnlsajNmMDZ2WWx5ZTdKa2MtQjh3NFJGbzhfRGh6d3BTdm1HYkcyNkRTcFFhTVlQeWdjbUVBdVNjX0toVWZuNW4tN3JmcXJmMkZqMEpVWkRBZjFNdno3R1RQXzI2Zi1sYjJIV1lHV2lDajZCOWdwd0QtMA?oc=5",
@@ -140,7 +130,7 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "putin-ukraina-3",
+          "id": "putin-ukraina-2",
           "sectionId": "putin-ukraina",
           "sectionName": "Putin / Ukraina",
           "headline": "Leaders Address War in Ukraine, Russia Threat",
@@ -150,7 +140,7 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "putin-ukraina-4",
+          "id": "putin-ukraina-3",
           "sectionId": "putin-ukraina",
           "sectionName": "Putin / Ukraina",
           "headline": "Russia continues to gamble on the tragic prospect of an endless war in Ukraine",
@@ -160,7 +150,7 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "putin-ukraina-5",
+          "id": "putin-ukraina-4",
           "sectionId": "putin-ukraina",
           "sectionName": "Putin / Ukraina",
           "headline": "Russia and Ukraine trade attacks, killing at least 4 ahead of U.S. talks",
@@ -170,17 +160,17 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "putin-ukraina-6",
+          "id": "putin-ukraina-5",
           "sectionId": "putin-ukraina",
           "sectionName": "Putin / Ukraina",
-          "headline": "Russian Occupation Update, March 19, 2026",
+          "headline": "Russian Offensive Campaign Assessment, March 19, 2026",
           "source": "Institute for the Study of War",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYkNLWFpWMGFEdjJUMVd0RVZBVHQ5alo0VTBJYnJPanhEdFk2NzJfSHVJaF9MUnJ0RkU1TE9aSGtaRlFobTlJRmdRM2pjUldjR2ZtbFVhQ0dDcVpvVG04UUtCbGJOTWNwMHVwY2paZlpKbXRDSUQxMFQ5NFoxdHZoUEVYcEcwTlZZc1NRcHhuel9OcE1BeUFkYg?oc=5",
-          "pubDate": "Thu, 19 Mar 2026 19:28:35 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbzhNUkJJWld5V0pJYlJzUjVid0xJaDl1RlNLd2tWZDlZNEpzU0dSNTJyNXhzdEdCbWtoQ0lPMy1iNU5Kd0poc2dYRzNZWlluRUdTMnBneTJqclFKNy0yQ1ZaQzZaLU9UQ3FuZkNidDdsMGFuTjgwRENSeHhGOE1hRjZCYl9FOGZKckpadlhzVllSYXg0WnpGOWNJcmNLeWJIQUEyaGszV1Q?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 01:04:27 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "putin-ukraina-7",
+          "id": "putin-ukraina-6",
           "sectionId": "putin-ukraina",
           "sectionName": "Putin / Ukraina",
           "headline": "Ukraine’s Zelenskyy urges allies to pressure Russia ahead of US talks",
@@ -190,7 +180,7 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "putin-ukraina-8",
+          "id": "putin-ukraina-7",
           "sectionId": "putin-ukraina",
           "sectionName": "Putin / Ukraina",
           "headline": "Russia bombs UNESCO site as Putin escalates attacks on Ukrainian civilians",
@@ -198,9 +188,19 @@
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaEFYWG9HVkNlYUgxS2ZtbzQ5bzlyVjcyVUFTQkRMOHlpZExVcjV1d1Nfd0x1YWMtSGFMMjRDbnltSUgyLXRadVFvS0xhMVU5cjhRWVNDMHh5ZEJYbV9uOTNpV2dDTktnM2xtb1VOeUNtY2x6d3EweVZQemhkamxFVFZNRUR5SUNuOGhXbHp1NDIwbGhJR25qUktfOC1ZVDNudkd0R0oxX2Vkc3UwM1FyRWtzenNIS0ZqcFdhdkpiQ2s5aS11?oc=5",
           "pubDate": "Wed, 25 Mar 2026 03:39:27 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "putin-ukraina-8",
+          "sectionId": "putin-ukraina",
+          "sectionName": "Putin / Ukraina",
+          "headline": "Ukraine war briefing: Russia trying to ‘intensify’ attacks; US-Ukraine talks end",
+          "source": "The Guardian",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUEF6NEtIZlpqYkNoVWprTGRqVThNbGRQdXJJMUlqQXFRWmN3d2tYc2staWRMYUVxQ0dldVROTjlSSjRDdUlZcnhuWjRDS0RpZkFxMlc3WnB1aU5veElPajNjNk5sbktGQzh4aF9sSDZORS1aZkN5TlF0RGpxYmliZEFTNGtDcHVfLXdnSS16OWhqMzBCeXpCSl92b19DZXExLWlXb2pOT1dJa3N6eWJZWmd6ZjZucm5qeGpZN3NwMA?oc=5",
+          "pubDate": "Mon, 23 Mar 2026 00:33:00 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         }
       ],
-      "summary": "Högst upp: Russia fires nearly 400 drones at Ukraine with signs its spring offensive has started. Strax bakom: Belligerent and Beleaguered: Russia After the War with Ukraine. 8 nedslag från 8 källor."
+      "summary": "Ryssland fortsätter offensiven. Minst fyra döda i senaste utbytet. Institute for the Study of War dokumenterar läget. Diplomatiska samtal pågår parallellt med stridshandlingar."
     },
     {
       "id": "iran",
@@ -284,14 +284,14 @@
           "id": "iran-8",
           "sectionId": "iran",
           "sectionName": "Iran",
-          "headline": "Saudi Arabia’s Nuclear Path Will Not Depend on Iran or the War’s Outcome",
-          "source": "Stimson Center",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNWZIdDdGaDZlSlpoNU80NThCQUx0SnE4UjEyYXFaenUtWVJmMkVUY1QzcXNmaEtqQnJHT0NXaVhtNi1ncE5ObG9SNEcwYTJQYjM4S0txZ1N4WFRWNkQzbFVIbUtlRjdSM1JWdkRIRWRfSDFTbWVXZW1rdDZadHRyMHZIdjhXRHBpVlhMOVlMUFBiRHY3cnpLTQ?oc=5",
-          "pubDate": "Mon, 23 Mar 2026 18:01:05 GMT",
-          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+          "headline": "US intelligence chief says Iran's regime 'intact' but 'degraded'",
+          "source": "BBC",
+          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wRGYtZngzdE05ZEtvXzNSY1RNTVBNREp5Wmhhc1BHS1pvRjZVamdMM0tCalVLZk5jeE41YnpSbFowVUsycU52M0JRemtWVV8wMlFLOHN5cG9MUQ?oc=5",
+          "pubDate": "Wed, 18 Mar 2026 22:18:19 GMT",
+          "description": "US intelligence chief says Iran's regime 'intact' but 'degraded'"
         }
       ],
-      "summary": "Högst upp: A look at who holds the reins of power in Iran since the country’s top leaders were killed. Strax bakom: Opinion | I Spent Two Decades Securing Nuclear Materials. Here’s What It Would Take to Get Iran’s.. 8 nedslag från 8 källor."
+      "summary": "Kärnkraftanläggning träffad. Maktvakuum efter att landets topledare dödades. Trump-administrationen strategiserar kring Irans kärnvapenförråd. Libanon-situationen försämras dagligen."
     },
     {
       "id": "orban-eu",
@@ -382,7 +382,7 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         }
       ],
-      "summary": "Högst upp: To tilt Hungarian election, Russians proposed staging assassination attempt. Strax bakom: EU calls for clarification after Hungary accused of leaking info to Russia. 8 nedslag från 8 källor."
+      "summary": "Ungern utesluten från EU-möten efter misstankar om läckor till Ryssland. Washington Post rapporterar att Ryssland föreslog att arrangera mordförsök för att påverka ungerska val. Orbán blockerar fortsatt Ukraina-lån."
     }
   ],
   "sources": [
