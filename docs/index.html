@@ -5,18 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vad i helvete händer?!</title>
     <meta name="description" content="En svensk morgonbrief om globalt maktspel och haverier: Trump/USA, Putin/Ukraina, Iran och Orbán/EU." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,400;1,6..72,500&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/styles.css" />
   </head>
   <body data-state="loading">
+    <div class="grain" aria-hidden="true"></div>
     <main class="page">
       <header class="masthead">
         <div class="masthead-top">
           <p class="nameplate">Vad i helvete händer?!</p>
-          <p class="edition">Morgonupplaga · globalt maktspel, haverier och följdskador</p>
+          <div class="masthead-edition">
+            <p class="edition">Morgonupplaga</p>
+            <span class="edition-dot" aria-hidden="true"></span>
+            <p class="edition">Globalt maktspel, haverier &amp; följdskador</p>
+          </div>
         </div>
         <div class="masthead-rule" aria-hidden="true"></div>
         <div class="masthead-meta">
-          <span id="last-updated" class="meta-item">Laddar lägesbild…</span>
+          <span id="last-updated" class="meta-item">
+            <span class="meta-dot" aria-hidden="true"></span>
+            Laddar lägesbild…
+          </span>
           <span id="story-count" class="meta-item">—</span>
           <span id="source-count" class="meta-item">—</span>
         </div>
@@ -52,6 +63,11 @@
       <section class="sections">
         <div id="sections-list" class="sections-list" aria-live="polite"></div>
       </section>
+
+      <footer class="site-footer">
+        <div class="footer-rule" aria-hidden="true"></div>
+        <p class="footer-text">Orange Horizon — automatiskt genererad lägesbild, uppdateras varje timme.</p>
+      </footer>
     </main>
 
     <template id="section-template">
@@ -83,7 +99,7 @@
         </div>
         <h3></h3>
         <div class="story-links">
-          <a class="read-more" target="_blank" rel="noreferrer">Läs originalet</a>
+          <a class="read-more" target="_blank" rel="noreferrer">Läs originalet →</a>
         </div>
       </article>
     </template>

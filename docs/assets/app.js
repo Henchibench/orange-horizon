@@ -24,10 +24,21 @@ const pluralizeArticles = (count) => `${count} ${count === 1 ? 'artikel' : 'arti
 
 const cleanSummary = (value) => `${value || ''}`.replace(/\s+/g, ' ').trim();
 
+const setMetaText = (el, text) => {
+  const dot = el.querySelector('.meta-dot');
+  if (dot) {
+    el.textContent = '';
+    el.appendChild(dot);
+    el.append(' ' + text);
+  } else {
+    el.textContent = text;
+  }
+};
+
 const setUnavailable = (generatedAt) => {
   document.body.dataset.state = 'unavailable';
   document.title = 'Vad i helvete händer?!';
-  lastUpdated.textContent = generatedAt ? `Senast försökt ${formatDate(generatedAt)}` : 'Tillfälligt otillgänglig';
+  setMetaText(lastUpdated, generatedAt ? `Senast försökt ${formatDate(generatedAt)}` : 'Tillfälligt otillgänglig');
   storyCount.textContent = 'Ingen publicering';
   sourceCount.textContent = 'Försök igen snart';
   siteNote.textContent = 'Just nu finns ingen version som klarar publiceringskraven.';
@@ -54,7 +65,7 @@ const render = async () => {
   const totalFeeds = data.sources.reduce((sum, source) => sum + ((source.feedUrls && source.feedUrls.length) || 0), 0);
 
   document.title = data.site.title;
-  lastUpdated.textContent = `Uppdaterad ${formatDate(data.generatedAt)}`;
+  setMetaText(lastUpdated, `Uppdaterad ${formatDate(data.generatedAt)}`);
   storyCount.textContent = `${totalStories} rubriker`;
   sourceCount.textContent = `${totalFeeds || data.sources.length} källflöden`;
   siteNote.textContent = '';
