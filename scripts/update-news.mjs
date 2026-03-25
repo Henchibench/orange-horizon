@@ -324,7 +324,7 @@ const buildAnthropicPrompt = (sectionData) => JSON.stringify({
     briefBulletMinChars: 90,
     briefBulletMaxChars: 260,
     sectionSummaryMinChars: 200,
-    sectionSummaryMaxChars: 600,
+    sectionSummaryMaxChars: 1000,
     briefIntroMinChars: 90,
     briefIntroTargetChars: 200,
     briefIntroMaxChars: 260,
@@ -427,7 +427,7 @@ const fillMissingSummaries = async (model, sectionData, aiPayload) => {
     rules: {
       language: 'svenska',
       sectionSummaryMinChars: 200,
-      sectionSummaryMaxChars: 600,
+      sectionSummaryMaxChars: 1000,
       noEnglishLeakage: true,
       noMetaCopy: true,
       noEllipsis: true
@@ -596,7 +596,7 @@ const repairInvalidPublicCopy = async (model, sectionData, aiPayload, errorMessa
     payload.target = {
       id: failure.id,
       current: aiPayload?.sections?.find((candidate) => candidate?.id === failure.id)?.summary || '',
-      limits: { min: 200, max: 600 },
+      limits: { min: 200, max: 1000 },
       context: section ? buildSectionSnapshot(section) : null
     };
   } else if (failure.kind === 'item') {
@@ -661,7 +661,7 @@ const mergeSummariesStrict = (sectionData, aiPayload) => {
 
   const sectionsWithSummaries = sectionData.map((section) => ({
     ...section,
-    summary: validatePublicText(normalizePublicLength(aiSections.get(section.id), 600), `section.${section.id}.summary`, { min: 200, max: 600 }),
+    summary: validatePublicText(normalizePublicLength(aiSections.get(section.id), 1000), `section.${section.id}.summary`, { min: 200, max: 1000 }),
     items: section.items.map((item) => ({
       id: item.id,
       headline: item.headline,
