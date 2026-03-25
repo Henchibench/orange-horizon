@@ -475,7 +475,7 @@ const englishLeakPatterns = [
   /\bUS-Israel\b/i, /\bUnited States\b/i, /\bforced injection\b/i
 ];
 
-const bannedMetaPatterns = [/\bai\b/i, /modell/i, /pipeline/i, /feed/i, /rss/i, /sammanfattningen bygger/i, /översatt av/i, /genererad/i, /meta/i, /tool/i];
+const bannedMetaPatterns = [/\bai-modell\b/i, /\bai-generer/i, /\bspråkmodell\b/i, /\bpipeline\b/i, /\bfeed\b/i, /\brss\b/i, /sammanfattningen bygger/i, /översatt av/i, /\bgenererad\b/i, /\btool\b/i];
 
 const cleanPublicText = (value = '') => normalizeWhitespace(stripTags(value))
   .replace(/[“”]/g, '"')
@@ -551,13 +551,14 @@ const validatePublicText = (text, label, { min = 30, max = MAX_PUBLIC_SUMMARY_LE
 };
 
 const parseValidationFailure = (message = '') => {
-  const match = `${message}`.match(/^(brief\.title|brief\.intro|brief\.bullets\[(\d+)\]|section\.([^.]+)\.summary|item\.([^.]+)\.summary):\s*(.+)$/);
+  const match = `${message}`.match(/^(brief\.title|brief\.intro|brief\.bullets\[(\d+)\]|brief\.bullets|section\.([^.]+)\.summary|item\.([^.]+)\.summary):\s*(.+)$/);
   if (!match) return null;
-  if (match[1] === 'brief.title') return { kind: 'brief-title', reason: match[5] || match[6] || match[4] || match[1] };
-  if (match[1] === 'brief.intro') return { kind: 'brief-intro', reason: match[5] || match[6] || match[4] || match[1] };
-  if (match[2] !== undefined) return { kind: 'brief-bullet', index: Number(match[2]), reason: match[6] || match[1] };
-  if (match[3]) return { kind: 'section', id: match[3], reason: match[6] || match[1] };
-  if (match[4]) return { kind: 'item', id: match[4], reason: match[6] || match[1] };
+  if (match[1] === 'brief.title') return { kind: 'brief-title', reason: match[5] };
+  if (match[1] === 'brief.intro') return { kind: 'brief-intro', reason: match[5] };
+  if (match[1] === 'brief.bullets') return { kind: 'brief-bullets-count', reason: match[5] };
+  if (match[2] !== undefined) return { kind: 'brief-bullet', index: Number(match[2]), reason: match[5] || match[1] };
+  if (match[3]) return { kind: 'section', id: match[3], reason: match[5] || match[1] };
+  if (match[4]) return { kind: 'item', id: match[4], reason: match[5] || match[1] };
   return null;
 };
 
@@ -594,6 +595,14 @@ const repairInvalidPublicCopy = async (model, sectionData, aiPayload, errorMessa
       current: aiPayload?.brief?.intro || '',
       limits: { min: 40, max: 220 },
       sectionLabels: sectionData.map((section) => ({ id: section.id, name: section.name, label: section.label }))
+    };
+  } else if (failure.kind === 'brief-bullets-count') {
+    payload.responseSchema = { brief: { bullets: ['string', 'string', 'string', 'string'] } };
+    payload.target = {
+      current: aiPayload?.brief?.bullets || [],
+      requiredCount: 4,
+      limits: { min: 70, max: 200 },
+      context: sectionData.map((section) => ({ id: section.id, name: section.name, label: section.label, summary: aiPayload?.sections?.find((candidate) => candidate?.id === section.id)?.summary || '', headlines: section.items.map((item) => item.headline).slice(0, 2) }))
     };
   } else if (failure.kind === 'brief-bullet') {
     payload.responseSchema = { brief: { bullets: ['string'] } };
@@ -644,6 +653,10 @@ const repairInvalidPublicCopy = async (model, sectionData, aiPayload, errorMessa
   const repaired = await parseAnthropicJson(model, text);
   if (failure.kind === 'brief-title') return { ...aiPayload, brief: { ...(aiPayload?.brief || {}), title: repaired?.brief?.title || aiPayload?.brief?.title || '' } };
   if (failure.kind === 'brief-intro') return { ...aiPayload, brief: { ...(aiPayload?.brief || {}), intro: repaired?.brief?.intro || aiPayload?.brief?.intro || '' } };
+  if (failure.kind === 'brief-bullets-count') {
+    const repairedBullets = repaired?.brief?.bullets;
+    return { ...aiPayload, brief: { ...(aiPayload?.brief || {}), bullets: Array.isArray(repairedBullets) ? repairedBullets : aiPayload?.brief?.bullets || [] } };
+  }
   if (failure.kind === 'brief-bullet') {
     const bullets = [...(aiPayload?.brief?.bullets || [])];
     bullets[failure.index] = repaired?.brief?.bullets?.[0] || bullets[failure.index] || '';
