@@ -4,11 +4,11 @@
     "subtitle": "En torrt ironisk morgonbrief om världsläget, uppdaterad ungefär varje timme.",
     "note": "Byggd på publika RSS-flöden. Inga betalväggs-API:er, bara disciplin, lätt misstro och en billig AI-genväg när den beter sig."
   },
-  "generatedAt": "2026-03-25T08:33:38.875Z",
+  "generatedAt": "2026-03-25T08:46:45.364Z",
   "summaryMeta": {
     "provider": "rule-based",
     "model": "claude-3-5-haiku-20241022",
-    "fallbackReason": "Anthropic API error: 401 Unauthorized"
+    "fallbackReason": "Anthropic API error: 404 Not Found"
   },
   "brief": {
     "title": "Morgonbrief för folk som redan anar att läget inte direkt stabiliserats över natten.",
