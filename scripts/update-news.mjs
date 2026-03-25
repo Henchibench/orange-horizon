@@ -6,7 +6,14 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const projectRoot = dirname(__dirname);
 const outputPath = `${projectRoot}/docs/data/news.json`;
 const anthropicApiKey = process.env.ANTHROPIC_API_KEY?.trim();
-const anthropicModel = 'claude-3-5-haiku-20241022';
+const anthropicEndpoint = 'https://api.anthropic.com/v1';
+const anthropicPreferredModels = [
+  process.env.ANTHROPIC_MODEL?.trim(),
+  'claude-haiku-4-5',
+  'claude-haiku-4-5-20251001',
+  'claude-3-5-haiku-20241022',
+  'claude-3-haiku-20240307'
+].filter(Boolean);
 
 const sections = [
   {
@@ -183,12 +190,59 @@ const buildAnthropicPrompt = (sectionData, fallbackBrief) => JSON.stringify({
   }))
 }, null, 2);
 
+const readErrorBody = async (response) => {
+  const text = (await response.text()).trim();
+  return text ? text.slice(0, 500) : 'empty response body';
+};
+
+const listAnthropicModels = async () => {
+  const response = await fetch(`${anthropicEndpoint}/models`, {
+    headers: {
+      'x-api-key': anthropicApiKey,
+      'anthropic-version': '2023-06-01'
+    }
+  });
+
+  if (!response.ok) {
+    throw new Error(`Anthropic models API error: ${response.status} ${response.statusText} - ${await readErrorBody(response)}`);
+  }
+
+  const data = await response.json();
+  return Array.isArray(data?.data)
+    ? data.data.map((model) => `${model.id || ''}`.trim()).filter(Boolean)
+    : [];
+};
+
+const rankAnthropicModel = (modelId) => {
+  if (/haiku-4-5/.test(modelId)) return 500;
+  if (/haiku/.test(modelId)) return 400;
+  if (/sonnet/.test(modelId)) return 300;
+  if (/opus/.test(modelId)) return 200;
+  return 100;
+};
+
+const chooseAnthropicModel = (availableModels) => {
+  for (const preferred of anthropicPreferredModels) {
+    if (availableModels.includes(preferred)) return preferred;
+  }
+
+  return [...availableModels]
+    .sort((a, b) => rankAnthropicModel(b) - rankAnthropicModel(a) || a.localeCompare(b))[0] || null;
+};
+
 const callAnthropicSummaries = async (sectionData, fallbackBrief) => {
   if (!anthropicApiKey) {
     return { ok: false, reason: 'missing-api-key' };
   }
 
-  const response = await fetch('https://api.anthropic.com/v1/messages', {
+  const availableModels = await listAnthropicModels();
+  const model = chooseAnthropicModel(availableModels);
+
+  if (!model) {
+    throw new Error('Anthropic models API returned no usable models');
+  }
+
+  const response = await fetch(`${anthropicEndpoint}/messages`, {
     method: 'POST',
     headers: {
       'content-type': 'application/json',
@@ -196,7 +250,7 @@ const callAnthropicSummaries = async (sectionData, fallbackBrief) => {
       'anthropic-version': '2023-06-01'
     },
     body: JSON.stringify({
-      model: anthropicModel,
+      model,
       max_tokens: 900,
       temperature: 0.2,
       system: 'Du skriver för sajten "Vad i helvete händer?!". Returnera enbart giltig JSON utan markdown eller kommentarer.',
@@ -210,7 +264,7 @@ const callAnthropicSummaries = async (sectionData, fallbackBrief) => {
   });
 
   if (!response.ok) {
-    throw new Error(`Anthropic API error: ${response.status} ${response.statusText}`);
+    throw new Error(`Anthropic API error: ${response.status} ${response.statusText} - ${await readErrorBody(response)}`);
   }
 
   const data = await response.json();
@@ -220,7 +274,7 @@ const callAnthropicSummaries = async (sectionData, fallbackBrief) => {
   }
 
   const parsed = JSON.parse(text);
-  return { ok: true, data: parsed };
+  return { ok: true, data: parsed, model, availableModels };
 };
 
 const mergeSummaries = (sectionData, fallbackBrief, aiPayload) => {
@@ -258,7 +312,7 @@ const rawSectionData = await Promise.all(sections.map(async (section) => {
     .slice(0, 8)
     .map((match, index) => {
       const itemXml = match[1];
-      const pick = (tag) => itemXml.match(new RegExp(`<${tag}>([\\s\\S]*?)<\\/${tag}>`, 'i'))?.[1] ?? '';
+      const pick = (tag) => itemXml.match(new RegExp(`<${tag}>([\\s\\S]*?)<\/${tag}>`, 'i'))?.[1] ?? '';
       const rawTitle = decode(pick('title'));
       const { headline, source } = splitHeadlineAndSource(rawTitle);
       const description = tidyDescription(pick('description'), headline, source);
@@ -300,7 +354,7 @@ if (anthropicApiKey) {
       finalSections = merged.sections;
       summaryMeta = {
         provider: 'anthropic',
-        model: anthropicModel,
+        model: aiResult.model,
         fallbackReason: null
       };
     }
@@ -308,7 +362,7 @@ if (anthropicApiKey) {
     console.warn(`Anthropic summary layer unavailable, falling back to rule-based summaries: ${error.message}`);
     summaryMeta = {
       provider: 'rule-based',
-      model: anthropicModel,
+      model: anthropicPreferredModels[0] || null,
       fallbackReason: error.message
     };
   }
@@ -329,4 +383,4 @@ const payload = {
 
 await mkdir(dirname(outputPath), { recursive: true });
 await writeFile(outputPath, `${JSON.stringify(payload, null, 2)}\n`);
-console.log(`Wrote ${finalSections.reduce((sum, section) => sum + section.items.length, 0)} items across ${finalSections.length} sections to ${outputPath} using ${summaryMeta.provider}`);
+console.log(`Wrote ${finalSections.reduce((sum, section) => sum + section.items.length, 0)} items across ${finalSections.length} sections to ${outputPath} using ${summaryMeta.provider}${summaryMeta.model ? ` (${summaryMeta.model})` : ''}`);
