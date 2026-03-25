@@ -174,14 +174,16 @@ img { max-width: 100%; display: block; }
 .masthead-top {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.5rem 2rem;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 0.75rem 1rem;
 }
 
 .masthead-left {
   display: grid;
   gap: 0.3rem;
+  min-width: 0;
+  flex: 1 1 auto;
 }
 
 .nameplate {
@@ -297,6 +299,7 @@ img { max-width: 100%; display: block; }
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  min-width: 0;
 }
 
 .hero h1 {
@@ -307,6 +310,9 @@ img { max-width: 100%; display: block; }
   line-height: 0.92;
   letter-spacing: -0.04em;
   font-optical-sizing: auto;
+  text-wrap: balance;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .lede {
@@ -738,21 +744,53 @@ body[data-state="unavailable"] .sections-intro {
   }
 
   .masthead-top {
-    flex-direction: column;
-    gap: 0.3rem;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .masthead-left {
+    padding-right: 3rem;
+  }
+
+  .theme-toggle {
+    position: absolute;
+    top: 1rem;
+    right: 0;
+  }
+
+  .masthead {
+    position: relative;
+  }
+
+  .masthead-edition {
+    flex-wrap: wrap;
+    gap: 0.35rem 0.6rem;
   }
 
   .hero {
-    padding: 1.5rem 0 2rem;
-    gap: 1.25rem;
+    padding: 1.35rem 0 1.85rem;
+    gap: 1.1rem;
+  }
+
+  .hero-intro {
+    gap: 0.4rem;
   }
 
   .hero h1 {
     font-size: clamp(2.2rem, 10vw, 3.2rem);
+    max-width: 8.5ch;
+    line-height: 0.96;
+  }
+
+  .lede {
+    max-width: none;
+    margin-top: 0.35rem;
+    font-size: 0.96rem;
+    line-height: 1.62;
   }
 
   .brief-panel {
-    padding: 1.25rem 0 1.25rem 1.2rem;
+    padding: 1.15rem 0 1.15rem 1.1rem;
   }
 
   .brief-panel::before {
@@ -789,8 +827,23 @@ body[data-state="unavailable"] .sections-intro {
     font-size: 14px;
   }
 
+  .page {
+    width: min(100%, calc(100% - 1rem));
+  }
+
   .nameplate {
     font-size: clamp(1.5rem, 8vw, 2rem);
+    max-width: 9ch;
+  }
+
+  .masthead-left {
+    padding-right: 2.8rem;
+  }
+
+  .theme-toggle {
+    width: 2rem;
+    height: 2rem;
+    top: 0.8rem;
   }
 
   .sections-intro {
