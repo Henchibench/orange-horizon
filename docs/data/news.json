@@ -4,11 +4,11 @@
     "subtitle": "En torrt ironisk morgonbrief om världsläget, uppdaterad ungefär varje timme.",
     "note": "Direkta källflöden först: BBC, Guardian, DW, Politico Europe och Al Jazeera. Summary-lagret skrivs på svenska; originalartiklarna ligger kvar bakom varje sektion."
   },
-  "generatedAt": "2026-03-25T10:18:17.209Z",
+  "generatedAt": "2026-03-25T10:18:55.869Z",
   "summaryMeta": {
     "provider": "rule-based",
-    "model": null,
-    "fallbackReason": "missing-api-key"
+    "model": "claude-haiku-4-5",
+    "fallbackReason": "Expected ',' or ']' after array element in JSON at position 5351 (line 69 column 6)"
   },
   "brief": {
     "title": "Det viktigaste nu",
