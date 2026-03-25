@@ -4,18 +4,18 @@
     "subtitle": "En torrt ironisk morgonbrief om världsläget, uppdaterad ungefär varje timme.",
     "note": "Direkta källflöden först: BBC, Guardian, DW, Politico Europe och Al Jazeera. Bara riktiga textutdrag får bli sammanfattningar; annars blir det rubrik, källa, tid och länk."
   },
-  "generatedAt": "2026-03-25T09:59:18.717Z",
+  "generatedAt": "2026-03-25T10:00:11.629Z",
   "summaryMeta": {
     "provider": "rule-based",
-    "model": null,
-    "fallbackReason": "missing-api-key"
+    "model": "claude-haiku-4-5",
+    "fallbackReason": "Expected ',' or ']' after array element in JSON at position 4543 (line 69 column 6)"
   },
   "brief": {
     "title": "Det viktigaste först.",
     "intro": "Direkt från riktiga källor när det går, och tyst när texten inte går att få loss.",
     "bullets": [
-      "Trump / USA: US talking to itself, says Iran as Trump claims wheels of diplomacy turning.",
-      "Färskast: Trump / USA – Prosecutors examined whether Trump disclosed classified map on plane after leaving office.",
+      "Iran: ‘A heinous crime’: Air strikes kill seven fighters in Iraq’s Anbar.",
+      "Färskast: Iran – ‘A heinous crime’: Air strikes kill seven fighters in Iraq’s Anbar.",
       "Trump / USA gav flest användbara träffar i den här körningen."
     ]
   },
@@ -81,7 +81,7 @@
       ],
       "items": [
         {
-          "id": "trump-usa-al-jazeera-rss-6",
+          "id": "trump-usa-al-jazeera-rss-7",
           "sectionId": "trump-usa",
           "sectionName": "Trump / USA",
           "headline": "US talking to itself, says Iran as Trump claims wheels of diplomacy turning",
@@ -409,7 +409,28 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-6",
+          "id": "iran-al-jazeera-rss-1",
+          "sectionId": "iran",
+          "sectionName": "Iran",
+          "headline": "‘A heinous crime’: Air strikes kill seven fighters in Iraq’s Anbar",
+          "source": "Al Jazeera RSS",
+          "link": "https://www.aljazeera.com/news/2026/3/25/a-heinous-crime-air-strikes-kill-seven-fighters-in-iraqs-anbar?traffic_source=rss",
+          "actualUrl": "https://www.aljazeera.com/news/2026/3/25/a-heinous-crime-air-strikes-kill-seven-fighters-in-iraqs-anbar?traffic_source=rss",
+          "pubDate": "Wed, 25 Mar 2026 09:34:59 +0000",
+          "rawDescription": "<![CDATA[Police source tells Al Jazeera attack hits positions of the Iran-aligned PMF, which the US has increasingly targeted.]]>",
+          "description": "An aerial attack on a military base in western Iraq’s Anbar province has killed seven fighters and wounded 13, according to Iraq’s Ministry of Defence. The strikes on Wednesday targeted the military healthcare clinic at…",
+          "articleText": "An aerial attack on a military base in western Iraq’s Anbar province has killed seven fighters and wounded 13, according to Iraq’s Ministry of Defence.\n\nThe strikes on Wednesday targeted the military healthcare clinic at the base in Habbaniyah, according to the ministry. It called the attack “a heinous crime” that violated “all international laws and norms”.\n\nlist 1 of 3 Is Iran’s negotiating position stronger than when US-Israeli war started?\n\nlist 2 of 3 Amid US-Israeli attacks, people in Iran struggle to survive ailing economy\n\nlist 3 of 3 What we know about the US’s 15-point plan Iran proposal\n\nAn Iraqi police source told Al Jazeera the attack targeted positions of the Iraqi military’s Popular Mobilisation Forces (PMF), a paramilitary force that includes some Iran-aligned brigades and reportedly shares the base with members of Iraq’s regular army.\n\n“What we understand from the military here is that air strikes were carried out and then further strikes carried out on that same position,” said Al Jazeera’s Assed Baig, reporting from Baghdad. He said it appeared to be the first time the PMF was hit alongside the broader Iraqi military.\n\nIraq has denounced the attack as the country has been dragged into the United States-Israeli war on Iran. On Tuesday, Iraqi Prime Minister Mohammed Shia al-Sudani’s office said Baghdad would summon the Iranian and US ambassadors over the recent strikes.",
+          "articleSummary": "An aerial attack on a military base in western Iraq’s Anbar province has killed seven fighters and wounded 13, according to Iraq’s Ministry of Defence. The strikes on Wednesday targeted the military healthcare clinic at…",
+          "feedSummary": "Police source tells Al Jazeera attack hits positions of the Iran-aligned PMF, which the US has increasingly targeted.",
+          "extractionStatus": "ok",
+          "extractionNote": "article-text",
+          "summarySource": "article-text",
+          "feedLabel": "Al Jazeera RSS",
+          "feedUrl": "https://www.aljazeera.com/xml/rss/all.xml",
+          "relevanceScore": 40
+        },
+        {
+          "id": "iran-al-jazeera-rss-7",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "US talking to itself, says Iran as Trump claims wheels of diplomacy turning",
@@ -430,7 +451,7 @@
           "relevanceScore": 40
         },
         {
-          "id": "iran-al-jazeera-rss-8",
+          "id": "iran-al-jazeera-rss-9",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "Iran’s new security boss Mohammad Zolghadr: Why his appointment matters",
@@ -451,7 +472,7 @@
           "relevanceScore": 40
         },
         {
-          "id": "iran-al-jazeera-rss-9",
+          "id": "iran-al-jazeera-rss-10",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "US-Israel war on Iran: What’s happening on day 26 of attacks?",
@@ -472,7 +493,7 @@
           "relevanceScore": 40
         },
         {
-          "id": "iran-al-jazeera-rss-10",
+          "id": "iran-al-jazeera-rss-11",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "Amid US-Israeli attacks, people in Iran struggle to survive ailing economy",
@@ -491,30 +512,9 @@
           "feedLabel": "Al Jazeera RSS",
           "feedUrl": "https://www.aljazeera.com/xml/rss/all.xml",
           "relevanceScore": 40
-        },
-        {
-          "id": "iran-al-jazeera-rss-11",
-          "sectionId": "iran",
-          "sectionName": "Iran",
-          "headline": "From Pakistan to Egypt, Iran war drives up prices in Global South",
-          "source": "Al Jazeera RSS",
-          "link": "https://www.aljazeera.com/economy/2026/3/25/from-pakistan-to-egypt-iran-war-drives-up-fuel-prices-in-the-global-south?traffic_source=rss",
-          "actualUrl": "https://www.aljazeera.com/economy/2026/3/25/from-pakistan-to-egypt-iran-war-drives-up-fuel-prices-in-the-global-south?traffic_source=rss",
-          "pubDate": "Wed, 25 Mar 2026 05:20:18 +0000",
-          "rawDescription": "<![CDATA[Developing economies in Asia, Africa and the Middle East are most exposed to surging energy costs.]]>",
-          "description": "As the United States-Israeli war with Iran sends tremors through the global economy, the poorest members of the Global South are the most exposed to the fallout. In Asia, Africa and the Middle East, developing economies…",
-          "articleText": "As the United States-Israeli war with Iran sends tremors through the global economy, the poorest members of the Global South are the most exposed to the fallout.\n\nIn Asia, Africa and the Middle East, developing economies are bearing the brunt of surging energy costs prompted by the closure of the Strait of Hormuz and attacks on oil and gas facilities across the Gulf.\n\nlist 1 of 4 UN expert says world has given Israel ‘licence to torture Palestinians’\n\nlist 2 of 4 Macron says Lebanon’s fight is ‘just’ amid escalating attacks by Israel\n\nlist 3 of 4 Trump says Iran ‘wants peace’ after US military did ‘great job’\n\nlist 4 of 4 Israeli settlers vandalise school, raise Israeli flag in occupied West Bank\n\nFrom Pakistan to Bangladesh and Sri Lanka, through to Jordan, Egypt and Ethiopia, policymakers are facing the double whammy of being both heavily dependent on imported energy and having limited financial firepower to absorb the shock of spiking prices.\n\nIn Pakistan, which imports about 80 percent of its energy from the Gulf and has lurched between economic crises for years, authorities have scrambled to roll out measures to conserve fuel.\n\nFacing the depletion of the country’s petrol and diesel reserves within weeks, officials have closed schools, introduced a four-day working week for government offices, ordered half of the country’s public sector employees to work from home, and slashed fuel allowances for official business.\n\nPakistani Prime Minister Shehbaz Sharif said last week that he had decided against a proposed hike in petrol and diesel prices before the Eid Al-Fitr celebration, saying the government would “bear the burden” of rising costs.\n\nSharif’s announcement came after the government had earlier this month approved a 55 rupee ($0.20) rise in the price of a litre (0.26 gallons) of petrol or diesel.\n\nWhile government subsidies have helped cushion the blow for the public, there are fears that petroleum prices will surge and bring economic activity to a halt if the war drags on, said S Akbar Zaidi, the executive director of the Institute of Business Administration in Karachi.",
-          "articleSummary": "As the United States-Israeli war with Iran sends tremors through the global economy, the poorest members of the Global South are the most exposed to the fallout. In Asia, Africa and the Middle East, developing economies…",
-          "feedSummary": "Developing economies in Asia, Africa and the Middle East are most exposed to surging energy costs.",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "summarySource": "article-text",
-          "feedLabel": "Al Jazeera RSS",
-          "feedUrl": "https://www.aljazeera.com/xml/rss/all.xml",
-          "relevanceScore": 40
         }
       ],
-      "summary": "Ledande spår: US talking to itself, says Iran as Trump claims wheels of diplomacy turning. Iran’s military has said the United States is failing in its war and negotiating with itself to save face, dismissing claims by US President Donald Trump that talks are under way to end the conflict. “Has the level of y… Nästa u…"
+      "summary": "Ledande spår: ‘A heinous crime’: Air strikes kill seven fighters in Iraq’s Anbar. An aerial attack on a military base in western Iraq’s Anbar province has killed seven fighters and wounded 13, according to Iraq’s Ministry of Defence. The strikes on Wednesday targeted the military healthcare clinic at… Nästa upp: US ta…"
     },
     {
       "id": "orban-eu",
