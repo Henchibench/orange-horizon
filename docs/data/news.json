@@ -5,11 +5,11 @@
     "subtitle": "Tillfälligt otillgänglig.",
     "note": null
   },
-  "generatedAt": "2026-03-25T12:03:23.135Z",
+  "generatedAt": "2026-03-25T12:05:15.926Z",
   "summaryMeta": {
     "provider": "none",
     "model": null,
-    "fallbackReason": "section.trump-usa.summary: too-long"
+    "fallbackReason": "item.iran-al-jazeera-rss-7.summary: empty"
   },
   "brief": null,
   "sections": [],
