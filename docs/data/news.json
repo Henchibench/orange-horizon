@@ -2,21 +2,21 @@
   "site": {
     "title": "Vad i helvete händer?!",
     "subtitle": "En torrt ironisk morgonbrief om världsläget, uppdaterad ungefär varje timme.",
-    "note": "Byggd på publika RSS-flöden. Inga betalväggs-API:er, bara disciplin, lätt misstro och en billig AI-genväg när den beter sig."
+    "note": "Publika RSS-flöden, rak struktur och länkar tillbaka till originalen. Mer behövs inte varje morgon."
   },
-  "generatedAt": "2026-03-25T08:55:50.080Z",
+  "generatedAt": "2026-03-25T09:14:09.550Z",
   "summaryMeta": {
-    "provider": "anthropic",
-    "model": "claude-haiku-4-5-20251001",
-    "fallbackReason": null
+    "provider": "rule-based",
+    "model": null,
+    "fallbackReason": "missing-api-key"
   },
   "brief": {
-    "title": "Morgonbrief för folk som redan anar att läget inte direkt stabiliserats över natten.",
-    "intro": "Fyra spår av global oreda, serverade utan confetti. Vita huset vill att Congress tar det lugnt med AI-reglering. Ryssland skjuter nästan 400 drönare på Ukraina. Iran och Israel spelar kärnkraft-pingis. Ungern läcker till Moskva och blockerar EU-lån. Välkommen till tisdagen.",
+    "title": "Det viktigaste först.",
+    "intro": "Fyra bevakningar. Noll pep-talk.",
     "bullets": [
-      "Ryssland avfyrar nästan 400 drönare mot Ukraina – tecken på att våroffsensiven har startat (AP News).",
-      "Vita huset presenterar AI-policy utan tänder: Congress uppmanas ta det lugnt med reglering (PBS, Politico, FedScoop).",
-      "Ungern anklagas för att läcka information till Ryssland; EU utesluter landet från känsliga samtal (Washington Post, Al Jazeera, Politico)."
+      "Putin / Ukraina: Russia bombs UNESCO site as Putin escalates attacks on Ukrainian civilians.",
+      "Mest trafik i högen: Trump / USA med 8 rubriker.",
+      "Klicka vidare om du vill ha originaltexten och hela graden av elände."
     ]
   },
   "sections": [
@@ -109,7 +109,7 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         }
       ],
-      "summary": "Vita huset presenterar AI-policy för Congress med fokus på lätt reglering. Tre separata källor (PBS, Politico, FedScoop) rapporterar samma budskap. Trumps 2027-budget väcker frågor. USA och Japan träffas vid Vita huset. Substantiella detaljer saknas i tillgängligt material."
+      "summary": "Högst upp: White House urges Congress to take a light touch on AI regulations in new legislative blueprint. Strax bakom: White House releases AI policy blueprint for Congress. 8 nedslag från 8 källor."
     },
     {
       "id": "putin-ukraina",
@@ -143,16 +143,6 @@
           "id": "putin-ukraina-3",
           "sectionId": "putin-ukraina",
           "sectionName": "Putin / Ukraina",
-          "headline": "Russia continues to gamble on the tragic prospect of an endless war in Ukraine",
-          "source": "France ONU",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbHYyY3FEeW5VeTVWLTMyWE1HNFVwVXA1QXF4dHd6aHVfUjcwZm1GWGgtTUxaVWFMMk5WX2lXQTlzVFJTNUc5bXZtZUoza29QVFFGOTNqMVlGUVU2bHB4Y3NVLU5ZS3JlaTdERms2akVVVG1EbmNYVXdmaHRYUXZNWWpjanZvOXdWcDh3VWE3SVN3NEtIaGo5Zm1LemoteGNONGxzbmNMQTJWQQ?oc=5",
-          "pubDate": "Tue, 24 Mar 2026 14:05:55 GMT",
-          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
-        },
-        {
-          "id": "putin-ukraina-4",
-          "sectionId": "putin-ukraina",
-          "sectionName": "Putin / Ukraina",
           "headline": "Leaders Address War in Ukraine, Russia Threat",
           "source": "U.S. Department of War (.gov)",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOU1lUaG4tX0RJUU92YTdmdWVTT3h6UWxnX3E3Z1o1OVVoX3cySUNhNWpSaGFLR1dxa2hvakYzenNNemNkaFZHb0lldC1iTnZLUTNWZHVpQ1J4ZkF1QkY5dEVaSll0bkpHbGFibllqbGxUSG5FY1ZfYU8wWWdOb3J6ZS12OXd5X0JDQ00xeTBKdzB2MGJrcUdkYlpGV3djQVluaTBJRFZiNHVHcXM?oc=5",
@@ -160,17 +150,37 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
+          "id": "putin-ukraina-4",
+          "sectionId": "putin-ukraina",
+          "sectionName": "Putin / Ukraina",
+          "headline": "Russia continues to gamble on the tragic prospect of an endless war in Ukraine",
+          "source": "France ONU",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbHYyY3FEeW5VeTVWLTMyWE1HNFVwVXA1QXF4dHd6aHVfUjcwZm1GWGgtTUxaVWFMMk5WX2lXQTlzVFJTNUc5bXZtZUoza29QVFFGOTNqMVlGUVU2bHB4Y3NVLU5ZS3JlaTdERms2akVVVG1EbmNYVXdmaHRYUXZNWWpjanZvOXdWcDh3VWE3SVN3NEtIaGo5Zm1LemoteGNONGxzbmNMQTJWQQ?oc=5",
+          "pubDate": "Tue, 24 Mar 2026 14:05:55 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
           "id": "putin-ukraina-5",
           "sectionId": "putin-ukraina",
           "sectionName": "Putin / Ukraina",
-          "headline": "Russian Offensive Campaign Assessment, March 19, 2026",
-          "source": "Institute for the Study of War",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbzhNUkJJWld5V0pJYlJzUjVid0xJaDl1RlNLd2tWZDlZNEpzU0dSNTJyNXhzdEdCbWtoQ0lPMy1iNU5Kd0poc2dYRzNZWlluRUdTMnBneTJqclFKNy0yQ1ZaQzZaLU9UQ3FuZkNidDdsMGFuTjgwRENSeHhGOE1hRjZCYl9FOGZKckpadlhzVllSYXg0WnpGOWNJcmNLeWJIQUEyaGszV1Q?oc=5",
-          "pubDate": "Fri, 20 Mar 2026 01:04:27 GMT",
+          "headline": "Russia and Ukraine trade attacks, killing at least 4 ahead of U.S. talks",
+          "source": "PBS",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMmRWVDk1ZTY5UWlYdEF1ZXRrS2oyYmxTWUtxNjI0NlpCNzI1ZEExX1UxZUJTMTNLQ2ZTWGJMUzJIMHdOT0Ixb0p0QjRnWExmMWx6WGtQeEhOR2tEcmJRbHVpZE9QbDhIY3JXX2pXeUxTZ0dyRVhfUnZfUzBQLU9KbHJrclcwdk5BZkdJRWp2UkR3ZHlzNTREbUJNdkZWaGdJd2JaQkRldFHSAa4BQVVfeXFMT1ktWTY5UDRvX000Qm9kdUVzeDFTZzAzdUJ1U0dRUXJGZ0tpU1pNeGZFYnhJMFdrZ0FOcnY2Rk1iVk1EVXNxakwxM0w5b2oyTlA5T1VtVlppQUtLaGpjTjk5akpRdWJZX1R6cXlYT29kMmZuR0NUZDNSNDVCNDJYc0U2U2d4LXRKVFo0WlNfTVJrWjRBWlFyVHpNZHR0aEo2WDFielF0bWp1dVpvVlBn?oc=5",
+          "pubDate": "Sat, 21 Mar 2026 22:02:19 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
           "id": "putin-ukraina-6",
+          "sectionId": "putin-ukraina",
+          "sectionName": "Putin / Ukraina",
+          "headline": "Russian Occupation Update, March 19, 2026",
+          "source": "Institute for the Study of War",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYkNLWFpWMGFEdjJUMVd0RVZBVHQ5alo0VTBJYnJPanhEdFk2NzJfSHVJaF9MUnJ0RkU1TE9aSGtaRlFobTlJRmdRM2pjUldjR2ZtbFVhQ0dDcVpvVG04UUtCbGJOTWNwMHVwY2paZlpKbXRDSUQxMFQ5NFoxdHZoUEVYcEcwTlZZc1NRcHhuel9OcE1BeUFkYg?oc=5",
+          "pubDate": "Thu, 19 Mar 2026 19:28:35 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "putin-ukraina-7",
           "sectionId": "putin-ukraina",
           "sectionName": "Putin / Ukraina",
           "headline": "Ukraine’s Zelenskyy urges allies to pressure Russia ahead of US talks",
@@ -180,7 +190,7 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "putin-ukraina-7",
+          "id": "putin-ukraina-8",
           "sectionId": "putin-ukraina",
           "sectionName": "Putin / Ukraina",
           "headline": "Russia bombs UNESCO site as Putin escalates attacks on Ukrainian civilians",
@@ -188,19 +198,9 @@
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaEFYWG9HVkNlYUgxS2ZtbzQ5bzlyVjcyVUFTQkRMOHlpZExVcjV1d1Nfd0x1YWMtSGFMMjRDbnltSUgyLXRadVFvS0xhMVU5cjhRWVNDMHh5ZEJYbV9uOTNpV2dDTktnM2xtb1VOeUNtY2x6d3EweVZQemhkamxFVFZNRUR5SUNuOGhXbHp1NDIwbGhJR25qUktfOC1ZVDNudkd0R0oxX2Vkc3UwM1FyRWtzenNIS0ZqcFdhdkpiQ2s5aS11?oc=5",
           "pubDate": "Wed, 25 Mar 2026 03:39:27 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
-        },
-        {
-          "id": "putin-ukraina-8",
-          "sectionId": "putin-ukraina",
-          "sectionName": "Putin / Ukraina",
-          "headline": "Ukraine war briefing: Russia trying to ‘intensify’ attacks; US-Ukraine talks end",
-          "source": "The Guardian",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUEF6NEtIZlpqYkNoVWprTGRqVThNbGRQdXJJMUlqQXFRWmN3d2tYc2staWRMYUVxQ0dldVROTjlSSjRDdUlZcnhuWjRDS0RpZkFxMlc3WnB1aU5veElPajNjNk5sbktGQzh4aF9sSDZORS1aZkN5TlF0RGpxYmliZEFTNGtDcHVfLXdnSS16OWhqMzBCeXpCSl92b19DZXExLWlXb2pOT1dJa3N6eWJZWmd6ZjZucm5qeGpZN3NwMA?oc=5",
-          "pubDate": "Mon, 23 Mar 2026 00:33:00 GMT",
-          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         }
       ],
-      "summary": "Ryssland intensifierar luftkampanjen med nästan 400 drönattacker. Institute for the Study of War och AP News rapporterar tecken på att våroffsensiven är i gång. Carnegie Endowment och France ONU noterar att Moskva verkar satsa på ett långdraget krig. Läget är kort sagt det motsatta av stabilt."
+      "summary": "Högst upp: Russia fires nearly 400 drones at Ukraine with signs its spring offensive has started. Strax bakom: Belligerent and Beleaguered: Russia After the War with Ukraine. 8 nedslag från 8 källor."
     },
     {
       "id": "iran",
@@ -214,10 +214,10 @@
           "id": "iran-1",
           "sectionId": "iran",
           "sectionName": "Iran",
-          "headline": "Trump’s claim that US and Iran are talking elicits market cheers and plenty of skepticism",
+          "headline": "A look at who holds the reins of power in Iran since the country’s top leaders were killed",
           "source": "AP News",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ09DRXZzTFB5VDRxbXVqZkJPUkRQUF9JYnNpdHpjUWxXWkg1VGlsLTR2MmFLRjE5OS1LRUJNbURyOGw4Z2dNeEJtMnRzSFFQVUVrOHU1NWw0VlFmTmdKRWxsb2RreFFkakhNQVdJeEhLYjkyYURhajJLWS1EU21iWFZoZjBHSHJlUXItdzFFMEE?oc=5",
-          "pubDate": "Tue, 24 Mar 2026 02:12:00 GMT",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLWFPV0lPWDc1QjFsZDdrU0czUFhVRHV4TXFuUG0wNWs0TnRMX28tTzJBQjEzb1k0RTBLZ0JXaE0zalk5MjZCRFhDQ3l3SzA0Y21wUWwyd0REMVQ4aDIzeVhfX3ZKZFRUQUNZV3pScjNiS29CQmxoMjZ3bnhEb1hxNi1QNGdicHRxOUxtUTFSbEtoZ3BsYkNqMGFxWWMyRnEwUlBkSUxJbE1sTFdzT3ZWWTc3UHV2T1hrOFh3?oc=5",
+          "pubDate": "Fri, 20 Mar 2026 10:48:00 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
@@ -234,16 +234,6 @@
           "id": "iran-3",
           "sectionId": "iran",
           "sectionName": "Iran",
-          "headline": "Tit for tat strikes against nuclear plants in Iran and Israel - ICAN",
-          "source": "International Campaign to Abolish Nuclear Weapons",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1RaUhJbXROTmxUZDFpeHBET1hQU1ZLQl8tcGRTZzVuNEtyeFQtVGNwZ0Qxa3Z4d3g4cXpMSTJJM0JPQldrVzZGdVcyRGdhM0NvYmdyalhDMlp1aWZpQnpzOUVvcUYya2d6emUw?oc=5",
-          "pubDate": "Mon, 23 Mar 2026 14:50:33 GMT",
-          "description": "Tit for tat strikes against nuclear plants in Iran and Israel ICAN -"
-        },
-        {
-          "id": "iran-4",
-          "sectionId": "iran",
-          "sectionName": "Iran",
           "headline": "War in the Middle East: Iran nuclear facility hit as equivalent of ‘one classroom of children’ killed, wounded daily in Lebanon",
           "source": "UN News",
           "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9QYTczUVR4WFhXS2I0d0RXdExuZWpsaV95cWdyOUl1NEZaTmNIc21yWkllOGRVZnE3LUVTR1JUT2VMei12X0libnQwZ2RrLXlwTHlNTFA1WQ?oc=5",
@@ -251,7 +241,7 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "iran-5",
+          "id": "iran-4",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "Revisionism at Fordow: Why the WSJ is wrong about the history—and future—of Iran's nuclear program",
@@ -261,17 +251,7 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "iran-6",
-          "sectionId": "iran",
-          "sectionName": "Iran",
-          "headline": "Iran says US and Israel attacked Natanz nuclear facility",
-          "source": "Al Jazeera",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWXNaYUpMSHBaQnM0a2Z2MGlfOUg0RmJMR09TSUE5ODVPQ2pqTG9JVVJBVFJyQ2RZYlgzZEhLRUFOdkpYTWRLc1owYUptMjNfQnFfcmNlankxTWdUbzF3T2hQSHp3bTF3cVlSbW1EVkdsVV9lZlRoc2JRM0t5aGF1SG1ZTW84YS1raUt0WGQwNG44YnBzMGljZEFVWmJkZ9IBowFBVV95cUxOUGY4SXRpMGJyRm5UUVVsU1J5NF9OeWxUWjc3dDFyWDZGUi1OWC1uRERQNWc3RFFNX29WTUtReGwyR2JmdHdZZ0JvSnVpZmZJVVNIRnZOQTl6VFBSaTc1dmo2aWN1bVBaS2gwbEtaaGlXSFU3VUo4VnZUMkVwa3NvTGk2YVpSbm9QQ0VnRENsSnp6TE80SmpaeUVyM2ZPclpnTG53?oc=5",
-          "pubDate": "Sat, 21 Mar 2026 16:02:01 GMT",
-          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
-        },
-        {
-          "id": "iran-7",
+          "id": "iran-5",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "Trump is strategizing means to seize Iran's nuclear stockpiles, sources say",
@@ -281,7 +261,7 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         },
         {
-          "id": "iran-8",
+          "id": "iran-6",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "The Iran Strikes, Explained: How We Got Here and What It Means",
@@ -289,9 +269,29 @@
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
           "pubDate": "Mon, 23 Mar 2026 07:00:00 GMT",
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
+        },
+        {
+          "id": "iran-7",
+          "sectionId": "iran",
+          "sectionName": "Iran",
+          "headline": "Israel wants to destroy Iran’s nuclear program. But should it have nuclear weapons itself?",
+          "source": "The Conversation",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUXdld3VSMnJTb1FDMFVhN1h3N1NnNDJ6RjJ2Sjh4ZmFzZG1QYUhLUUEydTZfN2VyVERfSmx4ZURJWjVhUVN3WHVSSkZfVUhpa2dCeTRNU1I4c1hjVm9lZFR3d0pYYklzLWRXWndFU3pKa3lSMnNLLW56TlNZZ2VhQ2NxR0I4Vld4bmNlMjhWTHJnTFB0V2tRaVZsS0NqaFB4ZnAtdV9Yc3V6bURROUlkNWwyY0R5MWljM0xLaE1Bcw?oc=5",
+          "pubDate": "Tue, 24 Mar 2026 19:08:40 GMT",
+          "description": "Israel wants to destroy Iran’s nuclear program. But should it have nuclear weapons itself?"
+        },
+        {
+          "id": "iran-8",
+          "sectionId": "iran",
+          "sectionName": "Iran",
+          "headline": "Saudi Arabia’s Nuclear Path Will Not Depend on Iran or the War’s Outcome",
+          "source": "Stimson Center",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNWZIdDdGaDZlSlpoNU80NThCQUx0SnE4UjEyYXFaenUtWVJmMkVUY1QzcXNmaEtqQnJHT0NXaVhtNi1ncE5ObG9SNEcwYTJQYjM4S0txZ1N4WFRWNkQzbFVIbUtlRjdSM1JWdkRIRWRfSDFTbWVXZW1rdDZadHRyMHZIdjhXRHBpVlhMOVlMUFBiRHY3cnpLTQ?oc=5",
+          "pubDate": "Mon, 23 Mar 2026 18:01:05 GMT",
+          "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         }
       ],
-      "summary": "Iran och Israel fortsätter att utbyta slag mot kärnkraftanläggningar. Trump hävdar att USA och Iran är i samtal – marknaden jublar, analytiker är skeptiska. ICAN och UN News rapporterar om eskalering. Kärnvapenfrågan förblir oroande öppen."
+      "summary": "Högst upp: A look at who holds the reins of power in Iran since the country’s top leaders were killed. Strax bakom: Opinion | I Spent Two Decades Securing Nuclear Materials. Here’s What It Would Take to Get Iran’s.. 8 nedslag från 8 källor."
     },
     {
       "id": "orban-eu",
@@ -382,7 +382,7 @@
           "description": "Rubriken räcker tyvärr långt. Själva storyn lär som vanligt vara mer deprimerande i detalj."
         }
       ],
-      "summary": "Ungern anklagas för att ha läckt information till Ryssland för att påverka val. EU utesluter landet från känsliga diskussioner. Orbán blockerar fortsatt ett EU-lånpaket till Ukraina. Både Reuters och AP News rapporterar EU-ledares frustration. Institutionell spänning ökar."
+      "summary": "Högst upp: To tilt Hungarian election, Russians proposed staging assassination attempt. Strax bakom: EU calls for clarification after Hungary accused of leaking info to Russia. 8 nedslag från 8 källor."
     }
   ],
   "sources": [

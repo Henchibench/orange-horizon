@@ -11,36 +11,50 @@
     <div class="glow glow-a"></div>
     <div class="glow glow-b"></div>
     <main class="shell">
-      <section class="hero">
-        <p class="eyebrow">Vad i helvete händer?!</p>
-        <h1>Världen vaknade. Tyvärr gjorde nyhetscykeln det också.</h1>
-        <p class="lede">En svensk morgonbrief med torr ironi, flera konfliktspår och länkar till originalkällorna. Uppdateras ungefär varje timme via GitHub Actions.</p>
-        <div class="meta">
-          <span id="last-updated">Laddar lägesbild…</span>
-          <span id="site-note"></span>
-        </div>
+      <section class="top-grid">
+        <section class="hero panel panel-hero">
+          <p class="eyebrow">Vad i helvete händer?!</p>
+          <h1>Morgonbrief om världsläget. Inget lull-lull.</h1>
+          <p class="lede">Fyra spår, några länkar, tillräckligt för att få en rimlig överblick innan resten av internet börjar gapa.</p>
+          <div class="hero-meta">
+            <span id="last-updated" class="meta-pill">Laddar lägesbild…</span>
+            <span id="story-count" class="meta-pill">—</span>
+            <span id="source-count" class="meta-pill">—</span>
+          </div>
+          <p id="site-note" class="site-note"></p>
+        </section>
+
+        <section class="brief panel">
+          <div class="panel-header compact-header">
+            <div>
+              <p class="section-kicker">Öppningsnotis</p>
+              <h2 id="brief-title">Morgonbrief</h2>
+            </div>
+            <p id="brief-intro" class="brief-intro"></p>
+          </div>
+          <ul id="brief-bullets" class="brief-bullets"></ul>
+        </section>
       </section>
 
-      <section class="brief panel">
-        <div class="panel-header">
-          <h2 id="brief-title">Morgonbrief</h2>
-          <p id="brief-intro"></p>
+      <section class="sections-intro">
+        <div>
+          <p class="section-kicker">Sektioner</p>
+          <h2>Det vanliga haveriet, uppdelat för läsbarhet</h2>
         </div>
-        <ul id="brief-bullets" class="brief-bullets"></ul>
+        <div id="sources-list" class="source-pills"></div>
+      </section>
+
+      <section class="sections">
+        <div id="sections-list" class="sections-list" aria-live="polite"></div>
       </section>
 
       <section class="sources panel slim-panel">
         <div class="panel-header row-header">
           <div>
-            <h2>Källor</h2>
-            <p>Publika RSS-sökningar. Inte perfekt, men transparent och gratis.</p>
+            <h2>Källor och metod</h2>
+            <p>Publika RSS-sökningar. Gratis, transparent och ibland lite stökigt. Fortfarande bättre än mystik.</p>
           </div>
-          <div id="sources-list" class="source-pills"></div>
         </div>
-      </section>
-
-      <section class="sections">
-        <div id="sections-list" class="sections-list" aria-live="polite"></div>
       </section>
     </main>
 

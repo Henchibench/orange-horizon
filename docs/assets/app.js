@@ -1,4 +1,6 @@
 const lastUpdated = document.querySelector('#last-updated');
+const storyCount = document.querySelector('#story-count');
+const sourceCount = document.querySelector('#source-count');
 const siteNote = document.querySelector('#site-note');
 const briefTitle = document.querySelector('#brief-title');
 const briefIntro = document.querySelector('#brief-intro');
@@ -22,31 +24,37 @@ const render = async () => {
   if (!response.ok) throw new Error(`Failed to load feed: ${response.status}`);
 
   const data = await response.json();
+  const totalStories = data.sections.reduce((sum, section) => sum + section.items.length, 0);
 
   document.title = data.site.title;
-  lastUpdated.textContent = `Senast uppdaterad ${formatDate(data.generatedAt)}`;
+  lastUpdated.textContent = `Uppdaterad ${formatDate(data.generatedAt)}`;
+  storyCount.textContent = `${totalStories} rubriker`;
+  sourceCount.textContent = `${data.sources.length} bevakningar`;
   siteNote.textContent = data.site.note;
   briefTitle.textContent = data.brief.title;
   briefIntro.textContent = data.brief.intro;
 
+  briefBullets.replaceChildren();
   for (const bullet of data.brief.bullets) {
     const li = document.createElement('li');
     li.textContent = bullet;
     briefBullets.appendChild(li);
   }
 
+  sourcesList.replaceChildren();
   for (const source of data.sources) {
     const a = document.createElement('a');
-    a.href = source.feedUrl;
-    a.target = '_blank';
-    a.rel = 'noreferrer';
+    a.href = `#section-${source.id}`;
     a.className = 'source-pill';
     a.textContent = source.name;
     sourcesList.appendChild(a);
   }
 
+  sectionsList.replaceChildren();
   for (const section of data.sections) {
     const fragment = sectionTemplate.content.cloneNode(true);
+    const article = fragment.querySelector('.section-card');
+    article.id = `section-${section.id}`;
     fragment.querySelector('.section-kicker').textContent = section.label;
     fragment.querySelector('h2').textContent = section.name;
     fragment.querySelector('.section-description').textContent = section.description;

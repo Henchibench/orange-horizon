@@ -123,9 +123,12 @@ const summarizeSectionRuleBased = (section) => {
   const second = section.items[1];
   const sourceSet = [...new Set(section.items.map((item) => item.source))];
 
-  const lines = [];
-  if (lead) lines.push(`Ledande rubrik: ${lead.headline}.`);
-  if (second) lines.push(`Därefter: ${second.headline}.`);
+  if (!lead) {
+    return 'Tomt i flödet. Antingen lugn morgon eller bara internet som spelar död.';
+  }
+
+  const lines = [`Högst upp: ${lead.headline}.`];
+  if (second) lines.push(`Strax bakom: ${second.headline}.`);
   lines.push(`${section.items.length} nedslag från ${sourceSet.length} källor.`);
   return lines.join(' ');
 };
@@ -134,32 +137,41 @@ const buildBriefRuleBased = (sectionData) => {
   const allItems = sectionData.flatMap((section) => section.items).sort((a, b) => toTimestamp(b.pubDate) - toTimestamp(a.pubDate));
   const freshest = allItems[0];
   const busiest = [...sectionData].sort((a, b) => b.items.length - a.items.length)[0];
+  const freshestSection = freshest ? sectionData.find((section) => section.id === freshest.sectionId) : null;
 
   const bullets = [
-    freshest ? `Senast in: ${freshest.headline} (${freshest.sectionName}).` : 'Inget färskt just nu, vilket vore misstänkt.',
-    busiest ? `Mest brus i flödet: ${busiest.name} med ${busiest.items.length} artiklar.` : 'Alla sektioner verkar märkligt lugna.',
-    'Det här är en strukturerad morgonbrief, inte en AI-ledare. Den kan enkelt byggas ut med mer sammanfattning senare.'
+    freshest && freshestSection
+      ? `${freshestSection.name}: ${freshest.headline}.`
+      : 'Inget färskt just nu, vilket antingen är skönt eller fel.',
+    busiest
+      ? `Mest trafik i högen: ${busiest.name} med ${busiest.items.length} rubriker.`
+      : 'Alla sektioner verkar märkligt lugna.',
+    'Klicka vidare om du vill ha originaltexten och hela graden av elände.'
   ];
 
   return {
-    title: 'Morgonbrief för folk som redan anar att läget inte direkt stabiliserats över natten.',
-    intro: 'Fyra spår av global oreda, serverade utan confetti men med länkar tillbaka till originalrapporteringen.',
+    title: 'Det viktigaste först.',
+    intro: 'Fyra bevakningar. Noll pep-talk.',
     bullets
   };
 };
 
 const buildAnthropicPrompt = (sectionData, fallbackBrief) => JSON.stringify({
-  task: 'Skriv en kort svensk morgonbrief i torrt ironisk ton. Håll dig strikt till tillgängliga rubriker och metadata. Hitta inte på fakta. Om underlaget är tunt: var återhållsam snarare än kreativ.',
+  task: 'Skriv en kort svensk morgonbrief i torrt ironisk ton. Det ska låta redigerat, inte genererat. Håll dig strikt till rubriker och metadata. Hitta inte på fakta. Om underlaget är tunt: var kort, sval och tydlig.',
   rules: {
     language: 'svenska',
-    tone: 'torr, lätt ironisk, nykter, inte flåshurtig',
-    introMaxChars: 220,
+    tone: 'torr, lätt ironisk, nykter, redaktionell, inte flåshurtig',
+    titleMaxChars: 48,
+    introMaxChars: 90,
     briefBulletsCount: 3,
-    bulletMaxChars: 160,
-    sectionSummaryMaxChars: 220,
+    bulletMaxChars: 120,
+    sectionSummaryMaxChars: 150,
     preserveFacts: true,
     noFabrication: true,
-    mentionUncertaintyIfNeeded: true
+    mentionUncertaintyIfNeeded: true,
+    avoidGenericAiPhrases: true,
+    avoidSceneSetting: true,
+    avoidPepTalk: true
   },
   responseSchema: {
     brief: {
@@ -201,7 +213,7 @@ const extractJsonText = (text) => {
     throw new Error('Anthropic returned empty text payload');
   }
 
-  const fencedMatch = trimmed.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/i);
+  const fencedMatch = trimmed.match(/```(?:json)?\s*([\s\S]*?)\s*```/i);
   if (fencedMatch) {
     return fencedMatch[1].trim();
   }
@@ -273,7 +285,7 @@ const callAnthropicSummaries = async (sectionData, fallbackBrief) => {
       model,
       max_tokens: 900,
       temperature: 0.2,
-      system: 'Du skriver för sajten "Vad i helvete händer?!". Returnera enbart giltig JSON utan markdown eller kommentarer.',
+      system: 'Du skriver för sajten "Vad i helvete händer?!". Skriv kort, torrt och redaktionellt. Ingen fluffig AI-prosa. Returnera enbart giltig JSON utan markdown eller kommentarer.',
       messages: [
         {
           role: 'user',
@@ -392,7 +404,7 @@ const payload = {
   site: {
     title: 'Vad i helvete händer?!',
     subtitle: 'En torrt ironisk morgonbrief om världsläget, uppdaterad ungefär varje timme.',
-    note: 'Byggd på publika RSS-flöden. Inga betalväggs-API:er, bara disciplin, lätt misstro och en billig AI-genväg när den beter sig.'
+    note: 'Publika RSS-flöden, rak struktur och länkar tillbaka till originalen. Mer behövs inte varje morgon.'
   },
   generatedAt: new Date().toISOString(),
   summaryMeta,
