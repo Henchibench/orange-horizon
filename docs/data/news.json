@@ -5,11 +5,11 @@
     "subtitle": "Tillfälligt otillgänglig.",
     "note": null
   },
-  "generatedAt": "2026-03-25T11:48:59.500Z",
+  "generatedAt": "2026-03-25T11:50:00.247Z",
   "summaryMeta": {
     "provider": "none",
     "model": null,
-    "fallbackReason": "missing-api-key"
+    "fallbackReason": "Expected ',' or ']' after array element in JSON at position 7110 (line 61 column 6)"
   },
   "brief": null,
   "sections": [],
