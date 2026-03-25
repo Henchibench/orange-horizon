@@ -327,12 +327,7 @@ const buildAnthropicPrompt = (sectionData) => JSON.stringify({
   sections: sectionData.map(buildSectionSnapshot)
 }, null, 2);
 
-const callAnthropicSummaries = async (sectionData) => {
-  if (!anthropicApiKey) throw new Error('missing-api-key');
-  const availableModels = await listAnthropicModels();
-  const model = chooseAnthropicModel(availableModels);
-  if (!model) throw new Error('Anthropic models API returned no usable models');
-
+const callAnthropicApi = async ({ model, system, user, maxTokens = 2400, temperature = 0.15 }) => {
   const response = await fetch(`${anthropicEndpoint}/messages`, {
     method: 'POST',
     headers: {
@@ -342,10 +337,10 @@ const callAnthropicSummaries = async (sectionData) => {
     },
     body: JSON.stringify({
       model,
-      max_tokens: 2400,
-      temperature: 0.15,
-      system: 'Du skriver svensk publiceringstext för en offentlig nyhetssajt. Returnera enbart giltig JSON. All offentlig summary-text måste vara ren svenska utan engelska glosor, översättningsrester, AI-förklaringar eller ellipser.',
-      messages: [{ role: 'user', content: buildAnthropicPrompt(sectionData) }]
+      max_tokens: maxTokens,
+      temperature,
+      system,
+      messages: [{ role: 'user', content: user }]
     })
   });
 
@@ -353,7 +348,49 @@ const callAnthropicSummaries = async (sectionData) => {
   const data = await response.json();
   const text = data?.content?.filter((block) => block.type === 'text').map((block) => block.text).join('\n').trim();
   if (!text) throw new Error('Anthropic returned no text content');
-  return { ok: true, data: JSON.parse(extractJsonText(text)), model };
+  return text;
+};
+
+const repairJsonWithAnthropic = async (model, rawText) => {
+  const repaired = await callAnthropicApi({
+    model,
+    maxTokens: 2600,
+    temperature: 0,
+    system: 'Du reparerar JSON. Returnera enbart giltig JSON utan markdown, kommentarer eller förklaringar. Ändra inte sakuppgifter i onödan.',
+    user: `Gör följande text till giltig JSON med exakt samma struktur och innehåll så långt det går:\n\n${rawText}`
+  });
+  return JSON.parse(extractJsonText(repaired));
+};
+
+const callAnthropicSummaries = async (sectionData) => {
+  if (!anthropicApiKey) throw new Error('missing-api-key');
+  const availableModels = await listAnthropicModels();
+  const model = chooseAnthropicModel(availableModels);
+  if (!model) throw new Error('Anthropic models API returned no usable models');
+
+  let lastError = null;
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const text = await callAnthropicApi({
+        model,
+        maxTokens: 2400,
+        temperature: 0.15,
+        system: 'Du skriver svensk publiceringstext för en offentlig nyhetssajt. Returnera enbart giltig JSON. All offentlig summary-text måste vara ren svenska utan engelska glosor, översättningsrester, AI-förklaringar eller ellipser.',
+        user: buildAnthropicPrompt(sectionData)
+      });
+
+      try {
+        return { ok: true, data: JSON.parse(extractJsonText(text)), model };
+      } catch (parseError) {
+        const repaired = await repairJsonWithAnthropic(model, text);
+        return { ok: true, data: repaired, model };
+      }
+    } catch (error) {
+      lastError = error;
+    }
+  }
+
+  throw lastError || new Error('Anthropic summary generation failed');
 };
 
 const englishLeakPatterns = [
