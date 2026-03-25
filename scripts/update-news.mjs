@@ -323,18 +323,20 @@ const buildAnthropicPrompt = (sectionData) => JSON.stringify({
     briefBulletsCount: 4,
     briefBulletMinChars: 90,
     briefBulletMaxChars: 260,
-    sectionSummaryMinChars: 150,
-    sectionSummaryMaxChars: 420,
+    sectionSummaryMinChars: 200,
+    sectionSummaryMaxChars: 600,
     briefIntroMinChars: 90,
     briefIntroTargetChars: 200,
     briefIntroMaxChars: 260,
     briefIntroStyle: '2 meningar, tydlig, syrlig och konkret öppning om vad maktfulla dumheter ställt till med',
     briefBulletsStyle: 'Exakt 4 punkter, en per sektion/bevakning. Varje punkt ska täcka en unik sektion så att alla bevakningar representeras i briefen.',
+    sectionSummaryStyle: 'Sammanfattningen MÅSTE referera till ALLA artiklar i sektionen, inte bara en eller två. Varje artikel ska nämnas eller dess ämne ska vara representerat. Hitta INTE PÅ information som inte finns i artiklarna. Basera sammanfattningen strikt på de medföljande rubrikerna och artikeltexterna.',
     leadWithWhatActuallyHappened: true,
     mentionActorsAndConsequences: true,
     useEveryProvidedIdExactlyOnce: true,
     noMissingSections: true,
-    noItemSummaries: true
+    noItemSummaries: true,
+    coverAllArticlesInSummary: true
   },
   responseSchema: {
     brief: { title: 'string', intro: 'string', bullets: ['string', 'string', 'string', 'string'] },
@@ -399,7 +401,7 @@ const callAnthropicSummaries = async (sectionData) => {
         model,
         maxTokens: 2400,
         temperature: 0,
-        system: 'Du skriver svensk publiceringstext för en offentlig nyhetssajt. Returnera enbart giltig JSON. All offentlig summary-text måste vara ren svenska utan engelska glosor, översättningsrester, AI-förklaringar eller ellipser. Skriv endast brief och sektionssammanfattningar. Fyll varje angivet section-id exakt en gång.',
+        system: 'Du skriver svensk publiceringstext för en offentlig nyhetssajt. Returnera enbart giltig JSON. All offentlig summary-text måste vara ren svenska utan engelska glosor, översättningsrester, AI-förklaringar eller ellipser. Skriv endast brief och sektionssammanfattningar. Fyll varje angivet section-id exakt en gång. Varje sektionssammanfattning MÅSTE täcka samtliga artiklar i sektionen — utelämna ingen artikel. Hitta inte på fakta som inte finns i artiklarna.',
         user: buildAnthropicPrompt(sectionData)
       });
 
@@ -421,11 +423,11 @@ const fillMissingSummaries = async (model, sectionData, aiPayload) => {
   if (!missingSections.length) return aiPayload;
 
   const repairPrompt = JSON.stringify({
-    task: 'Fyll endast saknade svenska sektionssammanfattningar. Returnera enbart giltig JSON. Skriv en summary för varje angivet section-id exakt en gång. Lämna inget tomt.',
+    task: 'Fyll endast saknade svenska sektionssammanfattningar. Returnera enbart giltig JSON. Skriv en summary för varje angivet section-id exakt en gång. Lämna inget tomt. Varje sammanfattning måste täcka samtliga artiklar i sektionen.',
     rules: {
       language: 'svenska',
-      sectionSummaryMinChars: 150,
-      sectionSummaryMaxChars: 420,
+      sectionSummaryMinChars: 200,
+      sectionSummaryMaxChars: 600,
       noEnglishLeakage: true,
       noMetaCopy: true,
       noEllipsis: true
@@ -594,7 +596,7 @@ const repairInvalidPublicCopy = async (model, sectionData, aiPayload, errorMessa
     payload.target = {
       id: failure.id,
       current: aiPayload?.sections?.find((candidate) => candidate?.id === failure.id)?.summary || '',
-      limits: { min: 110, max: 280 },
+      limits: { min: 200, max: 600 },
       context: section ? buildSectionSnapshot(section) : null
     };
   } else if (failure.kind === 'item') {
@@ -659,7 +661,7 @@ const mergeSummariesStrict = (sectionData, aiPayload) => {
 
   const sectionsWithSummaries = sectionData.map((section) => ({
     ...section,
-    summary: validatePublicText(normalizePublicLength(aiSections.get(section.id), 420), `section.${section.id}.summary`, { min: 150, max: 420 }),
+    summary: validatePublicText(normalizePublicLength(aiSections.get(section.id), 600), `section.${section.id}.summary`, { min: 200, max: 600 }),
     items: section.items.map((item) => ({
       id: item.id,
       headline: item.headline,
