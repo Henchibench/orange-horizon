@@ -5,11 +5,11 @@
     "subtitle": "Tillfälligt otillgänglig.",
     "note": null
   },
-  "generatedAt": "2026-03-25T11:54:52.547Z",
+  "generatedAt": "2026-03-25T12:03:23.135Z",
   "summaryMeta": {
     "provider": "none",
     "model": null,
-    "fallbackReason": "brief.intro: too-long"
+    "fallbackReason": "section.trump-usa.summary: too-long"
   },
   "brief": null,
   "sections": [],
