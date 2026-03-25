@@ -4,17 +4,17 @@
     "subtitle": "En torrt ironisk morgonbrief om världsläget, uppdaterad ungefär varje timme.",
     "note": "Direkta källflöden först: BBC, Guardian, DW, Politico Europe och Al Jazeera. Summary-lagret skrivs på svenska; originalartiklarna ligger kvar bakom varje sektion."
   },
-  "generatedAt": "2026-03-25T11:07:00.102Z",
+  "generatedAt": "2026-03-25T11:32:08.035Z",
   "summaryMeta": {
     "provider": "rule-based",
-    "model": null,
-    "fallbackReason": "missing-api-key"
+    "model": "claude-haiku-4-5",
+    "fallbackReason": "Expected ',' or ']' after array element in JSON at position 5040 (line 45 column 6)"
   },
   "brief": {
     "title": "Det viktigaste nu",
     "intro": "Tre konkreta huvudspår från körningen, utan meta-snack.",
     "bullets": [
-      "Iran: Ett flyganfall mot en militärbas i Anbarprovinsen i västra Irak dödade sju soldater och skadade 13.",
+      "Iran: Spain’s PM says Israel to inflict on Lebanon same destruction as in Gaza Källa: Al Jazeera RSS.",
       "Trump / USA: Irans militär säger att USA håller på att misslyckas i sitt krig and förhandlar med sig självt för att rädda ansiktet och avfärdar uppgifter om by…",
       "Putin / Ukraina: Moldavien utlyser nödläge i energisektorn efter att en viktig kraftledning till Europa slogs ut efter ryska angrepp i Ukraina."
     ]
@@ -81,7 +81,7 @@
       ],
       "items": [
         {
-          "id": "trump-usa-al-jazeera-rss-9",
+          "id": "trump-usa-al-jazeera-rss-10",
           "sectionId": "trump-usa",
           "sectionName": "Trump / USA",
           "headline": "US talking to itself, says Iran as Trump claims wheels of diplomacy turning",
@@ -165,7 +165,7 @@
           "relevanceScore": 25
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-2",
+          "id": "trump-usa-the-guardian-donald-trump-4",
           "sectionId": "trump-usa",
           "sectionName": "Trump / USA",
           "headline": "Trump’s war in Iran exposes US’s shift from a global guardian to an arbiter of chaos",
@@ -329,25 +329,25 @@
           "relevanceScore": 40
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-4",
+          "id": "putin-ukraina-dw-all-1",
           "sectionId": "putin-ukraina",
           "sectionName": "Putin / Ukraina",
-          "headline": "Russia fires nearly 1,000 drones in one of its largest aerial attacks on Ukraine",
-          "source": "Pjotr Sauer",
-          "link": "https://www.theguardian.com/world/2026/mar/24/russia-strikes-civilian-areas-ukraine",
-          "actualUrl": "https://www.theguardian.com/world/2026/mar/24/russia-strikes-civilian-areas-ukraine",
-          "pubDate": "Tue, 24 Mar 2026 18:15:48 GMT",
-          "rawDescription": "&lt;p&gt;At least seven killed as Moscow appears to step up spring offensive amid concerns focus on Iran war leaves Kyiv more vulnerable&lt;/p&gt;&lt;p&gt;Russia has launched a huge wave of nearly 1,000 drones at Ukraine, killing at least seven people, as Moscow appears to be stepping up a spring offensive intended to break Ukrainian resistance along the front.&lt;/p&gt;&lt;p&gt;Ukrainian officials said Moscow fired nearly 400 long-range drones and 23 cruise missiles overnight, followed by another 556 drones in an unusual daytime assault on Tuesday, hitting cities across the west of the country.&lt;/p&gt; &lt;a href=\"https://www.theguardian.com/world/2026/mar/24/russia-strikes-civilian-areas-ukraine\"&gt;Continue reading...&lt;/a&gt;",
-          "description": "Ryssland har inlett a huge wave of nearly 1,000 drones mot Ukraina, dödat minst seven people och Moscow appears to be stepping up a spring offensive intended to break Ukrainian resistance along front.",
-          "articleText": "Russia has launched a huge wave of nearly 1,000 drones at Ukraine, killing at least seven people, as Moscow appears to be stepping up a spring offensive intended to break Ukrainian resistance along the front.\n\nUkrainian officials said Moscow fired nearly 400 long-range drones and 23 cruise missiles overnight, followed by another 556 drones in an unusual daytime assault on Tuesday, hitting cities across the west of the country.",
-          "articleSummary": "Russia has launched a huge wave of nearly 1,000 drones at Ukraine, killing at least seven people, as Moscow appears to be stepping up a spring offensive intended to break Ukrainian resistance along the front. Ukrainian officials said Mosco…",
-          "feedSummary": "At least seven killed as Moscow appears to step up spring offensive amid concerns focus on Iran war leaves Kyiv more vulnerable Russia has launched a huge wave of nearly 1,000 drones at Ukraine, killing at least seven p…",
+          "headline": "Ukraine updates: Hungary threatens gas stop amid oil dispute",
+          "source": "DW: All",
+          "link": "https://www.dw.com/en/ukraine-updates-hungary-threatens-gas-stop-amid-oil-dispute/live-76519687?maca=en-rss-en-all-1573-rdf",
+          "actualUrl": "https://www.dw.com/en/ukraine-updates-hungary-threatens-gas-stop-amid-oil-dispute/live-76519687?maca=en-rss-en-all-1573-rdf",
+          "pubDate": "2026-03-25T11:24:00Z",
+          "rawDescription": "Prime Minister Viktor Orban says Hungary will gradually stop the flow of gas to Ukraine until Russian Druzhba pipeline oil deliveries restart. Meanwhile Russia reports widespread overnight drone strikes. DW has more.",
+          "description": "Ukraina updates: Ungern threatens gas stop amid oil dispute Källa: DW: All.",
+          "articleText": "Hello and welcome to our updates related to Russia's invasion of Ukraine on March 25, 2026.\n\nBoth sides are reporting intensifying drone attacks this week, often targeting energy infrastructure, as the war in Iran drives oil and gas prices up. Tens of thousands were struggling with disruptions to power supplies on either side of the border early on Wednesday.\n\nMeanwhile, Hungarian Prime Minister Viktor Orban continues to try to use tensions over Ukraine as leverage in his difficult domestic election campaign, now threatening to halt gas supplies to Ukraine unless Russian oil deliveries restart.\n\nAnd Baltic countries are investigating after more drones entered their airspace and crashed.",
+          "articleSummary": "Hello and welcome to our updates related to Russia's invasion of Ukraine on March 25, 2026. Both sides are reporting intensifying drone attacks this week, often targeting energy infrastructure, as the war in Iran drives oil and gas prices…",
+          "feedSummary": "Prime Minister Viktor Orban says Hungary will gradually stop the flow of gas to Ukraine until Russian Druzhba pipeline oil deliveries restart. Meanwhile Russia reports widespread overnight drone strikes. DW has more.",
           "extractionStatus": "ok",
           "extractionNote": "article-text",
           "summarySource": "article-text",
-          "feedLabel": "The Guardian: Ukraine",
-          "feedUrl": "https://www.theguardian.com/world/ukraine/rss",
-          "relevanceScore": 36
+          "feedLabel": "DW: All",
+          "feedUrl": "https://rss.dw.com/rdf/rss-en-all",
+          "relevanceScore": 38
         }
       ],
       "summary": "Moldavien utlyser nödläge i energisektorn efter att en viktig kraftledning till Europa slogs ut efter ryska angrepp i Ukraina. Vid sidan av det: Ukraina tvångsevakuerar barn från staden Slovjansk när säkerhetsläget förs…"
@@ -409,7 +409,28 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-3",
+          "id": "iran-al-jazeera-rss-1",
+          "sectionId": "iran",
+          "sectionName": "Iran",
+          "headline": "Spain’s PM says Israel to inflict on Lebanon same destruction as in Gaza",
+          "source": "Al Jazeera RSS",
+          "link": "https://www.aljazeera.com/news/2026/3/25/spains-pm-says-israel-to-inflict-on-lebanon-same-destruction-as-in-gaza?traffic_source=rss",
+          "actualUrl": "https://www.aljazeera.com/news/2026/3/25/spains-pm-says-israel-to-inflict-on-lebanon-same-destruction-as-in-gaza?traffic_source=rss",
+          "pubDate": "Wed, 25 Mar 2026 11:02:40 +0000",
+          "rawDescription": "<![CDATA[Pedro ​Sanchez has been one of the few leaders in Europe to condemn Israel&#039;s war in Lebanon, US-Israeli ⁠war on Iran.]]>",
+          "description": "Spain’s PM says Israel to inflict on Lebanon same destruction as in Gaza Källa: Al Jazeera RSS.",
+          "articleText": "Spanish Prime ‌Minister Pedro Sanchez has said Israel “seeks to inflict the same level ⁠of damage and destruction” on Lebanon ⁠as on the Gaza Strip, as its army continues attacks across the neighbouring country amid plans to occupy its south.\n\nIn an address before the lower house on Wednesday, Sanchez also said his government ⁠stood against the United States-Israeli ⁠war on Iran, which presented a “far worse” scenario than the invasion of Iraq in 2003.\n\nlist 1 of 3 Iranian IRGC’s ties to Hezbollah deepen tensions in Lebanese politics\n\nlist 2 of 3 Israeli strike lands near Roman ruins in Lebanon\n\nlist 3 of 3 Palestinian refugees in Lebanon face another forced displacement\n\n“This is not the same scenario as the illegal war in Iraq. We are facing something far worse. Much worse. With a potential impact that is far broader and far deeper,” he told parliament.\n\nSanchez added that Iran’s new supreme ⁠leader was more hardline ⁠than his predecessor. “Mojtaba Khamenei ⁠is an equally dictatorial and even more bloodthirsty tyrant ‌than his father,” he said.\n\nThe left-wing prime minister has been one of the few leaders in Europe to condemn the US-Israel attack on Iran, describing it as “unjustifiable”.\n\nSpain has also been one of the few European nations to consistently condemn and take action against Israel’s ongoing genocidal war on Gaza. More than 72,000 Palestinians have been killed and vast swaths of Gaza have been turned into rubble in Israeli attacks since October 7, 2023. Despite a “ceasefire” in place since October 2025, Israel has killed more than 800 Palestinians in almost daily breaches of the Trump-brokered truce.\n\nIn October, Spain’s parliament approved the enshrinement in law of a total arms embargo on Israel, permanently banning the sale of weapons, dual-use technology and military equipment in response to the genocide.",
+          "articleSummary": "Spanish Prime ‌Minister Pedro Sanchez has said Israel “seeks to inflict the same level ⁠of damage and destruction” on Lebanon ⁠as on the Gaza Strip, as its army continues attacks across the neighbouring country amid plans to occupy its sou…",
+          "feedSummary": "Pedro ​Sanchez has been one of the few leaders in Europe to condemn Israel's war in Lebanon, US-Israeli ⁠war on Iran.",
+          "extractionStatus": "ok",
+          "extractionNote": "article-text",
+          "summarySource": "article-text",
+          "feedLabel": "Al Jazeera RSS",
+          "feedUrl": "https://www.aljazeera.com/xml/rss/all.xml",
+          "relevanceScore": 40
+        },
+        {
+          "id": "iran-al-jazeera-rss-4",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "‘A heinous crime’: Air strikes kill seven fighters in Iraq’s Anbar",
@@ -419,7 +440,7 @@
           "pubDate": "Wed, 25 Mar 2026 09:34:59 +0000",
           "rawDescription": "<![CDATA[Police source tells Al Jazeera attack hits positions of the Iran-aligned PMF, which the US has increasingly targeted.]]>",
           "description": "Ett flyganfall mot en militärbas i Anbarprovinsen i västra Irak dödade sju soldater och skadade 13.",
-          "articleText": "An aerial attack on a military base in western Iraq’s Anbar province has killed seven fighters and wounded 13, according to Iraq’s Ministry of Defence.\n\nThe strikes on Wednesday targeted the military healthcare clinic at the base in Habbaniyah, according to the ministry. It called the attack “a heinous crime” that violated “all international laws and norms”.\n\nlist 1 of 3 Is Iran’s negotiating position stronger than when US-Israeli war started?\n\nlist 2 of 3 Amid US-Israeli attacks, people in Iran struggle to survive ailing economy\n\nlist 3 of 3 What we know about the US’s 15-point plan Iran proposal\n\nAn Iraqi police source told Al Jazeera the attack targeted positions of the Iraqi military’s Popular Mobilisation Forces (PMF), a paramilitary force that includes some Iran-aligned brigades and reportedly shares the base with members of Iraq’s regular army.\n\n“What we understand from the military here is that air strikes were carried out and then further strikes carried out on that same position,” said Al Jazeera’s Assed Baig, reporting from Baghdad. He said it appeared to be the first time the PMF was hit alongside the broader Iraqi military.\n\nIraq has denounced the attack as the country has been dragged into the United States-Israeli war on Iran. On Tuesday, Iraqi Prime Minister Mohammed Shia al-Sudani’s office said Baghdad would summon the Iranian and US ambassadors over the recent strikes.",
+          "articleText": "An aerial attack on a military base in western Iraq’s Anbar province has killed seven fighters and wounded 13, according to Iraq’s Ministry of Defence.\n\nThe strikes on Wednesday targeted the military healthcare clinic at the base in Habbaniyah, according to the ministry. It called the attack “a heinous crime” that violated “all international laws and norms”.\n\nlist 1 of 3 Is Iran’s negotiating position stronger than when US-Israeli war started?\n\nlist 2 of 3 Amid US-Israeli attacks, people in Iran struggle to survive ailing economy\n\nlist 3 of 3 What we know about the US’s 15-point plan Iran proposal\n\nAn Iraqi police source told Al Jazeera the attack targeted positions of the Iraqi military’s Popular Mobilisation Forces (PMF), a paramilitary force that includes some Iran-aligned brigades and reportedly shares the base with members of Iraq’s regular army.\n\n⁠Iraqi ⁠Prime Minister Mohammed ⁠Shia al-Sudani ⁠instructed the foreign ministry ‌to summon the US charge d’affaires in ⁠Baghdad over attacks ⁠that targeted ⁠its “military units”, ⁠the ⁠prime minister’s office said ‌on Wednesday.\n\nOn Tuesday, the Iraqi prime minister said Baghdad would summon the Iranian and US ambassadors over the recent strikes. Iraq has denounced the attacks as the country has been dragged into the United States-Israeli war on Iran.\n\n“What we understand from the military here is that air strikes were carried out and then further strikes carried out on that same position,” said Al Jazeera’s Assed Baig, reporting from Baghdad. He said it appeared to be the first time the PMF was hit alongside the broader Iraqi military.",
           "articleSummary": "An aerial attack on a military base in western Iraq’s Anbar province has killed seven fighters and wounded 13, according to Iraq’s Ministry of Defence. The strikes on Wednesday targeted the military healthcare clinic at the base in Habbani…",
           "feedSummary": "Police source tells Al Jazeera attack hits positions of the Iran-aligned PMF, which the US has increasingly targeted.",
           "extractionStatus": "ok",
@@ -430,7 +451,7 @@
           "relevanceScore": 40
         },
         {
-          "id": "iran-al-jazeera-rss-9",
+          "id": "iran-al-jazeera-rss-10",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "US talking to itself, says Iran as Trump claims wheels of diplomacy turning",
@@ -451,7 +472,7 @@
           "relevanceScore": 40
         },
         {
-          "id": "iran-al-jazeera-rss-11",
+          "id": "iran-al-jazeera-rss-12",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "Iran’s new security boss Mohammad Zolghadr: Why his appointment matters",
@@ -472,7 +493,7 @@
           "relevanceScore": 40
         },
         {
-          "id": "iran-al-jazeera-rss-12",
+          "id": "iran-al-jazeera-rss-13",
           "sectionId": "iran",
           "sectionName": "Iran",
           "headline": "US-Israel war on Iran: What’s happening on day 26 of attacks?",
@@ -491,30 +512,9 @@
           "feedLabel": "Al Jazeera RSS",
           "feedUrl": "https://www.aljazeera.com/xml/rss/all.xml",
           "relevanceScore": 40
-        },
-        {
-          "id": "iran-al-jazeera-rss-13",
-          "sectionId": "iran",
-          "sectionName": "Iran",
-          "headline": "Amid US-Israeli attacks, people in Iran struggle to survive ailing economy",
-          "source": "Al Jazeera RSS",
-          "link": "https://www.aljazeera.com/features/2026/3/25/amid-us-israeli-attacks-people-in-iran-struggle-to-survive-ailing-economy?traffic_source=rss",
-          "actualUrl": "https://www.aljazeera.com/features/2026/3/25/amid-us-israeli-attacks-people-in-iran-struggle-to-survive-ailing-economy?traffic_source=rss",
-          "pubDate": "Wed, 25 Mar 2026 05:41:14 +0000",
-          "rawDescription": "<![CDATA[Some are left without an income, others are temporarily displaced, and no one knows when the internet will return .]]>",
-          "description": "Amid US-Israeli attacks, people in Iran struggle to survive ailing economy Källa: Al Jazeera RSS.",
-          "articleText": "Tehran, Iran – Iranians are dealing with the fallout of the US-Israeli war on their country for the fourth week while being squeezed by a dwindling economy and the longest internet shutdown the country has ever experienced.\n\nMost of the country is closed down this week for Nowruz holidays to celebrate the Persian New Year.\n\nlist 1 of 3 The Take: How the Iran war is about to hit your wallet\n\nlist 2 of 3 Iranian officials dismiss claims of US talks\n\nlist 3 of 3 Pakistan ‘ready to host US-Iran talks’: But can latest peace push work?\n\nBut Iran has had numerous unexpected shutdowns this year, including those due to the 12-day war with Israel and the US in June, and the bloody nationwide protests in January, as well as air pollution rooted in an energy crisis.\n\nFor many business owners, significantly reduced market activity over the past year, and specifically in the lead-up to Nowruz, has meant significantly slashed income.\n\n“There was some action in those last few days, but our sales were probably about one-third of usual levels around this time, which is supposed to be the time of the year when we get the most business,” said a vendor selling textiles and related commodities in Tehran’s Grand Bazaar.\n\n“Nobody is sure what comes next when we open back up after the holidays. Things have only gotten worse over the past few years,” he told Al Jazeera, asking to remain anonymous due to security concerns.\n\nIranians’ purchasing power has been steadily falling for years, and well-paying jobs have become scarce due to a destructive mix of local corruption and mismanagement, paired with a “maximum pressure” campaign of all-encompassing sanctions started in 2018 during President Donald Trump’s first term in office.",
-          "articleSummary": "Tehran, Iran – Iranians are dealing with the fallout of the US-Israeli war on their country for the fourth week while being squeezed by a dwindling economy and the longest internet shutdown the country has ever experienced. Most of the cou…",
-          "feedSummary": "Some are left without an income, others are temporarily displaced, and no one knows when the internet will return .",
-          "extractionStatus": "ok",
-          "extractionNote": "article-text",
-          "summarySource": "article-text",
-          "feedLabel": "Al Jazeera RSS",
-          "feedUrl": "https://www.aljazeera.com/xml/rss/all.xml",
-          "relevanceScore": 40
         }
       ],
-      "summary": "Ett flyganfall mot en militärbas i Anbarprovinsen i västra Irak dödade sju soldater och skadade 13. Vid sidan av det: Irans militär säger att USA håller på att misslyckas i sitt krig and förhandlar med sig självt för at…"
+      "summary": "Spain’s PM says Israel to inflict on Lebanon same destruction as in Gaza Källa: Al Jazeera RSS. Vid sidan av det: Ett flyganfall mot en militärbas i Anbarprovinsen i västra Irak dödade sju soldater och skadade 13. Irans…"
     },
     {
       "id": "orban-eu",
