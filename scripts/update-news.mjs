@@ -299,6 +299,74 @@ const sanitizeEnglishLeak = (text = '') => text
   .replace(/\bTop line\b/gi, 'Kort sagt')
   .trim();
 
+const stripLeadLabel = (text = '') => text
+  .replace(/^kortversionen:\s*/i, '')
+  .replace(/^kort sagt:\s*/i, '')
+  .replace(/^här är läget:\s*/i, '')
+  .trim();
+
+const patternSummarizeEnglishToSwedish = (text = '') => {
+  const value = normalizeWhitespace(stripTags(text));
+  if (!value) return '';
+
+  let match = value.match(/^An aerial attack on (.+?) has killed (.+?) and wounded (.+?)[\.,]/i);
+  if (match) return `Ett flyganfall mot ${translateNewsText(match[1])} dödade ${translateNewsText(match[2])} och skadade ${translateNewsText(match[3])}.`;
+
+  match = value.match(/^Federal prosecutors examined whether (.+?) showed a classified map to (.+?) after (.+?)[\.,]/i);
+  if (match) return `Federala åklagare granskar om ${translateNewsText(match[1])} visade en hemligstämplad karta för ${translateNewsText(match[2])} efter ${translateNewsText(match[3])}.`;
+
+  match = value.match(/^Iran(?:’s|'s) military has said (.+?), dismissing claims (.+?)[\.,]/i);
+  if (match) return `Irans militär säger att ${translateNewsText(match[1])} och avfärdar uppgifter om ${translateNewsText(match[2])}.`;
+
+  match = value.match(/^Moldova declared a state of emergency in the energy sector after (.+?)[\.,]/i);
+  if (match) return `Moldavien utlyser nödläge i energisektorn efter att ${translateNewsText(match[1])}.`;
+
+  match = value.match(/^Ukraine has begun the compulsory evacuation of children from (.+?), in a sign (.+?)[\.,]/i);
+  if (match) return `Ukraina tvångsevakuerar barn från ${translateNewsText(match[1])} när ${translateNewsText(match[2])}.`;
+
+  match = value.match(/^The EU will find ways to pay out the promised (.+?) loan to Ukraine despite Hungary(?:’s|'s) (.+?), (.+?) said/i);
+  if (match) return `EU säger att lånet på ${translateNewsText(match[1])} till Ukraina ska betalas ut trots Ungerns ${translateNewsText(match[2])}.`;
+
+  match = value.match(/^Ukraine(?:’s|'s) military struck (.+?) in (.+?), (.+?) said/i);
+  if (match) return `Ukrainas militär slog mot ${translateNewsText(match[1])} i ${translateNewsText(match[2])}, enligt ${translateNewsText(match[3])}.`;
+
+  match = value.match(/^Russia has launched (.+?) at Ukraine, killing at least (.+?), as (.+?)[\.,]/i);
+  if (match) return `Ryssland har inlett ${translateNewsText(match[1])} mot Ukraina, dödat minst ${translateNewsText(match[2])} och ${translateNewsText(match[3])}.`;
+
+  match = value.match(/^Democrats managed to flip a seat (.+?)[\.,]/i);
+  if (match) return `Demokraterna vann ett mandat ${translateNewsText(match[1])}.`;
+
+  match = value.match(/^Donald Trump declared victory in his war on Iran (.+?), amid reports that (.+?)[\.,]/i);
+  if (match) return `Trump utropade seger i kriget mot Iran ${translateNewsText(match[1])}, samtidigt som uppgifter kom om att ${translateNewsText(match[2])}.`;
+
+  return '';
+};
+
+const translateNewsText = (text = '') => normalizeWhitespace(stripTags(text))
+  .replace(/\bthe United States\b/gi, 'USA')
+  .replace(/\bUnited States\b/g, 'USA')
+  .replace(/\bUS President\b/g, 'USA:s president')
+  .replace(/\bPresident Donald Trump\b/g, 'president Donald Trump')
+  .replace(/\btalks are under way to end the conflict\b/gi, 'samtal pågår för att avsluta konflikten')
+  .replace(/\bnegotiating with itself to save face\b/gi, 'förhandlar med sig självt för att rädda ansiktet')
+  .replace(/\bis failing in its war\b/gi, 'håller på att misslyckas i sitt krig')
+  .replace(/\ba military base in western Iraq’s Anbar province\b/gi, 'en militärbas i Anbarprovinsen i västra Irak')
+  .replace(/\bseven fighters\b/gi, 'sju soldater')
+  .replace(/\ba key power line with Europe was disconnected following Russian strikes in Ukraine\b/gi, 'en viktig kraftledning till Europa slogs ut efter ryska angrepp i Ukraina')
+  .replace(/\bthe city of Sloviansk\b/gi, 'staden Slovjansk')
+  .replace(/\bthe security situation is deteriorating in one of the country’s main remaining strongholds in the Donbas area\b/gi, 'säkerhetsläget försämras i en av landets viktigaste kvarvarande fästpunkter i Donbas')
+  .replace(/\bongoing resistance\b/gi, 'fortsatta motstånd')
+  .replace(/\bpeople on his plane\b/gi, 'personer ombord på sitt plan')
+  .replace(/\bhis first term\b/gi, 'sin första mandatperiod')
+  .replace(/\bUkraine\b/g, 'Ukraina')
+  .replace(/\bRussia\b/g, 'Ryssland')
+  .replace(/\bHungary\b/g, 'Ungern')
+  .replace(/\bIran\b/g, 'Iran')
+  .replace(/\bongoing\b/gi, 'pågående')
+  .replace(/\bthe\b/gi, '')
+  .replace(/\s{2,}/g, ' ')
+  .trim();
+
 const summarizeFromArticleText = (articleText) => {
   const sentences = sentencesFromText(articleText)
     .filter((sentence) => sentence.length >= 45)
@@ -342,7 +410,10 @@ const negativePatterns = [
   /video/i,
   /photos?/i,
   /editorial/i,
-  /press release/i
+  /press release/i,
+  /at a glance/i,
+  /commentisfree/i,
+  /show key events only/i
 ];
 
 const scoreArticle = (sectionId, item) => {
@@ -381,6 +452,9 @@ const scoreArticle = (sectionId, item) => {
   }
 
   for (const pattern of negativePatterns) penalize(pattern, 9);
+  if (/commentisfree|\/opinion\//i.test(item.link || '')) score -= 14;
+  if (sectionId === 'iran' && !/iran|tehran|khamenei|irgc|iranian|isfahan|fordow/.test(corpus)) score -= 18;
+  if (sectionId === 'trump-usa' && !/trump|donald trump|white house/.test(corpus)) score -= 10;
   if (item.extractionStatus === 'ok') score += 8;
   if (item.summarySource === 'article-text') score += 8;
   if (item.summarySource === 'feed-description') score += 3;
@@ -418,72 +492,45 @@ const detectThemes = (text = '') => {
   return themeMap.filter((theme) => theme.patterns.some((pattern) => pattern.test(corpus))).map((theme) => theme.sv);
 };
 
+const pickBestSummaryText = (item) => item.articleSummary || item.feedSummary || item.headline || '';
+
 const buildItemSummaryFallback = (item) => {
-  const corpus = `${item.headline} ${item.feedSummary || ''} ${item.articleText || ''}`;
-  const themes = detectThemes(corpus);
+  const sourceText = pickBestSummaryText(item);
+  const matched = patternSummarizeEnglishToSwedish(sourceText) || patternSummarizeEnglishToSwedish(item.headline);
+  if (matched) return clampText(matched, 260);
 
-  const sourcePart = item.source ? ` ${item.source} ligger bakom.` : '';
-
-  if (item.sectionId === 'trump-usa') {
-    if (themes.includes('juridiskt efterspel')) return `Trump-spåret lutar åt juridiskt efterspel och institutionsbråk.${sourcePart}`;
-    if (themes.includes('diplomatiskt spel')) return `Trump-spåret kretsar kring utspel om förhandlingar, maktspråk och motstridiga signaler.${sourcePart}`;
-    if (themes.includes('val och partimätning')) return `Trump-spåret handlar här mer om valterräng och politisk styrkemätning än om ny policy.${sourcePart}`;
-    return `Trump-spåret fortsätter i välbekant stil: maktspel, konflikt och tillräckligt mycket brus för att fylla ännu en cykel.${sourcePart}`;
-  }
-
-  if (item.sectionId === 'putin-ukraina') {
-    if (themes.includes('krig och militära angrepp')) return `Ukrainaspåret domineras av frontläge, attacker och ännu ett bevis på att vapnen fortfarande pratar högst.${sourcePart}`;
-    if (themes.includes('diplomatiskt spel')) return `Ukrainaspåret rör sig mellan diplomatiska signaler och verkligheten på marken, som sällan följer manus.${sourcePart}`;
-    return `Ukrainaspåret pekar mot fortsatt krigsslitage, repression och geopolitiskt malande.${sourcePart}`;
-  }
-
-  if (item.sectionId === 'iran') {
-    if (themes.includes('krig och militära angrepp')) return `Iranspåret handlar om attacker, säkerhetsläge och regional nerv utan tydlig avspänning.${sourcePart}`;
-    if (themes.includes('diplomatiskt spel')) return `Iranspåret kretsar kring förhandlingsretorik, dementier och den vanliga dimridån runt vad som faktiskt pågår.${sourcePart}`;
-    return `Iranspåret fortsätter i välbekant tonart: hårda signaler, höga risker och få lugnande besked.${sourcePart}`;
-  }
-
-  if (item.sectionId === 'orban-eu') {
-    if (themes.includes('eu-bråk och veto-politik')) return `Orbán-spåret går via EU-bråk, blockeringar och ännu en påminnelse om hur tröttsam veto-politik kan vara.${sourcePart}`;
-    if (themes.includes('repression och auktoritär kontroll')) return `Orbán-spåret pekar mot auktoritär kontroll, institutionellt slitage och fortsatt konflikt med omvärlden.${sourcePart}`;
-    return `Orbán-spåret rör sig mellan illiberal vardag och europeiskt tålamodstest.${sourcePart}`;
-  }
-
-  return `Kort svensk sammanfattning saknas, men ämnet verkar röra ${themes.slice(0, 2).join(' och ') || 'maktspel och osäkerhet'}.${sourcePart}`;
+  const cleanedHeadline = translateNewsText(item.headline);
+  const sourcePart = item.source ? ` Källa: ${item.source}.` : '';
+  return clampText(`${cleanedHeadline}${sourcePart}`, 220);
 };
 
 const summarizeSectionRuleBased = (section) => {
   const lead = section.items[0];
-  const followUps = section.items.slice(1, 3);
-  if (!lead) return 'Tomt i flödet. Världen tog eventuellt en kort kaffepaus.';
+  const followUps = section.items.slice(1, 3).map((item) => stripLeadLabel(buildItemSummaryFallback(item)));
+  if (!lead) return 'Tomt i flödet just nu.';
 
-  const themeSummary = unique(section.items.flatMap((item) => detectThemes(`${item.headline} ${item.feedSummary || ''} ${item.articleText || ''}`))).slice(0, 3);
-  const descriptors = unique([
-    themeSummary.length ? `mest om ${themeSummary.join(', ')}` : '',
-    followUps.length ? `${followUps.length} följdspår drar åt samma håll` : '',
-    section.items.some((item) => item.extractionStatus === 'partial') ? 'några poster är tunnare än idealet' : ''
-  ]).filter(Boolean);
-
-  const toneTail = descriptors.length ? ` Det här spåret handlar ${descriptors.join(', ')}.` : '';
-  return clampText(`Kortversionen: ${buildItemSummaryFallback(lead)}${toneTail}`, 220);
+  const leadLine = stripLeadLabel(buildItemSummaryFallback(lead));
+  const followUpLine = followUps.length ? ` Vid sidan av det: ${followUps.join(' ')}` : '';
+  return clampText(`${leadLine}${followUpLine}`, 220);
 };
 
 const buildBriefRuleBased = (sectionData) => {
-  const allItems = sectionData.flatMap((section) => section.items).sort((a, b) => (b.relevanceScore || 0) - (a.relevanceScore || 0) || toTimestamp(b.pubDate) - toTimestamp(a.pubDate));
-  const freshest = [...allItems].sort((a, b) => toTimestamp(b.pubDate) - toTimestamp(a.pubDate))[0];
-  const sharpest = allItems[0];
-  const busiest = [...sectionData].sort((a, b) => b.items.length - a.items.length)[0];
-  const freshestSection = freshest ? sectionData.find((section) => section.id === freshest.sectionId) : null;
-  const sharpestSection = sharpest ? sectionData.find((section) => section.id === sharpest.sectionId) : null;
+  const leadItems = sectionData
+    .map((section) => section.items[0])
+    .filter(Boolean)
+    .sort((a, b) => (b.relevanceScore || 0) - (a.relevanceScore || 0) || toTimestamp(b.pubDate) - toTimestamp(a.pubDate));
+
+  const bullets = leadItems.slice(0, 3).map((item) => {
+    const section = sectionData.find((entry) => entry.id === item.sectionId);
+    return clampText(`${section?.name || 'Läget'}: ${stripLeadLabel(buildItemSummaryFallback(item))}`, 160);
+  });
+
+  while (bullets.length < 3) bullets.push('Flödet är tunnare än vanligt, så den här körningen har mindre att bygga på.');
 
   return {
     title: 'Det viktigaste nu',
-    intro: 'Fyra spår, kort kuratering och så lite låtsas-AI som möjligt.',
-    bullets: [
-      sharpest && sharpestSection ? `Hårdast just nu: ${sharpestSection.name} bär tyngden i flödet och sätter tonen för resten.` : 'Inget sticker ut tillräckligt för att spela förstafiol.',
-      freshest && freshestSection ? `Färskast i högen: ${freshestSection.name} rör sig snabbast och ser minst stabilt ut.` : 'Tidslinjen ser märkligt tom ut.',
-      busiest ? `${busiest.name} gav flest användbara träffar i den här körningen, vilket tyvärr också säger något om världsläget.` : 'Alla sektioner känns oväntat tunna.'
-    ].map((bullet) => sanitizeEnglishLeak(clampText(bullet, 160)))
+    intro: 'Tre konkreta huvudspår från körningen, utan meta-snack.',
+    bullets: bullets.map((bullet) => sanitizeEnglishLeak(clampText(bullet, 160)))
   };
 };
 
