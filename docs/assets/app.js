@@ -29,7 +29,8 @@ const render = async () => {
   document.title = data.site.title;
   lastUpdated.textContent = `Uppdaterad ${formatDate(data.generatedAt)}`;
   storyCount.textContent = `${totalStories} rubriker`;
-  sourceCount.textContent = `${data.sources.length} bevakningar`;
+  const totalFeeds = data.sources.reduce((sum, source) => sum + ((source.feedUrls && source.feedUrls.length) || 0), 0);
+  sourceCount.textContent = `${totalFeeds || data.sources.length} källflöden`;
   siteNote.textContent = data.site.note;
   briefTitle.textContent = data.brief.title;
   briefIntro.textContent = data.brief.intro;
@@ -61,7 +62,7 @@ const render = async () => {
     fragment.querySelector('.section-summary').textContent = section.summary;
     const sectionFeed = fragment.querySelector('.section-feed');
     sectionFeed.href = section.feedUrl;
-    sectionFeed.textContent = 'Öppna RSS';
+    sectionFeed.textContent = section.feedUrls?.length > 1 ? `Öppna huvudflöde (+${section.feedUrls.length - 1})` : 'Öppna RSS';
 
     const stories = fragment.querySelector('.stories');
     for (const item of section.items) {
@@ -69,7 +70,12 @@ const render = async () => {
       storyFragment.querySelector('.source').textContent = item.source;
       storyFragment.querySelector('time').textContent = formatDate(item.pubDate);
       storyFragment.querySelector('h3').textContent = item.headline;
-      storyFragment.querySelector('.description').textContent = item.description;
+      const description = storyFragment.querySelector('.description');
+      if (item.description) {
+        description.textContent = item.description;
+      } else {
+        description.remove();
+      }
       const link = storyFragment.querySelector('.read-more');
       link.href = item.actualUrl || item.link;
       stories.appendChild(storyFragment);

@@ -4,8 +4,8 @@ En statisk svensk morgonbrief för folk som tittar på omvärlden och misstänke
 
 ## Vad sajten gör
 
-- Bygger en flersektions-brief från publika Google News RSS-sökningar.
-- Täcker just nu minst fyra spår:
+- Bygger en flersektions-brief från direkta redaktionella RSS-flöden.
+- Täcker fyra spår:
   - Trump / USA
   - Putin / Ukraina
   - Iran
@@ -14,16 +14,40 @@ En statisk svensk morgonbrief för folk som tittar på omvärlden och misstänke
 - GitHub Actions kör uppdateringen varje timme.
 - GitHub Pages serverar sajten från `docs/` på `main`.
 
+## Källstrategi
+
+Google News är inte längre huvudmotorn.
+
+I stället blandar generatorn flera direkta feeds per sektion, i första hand från:
+
+- BBC News
+- The Guardian
+- DW
+- Politico Europe
+- Al Jazeera
+
+Varje sektion har egna feedlistor och ämnesfilter. Det gör urvalet mindre generiskt än en enda bred aggregator-sökning och ger oftare riktiga artikel-URL:er direkt från källan.
+
+## Sammanfattningsregler
+
+Generatorn är nu striktare:
+
+- Om riktig artikeltext går att extrahera används den som grund för en kort sammanfattning.
+- Om artikeltexten är tunn men feedens egen beskrivning faktiskt säger något används den.
+- Om varken artikeltext eller feedbeskrivning håller måttet hittas ingen blurb på — då blir det bara rubrik, källa, tid och länk i gränssnittet.
+
+Kort sagt: hellre tyst än påhittat fluff.
+
 ## Arkitektur i korthet
 
-- `scripts/update-news.mjs` hämtar flera RSS-flöden, städar HTML ur beskrivningar och bygger en strukturerad payload med:
+- `scripts/update-news.mjs` hämtar flera direkta RSS-flöden per sektion, filtrerar ämnesrelevans, extraherar artikeltext och bygger en strukturerad payload med:
   - `site`
   - `summaryMeta`
   - `brief`
   - `sections`
   - `sources`
-- Sammanfattningslagret försöker först använda Anthropic (`ANTHROPIC_API_KEY` i GitHub Actions) med en billig Haiku-modell, men faller strikt tillbaka till de befintliga regelbaserade sammanfattningarna om nyckeln saknas eller API-anropet misslyckas.
-- `docs/assets/app.js` renderar en enkel morgonbrief med sektionskort och käll-länkar.
+- Sammanfattningslagret försöker först använda Anthropic (`ANTHROPIC_API_KEY` i GitHub Actions) om nyckeln finns, men faller tillbaka till de regelbaserade sammanfattningarna utan att stoppa bygget.
+- `docs/assets/app.js` renderar morgonbriefen och döljer tomma blurbs i stället för att visa generiskt utfyllnadstext.
 - `docs/index.html` + `docs/assets/styles.css` står för det statiska gränssnittet.
 
 ## Lokal körning
@@ -35,12 +59,8 @@ python3 -m http.server 8000 -d docs
 
 Öppna sedan `http://localhost:8000`.
 
-## Källor
-
-Använder publika RSS-flöden via Google News. Ingen betald API-nyckel behövs.
-
 ## Begränsningar
 
-- Google News RSS är praktiskt men inte alltid elegant; relevansen kan variera.
-- Anthropic-lagret skriver bara brief/sektionstexter och rör inte den strukturerade artikeldata som sajten bygger på.
-- Om `ANTHROPIC_API_KEY` saknas eller Anthropic svarar dåligt används de regelbaserade sammanfattningarna direkt, så bygget fortsätter ändå.
+- Vissa sajter ger tunn eller stökig HTML även utan betalvägg; då blir sammanfattningarna medvetet sparsamma.
+- Ett fåtal sektioner kan fortfarande få in gränsfall när en artikel ligger i skärningen mellan bevakningarna, särskilt kring Ukraina/EU och Iran/Trump.
+- Anthropic-lagret förbättrar ton och sektionstexter, men kvaliteten i artikelraderna avgörs fortfarande främst av råkällorna och extraktionen.
