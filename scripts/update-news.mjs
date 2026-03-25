@@ -511,12 +511,12 @@ const looksSwedishEnough = (text) => {
   return swedishSignals.filter((word) => lower.includes(word)).length >= 2 || /[åäö]/i.test(text);
 };
 
-const validatePublicText = (text, label, { min = 40, max = MAX_PUBLIC_SUMMARY_LENGTH } = {}) => {
+const validatePublicText = (text, label, { min = 40, max = MAX_PUBLIC_SUMMARY_LENGTH, requireTerminalPunctuation = true } = {}) => {
   const value = cleanPublicText(text);
   if (!value) throw new Error(`${label}: empty`);
   if (value.length < min) throw new Error(`${label}: too-short`);
   if (value.length > max) throw new Error(`${label}: too-long`);
-  if (!/[.!?]$/.test(value)) throw new Error(`${label}: no-terminal-punctuation`);
+  if (requireTerminalPunctuation && !/[.!?]$/.test(value)) throw new Error(`${label}: no-terminal-punctuation`);
   if (/[:]\s*$/.test(value)) throw new Error(`${label}: dangling-colon`);
   if (/\b(källa|source)\s*:/i.test(value)) throw new Error(`${label}: source-label-leak`);
   if (englishLeakPatterns.some((pattern) => pattern.test(value))) throw new Error(`${label}: english-leak`);
@@ -640,7 +640,7 @@ const mergeSummariesStrict = (sectionData, aiPayload) => {
   const aiSections = new Map((aiPayload?.sections || []).map((section) => [section.id, section.summary]));
 
   const brief = {
-    title: validatePublicText(aiPayload?.brief?.title, 'brief.title', { min: 14, max: 64 }),
+    title: validatePublicText(aiPayload?.brief?.title, 'brief.title', { min: 14, max: 64, requireTerminalPunctuation: false }),
     intro: validatePublicText(normalizeBriefIntro(aiPayload?.brief?.intro), 'brief.intro', { min: 90, max: 260 }),
     bullets: (aiPayload?.brief?.bullets || []).slice(0, 3).map((bullet, index) => validatePublicText(normalizePublicLength(bullet, 260), `brief.bullets[${index}]`, { min: 110, max: 260 }))
   };
