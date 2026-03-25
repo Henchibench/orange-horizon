@@ -1,3 +1,17 @@
+// Theme toggle
+const themeToggle = document.querySelector('#theme-toggle');
+const getTheme = () => document.documentElement.getAttribute('data-theme') || 'dark';
+
+themeToggle.addEventListener('click', () => {
+  const next = getTheme() === 'dark' ? 'light' : 'dark';
+  if (next === 'dark') {
+    document.documentElement.removeAttribute('data-theme');
+  } else {
+    document.documentElement.setAttribute('data-theme', next);
+  }
+  localStorage.setItem('oh-theme', next);
+});
+
 const lastUpdated = document.querySelector('#last-updated');
 const storyCount = document.querySelector('#story-count');
 const sourceCount = document.querySelector('#source-count');

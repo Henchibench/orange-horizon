@@ -320,7 +320,7 @@ const buildAnthropicPrompt = (sectionData) => JSON.stringify({
     noEllipsis: true,
     briefTitleMinChars: 14,
     briefTitleMaxChars: 64,
-    briefBulletsCount: 3,
+    briefBulletsCount: 4,
     briefBulletMinChars: 90,
     briefBulletMaxChars: 260,
     sectionSummaryMinChars: 150,
@@ -329,6 +329,7 @@ const buildAnthropicPrompt = (sectionData) => JSON.stringify({
     briefIntroTargetChars: 200,
     briefIntroMaxChars: 260,
     briefIntroStyle: '2 meningar, tydlig, syrlig och konkret öppning om vad maktfulla dumheter ställt till med',
+    briefBulletsStyle: 'Exakt 4 punkter, en per sektion/bevakning. Varje punkt ska täcka en unik sektion så att alla bevakningar representeras i briefen.',
     leadWithWhatActuallyHappened: true,
     mentionActorsAndConsequences: true,
     useEveryProvidedIdExactlyOnce: true,
@@ -336,7 +337,7 @@ const buildAnthropicPrompt = (sectionData) => JSON.stringify({
     noItemSummaries: true
   },
   responseSchema: {
-    brief: { title: 'string', intro: 'string', bullets: ['string', 'string', 'string'] },
+    brief: { title: 'string', intro: 'string', bullets: ['string', 'string', 'string', 'string'] },
     sections: [{ id: 'string', summary: 'string' }]
   },
   sections: sectionData.map(buildSectionSnapshot)
@@ -651,10 +652,10 @@ const mergeSummariesStrict = (sectionData, aiPayload) => {
   const brief = {
     title: validatePublicText(aiPayload?.brief?.title, 'brief.title', { min: 14, max: 64, requireTerminalPunctuation: false }),
     intro: validatePublicText(normalizeBriefIntro(aiPayload?.brief?.intro), 'brief.intro', { min: 90, max: 260 }),
-    bullets: (aiPayload?.brief?.bullets || []).slice(0, 3).map((bullet, index) => validatePublicText(normalizePublicLength(bullet, 260), `brief.bullets[${index}]`, { min: 90, max: 260 }))
+    bullets: (aiPayload?.brief?.bullets || []).slice(0, 4).map((bullet, index) => validatePublicText(normalizePublicLength(bullet, 260), `brief.bullets[${index}]`, { min: 90, max: 260 }))
   };
 
-  if (brief.bullets.length !== 3) throw new Error('brief.bullets: wrong-count');
+  if (brief.bullets.length !== 4) throw new Error('brief.bullets: wrong-count');
 
   const sectionsWithSummaries = sectionData.map((section) => ({
     ...section,

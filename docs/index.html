@@ -9,18 +9,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;0,6..72,800;1,6..72,400;1,6..72,500&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/styles.css" />
+    <script>
+      // Apply saved theme before paint to prevent flash
+      (function() {
+        var saved = localStorage.getItem('oh-theme');
+        if (saved === 'light' || (!saved && window.matchMedia('(prefers-color-scheme: light)').matches)) {
+          document.documentElement.setAttribute('data-theme', 'light');
+        }
+      })();
+    </script>
   </head>
   <body data-state="loading">
     <div class="grain" aria-hidden="true"></div>
     <main class="page">
       <header class="masthead">
         <div class="masthead-top">
-          <p class="nameplate">Vad i helvete händer?!</p>
-          <div class="masthead-edition">
+          <div class="masthead-left">
+            <p class="nameplate">Vad i helvete händer?!</p>
+            <div class="masthead-edition">
             <p class="edition">Morgonupplaga</p>
             <span class="edition-dot" aria-hidden="true"></span>
             <p class="edition">Globalt maktspel, haverier &amp; följdskador</p>
+            </div>
           </div>
+          <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Växla ljust/mörkt tema">
+            <svg class="theme-icon theme-icon--sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+            <svg class="theme-icon theme-icon--moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
         </div>
         <div class="masthead-rule" aria-hidden="true"></div>
         <div class="masthead-meta">
