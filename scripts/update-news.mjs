@@ -194,6 +194,7 @@ const toTimestamp = (value) => {
   return Number.isNaN(date.getTime()) ? 0 : date.getTime();
 };
 const unique = (values) => [...new Set(values.filter(Boolean))];
+const normalizeWhitespace = (value = '') => value.replace(/\s+/g, ' ').trim();
 
 const firstMatch = (text, regexes) => {
   for (const regex of regexes) {
@@ -268,8 +269,6 @@ const extractReadableText = (html) => {
   return clampText(text, ARTICLE_TEXT_CHAR_LIMIT);
 };
 
-const normalizeWhitespace = (value = '') => value.replace(/\s+/g, ' ').trim();
-
 const cleanFeedSummary = (description, headline, source) => {
   const cleaned = stripTags(description)
     .replace(new RegExp(`\\b${escapeRegExp(source)}\\b`, 'gi'), ' ')
@@ -289,6 +288,17 @@ const sentencesFromText = (text = '') => normalizeWhitespace(text)
   .map((part) => part.trim())
   .filter(Boolean);
 
+const sanitizeEnglishLeak = (text = '') => text
+  .replace(/^leadande spår:/i, 'Här är läget:')
+  .replace(/^nästa upp:/i, 'Mer i samma spår:')
+  .replace(/^breaking:/i, 'Snabbt:')
+  .replace(/\bheadline-only\b/gi, 'bara rubrik')
+  .replace(/\bfeed-description\b/gi, 'feed-beskrivning')
+  .replace(/\barticle-text\b/gi, 'artikeltext')
+  .replace(/\bmeta-description\b/gi, 'metabeskrivning')
+  .replace(/\bTop line\b/gi, 'Kort sagt')
+  .trim();
+
 const summarizeFromArticleText = (articleText) => {
   const sentences = sentencesFromText(articleText)
     .filter((sentence) => sentence.length >= 45)
@@ -299,13 +309,13 @@ const summarizeFromArticleText = (articleText) => {
   const selected = [];
   let total = 0;
   for (const sentence of sentences) {
-    if (total >= 220) break;
+    if (total >= 240) break;
     selected.push(sentence);
     total += sentence.length + 1;
     if (selected.length >= 2) break;
   }
 
-  return clampText(selected.join(' '), 220);
+  return clampText(selected.join(' '), 240);
 };
 
 const uniqueBy = (items, keyFn) => {
@@ -380,14 +390,82 @@ const scoreArticle = (sectionId, item) => {
   return score;
 };
 
+const buildSectionSnapshot = (section) => {
+  const lead = section.items[0];
+  const runnerUp = section.items[1];
+  if (!lead) return 'Tomt i flödet just nu.';
+
+  const leadSource = lead.source ? ` (${lead.source})` : '';
+  const runnerUpPart = runnerUp
+    ? ` I bakgrunden: ${runnerUp.headline}${runnerUp.source ? ` (${runnerUp.source})` : ''}.`
+    : '';
+
+  return clampText(`Tyngdpunkten ligger på ${lead.headline}${leadSource}.${runnerUpPart}`, 280);
+};
+
+const detectThemes = (text = '') => {
+  const corpus = normalizeWhitespace(text).toLowerCase();
+  const themeMap = [
+    { key: 'diplomacy', sv: 'diplomatiskt spel', patterns: [/diplomac|talks?|negotiat|ceasefire|proposal|deal\b/] },
+    { key: 'war', sv: 'krig och militära angrepp', patterns: [/war|strike|missile|drone|bomb|attack|troops?|air\s*strikes?/] },
+    { key: 'law', sv: 'juridiskt efterspel', patterns: [/prosecutor|court|lawsuit|justice department|classified|investigat|trial/] },
+    { key: 'election', sv: 'val och partimätning', patterns: [/election|vote|democrat|republican|seat|campaign/] },
+    { key: 'sanctions', sv: 'sanktioner och ekonomiskt tryck', patterns: [/sanction|tariff|oil|gas|funds|budget/] },
+    { key: 'repression', sv: 'repression och auktoritär kontroll', patterns: [/repression|authoritarian|arrest|detain|prison|rule of law|spy/] },
+    { key: 'eu', sv: 'EU-bråk och veto-politik', patterns: [/eu|brussels|commission|veto|hungary|orban|orbán/] }
+  ];
+
+  return themeMap.filter((theme) => theme.patterns.some((pattern) => pattern.test(corpus))).map((theme) => theme.sv);
+};
+
+const buildItemSummaryFallback = (item) => {
+  const corpus = `${item.headline} ${item.feedSummary || ''} ${item.articleText || ''}`;
+  const themes = detectThemes(corpus);
+
+  const sourcePart = item.source ? ` ${item.source} ligger bakom.` : '';
+
+  if (item.sectionId === 'trump-usa') {
+    if (themes.includes('juridiskt efterspel')) return `Trump-spåret lutar åt juridiskt efterspel och institutionsbråk.${sourcePart}`;
+    if (themes.includes('diplomatiskt spel')) return `Trump-spåret kretsar kring utspel om förhandlingar, maktspråk och motstridiga signaler.${sourcePart}`;
+    if (themes.includes('val och partimätning')) return `Trump-spåret handlar här mer om valterräng och politisk styrkemätning än om ny policy.${sourcePart}`;
+    return `Trump-spåret fortsätter i välbekant stil: maktspel, konflikt och tillräckligt mycket brus för att fylla ännu en cykel.${sourcePart}`;
+  }
+
+  if (item.sectionId === 'putin-ukraina') {
+    if (themes.includes('krig och militära angrepp')) return `Ukrainaspåret domineras av frontläge, attacker och ännu ett bevis på att vapnen fortfarande pratar högst.${sourcePart}`;
+    if (themes.includes('diplomatiskt spel')) return `Ukrainaspåret rör sig mellan diplomatiska signaler och verkligheten på marken, som sällan följer manus.${sourcePart}`;
+    return `Ukrainaspåret pekar mot fortsatt krigsslitage, repression och geopolitiskt malande.${sourcePart}`;
+  }
+
+  if (item.sectionId === 'iran') {
+    if (themes.includes('krig och militära angrepp')) return `Iranspåret handlar om attacker, säkerhetsläge och regional nerv utan tydlig avspänning.${sourcePart}`;
+    if (themes.includes('diplomatiskt spel')) return `Iranspåret kretsar kring förhandlingsretorik, dementier och den vanliga dimridån runt vad som faktiskt pågår.${sourcePart}`;
+    return `Iranspåret fortsätter i välbekant tonart: hårda signaler, höga risker och få lugnande besked.${sourcePart}`;
+  }
+
+  if (item.sectionId === 'orban-eu') {
+    if (themes.includes('eu-bråk och veto-politik')) return `Orbán-spåret går via EU-bråk, blockeringar och ännu en påminnelse om hur tröttsam veto-politik kan vara.${sourcePart}`;
+    if (themes.includes('repression och auktoritär kontroll')) return `Orbán-spåret pekar mot auktoritär kontroll, institutionellt slitage och fortsatt konflikt med omvärlden.${sourcePart}`;
+    return `Orbán-spåret rör sig mellan illiberal vardag och europeiskt tålamodstest.${sourcePart}`;
+  }
+
+  return `Kort svensk sammanfattning saknas, men ämnet verkar röra ${themes.slice(0, 2).join(' och ') || 'maktspel och osäkerhet'}.${sourcePart}`;
+};
+
 const summarizeSectionRuleBased = (section) => {
   const lead = section.items[0];
-  const second = section.items[1];
-  if (!lead) return 'Tomt i flödet.';
+  const followUps = section.items.slice(1, 3);
+  if (!lead) return 'Tomt i flödet. Världen tog eventuellt en kort kaffepaus.';
 
-  const leadTail = lead.description ? ` ${lead.description}` : '';
-  const secondTail = second ? ` Nästa upp: ${second.headline}${second.description ? ` — ${second.description}` : '.'}` : '';
-  return clampText(`Ledande spår: ${lead.headline}.${leadTail}${secondTail}`, 320);
+  const themeSummary = unique(section.items.flatMap((item) => detectThemes(`${item.headline} ${item.feedSummary || ''} ${item.articleText || ''}`))).slice(0, 3);
+  const descriptors = unique([
+    themeSummary.length ? `mest om ${themeSummary.join(', ')}` : '',
+    followUps.length ? `${followUps.length} följdspår drar åt samma håll` : '',
+    section.items.some((item) => item.extractionStatus === 'partial') ? 'några poster är tunnare än idealet' : ''
+  ]).filter(Boolean);
+
+  const toneTail = descriptors.length ? ` Det här spåret handlar ${descriptors.join(', ')}.` : '';
+  return clampText(`Kortversionen: ${buildItemSummaryFallback(lead)}${toneTail}`, 220);
 };
 
 const buildBriefRuleBased = (sectionData) => {
@@ -399,32 +477,35 @@ const buildBriefRuleBased = (sectionData) => {
   const sharpestSection = sharpest ? sectionData.find((section) => section.id === sharpest.sectionId) : null;
 
   return {
-    title: 'Det viktigaste först.',
-    intro: 'Direkt från riktiga källor när det går, och tyst när texten inte går att få loss.',
+    title: 'Det viktigaste nu',
+    intro: 'Fyra spår, kort kuratering och så lite låtsas-AI som möjligt.',
     bullets: [
-      sharpest && sharpestSection ? `${sharpestSection.name}: ${sharpest.headline}.` : 'Inget vasst nog att peka ut.',
-      freshest && freshestSection ? `Färskast: ${freshestSection.name} – ${freshest.headline}.` : 'Tidslinjen ser märkligt tom ut.',
-      busiest ? `${busiest.name} gav flest användbara träffar i den här körningen.` : 'Alla sektioner känns oväntat tunna.'
-    ]
+      sharpest && sharpestSection ? `Hårdast just nu: ${sharpestSection.name} bär tyngden i flödet och sätter tonen för resten.` : 'Inget sticker ut tillräckligt för att spela förstafiol.',
+      freshest && freshestSection ? `Färskast i högen: ${freshestSection.name} rör sig snabbast och ser minst stabilt ut.` : 'Tidslinjen ser märkligt tom ut.',
+      busiest ? `${busiest.name} gav flest användbara träffar i den här körningen, vilket tyvärr också säger något om världsläget.` : 'Alla sektioner känns oväntat tunna.'
+    ].map((bullet) => sanitizeEnglishLeak(clampText(bullet, 160)))
   };
 };
 
 const buildAnthropicPrompt = (sectionData, fallbackBrief) => JSON.stringify({
-  task: 'Skriv en kort svensk morgonbrief i torrt ironisk ton. Sammanfatta endast sådant som stöds av artikeltext eller tydlig feed-beskrivning. Om en artikel saknar riktig text ska du hålla dig till rubrik och metadata och inte hitta på något.',
+  task: 'Skriv en svensk, redaktionell briefing för startsidan. Allt i summary-lagret måste vara på svenska. Originalrubriker får vara kvar längre ned i artikellistan, men brief, sektionssammanfattningar och AI-sammanfattningar ska vara svensk text utan engelska fraser.',
   rules: {
     language: 'svenska',
     tone: 'torr, lätt ironisk, nykter, redaktionell',
     titleMaxChars: 48,
-    introMaxChars: 100,
+    introMaxChars: 110,
     briefBulletsCount: 3,
-    bulletMaxChars: 120,
-    sectionSummaryMaxChars: 170,
-    itemSummaryMaxChars: 220,
+    bulletMaxChars: 140,
+    sectionSummaryMaxChars: 220,
+    itemSummaryMaxChars: 260,
     preserveFacts: true,
     noFabrication: true,
     mentionUncertaintyIfNeeded: true,
     avoidGenericAiPhrases: true,
-    avoidSceneSetting: true
+    avoidSceneSetting: true,
+    avoidEnglishLeakage: true,
+    leadWithSynthesis: true,
+    editorialButConcrete: true
   },
   responseSchema: {
     brief: {
@@ -528,9 +609,9 @@ const callAnthropicSummaries = async (sectionData, fallbackBrief) => {
     },
     body: JSON.stringify({
       model,
-      max_tokens: 1600,
+      max_tokens: 1800,
       temperature: 0.2,
-      system: 'Du skriver för sajten "Vad i helvete händer?!". Skriv kort, torrt och redaktionellt. Sammanfatta bara vad underlaget stödjer. Returnera enbart giltig JSON utan markdown eller kommentarer.',
+      system: 'Du skriver för sajten "Vad i helvete händer?!". Summary-lagret ska vara helt på svenska: brief, sektionssummeringar och artikeltexter. Behåll originalrubrikerna orörda i underlaget men översätt/sammanfatta i redaktionell svenska. Returnera enbart giltig JSON utan markdown eller kommentarer.',
       messages: [{ role: 'user', content: buildAnthropicPrompt(sectionData, fallbackBrief) }]
     })
   });
@@ -550,10 +631,10 @@ const mergeSummaries = (sectionData, fallbackBrief, aiPayload) => {
   const aiItems = new Map((aiPayload?.items || []).map((item) => [item.id, item.summary]));
 
   const brief = {
-    title: typeof aiPayload?.brief?.title === 'string' && aiPayload.brief.title.trim() ? aiPayload.brief.title.trim() : fallbackBrief.title,
-    intro: typeof aiPayload?.brief?.intro === 'string' && aiPayload.brief.intro.trim() ? aiPayload.brief.intro.trim() : fallbackBrief.intro,
+    title: typeof aiPayload?.brief?.title === 'string' && aiPayload.brief.title.trim() ? sanitizeEnglishLeak(aiPayload.brief.title.trim()) : fallbackBrief.title,
+    intro: typeof aiPayload?.brief?.intro === 'string' && aiPayload.brief.intro.trim() ? sanitizeEnglishLeak(aiPayload.brief.intro.trim()) : fallbackBrief.intro,
     bullets: Array.isArray(aiPayload?.brief?.bullets)
-      ? aiPayload.brief.bullets.map((bullet) => `${bullet}`.trim()).filter(Boolean).slice(0, 3)
+      ? aiPayload.brief.bullets.map((bullet) => sanitizeEnglishLeak(`${bullet}`.trim())).filter(Boolean).slice(0, 3)
       : fallbackBrief.bullets
   };
 
@@ -561,13 +642,17 @@ const mergeSummaries = (sectionData, fallbackBrief, aiPayload) => {
 
   const sectionsWithSummaries = sectionData.map((section) => ({
     ...section,
-    summary: typeof aiSections.get(section.id) === 'string' && aiSections.get(section.id).trim() ? aiSections.get(section.id).trim() : section.summary,
+    summary: typeof aiSections.get(section.id) === 'string' && aiSections.get(section.id).trim()
+      ? sanitizeEnglishLeak(aiSections.get(section.id).trim())
+      : section.summary,
     items: section.items.map((item) => {
-      const aiSummary = typeof aiItems.get(item.id) === 'string' && aiItems.get(item.id).trim() ? aiItems.get(item.id).trim() : null;
+      const aiSummary = typeof aiItems.get(item.id) === 'string' && aiItems.get(item.id).trim()
+        ? sanitizeEnglishLeak(aiItems.get(item.id).trim())
+        : null;
       return {
         ...item,
         aiSummary,
-        description: aiSummary || item.description
+        description: aiSummary || buildItemSummaryFallback(item)
       };
     })
   }));
@@ -580,7 +665,7 @@ const fetchArticleDetails = async (item) => {
     const html = await fetchText(item.link);
     const articleText = extractReadableText(html);
     const metaDescription = extractMetaContent(html, 'description') || extractMetaContent(html, 'og:description', 'property');
-    const articleSummary = articleText.length >= MIN_ARTICLE_TEXT_FOR_REAL_SUMMARY ? summarizeFromArticleText(articleText) : '';
+    const articleSummary = summarizeFromArticleText(articleText);
     const feedSummary = cleanFeedSummary(item.rawDescription, item.headline, item.source);
     const metaSummary = cleanFeedSummary(metaDescription, item.headline, item.source);
     const description = articleSummary || feedSummary || metaSummary || '';
@@ -674,7 +759,11 @@ const rawSectionData = await Promise.all(sections.map(async (section) => {
   const selectedItems = enrichedItems
     .map((item) => ({ ...item, relevanceScore: scoreArticle(section.id, item) }))
     .sort((a, b) => (b.relevanceScore || 0) - (a.relevanceScore || 0) || toTimestamp(b.pubDate) - toTimestamp(a.pubDate))
-    .slice(0, ITEMS_PER_SECTION);
+    .slice(0, ITEMS_PER_SECTION)
+    .map((item) => ({
+      ...item,
+      description: buildItemSummaryFallback(item)
+    }));
 
   const sourceSummary = unique(section.feeds.map((feed) => feed.label)).join(' • ');
 
@@ -724,7 +813,7 @@ const payload = {
   site: {
     title: 'Vad i helvete händer?!',
     subtitle: 'En torrt ironisk morgonbrief om världsläget, uppdaterad ungefär varje timme.',
-    note: 'Direkta källflöden först: BBC, Guardian, DW, Politico Europe och Al Jazeera. Bara riktiga textutdrag får bli sammanfattningar; annars blir det rubrik, källa, tid och länk.'
+    note: 'Direkta källflöden först: BBC, Guardian, DW, Politico Europe och Al Jazeera. Summary-lagret skrivs på svenska; originalartiklarna ligger kvar bakom varje sektion.'
   },
   generatedAt: new Date().toISOString(),
   summaryMeta,

@@ -19,9 +19,11 @@ const formatDate = (value) => {
   }).format(date);
 };
 
+const pluralizeArticles = (count) => `${count} ${count === 1 ? 'artikel' : 'artiklar'}`;
+
 const render = async () => {
   const response = await fetch('./data/news.json', { cache: 'no-store' });
-  if (!response.ok) throw new Error(`Failed to load feed: ${response.status}`);
+  if (!response.ok) throw new Error(`Kunde inte läsa morgonbriefen: ${response.status}`);
 
   const data = await response.json();
   const totalStories = data.sections.reduce((sum, section) => sum + section.items.length, 0);
@@ -60,9 +62,20 @@ const render = async () => {
     fragment.querySelector('h2').textContent = section.name;
     fragment.querySelector('.section-description').textContent = section.description;
     fragment.querySelector('.section-summary').textContent = section.summary;
+
     const sectionFeed = fragment.querySelector('.section-feed');
     sectionFeed.href = section.feedUrl;
     sectionFeed.textContent = section.feedUrls?.length > 1 ? `Öppna huvudflöde (+${section.feedUrls.length - 1})` : 'Öppna RSS';
+
+    const storiesWrap = fragment.querySelector('.stories-wrap');
+    const storiesToggle = fragment.querySelector('.stories-toggle');
+    storiesToggle.textContent = `Visa källartiklar (${pluralizeArticles(section.items.length)})`;
+
+    storiesWrap.addEventListener('toggle', () => {
+      storiesToggle.textContent = storiesWrap.open
+        ? `Dölj källartiklar (${pluralizeArticles(section.items.length)})`
+        : `Visa källartiklar (${pluralizeArticles(section.items.length)})`;
+    });
 
     const stories = fragment.querySelector('.stories');
     for (const item of section.items) {
@@ -74,10 +87,14 @@ const render = async () => {
       if (item.description) {
         description.textContent = item.description;
       } else {
-        description.remove();
+        description.textContent = 'Ingen svensk sammanfattning värd namnet den här gången. Rubrik och originallänk får räcka.';
+        description.classList.add('description-muted');
       }
+      const resolvedUrl = item.actualUrl || item.link;
       const link = storyFragment.querySelector('.read-more');
-      link.href = item.actualUrl || item.link;
+      link.href = resolvedUrl;
+      const directLink = storyFragment.querySelector('.direct-link');
+      directLink.href = resolvedUrl;
       stories.appendChild(storyFragment);
     }
 

@@ -11,25 +11,23 @@
     <div class="glow glow-a"></div>
     <div class="glow glow-b"></div>
     <main class="shell">
-      <section class="top-grid">
-        <section class="hero panel panel-hero">
+      <section class="hero panel panel-hero">
+        <div class="hero-copy">
           <p class="eyebrow">Vad i helvete händer?!</p>
-          <h1>Morgonbrief om världsläget. Inget lull-lull.</h1>
-          <p class="lede">Fyra spår, några länkar, tillräckligt för att få en rimlig överblick innan resten av internet börjar gapa.</p>
+          <h1>Morgonbrief om världsläget. Mer överblick, mindre flödesdränkning.</h1>
+          <p class="lede">Först en svensk AI-brief som faktiskt försöker säga något. Sedan sektioner med kort syntes. Råartiklarna finns kvar, men de får stå bakom en lucka i stället för att kasta sig över hela sidan.</p>
           <div class="hero-meta">
             <span id="last-updated" class="meta-pill">Laddar lägesbild…</span>
             <span id="story-count" class="meta-pill">—</span>
             <span id="source-count" class="meta-pill">—</span>
           </div>
           <p id="site-note" class="site-note"></p>
-        </section>
+        </div>
 
-        <section class="brief panel">
-          <div class="panel-header compact-header">
-            <div>
-              <p class="section-kicker">Öppningsnotis</p>
-              <h2 id="brief-title">Morgonbrief</h2>
-            </div>
+        <section class="brief-panel">
+          <div class="brief-heading">
+            <p class="section-kicker">Öppningsbrief</p>
+            <h2 id="brief-title">Morgonbrief</h2>
             <p id="brief-intro" class="brief-intro"></p>
           </div>
           <ul id="brief-bullets" class="brief-bullets"></ul>
@@ -39,7 +37,7 @@
       <section class="sections-intro">
         <div>
           <p class="section-kicker">Sektioner</p>
-          <h2>Det vanliga haveriet, uppdelat för läsbarhet</h2>
+          <h2>Fyra haverier, nu i läsbar ordning</h2>
         </div>
         <div id="sources-list" class="source-pills"></div>
       </section>
@@ -52,7 +50,7 @@
         <div class="panel-header row-header">
           <div>
             <h2>Källor och metod</h2>
-            <p>Direkta RSS-flöden från riktiga redaktioner där det går. När artikeltext saknas hittar sajten inte på en fejkad blurb.</p>
+            <p>Direkta RSS-flöden från riktiga redaktioner där det går. Sammanfattningslagret försöker vara på svenska och hålla sig till det underlaget faktiskt säger.</p>
           </div>
         </div>
       </section>
@@ -68,8 +66,14 @@
           <a class="section-feed" target="_blank" rel="noreferrer">RSS</a>
         </div>
         <p class="section-description"></p>
-        <p class="section-summary"></p>
-        <div class="stories"></div>
+        <div class="section-summary-block">
+          <p class="summary-label">AI-kortversion</p>
+          <p class="section-summary"></p>
+        </div>
+        <details class="stories-wrap">
+          <summary class="stories-toggle"></summary>
+          <div class="stories"></div>
+        </details>
       </article>
     </template>
 
@@ -81,7 +85,10 @@
         </div>
         <h3></h3>
         <p class="description"></p>
-        <a class="read-more" target="_blank" rel="noreferrer">Läs originalet</a>
+        <div class="story-links">
+          <a class="read-more" target="_blank" rel="noreferrer">Läs originalet</a>
+          <a class="direct-link" target="_blank" rel="noreferrer">Öppna direkt</a>
+        </div>
       </article>
     </template>
 
