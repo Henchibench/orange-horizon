@@ -1,18 +1,252 @@
 {
-  "state": "unavailable",
+  "state": "ready",
   "site": {
     "title": "Vad i helvete händer?!",
-    "subtitle": "Tillfälligt otillgänglig.",
+    "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad ungefär varje timme.",
     "note": null
   },
-  "generatedAt": "2026-03-25T17:40:41.163Z",
+  "generatedAt": "2026-03-25T18:36:41.195Z",
   "summaryMeta": {
-    "provider": "none",
-    "model": null,
-    "fallbackReason": "section.trump-usa.summary: english-leak"
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5-20251001",
+    "fallbackReason": null
   },
-  "brief": null,
-  "sections": [],
+  "brief": {
+    "title": "Maktens dumheter håller världen i andlös väntan",
+    "intro": "Trump visar klassificerad karta på sitt privatplan, Kim Jong-un kräver kärnvapenstatus och Orbán hotar att stänga gaskranen till Ukraina.",
+    "bullets": [
+      "Demokraterna vinner i Trumps egen bakgård när Emily Gregory slår den Trump-stödda kandidaten i Florida, vilket signalerar att republikanerna är sårbara överallt – medan Trump själv undersöktes för att ha visat klassificerad karta på sitt privatplan efter sin.",
+      "Ryssland skjuter nästan 400 drönare och 23 marskryssare på Ukraina på en natt, träffar en 500 år gammal kyrka i Lviv, och tvingar Moldova att förklara energikris när en kraftledning till Europa skadas – medan Orbán hotar att stänga gaskranen till Ukraina för.",
+      "Iran avvisar Trumps 15-punktsprogram helt, förnekar att några förhandlingar ägde rum, och fortsätter att stänga Hormuzstränden medan USA samlar den största militära styrkan i regionen sedan Irakkrigen – och israeliska bosättare attackerar palestinska byar i.",
+      "Kim Jong-un varnar USA och kräver erkännande som kärnvapenmakt, Pakistan erbjuder sig som värd för Iran-USA-samtal, och Lukashenko släpper 250 politiska fångar för att vinna västerländsk gunst – medan världens energipriser stiger och ingen vet vad som händer."
+    ]
+  },
+  "sections": [
+    {
+      "id": "trump-usa",
+      "name": "Trump / USA",
+      "label": "Makt, cirkus, federalt brus",
+      "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
+      "summary": "Trumps andra mandatperiod fortsätter att producera både politiska överraskningar och juridiska skuggor. I Florida vann demokraten Emily Gregory en specialval i det distrikt som innehåller Trumps Mar-a-Lago-hem – en omsvängning från 2024 då republikanerna vann samma område med 19 procentenheter. Segern indikerar att republikanerna är sårbara överallt och ger demokraterna momentum inför mellanvalen i november. Samtidigt avslöjades att federala åklagare undersökte huruvida Trump visade en klassificerad karta för människor på sitt privatplan efter sin första mandatperiod, inklusive för sin nuvarande stabschef Susie Wiles – en incident som dokumenterades i ett PM från januari 2023 till dåvarande justitieminister Merrick Garland. På den internationella scenen öppnar Kim Jong-un för dialog med Trumpregeringen men kräver att Nordkorea erkänns som kärnvapenmakt, samtidigt som han anklagade USA för global \"statsterrorism och aggression\".",
+      "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
+      "feedUrls": [
+        {
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
+        },
+        {
+          "label": "BBC News: US & Canada",
+          "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml"
+        },
+        {
+          "label": "The Guardian: Donald Trump",
+          "url": "https://www.theguardian.com/us-news/donaldtrump/rss"
+        }
+      ],
+      "items": [
+        {
+          "id": "trump-usa-bbc-news-us-canada-6",
+          "headline": "Democrats flip Florida state seat that includes Trump's Mar-a-Lago home",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Wed, 25 Mar 2026 15:07:13 GMT",
+          "link": "https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-6",
+          "headline": "Could the continent’s far right be suffering from a Trumplash?",
+          "source": "Jon Henley Europe correspondent",
+          "pubDate": "Wed, 25 Mar 2026 15:20:10 GMT",
+          "link": "https://www.theguardian.com/world/2026/mar/25/could-the-continents-far-right-be-suffering-from-a-trumplash"
+        },
+        {
+          "id": "trump-usa-ekot-16",
+          "headline": "Pakistan redo att stå för värd för fredssamtal i Irankriget",
+          "source": "Ekot",
+          "pubDate": "Wed, 25 Mar 2026 11:53:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9183818"
+        },
+        {
+          "id": "trump-usa-svt-nyheter-utrikes-12",
+          "headline": "Kim Jong-un varnar USA – vill erkännas som kärnvapenmakt",
+          "source": "SVT Nyheter: Utrikes",
+          "pubDate": "Tue, 24 Mar 2026 02:26:45 +0100",
+          "link": "https://www.svt.se/nyheter/utrikes/kim-jong-un-varnar-usa-vill-erkannas-som-karnvapenmakt"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-1",
+          "headline": "Prosecutors examined whether Trump disclosed classified map on plane after leaving office",
+          "source": "Hugo Lowell in Washington",
+          "pubDate": "Wed, 25 Mar 2026 16:27:23 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/mar/25/donald-trump-classified-classified-map-private-plane-susie-wiles"
+        }
+      ]
+    },
+    {
+      "id": "putin-ukraina",
+      "name": "Putin / Ukraina",
+      "label": "Krig, repression, diplomatiskt grus",
+      "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
+      "summary": "Kriget på Ukrainas territorium intensifieras samtidigt som dess effekter sprider sig över gränserna. Ryssland genomförde en massiv attacknatt med nästan 400 långräckvidiga drönare och 23 marskryssiler, följt av en ovanlig dagtidsattack med 556 drönare – en av de största luftbombardemangen sedan invasionens början. Attackerna träffade städer över hela västra Ukraina, skadade en 500 år gammal kyrka i Lvivs Unesco-listade medeltidscenter, och dödade minst sju människor. Ukraina svarade med över 280 drönare mot Ryssland, en av Kyivs största salvor sedan krigets början. Ukrainska drönare som avvek från sin kurs under attacken på den ryska hamnen Ust-Luga träffade infrastruktur i Estland och Lettland, vilket väckte farhågor om eskalering av konflikten till Nato-territorium. Moldova förklarade energikris efter att en kraftledning till Europa skadades av ryska attacker – ledningen passerar genom södra Ukraina och reparationen väntas ta upp till sju dagar.",
+      "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
+      "feedUrls": [
+        {
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
+        },
+        {
+          "label": "The Guardian: Ukraine",
+          "url": "https://www.theguardian.com/world/ukraine/rss"
+        },
+        {
+          "label": "BBC News: Europe",
+          "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml"
+        }
+      ],
+      "items": [
+        {
+          "id": "putin-ukraina-bbc-news-europe-2",
+          "headline": "Estonia and Latvia say territories hit by stray Ukrainian drones",
+          "source": "BBC News: Europe",
+          "pubDate": "Wed, 25 Mar 2026 12:42:14 GMT",
+          "link": "https://www.bbc.com/news/articles/c1eql309n12o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-2",
+          "headline": "Ukraine war briefing: Moldova declares emergency after Russian attack cuts key power line",
+          "source": "Staff and agencies",
+          "pubDate": "Wed, 25 Mar 2026 05:49:33 GMT",
+          "link": "https://www.theguardian.com/world/2026/mar/25/ukraine-war-briefing-moldova-declares-emergency-after-russian-attack-cuts-key-power-line"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-11",
+          "headline": "Ukraine war briefing: Children ordered to leave key Ukrainian stronghold as Russians advance",
+          "source": "Guardian staff and agencies",
+          "pubDate": "Sat, 21 Mar 2026 01:34:50 GMT",
+          "link": "https://www.theguardian.com/world/2026/mar/21/ukraine-war-briefing-children-ordered-to-leave-key-ukrainian-stronghold-as-russians-advance"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-13",
+          "headline": "Ukraine war briefing: EU president von der Leyen vows to pay loan to Kyiv despite block by Hungary",
+          "source": "Guardian staff",
+          "pubDate": "Fri, 20 Mar 2026 00:41:04 GMT",
+          "link": "https://www.theguardian.com/world/2026/mar/20/ukraine-war-briefing-eu-president-von-der-leyen-vows-to-pay-loan-to-kyiv-despite-block-by-hungary"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-16",
+          "headline": "Ukraine war briefing: Ukraine strikes Russian aircraft sites 800km from border",
+          "source": "Guardian staff and agencies",
+          "pubDate": "Thu, 19 Mar 2026 01:10:45 GMT",
+          "link": "https://www.theguardian.com/world/2026/mar/19/ukraine-war-briefing-ukraine-strikes-russian-aircraft-sites-800km-from-border"
+        }
+      ]
+    },
+    {
+      "id": "iran",
+      "name": "Iran",
+      "label": "Regionen håller andan igen",
+      "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
+      "summary": "Kriget mellan USA, Israel och Iran fortsätter utan tecken på snabb lösning trots Trumps påståenden om framsteg i förhandlingar. Iran avvisade helt Trumps 15-punktsprogram genom statsmedia, som citerade en okänd \"senior politisk-säkerhetschef\" som lade fram fem egna villkor för att avsluta konflikten, inklusive skadereglering – villkor som inte liknar Trumps förslag. Irans parlamentariker Mohammad Bagher Ghalibaf avfärdade helt tanken på förhandlingar och skrev att \"inga förhandlingar har genomförts med USA\" och att det var \"fejknyheter\" för att manipulera finansiella marknader. Trump hävdade att Iran var \"desperat\" för samtal och att iranska förhandlare hade gett USA ett \"mycket betydande pris\" relaterat till olja, gas och Hormuzstränden, men Irans utrikesministerium retorerade att Trumps uttalanden var \"del av ansträngningar att sänka energipriserna och köpa tid\" för militära planer.",
+      "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
+      "feedUrls": [
+        {
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
+        },
+        {
+          "label": "BBC News: Middle East",
+          "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml"
+        },
+        {
+          "label": "Al Jazeera RSS",
+          "url": "https://www.aljazeera.com/xml/rss/all.xml"
+        }
+      ],
+      "items": [
+        {
+          "id": "iran-bbc-news-middle-east-1",
+          "headline": "Iran rejects US 15-point peace plan, state media report",
+          "source": "BBC News: Middle East",
+          "pubDate": "Wed, 25 Mar 2026 16:46:12 GMT",
+          "link": "https://www.bbc.com/news/articles/cly9nz5vyz4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-11",
+          "headline": "War on Iran: What troops is the US moving to the Gulf?",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Wed, 25 Mar 2026 15:59:32 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/25/war-on-iran-what-troops-is-the-us-moving-to-the-gulf?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-13",
+          "headline": "Missiles overhead, silence below: Israel’s home front holds firm",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Wed, 25 Mar 2026 14:41:47 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/25/missiles-overhead-silence-below-israels-home-front-holds-firm?traffic_source=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-2",
+          "headline": "'There's no safety anymore': Palestinians warn of expanding West Bank settler violence",
+          "source": "BBC News: Middle East",
+          "pubDate": "Wed, 25 Mar 2026 12:27:28 GMT",
+          "link": "https://www.bbc.com/news/articles/c747x00m83vo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-3",
+          "headline": "Small window open for US-Iran talks, but swift end to war still unlikely",
+          "source": "BBC News: Middle East",
+          "pubDate": "Tue, 24 Mar 2026 18:04:04 GMT",
+          "link": "https://www.bbc.com/news/articles/c895xljyzewo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "id": "orban-eu",
+      "name": "Orbán / EU",
+      "label": "Illiberal administration, kontinentalt tålamodstest",
+      "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
+      "summary": "Ungerns premiärminister Viktor Orbán hotar att stoppa gasförsörjningen till Ukraina om landet inte återupptar oljeflödet till Ungern. Orbáns ultimatum kommer två veckor före ungerska val och är den senaste eskalationen i en pågående dispyt mellan Budapest och Kyiv. Konflikten omfattar även Orbáns blockering av EU:s lån till Ukraina, medan han anklagade Ukraina för att försena reparationer av oljeledningen Druzhba. Orbán hävdar att ett fullständigt stopp av gasdeliverancer skulle skada Ukrainas krigsinsatser mot Ryssland betydligt. Han argumenterar för att Ungern måste säkra sin energiförsörjning genom att gradvis minska gasshipmenten till Ukraina och lagra återstoden inhemskt. Ukrainas utrikesdepartement motsätter sig hotelsen och varnar för att ett gasförsörjningsstopp skulle kosta Ungerns ekonomi mer än en miljard dollar.",
+      "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
+      "feedUrls": [
+        {
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
+        },
+        {
+          "label": "Politico Europe",
+          "url": "https://www.politico.eu/feed/"
+        },
+        {
+          "label": "BBC News: Europe",
+          "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml"
+        }
+      ],
+      "items": [
+        {
+          "id": "orban-eu-politico-europe-3",
+          "headline": "Hungary threatens to halt gas supplies to Ukraine",
+          "source": "Ferdinand Knapp, Veronika Melkozerova",
+          "pubDate": "Wed, 25 Mar 2026 14:38:18 +0000",
+          "link": "https://www.politico.eu/article/hungary-threatens-stop-gas-supplies-ukraine-energy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        }
+      ]
+    }
+  ],
   "sources": [
     {
       "id": "trump-usa",
