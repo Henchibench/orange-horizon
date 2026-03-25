@@ -195,6 +195,26 @@ const readErrorBody = async (response) => {
   return text ? text.slice(0, 500) : 'empty response body';
 };
 
+const extractJsonText = (text) => {
+  const trimmed = `${text}`.trim();
+  if (!trimmed) {
+    throw new Error('Anthropic returned empty text payload');
+  }
+
+  const fencedMatch = trimmed.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/i);
+  if (fencedMatch) {
+    return fencedMatch[1].trim();
+  }
+
+  const firstBrace = trimmed.indexOf('{');
+  const lastBrace = trimmed.lastIndexOf('}');
+  if (firstBrace !== -1 && lastBrace !== -1 && lastBrace > firstBrace) {
+    return trimmed.slice(firstBrace, lastBrace + 1).trim();
+  }
+
+  return trimmed;
+};
+
 const listAnthropicModels = async () => {
   const response = await fetch(`${anthropicEndpoint}/models`, {
     headers: {
@@ -273,7 +293,7 @@ const callAnthropicSummaries = async (sectionData, fallbackBrief) => {
     throw new Error('Anthropic returned no text content');
   }
 
-  const parsed = JSON.parse(text);
+  const parsed = JSON.parse(extractJsonText(text));
   return { ok: true, data: parsed, model, availableModels };
 };
 
