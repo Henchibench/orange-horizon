@@ -432,17 +432,19 @@ const squeezeToSentenceLimit = (value, max) => {
   return `${compact}.`;
 };
 
-const normalizeBriefIntro = (value) => {
-  const cleaned = cleanPublicText(value)
-    .replace(/^(kort sagt|kort version|i korthet|det korta läget|läget just nu)[:,-]?\s*/i, '');
+const normalizePublicLength = (value, max, { stripLeadIn = false } = {}) => {
+  const cleaned = cleanPublicText(value);
+  const prepared = stripLeadIn
+    ? cleaned.replace(/^(kort sagt|kort version|i korthet|det korta läget|läget just nu)[:,-]?\s*/i, '')
+    : cleaned;
 
-  if (!cleaned) return cleaned;
-  if (cleaned.length <= 220) return cleaned;
-
-  const sentenceLimited = squeezeToSentenceLimit(cleaned, 220);
-  if (sentenceLimited.length <= 220) return sentenceLimited;
-  return squeezeToSentenceLimit(cleaned, 200);
+  if (!prepared || prepared.length <= max) return prepared;
+  const sentenceLimited = squeezeToSentenceLimit(prepared, max);
+  if (sentenceLimited.length <= max) return sentenceLimited;
+  return squeezeToSentenceLimit(prepared, Math.max(40, max - 20));
 };
+
+const normalizeBriefIntro = (value) => normalizePublicLength(value, 220, { stripLeadIn: true });
 
 const looksSwedishEnough = (text) => {
   const lower = text.toLowerCase();
@@ -471,17 +473,17 @@ const mergeSummariesStrict = (sectionData, aiPayload) => {
   const brief = {
     title: validatePublicText(aiPayload?.brief?.title, 'brief.title', { min: 10, max: 56 }),
     intro: validatePublicText(normalizeBriefIntro(aiPayload?.brief?.intro), 'brief.intro', { min: 40, max: 220 }),
-    bullets: (aiPayload?.brief?.bullets || []).slice(0, 3).map((bullet, index) => validatePublicText(bullet, `brief.bullets[${index}]`, { min: 70, max: 200 }))
+    bullets: (aiPayload?.brief?.bullets || []).slice(0, 3).map((bullet, index) => validatePublicText(normalizePublicLength(bullet, 200), `brief.bullets[${index}]`, { min: 70, max: 200 }))
   };
 
   if (brief.bullets.length !== 3) throw new Error('brief.bullets: wrong-count');
 
   const sectionsWithSummaries = sectionData.map((section) => ({
     ...section,
-    summary: validatePublicText(aiSections.get(section.id), `section.${section.id}.summary`, { min: 110, max: 280 }),
+    summary: validatePublicText(normalizePublicLength(aiSections.get(section.id), 280), `section.${section.id}.summary`, { min: 110, max: 280 }),
     items: section.items.map((item) => ({
       ...item,
-      description: validatePublicText(aiItems.get(item.id), `item.${item.id}.summary`, { min: 90, max: 320 })
+      description: validatePublicText(normalizePublicLength(aiItems.get(item.id), 320), `item.${item.id}.summary`, { min: 90, max: 320 })
     }))
   }));
 
