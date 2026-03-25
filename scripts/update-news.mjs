@@ -321,9 +321,9 @@ const buildAnthropicPrompt = (sectionData) => JSON.stringify({
     briefTitleMinChars: 14,
     briefTitleMaxChars: 64,
     briefBulletsCount: 3,
-    briefBulletMinChars: 110,
+    briefBulletMinChars: 90,
     briefBulletMaxChars: 260,
-    sectionSummaryMinChars: 180,
+    sectionSummaryMinChars: 150,
     sectionSummaryMaxChars: 420,
     briefIntroMinChars: 90,
     briefIntroTargetChars: 200,
@@ -423,7 +423,7 @@ const fillMissingSummaries = async (model, sectionData, aiPayload) => {
     task: 'Fyll endast saknade svenska sektionssammanfattningar. Returnera enbart giltig JSON. Skriv en summary för varje angivet section-id exakt en gång. Lämna inget tomt.',
     rules: {
       language: 'svenska',
-      sectionSummaryMinChars: 180,
+      sectionSummaryMinChars: 150,
       sectionSummaryMaxChars: 420,
       noEnglishLeakage: true,
       noMetaCopy: true,
@@ -651,14 +651,14 @@ const mergeSummariesStrict = (sectionData, aiPayload) => {
   const brief = {
     title: validatePublicText(aiPayload?.brief?.title, 'brief.title', { min: 14, max: 64, requireTerminalPunctuation: false }),
     intro: validatePublicText(normalizeBriefIntro(aiPayload?.brief?.intro), 'brief.intro', { min: 90, max: 260 }),
-    bullets: (aiPayload?.brief?.bullets || []).slice(0, 3).map((bullet, index) => validatePublicText(normalizePublicLength(bullet, 260), `brief.bullets[${index}]`, { min: 110, max: 260 }))
+    bullets: (aiPayload?.brief?.bullets || []).slice(0, 3).map((bullet, index) => validatePublicText(normalizePublicLength(bullet, 260), `brief.bullets[${index}]`, { min: 90, max: 260 }))
   };
 
   if (brief.bullets.length !== 3) throw new Error('brief.bullets: wrong-count');
 
   const sectionsWithSummaries = sectionData.map((section) => ({
     ...section,
-    summary: validatePublicText(normalizePublicLength(aiSections.get(section.id), 420), `section.${section.id}.summary`, { min: 180, max: 420 }),
+    summary: validatePublicText(normalizePublicLength(aiSections.get(section.id), 420), `section.${section.id}.summary`, { min: 150, max: 420 }),
     items: section.items.map((item) => ({
       id: item.id,
       headline: item.headline,
