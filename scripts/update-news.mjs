@@ -368,6 +368,14 @@ const repairJsonWithAnthropic = async (model, rawText) => {
   return JSON.parse(extractJsonText(repaired));
 };
 
+const parseAnthropicJson = async (model, text) => {
+  try {
+    return JSON.parse(extractJsonText(text));
+  } catch (parseError) {
+    return repairJsonWithAnthropic(model, text);
+  }
+};
+
 const callAnthropicSummaries = async (sectionData) => {
   if (!anthropicApiKey) throw new Error('missing-api-key');
   const availableModels = await listAnthropicModels();
@@ -385,12 +393,8 @@ const callAnthropicSummaries = async (sectionData) => {
         user: buildAnthropicPrompt(sectionData)
       });
 
-      try {
-        return { ok: true, data: JSON.parse(extractJsonText(text)), model };
-      } catch (parseError) {
-        const repaired = await repairJsonWithAnthropic(model, text);
-        return { ok: true, data: repaired, model };
-      }
+      const parsed = await parseAnthropicJson(model, text);
+      return { ok: true, data: parsed, model };
     } catch (error) {
       lastError = error;
     }
@@ -430,15 +434,27 @@ const fillMissingSummaries = async (model, sectionData, aiPayload) => {
     missingItems
   }, null, 2);
 
-  const text = await callAnthropicApi({
-    model,
-    maxTokens: 1800,
-    temperature: 0,
-    system: 'Du kompletterar saknade svenska sammanfattningar för en offentlig nyhetssajt. Returnera enbart giltig JSON. Fyll varje angivet id exakt en gång.',
-    user: repairPrompt
-  });
+  let repaired = null;
+  let lastError = null;
+  for (let attempt = 1; attempt <= 3; attempt += 1) {
+    try {
+      const text = await callAnthropicApi({
+        model,
+        maxTokens: 1800,
+        temperature: 0,
+        system: 'Du kompletterar saknade svenska sammanfattningar för en offentlig nyhetssajt. Returnera enbart giltig JSON. Fyll varje angivet id exakt en gång.',
+        user: repairPrompt
+      });
 
-  const repaired = JSON.parse(extractJsonText(text));
+      repaired = await parseAnthropicJson(model, text);
+      break;
+    } catch (error) {
+      lastError = error;
+    }
+  }
+
+  if (!repaired) throw lastError || new Error('Missing-summary repair failed');
+
   const sectionMap = new Map((aiPayload?.sections || []).map((section) => [section.id, section]));
   for (const section of repaired?.sections || []) if (section?.id) sectionMap.set(section.id, section);
   const itemMap = new Map((aiPayload?.items || []).map((item) => [item.id, item]));
