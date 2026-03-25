@@ -5,11 +5,11 @@
     "subtitle": "Tillfälligt otillgänglig.",
     "note": null
   },
-  "generatedAt": "2026-03-25T19:35:54.752Z",
+  "generatedAt": "2026-03-25T19:51:56.909Z",
   "summaryMeta": {
     "provider": "none",
     "model": null,
-    "fallbackReason": "section.orban-eu.summary: meta-leak"
+    "fallbackReason": "missing-api-key"
   },
   "brief": null,
   "sections": [],

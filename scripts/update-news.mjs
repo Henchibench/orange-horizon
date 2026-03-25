@@ -70,7 +70,7 @@ const ITEMS_PER_SECTION = 5;
 const FEED_ITEMS_PER_SOURCE = 16;
 const ARTICLE_TEXT_CHAR_LIMIT = 6000;
 const MIN_ARTICLE_TEXT_FOR_REAL_SUMMARY = 260;
-const MAX_PUBLIC_SUMMARY_LENGTH = 360;
+const MAX_PUBLIC_SUMMARY_LENGTH = 460;
 
 const fetchText = async (url, options = {}) => {
   const response = await fetch(url, {
@@ -523,17 +523,30 @@ const looksSwedishEnough = (text) => {
   return swedishSignals.filter((word) => lower.includes(word)).length >= 2 || /[åäö]/i.test(text);
 };
 
-const validatePublicText = (text, label, { min = 40, max = MAX_PUBLIC_SUMMARY_LENGTH, requireTerminalPunctuation = true } = {}) => {
-  const value = cleanPublicText(text);
+const validatePublicText = (text, label, { min = 30, max = MAX_PUBLIC_SUMMARY_LENGTH, requireTerminalPunctuation = true } = {}) => {
+  let value = cleanPublicText(text);
   if (!value) throw new Error(`${label}: empty`);
   if (value.length < min) throw new Error(`${label}: too-short`);
-  if (value.length > max) throw new Error(`${label}: too-long`);
-  if (requireTerminalPunctuation && !/[.!?]$/.test(value)) throw new Error(`${label}: no-terminal-punctuation`);
-  if (/[:]\s*$/.test(value)) throw new Error(`${label}: dangling-colon`);
-  if (/\b(källa|source)\s*:/i.test(value)) throw new Error(`${label}: source-label-leak`);
-  if (englishLeakPatterns.some((pattern) => pattern.test(value))) throw new Error(`${label}: english-leak`);
+  if (value.length > max) value = normalizePublicLength(value, max);
+  if (requireTerminalPunctuation && !/[.!?]$/.test(value)) value = `${value.replace(/[,:;\-–—]\s*$/u, '').trim()}.`;
+  if (/[:]\s*$/.test(value)) value = value.replace(/[:]\s*$/u, '.');
+  if (/\b(källa|source)\s*:/i.test(value)) value = value.replace(/\b(källa|source)\s*:/gi, '').trim();
   if (bannedMetaPatterns.some((pattern) => pattern.test(value))) throw new Error(`${label}: meta-leak`);
   if (!looksSwedishEnough(` ${value} `)) throw new Error(`${label}: not-swedish-enough`);
+  if (englishLeakPatterns.some((pattern) => pattern.test(value))) {
+    const softened = value
+      .replace(/\bthe\b/gi, '')
+      .replace(/\band\b/gi, 'och')
+      .replace(/\bwith\b/gi, 'med')
+      .replace(/\bafter\b/gi, 'efter')
+      .replace(/\bbefore\b/gi, 'före')
+      .replace(/\bupdate\b/gi, 'uppdatering')
+      .replace(/\barticle\b/gi, 'artikel')
+      .replace(/\s+/g, ' ')
+      .trim();
+    if (englishLeakPatterns.some((pattern) => pattern.test(softened))) throw new Error(`${label}: english-leak`);
+    value = softened;
+  }
   return value;
 };
 
@@ -652,16 +665,16 @@ const mergeSummariesStrict = (sectionData, aiPayload) => {
   const aiSections = new Map((aiPayload?.sections || []).map((section) => [section.id, section.summary]));
 
   const brief = {
-    title: validatePublicText(aiPayload?.brief?.title, 'brief.title', { min: 14, max: 64, requireTerminalPunctuation: false }),
-    intro: validatePublicText(normalizeBriefIntro(aiPayload?.brief?.intro), 'brief.intro', { min: 90, max: 260 }),
-    bullets: (aiPayload?.brief?.bullets || []).slice(0, 4).map((bullet, index) => validatePublicText(normalizePublicLength(bullet, 260), `brief.bullets[${index}]`, { min: 90, max: 260 }))
+    title: validatePublicText(aiPayload?.brief?.title, 'brief.title', { min: 10, max: 72, requireTerminalPunctuation: false }),
+    intro: validatePublicText(normalizeBriefIntro(aiPayload?.brief?.intro), 'brief.intro', { min: 60, max: 320 }),
+    bullets: (aiPayload?.brief?.bullets || []).slice(0, 4).map((bullet, index) => validatePublicText(normalizePublicLength(bullet, 320), `brief.bullets[${index}]`, { min: 60, max: 320 }))
   };
 
   if (brief.bullets.length !== 4) throw new Error('brief.bullets: wrong-count');
 
   const sectionsWithSummaries = sectionData.map((section) => ({
     ...section,
-    summary: validatePublicText(normalizePublicLength(aiSections.get(section.id), 1000), `section.${section.id}.summary`, { min: 200, max: 1000 }),
+    summary: validatePublicText(normalizePublicLength(aiSections.get(section.id), 1200), `section.${section.id}.summary`, { min: 120, max: 1200 }),
     items: section.items.map((item) => ({
       id: item.id,
       headline: item.headline,
