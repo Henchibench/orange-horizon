@@ -211,6 +211,15 @@ const uniqueBy = (items, keyFn) => {
 
 const negativePatterns = [/opinion/i, /analysis/i, /newsletter/i, /live updates?/i, /what to know/i, /explained/i, /qa\b/i, /podcast/i, /video/i, /photos?/i, /editorial/i, /press release/i, /at a glance/i, /commentisfree/i, /show key events only/i];
 
+const matchesSectionCore = (sectionId, item) => {
+  const corpus = `${item.headline} ${item.feedSummary || ''} ${item.articleText || ''}`.toLowerCase();
+  if (sectionId === 'trump-usa') return /trump|donald trump|vita huset|white house|mar-a-lago/.test(corpus);
+  if (sectionId === 'putin-ukraina') return /putin|kremlin|kreml|russia|ryssland|ukraine|ukraina|kyiv|kyjiv|moscow|moskva/.test(corpus);
+  if (sectionId === 'iran') return /iran|iranian|tehran|teheran|khamenei|irgc|golfstaterna/.test(corpus);
+  if (sectionId === 'orban-eu') return /orban|orbán|hungary|ungern|hungarian|ungersk|budapest/.test(corpus);
+  return true;
+};
+
 const scoreArticle = (sectionId, item) => {
   const corpus = `${item.headline} ${item.feedSummary || ''} ${item.articleText || ''}`.toLowerCase();
   let score = 0;
@@ -768,6 +777,7 @@ const rawSectionData = await Promise.all(sections.map(async (section) => {
 
   const enrichedItems = await Promise.all(dedupedItems.map(fetchArticleDetails));
   const selectedItems = enrichedItems
+    .filter((item) => matchesSectionCore(section.id, item))
     .map((item) => ({ ...item, relevanceScore: scoreArticle(section.id, item) }))
     .sort((a, b) => (b.relevanceScore || 0) - (a.relevanceScore || 0) || toTimestamp(b.pubDate) - toTimestamp(a.pubDate))
     .slice(0, ITEMS_PER_SECTION);
