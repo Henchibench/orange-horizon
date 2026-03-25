@@ -8,23 +8,29 @@
     <link rel="stylesheet" href="./assets/styles.css" />
   </head>
   <body data-state="loading">
-    <div class="glow glow-a"></div>
-    <div class="glow glow-b"></div>
-    <main class="shell">
-      <section class="hero panel panel-hero">
-        <div class="hero-copy">
-          <p class="eyebrow">Vad i helvete händer?!</p>
-          <h1>Mäktiga idioter. Samlad skada.</h1>
-          <p class="lede">Fyra bevakningar, en ordentlig öppningsbrief och därefter rena källhänvisningar till originalen. Mindre lull-lull, mer faktiskt läge.</p>
-          <div class="hero-meta">
-            <span id="last-updated" class="meta-pill">Laddar lägesbild…</span>
-            <span id="story-count" class="meta-pill">—</span>
-            <span id="source-count" class="meta-pill">—</span>
-          </div>
+    <main class="page">
+      <header class="masthead">
+        <div class="masthead-top">
+          <p class="nameplate">Vad i helvete händer?!</p>
+          <p class="edition">Morgonupplaga · globalt maktspel, haverier och följdskador</p>
+        </div>
+        <div class="masthead-rule" aria-hidden="true"></div>
+        <div class="masthead-meta">
+          <span id="last-updated" class="meta-item">Laddar lägesbild…</span>
+          <span id="story-count" class="meta-item">—</span>
+          <span id="source-count" class="meta-item">—</span>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="hero-intro">
+          <p class="section-kicker">Förstasidan</p>
+          <h1>Mäktiga idioter.<br />Samlad skada.</h1>
+          <p class="lede">Fyra bevakningar, en ordentlig öppningsbrief och därefter rena källhänvisningar till originalen. Mer läsordning, mindre gränssnitt som skriker.</p>
           <p id="site-note" class="site-note"></p>
         </div>
 
-        <section class="brief-panel">
+        <section class="brief-panel" aria-labelledby="brief-title">
           <div class="brief-heading">
             <p class="section-kicker">Öppningsbrief</p>
             <h2 id="brief-title">Morgonbrief</h2>
@@ -35,11 +41,12 @@
       </section>
 
       <section class="sections-intro">
-        <div>
+        <div class="sections-copy">
           <p class="section-kicker">Sektioner</p>
           <h2>Fyra spår genom dagens dumheter</h2>
+          <p class="sections-dek">Varje block börjar med en kort lägesrad och fortsätter sedan med artiklar som rena källspår, utan påhittat utfyllnadssnack.</p>
         </div>
-        <div id="sources-list" class="source-pills"></div>
+        <nav id="sources-list" class="source-index" aria-label="Gå till sektion"></nav>
       </section>
 
       <section class="sections">
@@ -48,14 +55,14 @@
     </main>
 
     <template id="section-template">
-      <article class="panel section-card">
-        <div class="section-top">
-          <div>
+      <article class="section-card">
+        <header class="section-head">
+          <div class="section-heading">
             <p class="section-kicker"></p>
             <h2></h2>
           </div>
           <a class="section-feed" target="_blank" rel="noreferrer">RSS</a>
-        </div>
+        </header>
         <p class="section-description"></p>
         <div class="section-summary-block">
           <p class="summary-label">Läget i korthet</p>
@@ -82,7 +89,7 @@
     </template>
 
     <template id="unavailable-template">
-      <article class="panel unavailable-card">
+      <article class="unavailable-card">
         <p class="section-kicker">Tillfälligt otillgänglig</p>
         <h2>Ingen publicerad version just nu</h2>
         <p class="description">Sidan visar nästa uppdatering först när öppningsbriefen och sektionssammanfattningarna klarar språkkontrollen utan trasig svenska eller engelska rester.</p>
