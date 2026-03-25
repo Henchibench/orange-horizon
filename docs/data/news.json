@@ -4,7 +4,7 @@
     "subtitle": "A sunrise-toned watch on the latest Donald Trump headlines.",
     "note": "Freshly poured from public RSS. Coffee not included."
   },
-  "generatedAt": "2026-03-25T06:09:43.612Z",
+  "generatedAt": "2026-03-25T06:09:53.321Z",
   "source": "https://news.google.com/rss/search?q=%22Donald+Trump%22+when:7d&hl=en-US&gl=US&ceid=US:en",
   "items": [
     {
@@ -17,6 +17,14 @@
     },
     {
       "id": "item-2",
+      "headline": "LEADER JEFFRIES ON CNN: “DONALD TRUMP SHOULD KEEP HIS RECKLESS MOUTH SHUT BEFORE HE GETS SOMEBODY KILLED” – Congressman Hakeem Jeffries",
+      "source": "Congressman Hakeem Jeffries (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQc0VLNnZ5Sml6OFZQR0NJcFBvQkJxN1VNSG95TVJBamtrSzdiaTJPUDJXcW5WQnNzUlh1bmc3ZkJTdGZGQTYtS3ZxaDRUUFFvaE9WSkotUnJfZHpZdEhseUJEX0Y2Y3hSaHh1YmdiOGE5VS1TMGtIcnlZV2dETkNtY19BcWRaNk9Nd3N3MWhLRDh4RnZFTXp5TlJjX2ZzR0ZlNGdrVGNnOFp3Yy12YV9KdWtrN0VZV2p3bXNyNFJiTUpDa2VETnIwVm5nVUJFOWY0aE9KR05pOHU?oc=5",
+      "pubDate": "Sun, 22 Mar 2026 17:37:21 GMT",
+      "description": "LEADER JEFFRIES ON CNN: “DONALD TRUMP SHOULD KEEP HIS RECKLESS MOUTH SHUT BEFORE HE GETS SOMEBODY KILLED” – Congressman Hakeem Jeffries Congressman Hakeem Jeffries (.gov)"
+    },
+    {
+      "id": "item-3",
       "headline": "Majorities of Americans think Donald Trump is arrogant, opportunistic, and reckless",
       "source": "YouGov",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQYzlUSmtjR3BmMEsyc3hnLV90cjhlZU9reG9XT1J5MERTN2Y3VTRDaW9yLXFZSXdOSzcwbl9oWkJKdXZQUFFuV2tzZlJVdGpnVUxRZkZRV1RFaG05SFZiQy12RTJPcTdLNkctcVNYSnBJb1g5VGdNc0tmWFUxbWR0SHBNM3ROZWJfcFkwUjF6aWNDM3U2aUE5NVZOYzBheC0tVF9ZNV9lYi1iVTYtN1pXNQ?oc=5",
@@ -24,7 +32,7 @@
       "description": "Majorities of Americans think Donald Trump is arrogant, opportunistic, and reckless YouGov"
     },
     {
-      "id": "item-3",
+      "id": "item-4",
       "headline": "WATCH: Trump meets with Japanese Prime Minister Sanae Takaichi at the White House",
       "source": "PBS",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPN0liM0FKMjdCakJpbFUtdGxkc2kzeWxWdzhRelA0VGdWTlZoM0I3TG81SUVNRkNabGhHMEJWSTNaZjBwalg0RThDODJTUS1PS0pveEt4Q1NaYi1WeXQ5UXlTcWxRVGVMRVdyTm9pQVFTajVQbHdNU1VOV3huQnB4SEFOY1docDdGaUE3b0tCX1BzcXVGWUZqUUJvTHpCN0xpNi0xOGx5X0t1UnZFSlVJdFB1bzI4dGliSGRLc9IBwgFBVV95cUxNUDVQaWJkdUtOUHRwTTQ4MExkUW1QcDM0OWlYWHZtaWpZeDFjNHNVQTNKRUJLb0RDOVUxOGJobUJPaVNDU1cxMkR2UnowMGMzSEVFR2FfSUdnRXV0dU43cDR5ekpJZllsWGlVV29sdHQyUHZJTEloN0YtYjJVMXVFdTBsZEJxb3NLMlNVeTNsWnVHZ1Q2ZkVsNmFhVVlQMlRpbU9zUWpqZ09XdXVHNzF5NnJjX2RKVHYybU9aSkQtbUVyUQ?oc=5",
@@ -32,7 +40,7 @@
       "description": "WATCH: Trump meets with Japanese Prime Minister Sanae Takaichi at the White House PBS"
     },
     {
-      "id": "item-4",
+      "id": "item-5",
       "headline": "Donald Trump heads to Elvis Presley's Graceland in Memphis",
       "source": "NBC4 Washington",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX1phOGE4dVdRZWZJdjY1eXlmT0xKS2sxRGpoMHJUMGlkWS1ZaWV2Ukt3QVJxTFJYOUNLak1PaS1oMkFJRE9lZFoyblZXdWkxUUlZU0NWanFuSUhoWkstNl9EMW1hN3ZwWjQwVkVHQTdiSUNoOWRoRDVIaTlnelBDV3dNUFowUDNfdGdGTHpPcFQ1OFRtTzc3NnFsR0tQRkJySWE1UFV5RzFSM1IxVW01bdIBuAFBVV95cUxQYktDUGNCZjBJeloyckdtSTJUaGRvWW5aSnRuR3R4VGJyRWpBNXQzT3lFM3FBNEZ6bmtnSExYcnVXT2NaZW5iQWMzYm16VjFVVWxzZlMyZm9tMVVmQUNQMEd5OTduVEcxWnR2UXlvTU96ZEktMjIzYldVZVBvdWltcFhaelB0aU9xT3A0NHBqV2t1S0tpRUV5M0lPdlROMzlFVGFUR051Q2JyWXNacnV4SnREckRIOW84?oc=5",
@@ -40,7 +48,15 @@
       "description": "Donald Trump heads to Elvis Presley's Graceland in Memphis NBC4 Washington"
     },
     {
-      "id": "item-5",
+      "id": "item-6",
+      "headline": "All 100 Senators swore an oath not to Donald Trump, but to the Constitution.",
+      "source": "Senator Cory Booker (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPdnF6VVBJQ1FxQTJWdmZXYVFtUGpGdUd6VC1xV3Bib2Jna0VOUlRZV1dGRzd3VEo4N0NmSXNzV01WWWQ5U1V1cXF4S3ZqQzNMX05kQnJjc0FIVzU3N0FqMmFaaXY3X2dSbWdnRkZnM3FXNlVLWWQ1NFB5S0ltbDhtYXdRSUZ3aFZaRUJ0UWxwSDMxSWxCWE9mWTRCZzQ5SWRDTkNSc1dYaFlWdU91TFE2UUQxR191bV9ycktyQWE2QQ?oc=5",
+      "pubDate": "Wed, 18 Mar 2026 23:53:59 GMT",
+      "description": "All 100 Senators swore an oath not to Donald Trump, but to the Constitution. Senator Cory Booker (.gov)"
+    },
+    {
+      "id": "item-7",
       "headline": "War in Iran is making Donald Trump weaker—and angrier",
       "source": "The Economist",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdTRXVkUybnZwcjBTSGJXR3dUZjdpeXdJQ0tBTGZjeFhqLW1iaTFOR2djbnUtNEZYNzVYYk4xVmJ1clhZR2ZycVUzdmE2NV9YUzRtRkxkeXJuZmx6XzVqR3c4M210dkt4TjVURWdHV0l6RDQ4c0Z2SDNLMnBuOTJyNk5yelVVMU8zb1VpZUFBSzRQanFRV21sMElSMnduMlE?oc=5",
@@ -48,7 +64,7 @@
       "description": "War in Iran is making Donald Trump weaker—and angrier The Economist"
     },
     {
-      "id": "item-6",
+      "id": "item-8",
       "headline": "Donald Trump Is Nothing Like Robert Mueller",
       "source": "The Atlantic",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX25lZ0VURjRfekhFSGRqbWFySjMyM01RTllzQjI3UG1Nb0FuTTUxRjlRNkM5ejZHNmJnREpfM3ZRWjFjVF9QdkFJeHQ3ZFdyRmRDMmFNMkx2MzJwMkk2SDhMNndyX0twWU9fa25OekIyNkhsU3h3cnhKS0pIX2E5Zm5GUWd0bGh4RWJTUHU1Q2FoMFo2LVo2Yw?oc=5",
@@ -56,7 +72,7 @@
       "description": "Donald Trump Is Nothing Like Robert Mueller The Atlantic"
     },
     {
-      "id": "item-7",
+      "id": "item-9",
       "headline": "US arts commission approves gold coin stamped with Donald Trump’s face",
       "source": "Al Jazeera",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZEZ1ejRaNnF3WXZYZ01mY0pvQUFhb3NpWjFVSFZvcFZLTWVZLXl4QmdZcm83cWNoX2dUQzBOeTdVWUZIQ0Jla3VNTmwxZDNSWUkzbnE5dlJaWlVhNzV0LThCTThPYUZtY2xxbTJleUNoakJMWGxwQ3dRVXAyY1lPTExidHBpWm1oU2hwd3dwdGN6LUpZX1dGbkV6NjRZMDJXcXRvcjB6aFFraVp3dTR30gG0AUFVX3lxTFA0RmliYkg5SnNnMFNFOWkwYzA4alhIQl9FTzlucUVqMldEeEQ1ODZndnN0dEI5anhOR3JwcHdGVVZKY2pzSDRRSTFmWldMd05URVVVR0Nfa2k5V05sUlJHVWN2RjNSeTJQa3NYTUpockRSN2hrdGtwUzR1T2l1ZEZURDNvV0ZPMlUxRXA5cGxqX3Jnbm8ydUJRN2ZvN253RTlVaWVPbmZ2YXM2b2hwQ3dWcHpqTw?oc=5",
@@ -64,7 +80,7 @@
       "description": "US arts commission approves gold coin stamped with Donald Trump’s face Al Jazeera"
     },
     {
-      "id": "item-8",
+      "id": "item-10",
       "headline": "Donald Trump, barn baby",
       "source": "The Statehouse File",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbGlnSHp5T21yUXpPUW5pTTYxVk5kZzQ1aXVoZEs1eURHUEJoeUNmOGFhaUpoNWV6Zl9wby1HZXY1bFMxUjZhckkyd3U5N29zeVd2NjlQOUpSWUJCel8tLTJUcWVtdEdLUEItSGtINGVFYXlxaFB1MnF5YnN6RHNwUnBYMkNCOVZndUF4N2RqM3hoQmVmcHVCSFdzb2pXTkRRcUVaaDVPNjFWamZDU05Ebi03cFlYUkJq?oc=5",
@@ -72,15 +88,7 @@
       "description": "Donald Trump, barn baby The Statehouse File"
     },
     {
-      "id": "item-9",
-      "headline": "America's wealth gap is growing, and Trump's policies are making it bigger",
-      "source": "NBC News",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWFhsWlpOS21TbEJfMlZ4SHhPLWJiUm5POFk2bUhEZktJdnZTeFJ0VUZFQS1wMzRlV2w5TVhrb01hUS1wdWhfNnRBd01mV3NJRmxPX3REQk84dnl2ZlNOQ0hsdjZQRWFDdXAwR2ZlMGhSNG9KZlJKNHhVQUU1dk1qbERfY2ZnZXJORFhTRUR5MUkyNmp5SEVIbW05djM0RlpZY1daYVRXZl9oTDdXNkJ5S1RFQ1FHWi0y?oc=5",
-      "pubDate": "Tue, 24 Mar 2026 09:00:42 GMT",
-      "description": "America's wealth gap is growing, and Trump's policies are making it bigger NBC News"
-    },
-    {
-      "id": "item-10",
+      "id": "item-11",
       "headline": "The tightening 2026 midterms, Donald Trump, Iran, and more: March 20 - 23, 2026 Economist/YouGov Poll",
       "source": "YouGov",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSFN3aGJ0VzNnZS14eTRhSUlUM21VVTFCcGxvV2hJUzhocGwtd0FBckF4VElTOXBucUNJcHdBR1RFVVg2U0VkcEZDMDd0WUs5Z1ROM1VCaGh5TEduSnZZbzZlOTFGcVJDTmtEeHgzZXN4dWdRdG1PZkJkdHAwT3h6aHY2MkUxam5rMnhaQ1BJdzE1aVpxbTk4RkItQkNRMGR0TG5oLUgzQ1dScEVXcC1kWkVjV1l3SVE1YnpWTkt3?oc=5",
@@ -88,20 +96,12 @@
       "description": "The tightening 2026 midterms, Donald Trump, Iran, and more: March 20 - 23, 2026 Economist/YouGov Poll YouGov"
     },
     {
-      "id": "item-11",
-      "headline": "Why Donald Trump is putting his face on a coin",
-      "source": "The Economist",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaWRJbDBOS2VRSmpkUGE3cUFwRDhXeGFoaVNqdGQxb25JaW9jS0tad1BhQUJMMnJIeDV6WWtXdVZ4VEloZV9CMENfbENtYVRoRW94alkzWW9lcTVreW5BSkpnWWpOS25CUUNHVGN1di1VM3VwYmxWelB5OGRfNXlsWU80aERnWTVYc0Y1U1NtWVprbjdmalZsRzBYaDNUdw?oc=5",
-      "pubDate": "Sun, 22 Mar 2026 15:56:13 GMT",
-      "description": "Why Donald Trump is putting his face on a coin The Economist"
-    },
-    {
       "id": "item-12",
-      "headline": "WATCH: Trump joins Memphis Safe Task Force roundtable, initiative aimed at combating crime",
+      "headline": "Amid Iran war and airport turmoil, Trump makes a detour to Elvis Presley's Graceland",
       "source": "PBS",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPckJ6U28yTENFMnF4cEtKcjlqWFhENXZpbF95dlpRRkM0dm5iZklSdURGVTN6M0oxTkszVHFvRE1NRjZYM1NOV1lmd29NOTg0cXNhdUZIMXFFV1Y3NlM3eXBKc0lpODNMU2ZCMXhYWjJBMDFDSDAzSEZseThFMkJLTG14b3dPRXIydXRiY2NCb1U1dmdzWWZQMGtRV09DYWdULXJkeFJ5Ul94RDU0ajlRMkZ4WVJVc0t4d09WeVhkYkFleUZiVWdaR05fMA?oc=5",
-      "pubDate": "Mon, 23 Mar 2026 17:00:09 GMT",
-      "description": "WATCH: Trump joins Memphis Safe Task Force roundtable, initiative aimed at combating crime PBS"
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZ3hWZUQ0WDRCNEx1U1RJazBCeElRYWM0eEwxdVpWRnYxaDN0RXUyaE1ESEtWYjR1a1FmVzc2MjNyRGs5OHJtY1JjaUtPR01Xb0o5Yy1ITjhlMm5MSEs1eC1XYjNoOUIwaHBWTkVzOXQ4MkR6b2VjcHJPRUtsZUt0eEo3NV9yRTZRQVQxMTlWbVh2c2N5YWVzWWxWdTRvYlBWV0tNVmRXa2hydUR1S2Vya2wtS1hfbTNIdWg1TNIBwgFBVV95cUxOdE1rWE95RDRkUTloVEZkQVlPQl9yejhWLXRLeHlrYUNnc0Y1SDU3RnlwMnVGLVVIRTVyQ0NhWm5NdnBKcFVEaWtqZzlLckp4Q3lfYXBmMk1pa2FYeGtzbVV5NThUQlY2Y191S1pENXNLWmJFV1hkV0xYLXpSME91ajFidm1BZnBGYWk1T3RZVEstcUFydGhLTnREbm1SSmV3YnBFODdkdVRUZnFob2pxWFJyUzM5SldWOTRrNHFWd3FRUQ?oc=5",
+      "pubDate": "Mon, 23 Mar 2026 20:45:57 GMT",
+      "description": "Amid Iran war and airport turmoil, Trump makes a detour to Elvis Presley's Graceland PBS"
     }
   ]
 }
