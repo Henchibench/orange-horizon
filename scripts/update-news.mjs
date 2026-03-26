@@ -1,4 +1,5 @@
-import { writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
 import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -820,6 +821,28 @@ const rawSectionData = await Promise.all(sections.map(async (section) => {
   };
 }));
 
+// Skip Anthropic API call if articles are unchanged
+const articleFingerprint = (sectionsData) => {
+  const parts = sectionsData.flatMap((s) =>
+    s.items.map((item) => `${s.id}:${item.headline}:${item.link}`)
+  ).sort();
+  return createHash('sha256').update(parts.join('\n')).digest('hex');
+};
+
+const newFingerprint = articleFingerprint(rawSectionData);
+try {
+  const existingData = JSON.parse(await readFile(outputPath, 'utf-8'));
+  if (existingData.state === 'ready' && existingData.sections?.length) {
+    const existingFingerprint = articleFingerprint(existingData.sections);
+    if (newFingerprint === existingFingerprint) {
+      console.log('Articles unchanged, skipping update');
+      process.exit(0);
+    }
+  }
+} catch {
+  // No existing file or parse error — proceed with generation
+}
+
 let payload;
 try {
   const aiResult = await callAnthropicSummaries(rawSectionData);
@@ -843,7 +866,7 @@ try {
     state: 'ready',
     site: {
       title: 'Vad i helvete händer?!',
-      subtitle: 'En svensk brief om vad mäktiga idioter ställer till med, uppdaterad ungefär varje timme.',
+      subtitle: 'En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.',
       note: null
     },
     generatedAt: new Date().toISOString(),

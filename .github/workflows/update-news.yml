@@ -3,7 +3,7 @@ name: Update news feed
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '17 4,10,15 * * *'
 
 permissions:
   contents: write
@@ -41,4 +41,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/data/news.json docs/data/audio/
           git commit -m "chore: refresh morning brief data"
+          git pull --rebase
           git push
