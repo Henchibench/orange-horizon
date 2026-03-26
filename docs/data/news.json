@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad ungefär varje timme.",
     "note": null
   },
-  "generatedAt": "2026-03-26T03:25:03.512Z",
+  "generatedAt": "2026-03-26T05:00:44.690Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Världen i fritt fall – veckans maktdemonstrationer",
-    "intro": "Trump visar klassificerade kartor på privatflygplan medan han hotar att ta över Kuba. Putin skjuter nästan tusen drönare på Ukraina på en dag. Orbán blockerar Kyivs nödvändiga lån. Och Iran säger att det inte förhandlar medan Washington hävdar att det gör det.",
+    "title": "Världen på väg mot nya gränser",
+    "intro": "Trump visar klassificerade kartor på privatflygplan medan han hotar att ta över Kuba, Zelenskyy säger att USA pressar honom att ge upp Donbas, och Iran förnekar att det förhandlar medan världen håller andan.",
     "bullets": [
-      "Trump anklagas för att ha visat hemlig militär kartmaterial till passagerare på privatflygplan 2022 och för att ha behållit dokument så känsliga att bara sex personer i regeringen hade tillgång till dem. Vita huset förnekar anklagelserna, men demokraten Jamie Raskin kallar det \"förödande\".",
-      "Ryssland lanserar nästan tusen drönare mot Ukraina på två dagar – nästan 400 på natten och 556 på dagen – och dödar minst sju människor. Ukrainska drönare avviker in i Estland och Lettland under attacken på den ryska hamnen Ust-Luga. Moldavien förklarar energikris efter att en kraftledning genom Ukraina skadas.",
-      "Iran förnekar att det förhandlar med USA medan Trump säger att han talar med \"rätt personer\" och hotar att \"massivt spränga\" Irans gasöppningar och \"utplåna\" kraftverk. Palestinier rapporterar om organiserad terrorattack från israeliska bosättare i Västbanken sedan kriget började.",
-      "Orbán blockerar Ukrainas vitala 90 miljarder euro-lån från EU och hotar med ytterligare åtgärder för att tvinga Ryssland att återuppta oljeflödet till Ungern. EU-kommissionens von der Leyen lovar att leverera pengarna \"på ett eller annat sätt\", men Ungerns premiärminister säger att han har \"många kort på handen\"."
+      "Trump anklagas för att ha visat hemlig karta till passagerare på privatflygplan 2022 och behållit dokument så känsliga att bara sex personer i regeringen hade tillgång. Vita huset förnekar anklagelserna och säger att Trump inte gjorde något fel, medan demokrater kallar det 'förödande'.",
+      "Zelenskyy säger att USA kopplar säkerhetgarantier till att Ukraina ger upp hela Donbas-regionen till Ryssland.",
+      "Iran förnekar att det förhandlar med USA trots Trumps påståenden om 'mycket starka samtal'. Irans utrikesminister Abbas Araghchi säger att landet inte avser att förhandla, medan USA skickar idéer via medlare.",
+      "Viktor Orbán möter entusiastiska anhängare i Esztergom inför valet den 12 april och försöker säkra landsbygden. Orbán blockerar EU:s 90 miljarder euro-lån till Ukraina och hotar med fler åtgärder för att tvinga fram rysk olja till Ungern och Slovakien, medan USA:s vicepresident Vance besöker Budapest dagar före valet."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump anklagas för att ha visat klassificerad militär kartmaterial till passagerare på ett privatflygplan 2022 och för att ha behållit ett dokument så känsligt att endast sex personer i den amerikanska regeringen hade tillgång till det, enligt ett memo från särskild åklagare Jack Smith som lämnades till kongressen. Demokraten Jamie Raskin kallade det \"förödande\" och hävdade att Trump stöld hemliga dokument för att främja sina personliga affärsintresser. Vita huset förnekar anklagelserna och säger att Trump \"inte gjorde något fel\". Samtidigt vinner demokraten Emily Gregory, en förstagångskandidaten, en överraskande seger i en speciell val för Floridas distrikt 87 – samma område som innehåller Trumps Mar-a-Lago-hem – mot den Trump-stödda republikanaren Jon Maples. Detta markerar en dramatisk vändning från 2024, då en republikan vann samma distrikt med 19 procentenheter. Demokraterna har presterat väl i specialval under Trumps andra mandatperiod. I Europa rapporterar Guardian att Frankrikes Rassemblement National inte är oslagbar – partiet missade nyckelmål i lokala val ett år före ett avgörande presidentval.",
+      "summary": "Trump anklagas för att ha visat en klassificerad karta till passagerare på ett privatflygplan 2022 och för att ha behållit ett dokument så känsligt att endast sex personer i den amerikanska regeringen hade tillgång till det, enligt ett memo från specialåklagare Jack Smith som lämnades till kongressen. Representant Jamie Raskin kallade det 'förödande', men Vita huset förnekar anklagelserna och säger att Trump 'inte gjorde något fel'. En federal domstol avfärdade senare åtalet mot Trump på grund av farhågor om Smith:s utnämning, och Smith drog tillbaka sin överklagning efter Trumps omval 2024. I Florida vann demokraten Emily Gregory en specialval för en statlig representantpost som inkluderar Trumps Mar-a-Lago-hem i Palm Beach – en dramatisk vändning från 2024 då en republikan vann distriktet med 19 procentenheter. Greggorys seger indikerar att demokraterna har momentum inför mellanvalen i november.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -63,7 +63,7 @@
           "link": "https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-12",
+          "id": "trump-usa-the-guardian-donald-trump-13",
           "headline": "Could the continent’s far right be suffering from a Trumplash?",
           "source": "Jon Henley Europe correspondent",
           "pubDate": "Wed, 25 Mar 2026 15:20:10 GMT",
@@ -77,7 +77,7 @@
           "link": "https://www.svt.se/nyheter/utrikes/kim-jong-un-varnar-usa-vill-erkannas-som-karnvapenmakt"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-4",
+          "id": "trump-usa-the-guardian-donald-trump-5",
           "headline": "Is Cuba Trump’s next target? – podcast",
           "source": "Presented by Nosheen Iqbal with Ruaridh Nicoll and Daniel Montero; produced by Ned Carter Miles, Alex Atack, Eleanor Biggs and Brian McNamara; executive producer Sami Kent",
           "pubDate": "Thu, 26 Mar 2026 03:00:24 GMT",
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Ryssland lanserar nästan tusen drönare mot Ukraina under två dagar – nästan 400 långdistansdrönare och 23 marskryssningsrobotar på natten, följt av ytterligare 556 drönare i en ovanlig daganfall på tisdag – och dödar minst sju människor. Attackerna träffar städer över hela västra Ukraina, inklusive den historiska medeltidsstaden Lviv där en 1600-talskyrka skadas. Ukrainas president Volodymyr Zelenskyy anklagade Ryssland för \"absolut depravering\" och sa att attackernas omfattning gör det klart att Ryssland inte avser att faktiskt avsluta kriget. Ryssland säger att det skjutit ned 389 ukrainska drönare under natten i en av de största attackerna till dato. Under samma tid träffar ukrainska drönare som avviker från sin kurs eller påverkas av rysk elektronisk krigsföring Estland och Lettland – en träffar en kraftvärmeverk i Auvere, Estland, och en annan exploderar i Kraslava-regionen i Lettland. Estlands och Lettlands premiärministrar bekräftar att det var ukrainska drönare. Moldavien förklarar en energikris efter att en kraftledning genom Ukraina skadas av ryska attacker, vilket tvingar landet att importera elektricitet från Rumänien under 60 dagar.",
+      "summary": "Ukrainska drönare trängde in i estniskt och lettiskt luftrum från Ryssland under natten och träffade en kraftverk i Auvere, Estland, medan en annan exploderade i Kraslava-regionen i Lettland. Incidenten inträffade samtidigt som Ukraina genomförde ett massivt drönattack på den ryska hamnen Ust-Luga på Östersjön, cirka 25 kilometer från den estniska gränsen. Estlands säkerhetspolis sa att det var en ukrainsk drön som avvek från sin kurs, möjligen påverkad av rysk elektronisk krigsföring. Zelenskyy säger att USA gör säkerhetgarantier villkorade av att Ukraina ger upp hela Donbas-regionen till Ryssland, och att Trump fokuserar på Iran-kriget och pressar Ukrainas sida för ett snabbt slut på kriget. Ryssland försöker enligt Zelenskyy utpressa USA genom att erbjuda att sluta dela underrättelser med Iran om Washington slutar dela med Ukraina. Ryska attacker dödade två personer i Kharkiv och skadade nio andra, medan ukrainska drönattacker dödade två personer i Belgorod-regionen. Moldova förklarade nödtillstånd i energisektorn efter att en nyckelkraftledning till Europa kopplades bort på grund av ryska attacker i Ukraina, med reparationer som förväntas ta upp till sju dagar.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -119,6 +119,13 @@
           "link": "https://www.bbc.com/news/articles/c1eql309n12o?at_medium=RSS&at_campaign=rss"
         },
         {
+          "id": "putin-ukraina-the-guardian-ukraine-1",
+          "headline": "Ukraine war briefing: Zelenskyy says US has linked security guarantees to ceding of Donbas",
+          "source": "Guardian staff and agencies",
+          "pubDate": "Thu, 26 Mar 2026 03:59:51 GMT",
+          "link": "https://www.theguardian.com/world/2026/mar/26/ukraine-war-briefing-zelenskyy-says-us-has-linked-security-guarantees-to-ceding-of-donbas"
+        },
+        {
           "id": "putin-ukraina-the-guardian-ukraine-2",
           "headline": "Ukraine war briefing: Moldova declares emergency after Russian attack cuts key power line",
           "source": "Staff and agencies",
@@ -138,13 +145,6 @@
           "source": "Guardian staff",
           "pubDate": "Fri, 20 Mar 2026 00:41:04 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/20/ukraine-war-briefing-eu-president-von-der-leyen-vows-to-pay-loan-to-kyiv-despite-block-by-hungary"
-        },
-        {
-          "id": "putin-ukraina-the-guardian-ukraine-5",
-          "headline": "Russia fires nearly 1,000 drones in one of its largest aerial attacks on Ukraine",
-          "source": "Pjotr Sauer",
-          "pubDate": "Tue, 24 Mar 2026 18:15:48 GMT",
-          "link": "https://www.theguardian.com/world/2026/mar/24/russia-strikes-civilian-areas-ukraine"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Irans utrikesminister Abbas Araghchi säger att landet inte förhandlar med USA för att avsluta kriget och \"inte avser\" att göra det, medan Trumps pressekreterare säger att samtal är \"pågående\" och \"produktiva\". Araghchi säger att USA har skickat idéer via medlare, möjligen hänvisande till en 15-punktsplan som USA rapporteras ha överlämnat till Iran. Utan att uttryckligen förkasta planen upprepar Araghchi några av argumenten från ett fempoänts motförslag från en namnlös iransk tjänsteman. Trumps dramatisk beskrivning av \"mycket starka samtal\" med Iran antydde att dörren till diplomati hade öppnats för vad han sa kunde vara \"en fullständig och total lösning på våra fientligheter i Mellanöstern\", men Iran förnekar omedelbar att samtal har påbörjats. Det finns endast tecken på små fönster som öppnas på glänt.",
+      "summary": "Australien förbjöd tillfälligt besökare från Iran i sex månader, med motiveringen att USA-Israels krig mot Iran ökar risken att iranska passhållare inte kan eller vill åka hem när deras visum löper ut. Irans utrikesminister Abbas Araghchi förnekar att landet förhandlar med USA för att avsluta kriget och säger att landet inte avser att göra det, trots att Trumps pressekreterare säger att samtal är 'pågående' och 'produktiva'. Araghchi sa att USA skickat idéer via medlare, möjligen hänvisande till en 15-punktsplan som USA rapporteras ha överlämnat till Iran. Palestinier varnar för att det inte finns säkerhet längre på grund av ökad våld från israeliska bosättare i Västbanken sedan krigets början. Barhan Omar, en palestinsk bankchef, säger att bosättare skjutit på hans hem i Deir al-Hatab nära Nablus och tänt eld på det, och att han och hans barn bara undkom genom att gömma sig på sitt tak. Sex palestinier har dödats av bosättare enligt FN sedan krigets början. Trump säger dramatiskt att det finns 'mycket starka samtal' med Iran och möjlighet till 'en fullständig och total lösning på våra fientligheter i Mellanöstern', men Iran förnekar omedelbar att samtal har börjat.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -174,6 +174,13 @@
         }
       ],
       "items": [
+        {
+          "id": "iran-al-jazeera-rss-5",
+          "headline": "Australia bans visitors from Iran amid war in the Middle East",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Thu, 26 Mar 2026 03:28:18 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/26/australia-bans-visitors-from-iran-amid-war-in-the-middle-east?traffic_source=rss"
+        },
         {
           "id": "iran-bbc-news-middle-east-1",
           "headline": "Iran's foreign minister says there are no negotiations with US",
@@ -201,13 +208,6 @@
           "source": "BBC News: Middle East",
           "pubDate": "Tue, 24 Mar 2026 15:55:08 GMT",
           "link": "https://www.bbc.com/news/articles/c4gjv02g54ko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-8",
-          "headline": "US' and Iran's options for ending war narrow the longer it goes on",
-          "source": "BBC News: Middle East",
-          "pubDate": "Mon, 23 Mar 2026 15:34:38 GMT",
-          "link": "https://www.bbc.com/news/articles/cn53zvlglg7o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "JD Vance, USA:s vicepresident, planerar ett besök i Budapest i början av april, bara dagar innan Ungerns val. Besöket, som bekräftats genom ett State Department-kabel, markerar en betydande diplomatisk rörelse från USA:s sida gentemot Ungern under en kritisk politisk period. Detta besök kommer under tiden då Orbáns regering fortsatt står under granskning från EU och västerländska allierade för sin hantering av demokratiska institutioner och rättsstaten.",
+      "summary": "Viktor Orbán och hans Fidesz-parti förbereder sig inför det ungerska valet den 12 april genom att mobilisera väljare på landsbygden. Under en kampanjturné i staden Esztergom möttes premiärministern av tusentals entusiastiska anhängare som uttrycker sitt stöd för hans 16-åriga styre. Väljarna framhåller sitt motstånd mot att överlämna landets utveckling till Ukraina eller EU-institutionerna i Bryssel. Samtidigt signalerar amerikanska politiska krafter sitt intresse för Ungern genom planerade besök under valperioden, vilket reflekterar den geopolitiska betydelsen av landets politiska utveckling och dess relation till västerländska institutioner.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,7 +238,14 @@
       ],
       "items": [
         {
-          "id": "orban-eu-politico-europe-7",
+          "id": "orban-eu-ekot-1",
+          "headline": "Valet i Ungern – Orbán försöker säkra landsbygden",
+          "source": "Ekot",
+          "pubDate": "Thu, 26 Mar 2026 04:50:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9184351"
+        },
+        {
+          "id": "orban-eu-politico-europe-9",
           "headline": "Vance will visit Hungary just days before its election",
           "source": "Nahal Toosi, Eli Stokols, Diana Nerozzi",
           "pubDate": "Thu, 26 Mar 2026 00:15:00 +0000",
