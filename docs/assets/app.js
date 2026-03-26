@@ -140,6 +140,50 @@ const render = async () => {
 
     sectionsList.appendChild(fragment);
   }
+
+  // Initialize podcast player if audio is available
+  if (data.audio?.url) {
+    initPlayer(data.audio.url);
+  }
+};
+
+// Podcast player
+const initPlayer = (audioUrl) => {
+  const player = document.querySelector('#podcast-player');
+  const playBtn = document.querySelector('#player-play');
+  const timeDisplay = document.querySelector('#player-time');
+  const seekBar = document.querySelector('#player-seek');
+
+  const audio = new Audio(audioUrl);
+  player.hidden = false;
+
+  const fmtTime = (s) => {
+    const m = Math.floor(s / 60);
+    const sec = Math.floor(s % 60);
+    return `${m}:${sec.toString().padStart(2, '0')}`;
+  };
+
+  playBtn.addEventListener('click', () => {
+    if (audio.paused) { audio.play(); } else { audio.pause(); }
+  });
+
+  audio.addEventListener('play', () => player.classList.add('is-playing'));
+  audio.addEventListener('pause', () => player.classList.remove('is-playing'));
+
+  audio.addEventListener('timeupdate', () => {
+    if (!audio.duration) return;
+    timeDisplay.textContent = `${fmtTime(audio.currentTime)} / ${fmtTime(audio.duration)}`;
+    seekBar.value = (audio.currentTime / audio.duration) * 100;
+  });
+
+  seekBar.addEventListener('input', () => {
+    audio.currentTime = (seekBar.value / 100) * audio.duration;
+  });
+
+  audio.addEventListener('ended', () => {
+    player.classList.remove('is-playing');
+    seekBar.value = 0;
+  });
 };
 
 render().catch((error) => {

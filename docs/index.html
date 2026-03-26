@@ -48,6 +48,22 @@
         </div>
       </header>
 
+      <section class="podcast-player" id="podcast-player" hidden>
+        <div class="player-inner">
+          <button class="player-play" id="player-play" type="button" aria-label="Spela upp nyhetspodd">
+            <svg class="player-icon player-icon--play" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            <svg class="player-icon player-icon--pause" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+          </button>
+          <div class="player-info">
+            <span class="player-label">Lyssna på nyhetsbriefingen</span>
+            <span class="player-time" id="player-time">0:00 / 0:00</span>
+          </div>
+          <div class="player-progress">
+            <input type="range" class="player-seek" id="player-seek" min="0" max="100" value="0" step="0.1" aria-label="Sök i uppspelning" />
+          </div>
+        </div>
+      </section>
+
       <section class="hero">
         <div class="hero-intro">
           <p class="section-kicker">Förstasidan</p>

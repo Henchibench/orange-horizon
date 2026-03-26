@@ -5,6 +5,7 @@
   "description": "A static Swedish morning brief about global chaos, updated hourly.",
   "type": "module",
   "scripts": {
-    "update-news": "node scripts/update-news.mjs"
+    "update-news": "node scripts/update-news.mjs",
+    "generate-audio": "node scripts/generate-audio.mjs"
   }
 }
