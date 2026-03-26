@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad ungefär varje timme.",
     "note": null
   },
-  "generatedAt": "2026-03-26T01:59:54.306Z",
+  "generatedAt": "2026-03-26T03:25:03.512Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Maktens dumheter håller världen i andedräkt",
-    "intro": "Trump visar klassificerade kartor på privatplan medan hans backyard väljare röstar emot honom.",
+    "title": "Världen i fritt fall – veckans maktdemonstrationer",
+    "intro": "Trump visar klassificerade kartor på privatflygplan medan han hotar att ta över Kuba. Putin skjuter nästan tusen drönare på Ukraina på en dag. Orbán blockerar Kyivs nödvändiga lån. Och Iran säger att det inte förhandlar medan Washington hävdar att det gör det.",
     "bullets": [
-      "Trump anklagas för att ha visat klassificerad karta till passagerare på privatplan 2022 och behållit dokument så hemliga att bara sex personer i regeringen hade tillgång.",
-      "Ryssland skjuter nästan tusen drönare på Ukraina under två dygn, dödar minst sju människor och träffar bland annat en 500-årsgammal kyrka i Lviv.",
-      "Iran förnekar att förhandlingar med USA pågår medan Trump säger motsatsen. Amerikanska och israeliska hot mot Irans energiinfrastruktur, tillsammans med Irans motattacker på gulfstaterna, visar att krigets normer är omvälta. Palestinier rapporterar om ökad bosättarväld i Västbanken sedan kriget började.",
-      "Orbán blockerar Ukrainas 90 miljarder euro stora EU-lån och hotar med fler åtgärder för att tvinga fram rysk olja. Von der Leyen lovar att leverera lånet \"på ett eller annat sätt\", medan Lukashenko släpper 250 politiska fångar i en överenskommelse med Trump och Vance planerar att besöka Budapest dagar före Ungarns val."
+      "Trump anklagas för att ha visat hemlig militär kartmaterial till passagerare på privatflygplan 2022 och för att ha behållit dokument så känsliga att bara sex personer i regeringen hade tillgång till dem. Vita huset förnekar anklagelserna, men demokraten Jamie Raskin kallar det \"förödande\".",
+      "Ryssland lanserar nästan tusen drönare mot Ukraina på två dagar – nästan 400 på natten och 556 på dagen – och dödar minst sju människor. Ukrainska drönare avviker in i Estland och Lettland under attacken på den ryska hamnen Ust-Luga. Moldavien förklarar energikris efter att en kraftledning genom Ukraina skadas.",
+      "Iran förnekar att det förhandlar med USA medan Trump säger att han talar med \"rätt personer\" och hotar att \"massivt spränga\" Irans gasöppningar och \"utplåna\" kraftverk. Palestinier rapporterar om organiserad terrorattack från israeliska bosättare i Västbanken sedan kriget började.",
+      "Orbán blockerar Ukrainas vitala 90 miljarder euro-lån från EU och hotar med ytterligare åtgärder för att tvinga Ryssland att återuppta oljeflödet till Ungern. EU-kommissionens von der Leyen lovar att leverera pengarna \"på ett eller annat sätt\", men Ungerns premiärminister säger att han har \"många kort på handen\"."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump anklagas för att ha visat en klassificerad karta till passagerare på sin privatplan 2022, enligt ett memo från justitiedepartementet som lämnades till kongressen. Dokumentet, förberett för särskild åklagare Jack Smith, hävdar också att Trump behöll ett annat dokument så hemligt att bara sex personer i regeringen hade tillgång till det, och att han undanhöll poster för att främja sina personliga affärsintresser. Vita huset avfärdar anklagelserna och säger att Trump \"inte gjorde något fel\". Demokraten Jamie Raskin, ledande demokrat i justitieutskottet, kallade memot \"förödande\". Fallet mot Trump för klassificerad dokumenthantering avslutades av en federal domare, och särskild åklagare Smith drog tillbaka sin överklagning efter Trumps omval 2024. I Florida vann demokraten Emily Gregory en specialval för statshuset i distrikt 87, som inkluderar Trumps Mar-a-Lago-hem i Palm Beach – en vändning från 2024 då en republikan vann samma distrikt med 19 procentenheter. Gregoryns seger är en av flera demokratiska framgångar i specialval under Trumps andra mandatperiod och signalerar potentiell momentum för demokraterna inför mellanvalen i november.",
+      "summary": "Trump anklagas för att ha visat klassificerad militär kartmaterial till passagerare på ett privatflygplan 2022 och för att ha behållit ett dokument så känsligt att endast sex personer i den amerikanska regeringen hade tillgång till det, enligt ett memo från särskild åklagare Jack Smith som lämnades till kongressen. Demokraten Jamie Raskin kallade det \"förödande\" och hävdade att Trump stöld hemliga dokument för att främja sina personliga affärsintresser. Vita huset förnekar anklagelserna och säger att Trump \"inte gjorde något fel\". Samtidigt vinner demokraten Emily Gregory, en förstagångskandidaten, en överraskande seger i en speciell val för Floridas distrikt 87 – samma område som innehåller Trumps Mar-a-Lago-hem – mot den Trump-stödda republikanaren Jon Maples. Detta markerar en dramatisk vändning från 2024, då en republikan vann samma distrikt med 19 procentenheter. Demokraterna har presterat väl i specialval under Trumps andra mandatperiod. I Europa rapporterar Guardian att Frankrikes Rassemblement National inte är oslagbar – partiet missade nyckelmål i lokala val ett år före ett avgörande presidentval.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -63,7 +63,7 @@
           "link": "https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-11",
+          "id": "trump-usa-the-guardian-donald-trump-12",
           "headline": "Could the continent’s far right be suffering from a Trumplash?",
           "source": "Jon Henley Europe correspondent",
           "pubDate": "Wed, 25 Mar 2026 15:20:10 GMT",
@@ -77,11 +77,11 @@
           "link": "https://www.svt.se/nyheter/utrikes/kim-jong-un-varnar-usa-vill-erkannas-som-karnvapenmakt"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-10",
-          "headline": "Prosecutors examined whether Trump disclosed classified map on plane after leaving office",
-          "source": "Hugo Lowell in Washington",
-          "pubDate": "Wed, 25 Mar 2026 16:27:23 GMT",
-          "link": "https://www.theguardian.com/us-news/2026/mar/25/donald-trump-classified-classified-map-private-plane-susie-wiles"
+          "id": "trump-usa-the-guardian-donald-trump-4",
+          "headline": "Is Cuba Trump’s next target? – podcast",
+          "source": "Presented by Nosheen Iqbal with Ruaridh Nicoll and Daniel Montero; produced by Ned Carter Miles, Alex Atack, Eleanor Biggs and Brian McNamara; executive producer Sami Kent",
+          "pubDate": "Thu, 26 Mar 2026 03:00:24 GMT",
+          "link": "https://www.theguardian.com/news/audio/2026/mar/26/is-cuba-trumps-next-target-podcast"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Ryssland genomförde en massiv drönattack på Ukraina med nästan tusen drönare – cirka 400 långdistansdrönare och 23 marskryssningsrobotar under natten följt av 556 drönare under dagen – vilket dödar minst sju människor och träffar städer över hela västra Ukraina. Attacken inkluderade ett slag mot Bernardinerklostret, en 500-årsgammal kyrka i Lvivs Unesco-listade medeltida centrum. Ukrainas president Volodymyr Zelenskyj anklagade Ryssland för \"absolut depravering\" och svor att Ukraina \"säkerligen kommer att svara\" på attackerna. Rysslands militär hävdade att de skjutit ned 389 ukrainska drönare under natten, en av de största attackerna hittills. Ukrainska drönare som avvek från sin kurs under en massiv attack på den ryska hamnen Ust-Luga nära den estniska gränsen trängde in i estniskt och lettiskt luftrum – en drönare träffade en kraftverk i Auvere, Estland, och en annan exploderade i Kraslava-regionen i Lettland. Estniska och lettiska myndigheter bekräftade att det var ukrainska drönare som möjligen påverkades av rysk elektronisk krigsföring eller GPS-störning.",
+      "summary": "Ryssland lanserar nästan tusen drönare mot Ukraina under två dagar – nästan 400 långdistansdrönare och 23 marskryssningsrobotar på natten, följt av ytterligare 556 drönare i en ovanlig daganfall på tisdag – och dödar minst sju människor. Attackerna träffar städer över hela västra Ukraina, inklusive den historiska medeltidsstaden Lviv där en 1600-talskyrka skadas. Ukrainas president Volodymyr Zelenskyy anklagade Ryssland för \"absolut depravering\" och sa att attackernas omfattning gör det klart att Ryssland inte avser att faktiskt avsluta kriget. Ryssland säger att det skjutit ned 389 ukrainska drönare under natten i en av de största attackerna till dato. Under samma tid träffar ukrainska drönare som avviker från sin kurs eller påverkas av rysk elektronisk krigsföring Estland och Lettland – en träffar en kraftvärmeverk i Auvere, Estland, och en annan exploderar i Kraslava-regionen i Lettland. Estlands och Lettlands premiärministrar bekräftar att det var ukrainska drönare. Moldavien förklarar en energikris efter att en kraftledning genom Ukraina skadas av ryska attacker, vilket tvingar landet att importera elektricitet från Rumänien under 60 dagar.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Läget i Iran och regionen är spänt med pågående militär konflikt mellan USA, Israel och Iran. Irans utrikesminister förnekar att förhandlingar pågår med USA trots att Trump hävdar att samtal är produktiva. En 15-punktsplan från USA har överförts via medlare, men Iran motsätter sig detta genom en egen fempoängsplan. Samtidigt eskalerar våldet i Västbanken där israeliska bosättare attackerar palestinska byar med skjutvapen och eldsvådor, vilket har ökat markant sedan krigets början. Diplomatiska möjligheter verkar begränsade då båda sidor misstror varandra efter tidigare misslyckade förhandlingar. USA:s hot mot Irans energiinfrastruktur och Irans motattacker på gulfnationer signalerar att internationella krigsregler har vänt upp och ned. Militär analys visar att trots påstådda framgångar för USA och Israel fortsätter Iran att utveckla sina militära kapaciteter, inklusive missiler med längre räckvidd än tidigare känt. Längre konflikten pågår, desto färre utvägar verkar finnas för båda parter att avsluta kriget.",
+      "summary": "Irans utrikesminister Abbas Araghchi säger att landet inte förhandlar med USA för att avsluta kriget och \"inte avser\" att göra det, medan Trumps pressekreterare säger att samtal är \"pågående\" och \"produktiva\". Araghchi säger att USA har skickat idéer via medlare, möjligen hänvisande till en 15-punktsplan som USA rapporteras ha överlämnat till Iran. Utan att uttryckligen förkasta planen upprepar Araghchi några av argumenten från ett fempoänts motförslag från en namnlös iransk tjänsteman. Trumps dramatisk beskrivning av \"mycket starka samtal\" med Iran antydde att dörren till diplomati hade öppnats för vad han sa kunde vara \"en fullständig och total lösning på våra fientligheter i Mellanöstern\", men Iran förnekar omedelbar att samtal har påbörjats. Det finns endast tecken på små fönster som öppnas på glänt.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "USA:s vicepresident Vance planerar att besöka Budapest i början av april, bara dagar innan Ungerns val. Besöket signalerar USA:s intresse för utvecklingen i Ungern under en kritisk politisk period och återspeglar den pågående uppmärksamheten på Viktor Orbáns regering och dess relation till USA:s administration.",
+      "summary": "JD Vance, USA:s vicepresident, planerar ett besök i Budapest i början av april, bara dagar innan Ungerns val. Besöket, som bekräftats genom ett State Department-kabel, markerar en betydande diplomatisk rörelse från USA:s sida gentemot Ungern under en kritisk politisk period. Detta besök kommer under tiden då Orbáns regering fortsatt står under granskning från EU och västerländska allierade för sin hantering av demokratiska institutioner och rättsstaten.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,7 +238,7 @@
       ],
       "items": [
         {
-          "id": "orban-eu-politico-europe-3",
+          "id": "orban-eu-politico-europe-7",
           "headline": "Vance will visit Hungary just days before its election",
           "source": "Nahal Toosi, Eli Stokols, Diana Nerozzi",
           "pubDate": "Thu, 26 Mar 2026 00:15:00 +0000",
