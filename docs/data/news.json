@@ -5,7 +5,7 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad ungefär varje timme.",
     "note": null
   },
-  "generatedAt": "2026-03-26T05:50:53.305Z",
+  "generatedAt": "2026-03-26T06:37:06.602Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
@@ -13,12 +13,12 @@
   },
   "brief": {
     "title": "Världen på väg mot nya gränser",
-    "intro": "Trump visar klassificerade kartor på privatflygplan medan han hotar att ta över Kuba, Zelenskyy säger att Washington tvingar honom att ge upp Donbas, och Iran förnekar att det förhandlar medan båda sidor hotar att bomba energiinfrastruktur.",
+    "intro": "Trump visar klassificerade kartor på privatflygplan medan han hotar att ta över Kuba, Zelenskyy säger att Washington tvingar honom att ge upp Donbas, och Iran förnekar att det förhandlar medan båda sidor hotar att bomba varandra till stenåldern.",
     "bullets": [
-      "Trump anklagas för att ha visat hemlig militär kartmaterial till passagerare på privatflygplan 2022 och för att ha behållit dokument så känsliga att bara sex personer i regeringen hade tillgång till dem.",
-      "Zelenskyy säger att USA kopplar säkerhetgarantier till att Ukraina måste ge upp hela Donbas-regionen till Ryssland, medan Trump fokuserar på sitt krig mot Iran. Ryssland försöker enligt Zelenskyy utpressa USA genom att erbjuda att sluta dela underrättelser med Iran om Washington slutar dela med Ukraina.",
-      "Iran förnekar att det förhandlar med USA trots Trumps påståenden om 'mycket starka samtal', medan båda sidor hotar att bomba energiinfrastruktur. Australien förbjuder iranska besökare i sex månader på grund av kriget, och palestinier rapporterar om ökad våldsam bosättarattacker i Västbanken.",
-      "Orbán håller fast vid sitt veto mot Ukrainas 90 miljarder euro stora EU-lån och säger att han har 'många kort på handen' för att tvinga Kyiv att acceptera hans villkor. Samtidigt kampanjar han inför valet den 12 april med budskapet att inte överlämna det han byggt upp till Bryssel eller Ukraina."
+      "Trump anklagas för att ha visat hemlig militär kartmaterial till passagerare på privatflygplan 2022 och för att ha behållit dokument så känsliga att bara sex personer i regeringen hade tillgång till dem. Vita huset förnekar anklagelserna och säger att Trump inte gjorde något fel, medan demokrater kallar det en skandal.",
+      "Zelenskyy säger att USA kopplar säkerhetgarantier till att Ukraina måste ge upp hela Donbas-regionen till Ryssland, och att Trump fokuserar på Iran-kriget istället för att stödja Kyiv. Samtidigt blockerar Orbán en 90 miljarder euro stor EU-lån som Ukraina behöver för att fortsätta kriget.",
+      "Iran förnekar att det förhandlar med USA trots Trumps påståenden om \"mycket starka samtal\", medan båda sidor hotar att bomba varandra – Trump säger han kommer att \"massivt spränga\" Irans gasfeld och \"förintilska\" kraftverk om landet inte öppnar Hormuzstränden.",
+      "Orbán är på väg mot val den 12 april med entusiastisk stöd från landsbygden, medan USA:s vicepresident Vance besöker Budapest bara dagar innan valet – ett tecken på Washingtons stöd för Ungerns premiärminister trots hans EU-bråk och veto mot Ukraina-hjälp."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump anklagas för att ha visat klassificerade militära kartor till passagerare på ett privatflygplan 2022 och för att ha behållit ett dokument så känsligt att endast sex personer i den amerikanska regeringen hade tillgång till det. Enligt ett memo från särskild åklagare Jack Smith, som lämnades till kongressen, ska Trump också ha behållit handlingar för att främja sina personliga affärsintresser. Vita huset förnekar anklagelserna och säger att Trump 'inte gjorde något fel', men demokraten Jamie Raskin kallar det 'förödande' bevis. Samtidigt vinner demokraten Emily Gregory en överraskande valseger i Floridas distrikt 87, som inkluderar Trumps Mar-a-Lago-hem, i en omsvängning från 2024 då en republikan vann med 19 procentenheter. Greggorys seger indikerar att demokraterna har momentum inför mellanvalen i november. I Europa visar lokala val i Frankrike att Rassemblement National inte är oöverstiglig ett år före ett avgörande presidentval, medan Giorgia Meloni förlorar en folkomröstning i Italien, Janez Janša besegras i Slovenien och Viktor Orbán hamnar i svårigheter i Ungern.",
+      "summary": "Trump-administrationen står inför nya anklagelser om klassificerad information. Enligt ett memo från specialåklagare Jack Smith som lämnades till kongressen ska Trump ha visat en hemlig militär karta till passagerare på ett privatflygplan 2022 och behållit ett dokument så känsligt att bara sex personer i den amerikanska regeringen hade tillgång till det. Demokraten Jamie Raskin kallade det \"förödande\" bevis på Trumps hantering av klassificerad material, men Vita huset förnekar anklagelserna och säger att Trump \"inte gjorde något fel\". Samtidigt visar demokraternas framgångar i specialval att partiet får momentum – Emily Gregory, en förstagångskandidatare, vann en floridansk statshusplats som inkluderar Trumps Mar-a-Lago-hem, en vändning från 2024 då republikanerna vann samma distrikt med 19 procentenheter. Globalt sett rapporterar Guardian att Europas högerextremister inte har det lätt: Frankrikes Rassemblement National missade nyckelmål i lokalval, Italiens Giorgia Meloni förlorade en folkomröstning, Sloveniens Janez Janša blev besegrad, och Ungerns Viktor Orbán är i trubbel.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Ukrainska drönare trängde in i estniskt och lettiskt luftrum från Ryssland under en massiv attack på den ryska hamnen Ust-Luga vid Östersjön, där en drönare träffade en kraftverks skorsten i Auvere, Estland, och en annan exploderade i Kraslava-regionen i Lettland. Estlands och Lettlands säkerhetsmyndigheter säger att drönarna troligen avvek från sin kurs eller påverkades av rysk elektronisk krigsföring. Zelenskyy säger att USA gör sina säkerhetgarantier för en fredslösning beroende på att Kyiv ger upp hela Donbas-regionen till Ryssland, och att Trump fokuserar på sitt krig mot Iran istället för att sätta press på Ryssland. Zelenskyy hävdar också att Ryssland försöker utpressa USA genom att erbjuda att sluta dela underrättelser med Iran om Washington slutar dela med Ukraina. Moldavien förklarade ett energiberedskapsläge efter att en nyckelkraftledning till Europa kopplades bort på grund av ryska attacker i Ukraina, med reparationer som förväntas ta upp till sju dagar.",
+      "summary": "Kriget i Ukraina intensifieras på flera fronter medan diplomatiska vägar blockeras. Ukrainska drönare trängde in i estniskt och latviskt luftrum från Ryssland under en massiv attack på den ryska hamnen Ust-Luga vid Östersjön, vilket resulterade i att en drönare träffade en kraftverk i Auvere, Estland, och en annan exploderade i Kraslava-regionen i Lettland – incidenter som myndigheterna säger beror på att drönarnas GPS stördes av rysk elektronisk krigsföring. Zelenskyy säger att USA kopplar säkerhetgarantier för en fredslösning till att Ukraina måste ge upp hela Donbas-regionen till Ryssland, och att Trump fokuserar på sitt Iran-krig istället för att stödja Kyiv. Han anklagade också Ryssland för att försöka utpressa USA genom att erbjuda att sluta dela militär underrättelse med Iran om Washington slutar dela underrättelse med Ukraina. Moldavien förklarade nödtillstånd i energisektorn efter att en nyckelkraftledning till Europa kopplades bort på grund av ryska attacker i Ukraina – reparationen förväntas ta upp till sju dagar.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Australien förbjöd tillfälligt iranska besökare i sex månader, med motiveringen att USA-Israels krig mot Iran ökar risken att iranska passhållare inte kan eller vill återvända hem när deras visum löper ut. Irans utrikesminister Abbas Araghchi förnekar att landet förhandlar med USA för att avsluta kriget och säger att landet 'inte avser' att göra det, trots att Trumps pressekreterare säger att samtalen är 'pågående' och 'produktiva'. Araghchi säger att USA har skickat idéer via medlare, möjligen hänvisande till en 15-punktsplan som USA rapporteras ha överlämnat till Iran. Palestinier varnar för ökad bosättarvåld i Västbanken sedan krigets början, med minst tio människor skadade i en attack på Deir al-Hatab nära Nablus, där bosättare skjutit på ett hem och satt eld på det. Sex palestinier har dödats av bosättare sedan krigets början enligt FN. Trump säger att USA redan förhandlar med 'rätt person' i Iran och att det finns en 'liten öppning' för diplomati, men Iran ser detta som försök att köpa tid för militära planer.",
+      "summary": "Kriget mellan USA, Israel och Iran fortsätter utan tecken på faktisk förhandling trots Trumps påståenden. Australien förbjöd tillfälligt iranska besökare för sex månader, med motiveringen att USA-Israel-kriget mot Iran ökar risken att iranska medborgare inte kan eller vill återvända hem när deras visum löper ut. Irans utrikesminister Abbas Araghchi förnekar att landet förhandlar med USA och säger att det inte avser att göra det, medan Trumps pressekreterare säger att samtal är \"pågående\" och \"produktiva\" – Araghchi avfärdade detta som försök att sänka oljepriserna och köpa tid för militära planer. Enligt rapporter från israelisk media kräver USA att Iran måste förbinda sig att aldrig utveckla kärnvapen, avveckla kärnfaciliteter, överlämna berikad uran till IAEA, begränsa sitt missilprogram, sluta finansiera regionala proxygrupper som Hezbollah, Hamas och Houthierna, och öppna Hormuzstränden – allt detta i utbyte mot att alla sanktioner lyfts. Trump har hotat att \"massivt spränga\" Irans South Pars-gasfält om Iran fortsätter att hota Qatariska energianläggningar, och att \"förintilska\" Irans kraftverk om landet inte öppnar Hormuzstränden.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,7 +175,7 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-7",
+          "id": "iran-al-jazeera-rss-10",
           "headline": "Australia bans visitors from Iran amid war in the Middle East",
           "source": "Al Jazeera RSS",
           "pubDate": "Thu, 26 Mar 2026 03:28:18 +0000",
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Viktor Orbán besökte den lilla staden Esztergom nära den slovakiska gränsen som del av sin slutspurt inför valet den 12 april, där han möttes av tusentals entusiastiska anhängare. En anhängare, Norbert Biro, sa att det som byggts upp under Orbáns 16 år inte får överlämnas till Ukraina eller till Bryssel och EU. USA:s vicepresident Vance kommer att besöka Budapest i början av april, bara dagar före valet. Orbán fortsätter att blockera Ukrainas 90 miljarder euro stora EU-lån och säger att han har 'många kort på handen' bortom att stoppa finansiering, hänvisande till andra verktyg han kan använda för att tvinga Kyiv att acceptera hans villkor.",
+      "summary": "Ungerns premiärminister Viktor Orbán är på väg mot val den 12 april med starkt stöd från landsbygden. Under ett besök i den lilla staden Esztergom nära den slovakiska gränsen möttes han av entusiastiska anhängare, medan USA:s vicepresident JD Vance besöker Budapest bara dagar innan valet – ett tecken på Washingtons stöd för Orbán trots hans EU-bråk och veto mot Ukrainas 90 miljarder euro stora EU-lån.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,7 +238,7 @@
       ],
       "items": [
         {
-          "id": "orban-eu-ekot-5",
+          "id": "orban-eu-ekot-6",
           "headline": "Valet i Ungern – Orbán försöker säkra landsbygden",
           "source": "Ekot",
           "pubDate": "Thu, 26 Mar 2026 04:50:00 GMT",
