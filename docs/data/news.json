@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-03-27T05:02:08.637Z",
+  "generatedAt": "2026-03-27T10:35:09.907Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Världen i fritt fall medan makthavare leker",
-    "intro": "Trump signerar order för att betala flygplatspersonal medan regeringen är stängd, får sitt namn på dollarsedlar och skickar samtidigt motsägelsefulla signaler om krig och fred med Iran.",
+    "title": "Världen i fritt fall medan makthavare leker krig",
+    "intro": "Trump kastar bort miljoner på att reparera sitt eget kaos medan han pressar Ukraina att ge upp territorium.",
     "bullets": [
-      "Trump beordrar löner till TSA-agenter under regeringsstängning medan flygplatskön når fyra timmar, samtidigt som hans namn ska tryckas på amerikanska dollarsedlar – en första för en sittande president som Treasury Secretary Scott Bessent kallar ett sätt att erkänna Trumps \"historiska prestationer\".",
-      "Trump skickar både militär och fredförslag till Iran inom timmar, hotar att \"släppa helvetet\" om de inte accepterar, men Iran avvisar allt och säger att USA förhandlar med sig själv – medan Ryssland erbjuder att sluta dela underrättelser med Iran om USA slutar dela med Ukraina.",
-      "Ryssland fyrar nästan tusen drönare på Ukraina på två dagar, dödar minst sju människor, skjuter in en kyrka i Lviv, och Zelenskyj säger att USA kopplar säkerhetgarantier till att Ukraina ger upp Donbas – samtidigt som stray drönare från Ukraina träffar kraftverk i Estland och Lettland.",
-      "Orbán hotar att blockera EU:s 1,8 biljoner euro budget om han vinner valet i april, medan en dokumentär avslöjar påstått massiv väljarpåtryckning med pengar och droger i 53 ungerska valkretsar – och Nordkorea och Belarus undertecknar vänskapsavtal medan cirka 2000 nordkoreanska soldater redan är döda i Ukraina."
+      "Trump beordrar TSA-agenter betalda under regeringsstoppet när flygplatskön når fyra timmar, men hans strategi mot Iran är splittrad mellan militär eskalering och fredsamtal som Iran redan avvisat som ensidiga och orättvisa.",
+      "Zelenskyj säger att USA kopplar säkerhetgarantier till att Ukraina måste avträda hela Donbas, medan Ryssland skjuter nästan tusen drönare på en dag och dödar minst sju människor, och Moldova förklarar energikris när en kraftledning från Europa skadas.",
+      "Israel säger att det har dödat Irans marinchef Alireza Tangsiri som övervakade Hormuzblockaden, medan över 1900 iranianer är döda och Trump pausar attackerna på Irans energianläggningar i tio dagar trots att Iran kallar hans fredförslag för orättvist.",
+      "Orbáns regering i Ungarn anklagas för massiv väljarpåtryckning med pengar och droger i 53 valkretsar före valet den 12 april, där Fidesz ligger efter i opinionsmätningarna mot Peter Magyars Tisza-parti."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump beordrar löner till TSA-agenter under den pågående regeringsstängningen sedan februari, då hundratals säkerhetspersonal slutat på grund av uteblivna löner och väntetiderna på flygplatser nått över fyra timmar – den längsta i TSA:s 24-åriga historia. Samtidigt tillkännager Treasury Department att Trumps signatur kommer att tryckas på amerikanska dollarsedlar tillsammans med Treasury Secretary Scott Bessent, en första för en sittande president som Bessent säger är ett sätt att erkänna \"Trumps historiska prestationer\" inför USA:s 250-årsjubileum. Dokumentet från Special Counsel Jack Smith avslöjar att Trump enligt påstående visade klassificerad karta för passagerare på privatflygplan 2022 och behöll hemligstämplade dokument så känsliga att bara sex personer i regeringen hade tillgång till dem – anklagelser som Vita huset avfärdar. Michael Flynn, Trumps tidigare säkerhetschef, når förlikning med justitiedepartementet efter att ha stämt för 50 miljoner dollar för påstått felaktig åtal, och departementet kallar det en \"historisk orättvisa\" medan Flynn säger att förlikningen visar att Trump-administrationen är engagerad i att hålla tidigare tjänstemän ansvariga.",
+      "summary": "Trump beordrar Department of Homeland Security att omedelbar betala TSA-agenter för att lindra kaos på amerikanska flygplatser där väntiderna överskrider fyra timmar och hundratals säkerhetspersonal har slutat sedan regeringsstoppet började i februari. Hans strategi mot Iran är däremot splittrad: på samma dag skickar Pentagon marktrupper till regionen och amerikanska förhandlare presenterar en 15-punkts fredsplan, men dagen efter hotar Vita huset att slå hårdare än någonsin om Iran inte accepterar. Iran avvisar förslaget som ensidigt och orättvist, vilket väcker frågor om huruvida någon faktisk diplomati pågår. Michael Flynn, Trumps tidigare säkerhetschef, når en ekonomisk förlikning med justitiedepartementet efter att ha stämt för 50 miljoner dollar för påstått felaktig åtal kopplat till Trumps 2016-kampanj, och departementet kallar detta en \"historisk rättelse\" av \"Ryssland-samarbetshoxan\". En memo från 2023 som läcktes till kongressen hävdar att Trump visade en klassificerad karta för passagerare på ett privatflygplan 2022 och behöll ett dokument så känsligt att bara sex personer i regeringen hade tillgång till det, men Vita huset avfärdar anklagelserna.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -56,13 +56,6 @@
           "link": "https://www.bbc.com/news/articles/cr513dnq61mo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-4",
-          "headline": "Trump's signature to appear on US dollars in first for sitting president",
-          "source": "BBC News: US & Canada",
-          "pubDate": "Thu, 26 Mar 2026 23:36:14 GMT",
-          "link": "https://www.bbc.com/news/articles/cz0el909yp3o?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "id": "trump-usa-bbc-news-us-canada-7",
           "headline": "Trump's Iran strategy is to pursue two off-ramps at once",
           "source": "BBC News: US & Canada",
@@ -82,6 +75,13 @@
           "source": "BBC News: US & Canada",
           "pubDate": "Wed, 25 Mar 2026 19:28:59 GMT",
           "link": "https://www.bbc.com/news/articles/c3w3e3p2456o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "trump-usa-ekot-6",
+          "headline": "”Så länge det finns en Castro kommer inget ändras”",
+          "source": "Ekot",
+          "pubDate": "Fri, 27 Mar 2026 05:15:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9185228"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Ryssland lanserar nästan tusen drönare på Ukraina under två dagar – cirka 400 långdistansdrönare och 23 marskalkryss på natten följt av 556 drönare på dagen – vilket dödar minst sju människor och träffar bland annat en 1600-tals kyrka i Lvivs UNESCO-listade medeltidscenter, medan Zelenskyj säger att detta visar att Ryssland inte har någon avsikt att faktiskt avsluta kriget. Stray drönare från Ukrainas attack på den ryska hamnen Ust-Luga träffar en kraftverk i Estland och exploderar i Lettland, vilket får båda länderna att bekräfta att det var ukrainska drönare som avvek från sin kurs. Moldavien förklarar energinödläge efter att en nyckelkraftledning till Europa kopplades bort på grund av ryska attacker i Ukraina, och premiärminister Alexandru Munteanu uppmanar befolkningen att minska förbrukningen medan reparationen förväntas ta upp till sju dagar. Zelenskyj säger att USA kopplar säkerhetgarantier till att Ukraina ger upp hela Donbas-regionen, och att Ryssland försöker utpressa USA genom att erbjuda att sluta dela underrättelser med Iran om Washington slutar dela med Ukraina.",
+      "summary": "Zelenskyj säger att USA gör sina säkerhetgarantier för en fredsöverenskommelse villkorad av att Ukraina avträder hela Donbas-regionen till Ryssland, och att Trump fokuserar på sin egen konflikt med Iran medan han pressar Ukraina att acceptera snabba lösningar. Ryssland erbjuder enligt Zelenskyj att sluta dela militär underrättelse med Iran om USA slutar dela underrättelse med Ukraina, vilket Zelenskyj kallar utpressning. Ryssland lanserar nästan tusen drönare mot Ukraina på två dagar – nästan 400 långdistansdrönare och 23 marskryssningsrobotar på natten följt av 556 drönare på dagen – vilket dödar minst sju människor och utgör en av de största luftbombardemanskampanjerna sedan invasionen började. Zelenskyj anklagar Ryssland för \"absolut förtvivlan\" efter att iranska drönare moderniserade av Ryssland träffar en kyrka i Lviv. Moldova förklarar energikris i 60 dagar efter att en kraftledning från Europa genom Ukraina skadas av ryska drönattacker, och premiärminister Alexandru Munteanu uppmanar befolkningen att minska förbrukningen.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -112,39 +112,39 @@
       ],
       "items": [
         {
-          "id": "putin-ukraina-bbc-news-europe-10",
-          "headline": "Estonia and Latvia say territories hit by stray Ukrainian drones",
-          "source": "BBC News: Europe",
-          "pubDate": "Wed, 25 Mar 2026 12:42:14 GMT",
-          "link": "https://www.bbc.com/news/articles/c1eql309n12o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "putin-ukraina-the-guardian-ukraine-5",
+          "id": "putin-ukraina-the-guardian-ukraine-6",
           "headline": "Ukraine war briefing: Zelenskyy says US has linked security guarantees to ceding of Donbas",
           "source": "Guardian staff and agencies",
           "pubDate": "Thu, 26 Mar 2026 06:51:05 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/26/ukraine-war-briefing-zelenskyy-says-us-has-linked-security-guarantees-to-ceding-of-donbas"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-7",
+          "id": "putin-ukraina-the-guardian-ukraine-8",
           "headline": "Ukraine war briefing: Moldova declares emergency after Russian attack cuts key power line",
           "source": "Staff and agencies",
           "pubDate": "Wed, 25 Mar 2026 05:49:33 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/25/ukraine-war-briefing-moldova-declares-emergency-after-russian-attack-cuts-key-power-line"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-6",
+          "id": "putin-ukraina-the-guardian-ukraine-7",
           "headline": "North Korea and Belarus sign ‘friendship and cooperation’ treaty",
           "source": "Agence France-Presse",
           "pubDate": "Thu, 26 Mar 2026 06:48:34 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/26/north-korea-belarus-friendship-cooperation-treaty"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-10",
+          "id": "putin-ukraina-the-guardian-ukraine-11",
           "headline": "Russia fires nearly 1,000 drones in one of its largest aerial attacks on Ukraine",
           "source": "Pjotr Sauer",
           "pubDate": "Tue, 24 Mar 2026 18:15:48 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/24/russia-strikes-civilian-areas-ukraine"
+        },
+        {
+          "id": "putin-ukraina-bbc-news-europe-5",
+          "headline": "Ukraine signs deal with Saudi Arabia offering drone expertise",
+          "source": "BBC News: Europe",
+          "pubDate": "Fri, 27 Mar 2026 10:15:27 GMT",
+          "link": "https://www.bbc.com/news/articles/cx2r4wxdw3no?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Trump signalerar att USA är intresserad av att hitta en väg ut ur kriget med Iran genom att både skicka militär till regionen och en 15-punkts fredförslag inom timmar, men Iran avvisar allt och säger att det inte förhandlar med USA – medan utrikesminister Abbas Araghchi säger att USA har skickat idéer via medlare men att Iran inte har någon avsikt att förhandla för närvarande. Iranier avvisar Trumps påstående om \"mycket bra och produktiva samtal\" och säger att amerikaner \"förhandlar med sig själva\", vilket återspeglar djupt misstroende efter att tidigare samtal två gånger följdes av israeliska och amerikanska militära attacker på Iran. Fredförslaget kräver enligt rapporter att Iran åtar sig att aldrig utveckla kärnvapen, demonterar kärnfaciliteter, begränsar sitt missilprogram, slutar finansiera regionala proxies som Hezbollah och Hamas, öppnar Hormuzstränden och accepterar att alla sanktioner lyfts.",
+      "summary": "Indien sänker bränsleskatterna drastiskt – bensinaccisen från 13 rupier per liter till 3 rupier och dieselaccisen helt avskaffad – för att skydda konsumenter från stigande globala energipriser orsakade av USA och Israels krig mot Iran. Indien är världens tredje största råoljeimportör och får cirka 40 procent av sin råolja genom Hormuzstränden, men säger att det inte finns någon brist och att nuvarande reserver räcker i 74 dagar. Irans röda halvmåne söker efter överlevande under ruiner efter USA-israeliska attacker på Teheran och Qom, där luftanfall på tre bostadshus i Qom dödar sex människor på fredagen. En bostadskomplex i Urmia träffas av en direktmissilattack som förstör fyra bostadshus helt. Iran rapporterar nästan 1937 dödsfall under kriget och nästan 25000 skadade, inklusive 240 kvinnor och 212 barn. Israel säger att det har dödat marinchef Alireza Tangsiri från Irans islamiska revolutionsgarde som övervakade Hormuzblockaden – en nästan total blockad genom vilken omkring 20 procent av världens olja och flytande naturgas normalt passerar – och att flera andra höga marinkommandanter också är döda.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,39 +175,39 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-1",
-          "headline": "Malaysia’s ships allowed to pass Strait of Hormuz, PM Anwar says",
+          "id": "iran-al-jazeera-rss-2",
+          "headline": "India lowers fuel taxes, says rumours of lockdown ‘completely false’",
           "source": "Al Jazeera RSS",
-          "pubDate": "Fri, 27 Mar 2026 04:24:39 +0000",
-          "link": "https://www.aljazeera.com/economy/2026/3/27/malaysias-ships-allowed-to-pass-strait-of-hormuz-pm-anwar-says?traffic_source=rss"
+          "pubDate": "Fri, 27 Mar 2026 09:50:01 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/27/india-slashes-petrol-diesel-import-taxes-as-fuel-prices-remain-high?traffic_source=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-1",
-          "headline": "Trump's Iran strategy is to pursue two off-ramps at once",
-          "source": "BBC News: Middle East",
-          "pubDate": "Thu, 26 Mar 2026 02:00:53 GMT",
-          "link": "https://www.bbc.com/news/articles/c15d980nyw1o?at_medium=RSS&at_campaign=rss"
+          "id": "iran-al-jazeera-rss-5",
+          "headline": "Iran emergency workers search for survivors after deadly US-Israel attacks",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Fri, 27 Mar 2026 08:45:24 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/27/rescuers-search-for-survivors-of-us-israeli-strikes-on-irans-tehran-qom?traffic_source=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-3",
-          "headline": "Iran's rejection of US talks reflects deep mistrust",
-          "source": "BBC News: Middle East",
-          "pubDate": "Wed, 25 Mar 2026 22:39:20 GMT",
-          "link": "https://www.bbc.com/news/articles/cgrlwk29ppzo?at_medium=RSS&at_campaign=rss"
+          "id": "iran-al-jazeera-rss-11",
+          "headline": "Iran bans sports teams from travelling to ‘hostile’ countries amid war",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Fri, 27 Mar 2026 07:25:59 +0000",
+          "link": "https://www.aljazeera.com/sports/2026/3/27/iran-bans-sports-teams-from-travelling-to-hostile-countries-amid-war?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-13",
+          "headline": "US-Israel war on Iran: What’s happening on day 28 of attacks?",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Fri, 27 Mar 2026 06:35:14 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/27/us-israel-war-on-iran-whats-happening-on-day-28-of-attacks-2?traffic_source=rss"
         },
         {
           "id": "iran-bbc-news-middle-east-4",
-          "headline": "Iran's foreign minister says there are no negotiations with US",
+          "headline": "Israel says it has killed Iran's navy chief overseeing Strait of Hormuz blockade",
           "source": "BBC News: Middle East",
-          "pubDate": "Wed, 25 Mar 2026 21:06:26 GMT",
-          "link": "https://www.bbc.com/news/articles/cly9nz5vyz4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-5",
-          "headline": "'There's no safety anymore': Palestinians warn of expanding West Bank settler violence",
-          "source": "BBC News: Middle East",
-          "pubDate": "Wed, 25 Mar 2026 12:27:28 GMT",
-          "link": "https://www.bbc.com/news/articles/c747x00m83vo?at_medium=RSS&at_campaign=rss"
+          "pubDate": "Thu, 26 Mar 2026 15:26:36 GMT",
+          "link": "https://www.bbc.com/news/articles/cy81p99x07no?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Viktor Orbáns möjliga seger i det ungerska valet den 12 april riskerar att förstöra EU:s förhoppningar om att nå en budgetöverenskommelse till slutet av 2026, då Orbán har hotat att lägga veto på någon budget som kopplar EU-betalningar till demokratiska krav – något som är en nyckelprioritering för rika nordeuropeiska länder vars bidrag till EU-budgeten långt överstiger vad de får tillbaka. Enligt tio EU-tjänstemän och diplomater är värsta scenariot att Orbán säkrar en fjärde mandatperiod och blockerar budgetförhandlingarna, medan ungersk minister János Bóka säger att om regeringen vinner valet ser de ingen anledning att skynda på överenskommelsen. En dokumentär som släpptes på torsdagen avslöjar påstått massiv väljarpåtryckning i Orbáns Fidesz-regering, där väljare, borgmästare, före detta valtjänstemän och en polis hävdar att stora summor pengar och till och med illegala droger erbjuds för att tvinga människor att rösta på Fidesz – med påstått målsättning på 53 av Ungerns 106 valkretsar och upp till 600 000 väljare, potentiellt 10 procent av den förväntade valdeltagandet på sex miljoner.",
+      "summary": "Viktor Orbáns Fidesz-regering i Ungarn anklagas för massiv väljarpåtryckning i en dokumentärfilm som släpptes på torsdagen före parlamentsvalet den 12 april, där Fidesz ligger efter i opinionsmätningarna. Filmen \" Price of Vote\" presenterar resultaten av en sex månaders utredning av oberoende filmmare och journalister som visar att väljare, borgmästare, före detta valtjänstemän och en polis hävdar att stora summor pengar och till och med illegala droger erbjuds för att pressa människor att rösta på Fidesz. Femtitre av Ungerns 106 individuella valkretsar och upp till 600000 väljare är måltavlor enligt filmen – potentiellt 10 procent av den förväntade valdeltagandet på sex miljoner. Alla berörda valkretsar är landsbygds- eller småstadskommuner som i allt högre grad domineras av Fidesz sedan 2010. Filmen skildrar en landsbygds-Ungern bestående av fattiga byar hemma för landets stora romska minoritet, där lokala borgmästare utövar järngrepp över dagliga liv genom att tillhandahålla arbete, ved, transport till vallokal.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,14 +238,7 @@
       ],
       "items": [
         {
-          "id": "orban-eu-politico-europe-8",
-          "headline": "Talks on EU’s €1.8T budget hinge on Hungarian election",
-          "source": "Gregorio Sorgi, Max Griera",
-          "pubDate": "Thu, 26 Mar 2026 20:40:42 +0000",
-          "link": "https://www.politico.eu/article/talks-eu-1-point-8-trillion-euro-budget-hinge-hungarian-election-orban/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
-        },
-        {
-          "id": "orban-eu-bbc-news-europe-1",
+          "id": "orban-eu-bbc-news-europe-3",
           "headline": "Orban's Hungarian government accused of mass voter intimidation ahead of election",
           "source": "BBC News: Europe",
           "pubDate": "Thu, 26 Mar 2026 17:16:06 GMT",
