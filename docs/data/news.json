@@ -5,7 +5,7 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-03-28T04:58:50.091Z",
+  "generatedAt": "2026-03-28T10:30:36.429Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
@@ -13,12 +13,12 @@
   },
   "brief": {
     "title": "Världen brinner medan makthavare leker",
-    "intro": "Trumps administration driver världen mot nya konflikter medan den försöker omforma USA efter egna behov. Från Irans kärnkraftverk till Ungarns valfusk visar veckan hur makt utan ansvar skapar kaos i flera världsdelar samtidigt.",
+    "intro": "En månad in i USA:s och Israels krig mot Iran har Mellanöstern förändrats radikalt – kärnkraftverk träffas, miljoner flyr, och energipriserna skjuter i höjden.",
     "bullets": [
-      "Trump döpte Hormuzsundet till sitt eget namn och kräver NATO-stöd för att öppna det, medan Iran attackeras med full kraft och kärnkraftverket i Bushehr träffades. Samtidigt skriver hans namn på amerikanska dollarsedlar som första sittande president.",
-      "Zelenskyy säger att USA kräver att Ukraina ger upp Donbas för säkerhet, Rubio kallar det en lögn, och Ryssland skjuter upp nästan tusen drönare på en månad medan Moldavien förklarar energikris.",
-      "USA och Israel har dödat över 1900 iranier på fyra veckor, blockerat Hormuzsundet och skapat regionalt kaos. Trump skickar både fredförslag och hotelser samtidigt medan Houthierna varnar om militär intervention.",
-      "Orbán övervakar journalister med hemlig polis, anklagas för massiv väljarpressning med pengar och droger i 53 valkretsar, och hans parti ligger efter i opinionsmätningarna inför valet den 12 april."
+      "Trump döpte Hormuzsundet till Trump-sundet, kräver NATO-stöd för sitt Irankrieg, och blir första sittande president med sin signatur på amerikanska dollarsedlar – medan Jane Fonda och hundra andra samlas för att protestera mot hans censur och bokförbud.",
+      "Ryssland intensifierar sin våroffensiv med nästan tusen drönare på en natt, Moldova förklarar energikris efter att kraftledning skadades, och Nordkorea samt Belarus undertecknar vänskapsavtal medan över 2000 nordkoreanska soldater redan dödats i Ukraina.",
+      "Iran varnar för \"tungt pris\" efter israeliska attacker på kärnkraftverk och stålverk, Houthirebeller från Jemen attackerar Israel för första gången, och en fjärdedel av Libanons befolkning är på flykt – medan Trump skickar både fredförslag och hotelser om att \"släppa helvetet\".",
+      "Orbáns regering spionerar på journalister, erbjuder pengar och droger för att tvinga väljare att rösta på Fidesz, och står inför val där partiet ligger nio procentenheter efter – medan EU-motståndaren Peter Magyar växer i styrka."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump-administrationen fortsätter att omforma USA enligt egna preferenser medan den driver världen mot nya konflikter. Iran attackerades hårt med explosioner vid kärnkraftverket i Bushehr, vilket skadade amerikanska soldater i Saudiarabien och dödade minst en person i Tel Aviv. Trump uttryckte besvikelse över att inte få större NATO-stöd för att öppna Hormuzsundet, som han döpte till \"Trump-sundet\" i sitt tal. Samtidigt lanserade Treasury Secretary Scott Bessent ett historiskt beslut: Trumps signatur kommer att tryckas på amerikanska dollarsedlar tillsammans med Bessents, vilket gör Trump till första sittande president med sin underskrift på valutan. Bessentt hyllade detta som ett sätt att \"erkänna de historiska prestationerna\" av landet och presidenten. I Venezuela hyllas Trumps militära insats från januari då Nicolás Maduro fördes bort – över 500 politiska fångar har släppts sedan dess, även om hundratals andra fortfarande sitter fängslade och FN rapporterar att tortyr fortsätter.",
+      "summary": "Trump har gjort sitt namn till varumärke för amerikansk makt på ett sätt som tidigare presidenter inte vågat. Hans signatur kommer att tryckas på alla nya hundradollarssedlar från juni – en första för en sittande president – tillsammans med finansminister Scott Bessents namn, en förändring som bryter med tradition sedan 1861. Samtidigt uttrycker Trump besvikelse över NATO-länders militära stöd för hans Irankrieg och döper Hormuzsundet till \"Trump-sundet\" i sitt tal. I Iran har explosioner träffat kärnkraftverket i Bushehr, amerikanska soldater i Saudiarabien skadades i iranska attacker, och en man dödades i Tel Aviv. Situationen i Libanon blir allt allvarligare enligt FN:s flyktingorgan. Hundra journalister, musiker och författare samlas utanför Kennedy Center i Washington för att protestera mot Trumps bokförbud och politiska censur under Jane Fondas ledning. En 80-årig floridaadvokat vid namn Peter Ticktin, som har band till Trump och representerar väljare som förnekar 2020-valet, driver en juridiskt tveksam plan för en presidentorder som skulle avsluta maskin- och postomröstning – något valkunniga ser som ett försök att begränsa rösträttigheterna inför höstens mellanval.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -49,7 +49,7 @@
       ],
       "items": [
         {
-          "id": "trump-usa-ekot-3",
+          "id": "trump-usa-ekot-7",
           "headline": "Iranskt kärnkraftverk har träffats i attack",
           "source": "Ekot",
           "pubDate": "Sat, 28 Mar 2026 04:30:00 GMT",
@@ -63,7 +63,7 @@
           "link": "https://www.theguardian.com/us-news/2026/mar/27/jane-fonda-kennedy-center-rally-trump"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-9",
+          "id": "trump-usa-the-guardian-donald-trump-12",
           "headline": "How an election conspiracy theorist has Trump’s ear on voting laws and midterms",
           "source": "Peter Stone in Washington",
           "pubDate": "Fri, 27 Mar 2026 13:00:02 GMT",
@@ -77,7 +77,7 @@
           "link": "https://www.bbc.com/news/articles/cz0el909yp3o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-svt-nyheter-utrikes-9",
+          "id": "trump-usa-svt-nyheter-utrikes-10",
           "headline": "Tackar för Trumps insats i Venezuela: ”Läget är annorlunda nu”",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Thu, 26 Mar 2026 20:16:51 +0100",
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Kriget i Ukraina intensifieras medan diplomatiska signaler sänder motsägelsefulla budskap. Zelenskyy hävdade att USA gör sina säkerhetgarantier beroende av att Ukraina avstår från Donbas-regionen, men USA:s utrikesminister Marco Rubio kallade detta en lögn och sa att USA inte ställt sådan villkor. Zelenskyy menade att Trump fokuserar på Mellanöstern och därför pressar Ukraina hårdare för att få ett snabbt slut på kriget. Han påpekade också att Ryssland försöker utpressa USA genom att erbjuda att sluta dela militär underrättelse med Iran om Amerika slutar dela underrättelse med Ukraina. Frankrike kritiserades hårt för att sända en intervju med Rysslands utrikesminister Sergei Lavrov i prime time, där han hävdade att Ryssland försvarar internationell rätt – något som Ukrainas ambassadör kallade en plattform för \"en krigsförbrytare\". Ryssland intensifierar luftoffensiven: på fyra veckor har nästan tusen drönare avfyrats mot Ukraina, inklusive nästan 400 långdistansdrönare och 23 marskryssare på en natt följt av 556 drönare på dagen, vilket dödat minst sju personer. En attack träffade ett 500 år gammalt kloster i Lviv.",
+      "summary": "Ryssland intensifierar sin våroffensiv med nästan tusen drönare på två dagar – först nästan 400 långdistansdrönare och 23 marskruisningar på natten, sedan 556 drönare på dagen – vilket dödar minst sju människor och utgör en av de största luftbombardemanskampanjerna sedan invasionen för fyra år sedan. Ukrainas president Volodymyr Zelenskyy anklagar Ryssland för \"absolut depravitet\" efter att iranska drönare moderniserade av Ryssland träffar en kyrka från 1500-talet i Lviv. Ryssland säger att det skjutit ned 389 ukrainska drönare på en natt, en av de största attackerna hittills. Zelenskyy hävdar att USA gör sina säkerhetgarantier beroende av att Ukraina avstår från Donbas-regionen, men USA:s utrikesminister Marco Rubio kallar detta för en lögn och säger att USA inte ställt sådan villkor. Frankrike kritiseras hårt för att ha sändt en tio minuters intervju med Rysslands utrikesminister Sergei Lavrov i prime time, där han hävdar att Ryssland försvarar internationell rätt – något Ukrainas ambassadör kallar propaganda från en krigsförbrytare. Moskva förnekar rapporter om att Putin bad oligarker att donera pengar för att finansiera kriget.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "USA och Israels krig mot Iran har på fyra veckor förändrat Mellanöstern dramatiskt och skapat global osäkerhet. Över 1900 iranier är döda, många toppledare i Iran har dödats inklusive Överste ledaren Ali Khamenei, och energipriserna stiger världen över. Ryssland blockerade Hormuzsundet, en kritisk vattenväg för en femtedel av världens olje- och gasförsörjning. Trump signalerar intresse för att \"vinda ner\" kriget men hans strategi är oklar – han skickar både fredförslag och hot om att \"släppa helvetet\" på Iran. Pentagon beordrade marktrupper till regionen samtidigt som USA skickade en 15-punktsplan för fred, men Iran avvisade förslaget och säger att det inte förhandlar med USA. Houthierna från Jemen, som är allierade med Iran, varnade att de har \"fingrarna på avtryckaren\" för direkt militär intervention om nya länder ansluter sig till USA-Israel-kriget eller om Röda havet används för attacker mot Iran – detta väcker farhågor om ett större regionalt krig. I Västbanken har israeliska bosättare intensifierat våldet sedan krigets början: sex palestinier har dödats av bosättare enligt FN, och en dokumentär avslöjar organiserad terror med attacköverfall på byar.",
+      "summary": "En månad in i USA:s och Israels krig mot Iran har Mellanöstern förändrats radikalt. Israels attacker på kärnkraftverken i Bushehr och två av landets största stålverk får Iran att varna för ett \"tungt pris\" och anklaga USA och Israel för att \"leka med elden\" genom att attackera energiinfrastruktur; Iran säger att det inte finns någon radioaktiv läcka. Trump säger att han är \"mycket besviken\" på NATO:s respons och anklagar alliansen för att inte stödja USA trots årtionden av amerikansk militär utgift på sina allierade. Houthirebeller från Jemen attackerar Israel med en salva ballistiska missiler för första gången sedan kriget började – deras första sådana attacker – och säger att strejkerna kommer att fortsätta tills aggressionen mot \"alla fronter av motståndet\" upphör. Israels militär säger att den avskärmade en missil. Omkring en fjärdedel av Libanons befolkning är på flykt efter Israels massiva evakueringsorder från södra delen och Beiruts södra förorter; många är frustrerade och utmattade, och dödsfall från israeliska attacker fortsätter tillsammans med stigande bensinpriser och långsammare affärsverksamhet.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,18 +175,32 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-1",
+          "id": "iran-al-jazeera-rss-6",
+          "headline": "US-Israel war on Iran: What’s happening on day 29 of attacks?",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Sat, 28 Mar 2026 08:17:54 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/28/iran-war-what-is-happening-on-day-29-of-us-israel-attacks?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-8",
+          "headline": "Yemen’s Houthis launch missile attack on Israel as war with Iran intensifies",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Sat, 28 Mar 2026 07:30:45 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/28/yemens-houthis-claim-responsibility-for-a-missile-attack-on-israel-2?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-13",
+          "headline": "Israel’s unending attacks in Lebanon push country’s population to the brink",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Sat, 28 Mar 2026 04:59:19 +0000",
+          "link": "https://www.aljazeera.com/features/2026/3/28/israels-unending-attacks-in-lebanon-push-countrys-population-to-the-brink?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-15",
           "headline": "How the US-Israel war on Iran unfolded in its first four weeks",
           "source": "Al Jazeera RSS",
           "pubDate": "Sat, 28 Mar 2026 04:15:55 +0000",
           "link": "https://www.aljazeera.com/news/2026/3/28/how-the-us-israel-war-on-iran-unfolded-in-its-first-four-weeks?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-9",
-          "headline": "Houthis warn ‘fingers on the trigger’ as US-Israel war on Iran continues",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Fri, 27 Mar 2026 22:53:23 +0000",
-          "link": "https://www.aljazeera.com/news/2026/3/27/houthis-warn-fingers-on-the-trigger-as-us-israeli-war-on-iran-continues?traffic_source=rss"
         },
         {
           "id": "iran-bbc-news-middle-east-5",
@@ -194,20 +208,6 @@
           "source": "BBC News: Middle East",
           "pubDate": "Thu, 26 Mar 2026 02:00:53 GMT",
           "link": "https://www.bbc.com/news/articles/c15d980nyw1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-9",
-          "headline": "Iran's foreign minister says there are no negotiations with US",
-          "source": "BBC News: Middle East",
-          "pubDate": "Wed, 25 Mar 2026 21:06:26 GMT",
-          "link": "https://www.bbc.com/news/articles/cly9nz5vyz4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-10",
-          "headline": "'There's no safety anymore': Palestinians warn of expanding West Bank settler violence",
-          "source": "BBC News: Middle East",
-          "pubDate": "Wed, 25 Mar 2026 12:27:28 GMT",
-          "link": "https://www.bbc.com/news/articles/c747x00m83vo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Orbáns Ungern står inför en växande storm av anklagelser om övervakning och väljarpressning innan valet den 12 april. Investigativ journalist Szabolcs Panyi avslöjade att Ungarns utländska underrättelsetjänst övervakade hans privata samtal och att informationen användes för att försöka diskreditera honom efter hans rapportering om hemliga möten mellan utrikesminister Péter Szijjártó och Rysslands Sergei Lavrov. Panyi säger att övervakningen intensifierades efter att hans redaktion Direkt36 publicerade en artikel om en ungersk underrättelseagent som försökte rekrytera EU-kommissionärer i Bryssel. En dokumentär kallad \" Price of Vote\" lanserades på torsdagen och presenterar sex månaders utredning som visar att Orbáns Fidesz-regering anklagas för massiv väljarpressning: väljare, borgmästare, före detta valtjänstemän och en polis hävdar att stora summor pengar och till och med illegala droger erbjuds för att tvinga människor att rösta på Fidesz. Filmen hävdar att 53 av Ungarns 106 valkretsar och upp till 600000 väljare är måltavla – potentiellt 10 procent av den förväntade valdeltagandet på sex miljoner.",
+      "summary": "Ungerns premiärminister Viktor Orbáns regering står inför två allvarliga anklagelser veckor före parlamentsvalet den 12 april. En investigativ journalist vid namn Szabolcs Panyi, som rapporterat om rysk påverkan i Ungern i flera år, säger att Orbáns regering spionerade på hans privata samtal genom att avlyssna honom och sedan använde den information som regeringen fångade för att försöka misskreditera honom – något Panyi säger är \"menat att psykologiskt pressa mig och förstöra min trovärdighet\". Panyi varnas av källor inom regeringen att hans samtal med kontakter avlyssnas och skickas till Ungerns informationsbyrå. Denna påstådda kampanj började i mitten av 2025 och blev \"mer aggressiv\" efter att Panyi skrev om en ungersk underrättelseoperativ som försökte rekrytera tjänstemän på Europeiska kommissionen.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,7 +238,7 @@
       ],
       "items": [
         {
-          "id": "orban-eu-politico-europe-1",
+          "id": "orban-eu-politico-europe-5",
           "headline": "Orbán’s spies were hunting me, says Hungarian journalist accused of espionage",
           "source": "Antoaneta Roussi",
           "pubDate": "Fri, 27 Mar 2026 20:04:11 +0000",
