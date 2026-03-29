@@ -5,7 +5,7 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-03-28T15:30:15.640Z",
+  "generatedAt": "2026-03-29T05:03:42.797Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
@@ -13,12 +13,12 @@
   },
   "brief": {
     "title": "Världen brinner medan makthavare leker",
-    "intro": "Trump skickar trupper till Mellanöstern medan han låter sin signatur tryckas på dollarsedlar, Orbán spionerar på journalister inför val han håller på att förlora, och Iran samt Ryssland fortsätter att bomba utan att någon verkar kunna stoppa det.",
+    "intro": "Miljontals amerikaner demonstrerar mot Trump medan han skickar trupper till Mellanöstern och förhandlar bort Ukrainas territorium.",
     "bullets": [
-      "Trump skickar marinbataljoner och fallskärmsjägare till Mellanöstern för att kunna slå till mot Iran om förhandlingarna misslyckas, samtidigt som han låter sitt namn tryckas på nya hundradollarssedlar – en första för en sittande president som visar hur långt narcissismen sträcker sig.",
-      "Zelenskyy säger att USA kräver att Ukraina avstår från Donbas för att få säkerhetgarantier, Rubio kallar det en lögn, och medan världen fokuserar på Iran skjuter Ryssland nästan tusen drönare på ukrainska städer och dödar civila utan att något fredsavtal är i sikte.",
-      "Iran varnar sina grannar att inte låta USA köra krig från deras territorium, avvisar Trumps fredförslag, och kärnkraftverket i Bushehr träffas i attacker medan Irans fotbollslag spelar med svarta armband för att hedra 170 döda barn från en skola som bombades på krigets första dag.",
-      "Orbán spionerar på journalister som rapporterar om hans hemliga möten med Ryssland, hans regering anklagas för att köpa väljare med pengar och droger inför valet den 12 april, och han ligger efter i opinionsmätningarna medan EU suckar över hans obstruktionism."
+      "Åtta miljoner amerikaner deltog i No Kings-demonstrationer mot Trumps politik kring ekonomi, massutvisningar och kriget mot Iran. Vita huset avfärdade protesterna som 'terapi' medan Jane Fonda och Bruce Springsteen uppmanade motstånd mot censur och auktoritarism.",
+      "Zelenskyy undertecknade tioåriga försvarspakter med Qatar, Saudiarabien och Förenade Arabemiraten för att sälja ukrainsk dronexpertis, medan Trump-administrationen enligt honom kräver att Kyiv avstår från Donbas för säkerhetgarantier – något Rubio förnekar men Zelenskyy upprepar.",
+      "Houthierna öppnade ny front mot Israel med missil- och drönattacker, Irak blir slagfält för amerikanska-israeliska luftanfall mot iranska miliser, och iranska politiker kräver att landet lämnar kärnvapenpakten när USA och Israel bombarderar civila kärnkraftanläggningar.",
+      "Orbáns regering anklagas för massiv väljarpåtryckning med pengar och droger i 53 valkretsar, medan journalisten Szabolcs Panyi säger att ungersk underrättelsetjänst spionerade på honom för att tysta hans rapportering om rysk påverkan och hemliga möten mellan ungerska och ryska ministrar."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump-administrationen manövrerar på flera fronter samtidigt. Medan Marco Rubio upprepar att USA inte kräver att Ukraina avstår från Donbas för säkerhetgarantier, skickar Pentagon tusentals marinsoldater från 31:a och 11:e expeditionskåren samt omkring 2 000 fallskärmsjägare från 82:a luftburen division till Mellanöstern – förberedd för markoperationer mot Iran om diplomatin misslyckas. Samtidigt tillkännager finansdepartementet att Trumps signatur kommer att tryckas på nya hundradollarssedlar från juni, vilket gör honom till första sittande president med sitt namn på amerikansk valuta – en åtgärd som finansminister Scott Bessent försvarar som ett sätt att hedra landets 250-årsdag och Trumps \"historiska prestationer\". Jane Fonda leder en manifestation utanför Kennedy Center där journalister, musiker och författare protesterar mot bokförbud, politisk censur och hot mot yttrandefriheten under Trump.",
+      "summary": "Åtta miljoner människor deltog i No Kings-demonstrationerna på lördagen mot Trumpadministrationens politik. Protesterna riktades mot ekonomin, massutvisningar och USA:s krig mot Iran. I Los Angeles greps två personer när demonstranter omringade en federal byggnad. Protesterna ägde rum i nästan alla större amerikanska städer – New York, Washington DC, Los Angeles, Minnesota och många andra – med tiotusentals människor på gatorna. I Minnesota, där två amerikanska medborgare dödades av federala immigrationsmyndigheter i januari, framträdde Bruce Springsteen och sjöng sin låt om ICE:s destruktiva effekter. Även höga demokrater deltog på scenen. I New York City samlades hundratusentals människor på Times Square, och polisen var tvungen att stänga av gatorna. Enligt data från Crowd Counting Consortium ägde det rum över 10 700 protester i USA under 2025 – en ökning på 133 procent jämfört med 2017, Trumps första år. Även 42 procent av de län som röstade på Trump har haft minst en protest sedan hans återinträde. Vita huset avfärdade protesterna som 'Trump Derangement Therapy Sessions' och påstod att endast journalister brydde sig.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -49,6 +49,13 @@
       ],
       "items": [
         {
+          "id": "trump-usa-ekot-1",
+          "headline": "Åtta miljoner demonstrerade mot Donald Trump",
+          "source": "Ekot",
+          "pubDate": "Sun, 29 Mar 2026 03:41:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9186192"
+        },
+        {
           "id": "trump-usa-the-guardian-donald-trump-1",
           "headline": "As US troops sail to Middle East, how likely is Trump to order boots on the ground?",
           "source": "Andrew Roth in Washington",
@@ -56,32 +63,25 @@
           "link": "https://www.theguardian.com/us-news/2026/mar/28/as-us-troops-sail-to-middle-east-how-likely-is-trump-to-order-boots-on-the-ground"
         },
         {
-          "id": "trump-usa-ekot-12",
-          "headline": "Iranskt kärnkraftverk har träffats i attack",
-          "source": "Ekot",
-          "pubDate": "Sat, 28 Mar 2026 04:30:00 GMT",
-          "link": "https://www.sverigesradio.se/artikel/9185982"
-        },
-        {
-          "id": "trump-usa-the-guardian-donald-trump-10",
+          "id": "trump-usa-the-guardian-donald-trump-15",
           "headline": "‘Break your silence’: Jane Fonda leads rally against Trump crackdown on arts and media",
           "source": "David Smith in Washington",
           "pubDate": "Fri, 27 Mar 2026 23:41:34 GMT",
           "link": "https://www.theguardian.com/us-news/2026/mar/27/jane-fonda-kennedy-center-rally-trump"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-16",
-          "headline": "How an election conspiracy theorist has Trump’s ear on voting laws and midterms",
-          "source": "Peter Stone in Washington",
-          "pubDate": "Fri, 27 Mar 2026 13:00:02 GMT",
-          "link": "https://www.theguardian.com/us-news/2026/mar/27/trump-voting-election-conspiracy-midterms"
+          "id": "trump-usa-bbc-news-us-canada-1",
+          "headline": "No Kings protests across the US rally against Donald Trump",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Sun, 29 Mar 2026 04:11:27 GMT",
+          "link": "https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-13",
-          "headline": "Trump's signature to appear on US dollars in first for sitting president",
-          "source": "BBC News: US & Canada",
-          "pubDate": "Thu, 26 Mar 2026 23:36:14 GMT",
-          "link": "https://www.bbc.com/news/articles/cz0el909yp3o?at_medium=RSS&at_campaign=rss"
+          "id": "trump-usa-the-guardian-donald-trump-3",
+          "headline": "No Kings protests: millions rally in cities around the world against Trump and his administration – as it happened",
+          "source": "Cecilia Nowell",
+          "pubDate": "Sat, 28 Mar 2026 23:44:02 GMT",
+          "link": "https://www.theguardian.com/us-news/live/2026/mar/28/no-kings-protests-us-trump-administration-latest-updates"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Kriget i Ukraina fortsätter utan tecken på lösning medan världens uppmärksamhet vänds mot Iran. Zelenskyy hävdar att USA gör sina säkerhetgarantier beroende av att Ukraina avstår från hela Donbas-regionen, men Rubio avvisar påståendet som en lögn och säger att USA inte ställt sådan villkor. Zelenskyy säger att Trump pressar Ukraina hårdare än Ryssland på grund av fokus på Mellanöstern, och att Ryssland försöker utpressa USA genom att erbjuda att sluta dela underrättelser med Iran om Amerika slutar dela med Ukraina. Ryssland lanserar nästan 1 000 drönare mot Ukraina under två dagar – cirka 400 långdistansdrönare och 23 marskalkraketer på natten följt av 556 drönare på dagen – vilket dödar minst sju människor och träffar städer från väst till öst, inklusive en 500 år gammal kyrka i Lviv. Moldavien förklarar energiberedskap efter att en kritisk kraftledning till Europa skärs av av ryska drönattacker, och premiärminister Alexandru Munteanu uppmanar befolkningen att minska förbrukningen.",
+      "summary": "Zelenskyy genomförde en överraskande turné i Gulfstaterna och undertecknade tioåriga försvarspakter med Qatar och Saudiarabien, med en kommande överenskommelse med Förenade Arabemiraten. Avtalen fokuserar på samarbete kring missil- och dronbekämpning. Ukraine har utvecklats till en av världens ledande producenter av billiga och effektiva droninterceptorer som är kritiska för försvaret mot Rysslands invasion. I gengäld söker Zelenskyy avancerade luftförsvarsrobotar från Gulfstaterna. Han betonade att Ukraine vill bygga långsiktiga relationer, inte bara försäljningar, och har skickat över 200 militära experter till regionen. Samtidigt hävdar Zelenskyy att Trump-administrationen kräver att Kyiv avstår från hela Donbas-regionen i öst för att få säkerhetgarantier i en vapenstilleståndsöverenskommelse. Rubio förnekar detta kategoriskt och kallar påståendet en 'lögn', men Zelenskyy upprepar anklagelsen och säger att Trump lägger press på Ukrainas sida medan han fokuserar på Mellanöstern. Zelenskyy hävdar också att Ryssland försöker utpressa USA genom att erbjuda att sluta dela militär underrättelse med Iran om Amerika slutar dela underrättelse med Ukraine.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -113,38 +113,38 @@
       "items": [
         {
           "id": "putin-ukraina-the-guardian-ukraine-1",
+          "headline": "Ukraine war briefing: Zelenskyy drums up defence agreements with Gulf states on countering missiles and drones",
+          "source": "Guardian staff and agencies",
+          "pubDate": "Sun, 29 Mar 2026 00:06:20 GMT",
+          "link": "https://www.theguardian.com/world/2026/mar/29/ukraine-war-briefing-zelenskyy-drums-up-defence-agreements-with-gulf-states-on-countering-missiles-and-drones"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-2",
           "headline": "Ukraine war briefing: Rubio stridently denies US is demanding Kyiv give up eastern Donbas to Russia",
           "source": "Guardian staff",
           "pubDate": "Sat, 28 Mar 2026 01:19:07 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/28/ukraine-war-briefing-rubio-zelenskyy-deal-donbas-to-russia"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-7",
+          "id": "putin-ukraina-the-guardian-ukraine-8",
           "headline": "Ukraine war briefing: Zelenskyy says US has linked security guarantees to ceding of Donbas",
           "source": "Guardian staff and agencies",
           "pubDate": "Thu, 26 Mar 2026 06:51:05 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/26/ukraine-war-briefing-zelenskyy-says-us-has-linked-security-guarantees-to-ceding-of-donbas"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-9",
+          "id": "putin-ukraina-the-guardian-ukraine-10",
           "headline": "Ukraine war briefing: Moldova declares emergency after Russian attack cuts key power line",
           "source": "Staff and agencies",
           "pubDate": "Wed, 25 Mar 2026 05:49:33 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/25/ukraine-war-briefing-moldova-declares-emergency-after-russian-attack-cuts-key-power-line"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-8",
+          "id": "putin-ukraina-the-guardian-ukraine-9",
           "headline": "North Korea and Belarus sign ‘friendship and cooperation’ treaty",
           "source": "Agence France-Presse",
           "pubDate": "Thu, 26 Mar 2026 06:48:34 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/26/north-korea-belarus-friendship-cooperation-treaty"
-        },
-        {
-          "id": "putin-ukraina-the-guardian-ukraine-12",
-          "headline": "Russia fires nearly 1,000 drones in one of its largest aerial attacks on Ukraine",
-          "source": "Pjotr Sauer",
-          "pubDate": "Tue, 24 Mar 2026 18:15:48 GMT",
-          "link": "https://www.theguardian.com/world/2026/mar/24/russia-strikes-civilian-areas-ukraine"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Kriget mellan USA-Israel och Iran fortsätter utan någon verklig fredslösning i sikte. Irans president Masoud Pezeshkian varnar grannländerna att inte låta USA köra kriget från deras territorium och upprepar att Iran inte genomför preemptiva attacker men kommer att svara starkt om infrastruktur eller ekonomiska centra träffas. Irans utrikesminister Abbas Araghchi säger att landet inte förhandlar med USA och inte avser att göra det, trots att Trump säger att han talar med \"rätt människor\" i Iran och att hans presstalesperson hävdar att samtalen är \"pågående\" och \"produktiva\". Trump signalerar att han kan följa två strategier samtidigt – både eskalera konflikten för att avsluta den snabbt och pusha för en förhandlad lösning – och skickar en 15-punktsplan till Iran som kräver att landet förbinder sig att aldrig utveckla kärnvapen, demonterar kärnkraftanläggningar, begränsar sitt missilprogram, slutar finansiera regionala proxies som Hezbollah och Hamas, och öppnar Hormuzsundet. Iran avvisar planen.",
+      "summary": "Houthierna från Yemen öppnade en ny front i kriget genom att attackera Israel för första gången med två missil- och drönattacker inom mindre än 24 timmar en månad efter att USA och Israel började attackera Iran. Houthierna, som kontrollerar mycket av norra Yemen, lovade att fortsätta attackera för att stödja 'motståndsfronter i Palestina, Libanon, Irak och Iran'. De hade tidigare suttit ut konflikten, till skillnad från under Israels krig mot Gaza när deras attacker på fartyg i Röda havet störde handeln värd omkring en biljon dollar per år. Deras inblandning väcker farhågor om att de kommer att blockera Bab al-Mandeb-sundet igen för att skada Israel ekonomiskt och störa handelsvägar. Iran har samtidigt strypt trafiken genom Hormuz-sundet, en vital passage för omkring en femtedel av världens olja. Amerikanska och israeliska luftanfall träffade Iraks Popular Mobilisation Forces (PMF) och dödade tre PMF-soldater och två irakiska poliser på lördagen nära Kirkuk Airport, med ytterligare två soldater och sex irakiska soldater sårade. Två medlemmar av irakisk polis dödades också i ett luftanfall mot PMF i Mosul. PMF-ko.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,39 +175,39 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-4",
-          "headline": "Iran warns neighbours not to let ‘enemies run the war’ from their land",
+          "id": "iran-al-jazeera-rss-2",
+          "headline": "As war on Iran enters second month, Yemen’s Houthis open new front",
           "source": "Al Jazeera RSS",
-          "pubDate": "Sat, 28 Mar 2026 13:34:32 +0000",
-          "link": "https://www.aljazeera.com/news/2026/3/28/iran-warns-neighbours-not-to-let-enemies-run-the-war-from-their-land?traffic_source=rss"
+          "pubDate": "Sun, 29 Mar 2026 00:59:21 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/29/as-war-on-iran-enters-second-month-yemens-houthis-open-new-front?traffic_source=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-8",
-          "headline": "Iran footballers pay tribute to victims of school strike at start of war",
+          "id": "iran-al-jazeera-rss-6",
+          "headline": "Air strikes in Iraq kill three PMF fighters, two police",
           "source": "Al Jazeera RSS",
-          "pubDate": "Sat, 28 Mar 2026 12:20:59 +0000",
-          "link": "https://www.aljazeera.com/sports/2026/3/28/iran-footballers-pay-tribute-to-victims-of-school-strike-at-start-of-war?traffic_source=rss"
+          "pubDate": "Sat, 28 Mar 2026 22:32:05 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/28/air-strikes-in-iraq-kill-three-pmf-fighters-and-two-iraqi-police?traffic_source=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-13",
-          "headline": "Russian strikes on Ukraine kill 4 as deal to end war dims",
+          "id": "iran-al-jazeera-rss-7",
+          "headline": "Reza Pahlavi pledges to ‘make Iran great again’ at 2026 CPAC conference",
           "source": "Al Jazeera RSS",
-          "pubDate": "Sat, 28 Mar 2026 11:11:48 +0000",
-          "link": "https://www.aljazeera.com/news/2026/3/28/russian-strikes-on-ukraine-cities-kill-4-as-deal-to-end-war-dims?traffic_source=rss"
+          "pubDate": "Sat, 28 Mar 2026 22:05:31 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/28/reza-pahlavi-pledges-to-make-iran-great-again-at-2026-cpac-conference?traffic_source=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-5",
-          "headline": "Trump's Iran strategy is to pursue two off-ramps at once",
-          "source": "BBC News: Middle East",
-          "pubDate": "Thu, 26 Mar 2026 02:00:53 GMT",
-          "link": "https://www.bbc.com/news/articles/c15d980nyw1o?at_medium=RSS&at_campaign=rss"
+          "id": "iran-al-jazeera-rss-10",
+          "headline": "Could Ukraine’s drone expertise serve Gulf countries?",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Sat, 28 Mar 2026 20:50:59 +0000",
+          "link": "https://www.aljazeera.com/video/inside-story/2026/3/28/could-ukraines-drone-expertise-serve-gulf-countries?traffic_source=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-9",
-          "headline": "Iran's foreign minister says there are no negotiations with US",
-          "source": "BBC News: Middle East",
-          "pubDate": "Wed, 25 Mar 2026 21:06:26 GMT",
-          "link": "https://www.bbc.com/news/articles/cly9nz5vyz4o?at_medium=RSS&at_campaign=rss"
+          "id": "iran-al-jazeera-rss-15",
+          "headline": "As war rages, Iranian politicians push for exit from nuclear weapons treaty",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Sat, 28 Mar 2026 17:48:55 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/28/lawmakers-push-npt-exit-as-us-israel-hit-irans-nuclear-sites-steel-plants?traffic_source=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Viktor Orbáns regering i Ungern står inför intensiv granskning veckor innan parlamentsvalet den 12 april, där hans Fidesz-parti ligger efter med ungefär nio procentenheter enligt opinionsmätningar. En dokumentärfilm kallad \" Price of Vote\" som släpptes på torsdag presenterar resultat från en sex månaders utredning och hävdar att stora summor pengar och till och med illegala droger erbjuds för att pressa människor att rösta på Fidesz – potentiellt 600 000 väljare i 53 av Ungarns 106 valkretsar, motsvarande upp till 10 procent av den förväntade valdeltagandet. Filmen visar hur lokala borgmästare i fattiga byar och små städer, särskilt områden med stor romsk befolkning, utövar järnhård kontroll genom att erbjuda arbete, ved, transport till vallokal och till och med tillgång till medicin i utbyte mot rätt röst. Samtidigt avslöjar investigativ journalist Szabolcs Panyi att Ungarns utländska underrättelsetjänst har övervakat hans privata samtal – han säger att han varnas av källor inom regeringen att hans konversationer med kontakter har avlyssnas och skickats till Ungarns informationsbyrå för att användas av Orbáns regering för att misskreditera honom.",
+      "summary": "Ungerns premiärminister Viktor Orbáns regering står under intensiv granskning för påstådda övergrepp mot demokratiska principer. En investigativ journalist rapporterar att han har övervakats av Ungerns underrättelsetjänster i ett försök att diskreditera honom efter hans rapportering om hemliga samtal mellan Ungerns utrikesminister och Rysslands motsvarighet. Samtidigt avslöjar en dokumentärfilm omfattande väljarpåtryckningar inför parlamentsvalet i april, där medborgare, borgmästare och poliser vittnar om att pengar och illegala droger erbjuds för att tvinga väljare att rösta på Fidesz. Enligt filmen är upp till 600 000 väljare i omkring 53 valkretsar måltavlor för denna påtryckningskampanj, vilket motsvarar ungefär tio procent av den förväntade valdeltagandet. Efter sexton år under Orbáns styre ligger Fidesz enligt opinionsmätningar efter oppositionsledaren Peter Magyars Tisza-parti, och påtryckningarna verkar särskilt riktade mot fattiga landsbygdssamhällen med stor romsk befolkning.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,14 +238,14 @@
       ],
       "items": [
         {
-          "id": "orban-eu-politico-europe-8",
+          "id": "orban-eu-politico-europe-10",
           "headline": "Orbán’s spies were hunting me, says Hungarian journalist accused of espionage",
           "source": "Antoaneta Roussi",
           "pubDate": "Fri, 27 Mar 2026 20:04:11 +0000",
           "link": "https://www.politico.eu/article/hungary-viktor-orban-government-intelligence-surveillance-espionage/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
         },
         {
-          "id": "orban-eu-bbc-news-europe-5",
+          "id": "orban-eu-bbc-news-europe-9",
           "headline": "Orban's Hungarian government accused of mass voter intimidation ahead of election",
           "source": "BBC News: Europe",
           "pubDate": "Thu, 26 Mar 2026 17:16:06 GMT",
