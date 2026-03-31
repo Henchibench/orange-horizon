@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-03-31T10:39:00.798Z",
+  "generatedAt": "2026-03-31T15:46:05.621Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Världen i fritt fall medan makthavare leker krig",
-    "intro": "Trump tillåter rysk olja till Kuba medan han hotar att erövra Irans oljeterminal, Zelensky förhandlar med Gulfstaterna om drönteknologi medan västerländska allierade ber honom sluta attackera rysk energi, och Orbán håller på att förlora makten i Ungern efter.",
+    "title": "Världen går på självskadebeteende",
+    "intro": "Trump bombarderar Iran medan han blockerar kubansk olja, Italien nekar USA sina militärbaser, och Zelensky försöker sälja drönteknologi till Gulfstaterna för att finansiera sitt försvar.",
     "bullets": [
-      "Trump vänder på oljeblockaden mot Kuba och tillåter en rysk tanker med 730 000 fat att nå ön, samtidigt som han hotar att erövra Irans Kharg Island och förstöra landets energiinfrastruktur om ingen överenskommelse nås snart.",
-      "Zelensky förhandlar tioåriga försvarspakt med Qatar, Saudi-Arabien och Förenade Arabemiraten för att få luftförsvarsrobotar och sälja ukrainsk drönteknik, medan västerländska allierade samtidigt ber honom minska attackerna på rysk energi på grund av den globala bränslekrisen.",
-      "Irans krig med USA och Israel går in i dag 32 med fortsatta luftanfall över Teheran och Isfahan, medan Houthierna gör sitt första militära drag och hotar att stänga Röda havet.",
-      "Orbán står inför sitt största politiska slag när oppositionen under Péter Magyar hotar att sluta hans 16-åriga styre i valet den 12 april, medan hans utrikesminister Szijjártó erkänner att han samordnade med Moskva under EU:s sanktionsdebatter och påstår att hans telefon är avlyssnad av utländsk underrättelsetjänst."
+      "Trump attackerar Iran och hotar att ta dess olja, blockerar samtidigt kubansk energiförsörjning men tillåter rysk oljetanker nå ön. Italien stoppade amerikanska bombplan från att landa på Natobasen Sigonella utan tillstånd, vilket väcker frågor om relationen mellan USA och premiärminister Meloni.",
+      "Zelensky säger att västerländska allierade pressat honom att minska attacker på rysk energiinfrastruktur på grund av den globala energikrisen, men lovar att sluta om Ryssland gör detsamma.",
+      "Israel och USA bombarderar Irans största läkemedelsfabrik som producerar cancerläkemedel och narkotika, samt en religiös plats i Zanjan. En elvaårig pojke dödades när han bemannade en säkerhetskontrollpost i Teheran tillsammans med sin far, efter att Iran rekryterar barn från tolv år för säkerhetstjänster.",
+      "Iran stänger Hormuzstränden och skickar oljepriser över hundra dollar per fat, vilket skapar global energikris. Irans parlamentariker Mohammad Bagher Ghalibaf ger investeringstips på X och varnar för att amerikanska nyheter är manipulering av oljemarknaden."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump-administrationen navigerar mellan motsägelsefulla signaler och drastiska hot. En rysk oljetanker med 730 000 fat olja har anlänt till Kuba efter att Trump tillkännagav att han inte bryr sig om leveransen, trots månader av energiblockad mot ön. Enligt Rysslands talesperson Dmitrij Peskov har USA och Ryssland kommit överens på förhand om oljetransporten, men Vita Husets presstalesperson vägrar bekräfta om blockaden helt är upphävd eller om det är ett engångstillfälle. Samtidigt hotar Trump att förstöra Irans huvudsakliga oljeterminal Kharg Island och energiinfrastruktur om ingen överenskommelse nås snart. På hemmaplan har Trump skrivit en order om att återvända till månen senast 2028 och etablera en permanent bas där senast 2030, vilket presenteras som en geopolitisk konkurrensfördel mot Kina. Artemis II-missionen med fyra astronauter lanseras för att ge administationen en propagandavinst under en period då USA är djupt splittrat över Iran-kriget, immigration och ekonomin.",
+      "summary": "Trump-administrationen opererar i flera motsägelsefulla riktningar samtidigt. Italien har stoppat amerikanska flygplan från att landa på Natobasen Sigonella på Sicilien utan tillstånd efter att italienska försvarsmakten upptäckte bombplan som närmade sig basen i strid med bilaterala avtal, vilket väcker frågor om relationen mellan USA och premiärminister Giorgia Meloni trots hennes nära band till Trump. Trump attackerar Iran och hotar att ta dess olja medan han blockerar kubansk energiförsörjning, men tillåter sedan en rysk oljetanker med 100 000 ton råolja att nå Kuba efter månader av oljeblockad, utan att förklara varningen. Samtidigt driver Trump en aggressiv fossilbränslestrategi som blockerar ren energi i USA medan han bombarderar Iran tillsammans med Israel, vilket kritiker säger visar farorna med att låsa in sig i tjugonde århundradets energisystem. Trump har gjort motsägelsefulla uttalanden om Iran två gånger denna vecka och hävdat att ett regimskifte redan ägt rum eftersom toppskiktet dödats, men hans utspel sprider sig åt olika håll som verbala klusterbomber med ständigt motsägelsefulla uttalanden enligt Mellanösternkorrespondenten.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -49,14 +49,21 @@
       ],
       "items": [
         {
-          "id": "trump-usa-ekot-12",
-          "headline": "Rysk oljetanker framme på Kuba mitt i bränslekrisen",
+          "id": "trump-usa-ekot-3",
+          "headline": "Italien nekar USA tillgång till Nato-bas",
           "source": "Ekot",
-          "pubDate": "Tue, 31 Mar 2026 04:59:00 GMT",
-          "link": "https://www.sverigesradio.se/artikel/9187180"
+          "pubDate": "Tue, 31 Mar 2026 14:47:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9187666"
         },
         {
-          "id": "trump-usa-svt-nyheter-utrikes-7",
+          "id": "trump-usa-the-guardian-donald-trump-1",
+          "headline": "Trump’s Iran war and energy policies outline ‘dangerous volatility’ of fossil fuel push",
+          "source": "Oliver Milman",
+          "pubDate": "Tue, 31 Mar 2026 12:00:54 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/mar/31/trump-iran-war-fossil-fuel-policy-environment"
+        },
+        {
+          "id": "trump-usa-svt-nyheter-utrikes-9",
           "headline": "Ryskt oljefartyg har anlänt till Kuba",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Mon, 30 Mar 2026 00:16:22 +0200",
@@ -70,18 +77,11 @@
           "link": "https://www.bbc.com/news/articles/cyv1q59py4go?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-6",
-          "headline": "Trump news at a glance: US promotes Elon Musk’s X to fight foreign propaganda",
-          "source": "Guardian staff",
-          "pubDate": "Tue, 31 Mar 2026 01:00:26 GMT",
-          "link": "https://www.theguardian.com/us-news/2026/mar/30/trump-news-at-a-glance-latest-updates-today"
-        },
-        {
-          "id": "trump-usa-the-guardian-donald-trump-9",
-          "headline": "TSA employees receive back pay after Trump’s executive order",
-          "source": "Chris Stein in Washington",
-          "pubDate": "Mon, 30 Mar 2026 20:53:46 GMT",
-          "link": "https://www.theguardian.com/us-news/2026/mar/30/tsa-employees-back-pay-trump"
+          "id": "trump-usa-ekot-11",
+          "headline": "”Trumps utspel spretar åt olika håll som verbala klusterbomber”",
+          "source": "Ekot",
+          "pubDate": "Tue, 31 Mar 2026 11:34:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9187544"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Ukrainas försvarssituation och diplomatiska läge blir allt mer komplext. Zelensky har avslöjat att västerländska allierade har skickat signaler om att Ukraina bör minska sina långdistansattacker på Rysslands oljesektor och energiinfrastruktur på grund av den globala bränslekrisen som utlösts av Iran-kriget. Han säger att han är beredd att sluta attackerna om Ryssland slutar attackera Ukrainas energisystem, och att Kyiv är öppen för ett påskväpnande. Reuters-källor indikerar att USA:s officiella personer förmedlade dessa signaler, med ursprunget i Moskva. Under en snabb rundtur i Gulfstaterna har Zelensky undertecknat tioåriga försvarspakt med Saudi-Arabien, Qatar och Förenade Arabemiraten som fokuserar på luftförsvar och motåtgärder mot drönattacker. Ukraina erbjuder sin stridsbeprövade drönteknik och militär expertis i utbyte mot högt utvecklade luftförsvarsrobotar som Kyiv desperat behöver. Rheinmetall-chefen Armin Papperger väckte massiv upprördhet när han jämförde ukrainska dröntillverkare med \"husmödrar\" som gör vapen i sina kök med 3D-skrivare, och kallade det \"inte innovation\" jämfört med Lockheed Martin eller Rheinmetall.",
+      "summary": "Ukrainas försvarssituation är under press från flera håll samtidigt. Zelensky säger att västerländska allierade har skickat signaler om att minska Ukrainas långdistansattacker på Rysslands oljesektor på grund av den globala energikrisen som utlösts av kriget i Iran, men säger att Ukraina är villigt att sluta om Ryssland slutar attackera Ukrainas energisystem. USA-tjänstemän har förmedlat detta budskap till Kyiv enligt Reuters, och signalerna verkar ursprungligen ha kommit från Moskva. Tysklands försvarsgigant Rheinmetall väckte massiv motreaktion när vd Armin Papperger jämförde ukrainska drönfabriker med husfruar som tillverkar vapen i köken med 3D-skrivare, kallade det Lego-spel och sa att det inte var innovation jämfört med Lockheed Martin eller Rheinmetall. Ukrainas premiärminister Yulia Svyrydenko och Zelenskys rådgivare Alexander Kamyshin svarade skarpt och påpekade att ukrainska drönor har varit framgångsrika mot ryska stridsfordon och att ukrainska kvinnor arbetar lika mycket som män i vapenfabrikerna, vilket ledde till hashtaggen #MadeByHousewives på ukrainsk socialmedia.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Iran-kriget går in i sin 32:a dag med fortsatta intensiva amerikanska och israeliska luftanfall över Teheran och Isfahan. US-sekreterare Marco Rubio sa i en exklusiv intervju med Al Jazeera att kommunikationen mellan Teheran och Washington pågår främst genom mellanhänder och att amerikanska krigsöbjektiv skulle uppnås på \"veckor, inte månader\". Trump har hotat att förstöra Irans huvudsakliga oljexportöverföringspunkt Kharg Island, oljekällor och kraftverk om ingen överenskommelse nås snart. Irans parlament godkände avgifter på fartyg som passerar Hormuzstränden, som effektivt är stängd av kriget. Irans senaste våg av regionala attacker, den 87:e på en månad, lanserades av Irans flotta och tjänar som ett \"mycket.",
+      "summary": "Kriget mellan USA, Israel och Iran fortsätter att eskalera med omfattande civila konsekvenser. Israel och USA bombarderade Irans största läkemedelsfabrik Tofigh Daru Research och Engineering Company i Teheran, som producerar cancerläkemedel, bedövningsmedel och specialiserade mediciner, och skadade produktionslinjen enligt den iranska regeringen. Separata attacker rapporterades på en shiamuslimsk religiös plats i Zanjan där räddningsinsatser hämtade två personer från ruinerna, en person dödades och åtta skadades. En elvaårig pojke Alireza Jafari dödades när han bemannade en säkerhetskontrollpost i Teheran tillsammans med sin far efter att Iran initierade ett nytt program för att rekrytera barn från tolv år för säkerhetstjänster, inklusive patruljer och checkpointstjänst. Irans parlamentariker Mohammad Bagher Ghalibaf har positionerat sig som en finansiell rådgivare på X och varnar investerare för att behandla amerikanska nyhetsrubriker med skepsis, hävdar att falska nyheter används för att manipulera finansiella och oljemarknader, och säger att Iran är medvetet om manipulering av oljemarknaden.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,39 +175,39 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-9",
-          "headline": "Iran war wipes $120bn off Dubai, Abu Dhabi stock markets",
+          "id": "iran-al-jazeera-rss-3",
+          "headline": "Iran will play World Cup games in US despite war, FIFA’s Infantino says",
           "source": "Al Jazeera RSS",
-          "pubDate": "Tue, 31 Mar 2026 07:57:42 +0000",
-          "link": "https://www.aljazeera.com/economy/2026/3/31/iran-war-wipes-120bn-off-dubai-abu-dhabi-stock-markets?traffic_source=rss"
+          "pubDate": "Tue, 31 Mar 2026 14:43:57 +0000",
+          "link": "https://www.aljazeera.com/sports/2026/3/31/iran-will-play-world-cup-games-in-us-despite-war-fifas-infantino-says?traffic_source=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-11",
-          "headline": "Iran war: What is happening on day 32 of US-Israel attacks?",
+          "id": "iran-al-jazeera-rss-4",
+          "headline": "Where to invest during Iran war? Ask – or don’t – Mohammad Bagher Ghalibaf",
           "source": "Al Jazeera RSS",
-          "pubDate": "Tue, 31 Mar 2026 07:49:45 +0000",
-          "link": "https://www.aljazeera.com/news/2026/3/31/iran-war-what-is-happening-on-day-32-of-us-israel-attacks?traffic_source=rss"
+          "pubDate": "Tue, 31 Mar 2026 14:26:10 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/31/where-to-invest-during-iran-war-ask-or-dont-mohammad-bagher-ghalibaf?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-7",
+          "headline": "Cancer drug facility, religious site hit in Israeli-US strikes on Iran",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Tue, 31 Mar 2026 13:37:19 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/31/cancer-drug-facility-religious-site-hit-in-israeli-us-strikes-on-iran?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-8",
+          "headline": "Will China join Pakistan-led efforts to mediate US-Iran peace?",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Tue, 31 Mar 2026 13:32:24 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/31/will-china-join-pakistan-led-efforts-to-mediate-us-iran-peace?traffic_source=rss"
         },
         {
           "id": "iran-bbc-news-middle-east-1",
-          "headline": "How the US could try to seize Iran's Kharg Island",
+          "headline": "Iran using children in security roles in war, reports and witnesses say",
           "source": "BBC News: Middle East",
-          "pubDate": "Mon, 30 Mar 2026 14:54:47 GMT",
-          "link": "https://www.bbc.com/news/articles/c937gd1vq7xo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-4",
-          "headline": "Latin Patriarch will have access to Jerusalem holy site after police stopped entry",
-          "source": "BBC News: Middle East",
-          "pubDate": "Mon, 30 Mar 2026 13:30:32 GMT",
-          "link": "https://www.bbc.com/news/articles/cvg0128z41eo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-7",
-          "headline": "Potential Houthi threat to Red Sea shipping could further damage global economy",
-          "source": "BBC News: Middle East",
-          "pubDate": "Sat, 28 Mar 2026 19:08:30 GMT",
-          "link": "https://www.bbc.com/news/articles/cwyvd5z1xjno?at_medium=RSS&at_campaign=rss"
+          "pubDate": "Tue, 31 Mar 2026 12:56:45 GMT",
+          "link": "https://www.bbc.com/news/articles/c9wqgjn7x89o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Ungerns utrikesminister Péter Szijjártó har erkänt att han har haft kontakt med ryska tjänstemän samtidigt som EU diskuterade nya sanktioner mot Ryssland. Enligt en granskning från flera medier har Budapest arbetat för att ta bort sanktioner mot rika ryska affärsmän och motsatt sig åtgärder mot Rysslands skuggolja-flotta. Szijjártó hävdar att han säger samma sak offentligt som privat och menar att Ungerns sanktionspolitik är misslyckad och skadar EU mer än Ryssland. Samtidigt närmar sig Ungerns val där premiärminister Viktor Orbán står inför sitt tuffaste politiska slag på 16 år. Oppositionsledaren Péter Magyar och hans centerhögerparti Tisza ligger väl till i opinionsmätningarna inför valet den 12 april, vilket skulle kunna avsluta Orbáns långa styre. Valrörelsen har präglats av hårda anklagelser mellan lägren om röstköp, olaglig telefonavlyssning och inblandning från Moskva och Kyiv. Orbán varnar för att en oppositionsseger skulle dra Ungern in i ett krig med Ryssland, medan han samtidigt anklagar Ukraina för att försöka avsätta honom.",
+      "summary": "Ungerns premiärminister Viktor Orbán fortsätter att vara en omstridd figur inom EU. Hans regering kritiseras för att undergräva demokratiska institutioner, rättsstatsprincipen och grundläggande friheter. Orbán har använt sitt vetorätt strategiskt för att blockera EU-beslut och pressat på för att få undantag från gemensamma policyer. Dessa konflikter mellan Ungern och övriga EU-medlemmar skapar återkommande spänningar och förseningar i unionens beslutsfattande. Frågor om rättsstaten, mediefrihet och minoritetsrättigheter står i centrum för debatten. EU-institutionerna balanserar mellan att upprätthålla gemensamma värden och att hantera en medlemstat som ifrågasätter dessa principer. Situationen illustrerar de utmaningar som uppstår när en medlemstats regering följer en annan politisk väg än unionens liberala demokratiska normer.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -236,29 +236,7 @@
           "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml"
         }
       ],
-      "items": [
-        {
-          "id": "orban-eu-politico-europe-1",
-          "headline": "Hungary’s Szijjártó admits he liaised with Moscow as EU discussed Russia sanctions",
-          "source": "Max Griera",
-          "pubDate": "Tue, 31 Mar 2026 10:20:34 +0000",
-          "link": "https://www.politico.eu/article/hungary-foreign-minister-admits-he-liaised-kremlin-eu-discussed-sanctions-on-russia/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
-        },
-        {
-          "id": "orban-eu-ekot-10",
-          "headline": "Fler storbanker höjer rörliga boräntor",
-          "source": "Ekot",
-          "pubDate": "Tue, 31 Mar 2026 05:45:00 GMT",
-          "link": "https://www.sverigesradio.se/artikel/9187198"
-        },
-        {
-          "id": "orban-eu-politico-europe-9",
-          "headline": "Tensions spike in final stretch of Hungarian election",
-          "source": "Max Griera",
-          "pubDate": "Tue, 31 Mar 2026 02:00:00 +0000",
-          "link": "https://www.politico.eu/article/tensions-spike-sharply-final-stretch-of-hungarian-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
-        }
-      ]
+      "items": []
     }
   ],
   "sources": [
