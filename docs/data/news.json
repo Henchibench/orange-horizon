@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-03-30T15:48:02.789Z",
+  "generatedAt": "2026-03-31T05:02:53.707Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Världen brinner medan makthavare deklarerar seger",
-    "intro": "Trump förklarar sig vinnare i ett krig som eskalerar, Orbán köper väljare med pengar och droger, och Iran blir bombarderat medan diplomater försöker stoppa det omöjliga. Här är vad som faktiskt händer när makt möter verklighet och förlorar.",
+    "title": "Världen brinner, makthavare spelar poker",
+    "intro": "Trump stänger av hjärnan och öppnar gränserna för rysk olja till Kuba medan åtta miljoner amerikaner protesterar mot hans politik.",
     "bullets": [
-      "Trump upprepar \"vi har vunnit\" om Irankriget medan världen förbereder sig för en konflikt som växer och hotar den globala ekonomin. Åtta miljoner amerikaner protesterade mot hans politik på No Kings-rallyer, men Vita huset kallade dem \"terapi-sessioner\" för journalister.",
-      "Zelenskyy förhandlar säkerhetsbörjar med Gulfstater och anklagade USA för att kräva att Ukraina avstår Donbas för att få garantier – en påstående som Rubio kallade en lögn, medan Ryssland bombarderar civila mål och Moldavien förklarar energikris.",
-      "Iran blir träffat av tusentals slag på civil infrastruktur – skolor, sjukhus, vattenverk – medan Pakistan försöker arrangera fredsamtal och Trump säger att hans \"favoritgrej\" är att ta Irans olja från Kharg Island.",
-      "Orbán står inför val den 12 april där hans Fidesz-parti ligger efter i opinionsmätningar, och en dokumentär avslöjar att regeringen erbjuder pengar och droger för att tvinga omkring 600 000 väljare att rösta rätt i landsbygdsområdena."
+      "Massprotester mot Trump: Över åtta miljoner människor deltog i No Kings-demonstrationer mot Trumps Iran-krig, immigrationspolitik och stigande levnadskostnader.",
+      "Zelensky bygger försvarspakt med Gulfstater: Ukraine undertecknade tioåriga försvarsavtal med Saudi-Arabien, Qatar och Förenade Arabemiraten för att dela drönteknologi och luftförsvarsexpertis.",
+      "Trump tillåter rysk olja till Kuba efter blockad: En rysk oljetanker med 730 000 fat ankom till Kuba efter att Trump överraskande tillät leveransen trots tidigare hot mot länder som skickar bränsle till ön. Det är oklart om detta är ett undantag eller om energiblockaden helt upphävs.",
+      "Orbán i sitt hårdaste val: Péter Magyars Tisza-parti hotar att sluta Viktor Orbáns 16-åriga styre i valet den 12 april. Kampanjen är präglad av anklagelser om rysk och ukrainsk inblandning, röstköp och illegal avlyssning medan Orbán varnar för att en opposition skulle dra Ungern in i krig med Ryssland."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump deklarerar upprepade gånger seger i Irankriget – \"vi har vunnit\", \"kriget är vunnet\", \"vi vinner så stort\" – men verkligheten motsäger honom. Medan presidenten upprepar sin narrativ eskalerar konflikten i Mellanöstern och hotar att skada den globala ekonomin. Åtta miljoner amerikaner deltog i No Kings-protesterna mot hans politik, där de demonstrerade mot Irankriget, immigrationstillämpningen och stigande levnadskostnader. Bruce Springsteen framträdde vid Minnesotas rally, där två amerikanska medborgare dödades av federala immigrationsmyndigheter i januari. Vita huset avfärdade protesterna som \"Trump Derangement Therapy Sessions\" för betalda journalister. Samtidigt tillåter Trump ett ryskt oljetankfartyg med 100 000 ton råolja att nå Kuba efter månader av blockad, utan att förklara varför. Australiens premiärminister Anthony Albanese försökte skicka Trump ett budskap om att USA redan uppnått sina ursprungliga mål i Irankriget och bör avsluta fientligheterna.",
+      "summary": "Trumps administration möter massiv motstånd hemma och kaotisk policyskiftning utanför. Över åtta miljoner människor samlades i No Kings-protesterna på lördag för att demonstrera mot Trumps Iran-krig, immigrationspolitik och stigande levnadskostnader. Protesterna ägde rum i nästan alla större amerikanska städer samt internationellt i Paris och London. Bruce Springsteen uppträdde vid Minnesotas demonstration, där tusentals samlades för att hedra två amerikanska medborgare som dödades av federala immigrationsmyndigheter i januari. Vita husets presstalesperson avfärdade protesterna som 'Trump Derangement Therapy Sessions' och påstod att endast journalister brydde sig. Samtidigt har Trump överraskande tillåtit en rysk oljetanker med 730 000 fat att nå Kuba efter månader av energiblockad, vilket signalerar ett potentiellt skifte i hans Kuba-politik. Det är oklart om detta är ett engångstillstånd eller om blockaden helt upphävs. Vita husets presstalesperson vägrade att svara på frågor om detta.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -49,21 +49,21 @@
       ],
       "items": [
         {
-          "id": "trump-usa-bbc-news-us-canada-3",
+          "id": "trump-usa-bbc-news-us-canada-16",
           "headline": "No Kings protests draw large crowds to rally against Donald Trump",
           "source": "BBC News: US & Canada",
           "pubDate": "Sun, 29 Mar 2026 23:57:25 GMT",
           "link": "https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-1",
-          "headline": "‘Battle of the titans’: Trump’s distorted reality on Iran war runs into a brick wall",
-          "source": "David Smith in Washington",
-          "pubDate": "Mon, 30 Mar 2026 12:00:08 GMT",
-          "link": "https://www.theguardian.com/us-news/2026/mar/30/trump-iran-war-reality"
+          "id": "trump-usa-ekot-1",
+          "headline": "Rysk oljetanker framme på Kuba mitt i bränslekrisen",
+          "source": "Ekot",
+          "pubDate": "Tue, 31 Mar 2026 04:59:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9187180"
         },
         {
-          "id": "trump-usa-svt-nyheter-utrikes-3",
+          "id": "trump-usa-svt-nyheter-utrikes-7",
           "headline": "Ryskt oljefartyg har anlänt till Kuba",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Mon, 30 Mar 2026 00:16:22 +0200",
@@ -71,17 +71,17 @@
         },
         {
           "id": "trump-usa-the-guardian-donald-trump-6",
-          "headline": "Distancing himself from Trump and a badly waged war in Iran might be the smartest move Albanese can make",
-          "source": "Tom McIlroy",
-          "pubDate": "Mon, 30 Mar 2026 14:00:13 GMT",
-          "link": "https://www.theguardian.com/australia-news/2026/mar/30/albanese-trump-iran-energy-crisis-analysis"
+          "headline": "Trump news at a glance: US promotes Elon Musk’s X to fight foreign propaganda",
+          "source": "Guardian staff",
+          "pubDate": "Tue, 31 Mar 2026 01:00:26 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/mar/30/trump-news-at-a-glance-latest-updates-today"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-15",
-          "headline": "Trump news at a glance: Generational divide over Iran war emerges at key conservative conference",
-          "source": "Guardian staff",
-          "pubDate": "Mon, 30 Mar 2026 00:49:21 GMT",
-          "link": "https://www.theguardian.com/us-news/2026/mar/30/trump-news-updates-maga-cpac-conservative-conference-iran-dhs-abortion-no-kings"
+          "id": "trump-usa-the-guardian-donald-trump-9",
+          "headline": "TSA employees receive back pay after Trump’s executive order",
+          "source": "Chris Stein in Washington",
+          "pubDate": "Mon, 30 Mar 2026 20:53:46 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/mar/30/tsa-employees-back-pay-trump"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Rheinmetall-chefen Armin Papperger jämförde ukrainska dronproducenter med \"husmödrar\" som gör vapen i köket, vilket väckte vrede från Zelenskyy-rådgivare Alexander Kamyshin som påpekade dronernas framgångar mot ryska tankar och att ukrainska kvinnor arbetar jämte män i vapenfabrikerna. Ukrainas premiärminister Yulia Svyrydenko svarade att \"Europas försvar drivs av ukrainska husmödrar\". Zelenskyy förhandlade snabbt säkerhetsbörjar med Gulfstater – tioåriga avtal med Qatar, Saudiarabien och Förenade Arabemiraten – för att få luftförsvarsrobotar och dela erfarenhet från drönbekämpning. Han söker långsiktiga relationer, inte bara försäljning, och har skickat över 200 militära experter till regionen. Samtidigt anklagade Zelenskyy USA för att göra säkerhetsbörjar beroende av att Ukraina avstår Donbas-regionen, men USA:s utrikesminister Marco Rubio kallade detta en lögn och sa att Zelenskyy vet sanningen. Frankrike kritiserades för att sända en intervju med Rysslands utrikesminister Sergei Lavrov i prime time, där han hävdade att Ryssland försvarar internationell rätt.",
+      "summary": "Ukrainas försvarsstrategi skiftar mot regionala alliancer medan västerländska allierade pressar Kyiv att minska energiattacker. Zelensky undertecknade tioåriga försvarsavtal med Saudi-Arabien, Qatar och Förenade Arabemiraten för att dela Ukrainas drönteknologi och luftförsvarsexpertis. Ukraine har utvecklats till en av världens ledande producenter av billiga och effektiva dröninterceptorer som är kritiska för försvaret mot Rysslands invasion. I gengäld söker Kyiv högteknologiska luftförsvarsrobotar från Gulfstaterna. Zelensky säger att västerländska allierade har skickat 'signaler' om möjligheten att minska Ukrainas långdistansattacker på Rysslands oljesektor på grund av den globala energikrisen. Han är öppen för att skala ned attackerna om Ryssland slutar attackera Ukrainas energisystem och är också öppen för ett påskväpnande. Samtidigt väckte Rheinmetall-chefen Armin Pappergers kommentarer om ukrainska drönfabriker som 'hustrumakeri' med 3D-skrivare i köket stor upprördhet.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -112,39 +112,39 @@
       ],
       "items": [
         {
-          "id": "putin-ukraina-the-guardian-ukraine-2",
+          "id": "putin-ukraina-bbc-news-europe-1",
+          "headline": "Zelensky says allies asked him to scale back attacks on Russian energy",
+          "source": "BBC News: Europe",
+          "pubDate": "Mon, 30 Mar 2026 17:53:51 GMT",
+          "link": "https://www.bbc.com/news/articles/c0e7lrxrelwo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-3",
+          "headline": "Ukraine war briefing: allies asked Kyiv about reducing attacks on Russian energy sector, Zelenskyy says",
+          "source": "Guardian staff and agencies",
+          "pubDate": "Tue, 31 Mar 2026 01:32:00 GMT",
+          "link": "https://www.theguardian.com/world/2026/mar/31/ukraine-war-briefing-allies-asked-kyiv-about-reducing-attacks-on-russian-energy-sector-zelenskyy-says"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-5",
           "headline": "Ukraine war briefing: German defence giant sparks row after comparing Ukraine drone makers to ‘housewives’",
           "source": "Guardian staff",
           "pubDate": "Mon, 30 Mar 2026 00:17:04 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/30/ukraine-war-briefing-german-defence-giant-sparks-row-after-comparing-ukraine-drone-makers-to-housewives"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-3",
+          "id": "putin-ukraina-the-guardian-ukraine-6",
           "headline": "Ukraine war briefing: Zelenskyy drums up defence agreements with Gulf states on countering missiles and drones",
           "source": "Guardian staff and agencies",
           "pubDate": "Sun, 29 Mar 2026 00:06:20 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/29/ukraine-war-briefing-zelenskyy-drums-up-defence-agreements-with-gulf-states-on-countering-missiles-and-drones"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-4",
+          "id": "putin-ukraina-the-guardian-ukraine-7",
           "headline": "Ukraine war briefing: Rubio stridently denies US is demanding Kyiv give up eastern Donbas to Russia",
           "source": "Guardian staff",
           "pubDate": "Sat, 28 Mar 2026 01:19:07 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/28/ukraine-war-briefing-rubio-zelenskyy-deal-donbas-to-russia"
-        },
-        {
-          "id": "putin-ukraina-the-guardian-ukraine-10",
-          "headline": "Ukraine war briefing: Zelenskyy says US has linked security guarantees to ceding of Donbas",
-          "source": "Guardian staff and agencies",
-          "pubDate": "Thu, 26 Mar 2026 06:51:05 GMT",
-          "link": "https://www.theguardian.com/world/2026/mar/26/ukraine-war-briefing-zelenskyy-says-us-has-linked-security-guarantees-to-ceding-of-donbas"
-        },
-        {
-          "id": "putin-ukraina-the-guardian-ukraine-12",
-          "headline": "Ukraine war briefing: Moldova declares emergency after Russian attack cuts key power line",
-          "source": "Staff and agencies",
-          "pubDate": "Wed, 25 Mar 2026 05:49:33 GMT",
-          "link": "https://www.theguardian.com/world/2026/mar/25/ukraine-war-briefing-moldova-declares-emergency-after-russian-attack-cuts-key-power-line"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Trump indikerade att han kan skicka trupper för att ta kontroll över Kharg Island, Irans viktigaste oljeexportterminal som hanterar omkring 90 procent av landets oljeexporter. Öns talesman Mohammad Bagher Ghalibaf varnade att Irans krafter skulle \"regna eld\" på invaderande amerikanska styrkor, och Iran har förstärkt försvaret med luftvärnsrobotar. Trump sa till Financial Times att hans \"favoritgrej\" är att ta Irans olja och uteslöt inte att erövra Kharg Island. Spanien stängde sitt luftrum för amerikanska plan inblandade i kriget och vägrade att tillåta USA att använda de gemensamt drivna militärbaser Rota och Morón, vilket tvingade 15 amerikanska flygplan att flytta. Försvarsminister Margarita Robles kallade kriget \"djupt olagligt och djupt orättvist\". Pakistan, Saudiarabien, Turkiet och Egypten bildade en diplomatisk kanal för att underlätta direkta samtal mellan USA och Iran, med Pakistan som primär förmedlare. Pakistans biträdande premiärminister Ishaq Dar sa att både USA och Iran uttryckt förtroende för Pakistan att arrangera förhandlingar \"inom de närmaste dagarna\" för en \"omfattande och varaktig lösning\".",
+      "summary": "Iran-kriget skapar nya spänningar kring finansiering, militär strategi och regional säkerhet. Pentagon har krävt omedelbar rättelse av en Financial Times-rapport som hävdade att försvarssekreterare Pete Hegseth:s mäklare försökte göra en stor investering i försvarsfirmaaktier veckor före Iran-kriget. Pentagon-talesman Sean Parnell kallade anklagelsen 'helt falsk och fabricerad' och säger att varken Hegseth eller hans representanter kontaktade BlackRock om någon sådan investering. Hegseth:s mäklare på Morgan Stanley gick inte vidare med investeringen i en börshandlad fond med innehav som Lockheed Martin och Northrop Grumman eftersom den inte var tillgänglig för köp vid den tiden. Vita husets talesperson Karoline Leavitt antydde att Trump är intresserad av att be arabländer att betala för USA:s Iran-krig, uppskattat till tiotals miljarder dollar, liknande hur länder finansierade USA:s inblandning i Gulfkriget 1990. Trump har indikerat att han kan skicka trupper för att ta kontroll över Irans nyckeloljeexportterminal på Kharg Island i norra Golfen. Kharg Island är Irans huvudsakliga utlopp för oljeexporter, med omkring 90 procent av Irans oljeexporter som passerar genom ön.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,6 +175,20 @@
       ],
       "items": [
         {
+          "id": "iran-al-jazeera-rss-7",
+          "headline": "Pentagon denies that Hegseth’s broker sought investment before Iran war",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Tue, 31 Mar 2026 02:32:29 +0000",
+          "link": "https://www.aljazeera.com/economy/2026/3/31/pentagon-denies-hegseths-broker-sought-defence-investment-before-iran-war?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-16",
+          "headline": "US says Trump ‘interested’ in asking Arab countries to pay for war on Iran",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Mon, 30 Mar 2026 22:14:30 +0000",
+          "link": "https://www.aljazeera.com/news/2026/3/30/us-says-trump-interested-in-asking-arab-countries-to-pay-for-war-on-iran?traffic_source=rss"
+        },
+        {
           "id": "iran-bbc-news-middle-east-1",
           "headline": "How the US could try to seize Iran's Kharg Island",
           "source": "BBC News: Middle East",
@@ -182,32 +196,18 @@
           "link": "https://www.bbc.com/news/articles/c937gd1vq7xo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-2",
+          "id": "iran-bbc-news-middle-east-4",
           "headline": "Latin Patriarch will have access to Jerusalem holy site after police stopped entry",
           "source": "BBC News: Middle East",
           "pubDate": "Mon, 30 Mar 2026 13:30:32 GMT",
           "link": "https://www.bbc.com/news/articles/cvg0128z41eo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-6",
-          "headline": "Spain closes airspace to US planes involved in war on Iran",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Mon, 30 Mar 2026 13:23:35 +0000",
-          "link": "https://www.aljazeera.com/news/2026/3/30/spain-closes-airspace-to-us-planes-involved-in-war-on-iran?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-11",
-          "headline": "Trump ‘pretty sure’ of Iran deal, but can Pakistan-led efforts end the war?",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Mon, 30 Mar 2026 12:23:26 +0000",
-          "link": "https://www.aljazeera.com/news/2026/3/30/trump-pretty-sure-of-iran-deal-but-can-pakistan-led-efforts-end-the-war?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-16",
-          "headline": "Schools, water, industry: What civilian targets have US, Israel, Iran hit?",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Mon, 30 Mar 2026 11:09:06 +0000",
-          "link": "https://www.aljazeera.com/news/2026/3/30/schools-water-industry-what-civilian-targets-have-us-israel-iran-hit?traffic_source=rss"
+          "id": "iran-bbc-news-middle-east-7",
+          "headline": "Potential Houthi threat to Red Sea shipping could further damage global economy",
+          "source": "BBC News: Middle East",
+          "pubDate": "Sat, 28 Mar 2026 19:08:30 GMT",
+          "link": "https://www.bbc.com/news/articles/cwyvd5z1xjno?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Ungerns val den 12 april fokuseras på omkring en halv miljon obeslutsamma väljare på landsbygden som kan avgöra utgången, eftersom valet inte bara bestäms av röstantal utan också var de finns geografiskt. Viktor Orbáns Fidesz-regering ligger efter Peter Magyars centerrightoppositionsparti Tisza i opinionsmätningar. En dokumentär kallad \" Price of Vote\" som släpptes på torsdag avslöjar att Fidesz anklagas för massiv väljarpåtryckning i 53 av Ungerns 106 valkretsar, potentiellt påverkande upp till 600 000 väljare – omkring 10 procent av den förväntade valdeltagandet på sex miljoner. Enligt filmen, som presenterar resultaten av en sex månaders utredning av oberoende filmmare och journalister.",
+      "summary": "Ungerns premiärminister Viktor Orbán står inför sitt största politiska test på 16 år när valet närmar sig den 12 april. Oppositionen, anförd av Péter Magyar och hans centerhöger-parti Tisza, ligger väl till enligt opinionsundersökningar och kan potentiellt avsätta EU:s Kremlin-vänligaste ledare. Kampanjen är präglad av intensiva anklagelser mellan lägren, med Orbán som varnar för att en oppositionsseger skulle dra Ungern in i krig med Ryssland och anklagelser om ukrainsk inblandning i valet. Samtidigt väcker valkampanjen farhågor hos valövervakning om rättvisan i processen, då Orbán kontrollerar statliga institutioner inklusive media. Spänningarna eskalerar dramatiskt i slutskedet med anklagelser om röstköp på landsbygden, illegal avlyssning och utländsk påverkan från både Moskva och Kyiv.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,18 +238,11 @@
       ],
       "items": [
         {
-          "id": "orban-eu-ekot-10",
-          "headline": "Väljare på landsbygden kan avgöra ungerska valet",
-          "source": "Ekot",
-          "pubDate": "Mon, 30 Mar 2026 09:50:00 GMT",
-          "link": "https://www.sverigesradio.se/artikel/9183533"
-        },
-        {
-          "id": "orban-eu-bbc-news-europe-15",
-          "headline": "Orban's Hungarian government accused of mass voter intimidation ahead of election",
-          "source": "BBC News: Europe",
-          "pubDate": "Thu, 26 Mar 2026 17:16:06 GMT",
-          "link": "https://www.bbc.com/news/articles/c36r0068xp2o?at_medium=RSS&at_campaign=rss"
+          "id": "orban-eu-politico-europe-5",
+          "headline": "Tensions surge in final stretch of Hungarian election",
+          "source": "Max Griera",
+          "pubDate": "Tue, 31 Mar 2026 02:00:00 +0000",
+          "link": "https://www.politico.eu/article/tensions-spike-sharply-final-stretch-of-hungarian-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
         }
       ]
     }
