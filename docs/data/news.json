@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-01T10:39:22.486Z",
+  "generatedAt": "2026-04-01T15:48:08.513Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Makt utan gränser, domstolar utan gehör",
-    "intro": "Trump bygger ballsalar utan tillstånd och förbjuder brevröstning medan hans domstolar slår ned hans egna migrantbeslut. Samtidigt brinner Mellanöstern, Ukraina förhandlar under press och Orbán är märkligt frånvarande från nyhetscykeln.",
+    "title": "Maktens dumheter håller världen i andedräkt",
+    "intro": "Trump håller tal om Iran medan han bygger ballrum på Vita huset och försöker begränsa poströstningen. Samtidigt splittras allianserna, Zelensky handlar med Gulfstaterna och Orbán får sin största utmaning sedan 2010.",
     "bullets": [
-      "Trump försöker bygga ett ballrum på Vita huset utan kongressgodkännande, men en domare stoppar projektet och säger att presidenten är förvaltare, inte ägare av byggnaden. Trump lovar att överklaga.",
-      "En federal domare slår fast att Trumps administration överskridit sin befogenhet när den upphävde statusen för 900 000 migranter som kom via CBP One-appen under Biden. Statusen återställs nu.",
-      "Zelensky säger att västerländska allierade bett honom minska attackerna på Rysslands energisektor på grund av den globala energikrisen, men villkorar detta av att Ryssland slutar attackera Ukrainas infrastruktur.",
-      "Iran fortsätter drönattacker på Gulfstaterna medan Trump säger kriget kan sluta om två till tre veckor utan överenskommelse. Samtidigt rekryterar Iran barn från tolv år för säkerhetstjänster."
+      "Trump ställer till det på hemmaplan: en domare stoppar hans ballrumsprojekt på Vita huset, han signerar en verkställande order för att begränsa poströstningen och tillåter plötsligt rysk olja till Kuba efter månader av blockad.",
+      "Zelensky manövrerar mellan allierade som vill att han ska minska attackerna på rysk energi och USA som enligt honom kräver att Ukraina ger upp Donbas – medan han själv tecknar tioåriga försvarspakter med Qatar, Saudiarabien och Förenade Arabemiraten.",
+      "Iran förnekar Trumps påstående om vapenstilleståndsförfrågan medan amerikanska och israeliska attacker fortsätter, familjer splittras över kriget, barn rekryteras till säkerhetstjänster och en amerikansk journalist kidnappas i Bagdad av en Iran-kopplad miliskgrupp.",
+      "Orbán möter sitt största hot sedan 2010 när Peter Magyar, före detta Fidesz-insider, kampanjar intensivt inför valet den 12 april med löften om att bekämpa korruption och låsa upp frysta EU-medel."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump står inför juridiska motgångar på flera fronter. En domare har stoppat hans ballrumsprojekt på Vita huset och fastslår att presidenten är förvaltare, inte ägare av byggnaden – ett beslut Trump lovar att överklaga. Samtidigt har en federal domare slått fast att Trumps administration överskridit sin befogenhet när den upphävde det juridiska statusen för cirka 900 000 migranter som kom till USA via CBP One-appen under Bidens tid. Dessa migranter får nu sin status återställd. Trump har också signerat en verkställande order för att begränsa brevröstning genom att skapa en nationell väljarlista och kräva att staten anmäler brevröstare till postverket – ett steg som bedöms vara troligen grundlagsvidrig. I utrikespolitiken tillåter Trump plötsligt ett ryskt oljetankfartyg med 100 000 ton råolja att nå Kuba efter månader av blockad, utan att förklara varför. Nigel Farage i Storbritannien märker att hans närheten till Trump blir ett problem – nästan en fjärdedel av väljarna nämner hans Trumpstöd som anledning att inte rösta på Reform.",
+      "summary": "Trump håller på att skapa kaos på flera fronter samtidigt. Han ska ge ett primetime-tal om Irankriget medan hemmafrågorna pressas på honom: en domare har stoppat hans ballrumsprojekt på Vita huset och slagit fast att presidenten är förvaltare, inte ägare av byggnaden, och att Kongressen måste godkänna projektet. Trump hotar att överklaga. Han har också signerat en verkställande order som riktar Homeland Security och Social Security Administration att sammanställa en nationell väljarlista och instruerar Postverket att börja regelgivning för att begränsa poströstningen – ett steg som bedöms vara troligen grundlagsvidrig. Samtidigt har Trump plötsligt tillåtit ett ryskt oljetankfartyg med 100 000 ton råolja att nå Kuba efter månader av blockad, vilket är oklart varför. I Högsta domstolen säger Trump att han kommer att närvara vid förhandlingar om medborgarskapsrätten för barn födda av papperslösa föräldrar – ett steg han initierade på sin första dag tillbaka i ämbetet och som möter motstånd från över ett dussin delstater och fem gravida kvinnor som hävdar att det strider mot 14:e tillägget.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -49,39 +49,39 @@
       ],
       "items": [
         {
-          "id": "trump-usa-bbc-news-us-canada-4",
+          "id": "trump-usa-bbc-news-us-canada-1",
+          "headline": "Trump to give primetime address on Iran war as questions swirl over his next move",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Wed, 01 Apr 2026 14:59:06 GMT",
+          "link": "https://www.bbc.com/news/articles/c74vqd8k3g1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "trump-usa-bbc-news-us-canada-7",
           "headline": "Judge temporarily halts construction of Trump's White House ballroom",
           "source": "BBC News: US & Canada",
           "pubDate": "Tue, 31 Mar 2026 23:58:29 GMT",
           "link": "https://www.bbc.com/news/articles/c7056exw78xo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-13",
-          "headline": "Judge rules Trump unlawfully terminated legal status of migrants who used US entry app",
-          "source": "BBC News: US & Canada",
-          "pubDate": "Tue, 31 Mar 2026 20:14:09 GMT",
-          "link": "https://www.bbc.com/news/articles/c4g6rmlp2l5o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "trump-usa-the-guardian-donald-trump-9",
+          "id": "trump-usa-the-guardian-donald-trump-14",
           "headline": "Trump signs order to restrict mail-in ballots in probably unconstitutional move",
           "source": "Sam Levine in New York",
           "pubDate": "Tue, 31 Mar 2026 22:35:59 GMT",
           "link": "https://www.theguardian.com/us-news/2026/mar/31/trump-executive-order-restrict-mail-in-ballots"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-12",
-          "headline": "Nigel Farage’s biggest problem? Donald Trump",
-          "source": "Ben Quinn Political correspondent",
-          "pubDate": "Tue, 31 Mar 2026 17:26:31 GMT",
-          "link": "https://www.theguardian.com/politics/2026/mar/31/nigel-farage-reform-biggest-problem-donald-trump"
-        },
-        {
-          "id": "trump-usa-svt-nyheter-utrikes-12",
+          "id": "trump-usa-svt-nyheter-utrikes-14",
           "headline": "Ryskt oljefartyg har anlänt till Kuba",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Mon, 30 Mar 2026 00:16:22 +0200",
           "link": "https://www.svt.se/nyheter/utrikes/usa-godkanner-ryskt-oljefartyg-till-kuba"
+        },
+        {
+          "id": "trump-usa-bbc-news-us-canada-6",
+          "headline": "Trump says he will attend birthright citizenship arguments at Supreme Court",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Wed, 01 Apr 2026 10:42:57 GMT",
+          "link": "https://www.bbc.com/news/articles/c7vqny4e198o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Ukraina navigerar mellan militär motstånd och diplomatisk press. Zelensky säger att västerländska allierade – inklusive USA – har bett honom minska attackerna på Rysslands energisektor på grund av den globala energikrisen utlöst av kriget i Iran, men han villkorar detta av att Ryssland slutar attackera Ukrainas infrastruktur. Han är öppen för ett påskupphör. Zelensky har under en snabb turné i Gulfstaterna undertecknat tioåriga försvarsamarbeten med Saudi-Arabien, Qatar och Förenade Arabemiraten för att dela ukrainsk drönexpertis och få luftförsvarsrobotar i gengäld. Tyskland skapar bråk när Rheinmetall-chefen Armin Papperger jämför ukrainska dronproducenter med \"husmödrar\" som gör vapen i köket – en kommentar som väcker vrede från Zelenskys rådgivare och Ukrainas premiärminister, som svarar med hashtaggen #MadeByHousewives. Samtidigt förnekar USA:s utrikesminister Marco Rubio Zelenskys påstående att Trump kräver att Ukraina avstår från Donbas för att få säkerhetgarantier. Frankrike kritiseras för att sända en intervju med Rysslands utrikesminister Sergei Lavrov i prime time, där han förnekar att Ryssland bryter mot internationell rätt i Ukraina.",
+      "summary": "Zelensky balanserar mellan motstridiga krav från allierade och egen överlevnad. Han har sagt att allierade – inklusive USA – har bett honom att minska attackerna på rysk energiinfrastruktur på grund av den globala energikrisen, men han säger att han bara kommer att sluta om Ryssland slutar attackera Ukrainas energisystem först. Samtidigt hävdar Zelensky att USA kräver att Ukraina ger upp Donbas-regionen för att få säkerhetgarantier, vilket USA:s utrikesminister Marco Rubio starkt förnekar och kallar en lögn. För att säkra sitt försvar har Zelensky genomfört en intensiv turnéing i Gulfstaterna och tecknat tioåriga försvarspakter med Saudi-Arabien, Qatar och Förenade Arabemiraten för att få luftförsvarsrobotar och dela ukrainsk drönkompetens. Rheinmetalls vd Armin Papperger väckte vrede när han jämförde ukrainska drontillverkare med \"husmödrar\" som gör vapen i köket, vilket fick Zelensky-rådgivare Alexander Kamyshin och premiärminister Yulia Svyrydenko att slå tillbaka och påpeka att ukrainska kvinnor och män förtjänar respekt för sitt arbete.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -112,7 +112,7 @@
       ],
       "items": [
         {
-          "id": "putin-ukraina-bbc-news-europe-2",
+          "id": "putin-ukraina-bbc-news-europe-4",
           "headline": "Zelensky says allies asked him to scale back attacks on Russian energy",
           "source": "BBC News: Europe",
           "pubDate": "Tue, 31 Mar 2026 09:18:11 GMT",
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Kriget mellan USA-Israel och Iran fortsätter in i sin femte vecka med omfattande angrepp på civil infrastruktur. Irans drönattacker träffar bränslecisterner på Kuwaits internationella flygplats och orsakar stora bränder, medan Bahrain rapporterar brand på en anläggning. En tanker nära Doha träffas av en projektil, och Qatar säger att tre marskalkraketer från Iran avfyrades mot landet. Trump säger att kriget kan sluta om två till tre veckor utan överenskommelse, men Irans utrikesminister Abbas Araghchi säger att han har noll förtroende för USA och att det inte finns några förhandlingar. USA-israeliska attacker fortsätter mot farmaceutiska företag, stålverk och civil infrastruktur i Isfahan, Farokhshahr, Ahvaz, Shiraz och andra städer. En avsaltningsanläggning på Qeshm Island i Hormuzstränden är nu ur drift. Kriget skapar djupa familjekonflikter i Iran – ungdomar berättar om bråk mellan släktingar där några stöder attackerna medan andra motsätter sig regimen. Iran rekryterar barn från tolv år för säkerhetstjänster genom ett program kallat Homeland Defender Fighters, efter att en elvaårig pojke dödades i ett luftangrepp medan han bemannade en checkpoint tillsammans med sin far.",
+      "summary": "Iran förnekar Trumps påstående om att landets nya regimpresident har begärt vapenstillestånde, medan Trump hotar att fortsätta att \"blasta Iran till oblivion\" tills Hormuzstränden är öppen. NATO-allierade växer motvilliga mot Trumps krav på stöd för kriget: Spanien har stängt sitt luftrum för amerikanska militärplan, Italien rapporteras ha nekat amerikanska bombplan användningen av en militärbas på Sicilien, och Trump hotar att dra sig ur NATO och skär handeln med Madrid. Kriget splittrar iranska familjer – en mans Basij-medlem-onkel vägrade att hälsa på sin egen syster som är emot regimen under Nowruz-firandet. Barn rekryteras nu till säkerhetstjänster: en elvaårig pojke, Alireza Jafari, dödades i en luftstrid medan han bemannade en säkerhetskontrollpunkt tillsammans med sin far, och Islamiska revolutionsgarden har tillkännagett ett nytt program för att rekrytera \"frivilliga\" från tolv år och uppåt för patrulleringar och checkpointtjänster. En amerikansk frilansjournalist, Shelly Kittleson, kidnappades i Bagdad av misstänkta med kopplingar till den Iran-stödda milisgruppen Kataib Hezbollah, som enligt rapporter planerade att kidnappa eller döda kvinnliga journalister.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,18 +175,18 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-10",
-          "headline": "Iran attacks cause fire in Kuwait, Bahrain; kill man in UAE",
+          "id": "iran-al-jazeera-rss-2",
+          "headline": "Iran denies Trump’s claim Iranian president requested ceasefire",
           "source": "Al Jazeera RSS",
-          "pubDate": "Wed, 01 Apr 2026 07:54:12 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/1/iran-attacks-cause-fire-in-kuwait-bahrain-kill-man-in-uae?traffic_source=rss"
+          "pubDate": "Wed, 01 Apr 2026 15:11:31 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/1/iran-denies-trumps-claim-iranian-president-requested-ceasefire?traffic_source=rss"
         },
         {
           "id": "iran-al-jazeera-rss-13",
-          "headline": "Iran war: What is happening on day 33 of US-Israel attacks?",
+          "headline": "How are NATO allies pushing back against Trump’s Iran war demands?",
           "source": "Al Jazeera RSS",
-          "pubDate": "Wed, 01 Apr 2026 07:01:14 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/1/iran-war-what-is-happening-on-day-33-of-us-israel-attacks?traffic_source=rss"
+          "pubDate": "Wed, 01 Apr 2026 12:03:47 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/1/how-are-nato-allies-pushing-back-against-trumps-iran-war-demands?traffic_source=rss"
         },
         {
           "id": "iran-bbc-news-middle-east-2",
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Viktor Orbáns regering i Ungern har under flera år varit en källa till spänningar inom EU. Konflikterna kretsar kring frågor om rättsstaten, mediefrihet och demokratiska värden. Ungern har använt sitt vetorätt för att blockera EU-beslut, vilket har skapat låsningar i unionens beslutsfattande. Dessa motsättningar mellan Budapest och övriga medlemsstater återspeglar en djupare ideologisk klyfta om hur Europa bör styras och vilka värden som ska vägleda unionen framåt.",
+      "summary": "Peter Magyar, en 45-årig före detta Fidesz-insider, representerar det största hotet mot Viktor Orbáns styre sedan han vann sitt första av fyra på varandra följande val 2010. Magyar kampanjar intensivt inför valet den 12 april med lösenordet \"Nu eller aldrig\" och har gjort över 100 kampanjstopp, inklusive en 300 kilometer lång marsch från Budapest till den rumänska gränsen för att \"återförena\" nationen. Han lovar att bekämpa korruption, förbättra ekonomin, vinna över Roms missgynnade samhälle och låsa upp miljarder euro i frysta EU-medel på grund av oro över Ungarns rättsstatsprinciper. Magyar var medlem av Fidesz sedan universitetet, gifte sig med partiets stigande stjärna Judit Varga och hade tre barn tillsammans innan han chockade Ungarn i februari 2024 med ett live-framträdande på den oppositionella YouTube-kanalen Partizán där han förklarade varför han hade fått nog av sitt eget parti. Orbán har framställt honom som en \"marionett\" för EU och Ukraina.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -236,7 +236,15 @@
           "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml"
         }
       ],
-      "items": []
+      "items": [
+        {
+          "id": "orban-eu-bbc-news-europe-1",
+          "headline": "Peter Magyar, the former Orban ally vying for power in Hungary",
+          "source": "BBC News: Europe",
+          "pubDate": "Wed, 01 Apr 2026 13:43:10 GMT",
+          "link": "https://www.bbc.com/news/articles/c78l7vyylgqo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
     }
   ],
   "sources": [
