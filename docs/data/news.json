@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-02T10:37:20.654Z",
+  "generatedAt": "2026-04-02T15:40:30.205Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Världen brinner, ledarna upprepar sig själva",
-    "intro": "Trump lovar att bomba Iran till stenåldern utan att säga när, Orbán manipulerar sitt eget val medan hans utrikesminister ringer Moskva för att förhandla om sanktioner, och överallt där det finns makt finns det bara dumhet och självintresse.",
+    "title": "Världen brinner, ledarna improviserar",
+    "intro": "Trump hotar Iran medan oljepriserna stiger, Orbán läcker till Moskva och EU-samarbetet spricker. Samtidigt försöker Zelensky både förhandla fred och vinna krig, medan Kina och Pakistan spelar fredsmäklare i ett kaos som ingen verkar kunna kontrollera.",
     "bullets": [
-      "Trump höll ett tjugo minuters tal om Iran där han upprepade samma löften som han gjort i veckor: kriget är nästan vunnet, det kommer att sluta om två till tre veckor, och USA kommer att bomba Iran 'extremt hårt' utan att presentera någon faktisk plan.",
-      "Zelenskyj erbjöd Ryssland en påskväpning men fick över 700 drönare som svar, samtidigt som hans allierade pressar honom att sluta attackera rysk energiinfrastruktur för att hålla ned oljepriserna.",
-      "Iran förlorade sin tidigare utrikesminister Kamal Kharazi gravt skadad när hans hem bombades och hans fru dödades, medan tusentals iranierer begravde en IRGC-amiral och svur motstånd. Irans militär säger att de kommer att fortsätta med 'mer krossande, bredare och mer destruktiv' attacker.",
-      "Ungerns val den 12 april hotas av Orbáns allierade som skapar egna valkontrollanter för att skapa förvirring, medan utrikesminister Szijjarto enligt läckta samtal diskuterar sanktionslättnader för Ryssland med Lavrov."
+      "Trump säger att kriget mot Iran närmar sig slutet på två till tre veckor, men höjer samtidigt oljepriserna till 105 dollar per fat genom sina hot om att bomba Irans elproduktion. Marknaderna lugnas inte – tvärtom.",
+      "Zelensky erbjuder Ryssland vapenvila över påsken, Ryssland svarar med 700 drönattacker. Samtidigt pressar västerländska allierade honom att minska attackerna på rysk energi för att få ned oljepriserna.",
+      "Ungerns utrikesminister Szijjarto diskuterar sanktionslättnader med Rysslands Lavrov i läckta samtal, medan Sverige och EU kallar det illojalt agerande. Orbán står inför sitt största hot sedan 2010 när Peter Magyar utmanar honom i valet den 12 april.",
+      "Pakistan och Kina presenterar en fempoängsplan för vapenvila i Iran-kriget. Zelensky tecknar tioåriga försvarspakter med Qatar, Saudi-Arabien och Förenade Arabemiraten för att sälja ukrainsk dronexpertis och få luftvärnsmissiler tillbaka."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump höll ett tjugo minuters primetime-tal från Vita huset där han påstod att USA:s militära mål i Irankriget 'närmar sig slutförande' efter en månad av krig. Han lovade att slå Iran 'extremt hårt' under de kommande två till tre veckorna och avsluta kriget 'mycket snabbt' utan att sätta någon faktisk tidsgräns. Trump upprepade sitt löfte att bomba Iran 'tillbaka till stenåldern' och sa att USA inte hade träffat Irans oljeindustri ännu eftersom det skulle förhindra landets överlevnad. Han uppmanade länder som är beroende av Hormuzstränden att visa 'mod' och ta kontroll över vattenväggen, som har varit effektivt stängd av iranska attacker sedan kriget började. Före talet hade Trump påstått att Iran hade bett om vapenvila, något som Irans utrikesministerium omedelbar kallade 'falskt och grundlöst'. Marknader reagerade negativt på talet: Brent-olja steg från omkring 100 dollar till 105 dollar per fat, och analytiker noterade att Trumps vaga löften utan konkret slutdatum för kriget skärpte investerarnas oro för fortsatta försörjningsavbrott.",
+      "summary": "Donald Trump höll en 20 minuters tal från Vita huset där han hävdade att USA:s militära mål i Iran-kriget närmar sig slutförande och att operationen skulle avslutas på två till tre veckor. Han hotade att slå Iran \"extremt hårt\" under denna period och att bomba alla elproduktionsanläggningar \"mycket hårt och troligen samtidigt\" om förhandlingar misslyckades. Trump vägrade att sätta en slutdatum för kriget och lämnade dörren öppen för att träffa Irans ledning, samtidigt som han påstod att Iran hade bett om vapenvila – ett påstående som Irans utrikesministerium omedelbar kallade falskt. Talet gjorde lite för att lugna de globala oljemarknader: Brent-oljan steg från omkring 100 dollar per fat innan talet till 105 dollar efteråt. Trump uppmanade också länder som är beroende av Hormuzstränden att visa \"mod\" och säkra vattenvägarna själva, med argumentet att USA inte behövde dem. En månad in i kriget står Trump inför sjunkande popularitet och stigande bensinpriser innan mellanvalen i november. Samtidigt har Trump:s tullkrig från förra året lett till att USA:s genomsnittliga tullsats nu ligger på omkring 10 procent, upp från 2,5 procent vid årets början.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -52,15 +52,8 @@
           "id": "trump-usa-bbc-news-us-canada-3",
           "headline": "Trump says Iran war objectives 'nearing completion' in address to nation",
           "source": "BBC News: US & Canada",
-          "pubDate": "Thu, 02 Apr 2026 02:49:26 GMT",
+          "pubDate": "Thu, 02 Apr 2026 11:33:18 GMT",
           "link": "https://www.bbc.com/news/articles/cql72qk97gpo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "trump-usa-the-guardian-donald-trump-4",
-          "headline": "Trump’s White House ballroom project faces panel vote after judge ordered halt – US politics live",
-          "source": "Tom Ambrose",
-          "pubDate": "Thu, 02 Apr 2026 10:23:51 GMT",
-          "link": "https://www.theguardian.com/us-news/live/2026/apr/02/trump-white-house-ballroom-republicans-dhs-funding-deal-tariffs-latest-news-updates"
         },
         {
           "id": "trump-usa-bbc-news-us-canada-5",
@@ -77,11 +70,18 @@
           "link": "https://www.bbc.com/news/articles/cnv81ven263o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-14",
+          "id": "trump-usa-bbc-news-us-canada-15",
           "headline": "Trump says US 'on the cusp' of ending Iran war in televised address",
           "source": "BBC News: US & Canada",
           "pubDate": "Thu, 02 Apr 2026 02:19:35 GMT",
           "link": "https://www.bbc.com/news/videos/ce3593gv84eo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "trump-usa-bbc-news-us-canada-12",
+          "headline": "Macron calls Trump's remarks on his marriage 'inelegant'",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Thu, 02 Apr 2026 12:33:03 GMT",
+          "link": "https://www.bbc.com/news/videos/c70dxqp0q2do?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Zelenskyj kritiserade Ryssland för att svara på ett påskvapenstilleståndsförslag med över 700 drönattacker, många av dem iranska Shaheds, som riktades mot västra och centrala Ukraina i en sällsynt dagtidsattack. Zelenskyj sa att han hade talat med amerikanska förhandlare om ett påskväpenstillestånd och att 'en tystnad över påsken kunde vara exakt signalen som säger alla att diplomati kan lyckas', men Rysslands utrikesministerium avfärdade förslaget som en 'PR-trick'. Samtalen med amerikanska medlare hölls på distans med USA:s särskilde sändebud Steve Witkoff, Donald Trumps svärson Jared Kushner och senatorn Lindsey Graham, med Natos generalsekreterare Mark Rutte också närvarande. Zelenskyj sa att samtalen var 'positiva' och att de ukrainska och amerikanska teamen hade kommit överens om att stärka ett dokument som beskriver amerikanska säkerhetgarantier för en framtida fredsöverenskommelse. Förhandlingarna med Ryssland är fastlåsta över frågan om mark, med Ukraina som vägrar att avträda Donbas-regionen enligt Moskvas krav. Ryssland hävdade att det hade full kontroll över Luhansk-regionen, något som Kyiv bestred.",
+      "summary": "Volodymyr Zelensky erbjöd Ryssland en vapenvila över påsken, men Ryssland svarade genom att avfyra över 700 drönattacker – många av dem iranska Shahed-drönare – mot västra och centrala Ukraina i en sällsynt dagtidsattack. Zelensky kritiserade Ryssland för att svara på fredserbjudandet med drönattacker och fortsatta \"terroroperationer\" mot Ukrainas energisektor och infrastruktur. Rysslands utrikesministerium förkastade vapenvila-förslaget som en \"PR-stunt\". Zelensky höll samtidigt fjärrsamtal med amerikanska förhandlare inklusive Trump:s svärson Jared Kushner, senator Lindsey Graham och Natos generalsekreterare Mark Rutte. Han sa att samtalen var \"positiva\" och att ukrainska och amerikanska team hade kommit överens om att stärka ett dokument med amerikanska säkerhetgarantier för en framtida fredslösning. Zelensky tackade USA för sina fredsskapande ansträngningar men noterade att USA under senare veckor har pressat Ukraina att göra eftergifter för att snabbt avsluta kriget efter att USA och Israel startade kriget mot Iran i slutet av februari. Förhandlingarna med Ryssland är låsta i frågan om territorium – Ukraina vägrar att avstå från Donbas-regionen enligt Moskvas krav.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -112,7 +112,7 @@
       ],
       "items": [
         {
-          "id": "putin-ukraina-bbc-news-europe-10",
+          "id": "putin-ukraina-bbc-news-europe-11",
           "headline": "Zelensky says allies asked him to scale back attacks on Russian energy",
           "source": "BBC News: Europe",
           "pubDate": "Tue, 31 Mar 2026 09:18:11 GMT",
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Iran befinner sig i en intensiv militär konflikt med USA och Israel som nu pågått i över en månad. Förre utrikesministern Kamal Kharazi skadades allvarligt i ett luftanfall mot sitt hem i Teheran, där hans hustru dödades. Konflikten har eskalerat med nya iranska missilattacker mot Israel efter att president Trump hävdade att USA nästan uppnått sina mål. Irans stängning av Hormuzsundet har orsakat en global energikris genom att störa en femtedel av världens olje- och gasförsörjning, vilket drivit upp oljepriserna kraftigt. Trots Trumps uttalanden om snart slut på kriget förnekar Iran att några fredförhandlingar pågår och säger att USA:s krav är irrationella. Tusentals iranier samlades i Teheran för att hedra en dödad IRGC-marinkommendör och svura motstånd, samtidigt som landet markerade sin islamiska republiks 47:e årsdagen under krigets skugga.",
+      "summary": "Donald Trump överväger enligt rapporter att skicka amerikanska specialstyrkor till Iran för att beslagta landets lager av högt berikad uran – en komplicerad och riskfylld militär operation enligt experter. Att säkerställa att Iran inte har kärnvapen eller kapacitet att producera sådana med berikad uran har varit ett av USA:s huvudsakliga krav under förhandlingar med iranska tjänstemän under det senaste året. Iran hävdar att sitt kärnkraftsprogram är för civila energiändamål, trots att det har berikad uran långt bortom tröskeln som krävs för det. Iran innehar för närvarande omkring 440 kilogram uran berikad till 60 procent – nivån vid vilken det blir mycket snabbare att nå de 90 procent som behövs för en kärnvapen. Detta är tillräckligt för att teoretiskt producera mer än 10 kärnvapen enligt IAEA-chefen. Pakistan avser att fortsätta att driva USA och Iran mot förhandlingar trots \"hinder\" i sina ansträngningar, enligt Pakistans utrikesministerium. Talesman Tahir Andrabi gjorde dessa kommentarer timmar efter att Trump hotade att bomba Iran \"tillbaka till stenåldern\" om det inte accepterade Washingtons fredsbetingelser.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,39 +175,39 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-8",
-          "headline": "Iran’s ex-foreign minister Kharazi ‘gravely wounded’ in attack on his home",
+          "id": "iran-al-jazeera-rss-2",
+          "headline": "Can the US seize Iran’s enriched uranium – and what are the risks?",
           "source": "Al Jazeera RSS",
-          "pubDate": "Thu, 02 Apr 2026 08:13:39 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/2/irans-ex-foreign-minister-kharazi-gravely-wounded-in-attack-on-his-home?traffic_source=rss"
+          "pubDate": "Thu, 02 Apr 2026 15:21:51 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/2/can-the-us-seize-irans-enriched-uranium-and-what-are-the-risks?traffic_source=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-9",
-          "headline": "Oil price surges, Asian stocks fall as Trump vows to continue Iran attacks",
+          "id": "iran-al-jazeera-rss-12",
+          "headline": "Pakistan to continue with Iran-US mediation despite ‘obstacles’",
           "source": "Al Jazeera RSS",
-          "pubDate": "Thu, 02 Apr 2026 08:07:13 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/2/oil-surges-asian-stocks-plunge-as-trump-vows-to-keep-up-iran-attacks?traffic_source=rss"
+          "pubDate": "Thu, 02 Apr 2026 13:19:47 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/2/pakistan-to-continue-with-iran-us-mediation-despite-obstacles?traffic_source=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-10",
-          "headline": "Iran war: What is happening on day 34 of US-Israel attacks?",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Thu, 02 Apr 2026 07:50:50 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/2/iran-war-what-is-happening-on-day-34-of-us-israel-attacks?traffic_source=rss"
+          "id": "iran-bbc-news-middle-east-4",
+          "headline": "Israel's perpetual war with Iran may be hard to win with military might alone",
+          "source": "BBC News: Middle East",
+          "pubDate": "Wed, 01 Apr 2026 19:23:52 GMT",
+          "link": "https://www.bbc.com/news/articles/cql72k19rz4o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-11",
-          "headline": "Mourners vow resistance as Iran marks Islamic Republic’s 47th anniversary",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Thu, 02 Apr 2026 07:38:42 +0000",
-          "link": "https://www.aljazeera.com/gallery/2026/4/2/mourners-vow-resistance-as-iran-marks-islamic-republics-47th-anniversary?traffic_source=rss"
+          "id": "iran-bbc-news-middle-east-7",
+          "headline": "China is trying to play peacemaker in the Iran war",
+          "source": "BBC News: Middle East",
+          "pubDate": "Wed, 01 Apr 2026 07:16:15 GMT",
+          "link": "https://www.bbc.com/news/articles/cze0kz7gr84o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-15",
-          "headline": "Trump’s primetime speech on Iran war: Key takeaways",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Thu, 02 Apr 2026 05:15:10 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/2/trumps-primetime-speech-on-iran-war-key-takeaways?traffic_source=rss"
+          "id": "iran-bbc-news-middle-east-6",
+          "headline": "'You're no longer my sister'",
+          "source": "BBC News: Middle East",
+          "pubDate": "Tue, 31 Mar 2026 23:25:19 GMT",
+          "link": "https://www.bbc.com/news/articles/ce9mvzpvr7xo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Ungern står inför ett kritiskt val den 12 april där premiärminister Viktor Orbáns 16-åriga styre hotas av utmanaren Péter Magyar, en före detta Fidesz-insider som enligt opinionsmätningar kan vinna. Magyar genomför en intensiv kampanj över hela landet med löften om att bekämpa korruption och låsa upp frysta EU-medel, men visar lite tecken på att bli det pro-Ukraina-alternativ som Bryssel hoppas på. Orbáns allierade skapar alternativa valmöbleringsgrupper för att påverka valövervakningen, vilket väcker farhågor om omtvistade resultat. Läckta samtal avslöjar att Ungerns utrikesminister Peter Szijjarto diskuterat lättnader i EU:s Rysslandssanktioner med sin ryske motsvarighet Sergej Lavrov. Magyar motsätter sig snabbspår för Ukrainas EU-medlemskap, har röstat mot EU-lån till Kyiv och motsätter sig vapenleveranser, vilket visar att EU:s problem med Budapest går djupare än bara Orbán.",
+      "summary": "Ungern står i fokus för kritik från EU och Sverige angående sitt förhållande till Ryssland. Utrikesminister Maria Malmer Stenergard uttrycker inte överraskning över uppgifterna om att Ungern läcker information till Ryssland. Sedan invasionen av Ukraina 2022 har Ungern återpeatedly använt sitt vetorätt för att blockera EU:s sanktioner mot Ryssland och ett lån på 90 miljarder euro till Ukraina. Läckta telefonsamtal avslöjar att Ungerns utrikesminister Peter Szijjarto diskuterat lättnader i EU:s sanktioner med sin ryske motsvarighet Sergej Lavrov, och enligt Washington Post har han delat känslig information under EU-möten i Bryssel. Samtidigt växer ett internt hot mot Orbáns makt genom Peter Magyar, en tidigare insider från Fidesz-partiet som nu leder en kraftfull kampanj inför valet den 12 april. Magyar, som representerar det största hotet mot Orbáns styre sedan 2010, lovar att bekämpa korruption, förbättra ekonomin och låsa upp frysta EU-medel genom att återställa rättsstaten i Ungern.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,28 +238,21 @@
       ],
       "items": [
         {
-          "id": "orban-eu-politico-europe-5",
-          "headline": "Rival teams of vote observers spell trouble in Hungarian election",
-          "source": "Max Griera",
-          "pubDate": "Thu, 02 Apr 2026 02:01:00 +0000",
-          "link": "https://www.politico.eu/article/hungary-election-observers-security-controversy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
-        },
-        {
-          "id": "orban-eu-politico-europe-7",
-          "headline": "EU wants Hungary’s next leader to support Ukraine. It should be so lucky.",
-          "source": "Max Griera",
-          "pubDate": "Thu, 02 Apr 2026 02:00:00 +0000",
-          "link": "https://www.politico.eu/article/eu-wants-new-hungary-leader-support-ukraine-could-disappointed/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
-        },
-        {
           "id": "orban-eu-ekot-3",
+          "headline": "Skarpa kritiken mot Ungern: ”Illojalt agerande”",
+          "source": "Ekot",
+          "pubDate": "Thu, 02 Apr 2026 14:36:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9188607"
+        },
+        {
+          "id": "orban-eu-ekot-13",
           "headline": "Läckta samtal: Ryssland bad Ungern om hjälp",
           "source": "Ekot",
           "pubDate": "Thu, 02 Apr 2026 08:51:00 GMT",
           "link": "https://www.sverigesradio.se/artikel/9188383"
         },
         {
-          "id": "orban-eu-bbc-news-europe-2",
+          "id": "orban-eu-bbc-news-europe-14",
           "headline": "Peter Magyar, the former Orban ally vying for power in Hungary",
           "source": "BBC News: Europe",
           "pubDate": "Wed, 01 Apr 2026 13:43:10 GMT",
