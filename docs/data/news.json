@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-02T15:40:30.205Z",
+  "generatedAt": "2026-04-03T05:01:20.073Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Världen brinner, ledarna improviserar",
-    "intro": "Trump hotar Iran medan oljepriserna stiger, Orbán läcker till Moskva och EU-samarbetet spricker. Samtidigt försöker Zelensky både förhandla fred och vinna krig, medan Kina och Pakistan spelar fredsmäklare i ett kaos som ingen verkar kunna kontrollera.",
+    "title": "Makt, krig och institutionell sprängning",
+    "intro": "Trump sparkar sin egen justitieminister för att hon inte tillfredsställde hans hämndlust, medan Orbán har byggt en institutionell fälla för sin efterträdare. Världen brinner på flera fronter samtidigt som diplomatin försöker hitta vägar genom röken.",
     "bullets": [
-      "Trump säger att kriget mot Iran närmar sig slutet på två till tre veckor, men höjer samtidigt oljepriserna till 105 dollar per fat genom sina hot om att bomba Irans elproduktion. Marknaderna lugnas inte – tvärtom.",
-      "Zelensky erbjuder Ryssland vapenvila över påsken, Ryssland svarar med 700 drönattacker. Samtidigt pressar västerländska allierade honom att minska attackerna på rysk energi för att få ned oljepriserna.",
-      "Ungerns utrikesminister Szijjarto diskuterar sanktionslättnader med Rysslands Lavrov i läckta samtal, medan Sverige och EU kallar det illojalt agerande. Orbán står inför sitt största hot sedan 2010 när Peter Magyar utmanar honom i valet den 12 april.",
-      "Pakistan och Kina presenterar en fempoängsplan för vapenvila i Iran-kriget. Zelensky tecknar tioåriga försvarspakter med Qatar, Saudi-Arabien och Förenade Arabemiraten för att sälja ukrainsk dronexpertis och få luftvärnsmissiler tillbaka."
+      "Trump avskedade justitieminister Pam Bondi efter att hon misslyckats att åtala hans politiska fiender och hanteringen av Epstein-filerna blev för explosiv – även långtida lojalitet räcker inte för att överleva hans nycker.",
+      "Ukraina förhandlar om vapenvila medan Ryssland svarar med 700 drönare, och Zelenskyj säger att västerländska allierade pressar honom att minska attackerna på rysk energiinfrastruktur för att lugna oljepriserna.",
+      "Iran rekryterar barn från tolv år för säkerhetstjänst medan familjer splittras över kriget, och 30 länder försöker hitta vägar att öppna Hormuzsundet som Iran praktiskt taget stängt.",
+      "Orbán har planterat lojalister i alla kritiska institutioner för att göra det omöjligt för sin efterträdare att regera, medan Ungern läcker information till Ryssland och blockerar EU:s sanktioner och Ukraina-stöd."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Donald Trump höll en 20 minuters tal från Vita huset där han hävdade att USA:s militära mål i Iran-kriget närmar sig slutförande och att operationen skulle avslutas på två till tre veckor. Han hotade att slå Iran \"extremt hårt\" under denna period och att bomba alla elproduktionsanläggningar \"mycket hårt och troligen samtidigt\" om förhandlingar misslyckades. Trump vägrade att sätta en slutdatum för kriget och lämnade dörren öppen för att träffa Irans ledning, samtidigt som han påstod att Iran hade bett om vapenvila – ett påstående som Irans utrikesministerium omedelbar kallade falskt. Talet gjorde lite för att lugna de globala oljemarknader: Brent-oljan steg från omkring 100 dollar per fat innan talet till 105 dollar efteråt. Trump uppmanade också länder som är beroende av Hormuzstränden att visa \"mod\" och säkra vattenvägarna själva, med argumentet att USA inte behövde dem. En månad in i kriget står Trump inför sjunkande popularitet och stigande bensinpriser innan mellanvalen i november. Samtidigt har Trump:s tullkrig från förra året lett till att USA:s genomsnittliga tullsats nu ligger på omkring 10 procent, upp från 2,5 procent vid årets början.",
+      "summary": "Donald Trump har avskeddat justitieminister Pam Bondi, en långvarig allierad som omformat justitiedepartementet men ändå misslyckades att tillfredsställa en president besatt av att åtala sina politiska fiender. Bondi fick sparken främst för sin hantering av Jeffrey Epstein-filerna – trots att hon lovade transparens när hon tillträdde i februari 2025, blev frisläppandet av miljontals dokument så politiskt explosivt att det väckte Trumps vrede. Bara timmar innan avskedandet försvarade Trump henne offentligt, men skiftade sedan kurs drastiskt. Hon ersätts av sin tidigare biträdande Todd Blanche. Bondi är den andra höga tjänsteman som sparkats på några veckor, efter att Kristi Noem kastades ut som säkerhetschef i mars. Händelsen illustrerar en brutal verklighet för Trump-lojalister: ingen mängd trofasthet räcker för att skydda sig från presidentens impulsiva beslut. Demokrater jublade över hennes avgång medan republikaner försvarade hennes arbete.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -49,39 +49,39 @@
       ],
       "items": [
         {
-          "id": "trump-usa-bbc-news-us-canada-3",
-          "headline": "Trump says Iran war objectives 'nearing completion' in address to nation",
+          "id": "trump-usa-bbc-news-us-canada-2",
+          "headline": "Trump removes US Attorney General Pam Bondi",
           "source": "BBC News: US & Canada",
-          "pubDate": "Thu, 02 Apr 2026 11:33:18 GMT",
-          "link": "https://www.bbc.com/news/articles/cql72qk97gpo?at_medium=RSS&at_campaign=rss"
+          "pubDate": "Fri, 03 Apr 2026 00:31:27 GMT",
+          "link": "https://www.bbc.com/news/articles/ce843ge47z4o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-5",
-          "headline": "A year on: Four ways Trump's tariffs have changed the global economy",
-          "source": "BBC News: US & Canada",
-          "pubDate": "Thu, 02 Apr 2026 09:51:22 GMT",
-          "link": "https://www.bbc.com/news/articles/c79j1rd92ypo?at_medium=RSS&at_campaign=rss"
+          "id": "trump-usa-the-guardian-donald-trump-1",
+          "headline": "Firm backed by Trump sons tries to sell drone interceptors to Gulf states being attacked by Iran",
+          "source": "Associated Press",
+          "pubDate": "Fri, 03 Apr 2026 00:59:08 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/apr/02/eric-trump-drones-gulf-states-iran"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-4",
-          "headline": "Trump leaves key questions unanswered as he seeks to calm nerves over Iran war",
-          "source": "BBC News: US & Canada",
-          "pubDate": "Thu, 02 Apr 2026 03:22:51 GMT",
-          "link": "https://www.bbc.com/news/articles/cnv81ven263o?at_medium=RSS&at_campaign=rss"
+          "id": "trump-usa-the-guardian-donald-trump-8",
+          "headline": "Bondi firing a reminder that even ultra-loyalists get dumped by Trump",
+          "source": "Sam Levine in New York",
+          "pubDate": "Thu, 02 Apr 2026 21:05:08 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/apr/02/why-pam-bondi-fired"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-15",
-          "headline": "Trump says US 'on the cusp' of ending Iran war in televised address",
-          "source": "BBC News: US & Canada",
-          "pubDate": "Thu, 02 Apr 2026 02:19:35 GMT",
-          "link": "https://www.bbc.com/news/videos/ce3593gv84eo?at_medium=RSS&at_campaign=rss"
+          "id": "trump-usa-the-guardian-donald-trump-9",
+          "headline": "Trump fires Pam Bondi, a loyalist and ally, as attorney general",
+          "source": "Roque Planas, Sam Levine, Joseph Gedeon and Maya Yang",
+          "pubDate": "Thu, 02 Apr 2026 19:46:42 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/apr/02/trump-pam-bondi-attorney-general"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-12",
-          "headline": "Macron calls Trump's remarks on his marriage 'inelegant'",
-          "source": "BBC News: US & Canada",
-          "pubDate": "Thu, 02 Apr 2026 12:33:03 GMT",
-          "link": "https://www.bbc.com/news/videos/c70dxqp0q2do?at_medium=RSS&at_campaign=rss"
+          "id": "trump-usa-the-guardian-donald-trump-10",
+          "headline": "Democrats cheer Trump’s firing of Pam Bondi and attack Epstein files ‘cover-up’",
+          "source": "Chris Stein in Washington",
+          "pubDate": "Thu, 02 Apr 2026 19:28:54 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/apr/02/trump-pam-bondi-reaction"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Volodymyr Zelensky erbjöd Ryssland en vapenvila över påsken, men Ryssland svarade genom att avfyra över 700 drönattacker – många av dem iranska Shahed-drönare – mot västra och centrala Ukraina i en sällsynt dagtidsattack. Zelensky kritiserade Ryssland för att svara på fredserbjudandet med drönattacker och fortsatta \"terroroperationer\" mot Ukrainas energisektor och infrastruktur. Rysslands utrikesministerium förkastade vapenvila-förslaget som en \"PR-stunt\". Zelensky höll samtidigt fjärrsamtal med amerikanska förhandlare inklusive Trump:s svärson Jared Kushner, senator Lindsey Graham och Natos generalsekreterare Mark Rutte. Han sa att samtalen var \"positiva\" och att ukrainska och amerikanska team hade kommit överens om att stärka ett dokument med amerikanska säkerhetgarantier för en framtida fredslösning. Zelensky tackade USA för sina fredsskapande ansträngningar men noterade att USA under senare veckor har pressat Ukraina att göra eftergifter för att snabbt avsluta kriget efter att USA och Israel startade kriget mot Iran i slutet av februari. Förhandlingarna med Ryssland är låsta i frågan om territorium – Ukraina vägrar att avstå från Donbas-regionen enligt Moskvas krav.",
+      "summary": "Volodymyr Zelenskyj säger att västerländska allierade har skickat signaler om att Ukraina bör minska attackerna på Rysslands oljesektor och energiinfrastruktur, då globala energipriser stigit kraftigt på grund av kriget med Iran. Zelenskyj är öppen för att sluta attackera rysk energi om Ryssland gör detsamma mot ukrainsk infrastruktur. Han har också föreslagit en vapenvila under påsken som ett tecken på att diplomati kan fungera, men Ryssland svarade genom att skjuta över 700 drönare – många av dem iranska Shahed-modeller – mot västra och centrala Ukraina i en sällsynt dagtidsattack. Rysslands utrikesministerium avfärdade Zelenskyjs förslag som en \"PR-stunt\". Zelenskyj har förhandlat med amerikanska medlare inklusive Trump-svågern Jared Kushner och senator Lindsey Graham, och säger att samtalen är \"positiva\" och att man arbetar på att stärka ett dokument om amerikanska säkerhetgarantier för en framtida fredslösning. En rysk militärflygplan av typ An-26 kraschade i ockuperade Krim och dödade 29 personer ombord; Ryssland skyller på tekniskt fel.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -119,32 +119,32 @@
           "link": "https://www.bbc.com/news/articles/c0e7lrxrelwo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-3",
-          "headline": "Ukraine war briefing: Russia responds to Zelenskyy’s Easter truce offer with drone attack",
-          "source": "Guardian staff and agencies",
-          "pubDate": "Thu, 02 Apr 2026 02:07:11 GMT",
-          "link": "https://www.theguardian.com/world/2026/apr/02/ukraine-war-briefing-russia-responds-zelenskyy-easter-truce-drone-attack"
-        },
-        {
-          "id": "putin-ukraina-the-guardian-ukraine-10",
+          "id": "putin-ukraina-the-guardian-ukraine-12",
           "headline": "Ukraine war briefing: allies asked Kyiv about reducing attacks on Russian energy sector, Zelenskyy says",
           "source": "Guardian staff and agencies",
           "pubDate": "Tue, 31 Mar 2026 01:32:00 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/31/ukraine-war-briefing-allies-asked-kyiv-about-reducing-attacks-on-russian-energy-sector-zelenskyy-says"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-13",
+          "id": "putin-ukraina-the-guardian-ukraine-15",
           "headline": "Ukraine war briefing: German defence giant sparks row after comparing Ukraine drone makers to ‘housewives’",
           "source": "Guardian staff",
           "pubDate": "Mon, 30 Mar 2026 00:17:04 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/30/ukraine-war-briefing-german-defence-giant-sparks-row-after-comparing-ukraine-drone-makers-to-housewives"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-15",
-          "headline": "Ukraine war briefing: Zelenskyy drums up defence agreements with Gulf states on countering missiles and drones",
+          "id": "putin-ukraina-the-guardian-ukraine-5",
+          "headline": "Ukraine war briefing: Russia responds to Zelenskyy’s Easter truce offer with drone attack",
           "source": "Guardian staff and agencies",
-          "pubDate": "Sun, 29 Mar 2026 00:06:20 GMT",
-          "link": "https://www.theguardian.com/world/2026/mar/29/ukraine-war-briefing-zelenskyy-drums-up-defence-agreements-with-gulf-states-on-countering-missiles-and-drones"
+          "pubDate": "Thu, 02 Apr 2026 02:07:11 GMT",
+          "link": "https://www.theguardian.com/world/2026/apr/02/ukraine-war-briefing-russia-responds-zelenskyy-easter-truce-drone-attack"
+        },
+        {
+          "id": "putin-ukraina-bbc-news-europe-8",
+          "headline": "Russian military plane crash kills 29 in occupied Crimea",
+          "source": "BBC News: Europe",
+          "pubDate": "Wed, 01 Apr 2026 09:55:28 GMT",
+          "link": "https://www.bbc.com/news/articles/cly6387xgqxo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Donald Trump överväger enligt rapporter att skicka amerikanska specialstyrkor till Iran för att beslagta landets lager av högt berikad uran – en komplicerad och riskfylld militär operation enligt experter. Att säkerställa att Iran inte har kärnvapen eller kapacitet att producera sådana med berikad uran har varit ett av USA:s huvudsakliga krav under förhandlingar med iranska tjänstemän under det senaste året. Iran hävdar att sitt kärnkraftsprogram är för civila energiändamål, trots att det har berikad uran långt bortom tröskeln som krävs för det. Iran innehar för närvarande omkring 440 kilogram uran berikad till 60 procent – nivån vid vilken det blir mycket snabbare att nå de 90 procent som behövs för en kärnvapen. Detta är tillräckligt för att teoretiskt producera mer än 10 kärnvapen enligt IAEA-chefen. Pakistan avser att fortsätta att driva USA och Iran mot förhandlingar trots \"hinder\" i sina ansträngningar, enligt Pakistans utrikesministerium. Talesman Tahir Andrabi gjorde dessa kommentarer timmar efter att Trump hotade att bomba Iran \"tillbaka till stenåldern\" om det inte accepterade Washingtons fredsbetingelser.",
+      "summary": "USA säger att Trump är öppen för diplomati med Iran medan kriget fortsätter, men anklagade Iran för att fortsätta att sträva efter kärnvapen. Amerikanska staten Department-talesman Tommy Pigott sa att presidenten är \"alltid öppen för diplomati\" men också tydlig om att hans mål måste uppfyllas. Trump hotade på nytt att förstöra Irans civil infrastruktur men presenterade ingen plan för hur konflikten skulle avslutas eller hur Hormuzsundet – som Iran stängt – skulle öppnas igen. Israel och USA inledde kriget mot Iran den 28 februari efter positiva förhandlingar i Genève. Israels tidigare säkerhetschef Tzachi Hanegbi säger att det gemensamma kriget öppnade nya möjligheter för Israel att attackera Iran, men kriget har inte löst Israels regionala konflikter som premiärministern förespeglade. Israel håller fortfarande territorium i Gaza och Syrien, och försvarsminstern har beordrat att ta en stor del av södra Libanon som \"buffertzon\" mot Irans allierade Hezbollah – omkring 600 000 människor har förbjudits att återvända hem. Över 1 200 människor har dödats i Libanon sedan Israels senaste kampanj började, och Iran säger att nästan 2 000 människor har dödats.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,39 +175,39 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-2",
-          "headline": "Can the US seize Iran’s enriched uranium – and what are the risks?",
+          "id": "iran-al-jazeera-rss-13",
+          "headline": "As war drags on, US reiterates Trump open to diplomacy with Iran",
           "source": "Al Jazeera RSS",
-          "pubDate": "Thu, 02 Apr 2026 15:21:51 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/2/can-the-us-seize-irans-enriched-uranium-and-what-are-the-risks?traffic_source=rss"
+          "pubDate": "Thu, 02 Apr 2026 20:24:20 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/2/as-war-drags-on-us-reiterates-trump-open-to-diplomacy-with-iran?traffic_source=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-12",
-          "headline": "Pakistan to continue with Iran-US mediation despite ‘obstacles’",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Thu, 02 Apr 2026 13:19:47 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/2/pakistan-to-continue-with-iran-us-mediation-despite-obstacles?traffic_source=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-4",
+          "id": "iran-bbc-news-middle-east-9",
           "headline": "Israel's perpetual war with Iran may be hard to win with military might alone",
           "source": "BBC News: Middle East",
           "pubDate": "Wed, 01 Apr 2026 19:23:52 GMT",
           "link": "https://www.bbc.com/news/articles/cql72k19rz4o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-7",
-          "headline": "China is trying to play peacemaker in the Iran war",
-          "source": "BBC News: Middle East",
-          "pubDate": "Wed, 01 Apr 2026 07:16:15 GMT",
-          "link": "https://www.bbc.com/news/articles/cze0kz7gr84o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-6",
+          "id": "iran-bbc-news-middle-east-11",
           "headline": "'You're no longer my sister'",
           "source": "BBC News: Middle East",
           "pubDate": "Tue, 31 Mar 2026 23:25:19 GMT",
           "link": "https://www.bbc.com/news/articles/ce9mvzpvr7xo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-13",
+          "headline": "Iran using children in security roles in war, reports and witnesses say",
+          "source": "BBC News: Middle East",
+          "pubDate": "Tue, 31 Mar 2026 12:56:45 GMT",
+          "link": "https://www.bbc.com/news/articles/c9wqgjn7x89o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-ekot-14",
+          "headline": "30-tal länder samlade – diskuterar Hormuzsundet i Iran",
+          "source": "Ekot",
+          "pubDate": "Thu, 02 Apr 2026 11:47:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9189253"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Ungern står i fokus för kritik från EU och Sverige angående sitt förhållande till Ryssland. Utrikesminister Maria Malmer Stenergard uttrycker inte överraskning över uppgifterna om att Ungern läcker information till Ryssland. Sedan invasionen av Ukraina 2022 har Ungern återpeatedly använt sitt vetorätt för att blockera EU:s sanktioner mot Ryssland och ett lån på 90 miljarder euro till Ukraina. Läckta telefonsamtal avslöjar att Ungerns utrikesminister Peter Szijjarto diskuterat lättnader i EU:s sanktioner med sin ryske motsvarighet Sergej Lavrov, och enligt Washington Post har han delat känslig information under EU-möten i Bryssel. Samtidigt växer ett internt hot mot Orbáns makt genom Peter Magyar, en tidigare insider från Fidesz-partiet som nu leder en kraftfull kampanj inför valet den 12 april. Magyar, som representerar det största hotet mot Orbáns styre sedan 2010, lovar att bekämpa korruption, förbättra ekonomin och låsa upp frysta EU-medel genom att återställa rättsstaten i Ungern.",
+      "summary": "Viktor Orbán har under sina 16 år vid makten planterat lojalister i kritiska offentliga institutioner för att göra det nästan omöjligt för sin efterträdare att regera effektivt. Även om oppositionsledaren Péter Magyar vinner valet den 12 april, kommer han att möta en komplex juridisk och politisk minerad terräng: Orbáns lojalister i en politiserad konstitutionell domstol kan blockera Magyars budgetar och lagstiftning, och många kritiska aspekter av det offentliga livet – inklusive \"kardinallagarna\" som styr rättsväsendet, media, valsystemet, offentliga finanser, familjepolitik och kyrkan – kan bara ändras om Magyar och hans Tisza-parti får en osannolik två-tredjedelsmajoritet. Magyar, en 45-årig före detta Fidesz-insider, representerar det största hotet mot Orbáns styre sedan han vann sitt första av fyra på varandra följande val 2010. Han har gjort över 100 kampanjstopp och lovar att tackla korruption, förbättra ekonomin och låsa upp miljardtals frysta EU-medel. Orbán har framställt honom som en \"marionett\" för EU och Ukraina.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,18 +238,18 @@
       ],
       "items": [
         {
-          "id": "orban-eu-ekot-3",
+          "id": "orban-eu-politico-europe-4",
+          "headline": "How Viktor Orbán laid traps to stop his successor from running Hungary",
+          "source": "Max Griera, Jamie Dettmer",
+          "pubDate": "Fri, 03 Apr 2026 02:00:00 +0000",
+          "link": "https://www.politico.eu/article/viktor-orban-laid-traps-stop-successor-running-hungary/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        },
+        {
+          "id": "orban-eu-ekot-9",
           "headline": "Skarpa kritiken mot Ungern: ”Illojalt agerande”",
           "source": "Ekot",
           "pubDate": "Thu, 02 Apr 2026 14:36:00 GMT",
           "link": "https://www.sverigesradio.se/artikel/9188607"
-        },
-        {
-          "id": "orban-eu-ekot-13",
-          "headline": "Läckta samtal: Ryssland bad Ungern om hjälp",
-          "source": "Ekot",
-          "pubDate": "Thu, 02 Apr 2026 08:51:00 GMT",
-          "link": "https://www.sverigesradio.se/artikel/9188383"
         },
         {
           "id": "orban-eu-bbc-news-europe-14",
