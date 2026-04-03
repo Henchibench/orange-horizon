@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-03T05:01:20.073Z",
+  "generatedAt": "2026-04-03T10:33:13.887Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Makt, krig och institutionell sprängning",
-    "intro": "Trump sparkar sin egen justitieminister för att hon inte tillfredsställde hans hämndlust, medan Orbán har byggt en institutionell fälla för sin efterträdare. Världen brinner på flera fronter samtidigt som diplomatin försöker hitta vägar genom röken.",
+    "title": "Makt, krig och auktoritära experiment",
+    "intro": "Trump sparkar sina egna loyalister när det passar honom, hotar att bomba Irans kraftverk och låter sina söner sälja drönförsvar till länder under attack.",
     "bullets": [
-      "Trump avskedade justitieminister Pam Bondi efter att hon misslyckats att åtala hans politiska fiender och hanteringen av Epstein-filerna blev för explosiv – även långtida lojalitet räcker inte för att överleva hans nycker.",
-      "Ukraina förhandlar om vapenvila medan Ryssland svarar med 700 drönare, och Zelenskyj säger att västerländska allierade pressar honom att minska attackerna på rysk energiinfrastruktur för att lugna oljepriserna.",
-      "Iran rekryterar barn från tolv år för säkerhetstjänst medan familjer splittras över kriget, och 30 länder försöker hitta vägar att öppna Hormuzsundet som Iran praktiskt taget stängt.",
-      "Orbán har planterat lojalister i alla kritiska institutioner för att göra det omöjligt för sin efterträdare att regera, medan Ungern läcker information till Ryssland och blockerar EU:s sanktioner och Ukraina-stöd."
+      "Trump avskedade justitieminister Pam Bondi trots hennes lojalitet, frustrerad över hennes hantering av Epstein-filerna och misslyckande att åtala hans politiska fiender. Hennes ersättare blir Todd Blanche, hennes tidigare biträdande.",
+      "USA och Israel utökar attackerna på Iran med målning av broar, kraftverk och medicinsk forskning medan Trump hotar att bomba Irans elproduktion. Över 100 internationella jurister anklagar USA, Israel och Iran för brott mot folkrätten, men Vita huset avfärdar kritiken.",
+      "Ukraina förhandlar om vapenvila medan Ryssland svarar med över 700 drönattacker, och Kenyans försvinner i rysk militärtjänst. Tyskland kritiseras för att förlöjliga ukrainska dröntillverkare som \"husmödrar\", vilket väcker massiv motreaktion.",
+      "Trump skickar vicepresident JD Vance till Budapest för att rädda Orbán före valet den 12 april, medan Orbán redan byggt in loyalister i domstolar och institutioner för att blockera sin motståndare Péter Magyar om denne vinner."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Donald Trump har avskeddat justitieminister Pam Bondi, en långvarig allierad som omformat justitiedepartementet men ändå misslyckades att tillfredsställa en president besatt av att åtala sina politiska fiender. Bondi fick sparken främst för sin hantering av Jeffrey Epstein-filerna – trots att hon lovade transparens när hon tillträdde i februari 2025, blev frisläppandet av miljontals dokument så politiskt explosivt att det väckte Trumps vrede. Bara timmar innan avskedandet försvarade Trump henne offentligt, men skiftade sedan kurs drastiskt. Hon ersätts av sin tidigare biträdande Todd Blanche. Bondi är den andra höga tjänsteman som sparkats på några veckor, efter att Kristi Noem kastades ut som säkerhetschef i mars. Händelsen illustrerar en brutal verklighet för Trump-lojalister: ingen mängd trofasthet räcker för att skydda sig från presidentens impulsiva beslut. Demokrater jublade över hennes avgång medan republikaner försvarade hennes arbete.",
+      "summary": "Donald Trump har avskedats justitieminister Pam Bondi, en långvarig allierad som omformat justitiedepartementet men misslyckades att tillfredsställa en president fixerad på att åtala politiska motståndare. Bondi, som fick sparken trots Trumps försäkringar dagen innan om att hon gjorde ett bra jobb, ersätts av hennes tidigare biträdande Todd Blanche. Hennes tid ledde justitiedepartementet överskuggades av hanteringen av Jeffrey Epstein-filerna, vars publicering under press från Trump-anhängare frustrerade presidenten. Bondi är den andra Trump-administrationens höga tjänsteman som sparkats på några veckor, efter Kristi Noem som avskedades som säkerhetschef i mars. I en televisionerad tal sa Trump att USA nästan slutfört sina mål i kriget mot Iran och lovade att slå \"extremt hårt\" under de kommande två till tre veckorna, utan att sätta någon tidsgräns för konfliktens slut. Han hotade att bomba Irans kraftverk och elektriska anläggningar om förhandlingar misslyckades, medan oljepriserna steg till 105 dollar per fat efter talet.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -56,32 +56,32 @@
           "link": "https://www.bbc.com/news/articles/ce843ge47z4o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-1",
+          "id": "trump-usa-bbc-news-us-canada-11",
+          "headline": "Trump says Iran war objectives 'nearing completion' in address to nation",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Thu, 02 Apr 2026 11:33:18 GMT",
+          "link": "https://www.bbc.com/news/articles/cql72qk97gpo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-9",
           "headline": "Firm backed by Trump sons tries to sell drone interceptors to Gulf states being attacked by Iran",
           "source": "Associated Press",
           "pubDate": "Fri, 03 Apr 2026 00:59:08 GMT",
           "link": "https://www.theguardian.com/us-news/2026/apr/02/eric-trump-drones-gulf-states-iran"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-8",
+          "id": "trump-usa-the-guardian-donald-trump-12",
           "headline": "Bondi firing a reminder that even ultra-loyalists get dumped by Trump",
           "source": "Sam Levine in New York",
           "pubDate": "Thu, 02 Apr 2026 21:05:08 GMT",
           "link": "https://www.theguardian.com/us-news/2026/apr/02/why-pam-bondi-fired"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-9",
+          "id": "trump-usa-the-guardian-donald-trump-13",
           "headline": "Trump fires Pam Bondi, a loyalist and ally, as attorney general",
           "source": "Roque Planas, Sam Levine, Joseph Gedeon and Maya Yang",
           "pubDate": "Thu, 02 Apr 2026 19:46:42 GMT",
           "link": "https://www.theguardian.com/us-news/2026/apr/02/trump-pam-bondi-attorney-general"
-        },
-        {
-          "id": "trump-usa-the-guardian-donald-trump-10",
-          "headline": "Democrats cheer Trump’s firing of Pam Bondi and attack Epstein files ‘cover-up’",
-          "source": "Chris Stein in Washington",
-          "pubDate": "Thu, 02 Apr 2026 19:28:54 GMT",
-          "link": "https://www.theguardian.com/us-news/2026/apr/02/trump-pam-bondi-reaction"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Volodymyr Zelenskyj säger att västerländska allierade har skickat signaler om att Ukraina bör minska attackerna på Rysslands oljesektor och energiinfrastruktur, då globala energipriser stigit kraftigt på grund av kriget med Iran. Zelenskyj är öppen för att sluta attackera rysk energi om Ryssland gör detsamma mot ukrainsk infrastruktur. Han har också föreslagit en vapenvila under påsken som ett tecken på att diplomati kan fungera, men Ryssland svarade genom att skjuta över 700 drönare – många av dem iranska Shahed-modeller – mot västra och centrala Ukraina i en sällsynt dagtidsattack. Rysslands utrikesministerium avfärdade Zelenskyjs förslag som en \"PR-stunt\". Zelenskyj har förhandlat med amerikanska medlare inklusive Trump-svågern Jared Kushner och senator Lindsey Graham, och säger att samtalen är \"positiva\" och att man arbetar på att stärka ett dokument om amerikanska säkerhetgarantier för en framtida fredslösning. En rysk militärflygplan av typ An-26 kraschade i ockuperade Krim och dödade 29 personer ombord; Ryssland skyller på tekniskt fel.",
+      "summary": "Sexton kenyaner är försvunna i Ryssland efter att ha anslutit sig till armén, enligt Kenyas utrikesminister, medan 47 andra har återvänt från fronten i Ukraina och 38 ligger på olika ryska sjukhus med begränsad tillgång. Totalt har över 250 kenyaner deltagit i konflikten, många lockade av löften om lukrativ ersättning mellan 11 500 och 23 000 dollar plus månadslön upp till 2 700 dollar. Ukrainas president Volodymyr Zelenskyj erbjöd en vapenvila över påsken men Ryssland svarade med över 700 drönattacker, många av dem iranska Shahed-drönare, i en sällsynt dagtidsattack mot västra och centrala Ukraina. Rysslands utrikesministerium avfärdade Zelenskyjs förslag som en \"PR-stunt\". Zelenskyj förhandlade med amerikanska medlare inklusive Trumps svärson Jared Kushner och senator Lindsey Graham om möjligheter att framåt diplomatin, och sa att samtalen var \"positiva\". Några av Ukrainas allierade har skickat signaler till Kyiv om möjligheten att minska långdistansattacker på Rysslands oljesektor när globala energipriser stiger, något Zelenskyj sa han var öppen för om Ryssland slutade attackera Ukrainas energisystem.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -112,11 +112,11 @@
       ],
       "items": [
         {
-          "id": "putin-ukraina-bbc-news-europe-11",
-          "headline": "Zelensky says allies asked him to scale back attacks on Russian energy",
+          "id": "putin-ukraina-bbc-news-europe-3",
+          "headline": "Sixteen Kenyans missing in Russia after army recruitment",
           "source": "BBC News: Europe",
-          "pubDate": "Tue, 31 Mar 2026 09:18:11 GMT",
-          "link": "https://www.bbc.com/news/articles/c0e7lrxrelwo?at_medium=RSS&at_campaign=rss"
+          "pubDate": "Thu, 02 Apr 2026 18:35:09 GMT",
+          "link": "https://www.bbc.com/news/articles/cx2ell79v2wo?at_medium=RSS&at_campaign=rss"
         },
         {
           "id": "putin-ukraina-the-guardian-ukraine-12",
@@ -140,7 +140,7 @@
           "link": "https://www.theguardian.com/world/2026/apr/02/ukraine-war-briefing-russia-responds-zelenskyy-easter-truce-drone-attack"
         },
         {
-          "id": "putin-ukraina-bbc-news-europe-8",
+          "id": "putin-ukraina-bbc-news-europe-9",
           "headline": "Russian military plane crash kills 29 in occupied Crimea",
           "source": "BBC News: Europe",
           "pubDate": "Wed, 01 Apr 2026 09:55:28 GMT",
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "USA säger att Trump är öppen för diplomati med Iran medan kriget fortsätter, men anklagade Iran för att fortsätta att sträva efter kärnvapen. Amerikanska staten Department-talesman Tommy Pigott sa att presidenten är \"alltid öppen för diplomati\" men också tydlig om att hans mål måste uppfyllas. Trump hotade på nytt att förstöra Irans civil infrastruktur men presenterade ingen plan för hur konflikten skulle avslutas eller hur Hormuzsundet – som Iran stängt – skulle öppnas igen. Israel och USA inledde kriget mot Iran den 28 februari efter positiva förhandlingar i Genève. Israels tidigare säkerhetschef Tzachi Hanegbi säger att det gemensamma kriget öppnade nya möjligheter för Israel att attackera Iran, men kriget har inte löst Israels regionala konflikter som premiärministern förespeglade. Israel håller fortfarande territorium i Gaza och Syrien, och försvarsminstern har beordrat att ta en stor del av södra Libanon som \"buffertzon\" mot Irans allierade Hezbollah – omkring 600 000 människor har förbjudits att återvända hem. Över 1 200 människor har dödats i Libanon sedan Israels senaste kampanj började, och Iran säger att nästan 2 000 människor har dödats.",
+      "summary": "Över 100 internationella jurister har undertecknat ett öppet brev som uttrycker \"djup oro\" för vad de ser som allvarliga brott mot folkrätten av USA, Israel och Iran i kriget i Mellanöstern. Experterna säger att USA-Israels beslut att attackera Iran är ett klart brott mot FN-stadgan, som förbjuder användning av våld utanför självförsvar eller när det är auktoriserat av säkerhetrådet. De pekar på \"alarmerande retorik\" från tjänstemän, inklusive Trumps hot om att \"utplåna\" Irans kraftverk. Vita huset avfärdade kritiken och sa att Trump gör hela regionen säkrare. Kuwaitiska myndigheter rapporterade att en kraft- och avsaltningsanläggning träffades av en iransk attack på fredagen, och tidigare samma dag träffades Mina al-Ahmadi-oljeraffinaderiet av drönattacker som orsakade bränder i flera operativa enheter. Detta var tredje gången raffinaderiet träffades. Kuwait ligger endast 80 kilometer från Irans kustlinje och är därför lätt att attackera. Trump hotade att attackera \"broar nästa, sedan kraftverk\" efter att ha delat video av en amerikansk attack på B1-bron som förbinder Teheran med Karaj, en nybyggd bro som skulle öppnas detta år.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,39 +175,39 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-13",
-          "headline": "As war drags on, US reiterates Trump open to diplomacy with Iran",
+          "id": "iran-bbc-news-middle-east-1",
+          "headline": "International law experts allege violations in Iran war",
+          "source": "BBC News: Middle East",
+          "pubDate": "Fri, 03 Apr 2026 10:18:11 GMT",
+          "link": "https://www.bbc.com/news/articles/cy91x2n29nlo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-3",
+          "headline": "Kuwait desalination plant, oil refinery hit by missile and drone strikes",
           "source": "Al Jazeera RSS",
-          "pubDate": "Thu, 02 Apr 2026 20:24:20 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/2/as-war-drags-on-us-reiterates-trump-open-to-diplomacy-with-iran?traffic_source=rss"
+          "pubDate": "Fri, 03 Apr 2026 08:59:42 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/3/kuwait-desalination-plant-oil-refinery-hit-by-missile-and-drone-strikes?traffic_source=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-9",
-          "headline": "Israel's perpetual war with Iran may be hard to win with military might alone",
-          "source": "BBC News: Middle East",
-          "pubDate": "Wed, 01 Apr 2026 19:23:52 GMT",
-          "link": "https://www.bbc.com/news/articles/cql72k19rz4o?at_medium=RSS&at_campaign=rss"
+          "id": "iran-al-jazeera-rss-8",
+          "headline": "Iran condemns US-Israeli ‘moral collapse’ after attacks on civilian sites",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Fri, 03 Apr 2026 08:03:04 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/3/iran-condemns-us-israeli-moral-collapse-after-attacks-on-civilian-sites?traffic_source=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-11",
-          "headline": "'You're no longer my sister'",
-          "source": "BBC News: Middle East",
-          "pubDate": "Tue, 31 Mar 2026 23:25:19 GMT",
-          "link": "https://www.bbc.com/news/articles/ce9mvzpvr7xo?at_medium=RSS&at_campaign=rss"
+          "id": "iran-al-jazeera-rss-12",
+          "headline": "Iran war: What is happening on day 35 of US-Israeli attacks?",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Fri, 03 Apr 2026 06:42:33 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/3/iran-war-what-is-happening-on-day-35-of-us-israeli-attacks?traffic_source=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-13",
-          "headline": "Iran using children in security roles in war, reports and witnesses say",
-          "source": "BBC News: Middle East",
-          "pubDate": "Tue, 31 Mar 2026 12:56:45 GMT",
-          "link": "https://www.bbc.com/news/articles/c9wqgjn7x89o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "iran-ekot-14",
-          "headline": "30-tal länder samlade – diskuterar Hormuzsundet i Iran",
-          "source": "Ekot",
-          "pubDate": "Thu, 02 Apr 2026 11:47:00 GMT",
-          "link": "https://www.sverigesradio.se/artikel/9189253"
+          "id": "iran-al-jazeera-rss-14",
+          "headline": "How China’s ‘teapot’ refineries are cushioning it from Iran war oil crisis",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Fri, 03 Apr 2026 05:57:07 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/3/how-chinas-teapot-refineries-are-cushioning-it-from-iran-war-oil-crisis?traffic_source=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Viktor Orbán har under sina 16 år vid makten planterat lojalister i kritiska offentliga institutioner för att göra det nästan omöjligt för sin efterträdare att regera effektivt. Även om oppositionsledaren Péter Magyar vinner valet den 12 april, kommer han att möta en komplex juridisk och politisk minerad terräng: Orbáns lojalister i en politiserad konstitutionell domstol kan blockera Magyars budgetar och lagstiftning, och många kritiska aspekter av det offentliga livet – inklusive \"kardinallagarna\" som styr rättsväsendet, media, valsystemet, offentliga finanser, familjepolitik och kyrkan – kan bara ändras om Magyar och hans Tisza-parti får en osannolik två-tredjedelsmajoritet. Magyar, en 45-årig före detta Fidesz-insider, representerar det största hotet mot Orbáns styre sedan han vann sitt första av fyra på varandra följande val 2010. Han har gjort över 100 kampanjstopp och lovar att tackla korruption, förbättra ekonomin och låsa upp miljardtals frysta EU-medel. Orbán har framställt honom som en \"marionett\" för EU och Ukraina.",
+      "summary": "Ungerns politiska landskap genomgår en dramatisk förändring inför valet den 12 april, där oppositionskandidaten Péter Magyar hotar Viktor Orbáns 16-åriga styre. Trump-administrationen gör ett sista försök att rädda sin europeiska allierade genom att skicka vicepresident JD Vance till Budapest för att stödja Orbán innan valet. Magyar, en tidigare insider i Fidesz-partiet, leder opinionsundersökningarna och lovar att bekämpa korruption, förbättra ekonomin och låsa upp frysta EU-medel. Orbán har dock förberett omfattande institutionella hinder för en eventuell efterträdare genom att placera lojala anhängare i kritiska offentliga institutioner, inklusive domstolar som kan blockera budgetar och lagstiftning. Samtidigt kritiseras Ungern hårt för sitt agerande gentemot EU och Ryssland, där svenska utrikesminister Maria Malmer Stenergard uttrycker oro över uppgifter om att Ungern läcker information till Ryssland. Sedan Ukraina-invasionen 2022 har Ungern återpeatedly använt sitt veto mot EU-sanktioner mot Ryssland och ett lån på 90 miljarder euro till Ukraina, vilket väcker frågor om landets lojalitet inom unionen.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,21 +238,28 @@
       ],
       "items": [
         {
-          "id": "orban-eu-politico-europe-4",
+          "id": "orban-eu-politico-europe-2",
+          "headline": "Operation Save Orbán: Trump deploys Vance to Hungary",
+          "source": "Milena Wälde",
+          "pubDate": "Fri, 03 Apr 2026 09:37:00 +0000",
+          "link": "https://www.politico.eu/article/operation-save-viktor-orban-us-donald-trump-deploys-jd-vance-hungary/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        },
+        {
+          "id": "orban-eu-politico-europe-7",
           "headline": "How Viktor Orbán laid traps to stop his successor from running Hungary",
           "source": "Max Griera, Jamie Dettmer",
           "pubDate": "Fri, 03 Apr 2026 02:00:00 +0000",
           "link": "https://www.politico.eu/article/viktor-orban-laid-traps-stop-successor-running-hungary/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
         },
         {
-          "id": "orban-eu-ekot-9",
+          "id": "orban-eu-ekot-14",
           "headline": "Skarpa kritiken mot Ungern: ”Illojalt agerande”",
           "source": "Ekot",
           "pubDate": "Thu, 02 Apr 2026 14:36:00 GMT",
           "link": "https://www.sverigesradio.se/artikel/9188607"
         },
         {
-          "id": "orban-eu-bbc-news-europe-14",
+          "id": "orban-eu-bbc-news-europe-12",
           "headline": "Peter Magyar, the former Orban ally vying for power in Hungary",
           "source": "BBC News: Europe",
           "pubDate": "Wed, 01 Apr 2026 13:43:10 GMT",
