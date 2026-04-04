@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-03T15:32:35.768Z",
+  "generatedAt": "2026-04-04T04:58:55.765Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Makt, krig och regionalt kaos på språng",
-    "intro": "Trump sparkar sin justitieminister för att hon misshandlade Epstein-ärendet, bygger en gyllad diktatorstaty i Miami och hotar att bomba Iran tillbaka till stenåldern medan han säger att kriget är nästan över.",
+    "title": "Makt, missbruk och misstro på fyra kontinenter",
+    "intro": "Trump bygger sitt försvarsbugget på militär överflöd medan han attackerar väljares rättigheter hemma. Samtidigt eskalerar kriget i Ukraina, Iran skjuter ned amerikanska plan, och Orbán kämpar för sitt politiska liv när väljarna vänt sig mot honom.",
     "bullets": [
-      "Trump avsätter justitieminister Pam Bondi efter hennes hantering av Epstein-filerna och hennes misslyckade rättsprocesser mot politiska motståndare. Hon ersätts av hennes biträdande Todd Blanche. Det är den andra ministern Trump sparkar på kort tid efter att Kristi Noem kastades ut som säkerhetschef i mars.",
-      "I sitt första tv-tal om Irankriget säger Trump att USA är nära att slutföra sina mål men hotar att slå Iran \"extremt hårt\" de nästa två till tre veckorna och bomba deras kraftverk och broar om förhandlingar misslyckas. Oljepriserna steg från 100 till 105 dollar per fat efter talet.",
-      "Zelenskyj erbjuder Ryssland vapenvila över påsken men Moskva svarar med över 700 drönare och avfärdar förslaget som en \"PR-trick\". Ryssland hävdar att det har full kontroll över Luhansk men ukrainska militärer säger att små områden fortfarande hålls av ukrainska styrkor.",
-      "Trump skickar vicepresident JD Vance till Budapest på tisdag för att stötta Orbán före valet den 12 april, där oppositionen och före detta Fidesz-medlemmen Péter Magyar leder i opinionsmätningarna med sitt löfte om att bekämpa korruption och låsa upp EU-medel."
+      "Trump begär 1,5 biljoner dollar för försvar och vill återöppna Alcatraz som fängelse, samtidigt som 23 demokratiska delstater stämmer honom för att han försöker begränsa brevröstningen genom presidentdekret. En delstatlig domstol har redan blockerat ett tidigare röstningsförbud.",
+      "Ryssland genomförde över 500 drönattacker och flera robotattacker mot Ukraina under fredagen i fullt dagsljus – en ovanlig taktik som dödade minst 14 personer. Zelensky avvisade Moskvas val av eskalering framför ett påskvapenstillestånd, medan Kenyaner fortsätter att försvinna efter att ha värvats till ryska armén.",
+      "Iran hävdar att det skjutit ned två amerikanska stridsflygplan och firar det som ett militärt genombrott, medan över 100 internationella jurister varnar för krigsbrott. Trump hotar att bomba Irans broar och kraftverk om landet inte ger efter, och över 20 hälsovårdsanläggningar har attackerats.",
+      "Orbán står inför sitt största politiska hot på 16 år när oppositionskandidaten Péter Magyar leder opinionsundersökningarna före valet den 12 april."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump avsätter justitieminister Pam Bondi från sin post som USA:s högsta rättsliga chef. Bondi, en långvarig allierad och våldsam försvarare av Trumps administration, ersätts av hennes tidigare biträdande Todd Blanche. Bondi hade kritiserats hårt för sin hantering av Jeffrey Epstein-filerna och för sitt misslyckade arbete med att få fällningar i rättsprocesser mot Trumps politiska motståndare. Hennes avgång är den andra ministern Trump sparkar på kort tid efter att Kristi Noem kastades ut som säkerhetschef i mars. Trump hyllade Bondi på Truth Social men hade enligt rapporter växt frustrerad över hennes arbete under flera månader. I sitt första tv-tal om Irankriget säger Trump att USA:s militär nästan har slutfört sina mål i kriget och hotar att slå Iran \"extremt hårt\" under de nästa två till tre veckorna. Han uppmanar länder som får olja genom Hormuzstränden att visa \"mod\" och ta över vattenvägen, som har varit effektivt stängd av iranska attacker. Trump säger att USA inte har träffat Irans oljeanläggningar ännu för att det inte skulle ge Iran \"ens en liten chans att överleva eller återuppbygga\", men hotar att bomba alla deras kraftverk samtidigt om förhandlingar misslyckas.",
+      "summary": "Trump presenterade ett budgetförslag på fredagen som begär 1,5 biljoner dollar för försvar – den största militära utgiftsökningen sedan andra världskriget. Budgeten inkluderar finansiering för ett föreslaget försvarssystem kallat Golden Dome, nya Trump-klassade slagskepp och omfattande utgifter för skeppsbyggnad. Samtidigt föreslår administrationen att skära ned icke-försvarsbudgetar med 10 procent, inklusive nedskärningar i klimat-, bostads- och utbildningsprogram. Trump begärde också 152 miljoner dollar för att återställa Alcatraz som federalt fängelse, en plan han först föreslog i maj förra året. På fredagen utfärdade Trump en verkställande order som förklarar att alla anställda vid Department of Homeland Security ska få lön och förmåner under myndighetens partiella nedstängning, vilket är den längsta partiella regeringsnedstängningen i amerikansk historia på dag 49. Denna order liknar en tidigare order om att betala TSA-agenter under nedstängningen. Samtidigt stämde 23 demokratiska delstater Trump för att blockera hans verkställande order från tisdagen som begränsar brevröstningen.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -49,39 +49,39 @@
       ],
       "items": [
         {
-          "id": "trump-usa-bbc-news-us-canada-4",
-          "headline": "Trump removes US Attorney General Pam Bondi",
+          "id": "trump-usa-bbc-news-us-canada-6",
+          "headline": "Democratic states sue to block Trump's mail-in ballot restrictions",
           "source": "BBC News: US & Canada",
-          "pubDate": "Fri, 03 Apr 2026 11:42:17 GMT",
-          "link": "https://www.bbc.com/news/articles/ce843ge47z4o?at_medium=RSS&at_campaign=rss"
+          "pubDate": "Sat, 04 Apr 2026 02:05:02 GMT",
+          "link": "https://www.bbc.com/news/articles/cdxdyvxryl2o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-2",
-          "headline": "‘Vegas hotel meets aerospace bling’: Trump’s presidential library plan is a gaudy, self-glorifying monstrosity",
-          "source": "Catherine Slessor",
-          "pubDate": "Fri, 03 Apr 2026 15:27:00 GMT",
-          "link": "https://www.theguardian.com/artanddesign/2026/apr/03/donald-trump-presidential-library-gaudy-monstrosity-architecture-bling"
-        },
-        {
-          "id": "trump-usa-bbc-news-us-canada-11",
-          "headline": "Trump says Iran war objectives 'nearing completion' in address to nation",
+          "id": "trump-usa-bbc-news-us-canada-5",
+          "headline": "Trump seeks $1.5tn for defence alongside domestic spending cuts",
           "source": "BBC News: US & Canada",
-          "pubDate": "Thu, 02 Apr 2026 11:33:18 GMT",
-          "link": "https://www.bbc.com/news/articles/cql72qk97gpo?at_medium=RSS&at_campaign=rss"
+          "pubDate": "Fri, 03 Apr 2026 15:45:25 GMT",
+          "link": "https://www.bbc.com/news/articles/crr1q4kjvn2o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-svt-nyheter-utrikes-5",
-          "headline": "Trump sparkar justitieminister Pam Bondi",
-          "source": "SVT Nyheter: Utrikes",
-          "pubDate": "Thu, 02 Apr 2026 20:49:16 +0200",
-          "link": "https://www.svt.se/nyheter/utrikes/trump-har-sparkat-justitieminister-pam-bondi"
+          "id": "trump-usa-the-guardian-donald-trump-6",
+          "headline": "Trump requests $152m funding to restore Alcatraz as prison",
+          "source": "Uwa Ede-Osifo",
+          "pubDate": "Sat, 04 Apr 2026 00:09:02 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/apr/03/trump-alcatraz-prison"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-16",
-          "headline": "Macron calls Trump's remarks on his marriage 'inelegant'",
-          "source": "BBC News: US & Canada",
-          "pubDate": "Thu, 02 Apr 2026 12:33:03 GMT",
-          "link": "https://www.bbc.com/news/videos/c70dxqp0q2do?at_medium=RSS&at_campaign=rss"
+          "id": "trump-usa-the-guardian-donald-trump-7",
+          "headline": "Trump issues order declaring all DHS staff get paid amid partial shutdown",
+          "source": "Nick Robins-Early",
+          "pubDate": "Fri, 03 Apr 2026 22:57:10 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/apr/03/trump-executive-order-dhs-pay-partial-shutdown"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-8",
+          "headline": "Democratic attorneys general sue Trump over order to restrict mail voting",
+          "source": "Uwa Ede-Osifo",
+          "pubDate": "Fri, 03 Apr 2026 21:40:18 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/apr/03/attorneys-general-trump-mail-in-voting-lawsuit"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Sexton kenyaner är saknade i Ryssland efter att ha anslutit sig till den ryska armén för att strida i Ukraina, enligt Kenyas utrikesminister Musalia Mudavadi. Antalet saknade har stigit från 10 till 16 på 24 timmar. Fyrtiosju kenyaner har återvänt från fronten och trettiåtta andra ligger på olika ryska sjukhus med begränsad tillgång. Totalt uppskattas över 250 kenyaner ha deltagit i konflikten, lockade av löften om mellan 11 500 och 23 000 dollar vid anslutning plus månadslön upp till 2 700 dollar. Två kenyaner hålls som krigsfångar av Ukraina. Zelenskyj erbjuder Ryssland en vapenvila över påsken men Moskva svarar med över 700 drönare – många av dem iranska Shaheds – som attackerar västra och centrala Ukraina i en sällsynt dagtidsattack. Rysslands utrikesdepartement avfärdar förslaget som en \"PR-trick\". Zelenskyj säger att han har talat med amerikanska förhandlare inklusive Trump-svågern Jared Kushner, special envoy Steve Witkoff och senator Lindsey Graham om möjligheter att främja diplomati. Ryssland hävdar att det har full kontroll över Luhansk-regionen men ukrainska militärer säger att små områden fortfarande hålls av ukrainska styrkor.",
+      "summary": "Ryssland genomförde en massiv attack mot Ukraina på fredagen med över 500 drönare och flera robotar, vilket dödade minst 14 personer enligt AFP-rapporter. Attacken var ovanlig eftersom den genomfördes i fullt dagsljus snarare än under natten, och omfattade städer längs fronten. Zelensky anklagade Moskva för att välja \"påskeskalering\" framför ett påskvapenstillestånd som han hade föreslagit för ortodoxa kristna helger. Han noterade att större dagtidsattacker, som tidigare var sällsynta, har ökat i frekvens. Zelensky instämde också med en brittisk underrättelseanalys att situationen på frontlinjen i öst var den \"mest gynnsam\" för Ukraina på tio månader, då ryska truppernas framryckningar verkar ha bromsat. Samtidigt rapporterade Kenyas utrikesminister att 16 kenyaner är saknade i Ryssland efter att ha värvats till armén, medan 47 andra har återvänt från fronten och 38 ligger på olika ryska sjukhus med begränsad tillgång. Totalt har över 250 kenyaner deltagit i konflikten, många lockade av löften om höga löner mellan 11 500 och 23 000 dollar plus månadslöner upp till 2 700 dollar.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -112,39 +112,39 @@
       ],
       "items": [
         {
-          "id": "putin-ukraina-bbc-news-europe-6",
+          "id": "putin-ukraina-bbc-news-europe-4",
+          "headline": "Russia chose 'Easter escalation' over ceasefire, says Zelensky",
+          "source": "BBC News: Europe",
+          "pubDate": "Fri, 03 Apr 2026 20:43:33 GMT",
+          "link": "https://www.bbc.com/news/articles/cew70wjvv9do?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "putin-ukraina-bbc-news-europe-10",
           "headline": "Sixteen Kenyans missing in Russia after army recruitment",
           "source": "BBC News: Europe",
           "pubDate": "Thu, 02 Apr 2026 18:35:09 GMT",
           "link": "https://www.bbc.com/news/articles/cx2ell79v2wo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-12",
+          "id": "putin-ukraina-the-guardian-ukraine-13",
           "headline": "Ukraine war briefing: allies asked Kyiv about reducing attacks on Russian energy sector, Zelenskyy says",
           "source": "Guardian staff and agencies",
           "pubDate": "Tue, 31 Mar 2026 01:32:00 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/31/ukraine-war-briefing-allies-asked-kyiv-about-reducing-attacks-on-russian-energy-sector-zelenskyy-says"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-15",
+          "id": "putin-ukraina-the-guardian-ukraine-16",
           "headline": "Ukraine war briefing: German defence giant sparks row after comparing Ukraine drone makers to ‘housewives’",
           "source": "Guardian staff",
           "pubDate": "Mon, 30 Mar 2026 00:17:04 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/30/ukraine-war-briefing-german-defence-giant-sparks-row-after-comparing-ukraine-drone-makers-to-housewives"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-5",
-          "headline": "Ukraine war briefing: Russia responds to Zelenskyy’s Easter truce offer with drone attack",
-          "source": "Guardian staff and agencies",
-          "pubDate": "Thu, 02 Apr 2026 02:07:11 GMT",
-          "link": "https://www.theguardian.com/world/2026/apr/02/ukraine-war-briefing-russia-responds-zelenskyy-easter-truce-drone-attack"
-        },
-        {
-          "id": "putin-ukraina-bbc-news-europe-11",
-          "headline": "Russian military plane crash kills 29 in occupied Crimea",
-          "source": "BBC News: Europe",
-          "pubDate": "Wed, 01 Apr 2026 09:55:28 GMT",
-          "link": "https://www.bbc.com/news/articles/cly6387xgqxo?at_medium=RSS&at_campaign=rss"
+          "id": "putin-ukraina-ekot-12",
+          "headline": "Stort ryskt anfall mot Ukraina – 14 döda",
+          "source": "Ekot",
+          "pubDate": "Fri, 03 Apr 2026 11:07:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9189839"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Mer än 100 experter på internationell rätt undertecknar ett öppet brev som uttrycker \"djup oro\" över vad de ser som allvarliga brott mot internationell rätt av USA, Israel och Iran i Mellanösternkriget. Experterna säger att USA-Israels beslut att attackera Iran är ett klart brott mot FN-stadgan, som förbjuder användning av våld utanför självförsvar eller när det är godkänt av FN:s säkerhetråd. De pekar på \"alarmerande retorik\" från tjänstemän inklusive Trumps hot om att \"utplåna\" Irans kraftverk. Vita huset avfärdar detta som \"så kallade experter\" och säger att Trump gör hela regionen säkrare. Försvarssekreterare Pete Hegseth uttalande om att \"ingen nåd\" bör ges för fiender kritiseras också, då det enligt internationell rätt är \"särskilt förbjudet\" att förklara att ingen nåd kommer att ges. Trump hotar Iran med attacker på broar och kraftverk om dess ledare inte accepterar hans villkor för att avsluta kriget. Detta kommer efter att iransk media säger att åtta människor dödades och nästan 100 skadades när.",
+      "summary": "Iran hävdade på lördagen att det skjutit ned två amerikanska stridsflygplan – en F-15E Strike Eagle och en A-10 Warthog – vilket markerar en betydande eskalering i konflikten. Två amerikanska besättningsmän räddades men en pilot förblir saknad, och en amerikansk Black Hawk-helikopter som var inblandad i sök- och räddningsoperationen träffades också av iransk eld men lyckades stanna i luften. Iranska myndigheter firade nedskjutningen som ett större militärt framgång och hävdade att det demonstrerar Teherans förmåga att möta amerikanska och israeliska styrkor trots Trumpadministrationens påståenden om att landets militära infrastruktur är allvarligt skadad. Iran rapporterade minst 2 076 dödsfall och 26 500 skadade sedan krigets början den 28 februari. Över 100 internationella juridiska experter undertecknade ett öppet brev som uttrycker \"djup oro\" över vad de ser som allvarliga brott mot internationell rätt av USA, Israel och Iran. De hävdar att USA-Israels beslut att attackera Iran är ett klart brott mot FN-stadgan, som förbjuder användning av kraft utanför självförsvar eller när det är auktoriserat av säkerhetrådet.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,39 +175,39 @@
       ],
       "items": [
         {
-          "id": "iran-bbc-news-middle-east-1",
+          "id": "iran-al-jazeera-rss-1",
+          "headline": "Iran war: What is happening on day 36 of US-Israeli attacks?",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Sat, 04 Apr 2026 03:51:08 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/4/iran-war-what-is-happening-on-day-36-of-us-israeli-attacks?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-10",
+          "headline": "Will force be used to reopen Strait of Hormuz?",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Fri, 03 Apr 2026 20:55:03 +0000",
+          "link": "https://www.aljazeera.com/video/inside-story/2026/4/3/will-force-be-used-to-reopen-strait-of-hormuz?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-16",
+          "headline": "More than 20 attacks on Iranian healthcare facilities since March 1: WHO",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Fri, 03 Apr 2026 19:16:56 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/3/more-than-20-attacks-on-iranian-healthcare-facilities-since-march-1-who?traffic_source=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-3",
           "headline": "International law experts allege violations in Iran war",
           "source": "BBC News: Middle East",
           "pubDate": "Fri, 03 Apr 2026 11:53:40 GMT",
           "link": "https://www.bbc.com/news/articles/cy91x2n29nlo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-3",
+          "id": "iran-bbc-news-middle-east-6",
           "headline": "'This has got me worried': Iranians fear what comes next after US strike on Karaj bridge",
           "source": "BBC News: Middle East",
           "pubDate": "Fri, 03 Apr 2026 10:35:55 GMT",
           "link": "https://www.bbc.com/news/articles/cp86mrj40e2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-12",
-          "headline": "Kuwait desalination plant, oil refinery hit by missile and drone strikes",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Fri, 03 Apr 2026 08:59:42 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/3/kuwait-desalination-plant-oil-refinery-hit-by-missile-and-drone-strikes?traffic_source=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-4",
-          "headline": "Iran's focus on survival means same regime still firmly in place",
-          "source": "BBC News: Middle East",
-          "pubDate": "Thu, 02 Apr 2026 13:45:09 GMT",
-          "link": "https://www.bbc.com/news/articles/cq8wzyz998xo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-11",
-          "headline": "Israel's perpetual war with Iran may be hard to win with military might alone",
-          "source": "BBC News: Middle East",
-          "pubDate": "Wed, 01 Apr 2026 19:23:52 GMT",
-          "link": "https://www.bbc.com/news/articles/cql72k19rz4o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Ungerns politiska landskap står inför en avgörande vändpunkt när premiärminister Viktor Orbán möter sitt största hot sedan han tog makten 2010. Oppositionskandidaten Péter Magyar, en tidigare insider i Orbáns Fidesz-parti, leder enligt opinionsmätningar inför valet den 12 april. Magyar har genomfört en intensiv kampanj med över 100 kampanjstopp och besöker landets alla 106 valkretsar, med budskapet att tackla korruption, förbättra ekonomin och låsa upp frysta EU-medel. Samtidigt intensifierar USA sitt stöd för Orbán genom ett högt ställt besök av vicepresident JD Vance, vilket visar hur långt Trumpadministrationen är villig att gå för att stödja sin europeiska allierade innan valet. Orbán har framställt Magyar som en EU- och Ukraina-marionett, medan Magyar försöker vinna över traditionella Fidesz-väljare genom att besöka även små samhällen där regeringspartiet normalt dominerar.",
+      "summary": "Ungern står inför ett historiskt val den 12 april där Viktor Orbáns 16-åriga styre för första gången står på spel. Oppositionen, ledd av tidigare Fidesz-insidaren Péter Magyar och hans Tisza-parti, ligger långt före i opinionsmätningarna med upp till 58 procent mot Orbáns 35 procent. Magyar har genomfört en intensiv kampanj med över 100 kampanjstopp och löften om att bekämpa korruption, förbättra ekonomin och låsa upp frysta EU-medel. Orbán försöker desperat att minska gapet genom att hålla många valmöten, något han inte behövt göra under tidigare val. Den satiriska Two-Tailed Dog-partiet använder humor och absurda stunts för att kritisera Orbáns illiberala styre, medan USA:s vicepresident JD Vance landar i Budapest för att stödja den pressade premiärministern. Orbáns långvariga alliering med Trump och Putin, tillsammans med hans motsättningar till EU och Ukraina, gör detta val till ett kritiskt moment för Europas populistiska rörelse.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,14 +238,28 @@
       ],
       "items": [
         {
-          "id": "orban-eu-politico-europe-8",
+          "id": "orban-eu-politico-europe-1",
+          "headline": "Hungary’s maverick Two-Tailed Dog party combats Orbán with satire",
+          "source": "Max Griera",
+          "pubDate": "Sat, 04 Apr 2026 02:00:00 +0000",
+          "link": "https://www.politico.eu/article/viktor-orban-hungary-maverick-two-tailed-dog-party-combats-with-satire/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        },
+        {
+          "id": "orban-eu-politico-europe-10",
           "headline": "Operation Save Orbán: Trump deploys Vance to Hungary",
           "source": "Milena Wälde",
           "pubDate": "Fri, 03 Apr 2026 09:37:00 +0000",
           "link": "https://www.politico.eu/article/operation-save-viktor-orban-us-donald-trump-deploys-jd-vance-hungary/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
         },
         {
-          "id": "orban-eu-bbc-news-europe-13",
+          "id": "orban-eu-bbc-news-europe-1",
+          "headline": "After 16 years in power, can Viktor Orban finally be unseated?",
+          "source": "BBC News: Europe",
+          "pubDate": "Fri, 03 Apr 2026 23:04:24 GMT",
+          "link": "https://www.bbc.com/news/articles/czd7y1n3jyjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "orban-eu-bbc-news-europe-16",
           "headline": "Peter Magyar, the former Orban ally vying for power in Hungary",
           "source": "BBC News: Europe",
           "pubDate": "Wed, 01 Apr 2026 13:43:10 GMT",
