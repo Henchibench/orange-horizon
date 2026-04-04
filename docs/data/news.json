@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-04T10:31:51.575Z",
+  "generatedAt": "2026-04-04T15:30:51.484Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Makt, krig och auktoritära experiment",
-    "intro": "Trump bygger sitt imperium på militärutgifter och väljarbegränsningar medan Ryssland svarar på vapenvila med drönarbeskjutningar. I Ungern och Iran håller auktoritära regimer fast medan oppositionen och internationell rätt försöker sätta gränser.",
+    "title": "Världen går på självskadebeteende",
+    "intro": "Trump planerar att öppna Alcatraz för 152 miljoner dollar medan han försöker begränsa poststemningen, Ryssland svarar på Zelenskyjs påskvapenvilja med drönattacker och hundratals döda, och Iran får kärnkraftverket bombat samtidigt som regimen hänger.",
     "bullets": [
-      "Trump skriver på dekret för att begränsa brevröstning och 23 demokratiska delstater stämmer honom för att försöka diktera valregler som bara kongressen får ändra. Samtidigt kräver han 1,5 biljoner dollar för försvar och vill återöppna Alcatraz som fängelse.",
-      "Ryssland svarar på Zelenskyjs påskvapenvilaförslag med över 700 drönor och hundratals missiler som dödar minst 14 ukrainare. Samtidigt försöker västerländska allierade få Kyiv att minska attackerna på rysk energi för att stabilisera världsoljepriserna.",
-      "Iran avrättar sex medlemmar av oppositionsgruppen PMOI/MEK medan landet säger sig ha skjutit ned två amerikanska stridsflygplan. Över 100 internationella jurister anklagar USA, Israel och Iran för brott mot folkrätten, men Vita huset avfärdar dem som \"påstådda experter\".",
-      "Ungerns val på 12 april blir ett test för Orbáns 16-årsvälde när oppositionsledaren Peter Magyar ligger långt före i opinionsmätningar. En satirisk parti använder humor för att kritisera Orbáns illiberala stat medan Magyar lovar att låsa upp frusna EU-medel och bekämpa korruption."
+      "Trump söker 152 miljoner dollar för att återöppna Alcatraz som fängelse och 1,5 biljoner för försvar, medan 23 demokratiska delstater stämmer för att blockera hans nya restriktioner på poststemning. En delstatlig domstol har redan blockerat en tidigare valorder från honom.",
+      "Ryssland attackerar Nikopol-marknaden och dödar fem civila, skjuter ner två amerikanska stridsflygplan och avfyrar över 700 drönare mot Ukraina efter att Zelenskyj föreslog en påskvapenvilja som Moskva kallar en PR-stunt.",
+      "USA och Israel bombar Irans kärnkraftanläggning Bushehr för fjärde gången, Iran hänger två oppositionella medlemmar av PMOI/MEK medan över 100 internationella jurister anklagar USA, Israel och Iran för brott mot folkrätten.",
+      "Orbán står inför sitt största hot på 16 år när Tisza-partiet leder opinionsmätningarna före valet den 12 april, medan satirpartiet Two-Tailed Dog använder humor för att bekämpa hans illiberala styre."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump-administrationen pressar på flera fronter samtidigt. Vita huset kräver 1,5 biljoner dollar för försvar – den största militärbudgetökningen sedan andra världskriget – och vill finansiera ett nytt missilförsvarssystem kallat Golden Dome samt nya Trump-klassade slagskepp. Samtidigt föreslår administrationen att skära ned icke-försvarsbidrag med 10 procent genom att eliminera klimat-, bostads- och utbildningsprogram. Trump har också begärt 152 miljoner dollar för att återöppna Alcatraz som federalt fängelse. På valfrågorna har Trump signerat ett dekret som begränsar brevröstningen genom att kräva att posten endast skickar röstbrev till personer på statliga listor över berättigade väljare. Tjugotre demokratiskt styrda delstater har stämt för att blockera detta, och hävdar att presidenten inte har konstitutionell rätt att blanda sig i val som styrs av delstaterna. Trots att Trump själv och hans familj har röstat per post i tidigare val, har han utan bevis främjat påståenden om omfattande valbedrägeri genom brevröstning. Ett dekret från förra veckan som hotade att hålla inne valmedel från vissa delstater har redan blockerats av domstolar.",
+      "summary": "Donald Trump presenterar en budget för 2027 som söker 152 miljoner dollar för att återöppna Alcatraz-fängelset som en modern säkerhetsfacilitet, trots att anläggningen stängdes 1963 och nu fungerar som turistattraktion med 60 miljoner dollar i årlig intäkt. Nancy Pelosi kallar planen \"absurd\" och \"en dumhet\" som bara slösar skattebetalarnas pengar, medan kaliforniska politiker ifrågasätter slutkostnaden och praktiska problem som saknade vatten- och avloppssystem på ön. Samtidigt begär Trump 1,5 biljoner dollar för försvar – den största militära utgiftsökningen sedan andra världskriget – inklusive finansiering för sitt Golden Dome-missilförsvarssystem och nya Trump-klassade slagskepp, medan han samtidigt skär 10 procent från icke-försvarsmässiga utgifter genom att eliminera klimat-, bostads- och utbildningsprogram. Denna försvarsbegäran är separat från 200 miljarder dollar som Pentagon söker för kriget i Iran. Tjugotre demokratiska delstater stämde denna vecka för att blockera Trumps nya verkställande order om poststemmningsrestriktioner, och hävdar att presidenten saknar konstitutionell rätt att blanda sig i val som styrs av delstaterna.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -49,39 +49,39 @@
       ],
       "items": [
         {
-          "id": "trump-usa-bbc-news-us-canada-5",
+          "id": "trump-usa-bbc-news-us-canada-4",
+          "headline": "Trump seeks $152m to reopen notorious Alcatraz prison",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Sat, 04 Apr 2026 09:17:10 GMT",
+          "link": "https://www.bbc.com/news/articles/c3dlpk0zzy1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "trump-usa-bbc-news-us-canada-8",
           "headline": "Democratic states sue to block Trump's mail-in ballot restrictions",
           "source": "BBC News: US & Canada",
           "pubDate": "Sat, 04 Apr 2026 02:05:02 GMT",
           "link": "https://www.bbc.com/news/articles/cdxdyvxryl2o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-4",
+          "id": "trump-usa-bbc-news-us-canada-5",
           "headline": "Trump seeks $1.5tn for defence alongside domestic spending cuts",
           "source": "BBC News: US & Canada",
           "pubDate": "Fri, 03 Apr 2026 15:45:25 GMT",
           "link": "https://www.bbc.com/news/articles/crr1q4kjvn2o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-9",
+          "id": "trump-usa-the-guardian-donald-trump-14",
           "headline": "Trump requests $152m funding to restore Alcatraz as prison",
           "source": "Uwa Ede-Osifo",
           "pubDate": "Sat, 04 Apr 2026 00:09:02 GMT",
           "link": "https://www.theguardian.com/us-news/2026/apr/03/trump-alcatraz-prison"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-10",
+          "id": "trump-usa-the-guardian-donald-trump-15",
           "headline": "Trump issues order declaring all DHS staff get paid amid partial shutdown",
           "source": "Nick Robins-Early",
           "pubDate": "Fri, 03 Apr 2026 22:57:10 GMT",
           "link": "https://www.theguardian.com/us-news/2026/apr/03/trump-executive-order-dhs-pay-partial-shutdown"
-        },
-        {
-          "id": "trump-usa-the-guardian-donald-trump-12",
-          "headline": "Democratic attorneys general sue Trump over order to restrict mail voting",
-          "source": "Uwa Ede-Osifo",
-          "pubDate": "Fri, 03 Apr 2026 21:40:18 GMT",
-          "link": "https://www.theguardian.com/us-news/2026/apr/03/attorneys-general-trump-mail-in-voting-lawsuit"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Ryssland har intensifierat sina attacker mot Ukraina trots fredförslag. President Zelenskyj föreslog en påskvapenila för att visa att diplomati kan fungera, men Ryssland svarade med över 700 drönor – många av dem iranska Shahed-drönare – i en sällsynt dagtidsattack som dödar minst 14 ukrainare och skadar många fler. En senare attack samma vecka dödar sex civila och skadar 40 andra. Rysslands utrikesdepartement avfärdade vapenvilan som en \"PR-stunt\". Samtidigt har Zelenskyj fört samtal med amerikanska förhandlare inklusive Trumps svärson Jared Kushner, och säger att diskussionerna är \"positiva\" och att man arbetar på ett dokument med amerikanska säkerhetgarantier för en framtida fredslösning. Ukraina har också lanserat djupa attacker mot rysk energiinfrastruktur, och några västerländska allierade har skickat \"signaler\" till Kyiv om möjligheten att minska dessa attacker på grund av den globala energikrisen. Zelenskyj säger att han är villig att reciprocera om Ryssland slutar attackera Ukrainas energisystem. På fronten rapporterar Zelenskyj att situationen är den \"mest gynnsam\" för Ukraina på tio månader, med att ryska truppernas framryckningar verkar ha bromsat.",
+      "summary": "Ryssland genomförde en drönarattack på Nikopol-marknaden i södra Ukraina på lördagsmorgonen och dödade fem civila och skadade 21 andra, inklusive en 14-årig flicka, enligt åklagarmyndigheten. Attacken träffade en livlig marknad med kiosker strödda med metall, glas och mat, och följdes av ytterligare ett slag på samma plats som skadade två män. Moskva svarade på Zelenskyjs förslag om en påskvapenvilja med över 700 drönattacker – många av dem iranska Shahed-drönare – i en sällsynt dagtidsattack som dödade sex civila och skadade 40 andra över hela landet. Zelenskyj anklagade Ryssland för att välja \"påskeskalation\" framför vapenvila och sa att Moskva fortsatte \"terroroperationer\" mot Ukrainas energisektor och infrastruktur, medan Rysslands utrikesministerium avfärdade hans förslag som en \"PR-stunt\". Ukraina rapporterade att det genomförde omfattande motattacker, inklusive drönattacker på en fabrik i Togliatti som producerar gummi för militär utrustning och på Alchevsk-metallurgiska anläggningen i Luhansk, som skadade masugnar och produktionsanläggningar.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -112,14 +112,21 @@
       ],
       "items": [
         {
-          "id": "putin-ukraina-bbc-news-europe-4",
+          "id": "putin-ukraina-bbc-news-europe-1",
+          "headline": "Russian attack on Ukraine market kills five",
+          "source": "BBC News: Europe",
+          "pubDate": "Sat, 04 Apr 2026 14:00:31 GMT",
+          "link": "https://www.bbc.com/news/articles/cp869m2gzr0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "putin-ukraina-bbc-news-europe-5",
           "headline": "Russia chose 'Easter escalation' over ceasefire, says Zelensky",
           "source": "BBC News: Europe",
           "pubDate": "Sat, 04 Apr 2026 08:34:00 GMT",
           "link": "https://www.bbc.com/news/articles/cew70wjvv9do?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "putin-ukraina-bbc-news-europe-10",
+          "id": "putin-ukraina-bbc-news-europe-11",
           "headline": "Sixteen Kenyans missing in Russia after army recruitment",
           "source": "BBC News: Europe",
           "pubDate": "Thu, 02 Apr 2026 18:35:09 GMT",
@@ -131,13 +138,6 @@
           "source": "Guardian staff and agencies",
           "pubDate": "Tue, 31 Mar 2026 01:32:00 GMT",
           "link": "https://www.theguardian.com/world/2026/mar/31/ukraine-war-briefing-allies-asked-kyiv-about-reducing-attacks-on-russian-energy-sector-zelenskyy-says"
-        },
-        {
-          "id": "putin-ukraina-ekot-15",
-          "headline": "Stort ryskt anfall mot Ukraina – 14 döda",
-          "source": "Ekot",
-          "pubDate": "Fri, 03 Apr 2026 11:07:00 GMT",
-          "link": "https://www.sverigesradio.se/artikel/9189839"
         },
         {
           "id": "putin-ukraina-the-guardian-ukraine-7",
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Iran genomgår en intensiv konflikt med USA och Israel på dag 36 av kriget. Iran hävdar att det har skjutit ned två amerikanska stridsflygplan – en F-15E Strike Eagle och en A-10 Warthog – och säger att detta visar att landet fortfarande har kapacitet att möta USA och israeliska styrkor trots Trumps påståenden om att Irans militära infrastruktur är svårt skadad. En amerikansk soldat förblir saknad efter incidenterna, och två besättningsmän räddades. Iranerna firade vad myndigheterna beskrev som en stor militär framgång. Samtidigt har USA genomfört attacker på civil infrastruktur, inklusive ett bombning av en bro under konstruktion i Karaj väster om Teheran som dödar åtta människor och skadar nästan 100 andra, många av dem som picknickade under Nowruz-helgerna. Trump har hotat att slå till mot Irans broar och kraftverk om landets ledare inte accepterar hans villkor för att avsluta kriget. Irans utrikesminister Abbas Araghchi svarade att attacker på civil infrastruktur inte kommer att tvinga iranerna att kapitulera. Över 100 internationella jurister har undertecknat ett öppet brev som uttrycker \"djup oro\" över vad de ser som allvarliga brott mot folkrätten av USA, Israel och Iran.",
+      "summary": "En projektil träffade området nära Irans kärnkraftanläggning Bushehr på lördagen under USA-israeliska attacker, vilket dödade en person enligt Internationella atomenergiorganet, som bekräftade att det inte fanns någon ökning av strålningsnivåerna. Irans utrikesminister Abbas Araghchi hävdade att anläggningen hade \"bombats\" fyra gånger sedan kriget började den 28 februari och kritiserade bristen på oro för dess säkerhet, medan IAEA-direktör Rafael Grossi uttryckte \"djup oro\" och uppmanade till \"maximal militär återhållsamhet\" för att undvika risk för en kärnkraftsolycka. Iran hävdade att det skjutit ner två amerikanska stridsflygplan – en F-15E Strike Eagle och en A-10 Warthog – och sa att detta visade att Teheran fortfarande hade förmåga att möta USA och israeliska styrkor trots Trumpadministrationens påståenden om att landets militära infrastruktur hade skadats allvarligt. Två amerikanska besättningsmän räddades men en pilot förblev saknad, och en amerikansk Black Hawk-helikopter som var inblandad i sök- och räddningsoperationen träffades också av iransk eld men förblev luftburen. Iran sa att ett \"nytt avancerat försvarssystem\" sköt ner flygplanen.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,25 +175,25 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-2",
+          "id": "iran-al-jazeera-rss-4",
+          "headline": "Projectile hits near Iran’s Bushehr nuclear plant, killing one: IAEA",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Sat, 04 Apr 2026 12:19:39 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/4/iaea-says-projectile-hits-near-irans-bushehr-nuclear-plant-killing-one?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-8",
           "headline": "Iran executes two convicted members of banned opposition group",
           "source": "Al Jazeera RSS",
           "pubDate": "Sat, 04 Apr 2026 08:22:18 +0000",
           "link": "https://www.aljazeera.com/news/2026/4/4/iran-executes-suspected-members-of-dissident-group-amid-us-israel-war?traffic_source=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-5",
+          "id": "iran-al-jazeera-rss-11",
           "headline": "Iran war: What is happening on day 36 of US-Israeli attacks?",
           "source": "Al Jazeera RSS",
           "pubDate": "Sat, 04 Apr 2026 03:51:08 +0000",
           "link": "https://www.aljazeera.com/news/2026/4/4/iran-war-what-is-happening-on-day-36-of-us-israeli-attacks?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-14",
-          "headline": "Will force be used to reopen Strait of Hormuz?",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Fri, 03 Apr 2026 20:55:03 +0000",
-          "link": "https://www.aljazeera.com/video/inside-story/2026/4/3/will-force-be-used-to-reopen-strait-of-hormuz?traffic_source=rss"
         },
         {
           "id": "iran-bbc-news-middle-east-3",
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Ungern står inför sitt viktigaste val på 16 år när väljarna går till valurnorna den 12 april. Viktor Orbáns Fidesz-parti, som har styrt sedan 2010, ligger långt efter i opinionsmätningar. Den senaste mätningen visar att oppositionspartiet.",
+      "summary": "Ungern står inför ett historiskt val den 12 april där Viktor Orbáns 16-åriga styre för första gången står på spel. Oppositionsledaren Peter Magyar och hans Tisza-parti ligger långt före i opinionsmätningar med 58 procent mot Orbáns 35 procent. Magyar, en tidigare insider från Orbáns Fidesz-parti, har genomfört en intensiv kampanj genom hela landet med löften om att bekämpa korruption, förbättra ekonomin och låsa upp frysta EU-medel. Orbán försöker mobilisera sina väljare genom att öka sitt rallyande efter år av minimal kampanjverksamhet, men möter växande motstånd från både etablerade oppositionskrafter och satiriska protestgrupper som Two-Tailed Dog-partiet, som använder humor och absurdism för att kritisera hans illiberala styre. Valet representerar en potentiell vändpunkt för Europas längst sittande ledare och den populistiska rörelse han symboliserar.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,14 +238,14 @@
       ],
       "items": [
         {
-          "id": "orban-eu-politico-europe-6",
+          "id": "orban-eu-politico-europe-10",
           "headline": "Hungary’s maverick Two-Tailed Dog party combats Orbán with satire",
           "source": "Max Griera",
           "pubDate": "Sat, 04 Apr 2026 02:00:00 +0000",
           "link": "https://www.politico.eu/article/viktor-orban-hungary-maverick-two-tailed-dog-party-combats-with-satire/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
         },
         {
-          "id": "orban-eu-bbc-news-europe-1",
+          "id": "orban-eu-bbc-news-europe-2",
           "headline": "After 16 years in power, could Viktor Orban finally be unseated?",
           "source": "BBC News: Europe",
           "pubDate": "Fri, 03 Apr 2026 23:04:24 GMT",
