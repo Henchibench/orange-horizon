@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-05T10:31:03.148Z",
+  "generatedAt": "2026-04-05T15:30:50.605Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Makt, krig och regionalt kaos på samma gång",
-    "intro": "Trump bygger fängelser på turistöar och försöker diktera hur amerikaner röstar, medan Ryssland svarar på vapenvila med drönare och Iran slår sönder kraftverk i Gulfstaterna. Ungern håller på att byta regering efter sexton år av Orbáns styre.",
+    "title": "Världen går på självskadebeteende",
+    "intro": "Trump bygger fängelser på öar och sparkar ministrar medan han kräver försvar för 1,5 biljoner dollar.",
     "bullets": [
-      "Trump söker 152 miljoner dollar för att återöppna Alcatraz-fängelset, kräver 1,5 biljoner till försvar och försöker begränsa brevröstningen genom presidentorder som 23 demokratiska delstater nu stämmer för att blockera.",
-      "Ryssland svarar på Zelenskyjs påskvapenvilaförslag med över 700 drönattacker, dödar sex civila och fortsätter att anfalla energiinfrastruktur medan förhandlingar om fred stagnerar.",
-      "Iran attackerar kraftverk och vattenreningsanläggningar i Kuwait och Förenade Arabemiraten, USA räddade andra piloten från nedskjuten F-15 och Trump hotar med att \"all helvete bryter löst\" om Iran inte ger upp Hormuzstränden.",
-      "Ungerns val den 12 april kan störta Viktor Orbán efter sexton år i makten då oppositionsledaren Peter Magyar ligger långt före i opinionsmätningar och Europarådet varnar för hårdare politiskt klimat."
+      "Trump söker 152 miljoner dollar för att återöppna Alcatraz-fängelset och kräver 1,5 biljoner till försvar samtidigt som han sparkar justitieminister Pam Bondi. Demokratiska stater stämmer honom för att försöka begränsa poströstningen utan konstitutionell rätt.",
+      "Ryssland svarar på Zelenskyjs påskvapenvilaförslag med över 700 drönattacker som dödar sex civila. Ukraina rapporterar sitt bästa läge på tio månader efter att Ryssland förlorat Starlink-tillgång, men fronten förblir i stort sett statisk.",
+      "Iran attackerar Kuwaits kraft- och vattenverk medan en amerikansk pilot räddas efter att hans F-15E skjutits ned. Oman förhandlar med Iran om passage genom Hormuzstränden medan Nepal förkortar arbetsveckan på grund av bränslekris.",
+      "Orbán hävdar att en sprängämne hittades vid gaspipeline från Serbien veckan före ungerska valet, medan oppositionsledaren Magyar kallar det en falsk flaggoperation. Europarådet kritiserar det hårdnande politiska klimatet i Ungern inför valet den 12 april."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump presenterade en budget som söker 152 miljoner dollar för att återöppna det berömtberyktade Alcatraz-fängelset nära San Francisco, vilket Nancy Pelosi kallade en \"dum idé\" och slöseri med skattepengar. Samtidigt kräver administationen 1,5 biljoner dollar för försvar – den största militära utgiftsökningen sedan andra världskriget – inklusive finansiering för ett nytt missilförsvarssystem kallat Golden Dome och nya Trump-klassade slagskepp, medan icke-försvarsmässiga utgifter skärs med tio procent genom att eliminera klimat-, bostads- och utbildningsprogram. Trump signerade också en presidentorder som begränsar brevröstningen, vilket 23 demokratiska delstater nu stämmer för att blockera med argumentet att presidenten saknar konstitutionell rätt att blanda sig i val som styrs av delstaterna. Justitieminister Pam Bondi fick sparken efter att Trump varit missnöjd med hennes hantering av Jeffrey Epstein-ärendet och misslyckade rättsprocesser mot politiska motståndare, och ersätts av biträdande justitieminister Todd Blanche.",
+      "summary": "Trump-administrationen presenterar en budget som markerar en radikal omfördelning av amerikanska resurser. Försvarsbudgeten ska ökas till 1,5 biljoner dollar – den största militära expansionen sedan andra världskriget – med medel för det nya Golden Dome-missilförsvaret och nya Trump-klassade slagskepp. Samtidigt föreslås 10 procents nedskärningar i icke-försvarsmässiga utgifter, inklusive eliminering av klimat-, bostads- och utbildningsprogram. Trump söker specifikt 152 miljoner dollar för att återöppna det berömtiga Alcatraz-fängelset som en modern säkerhetsfacilitet, trots att det är tre gånger dyrare att driva än andra federala fängelser och saknar grundläggande infrastruktur. Nancy Pelosi kallar planen \"dumhet\" och en slöseri med skattepengar. Samtidigt undertecknar Trump en verkställande order som begränsar poströstningen, vilket 23 demokratiska stater stämmer för att blockera – de hävdar att presidenten saknar konstitutionell rätt att ingripa i staternas valkontroll. Trump har sparkat justitieminister Pam Bondi efter att ha varit missnöjd med hennes hantering av Jeffrey Epstein-ärendet och misslyckade rättsprocesser mot politiska motståndare.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -70,18 +70,18 @@
           "link": "https://www.bbc.com/news/articles/crr1q4kjvn2o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-14",
-          "headline": "As a state visit looms … can King Charles tame Trump?",
-          "source": "Stephen Bates",
-          "pubDate": "Sat, 04 Apr 2026 05:00:13 GMT",
-          "link": "https://www.theguardian.com/news/ng-interactive/2026/apr/04/can-the-king-tame-trump-state-visit"
-        },
-        {
-          "id": "trump-usa-svt-nyheter-utrikes-13",
+          "id": "trump-usa-svt-nyheter-utrikes-14",
           "headline": "Trump sparkar justitieminister Pam Bondi",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Thu, 02 Apr 2026 20:49:16 +0200",
           "link": "https://www.svt.se/nyheter/utrikes/trump-har-sparkat-justitieminister-pam-bondi"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-10",
+          "headline": "Trump news at a glance: Administration fights to renew work on White House ballroom",
+          "source": "Guardian staff",
+          "pubDate": "Sun, 05 Apr 2026 00:58:17 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/apr/05/trump-news-at-a-glance-latest-updates"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Zelenskyj rapporterade att några av Ukrainas allierade skickat signaler om att minska långdistansattacker på Rysslands oljesektor på grund av den globala energikrisen, och att han var beredd att reciprocera om Ryssland slutade anfalla Ukrainas energisystem, samtidigt som han föreslog en påskvapenila. Ryssland svarade på detta förslag genom att skjuta över 700 drönattacker – många av dem iranska Shahed-drönare – mot västra och centrala Ukraina i en sällsynt dagtidsattack som dödade sex civila och skadade 40 andra, medan Rysslands utrikesdepartement avfärdade vapenvilan som en \"PR-stunt\". En separat rysk drönattack på marknaden i den södra ukrainska staden Nikopol dödade fem människor och skadade 21, inklusive en 14-årig flicka, med bilder som visar förstörda marknadskiosker strödda med metall och glas. Zelenskyj kritiserade Russland för att välja \"påskeskalation\" istället för vapenvila och diskuterade framsteg med amerikanska förhandlare inklusive USA:s särskilda sändebud Steve Witkoff, Donald Trumps svärson Jared Kushner och senator Lindsey Graham, medan Nato:s generalsekreterare Mark Rutte också deltog i samtalet.",
+      "summary": "Kriget mellan Ryssland och Ukraina fortsätter med intensiv drönverksamhet från båda sidor. Zelenskyj erbjöd en påskvapenvilja, men Ryssland svarade med över 700 drönattacker – många av dem iranska Shahed-drönare – som dödar sex civila och skadar 40 andra i en sällsynt dagtidsattack. Ryssland avvisar vapenvilan som en \"PR-stunt\". Zelenskyj kritiserar Ryssland för att välja \"påskeskalation\" istället för fred och säger att Ryssland fortsätter \"terroristoperationer\" mot Ukrainas energisektor. Samtidigt rapporterar Ukraina sitt bästa läge vid fronten på tio månader – Ryssland har förlorat tillgång till Starlink sedan februari, vilket har försvagat deras kommunikation och möjlighet att fjärrstyra drönare. Detta har tvingat Ryssland att välja mellan att försvara sig mot ukrainska motattacker eller stärka andra delar av fronten. Deepstate-rapporter visar en relativt statisk frontlinje med små ukrainska framryckningar. En rysk drönattack på marknaden i Nikopol dödar fem personer och skadar 21, inklusive en 14-årig flicka.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -119,6 +119,13 @@
           "link": "https://www.theguardian.com/world/2026/mar/31/ukraine-war-briefing-allies-asked-kyiv-about-reducing-attacks-on-russian-energy-sector-zelenskyy-says"
         },
         {
+          "id": "putin-ukraina-svt-nyheter-utrikes-1",
+          "headline": "Ukraina tar tillbaka mark: ”Har fått stopp på den ryska rörelsen”",
+          "source": "SVT Nyheter: Utrikes",
+          "pubDate": "Sun, 05 Apr 2026 13:09:04 +0200",
+          "link": "https://www.svt.se/nyheter/utrikes/ukraina-tar-tillbaka-mark-har-fatt-stopp-pa-den-ryska-rorelsen"
+        },
+        {
           "id": "putin-ukraina-the-guardian-ukraine-8",
           "headline": "Ukraine war briefing: Russia responds to Zelenskyy’s Easter truce offer with drone attack",
           "source": "Guardian staff and agencies",
@@ -126,25 +133,18 @@
           "link": "https://www.theguardian.com/world/2026/apr/02/ukraine-war-briefing-russia-responds-zelenskyy-easter-truce-drone-attack"
         },
         {
-          "id": "putin-ukraina-bbc-news-europe-1",
+          "id": "putin-ukraina-bbc-news-europe-2",
           "headline": "Russian attack on Ukraine market kills five",
           "source": "BBC News: Europe",
           "pubDate": "Sat, 04 Apr 2026 18:54:53 GMT",
           "link": "https://www.bbc.com/news/articles/cp869m2gzr0o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "putin-ukraina-bbc-news-europe-6",
+          "id": "putin-ukraina-bbc-news-europe-7",
           "headline": "Russia chose 'Easter escalation' over ceasefire, says Zelensky",
           "source": "BBC News: Europe",
           "pubDate": "Sat, 04 Apr 2026 08:34:00 GMT",
           "link": "https://www.bbc.com/news/articles/cew70wjvv9do?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "putin-ukraina-bbc-news-europe-11",
-          "headline": "Sixteen Kenyans missing in Russia after army recruitment",
-          "source": "BBC News: Europe",
-          "pubDate": "Thu, 02 Apr 2026 18:35:09 GMT",
-          "link": "https://www.bbc.com/news/articles/cx2ell79v2wo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Iran fortsatte att attackera gulfstaterna genom drönattacker som skadade två kraft- och vattenreningsanläggningar i Kuwait och orsakade bränder vid oljekomplexa, medan Bahrain och Förenade Arabemiraten också rapporterade attacker – dessa attacker är Irans svar på amerikanska och israeliska slag mot Iran sedan den 28 februari. Tiotusentals irakiska anhängare av shialedaren Muqtada Sadr demonstrerade i Bagdad och andra städer mot det amerikanska-israeliska kriget mot Iran, med enorma folksamlingar på Tahrir Square som skanderade \"Nej till Israel\" och \"Nej till Amerika\" medan demonstranter karakteriserade konflikten som ett \"meningslöst krig\" som riktar sig mot civila. USA räddade den andra medlemmen av en tvåpersoners F-15-besättning som Iran sade hade skjutits ned, med president Trump som bekräftade på Truth Social att piloten – en överste – hade varit bakom fiendelinjer i Irans bergiga terräng och hade skador men skulle bli bra, medan Iran hävdade att ett annat amerikanskt flygplan som var inblandat i räddningsoperationen hade skjutits ned i Isfahan-provinsen.",
+      "summary": "Kriget mellan USA-Israel och Iran fortsätter att destabilisera Mellanöstern och påverka den globala ekonomin. En amerikansk F-15E-pilot räddas efter att ha varit saknad i cirka två dagar efter att hans jet skjutits ned över Iran – Trump kallar det en \"mirakulös\" räddning efter vad observatörer beskriver som en dramatisk eldstrid mellan iranska och amerikanska räddningsstyrkor. Räddningen frigör Trump att fortsätta sitt ultimatum: Iran har 48 timmar på sig att göra en affär eller öppna Hormuzstränden \"innan helvetet bryter löst\". Trump har redan hotat att bomba energianläggningar i Iran. Den tidigare iranske utrikesministern Mohammad Javad Zarif föreslår en fredsöversikt som går \"bortom ett tillfälligt vapenvila\" och föreslår att Iran begränsar sitt kärnkraftsprogram under internationell övervakning och öppnar Hormuzstränden i utbyte mot att alla sanktioner upphävs. Oman och Iran håller samtal på vice utrikesministernivå för att diskutera alternativ för att säkerställa fri passage genom Hormuzstränden, där Iran har blockerat cirka 3 000 fartyg sedan kriget började den 28 februari.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,39 +175,39 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-1",
+          "id": "iran-al-jazeera-rss-3",
+          "headline": "Nepal announces two-day weekends as fuel crisis caused by Iran war deepens",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Sun, 05 Apr 2026 14:48:51 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/5/nepal-announces-two-day-weekends-as-fuel-crisis-caused-by-iran-war-deepens?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-5",
+          "headline": "Iran’s ex-FM Zarif proposes peace roadmap; Gulf points at erosion of trust",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Sun, 05 Apr 2026 12:44:11 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/5/irans-former-fm-zarif-proposes-peace-roadmap-gulf-states-voice-exclusion?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-7",
+          "headline": "Oman, Iran discuss smooth transit in Strait of Hormuz, Muscat says",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Sun, 05 Apr 2026 12:18:43 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/5/oman-iran-discuss-smooth-transit-in-the-strait-of-hormuz-muscat-says?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-11",
+          "headline": "US pilot from downed F-15E plane rescued in Iran: What we know",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Sun, 05 Apr 2026 10:10:50 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/5/us-pilot-from-downed-f-15-plane-rescued-in-iran-what-we-know?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-14",
           "headline": "Kuwait’s power, water plants damaged as Iran keeps attacking Gulf states",
           "source": "Al Jazeera RSS",
           "pubDate": "Sun, 05 Apr 2026 08:52:22 +0000",
           "link": "https://www.aljazeera.com/news/2026/4/5/kuwait-says-power-water-facilities-hit-by-iran-as-gulf-attacks-continue?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-4",
-          "headline": "Thousands rally in Iraq against ‘senseless’ US-Israel war on Iran",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Sun, 05 Apr 2026 08:06:38 +0000",
-          "link": "https://www.aljazeera.com/gallery/2026/4/5/thousands-rally-in-iraq-against-us-israeli-regional-aggression?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-9",
-          "headline": "‘Miraculous’: US rescues second pilot downed in Iran, Trump confirms",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Sun, 05 Apr 2026 06:51:57 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/5/us-rescues-airman-whose-f-15-was-downed-in-iran-trump-confirms?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-13",
-          "headline": "Iran says Iraqi ships can pass Strait of Hormuz as transits tick up",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Sun, 05 Apr 2026 02:14:52 +0000",
-          "link": "https://www.aljazeera.com/economy/2026/4/5/iran-says-iraqi-ships-can-pass-strait-of-hormuz-as-transits-tick-up?traffic_source=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-3",
-          "headline": "US says it has arrested relatives of late Iranian ​general Qasem ​Soleimani",
-          "source": "BBC News: Middle East",
-          "pubDate": "Sat, 04 Apr 2026 21:29:46 GMT",
-          "link": "https://www.bbc.com/news/articles/cgqkn4j48qdo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "En tvärpolitisk delegation från Europarådet riktar skarp kritik mot det politiska läget i Ungern inför parlamentsvalet den 12 april efter ett tvådagarsbesök i Budapest, och varnar för att valrörelsen präglas av ökade motsättningar och ett allt hårdare politiskt klimat. Viktor Orbán, som har varit vid makten i sexton år sedan 2010 och länge stödts av både Donald Trump och Vladimir Putin, står inför sitt största hot sedan hans första seger då oppositionspartiet Tisza och dess ledare Peter Magyar ligger långt före i opinionsmätningar med 58 procent mot Orbáns 35 procent, vilket representerar en enorm förändring av allmän uppfattning och förtroende. Magyar, en 45-årig före detta Fidesz-insider som var medlem av partiet sedan universitetet och var gift med Judit Varga, en av partiets stigande stjärnor, överraskade Ungern i februari 2024 när han framträdde på en pro-oppositionell YouTube-kanal kallad Partizán och förklarade varför han hade fått nog av sitt eget parti, och har sedan genomfört en intensiv kampanj med över 100 kampanjstopp och fyra till sex tal per dag för att besöka alla 106 ungerska valkretsar.",
+      "summary": "Ungern står inför sitt viktigaste val på 16 år den 12 april, där Viktor Orbáns Fidesz-parti möter sitt största hot sedan 2010. Oppositionsledaren Péter Magyar, en tidigare Fidesz-insider som bryter med partiet i februari 2024, leder enligt opinionsundersökningar med 58 procent mot Orbáns 35 procent. Magyar har genomfört över 100 kampanjstopp och lovar att bekämpa korruption, förbättra ekonomin och låsa upp miljardtals frysta EU-medel på grund av rättsstatsbekymmer. Orbán har försökt minska gapet genom att hålla massrallies – något han sällan gjorde under sina tidigare tre valsegrar – och har skildrat Magyar som en \"marionett\" för EU och Ukraina. En delegation från Europarådet riktar skarp kritik mot det politiska läget i Ungern efter ett tvådagarsbesök i Budapest och varnar för att valrörelsen präglas av ökade motsättningar och ett allt hårdare politiskt klimat.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,14 +238,21 @@
       ],
       "items": [
         {
-          "id": "orban-eu-ekot-10",
+          "id": "orban-eu-politico-europe-2",
+          "headline": "Serbia says explosive found near pipeline to Hungary, days before crucial election",
+          "source": "Victor Goury-Laffont",
+          "pubDate": "Sun, 05 Apr 2026 14:33:35 +0000",
+          "link": "https://www.politico.eu/article/serbia-hungary-election-turkstream-pipeline-viktor-orban-peter-magyar/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        },
+        {
+          "id": "orban-eu-ekot-12",
           "headline": "Skarp EU-kritik mot valrörelsen i Ungern",
           "source": "Ekot",
           "pubDate": "Sat, 04 Apr 2026 17:53:00 GMT",
           "link": "https://www.sverigesradio.se/artikel/9188999"
         },
         {
-          "id": "orban-eu-bbc-news-europe-3",
+          "id": "orban-eu-bbc-news-europe-4",
           "headline": "After 16 years in power, could Viktor Orban finally be unseated?",
           "source": "BBC News: Europe",
           "pubDate": "Fri, 03 Apr 2026 23:04:24 GMT",
