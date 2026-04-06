@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-06T10:41:37.592Z",
+  "generatedAt": "2026-04-06T15:35:58.797Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Världen på väg mot flera samtidiga krislägen",
-    "intro": "Trump bygger sitt imperium på militärutgifter och hoteller medan han försöker omskapa amerikanska val efter eget huvud. Samtidigt eskalerar kriget i Mellanöstern, Ukraina tar mark tillbaka, och Orbán kämpar för sitt politiska liv inför ungerska valet.",
+    "title": "Världen på väg mot något värre",
+    "intro": "Trump bygger fängelser på ön Alcatraz för 152 miljoner dollar medan han hotar Iran med att förstöra kraftverk och broar.",
     "bullets": [
-      "Trump söker 152 miljoner dollar för att återöppna Alcatraz-fängelset, vill höja försvarsbudgeten till 1,5 biljoner dollar med massiva nedskärningar i välfärd, och hotar Iran med att förstöra kraftverk och broar om Hormuzstranden inte öppnas – samtidigt som demokratiska delstater stämmer honom för att försöka begränsa.",
-      "Ukraina gör taktiska framsteg och tvingar Ryssland att välja mellan att försvara sig eller stärka andra fronter, medan Zelenskyj erbjuder påskeld som vapenvila och Ryssland svarar med hundratals drönattacker på städer och marknader som dödar civila.",
-      "USA och Israel intensifierar attackerna på Iran med massiva luftanfall mot universitet, bostadsområden och infrastruktur som dödar minst 34 människor, medan Trump sätter ultimatum för Hormuzstranden och Houthierna drar in sig i kriget – vilket får konsekvenser för gig-arbetare från Vietnam till Jemen.",
-      "Orbán står inför sitt största politiskt hot på 16 år när oppositionsledaren Péter Magyar ligger långt före i opinionsmätningarna inför valet den 12 april, medan misstänkta sprängmedel vid en gasledning mellan Serbien och Ungern blir ett politiskt slagträ bara dagar före omröstningen."
+      "Trump söker 152 miljoner dollar för att återöppna Alcatraz-fängelset och planerar samtidigt en försvarsmilitär expansion på 1,5 biljoner dollar med nya Trump-klassade slagskepp, medan han utfärdar svordomar-fyllda ultimatum till Iran om att öppna Hormuzstränden eller möta \"helvete\".",
+      "Ukraina rapporterar framsteg vid fronten efter att Ryssland förlorat Starlink-tillgång, men Moskva svarar med massiva drönattacker på städer och marknader som dödar civila, medan Zelenskyj förespeglar vapenvila som Ryssland avvisar med hundratals drönor.",
+      "Iran står inför amerikansk-israelisk bombning som dödat över 2 000 människor, medan Pakistan föreslår tvåfasad vapenvila och Trump avslöjar att USA beväpnade iranska protestanter innan kriget började – en påstående som Iran använder för att delegitimera demonstrationerna.",
+      "Orbán står inför sitt största politiskt hot på 16 år när oppositionsledaren Peter Magyar leder i opinionsmätningar före valet den 12 april, medan sprängmedel upptäcks vid en gasledning i Serbien bara dagar före omröstningen och säkerhetsbedömare varnar för möjliga falskt flaggade operationer."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump presenterar en budget som markerar en radikal omfördelning av amerikanska resurser. Han söker 152 miljoner dollar för att återöppna det berömtade Alcatraz-fängelset nära San Francisco, vilket Nancy Pelosi kallar en \"dum idé\" och slöseri med skattepengar – fängelset var tre gånger dyrare att driva än andra federala fängelser innan det stängdes 1963. Samtidigt kräver Trump en försvarbudget på 1,5 biljoner dollar, den största militära utgiftsökningen sedan andra världskriget, inklusive finansiering för ett nytt missilförsvarssystem kallat Golden Dome och nya Trump-klassade slagskepp. För att finansiera detta föreslår han 10 procents nedskärningar i icke-försvarsmässiga utgifter, inklusive eliminering av klimat-, bostads- och utbildningsprogram. Tjugotre demokratiska delstater stämmer Trump för att blockera hans nya begränsningar på poströstning, som de hävdar strider mot konstitutionen och staternas rätt att styra sina egna val – Trump har utan bevis hävdat omfattande valbedrägeri genom poströstning trots att han själv röstat per post.",
+      "summary": "Trump-administrationen presenterar en budgetplan som kombinerar militär expansion med inrikespolitisk nedmontering. Vita huset söker 152 miljoner dollar för att återöppna det berömtade Alcatraz-fängelset som turistattraktion sedan 1963, en plan som Nancy Pelosi kallar \"dumheter\" och \"slöseri med skattebetalarnas pengar\" – särskilt med tanke på att fängelset var tre gånger dyrare att driva än andra federala fängelser och saknar löpande vatten och avlopp. Samtidigt begär Trump 1,5 biljoner dollar för försvarsmilitären, den största expansionen sedan andra världskriget, inklusive nya Trump-klassade slagskepp och det omtalade Golden Dome-missilförsvaret, medan icke-försvarsmässiga utgifter skärs med 10 procent genom att eliminera klimat-, bostads- och utbildningsprogram. Trump hotar Iran med svordomar-fyllda ultimatum på Truth Social, där han skriver \"Open Fuckin' Strait, you crazy bastards, or you'll be living in Hell\" och sätter deadline för att öppna Hormuzstränden eller möta \"Power Plant Day och Bridge Day\", samtidigt som han säger till Fox News att det finns \"god chans\" för en överenskommelse men att han överväger att \"spränga allt och ta över oljan\".",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -49,28 +49,21 @@
       ],
       "items": [
         {
-          "id": "trump-usa-bbc-news-us-canada-12",
+          "id": "trump-usa-bbc-news-us-canada-13",
           "headline": "Trump seeks $152m to reopen notorious Alcatraz prison",
           "source": "BBC News: US & Canada",
           "pubDate": "Sat, 04 Apr 2026 09:17:10 GMT",
           "link": "https://www.bbc.com/news/articles/c3dlpk0zzy1o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-15",
-          "headline": "Democratic states sue to block Trump's mail-in ballot restrictions",
-          "source": "BBC News: US & Canada",
-          "pubDate": "Sat, 04 Apr 2026 02:05:02 GMT",
-          "link": "https://www.bbc.com/news/articles/cdxdyvxryl2o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "trump-usa-bbc-news-us-canada-11",
+          "id": "trump-usa-bbc-news-us-canada-12",
           "headline": "Trump seeks $1.5tn for defence alongside domestic spending cuts",
           "source": "BBC News: US & Canada",
           "pubDate": "Fri, 03 Apr 2026 15:45:25 GMT",
           "link": "https://www.bbc.com/news/articles/crr1q4kjvn2o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-3",
+          "id": "trump-usa-bbc-news-us-canada-5",
           "headline": "Trump issues expletive-laden threat to Iran over Hormuz Strait blockage",
           "source": "BBC News: US & Canada",
           "pubDate": "Mon, 06 Apr 2026 04:56:03 GMT",
@@ -82,6 +75,13 @@
           "source": "BBC News: US & Canada",
           "pubDate": "Mon, 06 Apr 2026 00:40:04 GMT",
           "link": "https://www.bbc.com/news/articles/cge0213dyj5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-4",
+          "headline": "Jamie Dimon says US should strengthen allies economically, in veiled criticism of Trump",
+          "source": "Simon Goodley",
+          "pubDate": "Mon, 06 Apr 2026 15:17:42 GMT",
+          "link": "https://www.theguardian.com/business/2026/apr/06/jamie-dimon-us-donald-trump-jp-morgan-tariffs-letter-shareholders"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Kriget i Ukraina visar tecken på förändrad dynamik på slagfältet. Ukraina har gjort taktiska framsteg i södra Ukraina under början av 2026 och tvingat Ryssland att välja mellan att försvara sig mot ukrainska motattacker eller stärka andra delar av fronten. Dessa framgångar tillskrivs delvis att Ryssland sedan februari inte kunnat använda satellitsystemet Starlink, vilket förlorat viktig kommunikationsförmåga och möjlighet att fjärrstyra drönare. President Zelenskyj säger att Ukraina har sitt bästa läge vid fronten på tio månader. Ukrainska drönattacker på rysk oljeinfrastruktur intensifieras – Sheskharis oljeterminal vid Svarta havet angripits, liksom Primorsk-hamnen och Lukoil-raffinaderiet i Kstovo, vilket skadar Rysslands oljeexportkapacitet på sätt som blir kostsamt och tidskrävande att reparera. Ryska militärbloggare klagar på svårigheterna att reparera skadad infrastruktur på grund av sanktioner. Zelenskyj erbjuder en påskeld som vapenvila för att visa att diplomati kan fungera, men Ryssland svarar med över 700 drönattacker – många av dem iranska Shahed-drönare – som dödar sex civila och skador 40 andra.",
+      "summary": "Kriget mellan Ryssland och Ukraina intensifieras med massiva drönattacker från båda sidor medan fronten förändras långsamt till Ukrainas fördel. Ukrainska drönare attackerar Sheskharis oljeterminal vid Novorossiysk och andra ryska oljeinfrastrukturer, vilket enligt Institute for Study of War representerar en eskalering av attacker på Rysslands oljeexportkapacitet – ryska militärbloggare klagar på att reparationer blir kostsamma och tidskrävande på grund av sanktioner och luftförsvarsfel. Ryssland svarar med hundratals drönattacker: på söndagen lanseras över 700 drönor, många av dem iranska Shaheds, mot västra och centrala Ukraina i sällsynta dagtidsattacker, vilket dödar sex civila och skador 40 andra, samt en separat attack på marknaden i Nikopol dödar fem människor och skador 21 inklusive en 14-årig flicka. Zelenskyj erbjuder en påskvapenila som Ryssland avvisar som en \"PR-stunt\" och svarar istället med massiv drönbombning – han kallar detta \"påskeskalering\" och säger att Ryssland valt att intensifiera istället för att acceptera tystnad över helgen.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -119,7 +119,7 @@
           "link": "https://www.theguardian.com/world/2026/apr/06/ukraine-war-briefing-russian-oil-facilities-burn-as-zelenskyy-tours-middle-east"
         },
         {
-          "id": "putin-ukraina-svt-nyheter-utrikes-5",
+          "id": "putin-ukraina-svt-nyheter-utrikes-7",
           "headline": "Ukraina tar tillbaka mark: ”Har fått stopp på den ryska rörelsen”",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Sun, 05 Apr 2026 13:09:04 +0200",
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Kriget mellan USA-Israel och Iran intensifieras dramatiskt med massiva luftanfall och eskalerande hot. USA och Israel genomför omfattande attacker som dödar minst 34 människor, inklusive sex barn, och träffar Sharif University i Teheran – en av Irans ledande vetenskapliga universitet ofta jämfört med MIT – samt bostadsområden i flera städer inklusive Baharestan County, Qom, Bandar-e Lengeh, Bandar Abbas, Ahvaz, Mahshahr, Shiraz, Isfahan och Karaj. Irans vetenskapsministerium rapporterar att minst 30 universitet har träffats sedan krigets början den 28 februari. Trump sätter ett ultimatum för tisdag: Iran måste öppna Hormuzstranden eller möta bombningar av kraftverk och broar. Iran hotar att slå tillbaka \"i slag\". Houthierna från Jemen går in i kriget på Irans sida med begränsade attacker mot Israel som hittills har stoppats, vilket väcker rädsla bland civila i Sanaa för att Israel kommer att återuppta attacker på Jemen – något som redan hänt 2024-2025 – och utlösa förflyttningar, bränslebrist och inflation. Trump avslöjar att USA försökte hemligt beväpna iranska protestanter genom kurdiska mellanhänder veckor innan kriget lanserades, även medan Washington förhandlade med Teheran.",
+      "summary": "Kriget mellan USA-Israel och Iran fortsätter in i sin sjätte vecka med över 2 000 döda och 26 000 skadade i Iran, medan diplomatiska försök och militära operationer skapar ett allt mer instabilt läge. Trump avslöjar att USA beväpnade iranska oppositionsgrupper och protestanter under massdemonstrationerna i december och januari innan kriget började den 28 februari – han säger till Fox News att \"vi skickade dem massor av vapen\" via kurdiska grupper, en påstående som Iran använder för att hävda att protesterna inte var organiska utan \"utländsk-stödda terrorister\". En amerikansk F-15 skjuts ned över Iran, och båda besättningsmän räddas i en komplex operation djupt inne i fientlig territorium, vilket Trump omedelbar deklarerar som bevis på \"överväldigande luftöverhet\" – men observatörer noterar att två flygplan skjutits ned och minst en helikopter träffats av eldgivning, vilket visar att iranska försvar fortfarande är funktionsdugliga och kan avskräcka framtida amerikanska marköverationer mot Kharg Island eller uraniumanläggningar.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,39 +175,39 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-6",
-          "headline": "Yemen’s civilians fear fallout after Houthis enter Iran war",
+          "id": "iran-al-jazeera-rss-8",
+          "headline": "Has Trump confirmed Iran’s claim that protesters were US-armed?",
           "source": "Al Jazeera RSS",
-          "pubDate": "Mon, 06 Apr 2026 09:10:31 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/6/yemens-civilians-fear-fallout-after-houthis-enter-iran-war?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-7",
-          "headline": "Trump says US armed Iranian dissidents via Kurds, Kurdish groups deny claim",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Mon, 06 Apr 2026 09:10:17 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/6/trump-says-us-armed-iranian-dissidents-via-kurds-kurdish-groups-deny-claim?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-9",
-          "headline": "Iran’s top university bombed as US, Israel intensify attacks; 34 killed",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Mon, 06 Apr 2026 08:31:35 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/6/irans-top-university-bombed-as-us-israel-intensify-attacks-34-killed?traffic_source=rss"
+          "pubDate": "Mon, 06 Apr 2026 11:52:36 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/6/has-trump-confirmed-irans-claim-that-protesters-were-us-armed?traffic_source=rss"
         },
         {
           "id": "iran-al-jazeera-rss-10",
-          "headline": "Iran war: What is happening on day 38 of US-Israeli attacks?",
+          "headline": "Pakistan offers ‘two-phased’ truce deal to end US-Israel war on Iran",
           "source": "Al Jazeera RSS",
-          "pubDate": "Mon, 06 Apr 2026 08:01:40 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/6/iran-war-what-is-happening-on-day-38-of-us-israeli-attacks?traffic_source=rss"
+          "pubDate": "Mon, 06 Apr 2026 11:25:17 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/6/pakistan-offers-two-tier-truce-iran-wont-open-hormuz-under-temporary-one?traffic_source=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-15",
-          "headline": "Vietnam’s gig workers slammed by rising fuel costs amid fallout of Iran war",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Mon, 06 Apr 2026 01:14:00 +0000",
-          "link": "https://www.aljazeera.com/economy/2026/4/6/vietnams-gig-workers-slammed-by-rising-fuel-costs-amid-fallout-of-iran-war?traffic_source=rss"
+          "id": "iran-bbc-news-middle-east-3",
+          "headline": "Trump declares victory after rescue but threats to US operation in Iran still loom",
+          "source": "BBC News: Middle East",
+          "pubDate": "Mon, 06 Apr 2026 00:23:16 GMT",
+          "link": "https://www.bbc.com/news/articles/cy01vg7x5ppo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-5",
+          "headline": "US says it has arrested relatives of late Iranian ​general Qasem ​Soleimani",
+          "source": "BBC News: Middle East",
+          "pubDate": "Sat, 04 Apr 2026 21:29:46 GMT",
+          "link": "https://www.bbc.com/news/articles/cgqkn4j48qdo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-9",
+          "headline": "International law experts allege violations in Iran war",
+          "source": "BBC News: Middle East",
+          "pubDate": "Fri, 03 Apr 2026 11:53:40 GMT",
+          "link": "https://www.bbc.com/news/articles/cy91x2n29nlo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Viktor Orbán står inför sitt största politiska hot på 16 år när han försöker försvara sin makt i ungerska valet den 12 april. Oppositionsledaren Péter Magyar från Tisza-partiet ligger långt före i opinionsmätningarna – senaste mätning visar 58 procent för Magyar mot 35 procent för Orbáns Fidesz. Orbán har transformerat Ungern till vad Europaparlamentet fördömt som ett \"hybridregime av valdemokrati\" sedan han kom till makten 2010, och han är EU:s längst sittande ledare. Han har gjort sig känd för att blockera EU-stöd till Ukraina, anses vara Vladimir Putins starkaste partner i EU och har fått stöd från Donald Trump. Gábor Iványi, en 74-årig metodistpastor som vigde Péter Magyar och hans fru, blir ett symbol för motståndet mot Orbáns regim.",
+      "summary": "Viktor Orbán står inför sitt största politiska test sedan han tog makten 2010. Med valet bara dagar bort ligger hans Fidesz-parti långt efter i opinionsmätningarna mot oppositionsledaren Péter Magyar. Under sina 16 år vid makten har Orbán omvandlat Ungern till vad EU-parlamentet kallar en \"hybridregim av valdemokrati\", där han kombinerar kristna värderingar med nationalism. Hans tidigare vän, metodistpastorn Gábor Iványi som vigde honom och döpte hans barn, kritiserar nu denna blandning av kristendom och nationalism och säger att den saknar bibelsk grund. Iványi står själv inför rättegång i ett fall som kritiker menar är politiskt motiverat. Orbáns regering har också blivit inblandad i en valkampanjkontroversi när sprängmedel upptäcktes nära en viktig gasledning i grannlandet Serbien bara dagar före valet. Oppositionsledaren varnar för en påverkansoperation, medan säkerhetexperter har varnat för möjliga falskt flaggoperationer. Orbán har länge varit en splittringsfaktor i EU, särskilt genom sitt motstånd mot stöd till Ukraina och sitt nära samarbete med Vladimir Putin, vilket gör honom till Putins starkaste allierade inom unionen.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,22 +238,15 @@
       ],
       "items": [
         {
-          "id": "orban-eu-politico-europe-9",
-          "headline": "Serbia says explosive found near pipeline to Hungary, days before crucial election",
-          "source": "Victor Goury-Laffont",
-          "pubDate": "Sun, 05 Apr 2026 14:33:35 +0000",
-          "link": "https://www.politico.eu/article/serbia-hungary-election-turkstream-pipeline-viktor-orban-peter-magyar/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
-        },
-        {
-          "id": "orban-eu-politico-europe-6",
+          "id": "orban-eu-politico-europe-8",
           "headline": "Hungary’s Orbán is selling Christian nationalism. His former pastor isn’t buying it.",
           "source": "Max Griera",
           "pubDate": "Mon, 06 Apr 2026 02:00:00 +0000",
           "link": "https://www.politico.eu/article/hungary-viktor-orban-christian-nationalism-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
         },
         {
-          "id": "orban-eu-ekot-1",
-          "headline": "Sprängmedel vid gasledning misstänkt påverkanskampanj",
+          "id": "orban-eu-ekot-9",
+          "headline": "Sprängmedel vid gasledning – dagar före valet",
           "source": "Ekot",
           "pubDate": "Mon, 06 Apr 2026 10:29:00 GMT",
           "link": "https://www.sverigesradio.se/artikel/9190415"
@@ -271,6 +264,13 @@
           "source": "BBC News: Europe",
           "pubDate": "Fri, 03 Apr 2026 23:04:24 GMT",
           "link": "https://www.bbc.com/news/articles/czd7y1n3jyjo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "orban-eu-bbc-news-europe-1",
+          "headline": "Hungary alleges plot to blow up gas pipeline ahead of election",
+          "source": "BBC News: Europe",
+          "pubDate": "Sun, 05 Apr 2026 19:17:42 GMT",
+          "link": "https://www.bbc.com/news/articles/cj60x206dx1o?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
