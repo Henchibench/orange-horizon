@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-07T05:02:55.956Z",
+  "generatedAt": "2026-04-07T10:39:59.255Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Världen på väg mot kollaps innan lunch",
-    "intro": "Trump hotar Iran med utplåning på löpande band medan Orbán klamrar sig fast vid makten med amerikanskt stöd som inte hjälper. Ukraina tar mark medan Ryssland bränner sin egen ekonomi, och ingen verkar kunna stoppa något av detta.",
+    "title": "Världen på väg mot flera samtidiga krislinjer",
+    "intro": "Trump sätter ultimatum för Iran medan Orbán kämpar för sitt politiska liv, Ukraina tar mark och USA:s vice president springer runt och försöker rädda allierade.",
     "bullets": [
-      "Trump sätter ultimatum för Iran att öppna Hormuzstränden eller få sina kraftverk och broar förstörda på en natt – Iran svarar med att kalla honom hjälplös och nervös, medan New Zeeland säger att bombningar inte löser något.",
-      "Zelenskyj erbjuder Ryssland vapenvila över påsken för att visa att diplomati fungerar, men Ryssland svarar med 700 drönattacker och kallar förslaget en PR-trick – samtidigt tar Ukraina mark och attackerar rysk oljeinfrastruktur.",
-      "Bushehrs kärnkraftverk har attackerats fyra gånger sedan kriget började, WHO varnar för katastrofala risker vid radioaktiv läcka, och över 100 internationella jurister säger att USA och Israel bryter mot FN-stadgan.",
-      "Orbán står inför sitt största nederlag på 16 år när Ungern går till val på söndag – JD Vance åker dit för att försöka rädda honom, men opinionsundersökningarna visar att Trump-stödet inte hjälper mot oppositionsledaren Peter Magyar."
+      "Trump hotar att förstöra Irans infrastruktur på en natt om Hormuzstränden inte öppnas före tisdagens deadline. Iran avfärdar hoten som \"vansinne\" och lovar \"förödande\" motattacker, medan Israel redan varnar iranierna att inte använda tåg.",
+      "Zelenskyj förnyar sitt påskfridsförslag till Ryssland medan drönattacker fortsätter från båda sidor. Ukraina har gjort taktiska framsteg i södra delen av landet och tvingat Ryssland att välja mellan att försvara sig eller stärka andra fronter.",
+      "Orbán står inför sitt största politiskt hot på 16 år när valet närmar sig på söndag. Opinionsundersökningarna visar att hans Fidesz-parti ligger långt efter oppositionens Tisza-parti, och även Trump och vice president Vance kan inte vända trenden.",
+      "Ukraina attackerar rysk oljeinfrastruktur medan Ryssland jagar officiella för att ha misslyckats stoppa den ukrainska genombrytningen i Kursk."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump hotar Iran med fullständig utplåning på en natt om landet inte öppnar Hormuzstränden före tisdagens deadline. Han säger att USA kan ta över hela landet och skicka det tillbaka till stenåldern genom att förstöra alla broar och kraftverk. I ett svärord-fyllt inlägg på sociala medier uppmanar han Iran att öppna stränden eller leva i helvete. Trump säger samtidigt att det finns en \"god chans\" för en överenskommelse och att han överväger att \"blåsa upp allt\" och ta över oljan om ett fredsfördrag inte nås snart. Han har skjutit upp deadlinen flera gånger tidigare. New Zelands premiärminister Christopher Luxon kallar Trumps hot mot iransk civil infrastruktur \"ohelpfulla\" och säger att mer militär handling inte är nödvändig – fokus måste ligga på att förhindra att konflikten expanderar. Trump endorsar Steve Hilton, tidigare rådgivare till David Cameron, som republikan kandidat till Kaliforniens guvernör och säger att demokraterna gjort ett \"absolut fruktansvärt jobb\" i staten. Hilton är en av tio kandidater i primärvalet den 2 juni. Samtidigt undersöker Secret Service skottlossning nära Vita huset tidigt på söndagsmorgonen vid Lafayette Park norr om presidentens residens.",
+      "summary": "Trump har satt en explicit deadline för tisdag klockan 20:00 Washington-tid för Iran att öppna Hormuzstränden, med hot om att förstöra landets broar, kraftverk och all energiinfrastruktur \"på en natt\". Han har gjort detta löfte upprepade gånger med kraftiga svordomar på sociala medier och sagt att Iran skulle skickas tillbaka till \"stenåldern\". Trots dessa detaljerade hot och tidigare deadline-förlängningar finns det liten indikation på att Iran är beredd att acceptera Trumps ultimatum. Iran har istället avvisat förslag om tillfällig vapenvila och ställt egna krav, som USA-tjänstemän beskriver som \"maximalistiska\". Förhandlingarna är komplicerade av en kommunikationsblackout som gör det svårt att få meddelanden till och från iranska tjänstemän. Trump säger att han tror på \"rimliga\" ledare i Iran förhandlar i god tro, men resultatet är osäkert. Samtidigt har Trump godkänt Steve Hilton, en tidigare rådgivare till brittiska premiärminister David Cameron, för guvernörsposten i Kalifornien, vilket kan bli ett hinder i den demokratiska staten. Trump hävdar att demokrater gjort ett \"fruktansvärt\" jobb i Kalifornien och att människor flyr staten.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -56,32 +56,32 @@
           "link": "https://www.bbc.com/news/articles/cqj8ep9w1pno?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-3",
+          "id": "trump-usa-bbc-news-us-canada-4",
           "headline": "Trump endorses ex-UK political aide Steve Hilton for California governor",
           "source": "BBC News: US & Canada",
           "pubDate": "Mon, 06 Apr 2026 18:55:45 GMT",
           "link": "https://www.bbc.com/news/articles/c0mj4jeyvmzo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-4",
+          "id": "trump-usa-the-guardian-donald-trump-8",
           "headline": "Middle East crisis live: Iran warns of ‘devastating’ retaliation after Trump’s expletive-laden threats over strait of Hormuz",
           "source": "Adam Fulton, Lucy Campbell, Aneesa Ahmed and Fran Singh",
           "pubDate": "Tue, 07 Apr 2026 03:10:48 GMT",
           "link": "https://www.theguardian.com/world/live/2026/apr/06/iran-war-live-updates-trump-hormuz-oil-netanyahu-israel"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-9",
+          "id": "trump-usa-bbc-news-us-canada-2",
+          "headline": "Little sign of breakthrough as Trump's Iran deadline nears",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Mon, 06 Apr 2026 23:04:23 GMT",
+          "link": "https://www.bbc.com/news/articles/czexw94rj5jo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "trump-usa-bbc-news-us-canada-11",
           "headline": "Trump issues expletive-laden threat to Iran over Hormuz Strait blockage",
           "source": "BBC News: US & Canada",
           "pubDate": "Mon, 06 Apr 2026 04:56:03 GMT",
           "link": "https://www.bbc.com/news/articles/cvg0q6wdzp1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "trump-usa-bbc-news-us-canada-8",
-          "headline": "US Secret Service investigates reports of gunfire near White House",
-          "source": "BBC News: US & Canada",
-          "pubDate": "Mon, 06 Apr 2026 00:40:04 GMT",
-          "link": "https://www.bbc.com/news/articles/cge0213dyj5o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Zelenskyj förnyar sitt påskförslag om ömsesidig vapenvila för energiattacker den 13 april och säger att Ryssland mottar erbjudandet via amerikaner. Efter en nattlig attack på Odesa som dödade tre personer konstaterar Zelenskyj att Ryssland verkar ovilligt – enligt honom är ingenting heligt för dem. Ryssland svarar med över 700 drönattacker, många iranska Shaheds, mot västra och centrala Ukraina på dagen. Utrikesdepartementet kallar förslaget en PR-trick. Ukrainska drönare attackerar oljeterminalerna vid Novorossijsk och skadar förtöjningspunkter samt tänder oljetankar i brand. En australisk armé-reservist åtalas för att ha arbetat som drönoperatör för Ukraina utan tillstånd – första gången någon åtalas för detta. Ryssland dömer tidigare Kursk-guvernören Alexei Smirnov till 14 års fängelse för påstådda mutor kopplade till befästningskonstruktion. Ukraina har gjort taktiska framsteg i södra delen under början av 2026 och tvingat Ryssland att välja mellan att försvara sig eller stärka andra frontsektorer. Framgångarna tillskrivs bland annat att Ryssland sedan februari inte kunnat använda Starlink-satelliter och därmed förlorat viktig kommunikationsförmåga.",
+      "summary": "Zelenskyj har förnyat sitt erbjudande om ett ömsesidigt vapenstillestånd för attacker mot energiinfrastruktur före påsken, och sagt att förslaget har överförts till Ryssland genom amerikaner. Efter en nattlig attack på Odesa som dödade tre människor och skadade minst 16 sa Zelenskyj att Ryssland verkar ovillig att acceptera vapenstilleståndet, med orden \"för dem är all tid densamma. Ingenting är heligt. \" Ryssland svarade på fredserbjudandet genom att avfyra över 700 drönattacker, många av dem iranska Shahed-drönare, mot västra och centrala Ukraina i en sällsynt dagtidsattack. Ukraina har gjort taktiska framsteg i södra Ukraina under början av 2026 och tvingat Ryssland att välja mellan att försvara sig mot ukrainska motattacker eller stärka andra delar av fronten. Framgångarna beror delvis på att Ryssland sedan februari inte kunnat använda Starlink-satellitsystemet och därmed förlorat viktig kommunikationsförmåga. Ukrainska drönare attackerade oljeterminalerna vid Novorossijsk och Sheskharis, vilket orsakade stora bränder och skador på Rysslands oljeexportkapacitet.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -126,7 +126,7 @@
           "link": "https://www.theguardian.com/world/2026/apr/06/ukraine-war-briefing-russian-oil-facilities-burn-as-zelenskyy-tours-middle-east"
         },
         {
-          "id": "putin-ukraina-svt-nyheter-utrikes-9",
+          "id": "putin-ukraina-svt-nyheter-utrikes-13",
           "headline": "Ukraina tar tillbaka mark: ”Har fått stopp på den ryska rörelsen”",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Sun, 05 Apr 2026 13:09:04 +0200",
@@ -140,7 +140,7 @@
           "link": "https://www.theguardian.com/world/2026/apr/02/ukraine-war-briefing-russia-responds-zelenskyy-easter-truce-drone-attack"
         },
         {
-          "id": "putin-ukraina-bbc-news-europe-4",
+          "id": "putin-ukraina-bbc-news-europe-7",
           "headline": "Russian attack on Ukraine market kills five",
           "source": "BBC News: Europe",
           "pubDate": "Sat, 04 Apr 2026 18:54:53 GMT",
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Trump säger att USA kan ta ut vägtullar i Hormuzstränden efter kriget och frågar varför Iran skulle få ta avgifter när USA är \"vinnaren\". Han upprepar att Iran är militärt besegrad trots Irans fortsatta drön- och missiltattacker över regionen och fortsatta blockad av stränden. Bushehrs kärnkraftverk i Iran har attackerats fyra gånger sedan USA-Israels krig mot Iran började för över en månad sedan. Världshälsoorganisationen varnar för \"katastrofala\" risker om en radioaktiv läcka inträffar. Iran anklagade FN:s kärnkraftsvakthund IAEA för passivitet, en anklagelse som IAEA förkastar men erkänner att situationen är djupt oroande. Trump förklarar snabbt seger efter att den andra besättningsmedlemmen från en F-15-jaktplan som skjutits ned över Iran återhämtades, och säger att räddningen \"bevisar ännu en gång\" att USA uppnått \"överväldigande luftöverhet\". Observatörer målar dock en mer komplicerad bild – två flygplan har skjutits ned och minst ett helikopter träffades av kulor, vilket visar att hot mot amerikanska flygplan och personal återstår även efter veckor av tunga amerikanska och israeliska attacker mot Irans militär infrastruktur.",
+      "summary": "Trump har varnat för \"fullständig demolering\" av Irans nyckelinfrastruktur om Hormuzstränden inte öppnas före hans deadline på tisdag klockan 20:00 EST. Han beskrev Teherans svar på ett amerikanskt vapenstilleståndsförslag som \"betydande\" men i slutändan \"inte tillräckligt bra\". Irans militär har avfärdat Trumps hot som \"vansinne\" och säger att de inte kan dölja vad den beskriver som amerikansk \"skam och ödmjukelse\" i regionen. Israel har utfärdat varningar till iranierna att inte använda tåg eller gå nära järnvägslinjer, vilket indikerar att Israel avser att attackera civil infrastruktur före Trumps deadline. Israel har genomfört attacker på tre flygplatser i Teheran och påstår att det träffade flera iranska plan och helikoptrar, samt Irans största petrokemiska komplex som betjänar South Pars-gasfältet, världens största naturgasreserv. FN:s kärnkraftsvakthund varnade att attacker nära Bushehrs kärnkraftverk \"utgör en mycket verklig fara för kärnkraftssäkerhet och måste upphöra\". Iran säger att en israelisk attack vid gryningen dödade underrättelsechefen för Islamiska revolutionsgarden, generalmajor Majid Khademi.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,39 +175,39 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-7",
-          "headline": "Trump says US could charge for Strait of Hormuz passage amid Iran war",
+          "id": "iran-al-jazeera-rss-15",
+          "headline": "Iran war: What is happening on day 39 of US-Israeli attacks?",
           "source": "Al Jazeera RSS",
-          "pubDate": "Mon, 06 Apr 2026 21:26:20 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/6/trump-says-us-could-charge-for-strait-of-hormuz-passage-amid-iran-war?traffic_source=rss"
+          "pubDate": "Tue, 07 Apr 2026 07:52:22 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/7/iran-war-what-is-happening-on-day-39-of-us-israeli-attacks?traffic_source=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-8",
-          "headline": "Why is Iran’s Bushehr nuclear power plant being attacked?",
+          "id": "iran-al-jazeera-rss-16",
+          "headline": "Israel threatens Iran’s trains, railways before Trump’s deadline expires",
           "source": "Al Jazeera RSS",
-          "pubDate": "Mon, 06 Apr 2026 21:10:03 +0000",
-          "link": "https://www.aljazeera.com/video/inside-story/2026/4/6/why-is-irans-bushehr-nuclear-power-plant-being?traffic_source=rss"
+          "pubDate": "Tue, 07 Apr 2026 07:39:56 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/7/israel-warns-iranians-to-avoid-trains-as-trump-deadline-approaches?traffic_source=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-5",
+          "id": "iran-bbc-news-middle-east-3",
+          "headline": "Trump threatens to take out Iran in 'one night' if no deal before deadline",
+          "source": "BBC News: Middle East",
+          "pubDate": "Mon, 06 Apr 2026 21:55:50 GMT",
+          "link": "https://www.bbc.com/news/articles/cqj8ep9w1pno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-7",
           "headline": "Trump declares victory after rescue but threats to US operation in Iran still loom",
           "source": "BBC News: Middle East",
           "pubDate": "Mon, 06 Apr 2026 00:23:16 GMT",
           "link": "https://www.bbc.com/news/articles/cy01vg7x5ppo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-6",
+          "id": "iran-bbc-news-middle-east-8",
           "headline": "US says it has arrested relatives of late Iranian ​general Qasem ​Soleimani",
           "source": "BBC News: Middle East",
           "pubDate": "Sat, 04 Apr 2026 21:29:46 GMT",
           "link": "https://www.bbc.com/news/articles/cgqkn4j48qdo?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-10",
-          "headline": "International law experts allege violations in Iran war",
-          "source": "BBC News: Middle East",
-          "pubDate": "Fri, 03 Apr 2026 11:53:40 GMT",
-          "link": "https://www.bbc.com/news/articles/cy91x2n29nlo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Viktor Orbán står inför sitt största nederlag på 16 år när Ungern går till val på söndag. Den 62-årige premiärministern, som styrt sedan 2010, möter sin starkaste utmaning från före detta partikolleggan Péter Magyar och Tisza-partiet, som enligt opinionsmätningar ligger långt före Fidesz. Orbáns regering har omvandlat Ungern till vad Europaparlamentet kallat en \"hybridregim av valdemokrati\", medan han själv försökt beskriva sitt system som \"illiberal demokrati\" eller \"kristen frihet\". Hans ständiga konflikter med EU över Ukraina, där han blockerat vital finansiering för Kyiv, tillsammans med korruptionsanklagelser mot hans parti, har gjort att många väljare tröttat på honom. Trots stöd från Donald Trump och Vladimir Putin verkar hans tidigare karisma ha förlorat sin kraft.",
+      "summary": "Viktor Orbán står inför sitt största politiska test sedan han tog makten 2010. Den ungerske premiärministern, som länge varit EU:s mest kontroversiella ledare, möter sitt starkaste motstånd någonsin i valet den 12 april, där opinionsundersökningarna visar att han ligger långt efter oppositionsledaren Péter Magyar och dennes Tisza-parti. Under sina 16 år vid makten har Orbán omvandlat Ungern till vad Europaparlamentet kallat en \"hybridregim av valdemokrati\", med kontroll över media och offentliga institutioner. Han har utvecklat sitt eget politiska koncept som han kallar \"illiberal demokrati\" eller \"kristen frihet\", vilket har gjort honom till en nyckelallerad för både Donald Trump och Vladimir Putin. Orbán har upprepade gånger krockat med EU-kollegor över Ukraina-kriget, blockerat vital finansiering till Kyiv och framstår som Putins starkaste partner inom unionen. I ett sista försök att vända sitt politiska öde besöker USA:s vicepresident JD Vance Ungern för att stödja Orbáns omvalskampanj, men detta verkar osannolikt att påverka det allt mer bittra valet.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -245,14 +245,14 @@
           "link": "https://www.bbc.com/news/articles/cd6l3ywpwg2o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "orban-eu-bbc-news-europe-6",
+          "id": "orban-eu-bbc-news-europe-14",
           "headline": "After 16 years in power, could Viktor Orban finally be unseated?",
           "source": "BBC News: Europe",
           "pubDate": "Fri, 03 Apr 2026 23:04:24 GMT",
           "link": "https://www.bbc.com/news/articles/czd7y1n3jyjo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "orban-eu-politico-europe-4",
+          "id": "orban-eu-politico-europe-7",
           "headline": "Vance in Budapest: Viktor Orbán’s last throw of the MAGA dice",
           "source": "Jamie Dettmer, Eli Stokols",
           "pubDate": "Tue, 07 Apr 2026 02:00:00 +0000",
@@ -260,17 +260,17 @@
         },
         {
           "id": "orban-eu-bbc-news-europe-1",
+          "headline": "JD Vance arrives in Hungary to back Orbán's re-election bid",
+          "source": "BBC News: Europe",
+          "pubDate": "Tue, 07 Apr 2026 09:55:07 GMT",
+          "link": "https://www.bbc.com/news/articles/cyv16lq2rp1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "orban-eu-bbc-news-europe-8",
           "headline": "Hungary alleges plot to blow up gas pipeline ahead of election",
           "source": "BBC News: Europe",
           "pubDate": "Sun, 05 Apr 2026 19:17:42 GMT",
           "link": "https://www.bbc.com/news/articles/cj60x206dx1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "orban-eu-bbc-news-europe-13",
-          "headline": "Peter Magyar, the former Orban ally vying for power in Hungary",
-          "source": "BBC News: Europe",
-          "pubDate": "Wed, 01 Apr 2026 13:43:10 GMT",
-          "link": "https://www.bbc.com/news/articles/c78l7vyylgqo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
