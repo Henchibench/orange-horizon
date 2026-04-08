@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-08T10:41:15.211Z",
+  "generatedAt": "2026-04-08T15:50:57.484Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Vapenvila och valkaos på fyra kontinenter",
-    "intro": "Trump tvingade fram ett elfte timmes vapenstillestånd med Iran genom att hota med att utplåna en hel civilisation, medan Orbán försöker rädda sitt styre genom att krypa närmare Putin och acceptera amerikanskt valkampanjstöd.",
+    "title": "Vapenvila och valcirkus när världen hålls andlös",
+    "intro": "Trump hotade Iran med utplåning, backade sedan undan i sista sekunden. Samtidigt sprider Orbán rysk propaganda före val, Israel bombar Beirut trots vapenvila, och Ukraina slår på rysk oljeinfrastruktur medan Kreml hjälper Iran att kartlägga mål.",
     "bullets": [
-      "Trump hotade Iran med civilisationsdöd och tvingade fram ett tvåveckors vapenstillestånd på sista minuten, vilket fick oljepriserna att sjunka 15 procent och aktiemarknaderna att rusa uppåt medan FN:s generalsekreterare uppmanade alla parter att respektera avtalet.",
-      "Ungerns premiärminister Orbán står inför sitt största politiska hot på 16 år när väljarna går till valurnan på söndag, medan hans rival Péter Magyar leder i opinionsmätningarna och USA:s vicepresident JD Vance aktivt kampanjar för Orbán trots att det visar på omfattande rysk-ungersk samarbete.",
-      "Ukraina rapporterar att ryska satelliter kartlade amerikanska militärbaser i Mellanöstern dagar innan Iran attackerade dem, medan Zelenskyj förnyar sitt påskväpningsförslag som Ryssland svarar på med över 700 drönare och fortsatta attacker på energiinfrastruktur.",
-      "Iran hyllar vapenstilleståndet som en seger och firar på gatorna medan förhandlingar ska börja på fredagen i Pakistan, medan Teheran och Beijing använder Hormuzstränden för att introducera den kinesiska yuanen som alternativ till den amerikanska dollarn i global oljehandel."
+      "Trump tvingade fram tvåveckors vapenvila med Iran genom att hota med att utplåna en hel civilisation, men oljepriserna sjönk och aktiemarknaderna jublade när hotet ersattes av förhandlingar — samtidigt som hans kandidat Clay Fuller vann Georgias val och stärkte republikanernas knappa majoritet i representanthuset.",
+      "Ukraina rapporterar att ryska satelliter kartlade militära mål i Mellanöstern för Iran innan attackerna, och att rysk-iranska hackare samarbetar — medan Zelenskyj förnyade sitt påskväpningsförslag som Ryssland svarade på med över 700 drönare och fortsatta attacker på energiinfrastruktur.",
+      "Israel genomförde sin största bombvåg över Beirut på timmar efter vapenvilan med Iran, dödade dussintals människor och skadade hundratals, och hävdade att Libanon inte omfattades av avtalet trots Pakistans påstående om motsatsen.",
+      "Orbán mottog JD Vance i Budapest för att stödja hans omval medan Tyskland anklagade Vance för valmålning, och avslöjade dokument visar att Orbán gjort omfattande avtal med Putin om energi, kärnkraft och kulturutbyte — samtidigt som han hävdar att explosiver vid en rysk gaspipeline är ett ukrainskt komplot."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Donald Trump tvingade fram ett tvåveckors vapenstillestånd med Iran genom att hota med att utplåna en hel civilisation om inte ett avtal nåddes före hans deadline på 20:00 EDT. Hotet, som Trump själv beskrev som att \"en hel civilisation kommer att dö i natt\", kom bara två dagar efter ett liknande uttalande och representerar något som ingen modern amerikansk president tidigare har gjort. Amerikaner från hela landet reagerade blandad på uttalandet. Vapenstilleståndet villkoras av att Iran helt öppnar Hormuzstränden för kommersiell sjöfart, vilket regimen säger att den kommer att göra samtidigt som den insisterar på att den fortfarande utövar \"dominion\" över vattenvägen. Avtalet tillät Trump att undvika ett omöjligt val mellan att eskalera med sitt löfte eller backa och undergräva sin trovärdighet. Oljeprisen sjönk under 100 dollar per fat för första gången på dagar och amerikanska aktieindexfutures steg kraftigt. FN:s generalsekreterare Antonio Guterres välkomnade vapenstilleståndet och uppmanade alla parter att följa internationell rätt och respektera villkoren för att bana vägen för ett varaktigt fredslöfte i regionen.",
+      "summary": "Donald Trump hotade Iran med att en hel civilisation skulle dö på natten om inte Hormuzstränden öppnades före hans deadline klockan 20:00 EDT på tisdagen. Mindre än 90 minuter innan fristen meddelade han att USA och Iran kommit överens om en tvåveckors villkorlig vapenvila, där Iran tillåter sjöfarten genom stränden under sitt militärs övervakning. Trump hävdade att USA redan uppnått alla militära mål. Hotet om att bomba Iran tillbaka till stenåldern och uttalandet om att en civilisation skulle dö fick världsledare att reagera med skräck, och globala marknader sjönk innan vapenvilan tillkännagavs. Efter avtalet sjönk oljepriserna under 100 dollar per fat för första gången på dagar och aktiemarknadsfutures steg kraftigt. Trump meddelade senare att USA skulle förhandla om tullsänkningar och sanktionslättnader med Iran, och hotade med 50 procents tull på varor från länder som levererar militär utrustning till Iran. Försvarsminister Pete Hegseth sa att USA:s militär skulle övervaka Irans efterlevnad och stå redo att återuppta operationer omedelbar.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -70,18 +70,18 @@
           "link": "https://www.bbc.com/news/videos/c0krp3mpxg5o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-13",
-          "headline": "Trump says uranium will be ‘taken care of’ – as it happened",
-          "source": "Patrick Lum, Jonathan Yerushalmy, Lucy Campbell, Sammy Gecsoyler, Tom Ambrose, Vivian Ho and Adam Fulton",
-          "pubDate": "Wed, 08 Apr 2026 03:55:31 GMT",
-          "link": "https://www.theguardian.com/world/live/2026/apr/07/iran-war-live-updates-trump-hormuz-threats-deadline-strikes-middle-east-conflict"
-        },
-        {
-          "id": "trump-usa-the-guardian-donald-trump-4",
+          "id": "trump-usa-the-guardian-donald-trump-6",
           "headline": "Oil prices plunge and stocks jump after Trump announces conditional ceasefire with Iran",
           "source": "Mark Saunokonoko and Graeme Wearden",
-          "pubDate": "Wed, 08 Apr 2026 10:19:25 GMT",
+          "pubDate": "Wed, 08 Apr 2026 15:10:50 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/08/oil-prices-stock-today-futures-crude-donald-trump-iran-ceasefire"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-7",
+          "headline": "When it comes to Trump, Albanese’s tactic has been don’t buy-in and don’t bite back. Why has that changed?",
+          "source": "Dan Jervis-Bardy",
+          "pubDate": "Wed, 08 Apr 2026 15:00:44 GMT",
+          "link": "https://www.theguardian.com/australia-news/2026/apr/09/trump-albanese-tactics-changed-foreign-policy"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Ukrainsk underrättelsetjänst rapporterar att ryska satelliter gjorde detaljerad kartläggning av militära anläggningar och kritiska platser i Mellanöstern, inklusive amerikanska baser och andra mål som attackerades av Iran kort därefter. Enligt bedömningen genomfördes minst 24 undersökningar av områden i 11 mellanösternländer mellan 21-31 mars, som täckte 46 \"objekt\" inklusive amerikanska och andra militärbaser, flygplatser och oljefält. Inom dagar efter att ha kartlagts målades militärbaser och huvudkvarter av iranska ballistiska missiler och drönare. Ryska satelliter övervakade aktivt Hormuzstränden enligt ukrainarna, och västerländska militärkällor bekräftade ett specifikt fall där en rysk satellit fotograferade Prince Sultan-flygbasen i Saudiarabien dagar innan Iran träffade anläggningen den 27 mars. Rapporten hävdar också att ryska och iranska hackare samarbetade i cyberdomänen. Ukrainas militär rapporterade att den slog ut Rysslands Ust-Luga-oljeterminal i Leningrad-regionen på tisdag med skador på tre lagringstankar.",
+      "summary": "Ukrainsk underrättelsetjänst rapporterar att ryska satelliter gjorde detaljerade bilder av militära anläggningar och kritiska mål i Mellanöstern mellan 21-31 mars, täckande minst 46 objekt i 11 länder inklusive amerikanska baser och flygplatser. Inom dagar efter att dessa platser kartlades attackerade Iran dem med ballistiska missiler och drönare. En rysk satellit fotograferade Prince Sultan-basen i Saudiarabien innan Iran träffade den den 27 mars och slog ut ett amerikanskt E-3 Sentry-luftövervakninsflygplan, och dagen efter passerade en rysk satellit igen för att bedöma skadorna. Ukrainsk rapport hävdar också att ryska och iranska hackare samarbetar i cyberdomänen. Ukrainas militär rapporterade att det slog ut Ust-Luga-oljeterminal i Leningrad-regionen och fick preliminär bekräftelse på skador på tre lagringstankar. Zelenskyj förnyade sitt erbjudande om ömsesidig vapenvila på attacker mot energiinfrastruktur före påsken, säger att om Ryssland slutar attackera ukrainsk energiinfrastruktur kommer Ukraina att göra detsamma, och att förslaget överförts till Ryssland genom amerikanerna.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -112,39 +112,39 @@
       ],
       "items": [
         {
-          "id": "putin-ukraina-the-guardian-ukraine-1",
+          "id": "putin-ukraina-the-guardian-ukraine-2",
           "headline": "Ukraine war briefing: Kyiv lays out how ‘Russian satellites help Iran in war’",
           "source": "Warren Murray and agencies",
           "pubDate": "Wed, 08 Apr 2026 01:22:14 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/08/ukraine-war-briefing-kyiv-how-russian-satellites-help-iran-in-war"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-3",
+          "id": "putin-ukraina-the-guardian-ukraine-4",
           "headline": "Ukraine war briefing: Zelenskyy reiterates truce offer ahead of Orthodox Easter",
           "source": "Warren Murray and agencies",
           "pubDate": "Tue, 07 Apr 2026 00:34:15 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/07/ukraine-russia-war-briefing-zelenskyy-orthodox-easter-truce-offer"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-6",
+          "id": "putin-ukraina-the-guardian-ukraine-7",
           "headline": "Ukraine war briefing: Russian oil facilities burn as Zelenskyy tours Middle East",
           "source": "Warren Murray and agencies",
           "pubDate": "Mon, 06 Apr 2026 02:05:31 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/06/ukraine-war-briefing-russian-oil-facilities-burn-as-zelenskyy-tours-middle-east"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-14",
+          "id": "putin-ukraina-the-guardian-ukraine-15",
           "headline": "Ukraine war briefing: Russia responds to Zelenskyy’s Easter truce offer with drone attack",
           "source": "Guardian staff and agencies",
           "pubDate": "Thu, 02 Apr 2026 02:07:11 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/02/ukraine-war-briefing-russia-responds-zelenskyy-easter-truce-drone-attack"
         },
         {
-          "id": "putin-ukraina-bbc-news-europe-11",
-          "headline": "Russian attack on Ukraine market kills five",
+          "id": "putin-ukraina-bbc-news-europe-2",
+          "headline": "Cameroon 'military contractors' killed in Russia-Ukraine war",
           "source": "BBC News: Europe",
-          "pubDate": "Sat, 04 Apr 2026 18:54:53 GMT",
-          "link": "https://www.bbc.com/news/articles/cp869m2gzr0o?at_medium=RSS&at_campaign=rss"
+          "pubDate": "Wed, 08 Apr 2026 13:07:57 GMT",
+          "link": "https://www.bbc.com/news/articles/cvg0v5gy01go?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Iran och USA enades om ett tvåveckors vapenstillestånd med Iran som accepterar att tillfälligt öppna Hormuzstränden för säker passage under två veckor genom samordning med landets väpnade styrkor. Vapenstilleståndet kom i de tidiga timmarna på onsdagen, bara en timme innan Trumps deadline för att eskalera konflikten löpte ut. Förhandlingar är inställda att börja på fredagen i Islamabads Pakistan, medierad av Pakistans premiärminister. Iransk utrikesminister Abbas Araghchi bekräftade att säker passage genom den strategiska vattenvägen kommer att säkerställas under två veckor genom samordning med landets väpnade styrkor. Trumps drag följde en begäran från Pakistans premiärminister Shehbaz Sharif, som uppmanade Washington att förlänga sin deadline för ett av.",
+      "summary": "Iran och USA kom överens om en tvåveckors villkorlig vapenvila efter att Trump hotade med att utplåna en hel civilisation om inte Hormuzstränden öppnades före hans deadline. Pakistan, som medlat förhandlingarna, tillkännagav att vapenvilan trädde i kraft omedelbar. Trump sa att han gick med på vapenvilan för två veckor eftersom USA redan uppnått och överträffat alla militära mål. Iran gick med på att tillåta fartyg genom Hormuzstränden under två veckor, med passage koordinerad av Irans militär. Iran presenterade en tiopoängplan som inkluderar fullständig upphörande av krig i Iran, Irak, Libanon och Jemen, fullt åtagande om att lyfta sanktioner på Iran, frigöring av iranska medel och frysta tillgångar som hålls av USA, och full ersättning för rekonstruktion. Trump sa senare att USA skulle arbeta nära Iran och diskutera tariffar och sanktionslättnader, och hotade med 50 procents tull på varor från länder som levererar militär utrustning till Iran. Försvarsminister Pete Hegseth sa att USA:s militär skulle stanna på plats, stå redo och vara villig att återuppta operationer omedelbar.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -176,34 +176,34 @@
       "items": [
         {
           "id": "iran-al-jazeera-rss-5",
-          "headline": "GCC, other Middle East nations react to Iran-US ceasefire announcement",
+          "headline": "Israel strikes central Beirut without warning",
           "source": "Al Jazeera RSS",
-          "pubDate": "Wed, 08 Apr 2026 08:24:31 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/8/gulf-arab-nations-react-to-iran-us-ceasefire-announcement?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-7",
-          "headline": "Tehran celebrates as Iran, US agree to two-week ceasefire",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Wed, 08 Apr 2026 08:21:05 +0000",
-          "link": "https://www.aljazeera.com/gallery/2026/4/8/tehran-celebrates-as-iran-us-agree-to-two-week-ceasefire?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-11",
-          "headline": "US-Israeli war on Iran: What is happening on day 40?",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Wed, 08 Apr 2026 07:03:17 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/8/iran-war-what-is-happening-on-day-40-of-us-israeli-attacks?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-14",
-          "headline": "In Strait of Hormuz, Iran and China take aim at US dollar hegemony",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Wed, 08 Apr 2026 06:21:06 +0000",
-          "link": "https://www.aljazeera.com/economy/2026/4/8/in-strait-of-hormuz-iran-and-china-take-aim-at-us-dollar-hegemony?traffic_source=rss"
+          "pubDate": "Wed, 08 Apr 2026 15:01:54 +0000",
+          "link": "https://www.aljazeera.com/gallery/2026/4/8/israel-strikes-central-beirut-without-warning?traffic_source=rss"
         },
         {
           "id": "iran-bbc-news-middle-east-3",
+          "headline": "What we know about the two-week ceasefire between the US and Iran",
+          "source": "BBC News: Middle East",
+          "pubDate": "Wed, 08 Apr 2026 14:14:08 GMT",
+          "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-13",
+          "headline": "‘Stone Age’ to ‘Golden Age’: How the final hours before the truce unfolded",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Wed, 08 Apr 2026 13:51:04 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/8/stone-age-to-golden-age-how-the-final-hours-before-the-truce-unfolded?traffic_source=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-2",
+          "headline": "Israel carries out large wave of air strikes across Lebanon",
+          "source": "BBC News: Middle East",
+          "pubDate": "Wed, 08 Apr 2026 13:13:46 GMT",
+          "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-4",
           "headline": "How Pakistan helped secure a fragile ceasefire between the US and Iran",
           "source": "BBC News: Middle East",
           "pubDate": "Wed, 08 Apr 2026 05:03:31 GMT",
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Ungerns premiärminister Viktor Orbán står inför sitt största politiska test sedan han tog makten för 16 år sedan. Oppositionsledaren Péter Magyar, en tidigare insider från Orbáns eget parti, leder kraftigt i opinionsmätningarna inför valet den 12 april och utgör ett allvarligt hot mot Orbáns fortsatta styre. Magyar har mobiliserat missnöjda väljare genom att avslöja en hemlig inspelning av sin tidigare hustru, dåvarande justitieminister Judit Varga, där hon beskriver påstått regeringsinblandning i korruptionsfall. Samtidigt avslöjas omfattande bevis på Orbáns nära band till Ryssland, inklusive ett 12-punktsprogram för utökat samarbete mellan Ungern och Moskva samt ett telefonsamtal där Orbán erbjuder Putin omfattande hjälp. USA:s vicepresident JD Vance har intervenerat i kampanjen för att ge Orbán sitt stöd, medan Magyar motsätter sig denna inblandning. Under sina 16 år vid makten har Orbán omvandlat Ungern till vad EU-parlamentet benämner en \"hybridregim av valdemokrati\" med begränsningar på rättsstaten och mediefrihet.",
+      "summary": "Viktor Orbáns regering står under intensiv granskning från EU och västerländska allierade inför Ungerns val. USA:s vicepresident JD Vance besökte Budapest för att stödja Orbáns omval, vilket väckte kritik från Tyskland som anklagade Vance för själv att blanda sig i valet. Samtidigt avslöjades att Ungern undertecknat ett omfattande samarbetsavtal med Ryssland inom handel, energi och andra områden, vilket EU varnade mot då Ryssland beskrevs som en opålitlig partner. Telefonsamtal mellan Orbán och Putin visar hur Ungerns premiärminister erbjuder omfattande hjälp till Moskva, inklusive att vara värd för toppmöten om Ukraina-konflikten. Veckan före valet upptäcktes sprängämnen nära en rysk gaspipeline i Serbien, vilket oppositionsledaren anklagade Orbán för att använda som panikspridning med stöd från ryska rådgivare. Dessa händelser illustrerar Orbáns nära band till Putin och hans isolering från EU-värden, samtidigt som hans parti ligger långt efter i opinionsmätningar inför det avgörande valet.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,39 +238,39 @@
       ],
       "items": [
         {
+          "id": "orban-eu-politico-europe-7",
+          "headline": "Germany accuses JD Vance of hypocrisy over claim that EU meddled in Hungary’s election",
+          "source": "Hans von der Burchard",
+          "pubDate": "Wed, 08 Apr 2026 12:25:40 +0000",
+          "link": "https://www.politico.eu/article/germany-rebuke-jd-vance-claim-eu-interferes-hungary-election/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        },
+        {
           "id": "orban-eu-politico-europe-9",
-          "headline": "Péter Magyar’s revolt: The insider challenging Hungary’s Viktor Orbán",
-          "source": "Max Griera",
-          "pubDate": "Wed, 08 Apr 2026 02:00:00 +0000",
-          "link": "https://www.politico.eu/article/peter-magyars-revolt-the-insider-challenging-hungarys-viktor-orban/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+          "headline": "Russia an ‘unreliable partner’, EU warns after Hungary deal revelations",
+          "source": "Gabriel Gavin",
+          "pubDate": "Wed, 08 Apr 2026 11:47:47 +0000",
+          "link": "https://www.politico.eu/article/russia-unreliable-partner-eu-warns-after-hungary-deal-revelations/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
         },
         {
-          "id": "orban-eu-politico-europe-10",
-          "headline": "Hungary and Russia struck 12-point plan for closer ties, documents show",
-          "source": "Gabriel Gavin, Zoya Sheftalovich",
-          "pubDate": "Wed, 08 Apr 2026 02:00:00 +0000",
-          "link": "https://www.politico.eu/article/hungary-and-russia-struck-12-point-plan-for-closer-ties-documents-show/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
-        },
-        {
-          "id": "orban-eu-svt-nyheter-utrikes-5",
+          "id": "orban-eu-svt-nyheter-utrikes-7",
           "headline": "Orbán till Putin: Kan vara ”musen” som hjälper ryska ”lejonet”",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Wed, 08 Apr 2026 01:21:59 +0200",
           "link": "https://www.svt.se/nyheter/utrikes/orban-till-putin-kan-vara-musen-som-hjalper-ryska-lejonet"
         },
         {
-          "id": "orban-eu-bbc-news-europe-2",
+          "id": "orban-eu-bbc-news-europe-4",
           "headline": "JD Vance backs Orbán's re-election bid in Budapest visit and hits out at EU",
           "source": "BBC News: Europe",
           "pubDate": "Tue, 07 Apr 2026 18:11:38 GMT",
           "link": "https://www.bbc.com/news/articles/cyv16lq2rp1o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "orban-eu-bbc-news-europe-3",
-          "headline": "Who is Viktor Orbán, Hungarian PM fighting to stay in power after 16 years?",
+          "id": "orban-eu-bbc-news-europe-15",
+          "headline": "Hungary alleges plot to blow up gas pipeline ahead of election",
           "source": "BBC News: Europe",
-          "pubDate": "Sun, 05 Apr 2026 17:04:26 GMT",
-          "link": "https://www.bbc.com/news/articles/cd6l3ywpwg2o?at_medium=RSS&at_campaign=rss"
+          "pubDate": "Sun, 05 Apr 2026 19:17:42 GMT",
+          "link": "https://www.bbc.com/news/articles/cj60x206dx1o?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
