@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-09T05:02:55.925Z",
+  "generatedAt": "2026-04-09T10:42:24.394Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Världen håller andan mellan två krig",
-    "intro": "Trump tvingade Iran till vapenvila genom att hota med civilisationens död, men använder segern för att pressa Nato och Israel fortsätter att bomba Libanon. Samtidigt förbereder Ungern sitt val medan Orbán erbjuder sig som Putins lilla hjälpare.",
+    "title": "Världen på väg mot nästa kris medan vapenvilan hänger på en tråd",
+    "intro": "Trump hotade Iran med utplåning, fick en två veckor lång vapenvila på löftet och använder den redan för att hota igen.",
     "bullets": [
-      "Trump fick Iran att acceptera en tvåveckors vapenvila genom att hota med att \"en hel civilisation kommer att dö i natt\" — ett uttalande som förändrar hur världen ser på USA.",
-      "Israel genomförde den största bombvågen mot Libanon på tio minuter och dödade minst 182 människor, bara timmar efter att USA och Iran tillkännagav vapenvilan — medan både Netanyahu och Trumps presstalesperson förnekar att Libanon ingår i avtalet, trots att Pakistan som medlare säger motsatsen.",
-      "Ukraina rapporterar att ryska satelliter kartlade amerikanska militärbaser i Mellanöstern dagarna innan Iran attackerade dem, och att ryska och iranska hackare samarbetar — samtidigt som Zelenskyj förnyar sitt erbjudande om vapenvila för påsken, vilket Ryssland ignorerar och fortsätter att attackera marknader och.",
-      "Ungerns val på söndag kan sluta Viktor Orbáns 16-åriga styre när oppositionsledaren Péter Magyar ligger långt före i opinionsmätningarna, men även om Magyar vinner väntar honom en nästan omöjlig uppgift att låsa upp 17 miljarder euro i fryst EU-finansiering innan augusti — samtidigt som det avslöjas att Orbán erbjöd."
+      "Trump tvingade fram ett två veckor långt vapenstillestånd med Iran genom att hota med att utplåna en hel civilisation, men hotar redan igen med att återuppta bombningen om Iran inte följer hans villkor exakt. Samtidigt säger han att amerikanska styrkor är redo för nästa erövring.",
+      "Israel ignorerar vapenvilan helt och hållet och genomför den största bombvågen mot Libanon på en dag, dödar minst 254 människor och skadar över 1 165, medan Netanyahu säger att Libanon aldrig var del av avtalet och Trump-administrationen backar upp honom.",
+      "Ukraina rapporterar att ryska satelliter kartlade amerikanska militärbaser i Mellanöstern dagarna innan Iran attackerade dem, och fortsätter att slå mot rysk oljeinfrastruktur medan Zelenskyj förgäves erbjuder vapenvila för påsken.",
+      "Orbán erbjuder sig att vara Putins hjälpare, avslöjar EU-samtal om sanktioner till Ryssland, och står inför sitt största valkval på 16 år medan hans rival Magyar lovar att låsa upp 17 miljarder euro i fryst EU-stöd om han vinner."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump tvingade Iran till vapenvila genom att hota med massiv bombning och uttalandet att \"en hel civilisation kommer att dö i natt\" — ett hot som enligt BBC förändrar hur världen ser på USA. Vapenvilan är villkorad av att Iran öppnar Hormuzstränden för kommersiell sjöfart, vilket Iran säger att det kommer att göra medan landet insisterar på att det fortfarande utövar \"dominion\" över vattnet. Trump presenterade detta som en seger eftersom USA redan hade \"nått och överträffat alla militära mål\", men använder nu avtalet för att pressa Nato-allierade. Natochefen Mark Rutte mötte Trump i Vita huset och sa att presidenten var \"helt klart besviken\" på att allierade vägrade att delta i kriget mot Iran — Rutte försökte försvara Europa genom att påpeka att medlemsländerna bidragit med baser, logistik och överflygningar, men Trump-administrationen framställer detta som ett misslyckande för alliansen. Vita husets presstalesperson Karoline Leavitt sa att Nato \"testades och misslyckades\" och att det är \"ganska sorgligt\" att alliansen vände ryggen på det amerikanska folket.",
+      "summary": "Trump tvingade fram ett två veckor långt vapenstillestånd med Iran genom att hota med att utplåna en hel civilisation, men använder redan vapenvilan för att hota igen. Han säger att amerikanska styrkor kommer att stanna kvar runt Iran och är redo för nästa erövring om Iran inte följer hans villkor exakt. Nato-chef Mark Rutte träffade Trump och sa att han förstår presidentens missnöje med Nato, och att vissa europeiska medlemsländer inte levt upp till sina åtaganden i Mellanöstern-kriget. Europaforskare Gunilla Herolf kritiserade Rutte för att hålla sig långt från verkligheten i sitt försök att behaga Trump. I USA vann Trump-stödd republikan Clay Fuller ett val i Georgia för att ersätta Marjorie Taylor Greene, som hade brutit med presidenten. Fullers seger säkrar republikanernas knappa majoritet i representanthuset.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -49,39 +49,39 @@
       ],
       "items": [
         {
-          "id": "trump-usa-bbc-news-us-canada-7",
+          "id": "trump-usa-bbc-news-us-canada-10",
           "headline": "Iran ceasefire deal gives Trump a way out of war",
           "source": "BBC News: US & Canada",
           "pubDate": "Wed, 08 Apr 2026 03:30:55 GMT",
           "link": "https://www.bbc.com/news/articles/cwyvp55xrlro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-8",
+          "id": "trump-usa-bbc-news-us-canada-11",
           "headline": "Trump-backed Republican Clay Fuller wins election to replace Marjorie Taylor Greene",
           "source": "BBC News: US & Canada",
           "pubDate": "Wed, 08 Apr 2026 02:33:45 GMT",
           "link": "https://www.bbc.com/news/articles/c8r40erdj6mo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-ekot-5",
+          "id": "trump-usa-ekot-3",
+          "headline": "Expertens råd till Rutte: Håll dig närmare verkligheten",
+          "source": "Ekot",
+          "pubDate": "Thu, 09 Apr 2026 08:08:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9192199"
+        },
+        {
+          "id": "trump-usa-ekot-10",
           "headline": "Rutte: ”Förstår Trumps missnöje med Nato”",
           "source": "Ekot",
           "pubDate": "Thu, 09 Apr 2026 03:42:00 GMT",
           "link": "https://www.sverigesradio.se/artikel/9192141"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-7",
+          "id": "trump-usa-the-guardian-donald-trump-12",
           "headline": "Nato chief says Trump ‘clearly disappointed’ by US allies’ refusal to join Iran war",
           "source": "Lauren Gambino and agency",
           "pubDate": "Thu, 09 Apr 2026 00:53:30 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/08/nato-mark-rutte-trump-iran-war"
-        },
-        {
-          "id": "trump-usa-bbc-news-us-canada-14",
-          "headline": "Americans react to Trump's 'a whole civilisation will die tonight' warning",
-          "source": "BBC News: US & Canada",
-          "pubDate": "Tue, 07 Apr 2026 20:24:41 GMT",
-          "link": "https://www.bbc.com/news/videos/c0krp3mpxg5o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Ukraina rapporterar enligt en underrättelseanalys att ryska satelliter gjorde detaljerade bilder av militära anläggningar och kritiska platser i Mellanöstern — minst 24 undersökningar av områden i 11 mellanösternländer mellan 21-31 mars täckte 46 \"objekt\" inklusive amerikanska och andra militärbaser, flygplatser och oljefält. Inom dagar efter att dessa platser kartlades attackerade Iran dem med ballistiska missiler och drönare, och ryska satelliter passerade över igen för att bedöma skadorna — en västerländsk militärkälla och en regional säkerhetskälla bekräftade detta, inklusive en specifik incident där en rysk satellit fotograferade Prince Sultan-basen i Saudiarabien dagar innan Iran träffade anläggningen den 27 mars. Ukraina rapporterar också att ryska och iranska hackare samarbetar i cyberdomänen. Zelenskyj förnyade sitt erbjudande om en ömsesidig vapenvila på attacker mot energiinfrastruktur och sa att han redan hade föreslagit detta för påsken, men att Ryssland verkar ovilligt — \"för dem är ingenting heligt\", sa han efter en attack på Odesa som dödade tre människor och skadade minst 16.",
+      "summary": "Ukrainsk underrättelsetjänst rapporterar att ryska satelliter gjorde detaljerade kartläggningar av amerikanska militärbaser och andra mål i Mellanöstern under slutet av mars, och att Iran attackerade dessa platser inom dagar efter att de kartlades. Ryska och iranska hackare samarbetade också i cyberdomänen enligt ukrainsk bedömning. Ukraina fortsätter att attackera rysk oljeinfrastruktur, inklusive terminalerna Ust-Luga och Sheskharis, och har slagit mot Lukoil-raffinaderiet i Kstovo långt inne i Ryssland. Zelenskyj erbjöd återigen Ryssland ett vapenstillestånd för påsken för att sluta attackera energiinfrastruktur, men säger att Ryssland inte accepterar eftersom ingenting är heligt för dem. Ryssland fortsätter att attackera ukrainska städer: drönattacker på marknader i Nikopol dödade fem människor, och attacker på Odesa dödade tre. Kamerun bekräftade att 16 kamerunska medborgare dödats när de kämpade för Ryssland i Ukraina, medan ukrainsk underrättelsetjänst uppskattar att över 1 700 individer från 36 afrikanska länder rekryterats för att strida för Ryssland.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Iran och USA enades om en villkorad tvåveckors vapenvila efter att Trump hotade med massiv bombning och uttalade att \"en hel civilisation kommer att dö i natt\" om Iran inte öppnade Hormuzstränden — Pakistan som medlare tillkännagav att vapenvilan trädde i kraft omedelbar och att Iran skulle tillåta fartyg genom stränden under två veckor med passage koordinerad av den iranska militären. Trump sa att han gick med på vapenvilan eftersom USA redan hade \"nått och överträffat alla militära mål\", och försvarets sekreterare Pete Hegseth sa att militären skulle \"stanna på plats, vara redo och vaksam\" och kunna \"starta om på ett ögonblick\". Dock uppstod omedelbar oenighet om Libanons status — Pakistan sa uttryckligen att Libanon ingick i vapenvilan, men USA:s vicepresident JD Vance sa att Iran skulle vara \"dum\" att låta förhandlingarna kollapsa över Libanon som \"ingenting har att göra med dem\" och som USA aldrig sa var del av avtalet, medan Irans utrikesminister Abbas Araghchi hävdade att villkoren var \"klara och explicita\" och att USA måste välja mellan vapenvila eller fortsatt krig via Israel.",
+      "summary": "Iran och USA enades om ett två veckor långt villkorligt vapenstillestånd efter att Trump hotade att utplåna en hel civilisation och att en \"hel civilisation kommer att dö i natt, aldrig att återbringas igen\". Vapenvilan tillät Trump att undvika ett omöjligt val mellan att eskalera eller backa ned. Iran accepterade att öppna Hormuzstranden för kommersiell sjöfart under två veckor, men Trump säger redan att amerikanska styrkor kommer att stanna kvar och hotar att återuppta bombningen om Iran inte följer hans villkor. Trump säger också att länder som levererar militär utrustning till Iran kommer att få 50 procents tullar på all export till USA. Israel ignorerade vapenvilan helt och genomförde den största bombvågen mot Libanon på en dag, dödar minst 254 människor och skadar över 1 165. Netanyahu säger att Libanon aldrig var del av avtalet, en position som backas upp av USA:s vicepresident JD Vance. Iran kräver att Libanon inkluderas i vapenvilan och säger att Washington måste välja mellan vapenvila eller fortsatt krig via Israel. Iranska medier publicerade kartor som tyder på att Irans militära har lagt sjöminer i Hormuzstranden.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,18 +175,25 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-9",
-          "headline": "JD Vance says Iran would be ‘dumb’ to let talks collapse over Lebanon",
+          "id": "iran-al-jazeera-rss-3",
+          "headline": "Several people reported killed in fresh Israeli attacks on Lebanon",
           "source": "Al Jazeera RSS",
-          "pubDate": "Wed, 08 Apr 2026 21:50:36 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/8/jd-vance-says-iran-would-be-dumb-to-let-talks-collapse-over-lebanon?traffic_source=rss"
+          "pubDate": "Thu, 09 Apr 2026 09:29:04 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/9/fresh-israeli-attacks-on-lebanon-threaten-us-iran-ceasefire?traffic_source=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-11",
-          "headline": "Trump administration signals it is mulling NATO withdrawal after Iran war",
+          "id": "iran-al-jazeera-rss-12",
+          "headline": "Trump says US forces to stay near Iran, ready for ‘next conquest’",
           "source": "Al Jazeera RSS",
-          "pubDate": "Wed, 08 Apr 2026 21:47:23 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/8/trump-administration-says-it-is-mulling-nato-withdrawal-after-iran-war?traffic_source=rss"
+          "pubDate": "Thu, 09 Apr 2026 07:38:16 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/9/trump-says-us-forces-to-stay-near-iran-ready-for-next-conquest?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-16",
+          "headline": "Iran war day 41: What’s happening in Lebanon, Middle East and beyond?",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Thu, 09 Apr 2026 06:32:44 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/9/iran-war-day-41-whats-happening-in-lebanon-middle-east-and-beyond?traffic_source=rss"
         },
         {
           "id": "iran-bbc-news-middle-east-1",
@@ -201,13 +208,6 @@
           "source": "BBC News: Middle East",
           "pubDate": "Wed, 08 Apr 2026 20:25:49 GMT",
           "link": "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-5",
-          "headline": "Why ceasefire deal with US has unsettled Iran's hardliners",
-          "source": "BBC News: Middle East",
-          "pubDate": "Wed, 08 Apr 2026 17:16:37 GMT",
-          "link": "https://www.bbc.com/news/articles/c5ywpe2yyg3o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Ungerns val på söndag 12 april kan sluta Viktor Orbáns 16-åriga styre när oppositionsledaren Péter Magyar ligger långt före i opinionsmätningarna — Magyar är en före detta Fidesz-veteran som var gift med Orbáns tidigare.",
+      "summary": "Ungerns premiärminister Viktor Orbán står inför sitt största valkval på 16 år den 12 april, där opinionsundersökningar tyder på att han förlorar mot oppositionsledaren Péter Magyar. Orbán har avslöjat att han erbjuder sig att vara Putins hjälpare och kan stå värd för ett toppmöte i Budapest för att lösa Ukraina-konflikten. I ett telefonsamtal från oktober sa Orbán till Putin att han kan hjälpa på vilket sätt som helst och jämförde sig själv med en mus som befriar ett lejon från ett nät. Orbáns utrikesminister Péter Szijjártó har erkänt att han talat med ryska tjänstemän om sanktioner när EU övervägde nya åtgärder mot Moskva, vilket Frankrikes utrikesminister Jean-Noël Barrot kallade en \"förräder\" av EU:s solidaritet. Szijjártó har avfärdat avslöjandena som utländsk inblandning dagar före valet. Om Magyar vinner lövar han att snabbt låsa upp 17 miljarder euro i fryst EU-stöd genom att slutföra reformer före den 31 augusti, men EU:s kommission säger att det inte kommer att släppa pengar förrän Ungern levererar på reformerna oavsett valet. Magyar måste också övervinna Orbáns konstitutionella reformer som har stärkt hans politiska kontroll över domstolarna.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,7 +238,14 @@
       ],
       "items": [
         {
-          "id": "orban-eu-politico-europe-6",
+          "id": "orban-eu-politico-europe-1",
+          "headline": "Hungary betrayed EU by revealing sanctions talk to Russia, says French top diplomat",
+          "source": "Victor Goury-Laffont",
+          "pubDate": "Thu, 09 Apr 2026 10:08:18 +0000",
+          "link": "https://www.politico.eu/article/top-french-diplomat-jean-noel-barrot-says-hungarys-talks-with-russia-are-akin-to-treason/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        },
+        {
+          "id": "orban-eu-politico-europe-10",
           "headline": "Orbán’s rival faces uphill battle to unfreeze €17B in EU funds",
           "source": "Gregorio Sorgi, Max Griera",
           "pubDate": "Thu, 09 Apr 2026 02:00:00 +0000",
@@ -246,20 +253,13 @@
         },
         {
           "id": "orban-eu-politico-europe-7",
-          "headline": "What Péter Magyar learned from the last guy to lose to Viktor Orbán",
-          "source": "Max Griera",
-          "pubDate": "Thu, 09 Apr 2026 02:00:00 +0000",
-          "link": "https://www.politico.eu/article/what-hungary-peter-magyar-learned-from-last-guy-lose-viktor-orban/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
-        },
-        {
-          "id": "orban-eu-politico-europe-2",
           "headline": "Hungary’s election enters crucial final days",
           "source": "Zoya Sheftalovich, Sarah Wheaton, Dionisios Sturis, Saga Ringmar",
           "pubDate": "Thu, 09 Apr 2026 04:10:00 +0000",
           "link": "https://www.politico.eu/podcast/brussels-playbook-podcast/hungarys-election-enters-crucial-final-days/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
         },
         {
-          "id": "orban-eu-svt-nyheter-utrikes-12",
+          "id": "orban-eu-svt-nyheter-utrikes-13",
           "headline": "Orbán till Putin: Kan vara ”musen” som hjälper ryska ”lejonet”",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Wed, 08 Apr 2026 01:21:59 +0200",
