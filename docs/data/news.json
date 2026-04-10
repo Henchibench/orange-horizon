@@ -5,7 +5,7 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-09T15:53:51.453Z",
+  "generatedAt": "2026-04-10T05:13:59.177Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
@@ -13,12 +13,12 @@
   },
   "brief": {
     "title": "Världen håller andan medan makten slösar",
-    "intro": "En två veckor lång vapenvila mellan USA och Iran håller på att spricka innan förhandlingarna ens börjat, medan Trump-administrationen skickar blandade signaler om vad som egentligen avtalades.",
+    "intro": "Trumps administration flirtar med kärnkrig medan Orbán kämpar för sitt politiska liv, och överallt där det spelar roll försöker gamla makter hålla fast vid kontrollen genom att bryta regler och skapa kaos.",
     "bullets": [
-      "Trump accepterar Irans vapenvila men splittrar sin egen rörelse – vissa hyllar honom för att ha outsmartat kritikerna, andra kallar det kapitulation. Demokraterna försöker begränsa hans krigsföreträde över Iran, men republikanerna blockerar varje försök.",
-      "Ukraina tvingas se hur världens uppmärksamhet vänds bort från sitt krig när USA fokuserar på Mellanöstern. Zelenskyj erbjuder återigen vapenvila för påsken, men Ryssland ignorerar förslaget.",
-      "Irans tiopoängsprogram för fred tolkas helt olika av Washington och Teheran, och redan två dagar efter vapenvilan lanserar Iran ett eget protokoll för Hormuzstränden som innebär att fartyg måste förhandla passage.",
-      "Orbán står inför sitt största politiskt hot på nästan två decennier när Ungern går till val den 12 april, men får stöd från JD Vance som besöker Budapest för att kampanja för honom."
+      "Melania Trump överraskade alla med ett oprovocerat uttalande om Epstein, medan republikanerna blockerade demokraternas försök att begränsa Trumps krigsföretagande mot Iran. Vita huset varnade personalen för att inte använda hemlig information för att satsa på prediktionsmarknader.",
+      "Ukraina och Ryssland enades om en 32-timmars vapenvila för påsken efter Zelenskyjs upprepade erbjudanden, men Kreml försökte framställa det som sitt eget initiativ. Ukrainska drönare fortsatte att attackera Rysslands oljeinfrastruktur medan ryska satelliter hjälpte Iran att kartlägga mål innan attackerna.",
+      "Iran och USA enades om en tvåveckors vapenvila, men Israel genomförde omedelbar en massiv bombkampanj mot Libanon med över 300 döda, vilket Iran kallade en grov överträdelse. Trump anklagade Iran för att hantera Hormuzstränden dåligt och Netanyahu vägrade att erkänna att Libanon täcktes av avtalet.",
+      "Viktor Orbán står inför sitt största politiska test på 16 år när ungrar röstar på söndag, med utmanaren Péter Magyar långt före i opinionsmätningarna."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trumps acceptans av en två veckor lång vapenvila med Iran har splittrat hans egen rörelse mellan anhängare som hyllar honom för att ha outsmartat kritikerna och andra som kallar det en kapitulation. Demokraterna i representanthuset försöker begränsa hans krigsföreträde över Iran genom en resolution, men republikanerna blockerar varje försök med hjälp av enhällighetsproceduren. Samtidigt har skådespelaren George Clooney kritiserat presidenten för att ha begått krigsbrott med sitt uttalande om att \"en hel civilisation kommer att dö i natt\", vilket väckte ett skarpt motangrepp från Vita huset. I Georgia vann Trump-stödd Clay Fuller valet för att ersätta Marjorie Taylor Greene, som tidigare bröt med presidenten. Fullers seger säkrar republikanernas knappa majoritet i representanthuset. Trump presenterar vapenvilan som en amerikansk seger och säger att Iran har gett upp, medan han signalerar att USA nu ska hjälpa till med trafikstockningarna i Hormuzsundet och att Iran kan påbörja återuppbyggnaden av landet.",
+      "summary": "Melania Trump överraskade alla genom att framträda utan förvarning och förneka alla kopplingar till Jeffrey Epstein, vilket väckte förvirring om varför hon valde att tala om ett ämne som hennes man upprepade gånger sagt att allmänheten bör gå vidare från. Även välinformerade korrespondenter från högervridna medier kunde inte förklara hennes motiv. Samtidigt blockerade republikanerna i representanthuset ett försök från demokraterna att begränsa Trumps krigsföretagande mot Iran genom att vägra att erkänna oppositionsledamöterna på golvet. Vita huset varnade personalen den 24 mars, dagen efter att Trump tillkännagav en femdag paus på sitt hot om att attackera Irans kraftverk och energiinfrastruktur, för att inte använda hemlig information för att satsa på prediktionsmarknader som Kalshi och Polymarket. Vita huset hävdade att anklagelserna var grundlösa, men incidenten väckte farhågor efter att en spelare tjänat nästan en halv miljon dollar på att förutsäga Nicolás Maduros gripande i Venezuela innan det officiellt tillkännagavs.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -49,39 +49,39 @@
       ],
       "items": [
         {
-          "id": "trump-usa-the-guardian-donald-trump-8",
-          "headline": "House Democrats push to pass measure curbing Trump’s war powers over Iran",
+          "id": "trump-usa-the-guardian-donald-trump-7",
+          "headline": "Melania Trump’s surprise Epstein statement prompts bafflement",
+          "source": "Robert Mackey",
+          "pubDate": "Fri, 10 Apr 2026 01:50:24 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/apr/09/melania-trump-epstein-speech-puzzle"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-13",
+          "headline": "Republicans block Democrats’ push to curb Trump’s war powers over Iran",
           "source": "Joseph Gedeon in Washington",
-          "pubDate": "Thu, 09 Apr 2026 14:12:45 GMT",
+          "pubDate": "Thu, 09 Apr 2026 16:33:36 GMT",
           "link": "https://www.theguardian.com/us-news/2026/apr/09/house-democrats-trump-war-powers-resolution-iran"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-13",
-          "headline": "Trump-backed Republican Clay Fuller wins election to replace Marjorie Taylor Greene",
+          "id": "trump-usa-bbc-news-us-canada-4",
+          "headline": "White House staff told not to place bets on prediction markets",
           "source": "BBC News: US & Canada",
-          "pubDate": "Wed, 08 Apr 2026 02:33:45 GMT",
-          "link": "https://www.bbc.com/news/articles/c8r40erdj6mo?at_medium=RSS&at_campaign=rss"
+          "pubDate": "Fri, 10 Apr 2026 02:32:27 GMT",
+          "link": "https://www.bbc.com/news/articles/cgld65x396go?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-1",
-          "headline": "Success or surrender? Iran ceasefire exposes rift in Trump’s Maga movement",
-          "source": "David Smith in Washington",
-          "pubDate": "Wed, 08 Apr 2026 20:30:13 GMT",
-          "link": "https://www.theguardian.com/us-news/2026/apr/08/trump-iran-ceasefire-maga"
+          "id": "trump-usa-bbc-news-us-canada-1",
+          "headline": "Melania Trump denies ties to Jeffrey Epstein and urges hearing for survivors",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Thu, 09 Apr 2026 22:27:36 GMT",
+          "link": "https://www.bbc.com/news/articles/c3ex07l1qvpo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-the-guardian-donald-trump-14",
-          "headline": "George Clooney calls Donald Trump’s ‘a whole civilization will die tonight’ threat to Iran a war crime",
-          "source": "Sian Cain",
-          "pubDate": "Thu, 09 Apr 2026 04:12:43 GMT",
-          "link": "https://www.theguardian.com/film/2026/apr/09/george-clooney-trump-civilisation-will-die-tonight-war-crime-comments"
-        },
-        {
-          "id": "trump-usa-svt-nyheter-utrikes-13",
-          "headline": "Vem är den egentliga vinnaren?",
-          "source": "SVT Nyheter: Utrikes",
-          "pubDate": "Wed, 08 Apr 2026 08:51:03 +0200",
-          "link": "https://www.svt.se/nyheter/utrikes/vem-ar-den-egentliga-vinnaren"
+          "id": "trump-usa-bbc-news-us-canada-2",
+          "headline": "Melania Trump: 'I never had a relationship with Epstein'",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Thu, 09 Apr 2026 19:00:43 GMT",
+          "link": "https://www.bbc.com/news/videos/c0e7dz0zwd0o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Ukraina tvingas se hur världens uppmärksamhet vänds bort från sitt eget krig när USA fokuserar på Mellanöstern. Zelenskyj erbjuder återigen en vapenvila för påsken och föreslår att båda sidor slutar attackera energiinfrastruktur, men Ryssland ignorerar förslaget och fortsätter sina attacker på städer som Odesa, Kherson och Zaporizhzhia. Ukrainska drönare intensifierar sina attacker på rysk oljeinfrastruktur, inklusive terminalerna i Novorossijsk och Primorsk, vilket skadar Rysslands exportkapacitet. En ukrainsk underrättelserapport avslöjar att ryska satelliter har kartlagt militära mål i Mellanöstern för Iran – minst 24 undersökningar av områden i 11 länder mellan 21-31 mars – och att dessa mål attackerades av Iran inom dagar. Rapporten antyder också att ryska och iranska hackare samarbetar i cyberdomänen. Förhandlingarna mellan Kyiv, Moskva och Washington har stått still sedan februari 2026, och Ryssland lanserar en vårofensiv medan luftattackerna på ukrainska städer fortsätter.",
+      "summary": "Ukraina och Ryssland enades om en 32-timmars vapenvila för påsken efter att Zelenskyj upprepade gånger erbjöd en vapenvila, men Kreml försökte framställa initiativet som sitt eget medan det lämnade öppet för att fortsätta väpnade åtgärder om det uppstod provokationer. Detta var den första officiella teatervid vapenvilan sedan den fullskaliga invasionen 2022, även om tidigare hade det endast funnits inofficiella och dåligt definierade vapenstillestånden. Ukraina fortsatte att attackera Rysslands oljeinfrastruktur, inklusive Sheskharis-terminalen i Novorossijsk och Ust-Luga-oljeterminal, vilket orsakade omfattande skador på lagertankar och minskade Rysslands oljeexportkapacitet. Ukrainska militärbloggare noterade att reparationerna skulle vara kostsamma och tidskrävande på grund av sanktioner och luftförsvarsfel. Samtidigt avslöjade ukrainsk underrättelse att ryska satelliter hade gjort detaljerade bilder av militära anläggningar och kritiska platser i Mellanöstern mellan 21-31 mars, inklusive över 100 mål i 11 länder, och att iraniska missiler och drönare attackerade dessa platser inom dagar efter att de kartlagts.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -112,39 +112,39 @@
       ],
       "items": [
         {
-          "id": "putin-ukraina-the-guardian-ukraine-6",
+          "id": "putin-ukraina-bbc-news-europe-3",
+          "headline": "Cameroon 'military contractors' killed in Russia-Ukraine war",
+          "source": "BBC News: Europe",
+          "pubDate": "Wed, 08 Apr 2026 13:07:57 GMT",
+          "link": "https://www.bbc.com/news/articles/cvg0v5gy01go?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-2",
+          "headline": "Ukraine war briefing: First official ceasefire agreed after Zelenskyy push succeeds",
+          "source": "Warren Murray with Guardian writers and agencies",
+          "pubDate": "Fri, 10 Apr 2026 00:32:09 GMT",
+          "link": "https://www.theguardian.com/world/2026/apr/10/ukraine-war-briefing-first-official-ceasefire-agreed-after-zelenskyy-push-succeeds"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-9",
           "headline": "Ukraine war briefing: Kyiv lays out how ‘Russian satellites help Iran in war’",
           "source": "Warren Murray and agencies",
           "pubDate": "Wed, 08 Apr 2026 01:22:14 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/08/ukraine-war-briefing-kyiv-how-russian-satellites-help-iran-in-war"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-8",
+          "id": "putin-ukraina-the-guardian-ukraine-11",
           "headline": "Ukraine war briefing: Zelenskyy reiterates truce offer ahead of Orthodox Easter",
           "source": "Warren Murray and agencies",
           "pubDate": "Tue, 07 Apr 2026 00:34:15 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/07/ukraine-russia-war-briefing-zelenskyy-orthodox-easter-truce-offer"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-11",
+          "id": "putin-ukraina-the-guardian-ukraine-14",
           "headline": "Ukraine war briefing: Russian oil facilities burn as Zelenskyy tours Middle East",
           "source": "Warren Murray and agencies",
           "pubDate": "Mon, 06 Apr 2026 02:05:31 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/06/ukraine-war-briefing-russian-oil-facilities-burn-as-zelenskyy-tours-middle-east"
-        },
-        {
-          "id": "putin-ukraina-the-guardian-ukraine-1",
-          "headline": "Ukraine ceasefire back in focus as US security guarantees fade and casualties mount",
-          "source": "Pjotr Sauer in Kyiv",
-          "pubDate": "Thu, 09 Apr 2026 10:55:45 GMT",
-          "link": "https://www.theguardian.com/world/2026/apr/09/ukraine-ceasefire-us-security-guarantees-fade-casualties-russia"
-        },
-        {
-          "id": "putin-ukraina-bbc-news-europe-3",
-          "headline": "Cameroon 'military contractors' killed in Russia-Ukraine war",
-          "source": "BBC News: Europe",
-          "pubDate": "Wed, 08 Apr 2026 13:07:57 GMT",
-          "link": "https://www.bbc.com/news/articles/cvg0v5gy01go?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Vapenvilan mellan USA och Iran är redan under press från motsägelsefulla tolkningar av vad som faktiskt avtalades. Irans tiopoängsprogram för fred tolkas helt olika av Washington och Teheran – vice president JD Vance avfärdar den publicerade versionen som \"en slumpmässig yahoo i Iran som skickar det till public access television\", medan den persiska versionen skiljer sig markant från den engelska versionen när det gäller Irans rätt att berika uran. Iran har lanserat ett eget protokoll för Hormuzstränden som innebär att fartyg måste förhandla passage eller betala tull, något som redan möter motstånd från Washington och andra länder. Förhandlingarna i Islamabad denna helg är redan under press när Israel genomför sitt största anfall på Libanon sedan vapenvilan tillkännagavs – en tio minuters bombning som dödar minst 203 människor och sårar över 1 000 enligt Libanons hälsoministerium. Iran kallar detta en grav överträdelse av vapenvilan och säger att USA måste välja mellan \"krig och vapenvila\".",
+      "summary": "USA och Iran enades om en tvåveckors vapenvila efter att Trump tillkännagav avtalet med bara minuter innan hans självpålagda deadline, men många frågor återstod olösta angående förhandlingsgrunderna. Trump presenterade en tiopoänts iransk proposal som en \"arbetbar grund för förhandlingar\" medan Irans utrikesminister Abbas Araghchi nämnde en femtonpoänts amerikansk proposal, men ingen av förslagen hade formellt avslöjats och läckta versioner verkade vara världsomfattande isär. Pakistans medlare skulle vara värd för amerikanska och iranska förhandlare i Islamabad möjligen redan på fredagen. Frågor återstod om ödet för cirka 440 kilogram högt berikad uran som fortfarande fanns i Irans besittning. Israel genomförde omedelbar en massiv bombkampanj mot Libanon på onsdagen med över 100 attacker på vad Israel kallade Hezbollahs kommandocentra och militära platser på bara tio minuter, vilket dödade minst 182 människor och skadade 890 enligt Libanons hälsoministerium, även om siffran sannolikt skulle stiga. Attackerna träffade södra förorterna i Beirut, södra Libanon och Bekaa-dalen i öst.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,39 +175,39 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-3",
-          "headline": "Has Iran’s 10-point plan changed, as JD Vance claims?",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Thu, 09 Apr 2026 14:47:13 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/9/has-irans-10-point-plan-changed-as-jd-vance-claims?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-7",
-          "headline": "What is Iran’s Strait of Hormuz protocol and will other nations accept it?",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Thu, 09 Apr 2026 13:23:15 +0000",
-          "link": "https://www.aljazeera.com/economy/2026/4/9/what-is-irans-strait-of-hormuz-protocol-and-will-other-nations-accept-it?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-9",
-          "headline": "US-Iran talks in Pakistan: Who’s attending, what’s on the agenda?",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Thu, 09 Apr 2026 13:18:37 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/9/us-iran-talks-in-pakistan-whos-attending-whats-on-the-agenda?traffic_source=rss"
-        },
-        {
           "id": "iran-bbc-news-middle-east-1",
-          "headline": "Lebanon thought there was a ceasefire",
+          "headline": "Trump says Iran's handling of Strait of Hormuz is 'not the agreement we have'",
           "source": "BBC News: Middle East",
-          "pubDate": "Thu, 09 Apr 2026 12:12:06 GMT",
-          "link": "https://www.bbc.com/news/articles/cgk0edynpmzo?at_medium=RSS&at_campaign=rss"
+          "pubDate": "Fri, 10 Apr 2026 02:10:44 GMT",
+          "link": "https://www.bbc.com/news/articles/cge0xre3d27o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-3",
+          "id": "iran-bbc-news-middle-east-6",
           "headline": "Israeli strikes in Lebanon 'grave violation' of ceasefire, Iran minister tells BBC",
           "source": "BBC News: Middle East",
-          "pubDate": "Thu, 09 Apr 2026 11:46:19 GMT",
+          "pubDate": "Thu, 09 Apr 2026 17:11:59 GMT",
           "link": "https://www.bbc.com/news/articles/cp849k4j0y1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-11",
+          "headline": "At least 182 killed across Lebanon in large wave of Israeli strikes",
+          "source": "BBC News: Middle East",
+          "pubDate": "Wed, 08 Apr 2026 20:54:59 GMT",
+          "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-9",
+          "headline": "Negotiators face huge task to close gaps in rival Iran peace proposals",
+          "source": "BBC News: Middle East",
+          "pubDate": "Wed, 08 Apr 2026 20:26:48 GMT",
+          "link": "https://www.bbc.com/news/articles/cvgkv9y97n0o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-14",
+          "headline": "French couple leave Iran after more than three years in jail",
+          "source": "BBC News: Middle East",
+          "pubDate": "Tue, 07 Apr 2026 19:18:08 GMT",
+          "link": "https://www.bbc.com/news/articles/clyxk5640wko?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Viktor Orbán står inför sitt största politiska hot på nästan två decennier när Ungern går till val den 12 april, där oppositionsledaren Péter Magyar och hans Tisza-parti leder i de flesta opinionsmätningar. En telefonsamtal mellan Orbán och Putin från oktober, som nu rapporteras för första gången, visar hur långt den ungerske premiärministern är beredd att gå för att hjälpa Ryssland – han erbjuder omfattande stöd och säger att han kan vara \"musen som hjälper det ryska lejonet\". Orbán har transformerat Ungern till vad Europaparlamentet kallar ett \"hybridregim av valdemokrati\" sedan 2010, och han är Putins starkaste partner inom EU. US vice president JD Vance besöker Budapest för att kampanja för Orbán och attackerar EU för att försöka påverka valet, medan han säger att han är där för att \"hjälpa honom i denna valcykel\". Explosiv hittas nära en rysk gaspipeline i en serbisk gränsområde veckan före valet, vilket väcker misstankar om en möjlig falskt flaggoperation – något som oppositionsledaren Magyar kallar \"panikmonstring\" orkestrerad av \"ryska rådgivare\".",
+      "summary": "Viktor Orbán, som har styrt Ungern i 16 år, står inför sitt största politiska test när ungrar röstar på söndag den 12 april, med utmanaren Péter Magyar och hans centerright Tisza-parti långt före i opinionsmätningarna enligt Politicos opinionsundersökningssammanfattning. Orbáns valprocess är komplex med väljare som röstar både på en kandidat i sin valkrets och på en partilista på nationell nivå, med valkretsar som har omritades för att gynna det styrande partiet och röster från utlandet. Sedan 2010 har Orbán omvandlat Ungern till vad Europaparlamentet har fördömt som ett \"hybridregim av valdemokrati\", även om Orbán själv har försökt beskriva det som antingen \"illiberal demokrati\" eller \"kristen frihet\". Orbán har upprepade gånger krockat med EU-kollegor om kriget i Ukraina, blockerat vital finansiering för Kyiv och är Putins närmaste allierade i EU.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,18 +238,25 @@
       ],
       "items": [
         {
-          "id": "orban-eu-svt-nyheter-utrikes-16",
-          "headline": "Orbán till Putin: Kan vara ”musen” som hjälper ryska ”lejonet”",
-          "source": "SVT Nyheter: Utrikes",
-          "pubDate": "Wed, 08 Apr 2026 01:21:59 +0200",
-          "link": "https://www.svt.se/nyheter/utrikes/orban-till-putin-kan-vara-musen-som-hjalper-ryska-lejonet"
+          "id": "orban-eu-politico-europe-6",
+          "headline": "How to watch the Hungarian election like a pro",
+          "source": "Hanne Cokelaere, Júlia Vadler",
+          "pubDate": "Fri, 10 Apr 2026 02:00:00 +0000",
+          "link": "https://www.politico.eu/article/how-watch-hungary-election-like-pro/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
         },
         {
-          "id": "orban-eu-ekot-4",
-          "headline": "”En seger för Orbán skulle sannolikt förlänga konflikten med EU”",
-          "source": "Ekot",
-          "pubDate": "Thu, 09 Apr 2026 13:59:00 GMT",
-          "link": "https://www.sverigesradio.se/artikel/9192639"
+          "id": "orban-eu-politico-europe-5",
+          "headline": "Inside the campaign to unseat Orbán",
+          "source": "Sarah Wheaton, Dionisios Sturis, Saga Ringmar, Nicholas Vinocur",
+          "pubDate": "Fri, 10 Apr 2026 02:00:00 +0000",
+          "link": "https://www.politico.eu/podcast/brussels-playbook-podcast/inside-the-campaign-to-unseat-orban/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        },
+        {
+          "id": "orban-eu-politico-europe-8",
+          "headline": "Wild animals and wilder friends: Viktor Orbán’s Brussels legacy",
+          "source": "Paul Dallison",
+          "pubDate": "Fri, 10 Apr 2026 02:00:00 +0000",
+          "link": "https://www.politico.eu/article/wild-animals-wilder-friends-hungary-viktor-orban-eu-brussels-legacy/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
         },
         {
           "id": "orban-eu-bbc-news-europe-7",
@@ -264,13 +271,6 @@
           "source": "BBC News: Europe",
           "pubDate": "Tue, 07 Apr 2026 18:11:38 GMT",
           "link": "https://www.bbc.com/news/articles/cyv16lq2rp1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "orban-eu-bbc-news-europe-16",
-          "headline": "Hungary alleges plot to blow up gas pipeline ahead of election",
-          "source": "BBC News: Europe",
-          "pubDate": "Sun, 05 Apr 2026 19:17:42 GMT",
-          "link": "https://www.bbc.com/news/articles/cj60x206dx1o?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
