@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-10T15:36:47.175Z",
+  "generatedAt": "2026-04-11T04:59:33.582Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Världen brinner medan makthavare leker schack",
-    "intro": "Iran-kriget driver upp inflationen i USA medan Hormuzstränden ligger nästan stilla.",
+    "title": "Världen håller andan medan makten spelar schack",
+    "intro": "Medan Trump skickar sin vicepresident för att rädda sitt eget krig i Iran och Orbán kämpar för sitt politiska liv i Ungern, fortsätter Ryssland och Ukraina att döda varandra mellan påskuppehållen.",
     "bullets": [
-      "Trump hotar att fängsla journalister som inte avslöjar källor, samtidigt som han ska duka upp med pressen vid motsvarandernas middag senare i månaden – en absurd dans mellan hot och diplomati när kriget i Iran redan kostat honom trovärdighet.",
-      "Ryssland och Ukraina enades om en 32-timmars påskväpenvila på lördag, men det är första gången på fyra år de accepterar en officiell vapenvila. Ukraina har attackerat ryska oljeinfrastruktur hårt, och Zelenskyj säger att kriget kommer fortsätta under 2026 oavsett.",
-      "Iran-kriget driver upp amerikansk inflation till nästan 1 procent på en månad – bensinpriserna steg 21 procent i mars – medan Hormuzstränden ligger nästan stilla trots det påstådda vapenstilleståndet mellan USA och Iran.",
-      "Viktor Orbán står inför sitt största politiska test på 16 år när Ungern går till val på söndag, men han hävdar att han vinner trots att opinionsmätningar visar motsatsen – och han kan ha en plan B för att behålla makten även vid förlust."
+      "Trump har gjort JD Vance till syndabock för Iran-förhandlingarna genom att skämta om att han tar all ära om det lyckas men skuldbelägger vicepresident om det misslyckas. Samtidigt hotar Trump att öppna Hormuzsundet med eller utan Irans hjälp och vägrar att acceptera Irans avgiftsystem för passage genom sundet.",
+      "Ryssland och Ukraina har enats om en 32-timmars vapenvila över den ortodoxa påsken, men enligt militär expert Johan Huovinen från Försvarshögskolan kommer kriget att fortsätta under 2026. Ukraina har samtidigt avslöjat att ryska satelliter kartlade iranska mål innan Iran attackerade amerikanska baser.",
+      "Israel genomförde den största bombvågen mot Libanon sedan kriget började och dödade minst 182 människor, bara timmar efter att USA och Iran tillkännagav en vapenvila. Iran säger att detta är en grov överträdelse av avtalet, medan USA och Israel hävdar att Libanon inte omfattas av överenskommelsen.",
+      "Viktor Orbán står inför sitt största politiskt hot på 16 år när Ungern går till val på söndag, med utmanaren Péter Magyar ledande i opinionsmätningarna. Men Orbán har enligt Ungernkännare Anders Blomqvist troligen en plan B: att ändra konstitutionen och bli president om Fidesz förlorar valet."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trumps administration fortsätter att skapa kaos på hemmaplan och internationellt. Försvarssekreterare John Healey försöker lugna Trump genom att säga att Storbritanniens handlingar i Persiska golfen bör väga tyngre än Trumps sociala medier-utspel, efter att Keir Starmer besökt regionen för att diskutera hur man håller Hormuzstränden öppen. Melania Trump överraskade genom att offentligt förneka kopplingar till Jeffrey Epstein och kalla rykten om hennes relation till honom för \"elaka försök att skada mitt rykte\", samtidigt som hon uppmanade till kongresshörningar för Epsteins offer – ett uttalande som kom utan förvarning och vars innehål presidenten påstod sig inte veta om i förväg. Jimmy Kimmel uttryckte frustration över Trumps förvirrande uttalanden om Iran-kriget och Hormuzstränden, där ingen verkar veta om den är öppen eller stängd. Trump hotar att fängsla journalister som vägrar avslöja källor, särskilt efter att en journalist rapporterade om en andra amerikansk pilot som skjutits ned av Iran – ett hot som gör det absurt att Trump nu ska delta i White House Correspondents' Association-middagen senare i månaden, ett årligt evenemang för att hedra pressfrihet.",
+      "summary": "Trump-administrationen navigerar mellan flera krisande fronter med karakteristisk kaos. JD Vance leder fredförhandlingar med Iran i Pakistan under omöjliga förhållanden – Trump skämtar offentligt om att han tar all ära för framgång men skuldbelägger vicepresident för misslyckande. Trump säger att Hormuzsundet kommer öppnas \"snart\" med eller utan Irans hjälp och vägrar att acceptera Irans påstådda avgiftsystem för passage. Samtidigt flyttar Trump-administrationen huvudkontoret för US Forest Service från Washington till Salt Lake City i Utah som del av en omstrukturering som kritiker säger hotar att öppna offentlig mark för privat exploatering. Trump använder också ett brutalt mord begått av en haitisk migrant för att argumentera för strängare immigrationspolitik och för att få domstolar att upphäva skyddsstatus för över 350 000 haitiska migranter. Melania Trump dementerar under en överraskande tillkännagivande vid Vita huset alla kopplingar till Jeffrey Epstein och kallar påståendena om att Epstein introducerade henne för Donald Trump för \"elaka försök att skada hennes rykte\", samtidigt som hon kräver kongresshörningar för Epsteins sexhandelsöffer.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -49,39 +49,39 @@
       ],
       "items": [
         {
-          "id": "trump-usa-the-guardian-donald-trump-8",
+          "id": "trump-usa-bbc-news-us-canada-1",
+          "headline": "Trump has handed JD Vance his most difficult mission yet",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Sat, 11 Apr 2026 00:54:23 GMT",
+          "link": "https://www.bbc.com/news/articles/c1d9z1q2997o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-15",
           "headline": "US should judge UK on its actions in Gulf, not on Trump’s social posts, says defence secretary",
           "source": "Peter Walker Senior political correspondent",
           "pubDate": "Fri, 10 Apr 2026 12:50:10 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/10/us-judge-uk-actions-social-media-defence-secretary-john-healey-iran"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-2",
-          "headline": "Melania Trump denies ties to Jeffrey Epstein and urges hearing for survivors",
+          "id": "trump-usa-bbc-news-us-canada-7",
+          "headline": "What is Trump doing with the US Forest Service?",
           "source": "BBC News: US & Canada",
-          "pubDate": "Fri, 10 Apr 2026 08:37:05 GMT",
-          "link": "https://www.bbc.com/news/articles/c3ex07l1qvpo?at_medium=RSS&at_campaign=rss"
+          "pubDate": "Fri, 10 Apr 2026 21:45:14 GMT",
+          "link": "https://www.bbc.com/news/articles/c5ywdy4lvjxo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "trump-usa-bbc-news-us-canada-10",
+          "headline": "Trump posts graphic video of slaying to argue for stricter immigration policies",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Fri, 10 Apr 2026 23:32:41 GMT",
+          "link": "https://www.bbc.com/news/articles/c1eqvpw3j1no?at_medium=RSS&at_campaign=rss"
         },
         {
           "id": "trump-usa-bbc-news-us-canada-15",
-          "headline": "Melania Trump: 'I never had a relationship with Epstein'",
+          "headline": "Why is Melania Trump speaking out about Epstein now?",
           "source": "BBC News: US & Canada",
-          "pubDate": "Thu, 09 Apr 2026 19:00:43 GMT",
-          "link": "https://www.bbc.com/news/videos/c0e7dz0zwd0o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "trump-usa-the-guardian-donald-trump-7",
-          "headline": "Kimmel on Trump: ‘He talks about war like he’s bragging about women with Billy Bush’",
-          "source": "Guardian staff",
-          "pubDate": "Fri, 10 Apr 2026 13:56:30 GMT",
-          "link": "https://www.theguardian.com/culture/2026/apr/10/jimmy-kimmel-trump-iran-war-epstein"
-        },
-        {
-          "id": "trump-usa-the-guardian-donald-trump-11",
-          "headline": "Trump to break bread with journalists at annual dinner amid threats to jail them",
-          "source": "Jeremy Barr in Washington",
-          "pubDate": "Fri, 10 Apr 2026 10:00:16 GMT",
-          "link": "https://www.theguardian.com/us-news/2026/apr/10/trump-white-house-correspondents-dinner"
+          "pubDate": "Fri, 10 Apr 2026 21:09:55 GMT",
+          "link": "https://www.bbc.com/news/videos/c1w4zjl5xx4o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Kriget mellan Ryssland och Ukraina nådde en historisk milstolpe när Putin accepterade Zelenskyjs upprepade erbjudanden om en 32-timmars vapenvila under den ortodoxa påsken på lördag – första gången på fyra år som en officiell, teatervid vapenvila enades om, även om Kremlin försökte framställa det som sitt eget initiativ och lämnade dörren öppen för att fortsätta strider om \"provokationer\" uppstår. Ukraina har intensifierat attackerna på rysk oljeinfrastruktur: drönare träffade Sheskharis-terminalen i Novorossijsk, Ust-Luga-terminalen och andra anläggningar, vilket skadar Rysslands oljeexportkapacitet rejält – något som ryska militärbloggare säger kommer ta lång tid och mycket pengar att reparera. Zelenskyj erbjöd också en separat vapenvila för energiinfrastruktur, men sa att Ryssland verkar ovilligt att acceptera något, och enligt militäranalytiker Johan Huovinen kommer kriget att fortsätta under 2026 trots påskvilan. Ukrainska underrättelser avslöjade att ryska satelliter gjorde detaljerade kartläggningar av 46 militära mål i 11 länder i Mellanöstern mellan 21-31 mars, och inom dagar attackerades dessa av Iran – en operation som tyder på rysk-iransk samordning.",
+      "summary": "Ryssland och Ukraina har enats om en första officiell 32-timmars vapenvila över den ortodoxa påsken efter att Zelenskyj upprepade gånger föreslog detta. Putin försöker framställa initiativet som Rysslands eget medan Zelenskyj är tydlig om att han föreslog det först. Vapenvilan börjar lördag klockan 16 och varar till slutet av söndag, men enligt militär expert Johan Huovinen från Försvarshögskolan kan man förvänta sig att kriget fortsätter under 2026 – vapenvilan kommer respekteras \"rent generellt\" gällande fjärranfall som drönare och robotar, men kan brytas på enskilda platser på fronten. Ukraina har avslöjat att ryska satelliter genomförde minst 24 detaljerade kartläggningar av militära mål i 11 mellanösternländer mellan 21-31 mars, och att dessa mål attackerades av Iran inom dagar efter kartläggningen – inklusive Prince Sultan-basen i Saudiarabien som träffades 27 mars. Ukraina hävdar också att ryska och iranska hackare samarbetar i cyberdomänen. Ukraina fortsätter att attackera rysk infrastruktur: drönare har träffat Ust-Luga-oljeterminal och Sheskharis-terminal i Novorossijsk, vilket skadar Rysslands oljeexport.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -112,39 +112,39 @@
       ],
       "items": [
         {
-          "id": "putin-ukraina-the-guardian-ukraine-2",
+          "id": "putin-ukraina-the-guardian-ukraine-4",
           "headline": "Ukraine war briefing: First official ceasefire agreed after Zelenskyy push succeeds",
           "source": "Warren Murray with Guardian writers and agencies",
           "pubDate": "Fri, 10 Apr 2026 00:32:09 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/10/ukraine-war-briefing-first-official-ceasefire-agreed-after-zelenskyy-push-succeeds"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-10",
+          "id": "putin-ukraina-the-guardian-ukraine-12",
           "headline": "Ukraine war briefing: Kyiv lays out how ‘Russian satellites help Iran in war’",
           "source": "Warren Murray and agencies",
           "pubDate": "Wed, 08 Apr 2026 01:22:14 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/08/ukraine-war-briefing-kyiv-how-russian-satellites-help-iran-in-war"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-12",
+          "id": "putin-ukraina-the-guardian-ukraine-14",
           "headline": "Ukraine war briefing: Zelenskyy reiterates truce offer ahead of Orthodox Easter",
           "source": "Warren Murray and agencies",
           "pubDate": "Tue, 07 Apr 2026 00:34:15 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/07/ukraine-russia-war-briefing-zelenskyy-orthodox-easter-truce-offer"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-15",
-          "headline": "Ukraine war briefing: Russian oil facilities burn as Zelenskyy tours Middle East",
-          "source": "Warren Murray and agencies",
-          "pubDate": "Mon, 06 Apr 2026 02:05:31 GMT",
-          "link": "https://www.theguardian.com/world/2026/apr/06/ukraine-war-briefing-russian-oil-facilities-burn-as-zelenskyy-tours-middle-east"
-        },
-        {
-          "id": "putin-ukraina-svt-nyheter-utrikes-1",
+          "id": "putin-ukraina-svt-nyheter-utrikes-7",
           "headline": "Trots helgens vapenvila – ”Ukrainakriget lär fortsätta under 2026”",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Fri, 10 Apr 2026 17:29:53 +0200",
           "link": "https://www.svt.se/nyheter/utrikes/trots-helgens-vapenvila-ukrainakriget-lar-fortsatta-under-2026"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-5",
+          "headline": "Vladimir Putin announces Orthodox Easter ceasefire with Ukraine",
+          "source": "Reuters",
+          "pubDate": "Thu, 09 Apr 2026 20:23:15 GMT",
+          "link": "https://www.theguardian.com/world/2026/apr/09/vladimir-putin-announces-orthodox-easter-ceasefire-with-ukraine"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Iran-kriget skapar ekonomisk turbulens globalt och exponerar djupa sprickor i västerländska allianser. Amerikansk inflation steg till nästan 1 procent i mars – den högsta månadstakten på flera år – driven av energipriserna: bensin steg 21 procent och eldningsolja över 30 procent efter att USA och Israel inledde kriget mot Iran den 28 februari, vilket ledde till att Iran blockerade Hormuzstränden och skickade oljepriserna till 120 dollar per fat. Trots ett påstått tvåveckors vapenstilleståndet mellan USA och Iran från tisdagen ligger sjöfarten i stränden fortfarande på en bråkdel av krigsförnivåerna, och Trump anklagade Iran för att göra \"ett mycket dåligt jobb\" med att hantera oljeflödet – vilket visar på vapenstilleståndets skörhet. Zelenskyj bekräftade att ukrainska experter och drönteknologi användes för att skjuta ned iranska Shahed-drönare i Mellanöstern, en operation han kallade en framgång för att bygga moderna luftförsvarsystem.",
+      "summary": "USA och Iran förhandlar om att avsluta kriget genom fredsmöten i Pakistan, men överenskommelsen är skör och fylld av motsägelser. Trump säger att Hormuzsundet kommer öppnas \"ganska snart\" med eller utan Irans hjälp och vägrar att acceptera Irans påstådda system att ta ut avgifter för passage – \"om de gör det, kommer vi inte att tillåta det\". Trump säger att kärnvapen är 99 procent av förhandlingarna och att sundet kommer öppnas automatiskt om Iran inte får kärnvapen. Förhandlingarna är baserade på en amerikansk 15-punktsplan och ett iransk 10-punktsförslag, men båda planerna är i stort sett hemliga och rapporterade versioner verkar vara \"världsomfattande skilda\" enligt Anwar Gargash, senior diplomatisk rådgivare till UAE:s president. Israel genomförde den största bombvågen mot Libanon sedan kriget började på onsdagen, bara timmar efter att USA och Iran tillkännagav en två veckor lång vapenvila. Israel dödade minst 182 människor i över 100 attacker på vad Israel kallade Hezbollahs kommandocentraler och militära platser på bara 10 minuter. Iran säger att detta är en \"grav överträdelse\" av vapenvilan eftersom Libanon omfattas av avtalet – något USA och Israel bestämt förnekar.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,39 +175,39 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-1",
-          "headline": "Inflation rises in US amid Iran war, Hormuz blockade",
+          "id": "iran-al-jazeera-rss-5",
+          "headline": "Trump says Strait of Hormuz to reopen ‘soon’ as US, Iran head to talks",
           "source": "Al Jazeera RSS",
-          "pubDate": "Fri, 10 Apr 2026 15:20:38 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/10/inflation-rises-in-us-amid-iran-war-hormuz-blockade?traffic_source=rss"
+          "pubDate": "Sat, 11 Apr 2026 03:06:18 +0000",
+          "link": "https://www.aljazeera.com/economy/2026/4/11/trump-says-strait-of-hormuz-to-reopen-soon-as-us-iran-head-to-talks?traffic_source=rss"
         },
         {
-          "id": "iran-al-jazeera-rss-2",
-          "headline": "Zelenskyy says Ukrainian interceptors downed Iran drones in the Middle East",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Fri, 10 Apr 2026 15:19:16 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/10/zelenskyy-says-ukrainian-interceptors-downed-iran-drones-in-the-middle-east?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-14",
-          "headline": "‘Closer to a break than ever’: Can NATO survive if Trump pulls the US out?",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Fri, 10 Apr 2026 11:44:10 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/10/closer-to-a-break-than-ever-can-nato-survive-if-trump-pulls-the-us-out?traffic_source=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-3",
+          "id": "iran-bbc-news-middle-east-5",
           "headline": "Trump says Iran's handling of Strait of Hormuz is 'not the agreement we have'",
           "source": "BBC News: Middle East",
           "pubDate": "Fri, 10 Apr 2026 02:10:44 GMT",
           "link": "https://www.bbc.com/news/articles/cge0xre3d27o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-8",
+          "id": "iran-bbc-news-middle-east-10",
           "headline": "Israeli strikes in Lebanon 'grave violation' of ceasefire, Iran minister tells BBC",
           "source": "BBC News: Middle East",
           "pubDate": "Thu, 09 Apr 2026 17:11:59 GMT",
           "link": "https://www.bbc.com/news/articles/cp849k4j0y1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-15",
+          "headline": "At least 182 killed across Lebanon in large wave of Israeli strikes",
+          "source": "BBC News: Middle East",
+          "pubDate": "Wed, 08 Apr 2026 20:54:59 GMT",
+          "link": "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-13",
+          "headline": "Negotiators face huge task to close gaps in rival Iran peace proposals",
+          "source": "BBC News: Middle East",
+          "pubDate": "Wed, 08 Apr 2026 20:26:48 GMT",
+          "link": "https://www.bbc.com/news/articles/cvgkv9y97n0o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Viktor Orbán står inför sitt största politiska test på nästan 16 år när Ungern går till val på söndag, och hans makt över en av Europas viktigaste politiska eror från 2000-talet kan ta slut. Enligt opinionsmätningar leder oppositionens Tisza-parti med ledaren Péter Magyar kraftigt – senaste mätningen visar 58 procent för Tisza mot 35 procent för Orbáns Fidesz – en dramatisk förändring från januari då 44 procent trodde på Fidesz-seger. Orbán, som varit premiärminister sedan 2010 och transformerat Ungern till vad EU-parlamentet kallar ett \"hybridregim av valdemokrati\", har fått stöd från Trump och JD Vance besökte Budapest dagar före valet för att uppmana väljare att \"stå med Viktor Orbán\", men Orbán verkar allt mer isolerad bland EU-ledare över sin motvilja mot Ukraina-stöd och sitt nära samarbete med Putin.",
+      "summary": "Viktor Orbán står inför sitt största politiska hot på 16 år när Ungern går till val på söndag. Enligt de flesta opinionsmätningar leder hans utmanare Péter Magyar, en före detta Fidesz-insider som har gjort sig till symbol för motstånd mot Orbáns styre. Orbán har transformerat Ungern till vad Europaparlamentet kallar ett \"hybridregim av valdemokrati\" sedan han kom till makten 2010. Han har upprepade gånger krockat med EU-kollegor om kriget i Ukraina genom att blockera vital finansiering för Kyiv, och hans utrikesminister Péter Szijjártó har erkänt att han personligen delar detaljer från EU-möten med sin ryske motsvarighet Sergei Lavrov. Orbán är Putins starkaste partner i EU och har fått stöd från Donald Trump, som har lovat att använda USA:s \"fulla ekonomiska kraft\" för att stärka Ungerns ekonomi om Orbán vinner. JD Vance besökte Budapest fem dagar före valet för att uppmana väljare att \"stå med Viktor Orbán\". Tiotusentals ungrar fyllde Heroes' Square i Budapest på fredagen för en.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,28 +238,28 @@
       ],
       "items": [
         {
-          "id": "orban-eu-ekot-10",
-          "headline": "En era kan ta slut: Orbán slåss för sitt politiska liv",
+          "id": "orban-eu-ekot-1",
+          "headline": "Därför är valet i Ungern så viktigt för EU, USA och Ryssland",
           "source": "Ekot",
-          "pubDate": "Fri, 10 Apr 2026 11:24:00 GMT",
-          "link": "https://www.sverigesradio.se/artikel/9192956"
-        },
-        {
-          "id": "orban-eu-bbc-news-europe-14",
-          "headline": "Who is Viktor Orbán, Hungarian PM fighting to stay in power after 16 years?",
-          "source": "BBC News: Europe",
-          "pubDate": "Wed, 08 Apr 2026 18:25:27 GMT",
-          "link": "https://www.bbc.com/news/articles/cd6l3ywpwg2o?at_medium=RSS&at_campaign=rss"
+          "pubDate": "Sat, 11 Apr 2026 04:42:00 GMT",
+          "link": "https://www.sverigesradio.se/artikel/9193215"
         },
         {
           "id": "orban-eu-bbc-news-europe-16",
-          "headline": "After 16 years in power, could Viktor Orban finally be unseated?",
+          "headline": "Who is Viktor Orbán, Hungarian PM fighting to stay in power after 16 years?",
           "source": "BBC News: Europe",
-          "pubDate": "Fri, 03 Apr 2026 23:04:24 GMT",
-          "link": "https://www.bbc.com/news/articles/czd7y1n3jyjo?at_medium=RSS&at_campaign=rss"
+          "pubDate": "Sat, 11 Apr 2026 04:43:08 GMT",
+          "link": "https://www.bbc.com/news/articles/cd6l3ywpwg2o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "orban-eu-svt-nyheter-utrikes-3",
+          "id": "orban-eu-bbc-news-europe-1",
+          "headline": "Final push for votes as challenger to Hungary's Orbán scents victory",
+          "source": "BBC News: Europe",
+          "pubDate": "Sat, 11 Apr 2026 00:17:18 GMT",
+          "link": "https://www.bbc.com/news/articles/c0q9527y41lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "orban-eu-svt-nyheter-utrikes-9",
           "headline": "Då kan Viktor Orbán bli kvar vid makten – även vid förlust i valet i Ungern",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Fri, 10 Apr 2026 14:04:51 +0200",
