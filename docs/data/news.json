@@ -5,7 +5,7 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-12T05:12:06.720Z",
+  "generatedAt": "2026-04-12T10:31:51.125Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
@@ -13,12 +13,12 @@
   },
   "brief": {
     "title": "Världen håller andan medan makten slösar",
-    "intro": "Trumps administration demonterar amerikansk miljövård medan den hetsar mot invandrare med grafiska videor. Samtidigt kollapsar fredssatsningar från Ukraina till Iran när världens ledare fokuserar på eget spel istället för att lösa konflikter.",
+    "intro": "Trump bygger triumfbågar medan hans advokat åker ut, Orbán kan förlora makten efter sexton år, och USA-Iran-förhandlingarna sprack utan avtal. Samtidigt fortsätter kriget i Ukraina och Melania Trump kräver utredning om Epstein.",
     "bullets": [
-      "Trump flyttar skogsverkets huvudkontor från Washington till Utah och planerar att stänga regionala kontor – ett drag som kritiker säger hotar allmän tillgång till nationalskogarna och öppnar vägen för privat exploatering av miljöskydd som Theodore Roosevelt etablerade för över ett århundrade sedan.",
-      "Zelenskyy tvingade fram ett påskupphör mellan Ukraina och Ryssland, men Putin bröt det omedelbar med drönattacker – ukrainska militärer rapporterade 469 överträdelser under de 32 timmar som vapenvilan skulle gälla.",
-      "Förhandlingar mellan USA och Iran i Pakistan slutade utan överenskommelse när Vance presenterade sin \"slutgiltiga bästa erbjudande\" och lämnade bordet, medan Iran och USA fortfarande är långt ifrån varandra om kärnvapen, Hormuzstränden och tollavgifter.",
-      "Ungern går till val på söndag där Orbáns 16-åriga styre står på spel mot utmanaren Péter Magyar – ett val som engagerar Trump, Putin och EU eftersom Orbán är en av få europeiska ledare som respekteras av både den amerikanske presidenten och Kreml."
+      "Trump avskedade justitieminister Pam Bondi efter att hans egna väljare blev besvikna på hennes hantering av Epstein-filerna. Samtidigt delar presidenten grafiska videor av en haitisk migrants mord för att driva sin invandringspolitik, medan domstolar blockerar hans försök att ta bort skyddsstatus från 350 000 haitier.",
+      "Ungerns val på söndagen kan sluta Orbáns sexton år vid makten. Utmanaren Péter Magyar och hans Tisza-parti leder i opinionsmätningarna, och rekordhög valdeltagande tyder på att väljarna är mobiliserade.",
+      "USA och Iran misslyckades nå ett permanent fredavtal efter tjugoenhöurs förhandlingar i Islamabad. Vapenstilleståndet är skört, oljetankrar börjar åter passera Hormuzstränden, och Trump anklagar Iran för att hantera vattenvägarna dåligt. Över två tusen iranianer har dödats i kriget.",
+      "Ukraina och Ryssland anklagade varandra för tusentals brott mot Påskhelgens fyrtitvåtimmars vapenstillestånd. Ryssland fortsatte drönattacker trots avtalet, och fredförhandlingarna mellan Kyiv, Moskva och Washington är frysta sedan februari. Trump hotar att lämna Nato efter att allierade vägrat stödja hans Irankrieg."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trumps administration fortsätter att demontera institutioner och använda dramatiska fall för att driva sin agenda. Skogsverket flyttas från Washington till Utah som del av en omstrukturering som kritiker varnar kan försvaga miljöskyddet och öppna nationalskogarna för privat exploatering. Trump delade en grafisk video av en haitisk migrant som slår ihjäl en kvinna med en hammare för att argumentera för strängare immigrationspolitik – ett drag som väcker frågor om hur han använder våld för politiska syften. Samtidigt skapar hans uttalanden om Nato splittring: han hotade Natos generalsekreterare Mark Rutte under ett möte som beskrevs som \"bara en massa förolämpningar\" och skrev sedan på Truth Social att Nato svek under Irankriget. En tidigare Trump-väljare, Cayden McBride, spenderar timmar med att söka igenom Epstein-filerna och är besviken på att tidigare justitieminister Pam Bondi inte förföljde \"rätt människor\" – hennes avlösning denna vecka väckte hopp om förnyad fokus på fallet. Ungern håller val på söndag där Orbán, som Trump respekterar som en av få europeiska ledare, riskerar att förlora efter 16 år vid makten mot utmanaren Péter Magyar.",
+      "summary": "Trump-administrationen är i kaos. Justitieminister Pam Bondi avskedades förra veckan efter att hennes hantering av de frigivna Epstein-filerna väckte vrede bland Trumps egna väljare. Nittonårige Cayden McBride från Georgia, en själv beskriven \"Trump-kille\", spenderar timmar på att gå igenom filerna på justitiedepartementets webbplats tillsammans med andra online-aktivister. Han och många andra är besvikna på bristen på ansvar och på Bondis arbete, vilket fick honom att förlora tron på rörelsen. Första damen Melania Trump överraskade genom att förneka att hon associerades med Epstein och kräva en kongresshöring för hans offer. Bondis ersättare är Todd Blanche, hennes tidigare biträdande. Trump själv delar grafiska videor av ett mord för att driva sin invandringspolitik. En haitisk migrant, Rolbert Joachin, anklagas för att ha slagit ihjäl en kvinna med en hammare på en bensinstation i Florida den 3 april. Trump publicerade videon och uppmanade domstolar att sluta \"hindra\" hans invandringspolitik. Joachin hade tidigare fått tillfällig skyddsstatus under Bidens administration, men Trump försöker eliminera denna status för över 350 000 haitier.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -49,13 +49,6 @@
       ],
       "items": [
         {
-          "id": "trump-usa-bbc-news-us-canada-10",
-          "headline": "What is Trump doing with the US Forest Service?",
-          "source": "BBC News: US & Canada",
-          "pubDate": "Fri, 10 Apr 2026 21:45:14 GMT",
-          "link": "https://www.bbc.com/news/articles/c5ywdy4lvjxo?at_medium=RSS&at_campaign=rss"
-        },
-        {
           "id": "trump-usa-bbc-news-us-canada-2",
           "headline": "Why this disillusioned Trump voter spends hours searching Epstein files",
           "source": "BBC News: US & Canada",
@@ -63,25 +56,32 @@
           "link": "https://www.bbc.com/news/articles/cx237vmr2lyo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-bbc-news-us-canada-15",
+          "id": "trump-usa-bbc-news-us-canada-16",
           "headline": "Trump posts graphic video of slaying to argue for stricter immigration policies",
           "source": "BBC News: US & Canada",
           "pubDate": "Fri, 10 Apr 2026 23:32:41 GMT",
           "link": "https://www.bbc.com/news/articles/c1eqvpw3j1no?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-svt-nyheter-utrikes-4",
+          "id": "trump-usa-svt-nyheter-utrikes-5",
           "headline": "Ungern går till val – vem är Viktor Orbán?",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Sun, 12 Apr 2026 05:33:11 +0200",
           "link": "https://www.svt.se/nyheter/utrikes/ungern-gar-till-val-vem-ar-viktor-orban"
         },
         {
-          "id": "trump-usa-svt-nyheter-utrikes-9",
+          "id": "trump-usa-svt-nyheter-utrikes-10",
           "headline": "”Trump-låset” kan hindra presidenten från att lämna Nato",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Sat, 11 Apr 2026 15:47:43 +0200",
           "link": "https://www.svt.se/nyheter/utrikes/trump-laset-kan-hindra-presidenten-fran-att-lamna-nato"
+        },
+        {
+          "id": "trump-usa-svt-nyheter-utrikes-14",
+          "headline": "Så ska triumfbågen i Washington DC se ut",
+          "source": "SVT Nyheter: Utrikes",
+          "pubDate": "Sat, 11 Apr 2026 01:30:52 +0200",
+          "link": "https://www.svt.se/nyheter/utrikes/sa-ska-triumfbagen-i-washington-dc-se-ut"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Kriget i Ukraina fortsätter med ett påskupphör som redan är bruten. Zelenskyy lyckades tvinga fram ett 32-timmars vapenstillestånd för påsken genom upprepade erbjudanden, men Putin bröt det nästan omedelbar – ukrainska militärer rapporterade 469 överträdelser under vapenvilan och fortsatta drönattacker på städer som Odesa och Kherson. Kremls försök att framställa vapenstilleståndet som sitt eget initiativ misslyckades när Zelenskyy tydligt visade att han drivit förhandlingarna. Tidigare fredssatsningar har stagnerat sedan Irankriget började: trilaterala samtal mellan Kyiv, Moskva och Washington är frysta sedan februari 2026, och Zelenskyy försöker dra uppmärksamhet till sitt eget krig medan världen fokuserar på Mellanöstern. Ungern är också relevant här eftersom Orbáns styre under 16 år har varit nära Ryssland och kritiskt till Ukraina – en möjlig förändring av regeringen skulle kunna påverka EU:s enighet kring Ukrainastödet.",
+      "summary": "Kriget i Ukraina fortsätter trots ett påskhelgs vapenstillestånd som snabbt kollapsade. Vladimir Putin tillkännagav en fyrtitvåtimmars vapenvila för att markera ortodoxa påsken, efter upprepade erbjudanden från Volodymyr Zelenskyj. Kremls uttalande försökte framställa initiativet som Rysslands egen idé, men Zelenskyj hade konsekvent föreslagit vapenstilleståndet. Kremls order innehöll dock ett kryphål: trupper skulle förberedas för att \"motverka eventuella provokationer\" från fienden. Redan under de första timmarna började anklagelserna flyga. Ukrainas militär rapporterade att ryska styrkor begick 2 299 brott mot vapenstilleståndet på söndagsmorgonen, inklusive 28 attacker och nästan 2 000 drönattacker. Rysslands försvarsdepartement hävdade att ukrainska styrkor begick 1 971 brott, inklusive tre försök till motattacker i Dnipropetrovsk-regionen. I Sumy-regionen i norr träffade en rysk drönare en ambulans under natten och skadade tre sjukvårdare. Zelenskyj hade tidigare sagt att hans styrkor skulle svara \"symmetriskt\" på ryska attacker och kallade påsken \"en tid för fred\".",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -112,39 +112,39 @@
       ],
       "items": [
         {
-          "id": "putin-ukraina-the-guardian-ukraine-9",
+          "id": "putin-ukraina-bbc-news-europe-3",
+          "headline": "Ukraine and Russia accuse each other of hundreds of ceasefire violations",
+          "source": "BBC News: Europe",
+          "pubDate": "Sun, 12 Apr 2026 09:19:47 GMT",
+          "link": "https://www.bbc.com/news/articles/cz78y73v830o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-10",
           "headline": "Ukraine war briefing: First official ceasefire agreed after Zelenskyy push succeeds",
           "source": "Warren Murray with Guardian writers and agencies",
           "pubDate": "Fri, 10 Apr 2026 00:32:09 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/10/ukraine-war-briefing-first-official-ceasefire-agreed-after-zelenskyy-push-succeeds"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-1",
+          "id": "putin-ukraina-the-guardian-ukraine-3",
           "headline": "Russian drone attacks persist despite Kremlin’s Easter ceasefire, Ukrainian forces say",
           "source": "Associated Press",
           "pubDate": "Sat, 11 Apr 2026 19:50:04 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/11/russian-drone-attacks-persist-despite-kremlins-easter-ceasefire-ukrainian-forces-say"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-10",
+          "id": "putin-ukraina-the-guardian-ukraine-11",
           "headline": "Vladimir Putin announces Orthodox Easter ceasefire with Ukraine",
           "source": "Reuters",
           "pubDate": "Thu, 09 Apr 2026 20:23:15 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/09/vladimir-putin-announces-orthodox-easter-ceasefire-with-ukraine"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-12",
+          "id": "putin-ukraina-the-guardian-ukraine-13",
           "headline": "Ukraine ceasefire back in focus as US security guarantees fade and casualties mount",
           "source": "Pjotr Sauer in Kyiv",
           "pubDate": "Thu, 09 Apr 2026 10:55:45 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/09/ukraine-ceasefire-us-security-guarantees-fade-casualties-russia"
-        },
-        {
-          "id": "putin-ukraina-bbc-news-europe-2",
-          "headline": "How Hungary's knife-edge election could impact the US and Russia",
-          "source": "BBC News: Europe",
-          "pubDate": "Sun, 12 Apr 2026 02:52:03 GMT",
-          "link": "https://www.bbc.com/news/videos/cpqxy0d1g2yo?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Förhandlingarna mellan USA och Iran i Pakistan slutade utan överenskommelse när Vance presenterade sin \"slutgiltiga bästa erbjudande\" och lämnade Islamabad. Iran och USA ligger långt ifrån varandra på flera kritiska punkter: Iran kräver rätten att ta ut tullavgifter på fartyg genom Hormuzstränden, något som FN:s sjöfartsorganisation säger strider mot internationell rätt, medan Trump har föreslagit ett \"gemensamt företag\" för att samla in betalningar. Kärnvapenfrågan återstår olöst – USA kräver att Iran inte utvecklar kärnvapen, men frågan om Irans 440 kilo högenrikat uran är fortfarande omstridd. Samtidigt har USA pressat satellitbildsföretaget Planet Labs att begränsa bilderna från Iran och stora delar av Mellanöstern, vilket hindrar journalister och humanitära organisationer från att bedöma krigets påverkan på civil infrastruktur. Trump anklagade Iran för att göra ett \"mycket dåligt jobb\" med Hormuzstränden och hävdade det inte överensstämmer med avtalet, vilket visar på hur skört vapenstilleståndet är.",
+      "summary": "Förhandlingarna mellan USA och Iran för att avsluta kriget permanent kollapsade på söndagen efter tjugoenhöurs samtal i Islamabad. Varje sida skyllde på den andra för misslyckandet. Vicepresident JD Vance, som ledde den amerikanska delegationen, sa att det var \"dåliga nyheter för Iran mycket mer än för USA\". Irans utrikesdepartement sa att ingen hade förväntat sig ett avtal i en enda session och att förhandlingarna hade stagnerat. I Teheran uttryckte invånare skepsis men hopp efter veckor av luftattacker.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,11 +175,18 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-3",
-          "headline": "Iran must not charge tolls in Strait of Hormuz, UN watchdog chief says",
+          "id": "iran-al-jazeera-rss-7",
+          "headline": "Iran war: What is happening on day 44 of the US-Iran conflict?",
           "source": "Al Jazeera RSS",
-          "pubDate": "Sun, 12 Apr 2026 03:20:23 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/12/iran-must-not-be-allowed-charge-tolls-in-strait-of-hormuz-un-watchdog-says?traffic_source=rss"
+          "pubDate": "Sun, 12 Apr 2026 08:07:31 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/12/iran-war-what-is-happening-on-day-44-of-the-us-iran-conflict?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-14",
+          "headline": "Oil tankers exit Strait of Hormuz amid fragile US-Iran ceasefire",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Sun, 12 Apr 2026 05:00:33 +0000",
+          "link": "https://www.aljazeera.com/economy/2026/4/12/oil-tankers-exit-strait-of-hormuz-amid-fragile-us-iran-ceasefire?traffic_source=rss"
         },
         {
           "id": "iran-bbc-news-middle-east-2",
@@ -196,18 +203,11 @@
           "link": "https://www.bbc.com/news/articles/cge0xre3d27o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-15",
-          "headline": "Negotiators face huge task to close gaps in rival Iran peace proposals",
+          "id": "iran-bbc-news-middle-east-12",
+          "headline": "Israeli strikes in Lebanon 'grave violation' of ceasefire, Iran minister tells BBC",
           "source": "BBC News: Middle East",
-          "pubDate": "Wed, 08 Apr 2026 20:26:48 GMT",
-          "link": "https://www.bbc.com/news/articles/cvgkv9y97n0o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-7",
-          "headline": "Iran war live: Vance says no deal reached, US has made ‘best, final offer’",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Sun, 12 Apr 2026 00:00:00 +0000",
-          "link": "https://www.aljazeera.com/news/liveblog/2026/4/12/iran-war-live-historic-face-to-face-talks-with-us-continue-in-islamabad?traffic_source=rss"
+          "pubDate": "Thu, 09 Apr 2026 17:11:59 GMT",
+          "link": "https://www.bbc.com/news/articles/cp849k4j0y1o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Ungern håller val på söndag som kan sluta 16 år av Viktor Orbáns styre. Orbán grundade Fidesz som ett liberalt, antikommunistiskt ungdomsparti men omvandlade det till ett nationalkonservativt parti som har försvagat domstolarnas oberoende, ökat politiskt inflytande över medierna och ändrat valsystemet till partiets fördel. Han beskriver sitt system som en \"illiberal demokrati\" och Ungern har hamnat på kollisionskurs med EU för både sin politiska inriktning och anklagelser om korruption och felaktigt användande av EU-medel. Utmanaren Péter Magyar, som bildade det gräsrotsbaserade Tisza-partiet efter att ha splittrats från Fidesz, lovar \"ett regimskifte\", en återställning av EU-relationer och ett slut på nära band med Ryssland. Magyar drog större folksamlingar än Orbán vid sina slutmöten, och flera bedömare tror att Orbáns förlust kan bero på Ungerns dåliga ekonomi. Orbán är högt värderad av Donald Trump, som uppmanade ungrar att rösta på sin \"sanne vän, fighter och VINNARE\", och han står Putin nära – hans möjliga förlust skulle kunna påverka både USA:s och Rysslands inflytande i EU.",
+      "summary": "Ungern genomförde på söndagen ett historiskt val som kan avslutas Viktor Orbáns 16-åriga styre. Rekordhög valdeltagande på närmare 38 procent redan på förmiddagen signalerade att väljarna var mobiliserade. Enligt opinionsundersökningar ledde oppositionskandidaten Péter Magyar och hans grassrotsparti Tisza före Orbáns Fidesz. Magyar lovade att återställa Ungarns förhållande till EU och Nato samt bekämpa korruption, medan Orbán framställde valet som en kamp mot opposition som skulle \"inte stanna vid något\" för att ta makten. Valet väcker internationell uppmärksamhet eftersom Orbán under sitt styre utvecklat nära band till både Vladimir Putin och Donald Trump, samtidigt som han kritiserats för att undergräva domstolarnas oberoende, öka politiskt inflytande över media och ändra valsystemet till sin fördel. Hans nationalkonservativa politik och anklagelser om korruption har ställt Ungern på kollisionskurs med EU. Ekonomiska svårigheter i landet anses kunna påverka väljarna negativt för Orbán. Valet representerar en potentiell vändpunkt för Ungern och kan få betydande konsekvenser för EU, USA och Ryssland.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,10 +238,17 @@
       ],
       "items": [
         {
+          "id": "orban-eu-politico-europe-1",
+          "headline": "High early turnout in Hungary’s pivotal election",
+          "source": "Hanne Cokelaere",
+          "pubDate": "Sun, 12 Apr 2026 08:51:38 +0000",
+          "link": "https://www.politico.eu/article/hungary-2026-election-high-voter-turnout-viktor-orban-peter-magyar/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        },
+        {
           "id": "orban-eu-bbc-news-europe-1",
-          "headline": "Hungarians decide whether to end 16 years of Orbán rule and elect rival",
+          "headline": "Hungarians vote in big numbers on whether to end Orbán rule and elect rival",
           "source": "BBC News: Europe",
-          "pubDate": "Sun, 12 Apr 2026 04:02:14 GMT",
+          "pubDate": "Sun, 12 Apr 2026 09:31:51 GMT",
           "link": "https://www.bbc.com/news/articles/cdxdepjrv95o?at_medium=RSS&at_campaign=rss"
         },
         {
@@ -252,25 +259,18 @@
           "link": "https://www.bbc.com/news/videos/cpqxy0d1g2yo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "orban-eu-svt-nyheter-utrikes-4",
+          "id": "orban-eu-svt-nyheter-utrikes-5",
           "headline": "Ungern går till val – vem är Viktor Orbán?",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Sun, 12 Apr 2026 05:33:11 +0200",
           "link": "https://www.svt.se/nyheter/utrikes/ungern-gar-till-val-vem-ar-viktor-orban"
         },
         {
-          "id": "orban-eu-ekot-1",
+          "id": "orban-eu-ekot-13",
           "headline": "Orbán hänger löst – kan mista premiärministerposten efter 16 år",
           "source": "Ekot",
           "pubDate": "Sun, 12 Apr 2026 04:58:00 GMT",
           "link": "https://www.sverigesradio.se/artikel/9194067"
-        },
-        {
-          "id": "orban-eu-ekot-9",
-          "headline": "Djelevic: ”Huvudstaden är fiendeland för Orban”",
-          "source": "Ekot",
-          "pubDate": "Sat, 11 Apr 2026 15:22:00 GMT",
-          "link": "https://www.sverigesradio.se/artikel/9194010"
         }
       ]
     }
