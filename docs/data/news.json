@@ -1,18 +1,280 @@
 {
-  "state": "unavailable",
+  "state": "ready",
   "site": {
     "title": "Vad i helvete händer?!",
-    "subtitle": "Tillfälligt otillgänglig.",
+    "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-15T14:50:26.278Z",
+  "generatedAt": "2026-04-16T06:58:30.886Z",
   "summaryMeta": {
-    "provider": "none",
-    "model": null,
-    "fallbackReason": "Anthropic models API error: 500 Internal Server Error - {\"type\":\"error\",\"error\":{\"type\":\"api_error\",\"message\":\"Internal server error\"},\"request_id\":\"req_011Ca5k5G32jZMz6dBd49YVF\"}"
+    "provider": "anthropic",
+    "model": "claude-haiku-4-5-20251001",
+    "fallbackReason": null
   },
-  "brief": null,
-  "sections": [],
+  "brief": {
+    "title": "Världen på väg mot nya krig medan gamla makter faller",
+    "intro": "Trump hotar att spränga Irans broar och fira med en gyllene triumfbåge medan han pressar Federal Reserve-chefen på vägen ut.",
+    "bullets": [
+      "Trump hotar att avskeda Federal Reserve-chefen Powell om han inte avgår i maj, medan senaten blockerar hans efterträdare Warsh för att tvinga fram ett avslut på en utredning mot Powell.",
+      "Ryssland och Ukraina anklagade varandra för tusentals överträdelser av ett påskupphör som varade 32 timmar – Ryssland rapporterade 2 299 brott från ukrainsk sida, Ukraina rapporterade 1 971 från rysk sida.",
+      "Pakistan medlar mellan USA och Iran för att få igång förhandlingar igen efter att ett blockad av iranska hamnar tvingade fram samtal. Pakistans arméchef är i Teheran för att leverera budskap från Washington, och officiella källor talar om ett potentiellt genombrott kring Irans kärnprogram, men stridspunkterna kvarstår.",
+      "Viktor Orbáns 16-årsvälde i Ungern kollapsade när Péter Magyar och hans Tisza-parti vann en jordskredsseger med rekordhög valdeltagande. Magyar kräver att presidenten avgår och lovar att stänga Orbáns propagandamaskiner inom statsmedia och att undersöka finansieringen av högerextrema tankesmedjor som MCC Brussels."
+    ]
+  },
+  "sections": [
+    {
+      "id": "trump-usa",
+      "name": "Trump / USA",
+      "label": "Makt, cirkus, federalt brus",
+      "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
+      "summary": "Donald Trump hotar att avskeda Federal Reserve-chefen Jerome Powell om han inte avgår när hans mandatperiod löper ut den 15 maj, trots att Powells efterträdare Kevin Warsh ännu inte är bekräftad av senaten. Senatorerna Thom Tillis och Mike Rounds blockerar Warsh' bekräftelse och kräver att en utredning mot Powell om renoveringen av Federal Reserve-byggnaden läggs ned – något Trump vägrar att göra. Samtidigt har Ketanji Brown Jackson, högsta domstolens nyaste domare, levererat en skarp kritik mot sina konservativa kollegor för att använda nödordningar för att gynna Trumps administration, och kallar dessa ordningar för \"skissade anteckningar\" som verkar \"okunniga och därför tomma\". Trump har också attackerat påven för att vara för liberal och för svag på brott, och delat en AI-bild av sig själv som en Kristus-liknande figur – något som väcker motstånd även från konservativa katoliker som biskop Joseph Strickland, som tidigare stödde Trump men nu säger att kriget i Iran inte uppfyller kriterierna för ett rättfärdigt krig.",
+      "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
+      "feedUrls": [
+        {
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
+        },
+        {
+          "label": "BBC News: US & Canada",
+          "url": "https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml"
+        },
+        {
+          "label": "The Guardian: Donald Trump",
+          "url": "https://www.theguardian.com/us-news/donaldtrump/rss"
+        }
+      ],
+      "items": [
+        {
+          "id": "trump-usa-bbc-news-us-canada-1",
+          "headline": "Trump threatens to fire Fed chair Powell if he doesn't leave in May",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Thu, 16 Apr 2026 01:55:12 GMT",
+          "link": "https://www.bbc.com/news/articles/c9qddrdd8w2o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-5",
+          "headline": "Ketanji Brown Jackson condemns conservative justices’ pro-Trump orders",
+          "source": "Guardian staff and agency",
+          "pubDate": "Wed, 15 Apr 2026 22:04:30 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/apr/15/ketanji-brown-jackson-supreme-court-conservative-judges-trump"
+        },
+        {
+          "id": "trump-usa-bbc-news-us-canada-9",
+          "headline": "Starmer says he's 'not going to yield' to pressure from Trump on Iran war",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Wed, 15 Apr 2026 15:27:22 GMT",
+          "link": "https://www.bbc.com/news/articles/cdxdd7ddzgdo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "trump-usa-bbc-news-us-canada-3",
+          "headline": "BBC at the site of Trump's planned 'triumphal arch'",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Thu, 16 Apr 2026 00:08:12 GMT",
+          "link": "https://www.bbc.com/news/videos/cyv11v33zv1o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "trump-usa-bbc-news-us-canada-7",
+          "headline": "Trump's rift with Pope is playing out in public",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Wed, 15 Apr 2026 11:25:09 GMT",
+          "link": "https://www.bbc.com/news/articles/c070jxyjrmeo?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "id": "putin-ukraina",
+      "name": "Putin / Ukraina",
+      "label": "Krig, repression, diplomatiskt grus",
+      "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
+      "summary": "Under ett påskupphör som varade 32 timmar från lördagseftermiddag till söndagskväll anklagade Ryssland och Ukraina varandra för massiva överträdelser. Ukrainas militär rapporterade 2 299 brott från rysk sida, inklusive att fyra obeväpnade soldater skjutits efter att ha desärterats, vilket Ukrainas åklagare kallade ett krigsbrott. Ryssland rapporterade 1 971 överträdelser från ukrainsk sida, inklusive tre försök till motattacker i Dnipropetrovsk-regionen. Efter att uppehållet löpte ut på måndagen återupptog Ryssland sina attacker med full kraft – drönattacker och missiler dödade minst 12 människor i städer som Odesa, Kyiv och Dnipro. I Odesa dog sex personer i missil- och drönattacker, enligt stadens militäradministration. Ukrainas president Volodymyr Zelensky hade hoppats kunna förlänga vapenstilleståndet för att underlätta fredförhandlingar, men Ryssland avvisade detta och meddelade att attackerna skulle återupptas.",
+      "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
+      "feedUrls": [
+        {
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
+        },
+        {
+          "label": "The Guardian: Ukraine",
+          "url": "https://www.theguardian.com/world/ukraine/rss"
+        },
+        {
+          "label": "BBC News: Europe",
+          "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml"
+        }
+      ],
+      "items": [
+        {
+          "id": "putin-ukraina-bbc-news-europe-16",
+          "headline": "Ukraine and Russia accuse each other of hundreds of ceasefire violations",
+          "source": "BBC News: Europe",
+          "pubDate": "Sun, 12 Apr 2026 11:53:37 GMT",
+          "link": "https://www.bbc.com/news/articles/cz78y73v830o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-11",
+          "headline": "Ukraine war briefing: Easter truce expires as both sides accuse the other of violations",
+          "source": "Guardian staff",
+          "pubDate": "Mon, 13 Apr 2026 01:22:03 GMT",
+          "link": "https://www.theguardian.com/world/2026/apr/13/ukraine-war-briefing-easter-truce-expires-as-both-sides-accuse-the-other-of-violations"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-1",
+          "headline": "Russia pummels Ukraine with drone and missile strikes, killing at least 12",
+          "source": "Agence France-Presse",
+          "pubDate": "Thu, 16 Apr 2026 04:48:33 GMT",
+          "link": "https://www.theguardian.com/world/2026/apr/16/russia-drone-missile-strikes-ukraine-kyiv-dnipro"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-14",
+          "headline": "Russian drone attacks persist despite Kremlin’s Easter ceasefire, Ukrainian forces say",
+          "source": "Associated Press",
+          "pubDate": "Sat, 11 Apr 2026 19:50:04 GMT",
+          "link": "https://www.theguardian.com/world/2026/apr/11/russian-drone-attacks-persist-despite-kremlins-easter-ceasefire-ukrainian-forces-say"
+        },
+        {
+          "id": "putin-ukraina-bbc-news-europe-12",
+          "headline": "Katya Adler: Jubilation in Budapest will be felt in Europe but leaves Moscow cold",
+          "source": "BBC News: Europe",
+          "pubDate": "Mon, 13 Apr 2026 08:28:35 GMT",
+          "link": "https://www.bbc.com/news/articles/cn0wzxqyx17o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "id": "iran",
+      "name": "Iran",
+      "label": "Regionen håller andan igen",
+      "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
+      "summary": "Diplomatiska ansträngningar för att avsluta kriget mellan USA och Iran intensifieras när Pakistan spelar en central medlarroll. En pakistansk delegation ledd av arméchef Asim Munir är i Teheran för att leverera budskap från Washington, medan Pakistans premiärminister Shehbaz Sharif genomför en regiontour som inkluderar Saudi-Arabien, Qatar och Turkiet. Pakistanska officiella källor säger till Al Jazeera att de förväntar sig ett \"stort genombrott\" kring Irans kärnprogram, och Irans utrikesminister Abbas Araghchi uttryckte tacksamhet för Pakistans värdskap för dialogen. Enligt Al Jazeeras reporter är båda sidor fastnade på frågan om hur länge Iran ska frysa sin anrikning – mellan fem och tjugo år – och vad som ska göras med Irans lager på 440 kilogram högt berikad uran. Trump har antytt att samtal kan återupptas denna vecka, och FN:s generalsekreterare António Guterres säger att det är \"mycket sannolikt\" att förhandlingarna återstartar.",
+      "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
+      "feedUrls": [
+        {
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
+        },
+        {
+          "label": "BBC News: Middle East",
+          "url": "https://feeds.bbci.co.uk/news/world/middle_east/rss.xml"
+        },
+        {
+          "label": "Al Jazeera RSS",
+          "url": "https://www.aljazeera.com/xml/rss/all.xml"
+        }
+      ],
+      "items": [
+        {
+          "id": "iran-al-jazeera-rss-1",
+          "headline": "Iran war: What is happening on day 48 of the US-Iran conflict?",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Thu, 16 Apr 2026 06:13:28 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/16/iran-war-what-is-happening-on-day-48-of-the-us-iran-conflict?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-7",
+          "headline": "Hopes grow for a breakthrough in US-Iran talks as Pakistan mediates",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Thu, 16 Apr 2026 03:37:24 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/16/hopes-grow-for-a-breakthrough-in-us-iran-talks-as-pakistan-mediates?traffic_source=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-1",
+          "headline": "Lyse Doucet: Under fragile ceasefire, Iranians wonder if US deal can be done",
+          "source": "BBC News: Middle East",
+          "pubDate": "Wed, 15 Apr 2026 21:10:14 GMT",
+          "link": "https://www.bbc.com/news/articles/c4g44gj7rgno?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-7",
+          "headline": "Trump hints Iran talks could resume this week as US port blockade continues",
+          "source": "BBC News: Middle East",
+          "pubDate": "Wed, 15 Apr 2026 04:04:15 GMT",
+          "link": "https://www.bbc.com/news/articles/c20ddnz4w5lo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-14",
+          "headline": "Why and how is US blockading Iranian ports in Strait of Hormuz?",
+          "source": "BBC News: Middle East",
+          "pubDate": "Tue, 14 Apr 2026 17:10:52 GMT",
+          "link": "https://www.bbc.com/news/articles/c5yv6xr6me3o?at_medium=RSS&at_campaign=rss"
+        }
+      ]
+    },
+    {
+      "id": "orban-eu",
+      "name": "Orbán / EU",
+      "label": "Illiberal administration, kontinentalt tålamodstest",
+      "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
+      "summary": "Viktor Orbáns 16-årsvälde i Ungern kollapsade i söndagens val när Péter Magyar och hans Tisza-parti vann en jordskredsseger med en så kallad supermajoritet på två tredjedelar av parlamentets platser. Valdeltagandet var rekordbrytande trots Orbáns järngrepp om statsmedia, ändringar av valsystemet för att gynna sitt eget parti och den enorma inflytelsen hans vänner och familjemedlemmar hade i maktpositioner inom det \"illiberala demokrati\" han byggde upp. Magyar säger att han vill att det nya parlamentet samlas redan den 4 maj, dagen då de officiella valresultaten förväntas, och han kräver att president Tamás Sulyok avgår eftersom han är \"ovärd att representera den ungerska nationens enhet\". Under sitt första framträdande i statsmedia på 18 månader attackerade Magyar statlig radio och tv för att sprida lögner och jämförde deras rapportering med \"Nordkoreas propaganda\". Han presenterade planer på att pausa statliga mediers nyhetsförmedling tills deras public service-uppdrag återställs, och att skapa en ny mediemyndighet och ny presslag. Magyar lovar också att undersöka finansieringen av Orbáns nätverk av högerextrema tankesmedjor.",
+      "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
+      "feedUrls": [
+        {
+          "label": "SVT Nyheter: Utrikes",
+          "url": "https://www.svt.se/nyheter/utrikes/rss.xml"
+        },
+        {
+          "label": "Ekot",
+          "url": "https://api.sr.se/api/rss/Channel/83?format=1"
+        },
+        {
+          "label": "Politico Europe",
+          "url": "https://www.politico.eu/feed/"
+        },
+        {
+          "label": "BBC News: Europe",
+          "url": "https://feeds.bbci.co.uk/news/world/europe/rss.xml"
+        }
+      ],
+      "items": [
+        {
+          "id": "orban-eu-bbc-news-europe-12",
+          "headline": "Katya Adler: Jubilation in Budapest will be felt in Europe but leaves Moscow cold",
+          "source": "BBC News: Europe",
+          "pubDate": "Mon, 13 Apr 2026 08:28:35 GMT",
+          "link": "https://www.bbc.com/news/articles/cn0wzxqyx17o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "orban-eu-politico-europe-5",
+          "headline": "Orbán’s favorite Brussels think tank may be down, but it’s not out",
+          "source": "Mari Eccles, Max Griera",
+          "pubDate": "Thu, 16 Apr 2026 02:00:00 +0000",
+          "link": "https://www.politico.eu/article/hungary-viktor-orban-favorite-brussels-think-tank-down-not-out-conservative-euroskeptic/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        },
+        {
+          "id": "orban-eu-bbc-news-europe-3",
+          "headline": "Magyar calls for fast handover of power in talks with Hungary's president",
+          "source": "BBC News: Europe",
+          "pubDate": "Wed, 15 Apr 2026 13:51:20 GMT",
+          "link": "https://www.bbc.com/news/articles/cx2ddd0xyl5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "orban-eu-politico-europe-9",
+          "headline": "Badenoch: Orbán’s defeat gives me hope for center right",
+          "source": "Annabelle Dickson",
+          "pubDate": "Wed, 15 Apr 2026 18:00:00 +0000",
+          "link": "https://www.politico.eu/article/badenoch-orbans-defeat-gives-me-hope-for-the-center-right/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+        },
+        {
+          "id": "orban-eu-svt-nyheter-utrikes-2",
+          "headline": "Péter Magyar angriper statlig tv i direktsändning: ”Propaganda”",
+          "source": "SVT Nyheter: Utrikes",
+          "pubDate": "Thu, 16 Apr 2026 06:07:16 +0200",
+          "link": "https://www.svt.se/nyheter/utrikes/peter-magyar-angriper-statlig-tv-i-direktsandning-propaganda"
+        }
+      ]
+    }
+  ],
   "sources": [
     {
       "id": "trump-usa",
