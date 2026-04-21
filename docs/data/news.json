@@ -5,20 +5,20 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-21T06:58:32.755Z",
+  "generatedAt": "2026-04-21T14:54:19.399Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
     "fallbackReason": null
   },
   "brief": {
-    "title": "Världen håller på att gå sönder medan makthavare tittar åt sidan",
-    "intro": "Trump-administrationen delar ut tullåterbäringar medan den blockerar iransk handel, Orbán försvinner från EU-scenen och Amnesty International konstaterar att folkrätten är under attack från Washington, Moskva och Tel Aviv.",
+    "title": "Världen brinner medan makthavare spelar schack",
+    "intro": "Trump skickar soldater till Mellanöstern medan han skär ned på sjukvård och bostäder hemma. Orbán försvinner från makten men hans arv av LGBTQ-förtryck döms ut av EU-domstolen – samtidigt som nya auktoritärer växer fram i Östeuropa.",
     "bullets": [
-      "Trump-administrationen har startat återbetalning av 160 miljarder dollar i tullmedel som högsta domstolen slog ned, men små företag oroar sig för nya tariffer som kan utplåna vinsterna. Samtidigt pressar Trump Europa att köpa mer amerikansk olja och gas och blockerar iranska hamnar för att strypa landets oljeintäkter.",
-      "Ryssland attackerar ukrainska städer med hundratals drönare och missiler varje vecka, medan EU-länderna äntligen kan låsa upp ett 90 miljarder euro stort lån till Ukraina nu när Orbán förlorat makten. Ukrainska soldater kämpar inte bara mot Ryssland utan också mot missbruk och trauma från kriget.",
-      "Iran vägrar att ge upp kontrollen över Hormuzsundet och hotar att göra det till en permanent vapenvapen, medan USA:s krig mot Iran skapar arbetslöshet i Indiens keramikindustri och sätter press på världsekonomin. Världens finansministrar är missnöjda med att betala priset för ett krig som inte är deras.",
-      "Viktor Orbán förlorar makten i Ungern efter 16 år, och hans efterträdare Péter Magyar lovar att återställa demokratin och EU-relationen. I Bulgarien vinner en ny koalition stort, men kan dra landet närmare Moskva, medan Orbáns EU-ambassadör Bálint Ódor riskerar att bli syndabock för regeringens år av EU-bråk."
+      "Trump förbereder möjlig markinvasion i Iran när tvåveckors vapenvila löper ut, trots löften om motsatsen. Över 10 000 nya amerikanska soldater är redan på väg till regionen, och militärbefäl varnar för mission creep.",
+      "Zelensky kritiserar amerikanska förhandlare för att besöka Moskva åtta gånger men aldrig Kyiv, medan USA utökar sanktionsvaron för rysk olja för att lugna energimarknaderna.",
+      "Pakistan försöker desperat få Iran tillbaka till förhandlingsbordet innan vapenvilan löper ut, men USA:s blockad av iranska hamnar och nya militära eskalationer undergräver fredsmöjligheterna.",
+      "Orbáns anti-LGBTQ-lagar döms ut av EU-domstolen som ett brott mot unionens grundläggande värden – en historisk dom som kommer nio dagar efter att ungrarnas väljare röstade bort honom."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump-administrationen har påbörjat utbetalningen av över 160 miljarder dollar i tullmedel som högsta domstolen förklarade olagliga i februari. Företag kan ansöka online genom en portal för återbetalning av de så kallade \"Liberation Day\"-tarifferna plus ränta, men små företag rapporterar att processen är ojämn med både framgångar och fel. Många är dock mer oroade för nya tariffer som Trump-administrationen föreslår, som kan utplåna eventuella återbetalningar. Samtidigt har arbetssekretaren Lori Chavez-DeRemer avgått efter en rad anklagelser om tjänstefel, inklusive att ha haft en affär med en underordnad och att ha druckit på jobbet. Justitsministeriets hantering av Jeffrey Epstein-filerna förblir kaotisk efter att Pam Bondi lämnade sin post, och hennes ersättare skickar blandade signaler om huruvida ett fullständigt redovisande av Epsteins brott någonsin kommer att avslöjas. Trump-administrationen har också gjort det klart att energi är en nyckel till amerikansk global dominans: USA blockerar iranska hamnar, godkänner nästan 6 000 nya borrtillstånd och uppmanar Europa att köpa mer amerikansk olja och gas istället för från Norge och andra källor.",
+      "summary": "Trump-administrationen bearbetar återbetalningar på 160 miljarder dollar i tariffer som högsta domstolen slog ned i februari, men enskilda konsumenter förväntas inte få ersättning. Över 56 000 importörer har redan ansökt om återbetalning genom en ny portal. Samtidigt nominerar Trump Kevin Warsh, en tidigare Wall Street-bankir, till ordförande för Federal Reserve – en kandidat som riskerar att bli hånad på sin höring eftersom Trump redan kallat nuvarande ordförande Jerome Powell för en \"envis idiot\" och hotat att avskeda honom. Trump har också signerat direktiv för att öka inhemsk fossil-bränsleutvinning för att säkra \"försvarsberedskapen\", med hänvisning till en nationell energikris. Med en tvåveckors vapenvila mellan USA och Iran på väg att löpa ut, ökar risken för att Trump bryter sitt löfte om att aldrig sätta amerikanska soldater på marken i Mellanöstern – över 10 000 nya trupper är redan på väg till regionen, och militäranalytiker varnar för att Trump använder militär när han väl har deployerat den.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -49,39 +49,39 @@
       ],
       "items": [
         {
-          "id": "trump-usa-bbc-news-us-canada-1",
+          "id": "trump-usa-bbc-news-us-canada-11",
           "headline": "Trump tariff refunds begin but consumers likely to miss out",
           "source": "BBC News: US & Canada",
-          "pubDate": "Mon, 20 Apr 2026 18:25:17 GMT",
+          "pubDate": "Tue, 21 Apr 2026 11:39:20 GMT",
           "link": "https://www.bbc.com/news/articles/c7vqgge5g8lo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "trump-usa-svt-nyheter-utrikes-1",
-          "headline": "Amnesty International: Mänskliga rättigheter är under attack",
-          "source": "SVT Nyheter: Utrikes",
-          "pubDate": "Tue, 21 Apr 2026 06:00:03 +0200",
-          "link": "https://www.svt.se/nyheter/utrikes/amnesty-international-manskliga-rattigheter-ar-under-attack"
-        },
-        {
-          "id": "trump-usa-the-guardian-donald-trump-7",
-          "headline": "Trump labor secretary Lori Chavez-DeRemer resigns amid misconduct investigation",
-          "source": "David Smith in Washington",
-          "pubDate": "Mon, 20 Apr 2026 21:33:03 GMT",
-          "link": "https://www.theguardian.com/us-news/2026/apr/20/trump-labor-secretary-lori-chavez-deremer"
+          "id": "trump-usa-the-guardian-donald-trump-8",
+          "headline": "Kevin Warsh: Trump’s ideal choice to push Fed to cut interest rates",
+          "source": "Lauren Aratani in New York",
+          "pubDate": "Tue, 21 Apr 2026 10:00:46 GMT",
+          "link": "https://www.theguardian.com/business/2026/apr/21/kevin-warsh-trump-federal-reserve"
         },
         {
           "id": "trump-usa-the-guardian-donald-trump-15",
-          "headline": "What’s next in the Jeffrey Epstein saga? Trump’s justice department sends mixed messages",
+          "headline": "Trump signs memos to boost US fossil-fuel production for ‘defense readiness’",
           "source": "Victoria Bekiempis",
-          "pubDate": "Mon, 20 Apr 2026 11:00:54 GMT",
-          "link": "https://www.theguardian.com/us-news/2026/apr/20/trump-doj-epstein-files-victims"
+          "pubDate": "Mon, 20 Apr 2026 22:26:24 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/apr/20/trump-memos-domestic-fossil-fuels-defense"
         },
         {
-          "id": "trump-usa-svt-nyheter-utrikes-14",
-          "headline": "Trump till SVT: Europa bör köpa mer olja och gas av USA",
-          "source": "SVT Nyheter: Utrikes",
-          "pubDate": "Sun, 19 Apr 2026 15:33:33 +0200",
-          "link": "https://www.svt.se/nyheter/utrikes/trump-till-svt-europa-bor-kopa-mer-olja-och-gas-av-usa"
+          "id": "trump-usa-the-guardian-donald-trump-3",
+          "headline": "With the US-Iran ceasefire about to expire, could Trump put boots on the ground?",
+          "source": "Robert Tait in Washington",
+          "pubDate": "Tue, 21 Apr 2026 14:31:27 GMT",
+          "link": "https://www.theguardian.com/world/2026/apr/21/trump-iran-us-ceasefire-ground-war"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-5",
+          "headline": "Trump wants $1.5tn for the Pentagon – and cuts to healthcare and housing | Steven Greenhouse",
+          "source": "Steven Greenhouse",
+          "pubDate": "Tue, 21 Apr 2026 14:00:51 GMT",
+          "link": "https://www.theguardian.com/commentisfree/2026/apr/21/trump-military-pentagon-budget"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "Ryssland fortsätter att bombardera ukrainska städer med hundratals drönare och missiler varje vecka, med attackerna på 15 april och 17 april bland de värsta på månader, vilket dödar dussintals civila och skadar över hundra. Ukrainas president Zelensky fördömer USA:s beslut att förlänga en undantag som tillåter Ryssland att sälja olja trots västerländska sanktioner, och varnar att varje dollar betald för rysk olja är pengar för kriget. EU-länderna kan äntligen låsa upp ett 90 miljarder euro stort lån till Ukraina efter att Viktor Orbán förlorat makten i Ungern, då hans efterträdare Péter Magyar har lovat att lyfta Ungarns blockering när Druzhba-oljeledningen genom Ukraina är återställd. Tyskland har kallat in den ryska ambassadören för att protestera mot direkta hot från Ryssland mot tyska mål och företag, inklusive namngivning av minst tre tyska företag som levererar drönare till Ukraina. En terroristattack i Kyiv där en man sköt sex människor dödar innan han själv dödades av polisen undersöks för möjlig rysk styrning.",
+      "summary": "Zelensky kritiserar USA:s särskilda sändebud Steve Witkoff och Jared Kushner för att ha besökt Moskva åtta gånger men aldrig Kyiv i officiell egenskap, och kallar det \"respektlöst\" när de fokuserar på Mellanöstern istället för Ukraina. Zelensky fördömer också USA:s beslut att förlänga sanktionsvaron för rysk oljeförsäljning till 16 maj, och säger att varje dollar som betalas för rysk olja är pengar för kriget – Ryssland har över 110 tankfartyg med dold ägarskap och över 12 miljoner ton olja som kan generera 10 miljarder dollar för Moskva. EU förväntas på onsdag låsa upp ett 90-miljarderseurolån för Ukraina efter att Viktor Orbán förlorat valet och lovar att sluta blockera stödet, medan hans efterträdare Peter Magyar har vunnit ett överväldigande mandat och kritiserat Orbán för att böja sig för rysk påverkan. Tyskland kallat in den ryska ambassadören efter direkta hot från Ryssland mot tyska mål, och Rysslands försvarsdepartement har publicerat en lista över tyska företag som levererar drönare till Ukraina, vilket tolkas som ett hot.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -112,39 +112,39 @@
       ],
       "items": [
         {
-          "id": "putin-ukraina-bbc-news-europe-6",
+          "id": "putin-ukraina-bbc-news-europe-1",
+          "headline": "Zelensky says failure of US envoys to visit Kyiv is 'disrespectful'",
+          "source": "BBC News: Europe",
+          "pubDate": "Tue, 21 Apr 2026 11:37:11 GMT",
+          "link": "https://www.bbc.com/news/articles/cd9v420y190o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "putin-ukraina-bbc-news-europe-9",
           "headline": "Zelensky condemns US extension of Russian sanctions waiver",
           "source": "BBC News: Europe",
           "pubDate": "Sun, 19 Apr 2026 09:55:22 GMT",
           "link": "https://www.bbc.com/news/articles/c248m3z49j1o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-1",
+          "id": "putin-ukraina-the-guardian-ukraine-3",
           "headline": "Ukraine war briefing: EU moves to unlock €90bn loan as Orbán exits",
           "source": "Warren Murray and agencies",
           "pubDate": "Tue, 21 Apr 2026 00:50:03 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/21/ukraine-war-briefing-eu-moves-to-unlock-90bn-loan-as-orban-exits"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-11",
+          "id": "putin-ukraina-the-guardian-ukraine-13",
           "headline": "Ukraine war briefing: €90bn EU loan for Ukraine to be released in second quarter",
           "source": "Guardian staff",
           "pubDate": "Fri, 17 Apr 2026 00:19:33 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/17/ukraine-war-briefing-90bn-eu-loan-russia"
         },
         {
-          "id": "putin-ukraina-the-guardian-ukraine-6",
+          "id": "putin-ukraina-the-guardian-ukraine-8",
           "headline": "‘I was fighting two wars’: Ukraine’s soldiers confront their addiction struggles",
           "source": "Pjotr Sauer in Kyiv. Photographs by Julia Kochetova",
           "pubDate": "Sun, 19 Apr 2026 04:00:32 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/19/ukraine-soldiers-confront-addiction-struggles"
-        },
-        {
-          "id": "putin-ukraina-the-guardian-ukraine-7",
-          "headline": "Investigators examine whether Ukraine terrorist attack was directed by Russia",
-          "source": "Luke Harding in Kyiv",
-          "pubDate": "Sat, 18 Apr 2026 20:19:53 GMT",
-          "link": "https://www.theguardian.com/world/2026/apr/18/terrorist-attack-kyiv-ukraine"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "USA:s krig mot Iran har utlöst en global energikris som skapar arbetslöshet långt bort från Mellanöstern: i Morbi, Indiens keramikcentrum som sysselsätter över 400 000 människor, har fabrikerna stängts på grund av brist på propan och naturgas, vilket tvingar arbetare som Pradeep Kumar att återvända till sina hemstater efter att ha förlorat sina jobb. USA har attackerat och beslagtagit det iranska lastfartyget Touska när det försökte ta sig förbi den amerikanska blockaden av Irans hamnar, och Trump säger att målet är att låta \"allt eller inget\" passera genom Hormuzsundet. Iran kallar blockaden för \"piratism\" och hotar att hämnas genom att attackera hamnar i Gulfstaterna. En senior iransk politiker, Ebrahim Azizi, säger att Iran aldrig kommer att ge upp kontrollen över Hormuzsundet och att det snart kommer att skrivas in i lag som en del av Irans försvar. En fransk fredsvaktare har dödats och tre andra skadats när en FN-patrull i södra Libanon beskjutits, vilket Macron tillskriver Hezbollah, medan den Iran-stödda gruppen förnekar något samband.",
+      "summary": "Irans sportminister Ahmad Donyamali säger att landets fotbollslag kommer att delta i VM endast om säkerheten för spelarna i USA kan garanteras, medan tvåveckors vapenvilan mellan USA och Iran löper ut på torsdag. Pakistan försöker desperat få Iran tillbaka till förhandlingsbordet innan vapenvilan löper ut, med USA:s vicepresident JD Vance på väg till Islamabad tillsammans med Steve Witkoff och Jared Kushner, men en serie eskalationssteg från USA under de senaste 48 timmarna har injicerat skepsis i Pakistans fredsmäklingsinsatser. Iran fortsätter att offentligt insistera på att det inte har några planer att återvända till förhandlingsbordet. USA har attackerat och beslagtagit det iranska lastfartyget Touska när det försökte ta sig förbi USA:s blockad av Irans hamnar, och USA tillkännagav tidigare denna månad att det skulle avlyssna eller vända tillbaka fartyg som reser till eller från Irans kust. USA vill begränsa Irans möjlighet att tjäna pengar på oljeexport för att sätta press på landet.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,11 +175,18 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-1",
-          "headline": "Iran war forces job losses, reverse migration in India’s ceramic hub",
+          "id": "iran-al-jazeera-rss-2",
+          "headline": "Iran’s World Cup participation depends on team’s safety in the US: Minister",
           "source": "Al Jazeera RSS",
-          "pubDate": "Tue, 21 Apr 2026 06:05:36 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/21/iran-war-forces-job-losses-reverse-migration-in-indias-ceramic-hub?traffic_source=rss"
+          "pubDate": "Tue, 21 Apr 2026 14:02:08 +0000",
+          "link": "https://www.aljazeera.com/sports/2026/4/21/irans-world-cup-participation-depends-on-teams-safety-in-the-us-minister?traffic_source=rss"
+        },
+        {
+          "id": "iran-al-jazeera-rss-6",
+          "headline": "Pakistan races against time to get Iran back to US talks as truce end nears",
+          "source": "Al Jazeera RSS",
+          "pubDate": "Tue, 21 Apr 2026 13:04:16 +0000",
+          "link": "https://www.aljazeera.com/news/2026/4/21/pakistan-races-against-time-to-get-iran-back-to-us-talks-as-truce-end-nears?traffic_source=rss"
         },
         {
           "id": "iran-bbc-news-middle-east-13",
@@ -189,25 +196,18 @@
           "link": "https://www.bbc.com/news/articles/c5yv6xr6me3o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-1",
+          "id": "iran-bbc-news-middle-east-5",
           "headline": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
           "source": "BBC News: Middle East",
           "pubDate": "Sun, 19 Apr 2026 21:09:06 GMT",
           "link": "https://www.bbc.com/news/articles/cvg4jnn131qo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-3",
+          "id": "iran-bbc-news-middle-east-6",
           "headline": "French peacekeeper killed in southern Lebanon",
           "source": "BBC News: Middle East",
           "pubDate": "Sun, 19 Apr 2026 11:39:47 GMT",
           "link": "https://www.bbc.com/news/articles/cvg4mrm2vm0o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-14",
-          "headline": "What people in power think the impact of the Iran war will be",
-          "source": "BBC News: Middle East",
-          "pubDate": "Sat, 18 Apr 2026 05:00:15 GMT",
-          "link": "https://www.bbc.com/news/articles/c9vl37eev7ko?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "Viktor Orbán förlorar makten i Ungern efter 16 år när hans motsatts Péter Magyar och Tisza-partiet vinner en jordskredsseger med 53 procent av rösterna och 141 av 199 parlamentsplatser. Magyar lovar en historisk återställning av demokratin och EU-relationen och planerar att snabbt bilda regering, med löfte om att suspendra nyhetsprogram på statlig TV och radio tills opartiska redaktörer kan utses, samt att retroaktivt begränsa premiärministrar till två mandatperioder för att stänga dörren för Orbáns återkomst. Orbáns EU-ambassadör Bálint Ódor, som under sex år agerat som regeringens fixer i Bryssel genom att aggressivt försvara dess anti-EU-hållning samtidigt som han diskret arbetade med andra länder, riskerar nu att bli syndabock för årens EU-bråk och kan förlora sitt jobb under den nya regeringen. EU:s utrikesministrar kan äntligen ta beslut utan Ungarns obstruktion, och flera viktiga frågor om Ukraina-stöd och sanktioner mot israeliska bosättare kan nu röra sig framåt.",
+      "summary": "EU:s högsta domstol dömer att Ungerns anti-LGBTQ-lagar från 2021 bryter mot EU-rätten och kränker unionens värderingar om jämlikhet och minoritetsrättigheter – en historisk dom som också fastslår att lagarna bryter mot artikel 2 i EU-fördraget, vilket är en aldrig tidigare skedd upptäckt. Lagarna förbjöd så kallad \"promotion\" av homosexualitet eller könsbyten för barn under 18 år, och domstolen fann att de kränkte rättigheter som förbud mot diskriminering baserad på kön och sexuell läggning, respekt för privat och familjeliv, och yttrandefrihet. Domstolen slog fast att lagen stigmatiserar LGBTQ-personer och undergräver deras värdighet.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,39 +238,25 @@
       ],
       "items": [
         {
-          "id": "orban-eu-politico-europe-2",
-          "headline": "No Orbán, no excuses",
-          "source": "Ian Wishart, Sarah Wheaton, Saga Ringmar, Dionisios Sturis",
-          "pubDate": "Tue, 21 Apr 2026 04:06:00 +0000",
-          "link": "https://www.politico.eu/podcast/brussels-playbook-podcast/no-orban-no-excuses/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+          "id": "orban-eu-bbc-news-europe-2",
+          "headline": "Unprecedented ruling finds Hungary's anti-LGBTQ laws in breach of EU values",
+          "source": "BBC News: Europe",
+          "pubDate": "Tue, 21 Apr 2026 12:28:31 GMT",
+          "link": "https://www.bbc.com/news/articles/cddqvyr0yjro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "orban-eu-politico-europe-5",
-          "headline": "Orbán’s EU fixer faces becoming Hungary’s ‘fall guy’",
-          "source": "Gabriel Gavin",
-          "pubDate": "Tue, 21 Apr 2026 02:00:00 +0000",
-          "link": "https://www.politico.eu/article/viktor-orban-eu-ambassador-fixer-hungary-fall-guy-balint-odor/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
+          "id": "orban-eu-politico-europe-8",
+          "headline": "EU top court strikes down Hungary’s anti-LGBTQ+ rules",
+          "source": "Mathieu Pollet",
+          "pubDate": "Tue, 21 Apr 2026 08:13:37 +0000",
+          "link": "https://www.politico.eu/article/eu-top-court-strikes-down-hungarys-anti-lgbtq-rules/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication"
         },
         {
-          "id": "orban-eu-svt-nyheter-utrikes-10",
+          "id": "orban-eu-svt-nyheter-utrikes-12",
           "headline": "Valseger för nytt parti kan påverka Bulgariens Ukrainapolitik",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Sun, 19 Apr 2026 21:05:41 +0200",
           "link": "https://www.svt.se/nyheter/utrikes/euroskeptiker-mot-valseger-i-bulgarien"
-        },
-        {
-          "id": "orban-eu-ekot-8",
-          "headline": "Rysk olja kan snart flöda genom Ukraina – Ungern öppnar för lån",
-          "source": "Ekot",
-          "pubDate": "Tue, 21 Apr 2026 02:22:00 GMT",
-          "link": "https://www.sverigesradio.se/artikel/9199482"
-        },
-        {
-          "id": "orban-eu-bbc-news-europe-12",
-          "headline": "Orbán's era was over in a flash and Hungary's next PM is a man in a hurry",
-          "source": "BBC News: Europe",
-          "pubDate": "Sat, 18 Apr 2026 18:21:19 GMT",
-          "link": "https://www.bbc.com/news/articles/c4g40npz37lo?at_medium=RSS&at_campaign=rss"
         }
       ]
     }
