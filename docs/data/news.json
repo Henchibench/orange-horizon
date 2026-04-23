@@ -5,7 +5,7 @@
     "subtitle": "En svensk brief om vad mäktiga idioter ställer till med, uppdaterad tre gånger om dagen.",
     "note": null
   },
-  "generatedAt": "2026-04-22T14:54:09.033Z",
+  "generatedAt": "2026-04-23T06:59:27.667Z",
   "summaryMeta": {
     "provider": "anthropic",
     "model": "claude-haiku-4-5-20251001",
@@ -13,12 +13,12 @@
   },
   "brief": {
     "title": "Maktens dumheter håller världen i andedräkt",
-    "intro": "Trump bygger sin egen Fed-ordförande för att tvinga ned räntorna, Orbán släpper sitt veto mot Ukrainas lån när han själv är på väg ut, och Iran stänger Hormuzvägen medan USA blockerar dess hamnar. Tre kontinenter, tre olika sätt att skapa kaos.",
+    "intro": "Trump försöker göra Federal Reserve till sin marionett medan hans kryptofirma stämdes av en miljardär. Samtidigt blockerar USA Irans hamnar, Orbán försvinner från makten och Ukraina får sitt EU-lån när oljeledningen repareras.",
     "bullets": [
-      "Trump nominerade Fed-kandidaten Kevin Warsh som under utfrågning i Senaten förnekar att presidenten utövat påtryckning om räntesänkningar, men Warsh måste sälja innehav värt 100 miljoner dollar om han blir ordförande.",
-      "EU godkände 90 miljarder euro i lån till Ukraina efter att Zelenskyj reparerade Druzhba-oljeledningen som Orbán blockerat i fyra månader – Orbán är på väg ut efter valseger för oppositionens Péter Magyar.",
-      "Iran svarade på USA:s blockad av dess hamnar och kapring av lastfartyget Touska genom att gripa två utländska tankfartyg och hota att ta ut tullar för passage genom Hormuzvägen. En iransk parlamentariker förklarade att Iran aldrig ger upp kontrollen över vägen och att det blir lag.",
-      "EU:s högsta domstol slog fast att Ungerns anti-HBTQ-lagar från 2021 bryter mot EU:s grundläggande värden – en historisk dom som förbjuder så kallad promotion av homosexualitet och könsbyte för barn under 18 år. Domen kom nio dagar efter att ungerskväljare röstade bort Orbáns 16-åriga styre."
+      "Trump nominerade Fed-chef Kevin Warsh grillades hårt i Senaten om sitt oberoende från presidenten, som tidigare sagt att han inte skulle utse någon som inte sänker räntorna. Warsh förnekar påtryckningar men ska sälja innehav värt 100 miljoner dollar om han blir ordförande.",
+      "Trumps familjs kryptofirma World Liberty Financial stämdes av miljardärinvesteraren Justin Sun för att ha fryst hans tokens värd över en miljard dollar och hotat att permanent radera dem. Sun hade investerat 45 miljoner dollar men kan nu inte sälja sina innehav.",
+      "EU-lånet på 90 miljarder euro till Ukraina är på väg att godkännas efter att Zelenskyj reparerade Druzhbaledningen som Orbán blockerat. Orbáns avslutande dagar som ungersk premiärminister slutar med att EU:s domstol finner hans anti-LGBTQ-lagar bryter mot EU:s grundvärden.",
+      "Iran förlorar två miljoner jobb på grund av kriget med USA och Israel, medan Trump blockerar iranska hamnar för att stoppa oljeexport. Iran svarar att Hormuzstränden är en strategisk tillgång och kommer aldrig att ge upp kontrollen över den."
     ]
   },
   "sections": [
@@ -27,7 +27,7 @@
       "name": "Trump / USA",
       "label": "Makt, cirkus, federalt brus",
       "description": "Trumpmaskinen, Vita huset och den amerikanska apparaten när den går på självskadebeteende.",
-      "summary": "Trump försöker bygga sin egen centralbank genom att nominera Kevin Warsh till Fed-ordförande. Under Senatens utfrågning på onsdagen förnekar Warsh att Trump utövat påtryckning för räntesänkningar, men flera senatorer påpekade att presidenten tidigare sagt att han inte skulle utse någon som inte skulle sänka räntorna. Warsh säger att Feds oberoende är avgörande och att han inte blir Trumps marionettdocka, men måste sälja innehav värd 100 miljoner dollar om han blir ordförande. En analys från Guardian varnar för att även om Warsh blir chef för Fed är det osannolikt att Trump får kontrollen över penningpolitiken. Samtidigt visar tre opinionsundersökningar från Reuters-Ipsos, AP-NORC och Strength in Numbers att Trumps godkännande sjunker till mitten av 30-talet – mellan 33 och 36 procent – på grund av kritik mot hans hantering av ekonomin, Iran-kriget och invandringspolitiken. Det är varningssignaler för republikanska kandidater inför mellanvalen om sex månader.",
+      "summary": "Trump fortsätter sitt försök att omforma USA:s institutioner efter sin vilja. Fed-kandidaten Kevin Warsh grillades i Senaten om sitt oberoende från presidenten, som tidigare gjort klart att han inte skulle utse någon som inte sänker räntorna. Warsh förnekar att Trump utövat påtryckningar och säger att Feds oberoende är avgörande, men måste sälja innehav värt 100 miljoner dollar om han blir ordförande. Samtidigt stämdes Trumps familjs kryptofirma World Liberty Financial av miljardärinvesteraren Justin Sun, som investerat 45 miljoner dollar men nu inte kan sälja sina tokens värd över en miljard dollar. World Liberty har fryst hans innehav och hotat att permanent radera dem. I andra politiska nyheter godkände Virginias väljare nya kongresskartor som gynnar demokraterna och kan ge dem fyra extra platser i representanthuset, vilket är ett slag mot Trumps försök att använda omritningar för att bevara kontrollen över Kongressen. Trumps godkännande sjunker samtidigt enligt flera opinionsundersökningar som visar siffror i mitten av 30-talet, vilket väcker oro bland republikanska kandidater inför mellanvalen om sex månader.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -49,18 +49,32 @@
       ],
       "items": [
         {
-          "id": "trump-usa-bbc-news-us-canada-10",
-          "headline": "Trump participates in marathon Bible reading",
-          "source": "BBC News: US & Canada",
-          "pubDate": "Tue, 21 Apr 2026 22:48:58 GMT",
-          "link": "https://www.bbc.com/news/articles/c248jrvd8d6o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "trump-usa-svt-nyheter-utrikes-4",
+          "id": "trump-usa-svt-nyheter-utrikes-10",
           "headline": "Trumps Fed-kandidat Kevin Warsh grillades om oberoende",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Tue, 21 Apr 2026 21:00:21 +0200",
           "link": "https://www.svt.se/nyheter/utrikes/trumps-fed-kandidat-kevin-warsh-grillades-om-oberoende"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-7",
+          "headline": "Virginia voters approve new congressional maps in blow to Trump",
+          "source": "Chris Stein",
+          "pubDate": "Wed, 22 Apr 2026 18:17:14 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/apr/21/virginia-congressional-maps"
+        },
+        {
+          "id": "trump-usa-the-guardian-donald-trump-13",
+          "headline": "Billionaire sues digital currency venture co-founded by Trump and sons for illegal account freezing",
+          "source": "Reuters",
+          "pubDate": "Wed, 22 Apr 2026 15:58:56 GMT",
+          "link": "https://www.theguardian.com/us-news/2026/apr/22/world-liberty-financial-billionaire-lawsuit-trump"
+        },
+        {
+          "id": "trump-usa-bbc-news-us-canada-8",
+          "headline": "Billionaire backer sues Trump family's crypto firm over alleged extortion",
+          "source": "BBC News: US & Canada",
+          "pubDate": "Wed, 22 Apr 2026 18:10:42 GMT",
+          "link": "https://www.bbc.com/news/articles/c8x7kxjgq9xo?at_medium=RSS&at_campaign=rss"
         },
         {
           "id": "trump-usa-the-guardian-donald-trump-1",
@@ -68,20 +82,6 @@
           "source": "Edward Helmore in New York",
           "pubDate": "Wed, 22 Apr 2026 14:14:53 GMT",
           "link": "https://www.theguardian.com/us-news/2026/apr/22/trump-approval-slips-polls-midterms"
-        },
-        {
-          "id": "trump-usa-the-guardian-donald-trump-15",
-          "headline": "Virginia voters approve new congressional maps in blow to Trump",
-          "source": "Chris Stein",
-          "pubDate": "Wed, 22 Apr 2026 01:00:13 GMT",
-          "link": "https://www.theguardian.com/us-news/2026/apr/21/virginia-congressional-maps"
-        },
-        {
-          "id": "trump-usa-the-guardian-donald-trump-10",
-          "headline": "Why Trump’s pick for Fed chair will not bring home the bank for the president",
-          "source": "Eduardo Porter",
-          "pubDate": "Wed, 22 Apr 2026 09:00:52 GMT",
-          "link": "https://www.theguardian.com/business/2026/apr/22/trump-fed-chair-kevin-warsh-interest-rate-cut"
         }
       ]
     },
@@ -90,7 +90,7 @@
       "name": "Putin / Ukraina",
       "label": "Krig, repression, diplomatiskt grus",
       "description": "Fronten, Kreml, drönarna och följderna för Ukraina och grannländerna.",
-      "summary": "EU godkände på onsdagen ett 90 miljarder euro stort lån till Ukraina efter att Zelenskyj meddelade att Druzhba-oljeledningen reparerats och kan åter pumpa rysk olja till Ungern och Slovakien. Oljeledningen hade skadats i en rysk attack och stoppats sedan januari, vilket gav Ungerns premiärminister Viktor Orbán anledning att blockera lånet i fyra månader. Orbáns veto upphörde efter att han förlorade kraftigt i valet på söndagen och är på väg ut – hans efterträdare Péter Magyar har prioriterat att återställa Ungarns relationer med Bryssel. Två tredjedelar av lånet ska gå till Ukrainas försvar och en tredjedel till finansiell bistånd. Zelenskyj varnade dock för att ingen kan garantera att Ryssland inte attackerar ledningen igen och uppmanade Europa att diversifiera energiförsörjningen. Zelenskyj kritiserade också att amerikanska sändebudet Steve Witkoff och presidentsvägen Jared Kushner besökt Moskva åtta gånger men aldrig Kyiv officiellt, vilket han kallade \"respektlöst\". Witkoff har träffat Vladimir Putin vid många tillfällen. Zelenskyj erkände att USA:s uppmärksamhet är riktad mot Mellanöstern på grund av kriget mot Iran, men betonade vikten av fortsatt samarbete med Amerika.",
+      "summary": "Ukraina får sitt långväntade EU-lån på 90 miljarder euro efter att ha reparerat Druzhbaledningen som förser Ungern med rysk olja. Viktor Orbáns blockad av lånet upphör när han förlorar valet och ersätts av Péter Magyar, som prioriterar bättre relationer med Bryssel. Zelenskyj varnar dock att Ryssland kan attackera ledningen igen och uppmanar Europa att diversifiera energiförsörjningen. Samtidigt kritiserar Zelenskyj att amerikanska sändebudet Steve Witkoff och Trumps svärson Jared Kushner har besökt Moskva åtta gånger men aldrig Kyiv officiellt, vilket han kallar \"respektlöst\". En ukrainsk familj i England får samtidigt två katastrofala nyheter samma dag: deras elvaåriga son diagnostiseras med cancer i båda ögonen, och samma dag förstörs deras familjs hus i Odesa av en rysk drönattack. Ukrainska myndigheter arresterar också fyra militära värvningsoffcerer i Odesa för att ha kidnappat människor från gatan och utpressat pengar genom att hota med omedelbar frontlinjestransport.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -112,39 +112,39 @@
       ],
       "items": [
         {
-          "id": "putin-ukraina-bbc-news-europe-1",
+          "id": "putin-ukraina-bbc-news-europe-2",
           "headline": "EU approves €90bn loan for Ukraine as pipeline is turned on ending deadlock",
           "source": "BBC News: Europe",
-          "pubDate": "Wed, 22 Apr 2026 11:19:57 GMT",
+          "pubDate": "Wed, 22 Apr 2026 17:48:44 GMT",
           "link": "https://www.bbc.com/news/articles/cnv8l99r3yyo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "putin-ukraina-bbc-news-europe-5",
+          "id": "putin-ukraina-bbc-news-europe-6",
           "headline": "Zelensky says failure of US envoys to visit Kyiv is 'disrespectful'",
           "source": "BBC News: Europe",
           "pubDate": "Tue, 21 Apr 2026 16:25:44 GMT",
           "link": "https://www.bbc.com/news/articles/cd9v420y190o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "putin-ukraina-bbc-news-europe-7",
+          "id": "putin-ukraina-bbc-news-europe-8",
           "headline": "Ukraine family get cancer and bomb news on same day",
           "source": "BBC News: Europe",
           "pubDate": "Tue, 21 Apr 2026 14:10:13 GMT",
           "link": "https://www.bbc.com/news/articles/cr71de8x557o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "putin-ukraina-bbc-news-europe-13",
-          "headline": "Zelensky condemns US extension of Russian sanctions waiver",
-          "source": "BBC News: Europe",
-          "pubDate": "Sun, 19 Apr 2026 09:55:22 GMT",
-          "link": "https://www.bbc.com/news/articles/c248m3z49j1o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "id": "putin-ukraina-the-guardian-ukraine-3",
+          "id": "putin-ukraina-the-guardian-ukraine-6",
           "headline": "Ukraine war briefing: Quick loan in pipeline as Druzhba reopens",
           "source": "Warren Murray with Guardian writers and agencies",
           "pubDate": "Wed, 22 Apr 2026 01:28:38 GMT",
           "link": "https://www.theguardian.com/world/2026/apr/22/ukraine-war-briefing-quick-loan-in-pipeline-as-druzhba-reopens"
+        },
+        {
+          "id": "putin-ukraina-the-guardian-ukraine-9",
+          "headline": "Ukraine war briefing: EU moves to unlock €90bn loan as Orbán exits",
+          "source": "Warren Murray and agencies",
+          "pubDate": "Tue, 21 Apr 2026 00:50:03 GMT",
+          "link": "https://www.theguardian.com/world/2026/apr/21/ukraine-war-briefing-eu-moves-to-unlock-90bn-loan-as-orban-exits"
         }
       ]
     },
@@ -153,7 +153,7 @@
       "name": "Iran",
       "label": "Regionen håller andan igen",
       "description": "Iran, krigsrisk, regionalt maktspel och allt som gör läget värre innan lunch.",
-      "summary": "Iran svarade på USA:s blockad av dess hamnar och kapringen av lastfartyget Touska genom att gripa två utländska tankfartyg på onsdagen och flytta dem till sin kust. Iran kallade USA:s attack på sitt fartyg för \"piratverksamhet\" och hävdade att de två tankfartygen det grep hade brutit mot maritima regler. En iransk reporter förklarade att detta överensstämmer med Irans strategi att påtvinga kontroll och auktoritet över sjöfarten genom Hormuzvägen, och att iranska tjänstemän nu diskuterar avgifter och transitavgifter för fartyg som använder vägen. USA:s militär attackerade och kaprade det iransk-flaggade containerfartyget Touska nära Hormuzvägen på måndagen efter att det vägrade att följa amerikanska order att dra sig tillbaka från sin planerade passage. USA införde en marinblockad av alla iranska hamnar den 13 april. En iransk parlamentariker och tidigare kommendör i Irans islamiska revolutionsgarde, Ebrahim Azizi, förklarade för BBC att Iran aldrig kommer att ge upp kontrollen över Hormuzvägen och att det är Irans \"oförytterliga rätt\".",
+      "summary": "Iran drabbas av massiv arbetslöshet med två miljoner människor som förlorat sina jobb på grund av kriget med USA och Israel. Arbetslösheten påverkar tillverkare, återförsäljare och den digitala sektorn, och förvärras av Irans internetavstängning som enligt tidigare beräkningar kostar ekonomin 35 miljoner dollar per dag. Trump blockerar Irans hamnar i Hormuzstränden för att stoppa oljeexporten, och USA har attackerat och beslagtagit det iranska lastfartyget Touska. Iran svarar genom att kalla blockaden för \"piratism\" och hotar att attackera gulfstaternas hamnar. En senior iransk politiker, Ebrahim Azizi, säger att Iran aldrig kommer att ge upp kontrollen över Hormuzstränden och att det snart blir lag. Världens finansministrar uttrycker oro på IMF:s möte i Washington, särskilt Storbritanniens finansminister Rachel Reeves som kallar kriget för \"dårskap\" och \"misstag\". Två vapenstilleståndsavtal är nu på plats i Mellanöstern – mellan USA och Iran samt mellan Israel och Hezbollah – vilket skapar möjligheter för diplomatiska genombrott, men israeliska högerextrema kritiserar Netanyahu för att ha gett efter för amerikanskt tryck.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -175,39 +175,39 @@
       ],
       "items": [
         {
-          "id": "iran-al-jazeera-rss-8",
-          "headline": "Iran calls US ship seizure ‘piracy’: Is it?",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Wed, 22 Apr 2026 12:33:36 +0000",
-          "link": "https://www.aljazeera.com/news/2026/4/22/iran-calls-us-ship-seizure-piracy-is-it?traffic_source=rss"
-        },
-        {
-          "id": "iran-al-jazeera-rss-11",
-          "headline": "Five major issues affecting the FIFA World Cup with 50 days to go",
-          "source": "Al Jazeera RSS",
-          "pubDate": "Wed, 22 Apr 2026 11:33:41 +0000",
-          "link": "https://www.aljazeera.com/sports/2026/4/22/five-major-issues-affecting-the-fifa-world-cup-with-50-days-to-go?traffic_source=rss"
-        },
-        {
-          "id": "iran-bbc-news-middle-east-5",
+          "id": "iran-bbc-news-middle-east-6",
           "headline": "Iran sees mass redundancies from war with US and Israel",
           "source": "BBC News: Middle East",
           "pubDate": "Tue, 21 Apr 2026 16:05:51 GMT",
           "link": "https://www.bbc.com/news/articles/ce84e31376zo?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-14",
+          "id": "iran-bbc-news-middle-east-13",
           "headline": "Why and how is US blockading Iranian ports in Strait of Hormuz?",
           "source": "BBC News: Middle East",
           "pubDate": "Mon, 20 Apr 2026 06:46:03 GMT",
           "link": "https://www.bbc.com/news/articles/c5yv6xr6me3o?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "iran-bbc-news-middle-east-11",
+          "id": "iran-bbc-news-middle-east-12",
           "headline": "Tehran will never cede control of Strait of Hormuz, senior Iranian politician tells BBC",
           "source": "BBC News: Middle East",
           "pubDate": "Sun, 19 Apr 2026 21:09:06 GMT",
           "link": "https://www.bbc.com/news/articles/cvg4jnn131qo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-14",
+          "headline": "What people in power think the impact of the Iran war will be",
+          "source": "BBC News: Middle East",
+          "pubDate": "Sat, 18 Apr 2026 05:00:15 GMT",
+          "link": "https://www.bbc.com/news/articles/c9vl37eev7ko?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "id": "iran-bbc-news-middle-east-15",
+          "headline": "A moment of risk and opportunity: How two ceasefires could boost US-Iran talks",
+          "source": "BBC News: Middle East",
+          "pubDate": "Fri, 17 Apr 2026 19:59:30 GMT",
+          "link": "https://www.bbc.com/news/articles/c0mjynzvw94o?at_medium=RSS&at_campaign=rss"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "name": "Orbán / EU",
       "label": "Illiberal administration, kontinentalt tålamodstest",
       "description": "Orbán, EU-bråken, vetotaktiken och annat som får kontinenten att sucka högt.",
-      "summary": "EU:s högsta domstol har gjort ett historiskt avgörande och funnit att Ungerns anti-HBTQ-lagar från 2021 bryter mot EU:s grundläggande värden och diskrimineringsregler. Domstolen konstaterade att lagarna, som förbjuder så kallad promotion av homosexualitet och könsbyten för personer under 18 år, strider mot EU-fördraget och stigmatiserar HBTQ-personer genom att associera dem med pedofiler. Domen kommer nio dagar efter att ungrarna röstade för att avsluta Viktor Orbáns 16 år långa styre. I en diplomatisk vändning har Ungern nu slutat att motsätta sig ett EU-lån på 90 miljarder euro till Ukraina, varav 60 miljarder är avsedda för militära ändamål och 30 miljarder för att täcka Ukrainas budgetunderskott. Beskedet kom efter att Ukrainas president Zelenskyj meddelade att Druzhbaledningen, som förser Ungern med rysk olja via Ukraina, reparerats och kan tas i bruk igen. EU har samtidigt beslutat om sitt tjugonde sanktionspaket mot Ryssland.",
+      "summary": "EU:s högsta domstol finner att Ungerns anti-LGBTQ-lagar från 2021 bryter mot EU:s grundvärden och regler om jämlikhet och minoritetsrättigheter. Lagarna förbjöd så kallad \"promotion\" av homosexualitet och könsbyten för under 18-åringar, men domstolen konstaterar att de diskriminerar, marginaliserar och stigmatiserar LGBTQ-personer genom att associera dem med pedofili. Domen är historisk eftersom den för första gången finner att en medlemsstats lagstiftning bryter mot artikel 2 i EU-fördraget om unionens grundläggande värden. Domen kommer nio dagar efter att ungrar röstade för att avsluta Viktor Orbáns 16 år långa styre. Samtidigt löses Druzhbaledningen upp efter att Zelenskyj meddelar att den är reparerad, vilket möjliggör EU-lånet på 90 miljarder euro som Orbán blockerat. Den nya ungerska regeringen under Péter Magyar har löst det diplomatiska dödläget genom att prioritera bättre relationer med Bryssel.",
       "feedUrl": "https://www.svt.se/nyheter/utrikes/rss.xml",
       "feedUrls": [
         {
@@ -238,32 +238,18 @@
       ],
       "items": [
         {
-          "id": "orban-eu-bbc-news-europe-6",
+          "id": "orban-eu-bbc-news-europe-7",
           "headline": "Unprecedented ruling finds Hungary's anti-LGBTQ laws in breach of EU values",
           "source": "BBC News: Europe",
           "pubDate": "Tue, 21 Apr 2026 12:28:31 GMT",
           "link": "https://www.bbc.com/news/articles/cddqvyr0yjro?at_medium=RSS&at_campaign=rss"
         },
         {
-          "id": "orban-eu-svt-nyheter-utrikes-6",
+          "id": "orban-eu-svt-nyheter-utrikes-12",
           "headline": "Kritiska Druzhbaledningen lagad: ”Inväntat ny ungersk regering”",
           "source": "SVT Nyheter: Utrikes",
           "pubDate": "Tue, 21 Apr 2026 19:43:34 +0200",
           "link": "https://www.svt.se/nyheter/utrikes/kritiska-druzhbaledningen-lagad-invantat-ny-ungersk-regering"
-        },
-        {
-          "id": "orban-eu-ekot-7",
-          "headline": "Högre vinster för storbankerna",
-          "source": "Ekot",
-          "pubDate": "Wed, 22 Apr 2026 11:15:00 GMT",
-          "link": "https://www.sverigesradio.se/artikel/9202593"
-        },
-        {
-          "id": "orban-eu-ekot-8",
-          "headline": "Ungern släpper igenom mångmiljardlån till Ukraina",
-          "source": "Ekot",
-          "pubDate": "Wed, 22 Apr 2026 11:07:00 GMT",
-          "link": "https://www.sverigesradio.se/artikel/9202685"
         }
       ]
     }
